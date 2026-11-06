@@ -8,7 +8,8 @@ GENERIC = {"total_shots": "Total shots", "total_sot": "Total shots on target",
            "home_sot": "Home shots on target", "away_sot": "Away shots on target",
            "home_cards": "Home bookings", "away_cards": "Away bookings", "total_cards": "Total bookings",
            "home_fouls": "Home fouls", "away_fouls": "Away fouls",
-           "home_gk": "Home goal kicks", "away_gk": "Away goal kicks", "free_kicks": "Total free kicks"}
+           "home_gk": "Home goal kicks", "away_gk": "Away goal kicks", "free_kicks": "Total free kicks",
+           "total_offsides": "Total offsides", "home_offsides": "Home offsides", "away_offsides": "Away offsides"}
 
 
 def make_tips(m):
@@ -16,7 +17,8 @@ def make_tips(m):
     named = {"home_sot": f"{h} shots on target", "away_sot": f"{a} shots on target",
              "home_cards": f"{h} bookings", "away_cards": f"{a} bookings",
              "home_fouls": f"{h} fouls", "away_fouls": f"{a} fouls",
-             "home_gk": f"{h} goal kicks", "away_gk": f"{a} goal kicks"}
+             "home_gk": f"{h} goal kicks", "away_gk": f"{a} goal kicks",
+             "home_offsides": f"{h} offsides", "away_offsides": f"{a} offsides"}
     f = m["final"]
     best = max("HDA", key=lambda k: f[k])
     res = f"{h} to win" if best == "H" else f"{a} to win" if best == "A" else "Draw"

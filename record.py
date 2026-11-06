@@ -83,9 +83,22 @@ def _actuals_from_espn(e):
         v.update({"home_cards": hc, "away_cards": ac, "total_cards": hc + ac})
     except TypeError:
         pass
+    v.update(_offsides_from_espn(e))
     h, a = e["score"]["home"], e["score"]["away"]
     v.update({"result": "H" if h > a else "A" if a > h else "D", "btts": "yes" if h and a else "no",
               "score": f"{h}-{a}"})
+    return v
+
+
+def _offsides_from_espn(e):
+    s = e.get("stats") or {}
+    hs, as_ = s.get("home") or {}, s.get("away") or {}
+    ho, ao, hf, af = hs.get("offsides"), as_.get("offsides"), hs.get("foulsCommitted"), as_.get("foulsCommitted")
+    if ho is None or ao is None:
+        return {}
+    v = {"home_offsides": ho, "away_offsides": ao, "total_offsides": ho + ao}
+    if hf is not None and af is not None:
+        v["free_kicks"] = hf + af + ho + ao        # free kicks = fouls + offsides
     return v
 
 
@@ -108,6 +121,8 @@ def score(espn_cache):
         em = espn_m.get(str(e.get("espn_id"))) if e.get("espn_id") else None
         if r is not None:
             act = _actuals_from_fd(r)
+            if em:
+                act.update(_offsides_from_espn(em))
         elif em:
             act = _actuals_from_espn(em)
         if em:

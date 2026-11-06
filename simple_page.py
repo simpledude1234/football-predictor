@@ -22,7 +22,7 @@ h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
 .lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
 .tabs button.on{background:#1b2532;color:var(--text)}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:8px 0 12px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chips{display:flex;gap:6px;padding:8px 0 12px;overflow-x:auto;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}@media (min-width:600px){.chips{flex-wrap:wrap;overflow:visible}}
 .chip{flex:none;background:var(--soft);color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14px;cursor:pointer}
 .chip.on{background:rgba(96,165,250,.15);color:var(--acc);border-color:rgba(96,165,250,.5);font-weight:600}
 h2{font-size:20px;margin:26px 0 4px;letter-spacing:-.3px}
@@ -111,7 +111,7 @@ function trackView() {
     <div class="sum"><div class="box"><div class="n">${pct(sum.__all__)}</div><div class="l">All tips right (${sum.__all__ ? sum.__all__[0] + ' of ' + sum.__all__[1] : 0})</div></div>
     <div class="box"><div class="n ok">${pct(sum.__star__)}</div><div class="l">&#9733; tips right (${sum.__star__ ? sum.__star__[0] + ' of ' + sum.__star__[1] : 0})</div></div></div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
-    <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks and free kicks show &ndash; because no free source records them.</div>`;
+    <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks show &ndash; because no free source records them.</div>`;
   let day = '';
   games.forEach(g => {
     if (g.date !== day) { day = g.date; html += `<div class="day">${dayName(day)}</div>`; }

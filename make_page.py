@@ -14,6 +14,7 @@ import pandas as pd
 import espn
 import europe
 import fetch_data
+import offsides
 import players
 import predictor
 import record
@@ -49,6 +50,13 @@ def main():
                          **{c["homeAway"]: c["team"]["displayName"] for c in u["event"]["competitions"][0]["competitors"]}}
                         for u in upcoming])
     pm = players.PlayerModel(cache)
+    om, op = offsides.Model(cache), offsides.load_params()
+    if cache.get("matches") and (refit or not op):     # re-test offsides with the main model
+        try:
+            op = offsides.backtest(cache)
+            offsides.PARAMS.write_text(json.dumps(op, indent=1) + "\n", encoding="utf-8")
+        except Exception as e:
+            print(f"Offsides re-test skipped ({e})")
     lineups = {u["event"]["id"]: u["lineup"] for u in upcoming if u.get("lineup")}
 
     def finish(ms):
@@ -57,6 +65,7 @@ def main():
             m["players"] = players.top_picks(pm, m.get("espn_home"), m.get("espn_away"), m["iso"],
                                              exp.get("home_cards"), exp.get("away_cards"),
                                              lineup=lineups.get(m.get("espn_id"))) if m.get("espn_home") else []
+            offsides.add_markets(m, om, op, espn.SLUGS.get(m["code"]))
             m["tips"] = tips.make_tips(m)
     finish(matches)
     record.update(matches)
@@ -301,7 +310,8 @@ function matchCard(m, idx) {
   }).join('');
   const SHORT = {total_shots: 'Total shots', total_sot: 'Total on target', home_sot: 'Home on target', away_sot: 'Away on target',
     home_cards: 'Home bookings', away_cards: 'Away bookings', total_cards: 'Total bookings', home_fouls: 'Home fouls', away_fouls: 'Away fouls',
-    home_gk: 'Home goal kicks', away_gk: 'Away goal kicks', free_kicks: 'Free kicks'};
+    home_gk: 'Home goal kicks', away_gk: 'Away goal kicks', free_kicks: 'Free kicks',
+    total_offsides: 'Total offsides', home_offsides: 'Home offsides', away_offsides: 'Away offsides'};
   const cells = m.markets.map((k, i) => {
     const rel = (k.expected - k.league_avg) / k.league_avg;
     const dir = rel > 0.08 ? 'hi' : rel < -0.08 ? 'lo' : '';
@@ -363,7 +373,7 @@ function how() {
   <table style="margin-top:8px"><tr><th>Market</th><th class="num">Our avg miss</th><th class="num">League-avg miss</th><th class="num">Safer tips: promised → landed</th></tr>${rows}</table>
   <p><b>Match result:</b> our pick was right ${M.match_result['final_pick_right_%']}% of the time (bookmaker favourite: ${M.match_result['bookmaker_pick_right_%']}%).</p>
   <p><b>BTTS:</b> right ${M.btts['final_pick_right_%']}% (saying "Yes" every time: ${M.btts['always_yes_right_%']}%). When we said Yes at 60%+, it landed ${M.btts['strong_yes_hit_%']}%.</p>
-  <p><b>What this means:</b> shots, shots on target and fouls are where the tool knows most. Bookings sit close to a coin-flip around the bookmaker line, so treat them with care. Goal kicks and free kicks are estimates, because no free source records them.</p>
+  <p><b>What this means:</b> shots, shots on target and fouls are where the tool knows most. Bookings sit close to a coin-flip around the bookmaker line, so treat them with care. Goal kicks are estimates, because no free source records them. Offsides and free kicks (fouls + offsides) use ESPN&#39;s match stats.</p>
   <p class="mut">No tool can guarantee wins. Bet only what you can afford to lose. 18+. If gambling stops being fun: BeGambleAware.org</p></section>`;
 }
 
