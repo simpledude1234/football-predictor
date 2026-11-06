@@ -1,4 +1,4 @@
-﻿"""Champions League, Europa League and Conference League predictions.
+"""Champions League, Europa League and Conference League predictions.
 
 Fixtures and bookmaker odds come from ESPN's free public feed. Teams are
 rated from their own domestic league (13 leagues covered). The bookmaker odds

@@ -1,4 +1,4 @@
-﻿"""Download free match stats and upcoming fixtures from football-data.co.uk."""
+"""Download free match stats and upcoming fixtures from football-data.co.uk."""
 import datetime as dt
 import pathlib
 import requests

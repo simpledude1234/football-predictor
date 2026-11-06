@@ -1,4 +1,4 @@
-﻿"""The simple tips page: just the prediction for each market, by league and date."""
+"""The simple tips page: just the prediction for each market, by league and date."""
 
 HTML = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -29,7 +29,7 @@ h2{font-size:20px;margin:26px 0 4px;letter-spacing:-.3px}
 ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
 li{break-inside:avoid;padding:5px 0;border-bottom:1px solid rgba(38,50,67,.6);display:flex;justify-content:space-between;gap:10px;font-size:15px}
 li span:first-child{color:var(--mut)}li b{font-weight:650;text-align:right}
-li.star b{color:var(--good)}li.star b::before{content:"â˜… ";}
+li.star b{color:var(--good)}li.star b::before{content:"★ ";}
 .top3{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
 .top3 span{background:rgba(52,211,153,.12);color:var(--good);border:1px solid rgba(52,211,153,.35);border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600}
 .empty{color:var(--mut);padding:30px 0;text-align:center}
@@ -39,11 +39,11 @@ footer a{color:var(--acc)}
 @media (max-width:620px){ul{columns:1}}
 </style></head><body>
 <header><div class="wrap">
-<div class="top"><div class="logo">âš½</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> Â· times are UK time</div></div></div>
+<div class="top"><div class="logo">⚽</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> · times are UK time</div></div></div>
 <div class="chips" id="chips"></div>
 </div></header>
 <main class="wrap" id="app"></main>
-<footer class="wrap">â˜… = strongest picks for that match. Tips, not guarantees. 18+ Â· BeGambleAware.org<br><a href="details.html">Detailed view (numbers, price checker, accuracy) â†’</a></footer>
+<footer class="wrap">★ = strongest picks for that match. Tips, not guarantees. 18+ · BeGambleAware.org<br><a href="details.html">Detailed view (numbers, price checker, accuracy) →</a></footer>
 <script>__SCRIPT__</script></body></html>"""
 
 SCRIPT = r"""
@@ -91,7 +91,7 @@ function render() {
   show.forEach(l => {
     const list = upcoming.filter(m => m.league === l);
     const beta = list.some(m => m.beta);
-    html += `<h2>${esc(l)}${beta ? '<span class="beta">NEW Â· not yet tested</span>' : ''}</h2>`;
+    html += `<h2>${esc(l)}${beta ? '<span class="beta">NEW · not yet tested</span>' : ''}</h2>`;
     let day = '';
     list.forEach(m => {
       if (m.iso !== day) { day = m.iso; html += `<div class="day">${new Date(day + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'long', day: 'numeric', month: 'long'})}</div>`; }
