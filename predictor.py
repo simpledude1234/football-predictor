@@ -472,6 +472,8 @@ def update_log(matches):
     """Keep the last prediction made before each match, so we can score it later."""
     rows = []
     for m in matches:
+        if m["code"] not in LEAGUES:      # European cups: not scored yet
+            continue
         base = {"code": m["code"], "date": m["iso"], "home": m["home"], "away": m["away"]}
         best = max(m["final"], key=m["final"].get)
         rows.append({**base, "market": "result", "pick": best, "chance": m["final"][best], "line": None})

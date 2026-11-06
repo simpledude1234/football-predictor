@@ -14,6 +14,11 @@ LEAGUES = {
     "SC0": "Scottish Premiership",
 }
 
+# extra leagues: not shown as leagues, only used to rate their teams in European cups
+EXTRA_LEAGUES = {"N1": "Eredivisie", "P1": "Primeira Liga", "B1": "Belgian Pro League",
+                 "T1": "Super Lig", "G1": "Greek Super League"}
+ALL_LEAGUES = {**LEAGUES, **EXTRA_LEAGUES}
+
 DATA = pathlib.Path(__file__).parent / "data"
 
 
@@ -55,7 +60,7 @@ def get(url, path):
 def main():
     DATA.mkdir(exist_ok=True)
     for s in season_codes():
-        for code in LEAGUES:
+        for code in ALL_LEAGUES:
             p = DATA / f"{code}_{s}.csv"
             try:
                 print(f"{code} {s}: {get(f'https://football-data.co.uk/mmz4281/{s}/{code}.csv', p)} bytes")

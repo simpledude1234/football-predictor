@@ -2,7 +2,10 @@
 
 ## Everyday use
 - **On the PC:** double-click **Football Predictor** on the desktop. It downloads the latest results and fixtures (about 30 seconds), then opens the page.
-- **Anywhere (phone or PC):** the website https://simpledude1234.github.io/football-predictor/ rebuilds itself every morning and afternoon, even when the PC is off. To update it right now: GitHub → the project → Actions → "Update predictions" → Run workflow.
+- The shortcut opens **predictions.html**: the simple tips page (one pick per market, by league and date, ★ = strongest picks). "Detailed view" at the bottom opens **details.html** with all the numbers.
+- Leagues: Premier League, Championship, Serie A, Serie B, La Liga, Ligue 1, Bundesliga, Scottish Premiership, plus Champions League, Europa League and Conference League (marked "new, not yet tested").
+- European cup fixtures and odds come from ESPN's free public feed. Teams are rated from their own league (13 leagues covered). Teams from other leagues lean on bookmaker odds.
+- Code backup: private GitHub project simpledude1234/football-predictor.
 - Update on Friday morning for weekend games and on Tuesday for midweek. Fixtures appear a few days before each round.
 
 ## The page

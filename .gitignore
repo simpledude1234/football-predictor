@@ -10,3 +10,4 @@ backtest_results.csv
 *.local.md
 handovers/
 graphify-out/
+details.html

@@ -7,8 +7,10 @@ import pathlib
 import sys
 from zoneinfo import ZoneInfo
 
+import europe
 import fetch_data
 import predictor
+import simple_page
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE / "predictions.html"
@@ -24,23 +26,33 @@ def main():
     params = predictor.load_or_fit_params(refit=refit)
     matches = predictor.predict_fixtures(params)
     predictor.update_log(matches)
+    try:
+        matches += europe.predict(params)
+    except Exception as e:          # European feed down: the leagues still work
+        print(f"European cups skipped this time ({e})")
+    matches.sort(key=lambda m: m["sort"])
     now = dt.datetime.now(ZoneInfo("Europe/London"))
     payload = {"generated": now.strftime("%a %d %b %Y, %H:%M"), "generated_ms": int(now.timestamp() * 1000),
                "matches": matches, "report": params["report"], "record": predictor.score_log()}
+    write_page(simple_page.HTML, simple_page.SCRIPT, payload, OUT)
+    write_page(HTML, SCRIPT, payload, HERE / "details.html")
+    print(f"Wrote {OUT} and details.html with {len(matches)} matches")
+
+
+def write_page(html, script, payload, out):
     # Data goes inside a <script>; escaping "<" stops any text in the data from
     # closing the script tag and running as code.
     data = json.dumps(payload, default=float).replace("<", "\\u003c").replace("\u2028", "\\u2028")
-    script = SCRIPT.replace("__DATA__", data)
+    script = script.replace("__DATA__", data)
     # Content-Security-Policy: the browser will run only this exact script,
     # load nothing from the internet, and send nothing anywhere.
     digest = base64.b64encode(hashlib.sha256(script.encode("utf-8")).digest()).decode()
     csp = (f"default-src 'none'; script-src 'sha256-{digest}'; style-src 'unsafe-inline'; "
            "img-src data:; base-uri 'none'; form-action 'none'")
-    html = HTML.replace("__CSP__", csp).replace("__SCRIPT__", script)
-    tmp = OUT.with_suffix(".tmp")
-    tmp.write_text(html, encoding="utf-8")
-    tmp.replace(OUT)
-    print(f"Wrote {OUT} with {len(matches)} matches")
+    page = html.replace("__CSP__", csp).replace("__SCRIPT__", script)
+    tmp = out.with_suffix(".tmp")
+    tmp.write_text(page, encoding="utf-8")
+    tmp.replace(out)
 
 
 HTML = r"""<!DOCTYPE html>
