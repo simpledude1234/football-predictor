@@ -27,6 +27,19 @@ def make_tips(m):
             "pick": "Yes" if m["btts"] >= 50 else "No", "side": "yes" if m["btts"] >= 50 else "no",
             "line": None, "star": m["btts"] >= 62 or m["btts"] <= 38}]
     for k in m["markets"]:
+        label = named.get(k["key"], GENERIC[k["key"]])
+        if not k["estimate"]:
+            t = k.get("tip")
+            if t is None:      # a normal game for this market: nothing worth tipping
+                out.append({"key": k["key"], "market": GENERIC[k["key"]], "label": label, "pick": "No tip",
+                            "side": None, "line": None, "skip": True, "star": False})
+                continue
+            out.append({"key": k["key"], "market": GENERIC[k["key"]], "label": label,
+                        "pick": f"{t['side'].title()} {t['line']}", "side": t["side"], "line": t["line"],
+                        "chance": t["chance"], "normal": t["normal"],
+                        "star": t["chance"] - t["normal"] >= 12, "estimate": False})
+            continue
+        # goal kicks and free kicks: estimates (no free data to test them), old rule
         rel = (k["expected"] - k["league_avg"]) / k["league_avg"] if k["league_avg"] else 0
         if rel >= 0 and k["safe_over"] is not None:
             side, line = "over", k["safe_over"]
@@ -41,5 +54,5 @@ def make_tips(m):
         out.append({"key": "player_booked", "market": "Player to be booked", "label": "Player to be booked",
                     "pick": f"{p['player']} ({h if p['team'] == 'home' else a})", "side": "player",
                     "line": None, "player": p["player"], "team": p["team"], "chance": p["chance"],
-                    "star": False})   # no player pick is strong enough to star (see players.py)
+                    "confirmed": p.get("confirmed", False), "star": False})   # no player pick is strong enough to star (see players.py)
     return out

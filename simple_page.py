@@ -54,7 +54,7 @@ footer a{color:var(--acc)}
 <div class="chips" id="chips"></div>
 </div></header>
 <main class="wrap" id="app"></main>
-<footer class="wrap">&#9733; = strongest picks for that match. Tips, not guarantees. 18+ &middot; BeGambleAware.org<br><a href="details.html">Detailed view (numbers, price checker, accuracy) &rarr;</a></footer>
+<footer class="wrap">&#9733; = strongest picks for that match. &ldquo;No tip&rdquo; = a normal game for that market, so nothing worth backing. Tips, not guarantees. 18+ &middot; BeGambleAware.org<br><a href="details.html">Detailed view (numbers, price checker, accuracy) &rarr;</a></footer>
 <script>__SCRIPT__</script></body></html>"""
 
 SCRIPT = r"""
@@ -79,7 +79,8 @@ function card(m) {
   const stars = t.filter(x => x.star).slice(0, 3);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
     ${stars.length ? `<div class="top3">${stars.map(x => `<span>${esc(x.label)}: ${esc(x.pick)}</span>`).join('')}</div>` : ''}
-    <ul>${t.map(x => `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}</b></li>`).join('')}</ul></div>`;
+    <ul>${t.map(x => x.skip ? `<li><span>${esc(x.label)}</span><b class="na" style="font-weight:400">No tip</b></li>` : `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}${x.confirmed ? '<br><i class="na" style="font-style:normal;font-weight:400;font-size:13px">in the starting line-up</i>' : ''}</b></li>`).join('')}</ul>
+    ${t.some(x => x.key === 'player_booked') && !t.some(x => x.confirmed) ? '<div class="sub">Player picks are checked against the line-ups about an hour before kick-off.</div>' : ''}</div>`;
 }
 
 function tipsView() {

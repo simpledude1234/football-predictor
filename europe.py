@@ -172,6 +172,7 @@ def predict(params):
                       for c in ["E0", "SP1", "I1", "D1", "F1"]])
     base_avg = {s: (float(pool[h].mean()), float(pool[a].mean())) for s, (h, a) in P.BASE.items()}
     lg = {k: float(v.mean()) for k, v in P.actual_values(pool).items()}
+    normal = P.normal_values(pool)
     lg["home_gk"] = P.GK_BASE + P.GK_PER_MISS * float(pool.AMISS.mean())
     lg["away_gk"] = P.GK_BASE + P.GK_PER_MISS * float(pool.HMISS.mean())
     lg["free_kicks"] = lg["home_fouls"] + lg["away_fouls"] + P.OFFSIDES_PER_MATCH
@@ -212,6 +213,7 @@ def predict(params):
             ml = P.main_line(mean, ph)
             po = P.over_prob(mean, ml, ph)
             markets.append({"key": k, "label": label, "estimate": est, "expected": round(mean, 2),
+                            "tip": None if est else P.best_tip(mean, ph, normal.get(k)),
                             "league_avg": round(lg[k], 1), "phi": ph, "line": ml,
                             "over": round(100 * po), "under": round(100 * (1 - po)),
                             "safe_over": P.safe_over_line(mean, ph), "safe_under": P.safe_under_line(mean, ph)})

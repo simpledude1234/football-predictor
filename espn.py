@@ -161,4 +161,35 @@ def update(days_ahead=21, season_start=None):
         c["dates_done"][slug] = sorted(done)
         print(f"ESPN {slug}: {new} new finished matches stored")
         save_cache(c)
+    add_lineups(upcoming)
     return c, upcoming
+
+
+def add_lineups(upcoming, hours=3):
+    """Confirmed starting line-ups (ESPN shows them about an hour before kick-off)."""
+    now = dt.datetime.now(dt.timezone.utc)
+    found = 0
+    for u in upcoming:
+        ev = u["event"]
+        try:
+            ko = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            continue
+        if not now < ko < now + dt.timedelta(hours=hours):
+            continue
+        try:
+            s = get_json(f"{BASE}{u['slug']}/summary?event={ev['id']}")
+        except Exception as e:
+            print(f"ESPN line-up {ev['id']}: failed ({e})")
+            continue
+        side = {t["team"]["id"]: t["homeAway"] for t in ev["competitions"][0]["competitors"]}
+        xi = {}
+        for r in s.get("rosters", []):
+            ha = side.get(r.get("team", {}).get("id"))
+            names = [p["athlete"].get("displayName") for p in r.get("roster", []) if p.get("starter") and p.get("athlete")]
+            if ha in ("home", "away") and len(names) == 11:
+                xi[ha] = names
+        if len(xi) == 2:
+            u["lineup"] = xi
+            found += 1
+    print(f"ESPN: confirmed line-ups for {found} upcoming matches")

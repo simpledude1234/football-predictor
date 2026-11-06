@@ -33,6 +33,7 @@ GK_BASE, GK_PER_MISS = 2.5, 0.55   # goal kicks ~ 2.5 + 0.55 x opponent off-targ
 OFFSIDES_PER_MATCH = 3.6           # free kicks = fouls + offsides (offsides not in free data)
 DC_RHO = -0.08
 SAFE = 0.72                        # "safer tip" = at least 72% chance
+EDGE = 0.05                        # a tip must beat how often its line normally lands by 5+ points
 LINES = [x + 0.5 for x in range(0, 45)]
 
 BASE = {
@@ -233,6 +234,31 @@ def safe_under_line(mean, phi):
     return None
 
 
+def best_tip(mean, phi, normal):
+    """The line where this game stands out most from a normal game in the league.
+    normal: last year's actual values in the league for this market.
+    Our chance must be at least 72% and at least 5 points above how often the
+    line normally lands; otherwise no tip (a normal game tells us nothing).
+    Tested on 90 days of replays: 62% of games got a tip; they landed 79.8%
+    against 66.9% normally (the old way: 78.9% against 70.6%)."""
+    if normal is None or not len(normal):
+        return None
+    best = None
+    for L in LINES:
+        po, bo = over_prob(mean, L, phi), float((normal > L).mean())
+        for side, ch, base in (("over", po, bo), ("under", 1 - po, 1 - bo)):
+            if ch >= SAFE and base < 0.97 and ch - base >= EDGE and (best is None or ch - base > best[2] - best[3]):
+                best = (side, L, ch, base)
+    if best is None:
+        return None
+    return {"side": best[0], "line": best[1], "chance": round(100 * best[2]), "normal": round(100 * best[3])}
+
+
+def normal_values(recent):
+    """Last year's actual values for each measured market (what a normal game looks like)."""
+    return {k: v.to_numpy(float) for k, v in actual_values(recent).items()}
+
+
 # ---------------------------------------------------------------- final formula
 def features(k, bm, mlh, mla):
     side = MARKETS[k][2]
@@ -429,12 +455,14 @@ def predict_one(df, f, params, lg, code, name):
         btts = wb * op["BTTS"] + (1 - wb) * outcome_probs(mlh, mla)["BTTS"]
     else:
         btts = op["BTTS"]
+    normal = normal_values(df[df.Date >= f.Date - pd.Timedelta(days=365)])
     markets = []
     for k, (label, est, _) in MARKETS.items():
         mean, ph = means[k], phi.get(k)
         ml = main_line(mean, ph)
         po = over_prob(mean, ml, ph)
         markets.append({"key": k, "label": label, "estimate": est,
+                        "tip": None if est else best_tip(mean, ph, normal.get(k)),
                         "expected": round(mean, 2), "league_avg": round(lg[k], 1),
                         "phi": ph,
                         "line": ml,

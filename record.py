@@ -118,6 +118,8 @@ def score(espn_cache):
             continue
         rows = []
         for t in e["tips"]:
+            if t.get("skip"):          # "No tip" markets are not scored
+                continue
             k, hit, shown = t["key"], None, "–"
             if k == "player_booked":
                 if booked is not None:

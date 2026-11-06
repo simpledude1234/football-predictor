@@ -49,12 +49,14 @@ def main():
                          **{c["homeAway"]: c["team"]["displayName"] for c in u["event"]["competitions"][0]["competitors"]}}
                         for u in upcoming])
     pm = players.PlayerModel(cache)
+    lineups = {u["event"]["id"]: u["lineup"] for u in upcoming if u.get("lineup")}
 
     def finish(ms):
         for m in ms:
             exp = {k["key"]: k["expected"] for k in m["markets"]}
             m["players"] = players.top_picks(pm, m.get("espn_home"), m.get("espn_away"), m["iso"],
-                                             exp.get("home_cards"), exp.get("away_cards")) if m.get("espn_home") else []
+                                             exp.get("home_cards"), exp.get("away_cards"),
+                                             lineup=lineups.get(m.get("espn_id"))) if m.get("espn_home") else []
             m["tips"] = tips.make_tips(m)
     finish(matches)
     record.update(matches)

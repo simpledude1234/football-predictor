@@ -6,7 +6,7 @@
 - Leagues: Premier League, Championship, Serie A, Serie B, La Liga, Ligue 1, Bundesliga, Scottish Premiership, plus Champions League, Europa League and Conference League (marked "new, not yet tested").
 - European cup fixtures and odds come from ESPN's free public feed. Teams are rated from their own league (13 leagues covered). Teams from other leagues lean on bookmaker odds.
 - Code backup: private GitHub project simpledude1234/football-predictor.
-- Website: https://ftips-2eb50e.pages.dev (Cloudflare Pages). Rebuilt about 06:17 and 15:47 UK time every day, even with the PC off. To update it right now: GitHub → the project → Actions → "Update predictions" → Run workflow.
+- Website: https://ftips-2eb50e.pages.dev (Cloudflare Pages). Rebuilt about 06:17 and 15:47 UK time every day, even with the PC off. On match days it also rebuilds shortly before kick-offs, so player picks use the confirmed line-ups. To update it right now: GitHub → the project → Actions → "Update predictions" → Run workflow.
 - Update on Friday morning for weekend games and on Tuesday for midweek. Fixtures appear a few days before each round.
 
 ## The page
@@ -22,6 +22,7 @@
 - **Expected**: the number the model expects.
 - **Main line**: the over/under line nearest 50/50.
 - **Safer tips (72%+)**: the highest Over line and lowest Under line with at least a 72% chance.
+- **Tips page lines**: for shots, shots on target, fouls and bookings, the tip is the line where this game stands out most from a normal game in that league (at least a 72% chance, and at least 5 points more likely than that line normally is). If the game looks normal, it says "No tip".
 - **Fair odds** = 100 / chance. Bookmaker odds above fair odds = value according to the model.
 - Bookings = yellow + red cards. Goal kicks and free kicks are **estimates** (no free source records them).
 
