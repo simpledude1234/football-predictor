@@ -9,6 +9,9 @@ on:
     - cron: "17 6 * * *"    # about 06:17 UK
     - cron: "47 15 * * *"   # about 15:47 UK
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: [predictions_log.csv, model_params.json]
 
 permissions:
   contents: read
