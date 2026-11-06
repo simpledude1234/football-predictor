@@ -58,5 +58,13 @@ jobs:
           if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
             echo "Cloudflare secrets not added yet; skipping upload."; exit 0
           fi
+          # remove stray spaces/line breaks picked up when copying
+          CLOUDFLARE_ACCOUNT_ID=$(printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')
+          CLOUDFLARE_API_TOKEN=$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')
+          export CLOUDFLARE_ACCOUNT_ID CLOUDFLARE_API_TOKEN
+          if ! printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | grep -Eq '^[0-9a-f]{32}$'; then
+            echo "::error::CLOUDFLARE_ACCOUNT_ID does not look like an Account ID (should be 32 letters/numbers, a-f and 0-9). It is ${#CLOUDFLARE_ACCOUNT_ID} characters long."
+            exit 1
+          fi
           npx --yes wrangler@4.158.0 pages project create "$CF_PROJECT" --production-branch main >/dev/null 2>&1 || true
           npx --yes wrangler@4.158.0 pages deploy _site --project-name "$CF_PROJECT" --branch main --commit-dirty=true
