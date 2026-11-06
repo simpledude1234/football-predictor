@@ -395,72 +395,100 @@ def fit_params(bt):
 
 
 # ---------------------------------------------------------------- live predictions
+def league_norms(df):
+    """League averages over the last year of `df` (the "normal" level for each market)."""
+    recent = df[df.Date >= df.Date.max() - pd.Timedelta(days=365)]
+    lg = {k: float(v.mean()) for k, v in actual_values(recent).items()}
+    lg["home_gk"] = GK_BASE + GK_PER_MISS * float(recent.AMISS.mean())
+    lg["away_gk"] = GK_BASE + GK_PER_MISS * float(recent.HMISS.mean())
+    lg["free_kicks"] = lg["home_fouls"] + lg["away_fouls"] + OFFSIDES_PER_MATCH
+    return lg
+
+
+def predict_one(df, f, params, lg, code, name):
+    """Predict one match `f` using only the matches in `df`."""
+    phi, coefs = params["phi"], params["coefs"]
+    ref = f.get("Referee")
+    rm = referee_factor(df, ref, f.Date)
+    bm = base_means(team_rates(df, f.HomeTeam, f.AwayTeam, f.Date), rm)
+    op = outcome_probs(bm["lam_h"], bm["lam_a"])
+    res, ou = market_probs(f)
+    mlh = mla = None
+    if res and ou:
+        mlh, mla = market_lambdas(res, ou)
+    means = {k: final_mean(k, bm, mlh, mla, coefs) for k in MEASURED}
+    means.update(derived_means(bm, (means["home_sot"], means["away_sot"])))
+    means["free_kicks"] = means["home_fouls"] + means["away_fouls"] + OFFSIDES_PER_MATCH
+    if res:
+        wr = params["w_result"]
+        final = {k: wr * op[k] + (1 - wr) * res[k] for k in "HDA"}
+    else:
+        final = {k: op[k] for k in "HDA"}
+    if mlh is not None:
+        wb = params["w_btts"]
+        btts = wb * op["BTTS"] + (1 - wb) * outcome_probs(mlh, mla)["BTTS"]
+    else:
+        btts = op["BTTS"]
+    markets = []
+    for k, (label, est, _) in MARKETS.items():
+        mean, ph = means[k], phi.get(k)
+        ml = main_line(mean, ph)
+        po = over_prob(mean, ml, ph)
+        markets.append({"key": k, "label": label, "estimate": est,
+                        "expected": round(mean, 2), "league_avg": round(lg[k], 1),
+                        "phi": ph,
+                        "line": ml,
+                        "over": round(100 * po), "under": round(100 * (1 - po)),
+                        "safe_over": safe_over_line(mean, ph),
+                        "safe_under": safe_under_line(mean, ph)})
+    n_home = int(((df.HomeTeam == f.HomeTeam) | (df.AwayTeam == f.HomeTeam)).sum())
+    n_away = int(((df.HomeTeam == f.AwayTeam) | (df.AwayTeam == f.AwayTeam)).sum())
+    return {
+        "league": name, "code": code, "date": f.Date.strftime("%a %d %b"),
+        "sort": f.Date.strftime("%Y%m%d") + str(f.get("Time", "")),
+        "time": str(f.get("Time", "")), "home": f.HomeTeam, "away": f.AwayTeam,
+        "kickoff": f.Date.strftime("%Y-%m-%d") + " " + str(f.get("Time", "00:00")),
+        "iso": f.Date.strftime("%Y-%m-%d"),
+        "referee": ref if isinstance(ref, str) and ref.strip() else "",
+        "ref_factor": round(rm, 2),
+        "goals_exp": (round(mlh if mlh else bm["lam_h"], 2), round(mla if mla else bm["lam_a"], 2)),
+        "model": {k: round(100 * op[k]) for k in "HDA"},
+        "bookie": {k: round(100 * res[k]) for k in "HDA"} if res else None,
+        "final": {k: round(100 * v) for k, v in final.items()},
+        "btts": round(100 * btts), "markets": markets,
+        "data_matches": (n_home, n_away),
+    }
+
+
 def predict_fixtures(params):
     fx = load_fixtures()
     out = []
-    phi, coefs = params["phi"], params["coefs"]
     for code, name in LEAGUES.items():
         df = load_league(code)
         teams = set(df.HomeTeam) | set(df.AwayTeam)
-        recent = df[df.Date >= df.Date.max() - pd.Timedelta(days=365)]
-        lg = {k: float(v.mean()) for k, v in actual_values(recent).items()}
-        lg["home_gk"] = GK_BASE + GK_PER_MISS * float(recent.AMISS.mean())
-        lg["away_gk"] = GK_BASE + GK_PER_MISS * float(recent.HMISS.mean())
-        lg["free_kicks"] = lg["home_fouls"] + lg["away_fouls"] + OFFSIDES_PER_MATCH
+        lg = league_norms(df)
         for _, f in fx[fx.Div == code].iterrows():
-            if f.HomeTeam not in teams or f.AwayTeam not in teams:
-                continue
-            ref = f.get("Referee")
-            rm = referee_factor(df, ref, f.Date)
-            bm = base_means(team_rates(df, f.HomeTeam, f.AwayTeam, f.Date), rm)
-            op = outcome_probs(bm["lam_h"], bm["lam_a"])
-            res, ou = market_probs(f)
-            mlh = mla = None
-            if res and ou:
-                mlh, mla = market_lambdas(res, ou)
-            means = {k: final_mean(k, bm, mlh, mla, coefs) for k in MEASURED}
-            means.update(derived_means(bm, (means["home_sot"], means["away_sot"])))
-            means["free_kicks"] = means["home_fouls"] + means["away_fouls"] + OFFSIDES_PER_MATCH
-            if res:
-                wr = params["w_result"]
-                final = {k: wr * op[k] + (1 - wr) * res[k] for k in "HDA"}
-            else:
-                final = {k: op[k] for k in "HDA"}
-            if mlh is not None:
-                wb = params["w_btts"]
-                btts = wb * op["BTTS"] + (1 - wb) * outcome_probs(mlh, mla)["BTTS"]
-            else:
-                btts = op["BTTS"]
-            markets = []
-            for k, (label, est, _) in MARKETS.items():
-                mean, ph = means[k], phi.get(k)
-                ml = main_line(mean, ph)
-                po = over_prob(mean, ml, ph)
-                markets.append({"key": k, "label": label, "estimate": est,
-                                "expected": round(mean, 2), "league_avg": round(lg[k], 1),
-                                "phi": ph,
-                                "line": ml,
-                                "over": round(100 * po), "under": round(100 * (1 - po)),
-                                "safe_over": safe_over_line(mean, ph),
-                                "safe_under": safe_under_line(mean, ph)})
-            n_home = int(((df.HomeTeam == f.HomeTeam) | (df.AwayTeam == f.HomeTeam)).sum())
-            n_away = int(((df.HomeTeam == f.AwayTeam) | (df.AwayTeam == f.AwayTeam)).sum())
-            out.append({
-                "league": name, "code": code, "date": f.Date.strftime("%a %d %b"),
-                "sort": f.Date.strftime("%Y%m%d") + str(f.get("Time", "")),
-                "time": str(f.get("Time", "")), "home": f.HomeTeam, "away": f.AwayTeam,
-                "kickoff": f.Date.strftime("%Y-%m-%d") + " " + str(f.get("Time", "00:00")),
-                "iso": f.Date.strftime("%Y-%m-%d"),
-                "referee": ref if isinstance(ref, str) and ref.strip() else "",
-                "ref_factor": round(rm, 2),
-                "goals_exp": (round(mlh if mlh else bm["lam_h"], 2), round(mla if mla else bm["lam_a"], 2)),
-                "model": {k: round(100 * op[k]) for k in "HDA"},
-                "bookie": {k: round(100 * res[k]) for k in "HDA"} if res else None,
-                "final": {k: round(100 * v) for k, v in final.items()},
-                "btts": round(100 * btts), "markets": markets,
-                "data_matches": (n_home, n_away),
-            })
+            if f.HomeTeam in teams and f.AwayTeam in teams:
+                out.append(predict_one(df, f, params, lg, code, name))
     out.sort(key=lambda x: (x["sort"], x["league"]))
+    return out
+
+
+def replay(params, days=28, skip=()):
+    """Predict each league match of the last `days` days using only games played before it."""
+    out = []
+    cutoff = pd.Timestamp.today().normalize() - pd.Timedelta(days=days)
+    for code, name in LEAGUES.items():
+        df = load_league(code)
+        for _, f in df[df.Date >= cutoff].iterrows():
+            if f"{code}|{f.Date:%Y-%m-%d}|{f.HomeTeam}|{f.AwayTeam}" in skip:
+                continue
+            hist = df[df.Date < f.Date]
+            if len(hist) < 100:
+                continue
+            m = predict_one(hist, f, params, league_norms(hist), code, name)
+            m["replay"] = True
+            out.append(m)
     return out
 
 

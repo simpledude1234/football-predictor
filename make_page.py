@@ -7,10 +7,18 @@ import pathlib
 import sys
 from zoneinfo import ZoneInfo
 
+import difflib
+
+import pandas as pd
+
+import espn
 import europe
 import fetch_data
+import players
 import predictor
+import record
 import simple_page
+import tips
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE / "predictions.html"
@@ -25,24 +33,91 @@ def main():
     refit = "--refit" in sys.argv or params_age_days > 14   # re-test the model every 2 weeks
     params = predictor.load_or_fit_params(refit=refit)
     matches = predictor.predict_fixtures(params)
-    predictor.update_log(matches)
     try:
         matches += europe.predict(params)
     except Exception as e:          # European feed down: the leagues still work
         print(f"European cups skipped this time ({e})")
     matches.sort(key=lambda m: m["sort"])
+
+    # ESPN: who gets booked, plus results for the track record
+    cache, upcoming = {"matches": {}}, []
+    try:
+        cache, upcoming = espn.update()
+    except Exception as e:
+        print(f"ESPN update skipped this time ({e})")
+    link_espn(matches, [{"code": u["code"], "day": _uk_day(u["event"]["date"]), "id": u["event"]["id"],
+                         **{c["homeAway"]: c["team"]["displayName"] for c in u["event"]["competitions"][0]["competitors"]}}
+                        for u in upcoming])
+    pm = players.PlayerModel(cache)
+
+    def finish(ms):
+        for m in ms:
+            exp = {k["key"]: k["expected"] for k in m["markets"]}
+            m["players"] = players.top_picks(pm, m.get("espn_home"), m.get("espn_away"), m["iso"],
+                                             exp.get("home_cards"), exp.get("away_cards")) if m.get("espn_home") else []
+            m["tips"] = tips.make_tips(m)
+    finish(matches)
+    record.update(matches)
+
+    # replay of recent past games (only once each), so the track record is useful from day one
+    past = predictor.replay(params, days=28, skip=set(record.load()))
+    if past:
+        code_of = {v: k for k, v in espn.SLUGS.items()}
+        link_espn(past, [{"code": code_of.get(e["slug"]), "day": e["date"], "id": e["id"], "home": e["home"],
+                          "away": e["away"]} for e in cache.get("matches", {}).values()])
+        finish(past)
+        record.add_replay(past)
+        print(f"Replayed {len(past)} past games for the track record")
+    track = record.score(cache)
+
     now = dt.datetime.now(ZoneInfo("Europe/London"))
     payload = {"generated": now.strftime("%a %d %b %Y, %H:%M"), "generated_ms": int(now.timestamp() * 1000),
-               "matches": matches, "report": params["report"], "record": predictor.score_log()}
+               "matches": matches, "report": params["report"], "record": None, "track": track}
     write_page(simple_page.HTML, simple_page.SCRIPT, payload, OUT)
     write_page(HTML, SCRIPT, payload, HERE / "details.html")
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
 
 
+def _sim(a, b):
+    a, b = espn.norm(a), espn.norm(b)
+    if not a or not b:
+        return 0.0
+    if a == b:
+        return 1.0
+    if a in b or b in a:
+        return 0.9
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
+
+def _uk_day(iso):
+    return pd.Timestamp(iso).tz_convert("Europe/London").strftime("%Y-%m-%d")
+
+
+def link_espn(matches, candidates):
+    """Find ESPN's copy of each fixture (same competition and day, closest team names).
+    candidates: [{"code", "day", "id", "home", "away"}, ...]"""
+    by_day = {}
+    for c in candidates:
+        by_day.setdefault((c["code"], c["day"]), []).append(c)
+    linked = 0
+    for m in matches:
+        best, best_s = None, 0.0
+        for c in by_day.get((m["code"], m["iso"]), []):
+            t = {"home": c.get("home") or "", "away": c.get("away") or ""}
+            sh, sa = _sim(m["home"], t["home"]), _sim(m["away"], t["away"])
+            s = (sh + sa) / 2 if max(sh, sa) >= 0.7 else 0.0   # a team plays once a day
+            if s > best_s:
+                best, best_s = (c["id"], t), s
+        if best and best_s >= 0.5:
+            m["espn_id"], m["espn_home"], m["espn_away"] = best[0], best[1].get("home"), best[1].get("away")
+            linked += 1
+    print(f"Linked {linked} of {len(matches)} matches to ESPN")
+
+
 def write_page(html, script, payload, out):
     # Data goes inside a <script>; escaping "<" stops any text in the data from
     # closing the script tag and running as code.
-    data = json.dumps(payload, default=float).replace("<", "\\u003c").replace("\u2028", "\\u2028")
+    data = json.dumps(payload, default=lambda o: o.item() if hasattr(o, "item") else float(o)).replace("<", "\\u003c").replace("\u2028", "\\u2028")
     script = script.replace("__DATA__", data)
     # Content-Security-Policy: the browser will run only this exact script,
     # load nothing from the internet, and send nothing anywhere.
@@ -259,7 +334,7 @@ function standouts(list) {
 
 function record() {
   const R = D.record;
-  if (!R || !R.matches) return `<section class="box"><h2>My record</h2><p>No finished matches yet. Every prediction is saved before kick-off. After the results come in, this page shows how many tips landed.</p></section>`;
+  if (!R || !R.matches) return `<section class="box"><h2>My record</h2><p>The track record now lives on the main tips page: open it and tap <b>Track record</b>. Every tip is saved before kick-off and marked right or wrong once the result is in.</p><p><a href="index.html" style="color:var(--acc)">Go to the tips page &rarr;</a></p></section>`;
   const rows = R.groups.map(g => `<tr><td>${esc(g.market)}<div class="mut">${esc(g.kind)}</div></td><td class="num">${g.n}</td><td class="num">${g.promised}%</td><td class="num"><b class="${g.hit >= g.promised - 3 ? 'good' : 'bad'}">${g.hit}%</b></td></tr>`).join('');
   return `<section class="box"><h2>My record: ${R.matches} finished matches</h2><div class="mut">${esc(R.from)} to ${esc(R.to)}. Predictions saved before kick-off, then checked against real results.</div>
     <table style="margin-top:8px"><tr><th>Market</th><th class="num">Tips</th><th class="num">Promised</th><th class="num">Landed</th></tr>${rows}</table>

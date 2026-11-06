@@ -1,6 +1,8 @@
 """Download free match stats and upcoming fixtures from football-data.co.uk."""
 import datetime as dt
 import pathlib
+import time
+
 import requests
 
 LEAGUES = {
@@ -33,7 +35,17 @@ MAX_BYTES = 5_000_000          # real files are well under 1 MB
 ALLOWED_HOST = "https://football-data.co.uk/"
 
 
-def get(url, path):
+def get(url, path, tries=3):
+    for i in range(tries):              # the site sometimes drops a connection: retry
+        try:
+            return _get(url, path)
+        except requests.RequestException:
+            if i == tries - 1:
+                raise
+            time.sleep(3 * (i + 1))
+
+
+def _get(url, path):
     """Download a CSV safely: HTTPS to one known site only, size-capped, checked
     before it replaces the old copy. Nothing downloaded is ever run as code."""
     if not url.startswith(ALLOWED_HOST):

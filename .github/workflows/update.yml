@@ -41,15 +41,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add predictions_log.csv model_params.json
-          git diff --cached --quiet || (git commit -m "Update prediction log" && git push)
+          git add tips_log.json model_params.json cache/espn_matches.json
+          git diff --cached --quiet || (git commit -m "Update tips log" && git pull --rebase && git push)
       - name: Prepare pages
         run: |
           mkdir -p _site
           cp predictions.html _site/index.html
           cp details.html _site/details.html
           printf 'User-agent: *\nDisallow: /\n' > _site/robots.txt
-          printf '/*\n  X-Robots-Tag: noindex\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  X-Frame-Options: DENY\n' > _site/_headers
+          printf '/*\n  X-Robots-Tag: noindex\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  X-Frame-Options: DENY\n  Strict-Transport-Security: max-age=31536000; includeSubDomains\n  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()\n  Cross-Origin-Opener-Policy: same-origin\n' > _site/_headers
       - name: Upload to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
