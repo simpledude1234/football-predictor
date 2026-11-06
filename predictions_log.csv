@@ -1,0 +1,2887 @@
+code,date,home,away,market,pick,chance,line,main
+D1,2026-11-06,Hamburg,M'gladbach,result,H,40.0,,
+D1,2026-11-06,Hamburg,M'gladbach,btts,yes,60.0,,
+D1,2026-11-06,Hamburg,M'gladbach,total_shots,over,72.0,23.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_shots,under,72.0,31.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_shots,over,51.0,27.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,total_sot,over,72.0,7.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_sot,under,72.0,11.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_sot,under,53.0,9.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,home_sot,over,72.0,3.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_sot,under,72.0,6.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_sot,over,57.0,4.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,away_sot,over,72.0,2.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_sot,under,72.0,5.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_sot,under,58.0,4.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,home_cards,over,72.0,0.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_cards,under,72.0,3.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_cards,under,63.0,2.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,away_cards,over,72.0,1.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_cards,under,72.0,3.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_cards,over,50.0,2.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,total_cards,over,72.0,2.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_cards,under,72.0,6.5,
+D1,2026-11-06,Hamburg,M'gladbach,total_cards,over,54.0,4.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,home_fouls,over,72.0,9.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_fouls,under,72.0,14.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_fouls,over,50.0,11.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,away_fouls,over,72.0,10.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_fouls,under,72.0,15.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_fouls,under,54.0,13.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,home_gk,over,72.0,5.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_gk,under,72.0,9.5,
+D1,2026-11-06,Hamburg,M'gladbach,home_gk,under,55.0,7.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,away_gk,over,72.0,4.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_gk,under,72.0,8.5,
+D1,2026-11-06,Hamburg,M'gladbach,away_gk,over,50.0,6.5,1.0
+D1,2026-11-06,Hamburg,M'gladbach,free_kicks,over,72.0,24.5,
+D1,2026-11-06,Hamburg,M'gladbach,free_kicks,under,72.0,32.5,
+D1,2026-11-06,Hamburg,M'gladbach,free_kicks,over,50.0,28.5,1.0
+I2,2026-11-06,Ascoli,Palermo,result,A,42.0,,
+I2,2026-11-06,Ascoli,Palermo,btts,yes,60.0,,
+I2,2026-11-06,Ascoli,Palermo,total_shots,over,72.0,24.5,
+I2,2026-11-06,Ascoli,Palermo,total_shots,under,72.0,31.5,
+I2,2026-11-06,Ascoli,Palermo,total_shots,over,53.0,27.5,1.0
+I2,2026-11-06,Ascoli,Palermo,total_sot,over,72.0,6.5,
+I2,2026-11-06,Ascoli,Palermo,total_sot,under,72.0,11.5,
+I2,2026-11-06,Ascoli,Palermo,total_sot,under,56.0,9.5,1.0
+I2,2026-11-06,Ascoli,Palermo,home_sot,over,72.0,2.5,
+I2,2026-11-06,Ascoli,Palermo,home_sot,under,72.0,6.5,
+I2,2026-11-06,Ascoli,Palermo,home_sot,under,54.0,4.5,1.0
+I2,2026-11-06,Ascoli,Palermo,away_sot,over,72.0,2.5,
+I2,2026-11-06,Ascoli,Palermo,away_sot,under,72.0,6.5,
+I2,2026-11-06,Ascoli,Palermo,away_sot,over,51.0,4.5,1.0
+I2,2026-11-06,Ascoli,Palermo,home_cards,over,72.0,0.5,
+I2,2026-11-06,Ascoli,Palermo,home_cards,under,72.0,3.5,
+I2,2026-11-06,Ascoli,Palermo,home_cards,over,60.0,1.5,1.0
+I2,2026-11-06,Ascoli,Palermo,away_cards,over,72.0,0.5,
+I2,2026-11-06,Ascoli,Palermo,away_cards,under,72.0,3.5,
+I2,2026-11-06,Ascoli,Palermo,away_cards,under,61.0,2.5,1.0
+I2,2026-11-06,Ascoli,Palermo,total_cards,over,72.0,2.5,
+I2,2026-11-06,Ascoli,Palermo,total_cards,under,72.0,5.5,
+I2,2026-11-06,Ascoli,Palermo,total_cards,under,57.0,4.5,1.0
+I2,2026-11-06,Ascoli,Palermo,home_fouls,over,72.0,8.5,
+I2,2026-11-06,Ascoli,Palermo,home_fouls,under,72.0,13.5,
+I2,2026-11-06,Ascoli,Palermo,home_fouls,over,54.0,10.5,1.0
+I2,2026-11-06,Ascoli,Palermo,away_fouls,over,72.0,11.5,
+I2,2026-11-06,Ascoli,Palermo,away_fouls,under,72.0,17.5,
+I2,2026-11-06,Ascoli,Palermo,away_fouls,under,52.0,14.5,1.0
+I2,2026-11-06,Ascoli,Palermo,home_gk,over,72.0,5.5,
+I2,2026-11-06,Ascoli,Palermo,home_gk,under,72.0,10.5,
+I2,2026-11-06,Ascoli,Palermo,home_gk,under,56.0,8.5,1.0
+I2,2026-11-06,Ascoli,Palermo,away_gk,over,72.0,5.5,
+I2,2026-11-06,Ascoli,Palermo,away_gk,under,72.0,9.5,
+I2,2026-11-06,Ascoli,Palermo,away_gk,under,56.0,7.5,1.0
+I2,2026-11-06,Ascoli,Palermo,free_kicks,over,72.0,25.5,
+I2,2026-11-06,Ascoli,Palermo,free_kicks,under,72.0,32.5,
+I2,2026-11-06,Ascoli,Palermo,free_kicks,over,53.0,28.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,result,H,43.0,,
+F1,2026-11-06,Toulouse,Strasbourg,btts,yes,61.0,,
+F1,2026-11-06,Toulouse,Strasbourg,total_shots,over,72.0,22.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_shots,under,72.0,30.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_shots,under,51.0,26.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,total_sot,over,72.0,6.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_sot,under,72.0,11.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_sot,under,56.0,9.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,home_sot,over,72.0,3.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_sot,under,72.0,6.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_sot,under,58.0,5.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,away_sot,over,72.0,2.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_sot,under,72.0,5.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_sot,over,57.0,3.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,home_cards,over,72.0,0.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_cards,under,72.0,3.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_cards,over,60.0,1.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,away_cards,over,72.0,0.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_cards,under,72.0,3.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_cards,over,62.0,1.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,total_cards,over,72.0,2.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_cards,under,72.0,5.5,
+F1,2026-11-06,Toulouse,Strasbourg,total_cards,over,58.0,3.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,home_fouls,over,72.0,10.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_fouls,under,72.0,15.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_fouls,over,55.0,12.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,away_fouls,over,72.0,9.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_fouls,under,72.0,14.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_fouls,over,50.0,11.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,home_gk,over,72.0,4.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_gk,under,72.0,8.5,
+F1,2026-11-06,Toulouse,Strasbourg,home_gk,over,51.0,6.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,away_gk,over,72.0,5.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_gk,under,72.0,9.5,
+F1,2026-11-06,Toulouse,Strasbourg,away_gk,under,55.0,7.5,1.0
+F1,2026-11-06,Toulouse,Strasbourg,free_kicks,over,72.0,24.5,
+F1,2026-11-06,Toulouse,Strasbourg,free_kicks,under,72.0,31.5,
+F1,2026-11-06,Toulouse,Strasbourg,free_kicks,under,52.0,28.5,1.0
+I1,2026-11-06,Venezia,Udinese,result,H,41.0,,
+I1,2026-11-06,Venezia,Udinese,btts,yes,57.0,,
+I1,2026-11-06,Venezia,Udinese,total_shots,over,72.0,24.5,
+I1,2026-11-06,Venezia,Udinese,total_shots,under,72.0,32.5,
+I1,2026-11-06,Venezia,Udinese,total_shots,under,53.0,28.5,1.0
+I1,2026-11-06,Venezia,Udinese,total_sot,over,72.0,6.5,
+I1,2026-11-06,Venezia,Udinese,total_sot,under,72.0,11.5,
+I1,2026-11-06,Venezia,Udinese,total_sot,over,54.0,8.5,1.0
+I1,2026-11-06,Venezia,Udinese,home_sot,over,72.0,2.5,
+I1,2026-11-06,Venezia,Udinese,home_sot,under,72.0,6.5,
+I1,2026-11-06,Venezia,Udinese,home_sot,over,52.0,4.5,1.0
+I1,2026-11-06,Venezia,Udinese,away_sot,over,72.0,2.5,
+I1,2026-11-06,Venezia,Udinese,away_sot,under,72.0,5.5,
+I1,2026-11-06,Venezia,Udinese,away_sot,over,57.0,3.5,1.0
+I1,2026-11-06,Venezia,Udinese,home_cards,over,72.0,0.5,
+I1,2026-11-06,Venezia,Udinese,home_cards,under,72.0,2.5,
+I1,2026-11-06,Venezia,Udinese,home_cards,over,52.0,1.5,1.0
+I1,2026-11-06,Venezia,Udinese,away_cards,over,72.0,0.5,
+I1,2026-11-06,Venezia,Udinese,away_cards,under,72.0,3.5,
+I1,2026-11-06,Venezia,Udinese,away_cards,over,60.0,1.5,1.0
+I1,2026-11-06,Venezia,Udinese,total_cards,over,72.0,1.5,
+I1,2026-11-06,Venezia,Udinese,total_cards,under,72.0,5.5,
+I1,2026-11-06,Venezia,Udinese,total_cards,over,50.0,3.5,1.0
+I1,2026-11-06,Venezia,Udinese,home_fouls,over,72.0,7.5,
+I1,2026-11-06,Venezia,Udinese,home_fouls,under,72.0,12.5,
+I1,2026-11-06,Venezia,Udinese,home_fouls,over,53.0,9.5,1.0
+I1,2026-11-06,Venezia,Udinese,away_fouls,over,72.0,9.5,
+I1,2026-11-06,Venezia,Udinese,away_fouls,under,72.0,14.5,
+I1,2026-11-06,Venezia,Udinese,away_fouls,over,52.0,11.5,1.0
+I1,2026-11-06,Venezia,Udinese,home_gk,over,72.0,4.5,
+I1,2026-11-06,Venezia,Udinese,home_gk,under,72.0,8.5,
+I1,2026-11-06,Venezia,Udinese,home_gk,over,51.0,6.5,1.0
+I1,2026-11-06,Venezia,Udinese,away_gk,over,72.0,5.5,
+I1,2026-11-06,Venezia,Udinese,away_gk,under,72.0,10.5,
+I1,2026-11-06,Venezia,Udinese,away_gk,under,57.0,8.5,1.0
+I1,2026-11-06,Venezia,Udinese,free_kicks,over,72.0,21.5,
+I1,2026-11-06,Venezia,Udinese,free_kicks,under,72.0,28.5,
+I1,2026-11-06,Venezia,Udinese,free_kicks,under,53.0,25.5,1.0
+E1,2026-11-06,Derby,Bolton,result,A,38.0,,
+E1,2026-11-06,Derby,Bolton,btts,yes,60.0,,
+E1,2026-11-06,Derby,Bolton,total_shots,over,72.0,23.5,
+E1,2026-11-06,Derby,Bolton,total_shots,under,72.0,31.5,
+E1,2026-11-06,Derby,Bolton,total_shots,under,51.0,27.5,1.0
+E1,2026-11-06,Derby,Bolton,total_sot,over,72.0,6.5,
+E1,2026-11-06,Derby,Bolton,total_sot,under,72.0,11.5,
+E1,2026-11-06,Derby,Bolton,total_sot,under,55.0,9.5,1.0
+E1,2026-11-06,Derby,Bolton,home_sot,over,72.0,2.5,
+E1,2026-11-06,Derby,Bolton,home_sot,under,72.0,6.5,
+E1,2026-11-06,Derby,Bolton,home_sot,over,51.0,4.5,1.0
+E1,2026-11-06,Derby,Bolton,away_sot,over,72.0,2.5,
+E1,2026-11-06,Derby,Bolton,away_sot,under,72.0,6.5,
+E1,2026-11-06,Derby,Bolton,away_sot,under,54.0,4.5,1.0
+E1,2026-11-06,Derby,Bolton,home_cards,over,72.0,0.5,
+E1,2026-11-06,Derby,Bolton,home_cards,under,72.0,3.5,
+E1,2026-11-06,Derby,Bolton,home_cards,over,60.0,1.5,1.0
+E1,2026-11-06,Derby,Bolton,away_cards,over,72.0,0.5,
+E1,2026-11-06,Derby,Bolton,away_cards,under,72.0,3.5,
+E1,2026-11-06,Derby,Bolton,away_cards,over,63.0,1.5,1.0
+E1,2026-11-06,Derby,Bolton,total_cards,over,72.0,2.5,
+E1,2026-11-06,Derby,Bolton,total_cards,under,72.0,5.5,
+E1,2026-11-06,Derby,Bolton,total_cards,over,59.0,3.5,1.0
+E1,2026-11-06,Derby,Bolton,home_fouls,over,72.0,8.5,
+E1,2026-11-06,Derby,Bolton,home_fouls,under,72.0,13.5,
+E1,2026-11-06,Derby,Bolton,home_fouls,under,55.0,11.5,1.0
+E1,2026-11-06,Derby,Bolton,away_fouls,over,72.0,7.5,
+E1,2026-11-06,Derby,Bolton,away_fouls,under,72.0,12.5,
+E1,2026-11-06,Derby,Bolton,away_fouls,under,53.0,10.5,1.0
+E1,2026-11-06,Derby,Bolton,home_gk,over,72.0,4.5,
+E1,2026-11-06,Derby,Bolton,home_gk,under,72.0,8.5,
+E1,2026-11-06,Derby,Bolton,home_gk,over,52.0,6.5,1.0
+E1,2026-11-06,Derby,Bolton,away_gk,over,72.0,4.5,
+E1,2026-11-06,Derby,Bolton,away_gk,under,72.0,9.5,
+E1,2026-11-06,Derby,Bolton,away_gk,over,57.0,6.5,1.0
+E1,2026-11-06,Derby,Bolton,free_kicks,over,72.0,21.5,
+E1,2026-11-06,Derby,Bolton,free_kicks,under,72.0,28.5,
+E1,2026-11-06,Derby,Bolton,free_kicks,under,53.0,25.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,result,H,51.0,,
+SP1,2026-11-06,Sevilla,Alaves,btts,no,53.0,,
+SP1,2026-11-06,Sevilla,Alaves,total_shots,over,72.0,19.5,
+SP1,2026-11-06,Sevilla,Alaves,total_shots,under,72.0,27.5,
+SP1,2026-11-06,Sevilla,Alaves,total_shots,over,50.0,23.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,total_sot,over,72.0,5.5,
+SP1,2026-11-06,Sevilla,Alaves,total_sot,under,72.0,9.5,
+SP1,2026-11-06,Sevilla,Alaves,total_sot,over,54.0,7.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,home_sot,over,72.0,2.5,
+SP1,2026-11-06,Sevilla,Alaves,home_sot,under,72.0,6.5,
+SP1,2026-11-06,Sevilla,Alaves,home_sot,over,50.0,4.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,away_sot,over,72.0,1.5,
+SP1,2026-11-06,Sevilla,Alaves,away_sot,under,72.0,4.5,
+SP1,2026-11-06,Sevilla,Alaves,away_sot,over,59.0,2.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,home_cards,over,72.0,0.5,
+SP1,2026-11-06,Sevilla,Alaves,home_cards,under,72.0,3.5,
+SP1,2026-11-06,Sevilla,Alaves,home_cards,under,58.0,2.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,away_cards,over,72.0,0.5,
+SP1,2026-11-06,Sevilla,Alaves,away_cards,under,72.0,3.5,
+SP1,2026-11-06,Sevilla,Alaves,away_cards,under,58.0,2.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,total_cards,over,72.0,2.5,
+SP1,2026-11-06,Sevilla,Alaves,total_cards,under,72.0,6.5,
+SP1,2026-11-06,Sevilla,Alaves,total_cards,under,52.0,4.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,home_fouls,over,72.0,11.5,
+SP1,2026-11-06,Sevilla,Alaves,home_fouls,under,72.0,16.5,
+SP1,2026-11-06,Sevilla,Alaves,home_fouls,under,53.0,14.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,away_fouls,over,72.0,11.5,
+SP1,2026-11-06,Sevilla,Alaves,away_fouls,under,72.0,16.5,
+SP1,2026-11-06,Sevilla,Alaves,away_fouls,over,54.0,13.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,home_gk,over,72.0,3.5,
+SP1,2026-11-06,Sevilla,Alaves,home_gk,under,72.0,7.5,
+SP1,2026-11-06,Sevilla,Alaves,home_gk,under,53.0,5.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,away_gk,over,72.0,5.5,
+SP1,2026-11-06,Sevilla,Alaves,away_gk,under,72.0,9.5,
+SP1,2026-11-06,Sevilla,Alaves,away_gk,under,55.0,7.5,1.0
+SP1,2026-11-06,Sevilla,Alaves,free_kicks,over,72.0,28.5,
+SP1,2026-11-06,Sevilla,Alaves,free_kicks,under,72.0,35.5,
+SP1,2026-11-06,Sevilla,Alaves,free_kicks,over,52.0,31.5,1.0
+E0,2026-11-06,Everton,Coventry,result,H,56.0,,
+E0,2026-11-06,Everton,Coventry,btts,yes,55.0,,
+E0,2026-11-06,Everton,Coventry,total_shots,over,72.0,23.5,
+E0,2026-11-06,Everton,Coventry,total_shots,under,72.0,31.5,
+E0,2026-11-06,Everton,Coventry,total_shots,under,51.0,27.5,1.0
+E0,2026-11-06,Everton,Coventry,total_sot,over,72.0,6.5,
+E0,2026-11-06,Everton,Coventry,total_sot,under,72.0,10.5,
+E0,2026-11-06,Everton,Coventry,total_sot,over,50.0,8.5,1.0
+E0,2026-11-06,Everton,Coventry,home_sot,over,72.0,3.5,
+E0,2026-11-06,Everton,Coventry,home_sot,under,72.0,7.5,
+E0,2026-11-06,Everton,Coventry,home_sot,under,54.0,5.5,1.0
+E0,2026-11-06,Everton,Coventry,away_sot,over,72.0,1.5,
+E0,2026-11-06,Everton,Coventry,away_sot,under,72.0,4.5,
+E0,2026-11-06,Everton,Coventry,away_sot,under,57.0,3.5,1.0
+E0,2026-11-06,Everton,Coventry,home_cards,over,72.0,0.5,
+E0,2026-11-06,Everton,Coventry,home_cards,under,72.0,2.5,
+E0,2026-11-06,Everton,Coventry,home_cards,over,54.0,1.5,1.0
+E0,2026-11-06,Everton,Coventry,away_cards,over,72.0,0.5,
+E0,2026-11-06,Everton,Coventry,away_cards,under,72.0,3.5,
+E0,2026-11-06,Everton,Coventry,away_cards,over,60.0,1.5,1.0
+E0,2026-11-06,Everton,Coventry,total_cards,over,72.0,1.5,
+E0,2026-11-06,Everton,Coventry,total_cards,under,72.0,5.5,
+E0,2026-11-06,Everton,Coventry,total_cards,over,51.0,3.5,1.0
+E0,2026-11-06,Everton,Coventry,home_fouls,over,72.0,7.5,
+E0,2026-11-06,Everton,Coventry,home_fouls,under,72.0,11.5,
+E0,2026-11-06,Everton,Coventry,home_fouls,over,51.0,9.5,1.0
+E0,2026-11-06,Everton,Coventry,away_fouls,over,72.0,9.5,
+E0,2026-11-06,Everton,Coventry,away_fouls,under,72.0,14.5,
+E0,2026-11-06,Everton,Coventry,away_fouls,over,51.0,11.5,1.0
+E0,2026-11-06,Everton,Coventry,home_gk,over,72.0,4.5,
+E0,2026-11-06,Everton,Coventry,home_gk,under,72.0,8.5,
+E0,2026-11-06,Everton,Coventry,home_gk,over,55.0,6.5,1.0
+E0,2026-11-06,Everton,Coventry,away_gk,over,72.0,7.5,
+E0,2026-11-06,Everton,Coventry,away_gk,under,72.0,11.5,
+E0,2026-11-06,Everton,Coventry,away_gk,over,50.0,9.5,1.0
+E0,2026-11-06,Everton,Coventry,free_kicks,over,72.0,21.5,
+E0,2026-11-06,Everton,Coventry,free_kicks,under,72.0,28.5,
+E0,2026-11-06,Everton,Coventry,free_kicks,over,53.0,24.5,1.0
+E1,2026-11-07,Bristol City,Norwich,result,A,38.0,,
+E1,2026-11-07,Bristol City,Norwich,btts,yes,58.0,,
+E1,2026-11-07,Bristol City,Norwich,total_shots,over,72.0,21.5,
+E1,2026-11-07,Bristol City,Norwich,total_shots,under,72.0,28.5,
+E1,2026-11-07,Bristol City,Norwich,total_shots,over,53.0,24.5,1.0
+E1,2026-11-07,Bristol City,Norwich,total_sot,over,72.0,6.5,
+E1,2026-11-07,Bristol City,Norwich,total_sot,under,72.0,10.5,
+E1,2026-11-07,Bristol City,Norwich,total_sot,over,51.0,8.5,1.0
+E1,2026-11-07,Bristol City,Norwich,home_sot,over,72.0,2.5,
+E1,2026-11-07,Bristol City,Norwich,home_sot,under,72.0,6.5,
+E1,2026-11-07,Bristol City,Norwich,home_sot,under,53.0,4.5,1.0
+E1,2026-11-07,Bristol City,Norwich,away_sot,over,72.0,2.5,
+E1,2026-11-07,Bristol City,Norwich,away_sot,under,72.0,5.5,
+E1,2026-11-07,Bristol City,Norwich,away_sot,under,58.0,4.5,1.0
+E1,2026-11-07,Bristol City,Norwich,home_cards,over,72.0,0.5,
+E1,2026-11-07,Bristol City,Norwich,home_cards,under,72.0,2.5,
+E1,2026-11-07,Bristol City,Norwich,home_cards,over,55.0,1.5,1.0
+E1,2026-11-07,Bristol City,Norwich,away_cards,over,72.0,0.5,
+E1,2026-11-07,Bristol City,Norwich,away_cards,under,72.0,3.5,
+E1,2026-11-07,Bristol City,Norwich,away_cards,under,60.0,2.5,1.0
+E1,2026-11-07,Bristol City,Norwich,total_cards,over,72.0,2.5,
+E1,2026-11-07,Bristol City,Norwich,total_cards,under,72.0,5.5,
+E1,2026-11-07,Bristol City,Norwich,total_cards,over,59.0,3.5,1.0
+E1,2026-11-07,Bristol City,Norwich,home_fouls,over,72.0,8.5,
+E1,2026-11-07,Bristol City,Norwich,home_fouls,under,72.0,12.5,
+E1,2026-11-07,Bristol City,Norwich,home_fouls,under,52.0,10.5,1.0
+E1,2026-11-07,Bristol City,Norwich,away_fouls,over,72.0,9.5,
+E1,2026-11-07,Bristol City,Norwich,away_fouls,under,72.0,14.5,
+E1,2026-11-07,Bristol City,Norwich,away_fouls,over,50.0,11.5,1.0
+E1,2026-11-07,Bristol City,Norwich,home_gk,over,72.0,4.5,
+E1,2026-11-07,Bristol City,Norwich,home_gk,under,72.0,9.5,
+E1,2026-11-07,Bristol City,Norwich,home_gk,over,57.0,6.5,1.0
+E1,2026-11-07,Bristol City,Norwich,away_gk,over,72.0,4.5,
+E1,2026-11-07,Bristol City,Norwich,away_gk,under,72.0,8.5,
+E1,2026-11-07,Bristol City,Norwich,away_gk,over,52.0,6.5,1.0
+E1,2026-11-07,Bristol City,Norwich,free_kicks,over,72.0,22.5,
+E1,2026-11-07,Bristol City,Norwich,free_kicks,under,72.0,29.5,
+E1,2026-11-07,Bristol City,Norwich,free_kicks,over,50.0,25.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,result,H,41.0,,
+E1,2026-11-07,Portsmouth,Stoke,btts,yes,50.0,,
+E1,2026-11-07,Portsmouth,Stoke,total_shots,over,72.0,20.5,
+E1,2026-11-07,Portsmouth,Stoke,total_shots,under,72.0,28.5,
+E1,2026-11-07,Portsmouth,Stoke,total_shots,under,51.0,24.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,total_sot,over,72.0,5.5,
+E1,2026-11-07,Portsmouth,Stoke,total_sot,under,72.0,9.5,
+E1,2026-11-07,Portsmouth,Stoke,total_sot,over,50.0,7.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,home_sot,over,72.0,2.5,
+E1,2026-11-07,Portsmouth,Stoke,home_sot,under,72.0,5.5,
+E1,2026-11-07,Portsmouth,Stoke,home_sot,under,57.0,4.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,away_sot,over,72.0,1.5,
+E1,2026-11-07,Portsmouth,Stoke,away_sot,under,72.0,4.5,
+E1,2026-11-07,Portsmouth,Stoke,away_sot,under,56.0,3.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,home_cards,over,72.0,0.5,
+E1,2026-11-07,Portsmouth,Stoke,home_cards,under,72.0,2.5,
+E1,2026-11-07,Portsmouth,Stoke,home_cards,over,53.0,1.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,away_cards,over,72.0,0.5,
+E1,2026-11-07,Portsmouth,Stoke,away_cards,under,72.0,3.5,
+E1,2026-11-07,Portsmouth,Stoke,away_cards,under,60.0,2.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,total_cards,over,72.0,2.5,
+E1,2026-11-07,Portsmouth,Stoke,total_cards,under,72.0,5.5,
+E1,2026-11-07,Portsmouth,Stoke,total_cards,over,56.0,3.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,home_fouls,over,72.0,7.5,
+E1,2026-11-07,Portsmouth,Stoke,home_fouls,under,72.0,12.5,
+E1,2026-11-07,Portsmouth,Stoke,home_fouls,under,53.0,10.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,away_fouls,over,72.0,10.5,
+E1,2026-11-07,Portsmouth,Stoke,away_fouls,under,72.0,15.5,
+E1,2026-11-07,Portsmouth,Stoke,away_fouls,over,52.0,12.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,home_gk,over,72.0,4.5,
+E1,2026-11-07,Portsmouth,Stoke,home_gk,under,72.0,8.5,
+E1,2026-11-07,Portsmouth,Stoke,home_gk,under,54.0,6.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,away_gk,over,72.0,6.5,
+E1,2026-11-07,Portsmouth,Stoke,away_gk,under,72.0,11.5,
+E1,2026-11-07,Portsmouth,Stoke,away_gk,over,54.0,8.5,1.0
+E1,2026-11-07,Portsmouth,Stoke,free_kicks,over,72.0,23.5,
+E1,2026-11-07,Portsmouth,Stoke,free_kicks,under,72.0,30.5,
+E1,2026-11-07,Portsmouth,Stoke,free_kicks,over,52.0,26.5,1.0
+E1,2026-11-07,Wrexham,Wolves,result,A,43.0,,
+E1,2026-11-07,Wrexham,Wolves,btts,yes,55.0,,
+E1,2026-11-07,Wrexham,Wolves,total_shots,over,72.0,21.5,
+E1,2026-11-07,Wrexham,Wolves,total_shots,under,72.0,28.5,
+E1,2026-11-07,Wrexham,Wolves,total_shots,under,52.0,25.5,1.0
+E1,2026-11-07,Wrexham,Wolves,total_sot,over,72.0,5.5,
+E1,2026-11-07,Wrexham,Wolves,total_sot,under,72.0,10.5,
+E1,2026-11-07,Wrexham,Wolves,total_sot,under,56.0,8.5,1.0
+E1,2026-11-07,Wrexham,Wolves,home_sot,over,72.0,2.5,
+E1,2026-11-07,Wrexham,Wolves,home_sot,under,72.0,5.5,
+E1,2026-11-07,Wrexham,Wolves,home_sot,over,55.0,3.5,1.0
+E1,2026-11-07,Wrexham,Wolves,away_sot,over,72.0,2.5,
+E1,2026-11-07,Wrexham,Wolves,away_sot,under,72.0,5.5,
+E1,2026-11-07,Wrexham,Wolves,away_sot,under,57.0,4.5,1.0
+E1,2026-11-07,Wrexham,Wolves,home_cards,over,72.0,0.5,
+E1,2026-11-07,Wrexham,Wolves,home_cards,under,72.0,2.5,
+E1,2026-11-07,Wrexham,Wolves,home_cards,over,54.0,1.5,1.0
+E1,2026-11-07,Wrexham,Wolves,away_cards,over,72.0,0.5,
+E1,2026-11-07,Wrexham,Wolves,away_cards,under,72.0,3.5,
+E1,2026-11-07,Wrexham,Wolves,away_cards,over,63.0,1.5,1.0
+E1,2026-11-07,Wrexham,Wolves,total_cards,over,72.0,2.5,
+E1,2026-11-07,Wrexham,Wolves,total_cards,under,72.0,5.5,
+E1,2026-11-07,Wrexham,Wolves,total_cards,over,53.0,3.5,1.0
+E1,2026-11-07,Wrexham,Wolves,home_fouls,over,72.0,8.5,
+E1,2026-11-07,Wrexham,Wolves,home_fouls,under,72.0,12.5,
+E1,2026-11-07,Wrexham,Wolves,home_fouls,over,51.0,10.5,1.0
+E1,2026-11-07,Wrexham,Wolves,away_fouls,over,72.0,8.5,
+E1,2026-11-07,Wrexham,Wolves,away_fouls,under,72.0,13.5,
+E1,2026-11-07,Wrexham,Wolves,away_fouls,under,52.0,11.5,1.0
+E1,2026-11-07,Wrexham,Wolves,home_gk,over,72.0,6.5,
+E1,2026-11-07,Wrexham,Wolves,home_gk,under,72.0,10.5,
+E1,2026-11-07,Wrexham,Wolves,home_gk,under,53.0,8.5,1.0
+E1,2026-11-07,Wrexham,Wolves,away_gk,over,72.0,4.5,
+E1,2026-11-07,Wrexham,Wolves,away_gk,under,72.0,8.5,
+E1,2026-11-07,Wrexham,Wolves,away_gk,over,51.0,6.5,1.0
+E1,2026-11-07,Wrexham,Wolves,free_kicks,over,72.0,22.5,
+E1,2026-11-07,Wrexham,Wolves,free_kicks,under,72.0,29.5,
+E1,2026-11-07,Wrexham,Wolves,free_kicks,over,51.0,25.5,1.0
+E0,2026-11-07,Leeds,Tottenham,result,A,37.0,,
+E0,2026-11-07,Leeds,Tottenham,btts,yes,55.0,,
+E0,2026-11-07,Leeds,Tottenham,total_shots,over,72.0,21.5,
+E0,2026-11-07,Leeds,Tottenham,total_shots,under,72.0,29.5,
+E0,2026-11-07,Leeds,Tottenham,total_shots,over,50.0,25.5,1.0
+E0,2026-11-07,Leeds,Tottenham,total_sot,over,72.0,5.5,
+E0,2026-11-07,Leeds,Tottenham,total_sot,under,72.0,10.5,
+E0,2026-11-07,Leeds,Tottenham,total_sot,under,55.0,8.5,1.0
+E0,2026-11-07,Leeds,Tottenham,home_sot,over,72.0,2.5,
+E0,2026-11-07,Leeds,Tottenham,home_sot,under,72.0,5.5,
+E0,2026-11-07,Leeds,Tottenham,home_sot,under,58.0,4.5,1.0
+E0,2026-11-07,Leeds,Tottenham,away_sot,over,72.0,2.5,
+E0,2026-11-07,Leeds,Tottenham,away_sot,under,72.0,5.5,
+E0,2026-11-07,Leeds,Tottenham,away_sot,over,57.0,3.5,1.0
+E0,2026-11-07,Leeds,Tottenham,home_cards,over,72.0,0.5,
+E0,2026-11-07,Leeds,Tottenham,home_cards,under,72.0,3.5,
+E0,2026-11-07,Leeds,Tottenham,home_cards,under,63.0,2.5,1.0
+E0,2026-11-07,Leeds,Tottenham,away_cards,over,72.0,1.5,
+E0,2026-11-07,Leeds,Tottenham,away_cards,under,72.0,3.5,
+E0,2026-11-07,Leeds,Tottenham,away_cards,over,51.0,2.5,1.0
+E0,2026-11-07,Leeds,Tottenham,total_cards,over,72.0,2.5,
+E0,2026-11-07,Leeds,Tottenham,total_cards,under,72.0,6.5,
+E0,2026-11-07,Leeds,Tottenham,total_cards,over,54.0,4.5,1.0
+E0,2026-11-07,Leeds,Tottenham,home_fouls,over,72.0,9.5,
+E0,2026-11-07,Leeds,Tottenham,home_fouls,under,72.0,14.5,
+E0,2026-11-07,Leeds,Tottenham,home_fouls,over,53.0,11.5,1.0
+E0,2026-11-07,Leeds,Tottenham,away_fouls,over,72.0,10.5,
+E0,2026-11-07,Leeds,Tottenham,away_fouls,under,72.0,15.5,
+E0,2026-11-07,Leeds,Tottenham,away_fouls,over,54.0,12.5,1.0
+E0,2026-11-07,Leeds,Tottenham,home_gk,over,72.0,4.5,
+E0,2026-11-07,Leeds,Tottenham,home_gk,under,72.0,9.5,
+E0,2026-11-07,Leeds,Tottenham,home_gk,under,57.0,7.5,1.0
+E0,2026-11-07,Leeds,Tottenham,away_gk,over,72.0,5.5,
+E0,2026-11-07,Leeds,Tottenham,away_gk,under,72.0,9.5,
+E0,2026-11-07,Leeds,Tottenham,away_gk,over,51.0,7.5,1.0
+E0,2026-11-07,Leeds,Tottenham,free_kicks,over,72.0,24.5,
+E0,2026-11-07,Leeds,Tottenham,free_kicks,under,72.0,32.5,
+E0,2026-11-07,Leeds,Tottenham,free_kicks,under,51.0,28.5,1.0
+SP1,2026-11-07,Malaga,Santander,result,H,39.0,,
+SP1,2026-11-07,Malaga,Santander,btts,yes,61.0,,
+SP1,2026-11-07,Malaga,Santander,total_shots,over,72.0,24.5,
+SP1,2026-11-07,Malaga,Santander,total_shots,under,72.0,32.5,
+SP1,2026-11-07,Malaga,Santander,total_shots,under,53.0,28.5,1.0
+SP1,2026-11-07,Malaga,Santander,total_sot,over,72.0,6.5,
+SP1,2026-11-07,Malaga,Santander,total_sot,under,72.0,11.5,
+SP1,2026-11-07,Malaga,Santander,total_sot,under,53.0,9.5,1.0
+SP1,2026-11-07,Malaga,Santander,home_sot,over,72.0,3.5,
+SP1,2026-11-07,Malaga,Santander,home_sot,under,72.0,6.5,
+SP1,2026-11-07,Malaga,Santander,home_sot,over,56.0,4.5,1.0
+SP1,2026-11-07,Malaga,Santander,away_sot,over,72.0,2.5,
+SP1,2026-11-07,Malaga,Santander,away_sot,under,72.0,6.5,
+SP1,2026-11-07,Malaga,Santander,away_sot,under,56.0,4.5,1.0
+SP1,2026-11-07,Malaga,Santander,home_cards,over,72.0,0.5,
+SP1,2026-11-07,Malaga,Santander,home_cards,under,72.0,3.5,
+SP1,2026-11-07,Malaga,Santander,home_cards,over,62.0,1.5,1.0
+SP1,2026-11-07,Malaga,Santander,away_cards,over,72.0,1.5,
+SP1,2026-11-07,Malaga,Santander,away_cards,under,72.0,3.5,
+SP1,2026-11-07,Malaga,Santander,away_cards,under,52.0,2.5,1.0
+SP1,2026-11-07,Malaga,Santander,total_cards,over,72.0,2.5,
+SP1,2026-11-07,Malaga,Santander,total_cards,under,72.0,6.5,
+SP1,2026-11-07,Malaga,Santander,total_cards,over,51.0,4.5,1.0
+SP1,2026-11-07,Malaga,Santander,home_fouls,over,72.0,10.5,
+SP1,2026-11-07,Malaga,Santander,home_fouls,under,72.0,15.5,
+SP1,2026-11-07,Malaga,Santander,home_fouls,over,54.0,12.5,1.0
+SP1,2026-11-07,Malaga,Santander,away_fouls,over,72.0,9.5,
+SP1,2026-11-07,Malaga,Santander,away_fouls,under,72.0,15.5,
+SP1,2026-11-07,Malaga,Santander,away_fouls,under,51.0,12.5,1.0
+SP1,2026-11-07,Malaga,Santander,home_gk,over,72.0,4.5,
+SP1,2026-11-07,Malaga,Santander,home_gk,under,72.0,8.5,
+SP1,2026-11-07,Malaga,Santander,home_gk,over,52.0,6.5,1.0
+SP1,2026-11-07,Malaga,Santander,away_gk,over,72.0,5.5,
+SP1,2026-11-07,Malaga,Santander,away_gk,under,72.0,9.5,
+SP1,2026-11-07,Malaga,Santander,away_gk,over,51.0,7.5,1.0
+SP1,2026-11-07,Malaga,Santander,free_kicks,over,72.0,25.5,
+SP1,2026-11-07,Malaga,Santander,free_kicks,under,72.0,32.5,
+SP1,2026-11-07,Malaga,Santander,free_kicks,under,53.0,29.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,result,A,39.0,,
+I1,2026-11-07,Cagliari,Frosinone,btts,yes,64.0,,
+I1,2026-11-07,Cagliari,Frosinone,total_shots,over,72.0,27.5,
+I1,2026-11-07,Cagliari,Frosinone,total_shots,under,72.0,35.5,
+I1,2026-11-07,Cagliari,Frosinone,total_shots,over,50.0,31.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,total_sot,over,72.0,7.5,
+I1,2026-11-07,Cagliari,Frosinone,total_sot,under,72.0,12.5,
+I1,2026-11-07,Cagliari,Frosinone,total_sot,over,54.0,9.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,home_sot,over,72.0,2.5,
+I1,2026-11-07,Cagliari,Frosinone,home_sot,under,72.0,6.5,
+I1,2026-11-07,Cagliari,Frosinone,home_sot,over,54.0,4.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,away_sot,over,72.0,3.5,
+I1,2026-11-07,Cagliari,Frosinone,away_sot,under,72.0,6.5,
+I1,2026-11-07,Cagliari,Frosinone,away_sot,over,56.0,4.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,home_cards,over,72.0,0.5,
+I1,2026-11-07,Cagliari,Frosinone,home_cards,under,72.0,3.5,
+I1,2026-11-07,Cagliari,Frosinone,home_cards,under,64.0,2.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,away_cards,over,72.0,0.5,
+I1,2026-11-07,Cagliari,Frosinone,away_cards,under,72.0,2.5,
+I1,2026-11-07,Cagliari,Frosinone,away_cards,over,57.0,1.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,total_cards,over,72.0,2.5,
+I1,2026-11-07,Cagliari,Frosinone,total_cards,under,72.0,5.5,
+I1,2026-11-07,Cagliari,Frosinone,total_cards,under,60.0,4.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,home_fouls,over,72.0,9.5,
+I1,2026-11-07,Cagliari,Frosinone,home_fouls,under,72.0,14.5,
+I1,2026-11-07,Cagliari,Frosinone,home_fouls,under,51.0,12.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,away_fouls,over,72.0,11.5,
+I1,2026-11-07,Cagliari,Frosinone,away_fouls,under,72.0,16.5,
+I1,2026-11-07,Cagliari,Frosinone,away_fouls,over,52.0,13.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,home_gk,over,72.0,5.5,
+I1,2026-11-07,Cagliari,Frosinone,home_gk,under,72.0,9.5,
+I1,2026-11-07,Cagliari,Frosinone,home_gk,over,50.0,7.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,away_gk,over,72.0,5.5,
+I1,2026-11-07,Cagliari,Frosinone,away_gk,under,72.0,10.5,
+I1,2026-11-07,Cagliari,Frosinone,away_gk,under,55.0,8.5,1.0
+I1,2026-11-07,Cagliari,Frosinone,free_kicks,over,72.0,26.5,
+I1,2026-11-07,Cagliari,Frosinone,free_kicks,under,72.0,33.5,
+I1,2026-11-07,Cagliari,Frosinone,free_kicks,over,53.0,29.5,1.0
+I1,2026-11-07,Torino,Lecce,result,H,52.0,,
+I1,2026-11-07,Torino,Lecce,btts,yes,52.0,,
+I1,2026-11-07,Torino,Lecce,total_shots,over,72.0,21.5,
+I1,2026-11-07,Torino,Lecce,total_shots,under,72.0,29.5,
+I1,2026-11-07,Torino,Lecce,total_shots,under,51.0,25.5,1.0
+I1,2026-11-07,Torino,Lecce,total_sot,over,72.0,6.5,
+I1,2026-11-07,Torino,Lecce,total_sot,under,72.0,10.5,
+I1,2026-11-07,Torino,Lecce,total_sot,under,53.0,8.5,1.0
+I1,2026-11-07,Torino,Lecce,home_sot,over,72.0,3.5,
+I1,2026-11-07,Torino,Lecce,home_sot,under,72.0,6.5,
+I1,2026-11-07,Torino,Lecce,home_sot,over,56.0,4.5,1.0
+I1,2026-11-07,Torino,Lecce,away_sot,over,72.0,1.5,
+I1,2026-11-07,Torino,Lecce,away_sot,under,72.0,4.5,
+I1,2026-11-07,Torino,Lecce,away_sot,under,56.0,3.5,1.0
+I1,2026-11-07,Torino,Lecce,home_cards,over,72.0,0.5,
+I1,2026-11-07,Torino,Lecce,home_cards,under,72.0,2.5,
+I1,2026-11-07,Torino,Lecce,home_cards,under,56.0,1.5,1.0
+I1,2026-11-07,Torino,Lecce,away_cards,over,72.0,0.5,
+I1,2026-11-07,Torino,Lecce,away_cards,under,72.0,2.5,
+I1,2026-11-07,Torino,Lecce,away_cards,over,57.0,1.5,1.0
+I1,2026-11-07,Torino,Lecce,total_cards,over,72.0,1.5,
+I1,2026-11-07,Torino,Lecce,total_cards,under,72.0,4.5,
+I1,2026-11-07,Torino,Lecce,total_cards,under,59.0,3.5,1.0
+I1,2026-11-07,Torino,Lecce,home_fouls,over,72.0,9.5,
+I1,2026-11-07,Torino,Lecce,home_fouls,under,72.0,14.5,
+I1,2026-11-07,Torino,Lecce,home_fouls,over,52.0,11.5,1.0
+I1,2026-11-07,Torino,Lecce,away_fouls,over,72.0,9.5,
+I1,2026-11-07,Torino,Lecce,away_fouls,under,72.0,14.5,
+I1,2026-11-07,Torino,Lecce,away_fouls,over,54.0,11.5,1.0
+I1,2026-11-07,Torino,Lecce,home_gk,over,72.0,4.5,
+I1,2026-11-07,Torino,Lecce,home_gk,under,72.0,8.5,
+I1,2026-11-07,Torino,Lecce,home_gk,under,54.0,6.5,1.0
+I1,2026-11-07,Torino,Lecce,away_gk,over,72.0,5.5,
+I1,2026-11-07,Torino,Lecce,away_gk,under,72.0,9.5,
+I1,2026-11-07,Torino,Lecce,away_gk,over,51.0,7.5,1.0
+I1,2026-11-07,Torino,Lecce,free_kicks,over,72.0,23.5,
+I1,2026-11-07,Torino,Lecce,free_kicks,under,72.0,30.5,
+I1,2026-11-07,Torino,Lecce,free_kicks,under,52.0,27.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,result,H,44.0,,
+I2,2026-11-07,Cesena,Catanzaro,btts,yes,57.0,,
+I2,2026-11-07,Cesena,Catanzaro,total_shots,over,72.0,24.5,
+I2,2026-11-07,Cesena,Catanzaro,total_shots,under,72.0,32.5,
+I2,2026-11-07,Cesena,Catanzaro,total_shots,under,53.0,28.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,total_sot,over,72.0,6.5,
+I2,2026-11-07,Cesena,Catanzaro,total_sot,under,72.0,10.5,
+I2,2026-11-07,Cesena,Catanzaro,total_sot,over,52.0,8.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,home_sot,over,72.0,2.5,
+I2,2026-11-07,Cesena,Catanzaro,home_sot,under,72.0,6.5,
+I2,2026-11-07,Cesena,Catanzaro,home_sot,over,54.0,4.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,away_sot,over,72.0,2.5,
+I2,2026-11-07,Cesena,Catanzaro,away_sot,under,72.0,5.5,
+I2,2026-11-07,Cesena,Catanzaro,away_sot,over,54.0,3.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,home_cards,over,72.0,0.5,
+I2,2026-11-07,Cesena,Catanzaro,home_cards,under,72.0,3.5,
+I2,2026-11-07,Cesena,Catanzaro,home_cards,under,64.0,2.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,away_cards,over,72.0,0.5,
+I2,2026-11-07,Cesena,Catanzaro,away_cards,under,72.0,3.5,
+I2,2026-11-07,Cesena,Catanzaro,away_cards,under,64.0,2.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,total_cards,over,72.0,2.5,
+I2,2026-11-07,Cesena,Catanzaro,total_cards,under,72.0,5.5,
+I2,2026-11-07,Cesena,Catanzaro,total_cards,under,57.0,4.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,home_fouls,over,72.0,11.5,
+I2,2026-11-07,Cesena,Catanzaro,home_fouls,under,72.0,16.5,
+I2,2026-11-07,Cesena,Catanzaro,home_fouls,under,52.0,14.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,away_fouls,over,72.0,8.5,
+I2,2026-11-07,Cesena,Catanzaro,away_fouls,under,72.0,13.5,
+I2,2026-11-07,Cesena,Catanzaro,away_fouls,over,52.0,10.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,home_gk,over,72.0,5.5,
+I2,2026-11-07,Cesena,Catanzaro,home_gk,under,72.0,9.5,
+I2,2026-11-07,Cesena,Catanzaro,home_gk,under,53.0,7.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,away_gk,over,72.0,6.5,
+I2,2026-11-07,Cesena,Catanzaro,away_gk,under,72.0,10.5,
+I2,2026-11-07,Cesena,Catanzaro,away_gk,over,51.0,8.5,1.0
+I2,2026-11-07,Cesena,Catanzaro,free_kicks,over,72.0,25.5,
+I2,2026-11-07,Cesena,Catanzaro,free_kicks,under,72.0,32.5,
+I2,2026-11-07,Cesena,Catanzaro,free_kicks,over,51.0,28.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,result,H,53.0,,
+I2,2026-11-07,Juve Stabia,Arezzo,btts,yes,52.0,,
+I2,2026-11-07,Juve Stabia,Arezzo,total_shots,over,72.0,21.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_shots,under,72.0,28.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_shots,over,53.0,24.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,total_sot,over,72.0,5.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_sot,under,72.0,10.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_sot,under,57.0,8.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,home_sot,over,72.0,3.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_sot,under,72.0,6.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_sot,over,56.0,4.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,away_sot,over,72.0,1.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_sot,under,72.0,4.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_sot,over,60.0,2.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,home_cards,over,72.0,0.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_cards,under,72.0,3.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_cards,over,57.0,1.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,away_cards,over,72.0,0.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_cards,under,72.0,3.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_cards,over,62.0,1.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,total_cards,over,72.0,2.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_cards,under,72.0,5.5,
+I2,2026-11-07,Juve Stabia,Arezzo,total_cards,over,53.0,3.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,home_fouls,over,72.0,11.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_fouls,under,72.0,16.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_fouls,over,51.0,13.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,away_fouls,over,72.0,11.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_fouls,under,72.0,17.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_fouls,over,50.0,14.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,home_gk,over,72.0,4.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_gk,under,72.0,9.5,
+I2,2026-11-07,Juve Stabia,Arezzo,home_gk,over,56.0,6.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,away_gk,over,72.0,5.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_gk,under,72.0,10.5,
+I2,2026-11-07,Juve Stabia,Arezzo,away_gk,over,56.0,7.5,1.0
+I2,2026-11-07,Juve Stabia,Arezzo,free_kicks,over,72.0,28.5,
+I2,2026-11-07,Juve Stabia,Arezzo,free_kicks,under,72.0,35.5,
+I2,2026-11-07,Juve Stabia,Arezzo,free_kicks,over,53.0,31.5,1.0
+I2,2026-11-07,Padova,Empoli,result,H,43.0,,
+I2,2026-11-07,Padova,Empoli,btts,yes,52.0,,
+I2,2026-11-07,Padova,Empoli,total_shots,over,72.0,23.5,
+I2,2026-11-07,Padova,Empoli,total_shots,under,72.0,30.5,
+I2,2026-11-07,Padova,Empoli,total_shots,over,53.0,26.5,1.0
+I2,2026-11-07,Padova,Empoli,total_sot,over,72.0,5.5,
+I2,2026-11-07,Padova,Empoli,total_sot,under,72.0,10.5,
+I2,2026-11-07,Padova,Empoli,total_sot,under,55.0,8.5,1.0
+I2,2026-11-07,Padova,Empoli,home_sot,over,72.0,2.5,
+I2,2026-11-07,Padova,Empoli,home_sot,under,72.0,6.5,
+I2,2026-11-07,Padova,Empoli,home_sot,under,53.0,4.5,1.0
+I2,2026-11-07,Padova,Empoli,away_sot,over,72.0,1.5,
+I2,2026-11-07,Padova,Empoli,away_sot,under,72.0,5.5,
+I2,2026-11-07,Padova,Empoli,away_sot,over,51.0,3.5,1.0
+I2,2026-11-07,Padova,Empoli,home_cards,over,72.0,0.5,
+I2,2026-11-07,Padova,Empoli,home_cards,under,72.0,3.5,
+I2,2026-11-07,Padova,Empoli,home_cards,over,62.0,1.5,1.0
+I2,2026-11-07,Padova,Empoli,away_cards,over,72.0,0.5,
+I2,2026-11-07,Padova,Empoli,away_cards,under,72.0,3.5,
+I2,2026-11-07,Padova,Empoli,away_cards,under,61.0,2.5,1.0
+I2,2026-11-07,Padova,Empoli,total_cards,over,72.0,2.5,
+I2,2026-11-07,Padova,Empoli,total_cards,under,72.0,5.5,
+I2,2026-11-07,Padova,Empoli,total_cards,under,58.0,4.5,1.0
+I2,2026-11-07,Padova,Empoli,home_fouls,over,72.0,10.5,
+I2,2026-11-07,Padova,Empoli,home_fouls,under,72.0,16.5,
+I2,2026-11-07,Padova,Empoli,home_fouls,under,51.0,13.5,1.0
+I2,2026-11-07,Padova,Empoli,away_fouls,over,72.0,11.5,
+I2,2026-11-07,Padova,Empoli,away_fouls,under,72.0,16.5,
+I2,2026-11-07,Padova,Empoli,away_fouls,over,53.0,13.5,1.0
+I2,2026-11-07,Padova,Empoli,home_gk,over,72.0,4.5,
+I2,2026-11-07,Padova,Empoli,home_gk,under,72.0,9.5,
+I2,2026-11-07,Padova,Empoli,home_gk,under,56.0,7.5,1.0
+I2,2026-11-07,Padova,Empoli,away_gk,over,72.0,5.5,
+I2,2026-11-07,Padova,Empoli,away_gk,under,72.0,10.5,
+I2,2026-11-07,Padova,Empoli,away_gk,over,54.0,7.5,1.0
+I2,2026-11-07,Padova,Empoli,free_kicks,over,72.0,27.5,
+I2,2026-11-07,Padova,Empoli,free_kicks,under,72.0,34.5,
+I2,2026-11-07,Padova,Empoli,free_kicks,over,53.0,30.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,result,H,59.0,,
+I2,2026-11-07,Pisa,Sudtirol,btts,yes,52.0,,
+I2,2026-11-07,Pisa,Sudtirol,total_shots,over,72.0,23.5,
+I2,2026-11-07,Pisa,Sudtirol,total_shots,under,72.0,31.5,
+I2,2026-11-07,Pisa,Sudtirol,total_shots,under,51.0,27.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,total_sot,over,72.0,6.5,
+I2,2026-11-07,Pisa,Sudtirol,total_sot,under,72.0,10.5,
+I2,2026-11-07,Pisa,Sudtirol,total_sot,over,50.0,8.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,home_sot,over,72.0,3.5,
+I2,2026-11-07,Pisa,Sudtirol,home_sot,under,72.0,7.5,
+I2,2026-11-07,Pisa,Sudtirol,home_sot,under,51.0,5.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,away_sot,over,72.0,1.5,
+I2,2026-11-07,Pisa,Sudtirol,away_sot,under,72.0,4.5,
+I2,2026-11-07,Pisa,Sudtirol,away_sot,over,57.0,2.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,home_cards,over,72.0,0.5,
+I2,2026-11-07,Pisa,Sudtirol,home_cards,under,72.0,2.5,
+I2,2026-11-07,Pisa,Sudtirol,home_cards,over,51.0,1.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,away_cards,over,72.0,0.5,
+I2,2026-11-07,Pisa,Sudtirol,away_cards,under,72.0,3.5,
+I2,2026-11-07,Pisa,Sudtirol,away_cards,over,64.0,1.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,total_cards,over,72.0,1.5,
+I2,2026-11-07,Pisa,Sudtirol,total_cards,under,72.0,5.5,
+I2,2026-11-07,Pisa,Sudtirol,total_cards,over,51.0,3.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,home_fouls,over,72.0,8.5,
+I2,2026-11-07,Pisa,Sudtirol,home_fouls,under,72.0,13.5,
+I2,2026-11-07,Pisa,Sudtirol,home_fouls,under,52.0,11.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,away_fouls,over,72.0,10.5,
+I2,2026-11-07,Pisa,Sudtirol,away_fouls,under,72.0,15.5,
+I2,2026-11-07,Pisa,Sudtirol,away_fouls,under,53.0,13.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,home_gk,over,72.0,5.5,
+I2,2026-11-07,Pisa,Sudtirol,home_gk,under,72.0,9.5,
+I2,2026-11-07,Pisa,Sudtirol,home_gk,under,56.0,7.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,away_gk,over,72.0,6.5,
+I2,2026-11-07,Pisa,Sudtirol,away_gk,under,72.0,10.5,
+I2,2026-11-07,Pisa,Sudtirol,away_gk,under,53.0,8.5,1.0
+I2,2026-11-07,Pisa,Sudtirol,free_kicks,over,72.0,24.5,
+I2,2026-11-07,Pisa,Sudtirol,free_kicks,under,72.0,31.5,
+I2,2026-11-07,Pisa,Sudtirol,free_kicks,under,52.0,28.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,result,H,72.0,,
+D1,2026-11-07,Dortmund,Elversberg,btts,yes,59.0,,
+D1,2026-11-07,Dortmund,Elversberg,total_shots,over,72.0,25.5,
+D1,2026-11-07,Dortmund,Elversberg,total_shots,under,72.0,33.5,
+D1,2026-11-07,Dortmund,Elversberg,total_shots,under,52.0,29.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,total_sot,over,72.0,7.5,
+D1,2026-11-07,Dortmund,Elversberg,total_sot,under,72.0,12.5,
+D1,2026-11-07,Dortmund,Elversberg,total_sot,over,56.0,9.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,home_sot,over,72.0,4.5,
+D1,2026-11-07,Dortmund,Elversberg,home_sot,under,72.0,9.5,
+D1,2026-11-07,Dortmund,Elversberg,home_sot,over,56.0,6.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,away_sot,over,72.0,1.5,
+D1,2026-11-07,Dortmund,Elversberg,away_sot,under,72.0,4.5,
+D1,2026-11-07,Dortmund,Elversberg,away_sot,under,59.0,3.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,home_cards,over,72.0,0.5,
+D1,2026-11-07,Dortmund,Elversberg,home_cards,under,72.0,2.5,
+D1,2026-11-07,Dortmund,Elversberg,home_cards,over,50.0,1.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,away_cards,over,72.0,0.5,
+D1,2026-11-07,Dortmund,Elversberg,away_cards,under,72.0,2.5,
+D1,2026-11-07,Dortmund,Elversberg,away_cards,over,50.0,1.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,total_cards,over,72.0,1.5,
+D1,2026-11-07,Dortmund,Elversberg,total_cards,under,72.0,4.5,
+D1,2026-11-07,Dortmund,Elversberg,total_cards,under,56.0,3.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,home_fouls,over,72.0,9.5,
+D1,2026-11-07,Dortmund,Elversberg,home_fouls,under,72.0,14.5,
+D1,2026-11-07,Dortmund,Elversberg,home_fouls,over,53.0,11.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,away_fouls,over,72.0,8.5,
+D1,2026-11-07,Dortmund,Elversberg,away_fouls,under,72.0,13.5,
+D1,2026-11-07,Dortmund,Elversberg,away_fouls,over,55.0,10.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,home_gk,over,72.0,4.5,
+D1,2026-11-07,Dortmund,Elversberg,home_gk,under,72.0,8.5,
+D1,2026-11-07,Dortmund,Elversberg,home_gk,over,57.0,5.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,away_gk,over,72.0,8.5,
+D1,2026-11-07,Dortmund,Elversberg,away_gk,under,72.0,14.5,
+D1,2026-11-07,Dortmund,Elversberg,away_gk,over,50.0,11.5,1.0
+D1,2026-11-07,Dortmund,Elversberg,free_kicks,over,72.0,22.5,
+D1,2026-11-07,Dortmund,Elversberg,free_kicks,under,72.0,29.5,
+D1,2026-11-07,Dortmund,Elversberg,free_kicks,under,51.0,26.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,result,A,71.0,,
+D1,2026-11-07,Mainz,Bayern Munich,btts,yes,68.0,,
+D1,2026-11-07,Mainz,Bayern Munich,total_shots,over,72.0,26.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_shots,under,72.0,34.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_shots,over,50.0,30.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,total_sot,over,72.0,9.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_sot,under,72.0,14.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_sot,over,50.0,11.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,home_sot,over,72.0,2.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_sot,under,72.0,5.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_sot,over,54.0,3.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,away_sot,over,72.0,5.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_sot,under,72.0,9.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_sot,over,51.0,7.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,home_cards,over,72.0,0.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_cards,under,72.0,3.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_cards,over,57.0,1.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,away_cards,over,72.0,0.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_cards,under,72.0,2.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_cards,under,63.0,1.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,total_cards,over,72.0,1.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_cards,under,72.0,4.5,
+D1,2026-11-07,Mainz,Bayern Munich,total_cards,under,57.0,3.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,home_fouls,over,72.0,7.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_fouls,under,72.0,11.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_fouls,over,52.0,9.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,away_fouls,over,72.0,5.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_fouls,under,72.0,10.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_fouls,over,55.0,7.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,home_gk,over,72.0,6.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_gk,under,72.0,11.5,
+D1,2026-11-07,Mainz,Bayern Munich,home_gk,over,52.0,8.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,away_gk,over,72.0,4.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_gk,under,72.0,8.5,
+D1,2026-11-07,Mainz,Bayern Munich,away_gk,under,54.0,6.5,1.0
+D1,2026-11-07,Mainz,Bayern Munich,free_kicks,over,72.0,18.5,
+D1,2026-11-07,Mainz,Bayern Munich,free_kicks,under,72.0,24.5,
+D1,2026-11-07,Mainz,Bayern Munich,free_kicks,under,52.0,21.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,result,A,44.0,,
+D1,2026-11-07,Paderborn,Ein Frankfurt,btts,yes,66.0,,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_shots,over,72.0,24.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_shots,under,72.0,32.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_shots,over,52.0,28.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_sot,over,72.0,7.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_sot,under,72.0,12.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_sot,over,54.0,9.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_sot,over,72.0,2.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_sot,under,72.0,6.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_sot,over,53.0,4.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_sot,over,72.0,3.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_sot,under,72.0,6.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_sot,over,58.0,4.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_cards,over,72.0,0.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_cards,under,72.0,2.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_cards,over,54.0,1.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_cards,over,72.0,0.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_cards,under,72.0,3.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_cards,over,60.0,1.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_cards,over,72.0,2.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_cards,under,72.0,5.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,total_cards,over,54.0,3.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_fouls,over,72.0,8.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_fouls,under,72.0,12.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_fouls,under,52.0,10.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_fouls,over,72.0,8.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_fouls,under,72.0,13.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_fouls,over,55.0,10.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_gk,over,72.0,5.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_gk,under,72.0,9.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,home_gk,under,55.0,7.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_gk,over,72.0,5.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_gk,under,72.0,10.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,away_gk,over,55.0,7.5,1.0
+D1,2026-11-07,Paderborn,Ein Frankfurt,free_kicks,over,72.0,21.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,free_kicks,under,72.0,28.5,
+D1,2026-11-07,Paderborn,Ein Frankfurt,free_kicks,over,54.0,24.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,result,H,65.0,,
+D1,2026-11-07,RB Leipzig,Augsburg,btts,yes,68.0,,
+D1,2026-11-07,RB Leipzig,Augsburg,total_shots,over,72.0,27.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_shots,under,72.0,36.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_shots,over,53.0,31.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,total_sot,over,72.0,8.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_sot,under,72.0,13.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_sot,under,52.0,11.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,home_sot,over,72.0,5.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_sot,under,72.0,9.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_sot,under,54.0,7.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,away_sot,over,72.0,2.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_sot,under,72.0,5.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_sot,over,59.0,3.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,home_cards,over,72.0,0.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_cards,under,72.0,2.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_cards,under,61.0,1.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,away_cards,over,72.0,0.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_cards,under,72.0,2.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_cards,over,53.0,1.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,total_cards,over,72.0,1.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_cards,under,72.0,4.5,
+D1,2026-11-07,RB Leipzig,Augsburg,total_cards,under,59.0,3.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,home_fouls,over,72.0,7.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_fouls,under,72.0,11.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_fouls,over,52.0,9.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,away_fouls,over,72.0,8.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_fouls,under,72.0,13.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_fouls,over,51.0,10.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,home_gk,over,72.0,4.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_gk,under,72.0,8.5,
+D1,2026-11-07,RB Leipzig,Augsburg,home_gk,under,51.0,6.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,away_gk,over,72.0,6.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_gk,under,72.0,11.5,
+D1,2026-11-07,RB Leipzig,Augsburg,away_gk,over,54.0,8.5,1.0
+D1,2026-11-07,RB Leipzig,Augsburg,free_kicks,over,72.0,20.5,
+D1,2026-11-07,RB Leipzig,Augsburg,free_kicks,under,72.0,27.5,
+D1,2026-11-07,RB Leipzig,Augsburg,free_kicks,over,54.0,23.5,1.0
+E1,2026-11-07,Birmingham,Swansea,result,H,51.0,,
+E1,2026-11-07,Birmingham,Swansea,btts,yes,53.0,,
+E1,2026-11-07,Birmingham,Swansea,total_shots,over,72.0,21.5,
+E1,2026-11-07,Birmingham,Swansea,total_shots,under,72.0,28.5,
+E1,2026-11-07,Birmingham,Swansea,total_shots,over,52.0,24.5,1.0
+E1,2026-11-07,Birmingham,Swansea,total_sot,over,72.0,6.5,
+E1,2026-11-07,Birmingham,Swansea,total_sot,under,72.0,10.5,
+E1,2026-11-07,Birmingham,Swansea,total_sot,under,52.0,8.5,1.0
+E1,2026-11-07,Birmingham,Swansea,home_sot,over,72.0,3.5,
+E1,2026-11-07,Birmingham,Swansea,home_sot,under,72.0,6.5,
+E1,2026-11-07,Birmingham,Swansea,home_sot,over,57.0,4.5,1.0
+E1,2026-11-07,Birmingham,Swansea,away_sot,over,72.0,1.5,
+E1,2026-11-07,Birmingham,Swansea,away_sot,under,72.0,4.5,
+E1,2026-11-07,Birmingham,Swansea,away_sot,under,56.0,3.5,1.0
+E1,2026-11-07,Birmingham,Swansea,home_cards,over,72.0,0.5,
+E1,2026-11-07,Birmingham,Swansea,home_cards,under,72.0,3.5,
+E1,2026-11-07,Birmingham,Swansea,home_cards,over,58.0,1.5,1.0
+E1,2026-11-07,Birmingham,Swansea,away_cards,over,72.0,0.5,
+E1,2026-11-07,Birmingham,Swansea,away_cards,under,72.0,3.5,
+E1,2026-11-07,Birmingham,Swansea,away_cards,over,63.0,1.5,1.0
+E1,2026-11-07,Birmingham,Swansea,total_cards,over,72.0,2.5,
+E1,2026-11-07,Birmingham,Swansea,total_cards,under,72.0,5.5,
+E1,2026-11-07,Birmingham,Swansea,total_cards,over,55.0,3.5,1.0
+E1,2026-11-07,Birmingham,Swansea,home_fouls,over,72.0,9.5,
+E1,2026-11-07,Birmingham,Swansea,home_fouls,under,72.0,14.5,
+E1,2026-11-07,Birmingham,Swansea,home_fouls,under,54.0,12.5,1.0
+E1,2026-11-07,Birmingham,Swansea,away_fouls,over,72.0,7.5,
+E1,2026-11-07,Birmingham,Swansea,away_fouls,under,72.0,12.5,
+E1,2026-11-07,Birmingham,Swansea,away_fouls,over,56.0,9.5,1.0
+E1,2026-11-07,Birmingham,Swansea,home_gk,over,72.0,4.5,
+E1,2026-11-07,Birmingham,Swansea,home_gk,under,72.0,8.5,
+E1,2026-11-07,Birmingham,Swansea,home_gk,under,56.0,6.5,1.0
+E1,2026-11-07,Birmingham,Swansea,away_gk,over,72.0,5.5,
+E1,2026-11-07,Birmingham,Swansea,away_gk,under,72.0,9.5,
+E1,2026-11-07,Birmingham,Swansea,away_gk,under,51.0,7.5,1.0
+E1,2026-11-07,Birmingham,Swansea,free_kicks,over,72.0,22.5,
+E1,2026-11-07,Birmingham,Swansea,free_kicks,under,72.0,29.5,
+E1,2026-11-07,Birmingham,Swansea,free_kicks,over,53.0,25.5,1.0
+E1,2026-11-07,Blackburn,West Ham,result,A,57.0,,
+E1,2026-11-07,Blackburn,West Ham,btts,yes,58.0,,
+E1,2026-11-07,Blackburn,West Ham,total_shots,over,72.0,23.5,
+E1,2026-11-07,Blackburn,West Ham,total_shots,under,72.0,31.5,
+E1,2026-11-07,Blackburn,West Ham,total_shots,under,51.0,27.5,1.0
+E1,2026-11-07,Blackburn,West Ham,total_sot,over,72.0,6.5,
+E1,2026-11-07,Blackburn,West Ham,total_sot,under,72.0,11.5,
+E1,2026-11-07,Blackburn,West Ham,total_sot,over,56.0,8.5,1.0
+E1,2026-11-07,Blackburn,West Ham,home_sot,over,72.0,1.5,
+E1,2026-11-07,Blackburn,West Ham,home_sot,under,72.0,5.5,
+E1,2026-11-07,Blackburn,West Ham,home_sot,under,52.0,3.5,1.0
+E1,2026-11-07,Blackburn,West Ham,away_sot,over,72.0,3.5,
+E1,2026-11-07,Blackburn,West Ham,away_sot,under,72.0,7.5,
+E1,2026-11-07,Blackburn,West Ham,away_sot,under,52.0,5.5,1.0
+E1,2026-11-07,Blackburn,West Ham,home_cards,over,72.0,0.5,
+E1,2026-11-07,Blackburn,West Ham,home_cards,under,72.0,2.5,
+E1,2026-11-07,Blackburn,West Ham,home_cards,over,55.0,1.5,1.0
+E1,2026-11-07,Blackburn,West Ham,away_cards,over,72.0,0.5,
+E1,2026-11-07,Blackburn,West Ham,away_cards,under,72.0,3.5,
+E1,2026-11-07,Blackburn,West Ham,away_cards,over,60.0,1.5,1.0
+E1,2026-11-07,Blackburn,West Ham,total_cards,over,72.0,2.5,
+E1,2026-11-07,Blackburn,West Ham,total_cards,under,72.0,5.5,
+E1,2026-11-07,Blackburn,West Ham,total_cards,over,52.0,3.5,1.0
+E1,2026-11-07,Blackburn,West Ham,home_fouls,over,72.0,7.5,
+E1,2026-11-07,Blackburn,West Ham,home_fouls,under,72.0,12.5,
+E1,2026-11-07,Blackburn,West Ham,home_fouls,over,54.0,9.5,1.0
+E1,2026-11-07,Blackburn,West Ham,away_fouls,over,72.0,8.5,
+E1,2026-11-07,Blackburn,West Ham,away_fouls,under,72.0,12.5,
+E1,2026-11-07,Blackburn,West Ham,away_fouls,under,51.0,10.5,1.0
+E1,2026-11-07,Blackburn,West Ham,home_gk,over,72.0,6.5,
+E1,2026-11-07,Blackburn,West Ham,home_gk,under,72.0,10.5,
+E1,2026-11-07,Blackburn,West Ham,home_gk,under,51.0,8.5,1.0
+E1,2026-11-07,Blackburn,West Ham,away_gk,over,72.0,4.5,
+E1,2026-11-07,Blackburn,West Ham,away_gk,under,72.0,9.5,
+E1,2026-11-07,Blackburn,West Ham,away_gk,over,56.0,6.5,1.0
+E1,2026-11-07,Blackburn,West Ham,free_kicks,over,72.0,20.5,
+E1,2026-11-07,Blackburn,West Ham,free_kicks,under,72.0,27.5,
+E1,2026-11-07,Blackburn,West Ham,free_kicks,over,54.0,23.5,1.0
+E1,2026-11-07,Cardiff,Burnley,result,H,44.0,,
+E1,2026-11-07,Cardiff,Burnley,btts,yes,64.0,,
+E1,2026-11-07,Cardiff,Burnley,total_shots,over,72.0,25.5,
+E1,2026-11-07,Cardiff,Burnley,total_shots,under,72.0,33.5,
+E1,2026-11-07,Cardiff,Burnley,total_shots,under,52.0,29.5,1.0
+E1,2026-11-07,Cardiff,Burnley,total_sot,over,72.0,7.5,
+E1,2026-11-07,Cardiff,Burnley,total_sot,under,72.0,12.5,
+E1,2026-11-07,Cardiff,Burnley,total_sot,over,54.0,9.5,1.0
+E1,2026-11-07,Cardiff,Burnley,home_sot,over,72.0,3.5,
+E1,2026-11-07,Cardiff,Burnley,home_sot,under,72.0,7.5,
+E1,2026-11-07,Cardiff,Burnley,home_sot,under,52.0,5.5,1.0
+E1,2026-11-07,Cardiff,Burnley,away_sot,over,72.0,2.5,
+E1,2026-11-07,Cardiff,Burnley,away_sot,under,72.0,6.5,
+E1,2026-11-07,Cardiff,Burnley,away_sot,under,55.0,4.5,1.0
+E1,2026-11-07,Cardiff,Burnley,home_cards,over,72.0,0.5,
+E1,2026-11-07,Cardiff,Burnley,home_cards,under,72.0,2.5,
+E1,2026-11-07,Cardiff,Burnley,home_cards,under,52.0,1.5,1.0
+E1,2026-11-07,Cardiff,Burnley,away_cards,over,72.0,0.5,
+E1,2026-11-07,Cardiff,Burnley,away_cards,under,72.0,3.5,
+E1,2026-11-07,Cardiff,Burnley,away_cards,under,61.0,2.5,1.0
+E1,2026-11-07,Cardiff,Burnley,total_cards,over,72.0,2.5,
+E1,2026-11-07,Cardiff,Burnley,total_cards,under,72.0,5.5,
+E1,2026-11-07,Cardiff,Burnley,total_cards,over,56.0,3.5,1.0
+E1,2026-11-07,Cardiff,Burnley,home_fouls,over,72.0,7.5,
+E1,2026-11-07,Cardiff,Burnley,home_fouls,under,72.0,11.5,
+E1,2026-11-07,Cardiff,Burnley,home_fouls,under,53.0,9.5,1.0
+E1,2026-11-07,Cardiff,Burnley,away_fouls,over,72.0,9.5,
+E1,2026-11-07,Cardiff,Burnley,away_fouls,under,72.0,14.5,
+E1,2026-11-07,Cardiff,Burnley,away_fouls,under,54.0,12.5,1.0
+E1,2026-11-07,Cardiff,Burnley,home_gk,over,72.0,4.5,
+E1,2026-11-07,Cardiff,Burnley,home_gk,under,72.0,8.5,
+E1,2026-11-07,Cardiff,Burnley,home_gk,over,53.0,6.5,1.0
+E1,2026-11-07,Cardiff,Burnley,away_gk,over,72.0,5.5,
+E1,2026-11-07,Cardiff,Burnley,away_gk,under,72.0,9.5,
+E1,2026-11-07,Cardiff,Burnley,away_gk,over,51.0,7.5,1.0
+E1,2026-11-07,Cardiff,Burnley,free_kicks,over,72.0,21.5,
+E1,2026-11-07,Cardiff,Burnley,free_kicks,under,72.0,28.5,
+E1,2026-11-07,Cardiff,Burnley,free_kicks,under,53.0,25.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,result,A,46.0,,
+E1,2026-11-07,Charlton,Sheffield United,btts,yes,55.0,,
+E1,2026-11-07,Charlton,Sheffield United,total_shots,over,72.0,22.5,
+E1,2026-11-07,Charlton,Sheffield United,total_shots,under,72.0,29.5,
+E1,2026-11-07,Charlton,Sheffield United,total_shots,over,53.0,25.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,total_sot,over,72.0,6.5,
+E1,2026-11-07,Charlton,Sheffield United,total_sot,under,72.0,10.5,
+E1,2026-11-07,Charlton,Sheffield United,total_sot,under,55.0,8.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,home_sot,over,72.0,1.5,
+E1,2026-11-07,Charlton,Sheffield United,home_sot,under,72.0,5.5,
+E1,2026-11-07,Charlton,Sheffield United,home_sot,over,52.0,3.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,away_sot,over,72.0,2.5,
+E1,2026-11-07,Charlton,Sheffield United,away_sot,under,72.0,6.5,
+E1,2026-11-07,Charlton,Sheffield United,away_sot,under,53.0,4.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,home_cards,over,72.0,0.5,
+E1,2026-11-07,Charlton,Sheffield United,home_cards,under,72.0,3.5,
+E1,2026-11-07,Charlton,Sheffield United,home_cards,over,63.0,1.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,away_cards,over,72.0,0.5,
+E1,2026-11-07,Charlton,Sheffield United,away_cards,under,72.0,3.5,
+E1,2026-11-07,Charlton,Sheffield United,away_cards,over,62.0,1.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,total_cards,over,72.0,2.5,
+E1,2026-11-07,Charlton,Sheffield United,total_cards,under,72.0,5.5,
+E1,2026-11-07,Charlton,Sheffield United,total_cards,over,58.0,3.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,home_fouls,over,72.0,10.5,
+E1,2026-11-07,Charlton,Sheffield United,home_fouls,under,72.0,15.5,
+E1,2026-11-07,Charlton,Sheffield United,home_fouls,over,51.0,12.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,away_fouls,over,72.0,7.5,
+E1,2026-11-07,Charlton,Sheffield United,away_fouls,under,72.0,12.5,
+E1,2026-11-07,Charlton,Sheffield United,away_fouls,under,54.0,10.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,home_gk,over,72.0,5.5,
+E1,2026-11-07,Charlton,Sheffield United,home_gk,under,72.0,10.5,
+E1,2026-11-07,Charlton,Sheffield United,home_gk,under,56.0,8.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,away_gk,over,72.0,5.5,
+E1,2026-11-07,Charlton,Sheffield United,away_gk,under,72.0,9.5,
+E1,2026-11-07,Charlton,Sheffield United,away_gk,under,53.0,7.5,1.0
+E1,2026-11-07,Charlton,Sheffield United,free_kicks,over,72.0,23.5,
+E1,2026-11-07,Charlton,Sheffield United,free_kicks,under,72.0,30.5,
+E1,2026-11-07,Charlton,Sheffield United,free_kicks,over,50.0,26.5,1.0
+E1,2026-11-07,Preston,Southampton,result,A,57.0,,
+E1,2026-11-07,Preston,Southampton,btts,yes,59.0,,
+E1,2026-11-07,Preston,Southampton,total_shots,over,72.0,24.5,
+E1,2026-11-07,Preston,Southampton,total_shots,under,72.0,32.5,
+E1,2026-11-07,Preston,Southampton,total_shots,under,51.0,28.5,1.0
+E1,2026-11-07,Preston,Southampton,total_sot,over,72.0,6.5,
+E1,2026-11-07,Preston,Southampton,total_sot,under,72.0,11.5,
+E1,2026-11-07,Preston,Southampton,total_sot,over,56.0,8.5,1.0
+E1,2026-11-07,Preston,Southampton,home_sot,over,72.0,1.5,
+E1,2026-11-07,Preston,Southampton,home_sot,under,72.0,5.5,
+E1,2026-11-07,Preston,Southampton,home_sot,under,52.0,3.5,1.0
+E1,2026-11-07,Preston,Southampton,away_sot,over,72.0,3.5,
+E1,2026-11-07,Preston,Southampton,away_sot,under,72.0,7.5,
+E1,2026-11-07,Preston,Southampton,away_sot,under,52.0,5.5,1.0
+E1,2026-11-07,Preston,Southampton,home_cards,over,72.0,0.5,
+E1,2026-11-07,Preston,Southampton,home_cards,under,72.0,3.5,
+E1,2026-11-07,Preston,Southampton,home_cards,over,61.0,1.5,1.0
+E1,2026-11-07,Preston,Southampton,away_cards,over,72.0,0.5,
+E1,2026-11-07,Preston,Southampton,away_cards,under,72.0,2.5,
+E1,2026-11-07,Preston,Southampton,away_cards,under,55.0,1.5,1.0
+E1,2026-11-07,Preston,Southampton,total_cards,over,72.0,1.5,
+E1,2026-11-07,Preston,Southampton,total_cards,under,72.0,4.5,
+E1,2026-11-07,Preston,Southampton,total_cards,under,53.0,3.5,1.0
+E1,2026-11-07,Preston,Southampton,home_fouls,over,72.0,9.5,
+E1,2026-11-07,Preston,Southampton,home_fouls,under,72.0,14.5,
+E1,2026-11-07,Preston,Southampton,home_fouls,over,54.0,11.5,1.0
+E1,2026-11-07,Preston,Southampton,away_fouls,over,72.0,6.5,
+E1,2026-11-07,Preston,Southampton,away_fouls,under,72.0,10.5,
+E1,2026-11-07,Preston,Southampton,away_fouls,over,50.0,8.5,1.0
+E1,2026-11-07,Preston,Southampton,home_gk,over,72.0,6.5,
+E1,2026-11-07,Preston,Southampton,home_gk,under,72.0,10.5,
+E1,2026-11-07,Preston,Southampton,home_gk,over,51.0,8.5,1.0
+E1,2026-11-07,Preston,Southampton,away_gk,over,72.0,5.5,
+E1,2026-11-07,Preston,Southampton,away_gk,under,72.0,10.5,
+E1,2026-11-07,Preston,Southampton,away_gk,under,56.0,8.5,1.0
+E1,2026-11-07,Preston,Southampton,free_kicks,over,72.0,20.5,
+E1,2026-11-07,Preston,Southampton,free_kicks,under,72.0,27.5,
+E1,2026-11-07,Preston,Southampton,free_kicks,under,53.0,24.5,1.0
+E1,2026-11-07,QPR,Lincoln,result,H,57.0,,
+E1,2026-11-07,QPR,Lincoln,btts,yes,54.0,,
+E1,2026-11-07,QPR,Lincoln,total_shots,over,72.0,23.5,
+E1,2026-11-07,QPR,Lincoln,total_shots,under,72.0,31.5,
+E1,2026-11-07,QPR,Lincoln,total_shots,under,52.0,27.5,1.0
+E1,2026-11-07,QPR,Lincoln,total_sot,over,72.0,6.5,
+E1,2026-11-07,QPR,Lincoln,total_sot,under,72.0,11.5,
+E1,2026-11-07,QPR,Lincoln,total_sot,over,52.0,8.5,1.0
+E1,2026-11-07,QPR,Lincoln,home_sot,over,72.0,3.5,
+E1,2026-11-07,QPR,Lincoln,home_sot,under,72.0,7.5,
+E1,2026-11-07,QPR,Lincoln,home_sot,under,52.0,5.5,1.0
+E1,2026-11-07,QPR,Lincoln,away_sot,over,72.0,1.5,
+E1,2026-11-07,QPR,Lincoln,away_sot,under,72.0,4.5,
+E1,2026-11-07,QPR,Lincoln,away_sot,under,60.0,3.5,1.0
+E1,2026-11-07,QPR,Lincoln,home_cards,over,72.0,0.5,
+E1,2026-11-07,QPR,Lincoln,home_cards,under,72.0,3.5,
+E1,2026-11-07,QPR,Lincoln,home_cards,over,57.0,1.5,1.0
+E1,2026-11-07,QPR,Lincoln,away_cards,over,72.0,0.5,
+E1,2026-11-07,QPR,Lincoln,away_cards,under,72.0,3.5,
+E1,2026-11-07,QPR,Lincoln,away_cards,under,59.0,2.5,1.0
+E1,2026-11-07,QPR,Lincoln,total_cards,over,72.0,2.5,
+E1,2026-11-07,QPR,Lincoln,total_cards,under,72.0,5.5,
+E1,2026-11-07,QPR,Lincoln,total_cards,over,60.0,3.5,1.0
+E1,2026-11-07,QPR,Lincoln,home_fouls,over,72.0,7.5,
+E1,2026-11-07,QPR,Lincoln,home_fouls,under,72.0,12.5,
+E1,2026-11-07,QPR,Lincoln,home_fouls,under,54.0,10.5,1.0
+E1,2026-11-07,QPR,Lincoln,away_fouls,over,72.0,8.5,
+E1,2026-11-07,QPR,Lincoln,away_fouls,under,72.0,13.5,
+E1,2026-11-07,QPR,Lincoln,away_fouls,under,51.0,11.5,1.0
+E1,2026-11-07,QPR,Lincoln,home_gk,over,72.0,4.5,
+E1,2026-11-07,QPR,Lincoln,home_gk,under,72.0,8.5,
+E1,2026-11-07,QPR,Lincoln,home_gk,under,52.0,6.5,1.0
+E1,2026-11-07,QPR,Lincoln,away_gk,over,72.0,6.5,
+E1,2026-11-07,QPR,Lincoln,away_gk,under,72.0,10.5,
+E1,2026-11-07,QPR,Lincoln,away_gk,over,50.0,8.5,1.0
+E1,2026-11-07,QPR,Lincoln,free_kicks,over,72.0,21.5,
+E1,2026-11-07,QPR,Lincoln,free_kicks,under,72.0,28.5,
+E1,2026-11-07,QPR,Lincoln,free_kicks,under,51.0,25.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,result,A,61.0,,
+E1,2026-11-07,Watford,Middlesbrough,btts,yes,61.0,,
+E1,2026-11-07,Watford,Middlesbrough,total_shots,over,72.0,24.5,
+E1,2026-11-07,Watford,Middlesbrough,total_shots,under,72.0,32.5,
+E1,2026-11-07,Watford,Middlesbrough,total_shots,over,52.0,28.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,total_sot,over,72.0,7.5,
+E1,2026-11-07,Watford,Middlesbrough,total_sot,under,72.0,11.5,
+E1,2026-11-07,Watford,Middlesbrough,total_sot,over,50.0,9.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,home_sot,over,72.0,1.5,
+E1,2026-11-07,Watford,Middlesbrough,home_sot,under,72.0,5.5,
+E1,2026-11-07,Watford,Middlesbrough,home_sot,over,50.0,3.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,away_sot,over,72.0,3.5,
+E1,2026-11-07,Watford,Middlesbrough,away_sot,under,72.0,7.5,
+E1,2026-11-07,Watford,Middlesbrough,away_sot,over,55.0,5.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,home_cards,over,72.0,0.5,
+E1,2026-11-07,Watford,Middlesbrough,home_cards,under,72.0,3.5,
+E1,2026-11-07,Watford,Middlesbrough,home_cards,over,59.0,1.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,away_cards,over,72.0,0.5,
+E1,2026-11-07,Watford,Middlesbrough,away_cards,under,72.0,2.5,
+E1,2026-11-07,Watford,Middlesbrough,away_cards,under,52.0,1.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,total_cards,over,72.0,1.5,
+E1,2026-11-07,Watford,Middlesbrough,total_cards,under,72.0,5.5,
+E1,2026-11-07,Watford,Middlesbrough,total_cards,under,52.0,3.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,home_fouls,over,72.0,8.5,
+E1,2026-11-07,Watford,Middlesbrough,home_fouls,under,72.0,13.5,
+E1,2026-11-07,Watford,Middlesbrough,home_fouls,over,55.0,10.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,away_fouls,over,72.0,6.5,
+E1,2026-11-07,Watford,Middlesbrough,away_fouls,under,72.0,11.5,
+E1,2026-11-07,Watford,Middlesbrough,away_fouls,under,54.0,9.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,home_gk,over,72.0,6.5,
+E1,2026-11-07,Watford,Middlesbrough,home_gk,under,72.0,11.5,
+E1,2026-11-07,Watford,Middlesbrough,home_gk,under,54.0,9.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,away_gk,over,72.0,4.5,
+E1,2026-11-07,Watford,Middlesbrough,away_gk,under,72.0,8.5,
+E1,2026-11-07,Watford,Middlesbrough,away_gk,over,54.0,6.5,1.0
+E1,2026-11-07,Watford,Middlesbrough,free_kicks,over,72.0,20.5,
+E1,2026-11-07,Watford,Middlesbrough,free_kicks,under,72.0,27.5,
+E1,2026-11-07,Watford,Middlesbrough,free_kicks,over,52.0,23.5,1.0
+E1,2026-11-07,West Brom,Millwall,result,H,47.0,,
+E1,2026-11-07,West Brom,Millwall,btts,yes,56.0,,
+E1,2026-11-07,West Brom,Millwall,total_shots,over,72.0,21.5,
+E1,2026-11-07,West Brom,Millwall,total_shots,under,72.0,29.5,
+E1,2026-11-07,West Brom,Millwall,total_shots,over,50.0,25.5,1.0
+E1,2026-11-07,West Brom,Millwall,total_sot,over,72.0,5.5,
+E1,2026-11-07,West Brom,Millwall,total_sot,under,72.0,10.5,
+E1,2026-11-07,West Brom,Millwall,total_sot,under,55.0,8.5,1.0
+E1,2026-11-07,West Brom,Millwall,home_sot,over,72.0,2.5,
+E1,2026-11-07,West Brom,Millwall,home_sot,under,72.0,6.5,
+E1,2026-11-07,West Brom,Millwall,home_sot,over,52.0,4.5,1.0
+E1,2026-11-07,West Brom,Millwall,away_sot,over,72.0,1.5,
+E1,2026-11-07,West Brom,Millwall,away_sot,under,72.0,5.5,
+E1,2026-11-07,West Brom,Millwall,away_sot,under,52.0,3.5,1.0
+E1,2026-11-07,West Brom,Millwall,home_cards,over,72.0,0.5,
+E1,2026-11-07,West Brom,Millwall,home_cards,under,72.0,3.5,
+E1,2026-11-07,West Brom,Millwall,home_cards,over,58.0,1.5,1.0
+E1,2026-11-07,West Brom,Millwall,away_cards,over,72.0,0.5,
+E1,2026-11-07,West Brom,Millwall,away_cards,under,72.0,3.5,
+E1,2026-11-07,West Brom,Millwall,away_cards,under,62.0,2.5,1.0
+E1,2026-11-07,West Brom,Millwall,total_cards,over,72.0,2.5,
+E1,2026-11-07,West Brom,Millwall,total_cards,under,72.0,5.5,
+E1,2026-11-07,West Brom,Millwall,total_cards,over,59.0,3.5,1.0
+E1,2026-11-07,West Brom,Millwall,home_fouls,over,72.0,6.5,
+E1,2026-11-07,West Brom,Millwall,home_fouls,under,72.0,11.5,
+E1,2026-11-07,West Brom,Millwall,home_fouls,over,54.0,8.5,1.0
+E1,2026-11-07,West Brom,Millwall,away_fouls,over,72.0,10.5,
+E1,2026-11-07,West Brom,Millwall,away_fouls,under,72.0,16.5,
+E1,2026-11-07,West Brom,Millwall,away_fouls,under,52.0,13.5,1.0
+E1,2026-11-07,West Brom,Millwall,home_gk,over,72.0,4.5,
+E1,2026-11-07,West Brom,Millwall,home_gk,under,72.0,8.5,
+E1,2026-11-07,West Brom,Millwall,home_gk,over,54.0,6.5,1.0
+E1,2026-11-07,West Brom,Millwall,away_gk,over,72.0,6.5,
+E1,2026-11-07,West Brom,Millwall,away_gk,under,72.0,11.5,
+E1,2026-11-07,West Brom,Millwall,away_gk,under,53.0,9.5,1.0
+E1,2026-11-07,West Brom,Millwall,free_kicks,over,72.0,22.5,
+E1,2026-11-07,West Brom,Millwall,free_kicks,under,72.0,29.5,
+E1,2026-11-07,West Brom,Millwall,free_kicks,over,53.0,25.5,1.0
+E0,2026-11-07,Arsenal,Hull,result,H,82.0,,
+E0,2026-11-07,Arsenal,Hull,btts,no,59.0,,
+E0,2026-11-07,Arsenal,Hull,total_shots,over,72.0,22.5,
+E0,2026-11-07,Arsenal,Hull,total_shots,under,72.0,29.5,
+E0,2026-11-07,Arsenal,Hull,total_shots,over,53.0,25.5,1.0
+E0,2026-11-07,Arsenal,Hull,total_sot,over,72.0,6.5,
+E0,2026-11-07,Arsenal,Hull,total_sot,under,72.0,11.5,
+E0,2026-11-07,Arsenal,Hull,total_sot,over,56.0,8.5,1.0
+E0,2026-11-07,Arsenal,Hull,home_sot,over,72.0,4.5,
+E0,2026-11-07,Arsenal,Hull,home_sot,under,72.0,8.5,
+E0,2026-11-07,Arsenal,Hull,home_sot,over,54.0,6.5,1.0
+E0,2026-11-07,Arsenal,Hull,away_sot,over,72.0,0.5,
+E0,2026-11-07,Arsenal,Hull,away_sot,under,72.0,3.5,
+E0,2026-11-07,Arsenal,Hull,away_sot,under,60.0,2.5,1.0
+E0,2026-11-07,Arsenal,Hull,home_cards,under,72.0,1.5,
+E0,2026-11-07,Arsenal,Hull,home_cards,over,63.0,0.5,1.0
+E0,2026-11-07,Arsenal,Hull,away_cards,over,72.0,0.5,
+E0,2026-11-07,Arsenal,Hull,away_cards,under,72.0,3.5,
+E0,2026-11-07,Arsenal,Hull,away_cards,under,61.0,2.5,1.0
+E0,2026-11-07,Arsenal,Hull,total_cards,over,72.0,1.5,
+E0,2026-11-07,Arsenal,Hull,total_cards,under,72.0,4.5,
+E0,2026-11-07,Arsenal,Hull,total_cards,over,60.0,2.5,1.0
+E0,2026-11-07,Arsenal,Hull,home_fouls,over,72.0,6.5,
+E0,2026-11-07,Arsenal,Hull,home_fouls,under,72.0,10.5,
+E0,2026-11-07,Arsenal,Hull,home_fouls,under,55.0,8.5,1.0
+E0,2026-11-07,Arsenal,Hull,away_fouls,over,72.0,9.5,
+E0,2026-11-07,Arsenal,Hull,away_fouls,under,72.0,14.5,
+E0,2026-11-07,Arsenal,Hull,away_fouls,over,53.0,11.5,1.0
+E0,2026-11-07,Arsenal,Hull,home_gk,over,72.0,3.5,
+E0,2026-11-07,Arsenal,Hull,home_gk,under,72.0,7.5,
+E0,2026-11-07,Arsenal,Hull,home_gk,over,53.0,5.5,1.0
+E0,2026-11-07,Arsenal,Hull,away_gk,over,72.0,7.5,
+E0,2026-11-07,Arsenal,Hull,away_gk,under,72.0,12.5,
+E0,2026-11-07,Arsenal,Hull,away_gk,under,55.0,10.5,1.0
+E0,2026-11-07,Arsenal,Hull,free_kicks,over,72.0,20.5,
+E0,2026-11-07,Arsenal,Hull,free_kicks,under,72.0,27.5,
+E0,2026-11-07,Arsenal,Hull,free_kicks,over,52.0,23.5,1.0
+E0,2026-11-07,Fulham,Newcastle,result,H,46.0,,
+E0,2026-11-07,Fulham,Newcastle,btts,yes,60.0,,
+E0,2026-11-07,Fulham,Newcastle,total_shots,over,72.0,23.5,
+E0,2026-11-07,Fulham,Newcastle,total_shots,under,72.0,31.5,
+E0,2026-11-07,Fulham,Newcastle,total_shots,over,51.0,27.5,1.0
+E0,2026-11-07,Fulham,Newcastle,total_sot,over,72.0,6.5,
+E0,2026-11-07,Fulham,Newcastle,total_sot,under,72.0,11.5,
+E0,2026-11-07,Fulham,Newcastle,total_sot,over,54.0,8.5,1.0
+E0,2026-11-07,Fulham,Newcastle,home_sot,over,72.0,3.5,
+E0,2026-11-07,Fulham,Newcastle,home_sot,under,72.0,6.5,
+E0,2026-11-07,Fulham,Newcastle,home_sot,under,58.0,5.5,1.0
+E0,2026-11-07,Fulham,Newcastle,away_sot,over,72.0,2.5,
+E0,2026-11-07,Fulham,Newcastle,away_sot,under,72.0,5.5,
+E0,2026-11-07,Fulham,Newcastle,away_sot,over,54.0,3.5,1.0
+E0,2026-11-07,Fulham,Newcastle,home_cards,over,72.0,0.5,
+E0,2026-11-07,Fulham,Newcastle,home_cards,under,72.0,3.5,
+E0,2026-11-07,Fulham,Newcastle,home_cards,over,61.0,1.5,1.0
+E0,2026-11-07,Fulham,Newcastle,away_cards,over,72.0,0.5,
+E0,2026-11-07,Fulham,Newcastle,away_cards,under,72.0,3.5,
+E0,2026-11-07,Fulham,Newcastle,away_cards,over,62.0,1.5,1.0
+E0,2026-11-07,Fulham,Newcastle,total_cards,over,72.0,2.5,
+E0,2026-11-07,Fulham,Newcastle,total_cards,under,72.0,5.5,
+E0,2026-11-07,Fulham,Newcastle,total_cards,over,59.0,3.5,1.0
+E0,2026-11-07,Fulham,Newcastle,home_fouls,over,72.0,8.5,
+E0,2026-11-07,Fulham,Newcastle,home_fouls,under,72.0,13.5,
+E0,2026-11-07,Fulham,Newcastle,home_fouls,over,54.0,10.5,1.0
+E0,2026-11-07,Fulham,Newcastle,away_fouls,over,72.0,7.5,
+E0,2026-11-07,Fulham,Newcastle,away_fouls,under,72.0,12.5,
+E0,2026-11-07,Fulham,Newcastle,away_fouls,over,54.0,9.5,1.0
+E0,2026-11-07,Fulham,Newcastle,home_gk,over,72.0,5.5,
+E0,2026-11-07,Fulham,Newcastle,home_gk,under,72.0,9.5,
+E0,2026-11-07,Fulham,Newcastle,home_gk,under,54.0,7.5,1.0
+E0,2026-11-07,Fulham,Newcastle,away_gk,over,72.0,6.5,
+E0,2026-11-07,Fulham,Newcastle,away_gk,under,72.0,11.5,
+E0,2026-11-07,Fulham,Newcastle,away_gk,over,55.0,8.5,1.0
+E0,2026-11-07,Fulham,Newcastle,free_kicks,over,72.0,21.5,
+E0,2026-11-07,Fulham,Newcastle,free_kicks,under,72.0,27.5,
+E0,2026-11-07,Fulham,Newcastle,free_kicks,under,51.0,24.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,result,H,46.0,,
+SC0,2026-11-07,Dundee United,Motherwell,btts,yes,62.0,,
+SC0,2026-11-07,Dundee United,Motherwell,total_shots,over,72.0,24.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_shots,under,72.0,32.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_shots,over,51.0,28.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,total_sot,over,72.0,7.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_sot,under,72.0,11.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_sot,under,51.0,9.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,home_sot,over,72.0,3.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_sot,under,72.0,7.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_sot,under,55.0,5.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,away_sot,over,72.0,2.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_sot,under,72.0,5.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_sot,under,58.0,4.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,home_cards,over,72.0,0.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_cards,under,72.0,3.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_cards,over,62.0,1.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,away_cards,over,72.0,0.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_cards,under,72.0,3.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_cards,over,59.0,1.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,total_cards,over,72.0,2.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_cards,under,72.0,5.5,
+SC0,2026-11-07,Dundee United,Motherwell,total_cards,over,58.0,3.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,home_fouls,over,72.0,9.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_fouls,under,72.0,14.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_fouls,over,53.0,11.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,away_fouls,over,72.0,8.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_fouls,under,72.0,13.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_fouls,over,51.0,10.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,home_gk,over,72.0,5.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_gk,under,72.0,9.5,
+SC0,2026-11-07,Dundee United,Motherwell,home_gk,under,55.0,7.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,away_gk,over,72.0,5.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_gk,under,72.0,9.5,
+SC0,2026-11-07,Dundee United,Motherwell,away_gk,over,52.0,7.5,1.0
+SC0,2026-11-07,Dundee United,Motherwell,free_kicks,over,72.0,22.5,
+SC0,2026-11-07,Dundee United,Motherwell,free_kicks,under,72.0,29.5,
+SC0,2026-11-07,Dundee United,Motherwell,free_kicks,under,53.0,26.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,result,H,39.0,,
+SC0,2026-11-07,St Johnstone,Dundee,btts,yes,59.0,,
+SC0,2026-11-07,St Johnstone,Dundee,total_shots,over,72.0,22.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_shots,under,72.0,30.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_shots,over,50.0,26.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,total_sot,over,72.0,6.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_sot,under,72.0,11.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_sot,over,54.0,8.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,home_sot,over,72.0,2.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_sot,under,72.0,6.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_sot,over,50.0,4.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,away_sot,over,72.0,2.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_sot,under,72.0,5.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_sot,under,57.0,4.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,home_cards,over,72.0,0.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_cards,under,72.0,3.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_cards,over,57.0,1.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,away_cards,over,72.0,0.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_cards,under,72.0,3.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_cards,over,59.0,1.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,total_cards,over,72.0,2.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_cards,under,72.0,5.5,
+SC0,2026-11-07,St Johnstone,Dundee,total_cards,over,54.0,3.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,home_fouls,over,72.0,8.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_fouls,under,72.0,13.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_fouls,under,54.0,11.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,away_fouls,over,72.0,8.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_fouls,under,72.0,13.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_fouls,under,55.0,11.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,home_gk,over,72.0,4.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_gk,under,72.0,8.5,
+SC0,2026-11-07,St Johnstone,Dundee,home_gk,under,53.0,6.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,away_gk,over,72.0,5.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_gk,under,72.0,10.5,
+SC0,2026-11-07,St Johnstone,Dundee,away_gk,over,56.0,7.5,1.0
+SC0,2026-11-07,St Johnstone,Dundee,free_kicks,over,72.0,22.5,
+SC0,2026-11-07,St Johnstone,Dundee,free_kicks,under,72.0,29.5,
+SC0,2026-11-07,St Johnstone,Dundee,free_kicks,under,54.0,26.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,result,H,41.0,,
+SP1,2026-11-07,Espanol,La Coruna,btts,yes,53.0,,
+SP1,2026-11-07,Espanol,La Coruna,total_shots,over,72.0,22.5,
+SP1,2026-11-07,Espanol,La Coruna,total_shots,under,72.0,29.5,
+SP1,2026-11-07,Espanol,La Coruna,total_shots,over,53.0,25.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,total_sot,over,72.0,6.5,
+SP1,2026-11-07,Espanol,La Coruna,total_sot,under,72.0,10.5,
+SP1,2026-11-07,Espanol,La Coruna,total_sot,under,54.0,8.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,home_sot,over,72.0,2.5,
+SP1,2026-11-07,Espanol,La Coruna,home_sot,under,72.0,6.5,
+SP1,2026-11-07,Espanol,La Coruna,home_sot,under,54.0,4.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,away_sot,over,72.0,2.5,
+SP1,2026-11-07,Espanol,La Coruna,away_sot,under,72.0,5.5,
+SP1,2026-11-07,Espanol,La Coruna,away_sot,over,53.0,3.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,home_cards,over,72.0,0.5,
+SP1,2026-11-07,Espanol,La Coruna,home_cards,under,72.0,3.5,
+SP1,2026-11-07,Espanol,La Coruna,home_cards,under,56.0,2.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,away_cards,over,72.0,1.5,
+SP1,2026-11-07,Espanol,La Coruna,away_cards,under,72.0,3.5,
+SP1,2026-11-07,Espanol,La Coruna,away_cards,under,55.0,2.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,total_cards,over,72.0,2.5,
+SP1,2026-11-07,Espanol,La Coruna,total_cards,under,72.0,6.5,
+SP1,2026-11-07,Espanol,La Coruna,total_cards,over,53.0,4.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,home_fouls,over,72.0,10.5,
+SP1,2026-11-07,Espanol,La Coruna,home_fouls,under,72.0,16.5,
+SP1,2026-11-07,Espanol,La Coruna,home_fouls,over,50.0,13.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,away_fouls,over,72.0,9.5,
+SP1,2026-11-07,Espanol,La Coruna,away_fouls,under,72.0,14.5,
+SP1,2026-11-07,Espanol,La Coruna,away_fouls,over,53.0,11.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,home_gk,over,72.0,3.5,
+SP1,2026-11-07,Espanol,La Coruna,home_gk,under,72.0,7.5,
+SP1,2026-11-07,Espanol,La Coruna,home_gk,over,55.0,5.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,away_gk,over,72.0,5.5,
+SP1,2026-11-07,Espanol,La Coruna,away_gk,under,72.0,10.5,
+SP1,2026-11-07,Espanol,La Coruna,away_gk,under,56.0,8.5,1.0
+SP1,2026-11-07,Espanol,La Coruna,free_kicks,over,72.0,25.5,
+SP1,2026-11-07,Espanol,La Coruna,free_kicks,under,72.0,32.5,
+SP1,2026-11-07,Espanol,La Coruna,free_kicks,over,53.0,28.5,1.0
+I2,2026-11-07,Mantova,Verona,result,H,38.0,,
+I2,2026-11-07,Mantova,Verona,btts,yes,57.0,,
+I2,2026-11-07,Mantova,Verona,total_shots,over,72.0,22.5,
+I2,2026-11-07,Mantova,Verona,total_shots,under,72.0,30.5,
+I2,2026-11-07,Mantova,Verona,total_shots,over,51.0,26.5,1.0
+I2,2026-11-07,Mantova,Verona,total_sot,over,72.0,6.5,
+I2,2026-11-07,Mantova,Verona,total_sot,under,72.0,10.5,
+I2,2026-11-07,Mantova,Verona,total_sot,over,52.0,8.5,1.0
+I2,2026-11-07,Mantova,Verona,home_sot,over,72.0,2.5,
+I2,2026-11-07,Mantova,Verona,home_sot,under,72.0,6.5,
+I2,2026-11-07,Mantova,Verona,home_sot,over,50.0,4.5,1.0
+I2,2026-11-07,Mantova,Verona,away_sot,over,72.0,2.5,
+I2,2026-11-07,Mantova,Verona,away_sot,under,72.0,5.5,
+I2,2026-11-07,Mantova,Verona,away_sot,over,58.0,3.5,1.0
+I2,2026-11-07,Mantova,Verona,home_cards,over,72.0,0.5,
+I2,2026-11-07,Mantova,Verona,home_cards,under,72.0,3.5,
+I2,2026-11-07,Mantova,Verona,home_cards,over,63.0,1.5,1.0
+I2,2026-11-07,Mantova,Verona,away_cards,over,72.0,1.5,
+I2,2026-11-07,Mantova,Verona,away_cards,under,72.0,3.5,
+I2,2026-11-07,Mantova,Verona,away_cards,under,53.0,2.5,1.0
+I2,2026-11-07,Mantova,Verona,total_cards,over,72.0,2.5,
+I2,2026-11-07,Mantova,Verona,total_cards,under,72.0,6.5,
+I2,2026-11-07,Mantova,Verona,total_cards,over,50.0,4.5,1.0
+I2,2026-11-07,Mantova,Verona,home_fouls,over,72.0,9.5,
+I2,2026-11-07,Mantova,Verona,home_fouls,under,72.0,13.5,
+I2,2026-11-07,Mantova,Verona,home_fouls,under,51.0,11.5,1.0
+I2,2026-11-07,Mantova,Verona,away_fouls,over,72.0,12.5,
+I2,2026-11-07,Mantova,Verona,away_fouls,under,72.0,18.5,
+I2,2026-11-07,Mantova,Verona,away_fouls,over,50.0,15.5,1.0
+I2,2026-11-07,Mantova,Verona,home_gk,over,72.0,4.5,
+I2,2026-11-07,Mantova,Verona,home_gk,under,72.0,9.5,
+I2,2026-11-07,Mantova,Verona,home_gk,over,57.0,6.5,1.0
+I2,2026-11-07,Mantova,Verona,away_gk,over,72.0,5.5,
+I2,2026-11-07,Mantova,Verona,away_gk,under,72.0,9.5,
+I2,2026-11-07,Mantova,Verona,away_gk,under,55.0,7.5,1.0
+I2,2026-11-07,Mantova,Verona,free_kicks,over,72.0,27.5,
+I2,2026-11-07,Mantova,Verona,free_kicks,under,72.0,34.5,
+I2,2026-11-07,Mantova,Verona,free_kicks,over,52.0,30.5,1.0
+I1,2026-11-07,Parma,Bologna,result,A,51.0,,
+I1,2026-11-07,Parma,Bologna,btts,no,52.0,,
+I1,2026-11-07,Parma,Bologna,total_shots,over,72.0,20.5,
+I1,2026-11-07,Parma,Bologna,total_shots,under,72.0,27.5,
+I1,2026-11-07,Parma,Bologna,total_shots,over,50.0,23.5,1.0
+I1,2026-11-07,Parma,Bologna,total_sot,over,72.0,5.5,
+I1,2026-11-07,Parma,Bologna,total_sot,under,72.0,9.5,
+I1,2026-11-07,Parma,Bologna,total_sot,over,51.0,7.5,1.0
+I1,2026-11-07,Parma,Bologna,home_sot,over,72.0,1.5,
+I1,2026-11-07,Parma,Bologna,home_sot,under,72.0,4.5,
+I1,2026-11-07,Parma,Bologna,home_sot,over,60.0,2.5,1.0
+I1,2026-11-07,Parma,Bologna,away_sot,over,72.0,2.5,
+I1,2026-11-07,Parma,Bologna,away_sot,under,72.0,6.5,
+I1,2026-11-07,Parma,Bologna,away_sot,under,53.0,4.5,1.0
+I1,2026-11-07,Parma,Bologna,home_cards,over,72.0,0.5,
+I1,2026-11-07,Parma,Bologna,home_cards,under,72.0,3.5,
+I1,2026-11-07,Parma,Bologna,home_cards,over,57.0,1.5,1.0
+I1,2026-11-07,Parma,Bologna,away_cards,over,72.0,0.5,
+I1,2026-11-07,Parma,Bologna,away_cards,under,72.0,3.5,
+I1,2026-11-07,Parma,Bologna,away_cards,over,62.0,1.5,1.0
+I1,2026-11-07,Parma,Bologna,total_cards,over,72.0,2.5,
+I1,2026-11-07,Parma,Bologna,total_cards,under,72.0,5.5,
+I1,2026-11-07,Parma,Bologna,total_cards,over,52.0,3.5,1.0
+I1,2026-11-07,Parma,Bologna,home_fouls,over,72.0,10.5,
+I1,2026-11-07,Parma,Bologna,home_fouls,under,72.0,15.5,
+I1,2026-11-07,Parma,Bologna,home_fouls,over,52.0,12.5,1.0
+I1,2026-11-07,Parma,Bologna,away_fouls,over,72.0,10.5,
+I1,2026-11-07,Parma,Bologna,away_fouls,under,72.0,16.5,
+I1,2026-11-07,Parma,Bologna,away_fouls,under,51.0,13.5,1.0
+I1,2026-11-07,Parma,Bologna,home_gk,over,72.0,5.5,
+I1,2026-11-07,Parma,Bologna,home_gk,under,72.0,10.5,
+I1,2026-11-07,Parma,Bologna,home_gk,under,56.0,8.5,1.0
+I1,2026-11-07,Parma,Bologna,away_gk,over,72.0,4.5,
+I1,2026-11-07,Parma,Bologna,away_gk,under,72.0,8.5,
+I1,2026-11-07,Parma,Bologna,away_gk,under,54.0,6.5,1.0
+I1,2026-11-07,Parma,Bologna,free_kicks,over,72.0,26.5,
+I1,2026-11-07,Parma,Bologna,free_kicks,under,72.0,33.5,
+I1,2026-11-07,Parma,Bologna,free_kicks,over,53.0,29.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,result,H,57.0,,
+D1,2026-11-07,Stuttgart,Werder Bremen,btts,yes,68.0,,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_shots,over,72.0,26.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_shots,under,72.0,34.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_shots,over,51.0,30.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,total_sot,over,72.0,8.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_sot,under,72.0,13.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_sot,over,54.0,10.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,home_sot,over,72.0,4.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_sot,under,72.0,8.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_sot,over,50.0,6.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,away_sot,over,72.0,2.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_sot,under,72.0,5.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_sot,under,57.0,4.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,home_cards,over,72.0,0.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_cards,under,72.0,2.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_cards,under,56.0,1.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,away_cards,over,72.0,0.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_cards,under,72.0,3.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_cards,over,64.0,1.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,total_cards,over,72.0,2.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_cards,under,72.0,5.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,total_cards,over,53.0,3.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,home_fouls,over,72.0,7.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_fouls,under,72.0,11.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_fouls,under,53.0,9.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,away_fouls,over,72.0,8.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_fouls,under,72.0,13.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_fouls,under,56.0,11.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,home_gk,over,72.0,4.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_gk,under,72.0,9.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,home_gk,over,55.0,6.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,away_gk,over,72.0,5.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_gk,under,72.0,10.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,away_gk,under,55.0,8.5,1.0
+D1,2026-11-07,Stuttgart,Werder Bremen,free_kicks,over,72.0,20.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,free_kicks,under,72.0,27.5,
+D1,2026-11-07,Stuttgart,Werder Bremen,free_kicks,under,53.0,24.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,result,A,46.0,,
+SP1,2026-11-07,Osasuna,Ath Bilbao,btts,yes,51.0,,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_shots,over,72.0,20.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_shots,under,72.0,27.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_shots,over,52.0,23.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_sot,over,72.0,5.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_sot,under,72.0,10.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_sot,over,56.0,7.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_sot,over,72.0,1.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_sot,under,72.0,5.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_sot,over,50.0,3.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_sot,over,72.0,2.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_sot,under,72.0,5.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_sot,under,58.0,4.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_cards,over,72.0,0.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_cards,under,72.0,3.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_cards,under,62.0,2.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_cards,over,72.0,0.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_cards,under,72.0,3.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_cards,under,62.0,2.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_cards,over,72.0,2.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_cards,under,72.0,5.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,total_cards,under,56.0,4.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_fouls,over,72.0,9.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_fouls,under,72.0,14.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_fouls,over,56.0,11.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_fouls,over,72.0,9.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_fouls,under,72.0,14.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_fouls,over,54.0,11.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_gk,over,72.0,5.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_gk,under,72.0,9.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,home_gk,over,53.0,7.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_gk,over,72.0,3.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_gk,under,72.0,7.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,away_gk,under,51.0,5.5,1.0
+SP1,2026-11-07,Osasuna,Ath Bilbao,free_kicks,over,72.0,24.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,free_kicks,under,72.0,31.5,
+SP1,2026-11-07,Osasuna,Ath Bilbao,free_kicks,over,51.0,27.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,result,A,56.0,,
+E0,2026-11-07,Nott'm Forest,Man City,btts,yes,58.0,,
+E0,2026-11-07,Nott'm Forest,Man City,total_shots,over,72.0,22.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_shots,under,72.0,30.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_shots,under,51.0,26.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,total_sot,over,72.0,6.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_sot,under,72.0,11.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_sot,over,54.0,8.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,home_sot,over,72.0,1.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_sot,under,72.0,5.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_sot,under,51.0,3.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,away_sot,over,72.0,3.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_sot,under,72.0,7.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_sot,under,56.0,5.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,home_cards,over,72.0,0.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_cards,under,72.0,3.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_cards,over,57.0,1.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,away_cards,over,72.0,0.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_cards,under,72.0,2.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_cards,over,52.0,1.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,total_cards,over,72.0,1.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_cards,under,72.0,5.5,
+E0,2026-11-07,Nott'm Forest,Man City,total_cards,under,52.0,3.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,home_fouls,over,72.0,9.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_fouls,under,72.0,14.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_fouls,under,51.0,12.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,away_fouls,over,72.0,7.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_fouls,under,72.0,12.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_fouls,over,55.0,9.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,home_gk,over,72.0,5.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_gk,under,72.0,10.5,
+E0,2026-11-07,Nott'm Forest,Man City,home_gk,under,55.0,8.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,away_gk,over,72.0,4.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_gk,under,72.0,9.5,
+E0,2026-11-07,Nott'm Forest,Man City,away_gk,under,56.0,7.5,1.0
+E0,2026-11-07,Nott'm Forest,Man City,free_kicks,over,72.0,22.5,
+E0,2026-11-07,Nott'm Forest,Man City,free_kicks,under,72.0,29.5,
+E0,2026-11-07,Nott'm Forest,Man City,free_kicks,under,54.0,26.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,result,H,38.0,,
+SC0,2026-11-07,Aberdeen,Hibernian,btts,yes,58.0,,
+SC0,2026-11-07,Aberdeen,Hibernian,total_shots,over,72.0,22.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_shots,under,72.0,29.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_shots,over,53.0,25.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,total_sot,over,72.0,6.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_sot,under,72.0,10.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_sot,under,52.0,8.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,home_sot,over,72.0,2.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_sot,under,72.0,6.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_sot,under,53.0,4.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,away_sot,over,72.0,2.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_sot,under,72.0,5.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_sot,over,58.0,3.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,home_cards,over,72.0,0.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_cards,under,72.0,3.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_cards,under,60.0,2.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,away_cards,over,72.0,0.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_cards,under,72.0,3.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_cards,under,60.0,2.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,total_cards,over,72.0,2.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_cards,under,72.0,6.5,
+SC0,2026-11-07,Aberdeen,Hibernian,total_cards,under,51.0,4.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,home_fouls,over,72.0,10.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_fouls,under,72.0,15.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_fouls,over,50.0,12.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,away_fouls,over,72.0,9.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_fouls,under,72.0,14.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_fouls,over,51.0,11.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,home_gk,over,72.0,5.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_gk,under,72.0,9.5,
+SC0,2026-11-07,Aberdeen,Hibernian,home_gk,under,51.0,7.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,away_gk,over,72.0,5.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_gk,under,72.0,10.5,
+SC0,2026-11-07,Aberdeen,Hibernian,away_gk,under,55.0,8.5,1.0
+SC0,2026-11-07,Aberdeen,Hibernian,free_kicks,over,72.0,24.5,
+SC0,2026-11-07,Aberdeen,Hibernian,free_kicks,under,72.0,31.5,
+SC0,2026-11-07,Aberdeen,Hibernian,free_kicks,over,53.0,27.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,result,A,54.0,,
+F1,2026-11-07,Auxerre,Paris FC,btts,yes,57.0,,
+F1,2026-11-07,Auxerre,Paris FC,total_shots,over,72.0,20.5,
+F1,2026-11-07,Auxerre,Paris FC,total_shots,under,72.0,28.5,
+F1,2026-11-07,Auxerre,Paris FC,total_shots,over,50.0,24.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,total_sot,over,72.0,6.5,
+F1,2026-11-07,Auxerre,Paris FC,total_sot,under,72.0,11.5,
+F1,2026-11-07,Auxerre,Paris FC,total_sot,over,53.0,8.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,home_sot,over,72.0,1.5,
+F1,2026-11-07,Auxerre,Paris FC,home_sot,under,72.0,5.5,
+F1,2026-11-07,Auxerre,Paris FC,home_sot,over,51.0,3.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,away_sot,over,72.0,3.5,
+F1,2026-11-07,Auxerre,Paris FC,away_sot,under,72.0,6.5,
+F1,2026-11-07,Auxerre,Paris FC,away_sot,over,57.0,4.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,home_cards,over,72.0,0.5,
+F1,2026-11-07,Auxerre,Paris FC,home_cards,under,72.0,2.5,
+F1,2026-11-07,Auxerre,Paris FC,home_cards,over,55.0,1.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,away_cards,over,72.0,0.5,
+F1,2026-11-07,Auxerre,Paris FC,away_cards,under,72.0,3.5,
+F1,2026-11-07,Auxerre,Paris FC,away_cards,under,60.0,2.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,total_cards,over,72.0,2.5,
+F1,2026-11-07,Auxerre,Paris FC,total_cards,under,72.0,5.5,
+F1,2026-11-07,Auxerre,Paris FC,total_cards,over,59.0,3.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,home_fouls,over,72.0,10.5,
+F1,2026-11-07,Auxerre,Paris FC,home_fouls,under,72.0,15.5,
+F1,2026-11-07,Auxerre,Paris FC,home_fouls,over,51.0,12.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,away_fouls,over,72.0,9.5,
+F1,2026-11-07,Auxerre,Paris FC,away_fouls,under,72.0,14.5,
+F1,2026-11-07,Auxerre,Paris FC,away_fouls,over,50.0,11.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,home_gk,over,72.0,4.5,
+F1,2026-11-07,Auxerre,Paris FC,home_gk,under,72.0,9.5,
+F1,2026-11-07,Auxerre,Paris FC,home_gk,over,57.0,6.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,away_gk,over,72.0,4.5,
+F1,2026-11-07,Auxerre,Paris FC,away_gk,under,72.0,8.5,
+F1,2026-11-07,Auxerre,Paris FC,away_gk,under,57.0,6.5,1.0
+F1,2026-11-07,Auxerre,Paris FC,free_kicks,over,72.0,24.5,
+F1,2026-11-07,Auxerre,Paris FC,free_kicks,under,72.0,31.5,
+F1,2026-11-07,Auxerre,Paris FC,free_kicks,over,52.0,27.5,1.0
+I2,2026-11-07,Benevento,Avellino,result,H,50.0,,
+I2,2026-11-07,Benevento,Avellino,btts,yes,53.0,,
+I2,2026-11-07,Benevento,Avellino,total_shots,over,72.0,23.5,
+I2,2026-11-07,Benevento,Avellino,total_shots,under,72.0,30.5,
+I2,2026-11-07,Benevento,Avellino,total_shots,under,53.0,27.5,1.0
+I2,2026-11-07,Benevento,Avellino,total_sot,over,72.0,5.5,
+I2,2026-11-07,Benevento,Avellino,total_sot,under,72.0,10.5,
+I2,2026-11-07,Benevento,Avellino,total_sot,under,56.0,8.5,1.0
+I2,2026-11-07,Benevento,Avellino,home_sot,over,72.0,2.5,
+I2,2026-11-07,Benevento,Avellino,home_sot,under,72.0,6.5,
+I2,2026-11-07,Benevento,Avellino,home_sot,over,55.0,4.5,1.0
+I2,2026-11-07,Benevento,Avellino,away_sot,over,72.0,1.5,
+I2,2026-11-07,Benevento,Avellino,away_sot,under,72.0,4.5,
+I2,2026-11-07,Benevento,Avellino,away_sot,under,59.0,3.5,1.0
+I2,2026-11-07,Benevento,Avellino,home_cards,over,72.0,0.5,
+I2,2026-11-07,Benevento,Avellino,home_cards,under,72.0,3.5,
+I2,2026-11-07,Benevento,Avellino,home_cards,under,63.0,2.5,1.0
+I2,2026-11-07,Benevento,Avellino,away_cards,over,72.0,0.5,
+I2,2026-11-07,Benevento,Avellino,away_cards,under,72.0,3.5,
+I2,2026-11-07,Benevento,Avellino,away_cards,under,59.0,2.5,1.0
+I2,2026-11-07,Benevento,Avellino,total_cards,over,72.0,2.5,
+I2,2026-11-07,Benevento,Avellino,total_cards,under,72.0,6.5,
+I2,2026-11-07,Benevento,Avellino,total_cards,under,54.0,4.5,1.0
+I2,2026-11-07,Benevento,Avellino,home_fouls,over,72.0,11.5,
+I2,2026-11-07,Benevento,Avellino,home_fouls,under,72.0,17.5,
+I2,2026-11-07,Benevento,Avellino,home_fouls,under,52.0,14.5,1.0
+I2,2026-11-07,Benevento,Avellino,away_fouls,over,72.0,8.5,
+I2,2026-11-07,Benevento,Avellino,away_fouls,under,72.0,13.5,
+I2,2026-11-07,Benevento,Avellino,away_fouls,under,55.0,11.5,1.0
+I2,2026-11-07,Benevento,Avellino,home_gk,over,72.0,5.5,
+I2,2026-11-07,Benevento,Avellino,home_gk,under,72.0,9.5,
+I2,2026-11-07,Benevento,Avellino,home_gk,under,55.0,7.5,1.0
+I2,2026-11-07,Benevento,Avellino,away_gk,over,72.0,7.5,
+I2,2026-11-07,Benevento,Avellino,away_gk,under,72.0,11.5,
+I2,2026-11-07,Benevento,Avellino,away_gk,under,52.0,9.5,1.0
+I2,2026-11-07,Benevento,Avellino,free_kicks,over,72.0,25.5,
+I2,2026-11-07,Benevento,Avellino,free_kicks,under,72.0,32.5,
+I2,2026-11-07,Benevento,Avellino,free_kicks,under,53.0,29.5,1.0
+I1,2026-11-07,Roma,Sassuolo,result,H,73.0,,
+I1,2026-11-07,Roma,Sassuolo,btts,yes,57.0,,
+I1,2026-11-07,Roma,Sassuolo,total_shots,over,72.0,24.5,
+I1,2026-11-07,Roma,Sassuolo,total_shots,under,72.0,32.5,
+I1,2026-11-07,Roma,Sassuolo,total_shots,over,51.0,28.5,1.0
+I1,2026-11-07,Roma,Sassuolo,total_sot,over,72.0,8.5,
+I1,2026-11-07,Roma,Sassuolo,total_sot,under,72.0,12.5,
+I1,2026-11-07,Roma,Sassuolo,total_sot,under,51.0,10.5,1.0
+I1,2026-11-07,Roma,Sassuolo,home_sot,over,72.0,4.5,
+I1,2026-11-07,Roma,Sassuolo,home_sot,under,72.0,9.5,
+I1,2026-11-07,Roma,Sassuolo,home_sot,under,56.0,7.5,1.0
+I1,2026-11-07,Roma,Sassuolo,away_sot,over,72.0,1.5,
+I1,2026-11-07,Roma,Sassuolo,away_sot,under,72.0,4.5,
+I1,2026-11-07,Roma,Sassuolo,away_sot,under,58.0,3.5,1.0
+I1,2026-11-07,Roma,Sassuolo,home_cards,over,72.0,0.5,
+I1,2026-11-07,Roma,Sassuolo,home_cards,under,72.0,2.5,
+I1,2026-11-07,Roma,Sassuolo,home_cards,under,53.0,1.5,1.0
+I1,2026-11-07,Roma,Sassuolo,away_cards,over,72.0,0.5,
+I1,2026-11-07,Roma,Sassuolo,away_cards,under,72.0,3.5,
+I1,2026-11-07,Roma,Sassuolo,away_cards,over,59.0,1.5,1.0
+I1,2026-11-07,Roma,Sassuolo,total_cards,over,72.0,1.5,
+I1,2026-11-07,Roma,Sassuolo,total_cards,under,72.0,5.5,
+I1,2026-11-07,Roma,Sassuolo,total_cards,under,53.0,3.5,1.0
+I1,2026-11-07,Roma,Sassuolo,home_fouls,over,72.0,9.5,
+I1,2026-11-07,Roma,Sassuolo,home_fouls,under,72.0,14.5,
+I1,2026-11-07,Roma,Sassuolo,home_fouls,over,53.0,11.5,1.0
+I1,2026-11-07,Roma,Sassuolo,away_fouls,over,72.0,7.5,
+I1,2026-11-07,Roma,Sassuolo,away_fouls,under,72.0,12.5,
+I1,2026-11-07,Roma,Sassuolo,away_fouls,under,54.0,10.5,1.0
+I1,2026-11-07,Roma,Sassuolo,home_gk,over,72.0,3.5,
+I1,2026-11-07,Roma,Sassuolo,home_gk,under,72.0,7.5,
+I1,2026-11-07,Roma,Sassuolo,home_gk,under,55.0,5.5,1.0
+I1,2026-11-07,Roma,Sassuolo,away_gk,over,72.0,6.5,
+I1,2026-11-07,Roma,Sassuolo,away_gk,under,72.0,11.5,
+I1,2026-11-07,Roma,Sassuolo,away_gk,under,56.0,9.5,1.0
+I1,2026-11-07,Roma,Sassuolo,free_kicks,over,72.0,22.5,
+I1,2026-11-07,Roma,Sassuolo,free_kicks,under,72.0,29.5,
+I1,2026-11-07,Roma,Sassuolo,free_kicks,over,51.0,25.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,result,A,74.0,,
+SP1,2026-11-07,Valencia,Real Madrid,btts,yes,53.0,,
+SP1,2026-11-07,Valencia,Real Madrid,total_shots,over,72.0,24.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_shots,under,72.0,31.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_shots,over,52.0,27.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,total_sot,over,72.0,7.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_sot,under,72.0,12.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_sot,over,51.0,9.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,home_sot,over,72.0,1.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_sot,under,72.0,4.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_sot,over,54.0,2.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,away_sot,over,72.0,4.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_sot,under,72.0,8.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_sot,over,52.0,6.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,home_cards,over,72.0,0.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_cards,under,72.0,3.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_cards,over,62.0,1.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,away_cards,over,72.0,0.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_cards,under,72.0,2.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_cards,over,54.0,1.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,total_cards,over,72.0,2.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_cards,under,72.0,5.5,
+SP1,2026-11-07,Valencia,Real Madrid,total_cards,over,53.0,3.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,home_fouls,over,72.0,10.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_fouls,under,72.0,15.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_fouls,over,53.0,12.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,away_fouls,over,72.0,6.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_fouls,under,72.0,10.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_fouls,under,54.0,8.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,home_gk,over,72.0,6.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_gk,under,72.0,11.5,
+SP1,2026-11-07,Valencia,Real Madrid,home_gk,under,56.0,9.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,away_gk,over,72.0,4.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_gk,under,72.0,8.5,
+SP1,2026-11-07,Valencia,Real Madrid,away_gk,under,51.0,6.5,1.0
+SP1,2026-11-07,Valencia,Real Madrid,free_kicks,over,72.0,21.5,
+SP1,2026-11-07,Valencia,Real Madrid,free_kicks,under,72.0,28.5,
+SP1,2026-11-07,Valencia,Real Madrid,free_kicks,over,52.0,24.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,result,A,66.0,,
+SC0,2026-11-07,St Mirren,Rangers,btts,yes,55.0,,
+SC0,2026-11-07,St Mirren,Rangers,total_shots,over,72.0,23.5,
+SC0,2026-11-07,St Mirren,Rangers,total_shots,under,72.0,30.5,
+SC0,2026-11-07,St Mirren,Rangers,total_shots,over,52.0,26.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,total_sot,over,72.0,6.5,
+SC0,2026-11-07,St Mirren,Rangers,total_sot,under,72.0,11.5,
+SC0,2026-11-07,St Mirren,Rangers,total_sot,under,53.0,9.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,home_sot,over,72.0,1.5,
+SC0,2026-11-07,St Mirren,Rangers,home_sot,under,72.0,4.5,
+SC0,2026-11-07,St Mirren,Rangers,home_sot,over,60.0,2.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,away_sot,over,72.0,4.5,
+SC0,2026-11-07,St Mirren,Rangers,away_sot,under,72.0,8.5,
+SC0,2026-11-07,St Mirren,Rangers,away_sot,over,57.0,5.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,home_cards,over,72.0,0.5,
+SC0,2026-11-07,St Mirren,Rangers,home_cards,under,72.0,3.5,
+SC0,2026-11-07,St Mirren,Rangers,home_cards,under,64.0,2.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,away_cards,over,72.0,0.5,
+SC0,2026-11-07,St Mirren,Rangers,away_cards,under,72.0,2.5,
+SC0,2026-11-07,St Mirren,Rangers,away_cards,under,52.0,1.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,total_cards,over,72.0,2.5,
+SC0,2026-11-07,St Mirren,Rangers,total_cards,under,72.0,5.5,
+SC0,2026-11-07,St Mirren,Rangers,total_cards,over,51.0,3.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,home_fouls,over,72.0,10.5,
+SC0,2026-11-07,St Mirren,Rangers,home_fouls,under,72.0,15.5,
+SC0,2026-11-07,St Mirren,Rangers,home_fouls,under,55.0,13.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,away_fouls,over,72.0,8.5,
+SC0,2026-11-07,St Mirren,Rangers,away_fouls,under,72.0,13.5,
+SC0,2026-11-07,St Mirren,Rangers,away_fouls,under,51.0,11.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,home_gk,over,72.0,6.5,
+SC0,2026-11-07,St Mirren,Rangers,home_gk,under,72.0,10.5,
+SC0,2026-11-07,St Mirren,Rangers,home_gk,over,50.0,8.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,away_gk,over,72.0,3.5,
+SC0,2026-11-07,St Mirren,Rangers,away_gk,under,72.0,7.5,
+SC0,2026-11-07,St Mirren,Rangers,away_gk,over,55.0,5.5,1.0
+SC0,2026-11-07,St Mirren,Rangers,free_kicks,over,72.0,24.5,
+SC0,2026-11-07,St Mirren,Rangers,free_kicks,under,72.0,31.5,
+SC0,2026-11-07,St Mirren,Rangers,free_kicks,under,52.0,28.5,1.0
+F1,2026-11-07,Paris SG,Troyes,result,H,85.0,,
+F1,2026-11-07,Paris SG,Troyes,btts,no,51.0,,
+F1,2026-11-07,Paris SG,Troyes,total_shots,over,72.0,24.5,
+F1,2026-11-07,Paris SG,Troyes,total_shots,under,72.0,32.5,
+F1,2026-11-07,Paris SG,Troyes,total_shots,over,52.0,28.5,1.0
+F1,2026-11-07,Paris SG,Troyes,total_sot,over,72.0,8.5,
+F1,2026-11-07,Paris SG,Troyes,total_sot,under,72.0,13.5,
+F1,2026-11-07,Paris SG,Troyes,total_sot,over,53.0,10.5,1.0
+F1,2026-11-07,Paris SG,Troyes,home_sot,over,72.0,5.5,
+F1,2026-11-07,Paris SG,Troyes,home_sot,under,72.0,10.5,
+F1,2026-11-07,Paris SG,Troyes,home_sot,under,54.0,8.5,1.0
+F1,2026-11-07,Paris SG,Troyes,away_sot,over,72.0,1.5,
+F1,2026-11-07,Paris SG,Troyes,away_sot,under,72.0,4.5,
+F1,2026-11-07,Paris SG,Troyes,away_sot,over,50.0,2.5,1.0
+F1,2026-11-07,Paris SG,Troyes,home_cards,under,72.0,1.5,
+F1,2026-11-07,Paris SG,Troyes,home_cards,over,63.0,0.5,1.0
+F1,2026-11-07,Paris SG,Troyes,away_cards,over,72.0,0.5,
+F1,2026-11-07,Paris SG,Troyes,away_cards,under,72.0,2.5,
+F1,2026-11-07,Paris SG,Troyes,away_cards,under,56.0,1.5,1.0
+F1,2026-11-07,Paris SG,Troyes,total_cards,over,72.0,0.5,
+F1,2026-11-07,Paris SG,Troyes,total_cards,under,72.0,3.5,
+F1,2026-11-07,Paris SG,Troyes,total_cards,under,55.0,2.5,1.0
+F1,2026-11-07,Paris SG,Troyes,home_fouls,over,72.0,6.5,
+F1,2026-11-07,Paris SG,Troyes,home_fouls,under,72.0,11.5,
+F1,2026-11-07,Paris SG,Troyes,home_fouls,over,54.0,8.5,1.0
+F1,2026-11-07,Paris SG,Troyes,away_fouls,over,72.0,8.5,
+F1,2026-11-07,Paris SG,Troyes,away_fouls,under,72.0,12.5,
+F1,2026-11-07,Paris SG,Troyes,away_fouls,under,52.0,10.5,1.0
+F1,2026-11-07,Paris SG,Troyes,home_gk,over,72.0,3.5,
+F1,2026-11-07,Paris SG,Troyes,home_gk,under,72.0,7.5,
+F1,2026-11-07,Paris SG,Troyes,home_gk,over,54.0,5.5,1.0
+F1,2026-11-07,Paris SG,Troyes,away_gk,over,72.0,6.5,
+F1,2026-11-07,Paris SG,Troyes,away_gk,under,72.0,11.5,
+F1,2026-11-07,Paris SG,Troyes,away_gk,under,56.0,9.5,1.0
+F1,2026-11-07,Paris SG,Troyes,free_kicks,over,72.0,19.5,
+F1,2026-11-07,Paris SG,Troyes,free_kicks,under,72.0,26.5,
+F1,2026-11-07,Paris SG,Troyes,free_kicks,over,53.0,22.5,1.0
+I1,2026-11-08,Napoli,Lazio,result,H,42.0,,
+I1,2026-11-08,Napoli,Lazio,btts,yes,59.0,,
+I1,2026-11-08,Napoli,Lazio,total_shots,over,72.0,22.5,
+I1,2026-11-08,Napoli,Lazio,total_shots,under,72.0,29.5,
+I1,2026-11-08,Napoli,Lazio,total_shots,over,53.0,25.5,1.0
+I1,2026-11-08,Napoli,Lazio,total_sot,over,72.0,6.5,
+I1,2026-11-08,Napoli,Lazio,total_sot,under,72.0,10.5,
+I1,2026-11-08,Napoli,Lazio,total_sot,over,51.0,8.5,1.0
+I1,2026-11-08,Napoli,Lazio,home_sot,over,72.0,2.5,
+I1,2026-11-08,Napoli,Lazio,home_sot,under,72.0,6.5,
+I1,2026-11-08,Napoli,Lazio,home_sot,over,54.0,4.5,1.0
+I1,2026-11-08,Napoli,Lazio,away_sot,over,72.0,2.5,
+I1,2026-11-08,Napoli,Lazio,away_sot,under,72.0,5.5,
+I1,2026-11-08,Napoli,Lazio,away_sot,over,54.0,3.5,1.0
+I1,2026-11-08,Napoli,Lazio,home_cards,over,72.0,0.5,
+I1,2026-11-08,Napoli,Lazio,home_cards,under,72.0,3.5,
+I1,2026-11-08,Napoli,Lazio,home_cards,over,57.0,1.5,1.0
+I1,2026-11-08,Napoli,Lazio,away_cards,over,72.0,0.5,
+I1,2026-11-08,Napoli,Lazio,away_cards,under,72.0,3.5,
+I1,2026-11-08,Napoli,Lazio,away_cards,under,58.0,2.5,1.0
+I1,2026-11-08,Napoli,Lazio,total_cards,over,72.0,2.5,
+I1,2026-11-08,Napoli,Lazio,total_cards,under,72.0,5.5,
+I1,2026-11-08,Napoli,Lazio,total_cards,under,58.0,4.5,1.0
+I1,2026-11-08,Napoli,Lazio,home_fouls,over,72.0,8.5,
+I1,2026-11-08,Napoli,Lazio,home_fouls,under,72.0,13.5,
+I1,2026-11-08,Napoli,Lazio,home_fouls,over,53.0,10.5,1.0
+I1,2026-11-08,Napoli,Lazio,away_fouls,over,72.0,8.5,
+I1,2026-11-08,Napoli,Lazio,away_fouls,under,72.0,13.5,
+I1,2026-11-08,Napoli,Lazio,away_fouls,over,52.0,10.5,1.0
+I1,2026-11-08,Napoli,Lazio,home_gk,over,72.0,4.5,
+I1,2026-11-08,Napoli,Lazio,home_gk,under,72.0,9.5,
+I1,2026-11-08,Napoli,Lazio,home_gk,under,56.0,7.5,1.0
+I1,2026-11-08,Napoli,Lazio,away_gk,over,72.0,5.5,
+I1,2026-11-08,Napoli,Lazio,away_gk,under,72.0,9.5,
+I1,2026-11-08,Napoli,Lazio,away_gk,over,51.0,7.5,1.0
+I1,2026-11-08,Napoli,Lazio,free_kicks,over,72.0,21.5,
+I1,2026-11-08,Napoli,Lazio,free_kicks,under,72.0,28.5,
+I1,2026-11-08,Napoli,Lazio,free_kicks,under,52.0,25.5,1.0
+SP1,2026-11-08,Elche,Betis,result,A,45.0,,
+SP1,2026-11-08,Elche,Betis,btts,yes,60.0,,
+SP1,2026-11-08,Elche,Betis,total_shots,over,72.0,23.5,
+SP1,2026-11-08,Elche,Betis,total_shots,under,72.0,31.5,
+SP1,2026-11-08,Elche,Betis,total_shots,under,51.0,27.5,1.0
+SP1,2026-11-08,Elche,Betis,total_sot,over,72.0,7.5,
+SP1,2026-11-08,Elche,Betis,total_sot,under,72.0,11.5,
+SP1,2026-11-08,Elche,Betis,total_sot,under,53.0,9.5,1.0
+SP1,2026-11-08,Elche,Betis,home_sot,over,72.0,2.5,
+SP1,2026-11-08,Elche,Betis,home_sot,under,72.0,6.5,
+SP1,2026-11-08,Elche,Betis,home_sot,under,53.0,4.5,1.0
+SP1,2026-11-08,Elche,Betis,away_sot,over,72.0,2.5,
+SP1,2026-11-08,Elche,Betis,away_sot,under,72.0,6.5,
+SP1,2026-11-08,Elche,Betis,away_sot,over,53.0,4.5,1.0
+SP1,2026-11-08,Elche,Betis,home_cards,over,72.0,0.5,
+SP1,2026-11-08,Elche,Betis,home_cards,under,72.0,3.5,
+SP1,2026-11-08,Elche,Betis,home_cards,under,61.0,2.5,1.0
+SP1,2026-11-08,Elche,Betis,away_cards,over,72.0,0.5,
+SP1,2026-11-08,Elche,Betis,away_cards,under,72.0,3.5,
+SP1,2026-11-08,Elche,Betis,away_cards,over,64.0,1.5,1.0
+SP1,2026-11-08,Elche,Betis,total_cards,over,72.0,2.5,
+SP1,2026-11-08,Elche,Betis,total_cards,under,72.0,5.5,
+SP1,2026-11-08,Elche,Betis,total_cards,under,55.0,4.5,1.0
+SP1,2026-11-08,Elche,Betis,home_fouls,over,72.0,10.5,
+SP1,2026-11-08,Elche,Betis,home_fouls,under,72.0,15.5,
+SP1,2026-11-08,Elche,Betis,home_fouls,over,51.0,12.5,1.0
+SP1,2026-11-08,Elche,Betis,away_fouls,over,72.0,9.5,
+SP1,2026-11-08,Elche,Betis,away_fouls,under,72.0,14.5,
+SP1,2026-11-08,Elche,Betis,away_fouls,under,54.0,12.5,1.0
+SP1,2026-11-08,Elche,Betis,home_gk,over,72.0,5.5,
+SP1,2026-11-08,Elche,Betis,home_gk,under,72.0,10.5,
+SP1,2026-11-08,Elche,Betis,home_gk,over,55.0,7.5,1.0
+SP1,2026-11-08,Elche,Betis,away_gk,over,72.0,4.5,
+SP1,2026-11-08,Elche,Betis,away_gk,under,72.0,8.5,
+SP1,2026-11-08,Elche,Betis,away_gk,over,57.0,5.5,1.0
+SP1,2026-11-08,Elche,Betis,free_kicks,over,72.0,24.5,
+SP1,2026-11-08,Elche,Betis,free_kicks,under,72.0,32.5,
+SP1,2026-11-08,Elche,Betis,free_kicks,over,50.0,28.5,1.0
+F1,2026-11-08,Rennes,Lille,result,H,44.0,,
+F1,2026-11-08,Rennes,Lille,btts,yes,62.0,,
+F1,2026-11-08,Rennes,Lille,total_shots,over,72.0,23.5,
+F1,2026-11-08,Rennes,Lille,total_shots,under,72.0,30.5,
+F1,2026-11-08,Rennes,Lille,total_shots,under,53.0,27.5,1.0
+F1,2026-11-08,Rennes,Lille,total_sot,over,72.0,6.5,
+F1,2026-11-08,Rennes,Lille,total_sot,under,72.0,11.5,
+F1,2026-11-08,Rennes,Lille,total_sot,under,53.0,9.5,1.0
+F1,2026-11-08,Rennes,Lille,home_sot,over,72.0,3.5,
+F1,2026-11-08,Rennes,Lille,home_sot,under,72.0,7.5,
+F1,2026-11-08,Rennes,Lille,home_sot,under,58.0,5.5,1.0
+F1,2026-11-08,Rennes,Lille,away_sot,over,72.0,2.5,
+F1,2026-11-08,Rennes,Lille,away_sot,under,72.0,5.5,
+F1,2026-11-08,Rennes,Lille,away_sot,under,58.0,4.5,1.0
+F1,2026-11-08,Rennes,Lille,home_cards,over,72.0,0.5,
+F1,2026-11-08,Rennes,Lille,home_cards,under,72.0,3.5,
+F1,2026-11-08,Rennes,Lille,home_cards,over,59.0,1.5,1.0
+F1,2026-11-08,Rennes,Lille,away_cards,over,72.0,1.5,
+F1,2026-11-08,Rennes,Lille,away_cards,under,72.0,3.5,
+F1,2026-11-08,Rennes,Lille,away_cards,under,55.0,2.5,1.0
+F1,2026-11-08,Rennes,Lille,total_cards,over,72.0,2.5,
+F1,2026-11-08,Rennes,Lille,total_cards,under,72.0,6.5,
+F1,2026-11-08,Rennes,Lille,total_cards,under,53.0,4.5,1.0
+F1,2026-11-08,Rennes,Lille,home_fouls,over,72.0,10.5,
+F1,2026-11-08,Rennes,Lille,home_fouls,under,72.0,16.5,
+F1,2026-11-08,Rennes,Lille,home_fouls,under,51.0,13.5,1.0
+F1,2026-11-08,Rennes,Lille,away_fouls,over,72.0,8.5,
+F1,2026-11-08,Rennes,Lille,away_fouls,under,72.0,13.5,
+F1,2026-11-08,Rennes,Lille,away_fouls,under,54.0,11.5,1.0
+F1,2026-11-08,Rennes,Lille,home_gk,over,72.0,4.5,
+F1,2026-11-08,Rennes,Lille,home_gk,under,72.0,8.5,
+F1,2026-11-08,Rennes,Lille,home_gk,under,55.0,6.5,1.0
+F1,2026-11-08,Rennes,Lille,away_gk,over,72.0,5.5,
+F1,2026-11-08,Rennes,Lille,away_gk,under,72.0,10.5,
+F1,2026-11-08,Rennes,Lille,away_gk,over,55.0,7.5,1.0
+F1,2026-11-08,Rennes,Lille,free_kicks,over,72.0,24.5,
+F1,2026-11-08,Rennes,Lille,free_kicks,under,72.0,31.5,
+F1,2026-11-08,Rennes,Lille,free_kicks,under,52.0,28.5,1.0
+E0,2026-11-08,Brighton,Brentford,result,H,49.0,,
+E0,2026-11-08,Brighton,Brentford,btts,yes,61.0,,
+E0,2026-11-08,Brighton,Brentford,total_shots,over,72.0,23.5,
+E0,2026-11-08,Brighton,Brentford,total_shots,under,72.0,31.5,
+E0,2026-11-08,Brighton,Brentford,total_shots,under,51.0,27.5,1.0
+E0,2026-11-08,Brighton,Brentford,total_sot,over,72.0,6.5,
+E0,2026-11-08,Brighton,Brentford,total_sot,under,72.0,11.5,
+E0,2026-11-08,Brighton,Brentford,total_sot,under,56.0,9.5,1.0
+E0,2026-11-08,Brighton,Brentford,home_sot,over,72.0,3.5,
+E0,2026-11-08,Brighton,Brentford,home_sot,under,72.0,7.5,
+E0,2026-11-08,Brighton,Brentford,home_sot,under,53.0,5.5,1.0
+E0,2026-11-08,Brighton,Brentford,away_sot,over,72.0,1.5,
+E0,2026-11-08,Brighton,Brentford,away_sot,under,72.0,5.5,
+E0,2026-11-08,Brighton,Brentford,away_sot,over,52.0,3.5,1.0
+E0,2026-11-08,Brighton,Brentford,home_cards,over,72.0,0.5,
+E0,2026-11-08,Brighton,Brentford,home_cards,under,72.0,2.5,
+E0,2026-11-08,Brighton,Brentford,home_cards,over,52.0,1.5,1.0
+E0,2026-11-08,Brighton,Brentford,away_cards,over,72.0,0.5,
+E0,2026-11-08,Brighton,Brentford,away_cards,under,72.0,3.5,
+E0,2026-11-08,Brighton,Brentford,away_cards,over,61.0,1.5,1.0
+E0,2026-11-08,Brighton,Brentford,total_cards,over,72.0,2.5,
+E0,2026-11-08,Brighton,Brentford,total_cards,under,72.0,5.5,
+E0,2026-11-08,Brighton,Brentford,total_cards,over,52.0,3.5,1.0
+E0,2026-11-08,Brighton,Brentford,home_fouls,over,72.0,7.5,
+E0,2026-11-08,Brighton,Brentford,home_fouls,under,72.0,12.5,
+E0,2026-11-08,Brighton,Brentford,home_fouls,under,53.0,10.5,1.0
+E0,2026-11-08,Brighton,Brentford,away_fouls,over,72.0,8.5,
+E0,2026-11-08,Brighton,Brentford,away_fouls,under,72.0,12.5,
+E0,2026-11-08,Brighton,Brentford,away_fouls,over,50.0,10.5,1.0
+E0,2026-11-08,Brighton,Brentford,home_gk,over,72.0,4.5,
+E0,2026-11-08,Brighton,Brentford,home_gk,under,72.0,8.5,
+E0,2026-11-08,Brighton,Brentford,home_gk,over,51.0,6.5,1.0
+E0,2026-11-08,Brighton,Brentford,away_gk,over,72.0,6.5,
+E0,2026-11-08,Brighton,Brentford,away_gk,under,72.0,11.5,
+E0,2026-11-08,Brighton,Brentford,away_gk,over,55.0,8.5,1.0
+E0,2026-11-08,Brighton,Brentford,free_kicks,over,72.0,21.5,
+E0,2026-11-08,Brighton,Brentford,free_kicks,under,72.0,27.5,
+E0,2026-11-08,Brighton,Brentford,free_kicks,over,50.0,24.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,result,A,60.0,,
+E0,2026-11-08,Crystal Palace,Liverpool,btts,yes,58.0,,
+E0,2026-11-08,Crystal Palace,Liverpool,total_shots,over,72.0,23.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_shots,under,72.0,31.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_shots,under,51.0,27.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,total_sot,over,72.0,6.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_sot,under,72.0,11.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_sot,under,55.0,9.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,home_sot,over,72.0,1.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_sot,under,72.0,5.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_sot,under,53.0,3.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,away_sot,over,72.0,3.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_sot,under,72.0,7.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_sot,over,50.0,5.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,home_cards,over,72.0,0.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_cards,under,72.0,2.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_cards,over,56.0,1.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,away_cards,over,72.0,0.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_cards,under,72.0,2.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_cards,over,52.0,1.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,total_cards,over,72.0,1.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_cards,under,72.0,5.5,
+E0,2026-11-08,Crystal Palace,Liverpool,total_cards,under,52.0,3.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,home_fouls,over,72.0,7.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_fouls,under,72.0,11.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_fouls,over,51.0,9.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,away_fouls,over,72.0,7.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_fouls,under,72.0,12.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_fouls,under,52.0,10.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,home_gk,over,72.0,6.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_gk,under,72.0,11.5,
+E0,2026-11-08,Crystal Palace,Liverpool,home_gk,under,55.0,9.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,away_gk,over,72.0,4.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_gk,under,72.0,8.5,
+E0,2026-11-08,Crystal Palace,Liverpool,away_gk,over,50.0,6.5,1.0
+E0,2026-11-08,Crystal Palace,Liverpool,free_kicks,over,72.0,20.5,
+E0,2026-11-08,Crystal Palace,Liverpool,free_kicks,under,72.0,27.5,
+E0,2026-11-08,Crystal Palace,Liverpool,free_kicks,over,51.0,23.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,result,A,49.0,,
+E0,2026-11-08,Ipswich,Bournemouth,btts,yes,58.0,,
+E0,2026-11-08,Ipswich,Bournemouth,total_shots,over,72.0,22.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_shots,under,72.0,30.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_shots,over,50.0,26.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,total_sot,over,72.0,6.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_sot,under,72.0,11.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_sot,over,55.0,8.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,home_sot,over,72.0,2.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_sot,under,72.0,5.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_sot,over,55.0,3.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,away_sot,over,72.0,3.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_sot,under,72.0,6.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_sot,over,56.0,4.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,home_cards,over,72.0,0.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_cards,under,72.0,3.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_cards,over,58.0,1.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,away_cards,over,72.0,1.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_cards,under,72.0,3.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_cards,under,54.0,2.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,total_cards,over,72.0,2.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_cards,under,72.0,6.5,
+E0,2026-11-08,Ipswich,Bournemouth,total_cards,under,54.0,4.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,home_fouls,over,72.0,8.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_fouls,under,72.0,13.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_fouls,over,55.0,10.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,away_fouls,over,72.0,9.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_fouls,under,72.0,14.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_fouls,over,50.0,11.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,home_gk,over,72.0,5.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_gk,under,72.0,9.5,
+E0,2026-11-08,Ipswich,Bournemouth,home_gk,over,52.0,7.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,away_gk,over,72.0,4.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_gk,under,72.0,8.5,
+E0,2026-11-08,Ipswich,Bournemouth,away_gk,under,51.0,6.5,1.0
+E0,2026-11-08,Ipswich,Bournemouth,free_kicks,over,72.0,22.5,
+E0,2026-11-08,Ipswich,Bournemouth,free_kicks,under,72.0,29.5,
+E0,2026-11-08,Ipswich,Bournemouth,free_kicks,under,53.0,26.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,result,A,49.0,,
+E0,2026-11-08,Sunderland,Chelsea,btts,yes,56.0,,
+E0,2026-11-08,Sunderland,Chelsea,total_shots,over,72.0,21.5,
+E0,2026-11-08,Sunderland,Chelsea,total_shots,under,72.0,29.5,
+E0,2026-11-08,Sunderland,Chelsea,total_shots,under,51.0,25.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,total_sot,over,72.0,6.5,
+E0,2026-11-08,Sunderland,Chelsea,total_sot,under,72.0,10.5,
+E0,2026-11-08,Sunderland,Chelsea,total_sot,over,51.0,8.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,home_sot,over,72.0,2.5,
+E0,2026-11-08,Sunderland,Chelsea,home_sot,under,72.0,5.5,
+E0,2026-11-08,Sunderland,Chelsea,home_sot,over,54.0,3.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,away_sot,over,72.0,2.5,
+E0,2026-11-08,Sunderland,Chelsea,away_sot,under,72.0,6.5,
+E0,2026-11-08,Sunderland,Chelsea,away_sot,over,51.0,4.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,home_cards,over,72.0,0.5,
+E0,2026-11-08,Sunderland,Chelsea,home_cards,under,72.0,3.5,
+E0,2026-11-08,Sunderland,Chelsea,home_cards,under,60.0,2.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,away_cards,over,72.0,0.5,
+E0,2026-11-08,Sunderland,Chelsea,away_cards,under,72.0,3.5,
+E0,2026-11-08,Sunderland,Chelsea,away_cards,under,59.0,2.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,total_cards,over,72.0,2.5,
+E0,2026-11-08,Sunderland,Chelsea,total_cards,under,72.0,6.5,
+E0,2026-11-08,Sunderland,Chelsea,total_cards,under,51.0,4.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,home_fouls,over,72.0,9.5,
+E0,2026-11-08,Sunderland,Chelsea,home_fouls,under,72.0,14.5,
+E0,2026-11-08,Sunderland,Chelsea,home_fouls,over,52.0,11.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,away_fouls,over,72.0,9.5,
+E0,2026-11-08,Sunderland,Chelsea,away_fouls,under,72.0,14.5,
+E0,2026-11-08,Sunderland,Chelsea,away_fouls,under,55.0,12.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,home_gk,over,72.0,5.5,
+E0,2026-11-08,Sunderland,Chelsea,home_gk,under,72.0,9.5,
+E0,2026-11-08,Sunderland,Chelsea,home_gk,over,51.0,7.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,away_gk,over,72.0,4.5,
+E0,2026-11-08,Sunderland,Chelsea,away_gk,under,72.0,8.5,
+E0,2026-11-08,Sunderland,Chelsea,away_gk,under,57.0,6.5,1.0
+E0,2026-11-08,Sunderland,Chelsea,free_kicks,over,72.0,23.5,
+E0,2026-11-08,Sunderland,Chelsea,free_kicks,under,72.0,31.5,
+E0,2026-11-08,Sunderland,Chelsea,free_kicks,over,50.0,27.5,1.0
+I1,2026-11-08,Genoa,Milan,result,A,52.0,,
+I1,2026-11-08,Genoa,Milan,btts,no,51.0,,
+I1,2026-11-08,Genoa,Milan,total_shots,over,72.0,20.5,
+I1,2026-11-08,Genoa,Milan,total_shots,under,72.0,27.5,
+I1,2026-11-08,Genoa,Milan,total_shots,under,53.0,24.5,1.0
+I1,2026-11-08,Genoa,Milan,total_sot,over,72.0,5.5,
+I1,2026-11-08,Genoa,Milan,total_sot,under,72.0,10.5,
+I1,2026-11-08,Genoa,Milan,total_sot,over,55.0,7.5,1.0
+I1,2026-11-08,Genoa,Milan,home_sot,over,72.0,1.5,
+I1,2026-11-08,Genoa,Milan,home_sot,under,72.0,4.5,
+I1,2026-11-08,Genoa,Milan,home_sot,under,59.0,3.5,1.0
+I1,2026-11-08,Genoa,Milan,away_sot,over,72.0,2.5,
+I1,2026-11-08,Genoa,Milan,away_sot,under,72.0,6.5,
+I1,2026-11-08,Genoa,Milan,away_sot,under,51.0,4.5,1.0
+I1,2026-11-08,Genoa,Milan,home_cards,over,72.0,0.5,
+I1,2026-11-08,Genoa,Milan,home_cards,under,72.0,3.5,
+I1,2026-11-08,Genoa,Milan,home_cards,over,57.0,1.5,1.0
+I1,2026-11-08,Genoa,Milan,away_cards,over,72.0,0.5,
+I1,2026-11-08,Genoa,Milan,away_cards,under,72.0,3.5,
+I1,2026-11-08,Genoa,Milan,away_cards,under,64.0,2.5,1.0
+I1,2026-11-08,Genoa,Milan,total_cards,over,72.0,2.5,
+I1,2026-11-08,Genoa,Milan,total_cards,under,72.0,5.5,
+I1,2026-11-08,Genoa,Milan,total_cards,over,55.0,3.5,1.0
+I1,2026-11-08,Genoa,Milan,home_fouls,over,72.0,8.5,
+I1,2026-11-08,Genoa,Milan,home_fouls,under,72.0,13.5,
+I1,2026-11-08,Genoa,Milan,home_fouls,over,55.0,10.5,1.0
+I1,2026-11-08,Genoa,Milan,away_fouls,over,72.0,9.5,
+I1,2026-11-08,Genoa,Milan,away_fouls,under,72.0,13.5,
+I1,2026-11-08,Genoa,Milan,away_fouls,under,51.0,11.5,1.0
+I1,2026-11-08,Genoa,Milan,home_gk,over,72.0,5.5,
+I1,2026-11-08,Genoa,Milan,home_gk,under,72.0,9.5,
+I1,2026-11-08,Genoa,Milan,home_gk,under,53.0,7.5,1.0
+I1,2026-11-08,Genoa,Milan,away_gk,over,72.0,4.5,
+I1,2026-11-08,Genoa,Milan,away_gk,under,72.0,8.5,
+I1,2026-11-08,Genoa,Milan,away_gk,under,54.0,6.5,1.0
+I1,2026-11-08,Genoa,Milan,free_kicks,over,72.0,22.5,
+I1,2026-11-08,Genoa,Milan,free_kicks,under,72.0,29.5,
+I1,2026-11-08,Genoa,Milan,free_kicks,under,53.0,26.5,1.0
+I1,2026-11-08,Monza,Atalanta,result,A,46.0,,
+I1,2026-11-08,Monza,Atalanta,btts,yes,63.0,,
+I1,2026-11-08,Monza,Atalanta,total_shots,over,72.0,24.5,
+I1,2026-11-08,Monza,Atalanta,total_shots,under,72.0,31.5,
+I1,2026-11-08,Monza,Atalanta,total_shots,over,53.0,27.5,1.0
+I1,2026-11-08,Monza,Atalanta,total_sot,over,72.0,7.5,
+I1,2026-11-08,Monza,Atalanta,total_sot,under,72.0,12.5,
+I1,2026-11-08,Monza,Atalanta,total_sot,over,53.0,9.5,1.0
+I1,2026-11-08,Monza,Atalanta,home_sot,over,72.0,2.5,
+I1,2026-11-08,Monza,Atalanta,home_sot,under,72.0,6.5,
+I1,2026-11-08,Monza,Atalanta,home_sot,under,51.0,4.5,1.0
+I1,2026-11-08,Monza,Atalanta,away_sot,over,72.0,3.5,
+I1,2026-11-08,Monza,Atalanta,away_sot,under,72.0,6.5,
+I1,2026-11-08,Monza,Atalanta,away_sot,over,58.0,4.5,1.0
+I1,2026-11-08,Monza,Atalanta,home_cards,over,72.0,0.5,
+I1,2026-11-08,Monza,Atalanta,home_cards,under,72.0,2.5,
+I1,2026-11-08,Monza,Atalanta,home_cards,over,50.0,1.5,1.0
+I1,2026-11-08,Monza,Atalanta,away_cards,over,72.0,0.5,
+I1,2026-11-08,Monza,Atalanta,away_cards,under,72.0,2.5,
+I1,2026-11-08,Monza,Atalanta,away_cards,over,56.0,1.5,1.0
+I1,2026-11-08,Monza,Atalanta,total_cards,over,72.0,1.5,
+I1,2026-11-08,Monza,Atalanta,total_cards,under,72.0,5.5,
+I1,2026-11-08,Monza,Atalanta,total_cards,under,52.0,3.5,1.0
+I1,2026-11-08,Monza,Atalanta,home_fouls,over,72.0,7.5,
+I1,2026-11-08,Monza,Atalanta,home_fouls,under,72.0,12.5,
+I1,2026-11-08,Monza,Atalanta,home_fouls,under,53.0,10.5,1.0
+I1,2026-11-08,Monza,Atalanta,away_fouls,over,72.0,8.5,
+I1,2026-11-08,Monza,Atalanta,away_fouls,under,72.0,13.5,
+I1,2026-11-08,Monza,Atalanta,away_fouls,over,55.0,10.5,1.0
+I1,2026-11-08,Monza,Atalanta,home_gk,over,72.0,4.5,
+I1,2026-11-08,Monza,Atalanta,home_gk,under,72.0,9.5,
+I1,2026-11-08,Monza,Atalanta,home_gk,over,56.0,6.5,1.0
+I1,2026-11-08,Monza,Atalanta,away_gk,over,72.0,4.5,
+I1,2026-11-08,Monza,Atalanta,away_gk,under,72.0,8.5,
+I1,2026-11-08,Monza,Atalanta,away_gk,under,54.0,6.5,1.0
+I1,2026-11-08,Monza,Atalanta,free_kicks,over,72.0,21.5,
+I1,2026-11-08,Monza,Atalanta,free_kicks,under,72.0,28.5,
+I1,2026-11-08,Monza,Atalanta,free_kicks,over,53.0,24.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,result,A,39.0,,
+I2,2026-11-08,Virtus Entella,Modena,btts,yes,52.0,,
+I2,2026-11-08,Virtus Entella,Modena,total_shots,over,72.0,20.5,
+I2,2026-11-08,Virtus Entella,Modena,total_shots,under,72.0,28.5,
+I2,2026-11-08,Virtus Entella,Modena,total_shots,over,50.0,24.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,total_sot,over,72.0,5.5,
+I2,2026-11-08,Virtus Entella,Modena,total_sot,under,72.0,9.5,
+I2,2026-11-08,Virtus Entella,Modena,total_sot,over,53.0,7.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,home_sot,over,72.0,2.5,
+I2,2026-11-08,Virtus Entella,Modena,home_sot,under,72.0,5.5,
+I2,2026-11-08,Virtus Entella,Modena,home_sot,over,55.0,3.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,away_sot,over,72.0,2.5,
+I2,2026-11-08,Virtus Entella,Modena,away_sot,under,72.0,5.5,
+I2,2026-11-08,Virtus Entella,Modena,away_sot,over,54.0,3.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,home_cards,over,72.0,0.5,
+I2,2026-11-08,Virtus Entella,Modena,home_cards,under,72.0,3.5,
+I2,2026-11-08,Virtus Entella,Modena,home_cards,under,60.0,2.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,away_cards,over,72.0,0.5,
+I2,2026-11-08,Virtus Entella,Modena,away_cards,under,72.0,3.5,
+I2,2026-11-08,Virtus Entella,Modena,away_cards,under,60.0,2.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,total_cards,over,72.0,2.5,
+I2,2026-11-08,Virtus Entella,Modena,total_cards,under,72.0,6.5,
+I2,2026-11-08,Virtus Entella,Modena,total_cards,under,53.0,4.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,home_fouls,over,72.0,11.5,
+I2,2026-11-08,Virtus Entella,Modena,home_fouls,under,72.0,16.5,
+I2,2026-11-08,Virtus Entella,Modena,home_fouls,under,54.0,14.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,away_fouls,over,72.0,11.5,
+I2,2026-11-08,Virtus Entella,Modena,away_fouls,under,72.0,16.5,
+I2,2026-11-08,Virtus Entella,Modena,away_fouls,over,52.0,13.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,home_gk,over,72.0,5.5,
+I2,2026-11-08,Virtus Entella,Modena,home_gk,under,72.0,9.5,
+I2,2026-11-08,Virtus Entella,Modena,home_gk,over,51.0,7.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,away_gk,over,72.0,4.5,
+I2,2026-11-08,Virtus Entella,Modena,away_gk,under,72.0,9.5,
+I2,2026-11-08,Virtus Entella,Modena,away_gk,over,56.0,6.5,1.0
+I2,2026-11-08,Virtus Entella,Modena,free_kicks,over,72.0,27.5,
+I2,2026-11-08,Virtus Entella,Modena,free_kicks,under,72.0,35.5,
+I2,2026-11-08,Virtus Entella,Modena,free_kicks,over,51.0,31.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,result,A,53.0,,
+D1,2026-11-08,FC Koln,Leverkusen,btts,yes,66.0,,
+D1,2026-11-08,FC Koln,Leverkusen,total_shots,over,72.0,25.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_shots,under,72.0,33.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_shots,under,52.0,29.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,total_sot,over,72.0,7.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_sot,under,72.0,12.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_sot,over,56.0,9.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,home_sot,over,72.0,2.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_sot,under,72.0,6.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_sot,under,53.0,4.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,away_sot,over,72.0,3.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_sot,under,72.0,7.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_sot,under,51.0,5.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,home_cards,over,72.0,0.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_cards,under,72.0,3.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_cards,under,61.0,2.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,away_cards,over,72.0,0.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_cards,under,72.0,3.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_cards,over,64.0,1.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,total_cards,over,72.0,2.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_cards,under,72.0,6.5,
+D1,2026-11-08,FC Koln,Leverkusen,total_cards,under,53.0,4.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,home_fouls,over,72.0,7.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_fouls,under,72.0,11.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_fouls,over,50.0,9.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,away_fouls,over,72.0,7.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_fouls,under,72.0,11.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_fouls,over,50.0,9.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,home_gk,over,72.0,6.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_gk,under,72.0,11.5,
+D1,2026-11-08,FC Koln,Leverkusen,home_gk,over,53.0,8.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,away_gk,over,72.0,4.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_gk,under,72.0,9.5,
+D1,2026-11-08,FC Koln,Leverkusen,away_gk,over,56.0,6.5,1.0
+D1,2026-11-08,FC Koln,Leverkusen,free_kicks,over,72.0,19.5,
+D1,2026-11-08,FC Koln,Leverkusen,free_kicks,under,72.0,26.5,
+D1,2026-11-08,FC Koln,Leverkusen,free_kicks,over,52.0,22.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,result,H,60.0,,
+SC0,2026-11-08,Hearts,Falkirk,btts,yes,59.0,,
+SC0,2026-11-08,Hearts,Falkirk,total_shots,over,72.0,23.5,
+SC0,2026-11-08,Hearts,Falkirk,total_shots,under,72.0,30.5,
+SC0,2026-11-08,Hearts,Falkirk,total_shots,over,53.0,26.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,total_sot,over,72.0,6.5,
+SC0,2026-11-08,Hearts,Falkirk,total_sot,under,72.0,11.5,
+SC0,2026-11-08,Hearts,Falkirk,total_sot,under,54.0,9.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,home_sot,over,72.0,3.5,
+SC0,2026-11-08,Hearts,Falkirk,home_sot,under,72.0,8.5,
+SC0,2026-11-08,Hearts,Falkirk,home_sot,over,56.0,5.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,away_sot,over,72.0,1.5,
+SC0,2026-11-08,Hearts,Falkirk,away_sot,under,72.0,4.5,
+SC0,2026-11-08,Hearts,Falkirk,away_sot,under,57.0,3.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,home_cards,over,72.0,0.5,
+SC0,2026-11-08,Hearts,Falkirk,home_cards,under,72.0,2.5,
+SC0,2026-11-08,Hearts,Falkirk,home_cards,over,50.0,1.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,away_cards,over,72.0,1.5,
+SC0,2026-11-08,Hearts,Falkirk,away_cards,under,72.0,3.5,
+SC0,2026-11-08,Hearts,Falkirk,away_cards,under,54.0,2.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,total_cards,over,72.0,2.5,
+SC0,2026-11-08,Hearts,Falkirk,total_cards,under,72.0,5.5,
+SC0,2026-11-08,Hearts,Falkirk,total_cards,under,59.0,4.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,home_fouls,over,72.0,9.5,
+SC0,2026-11-08,Hearts,Falkirk,home_fouls,under,72.0,13.5,
+SC0,2026-11-08,Hearts,Falkirk,home_fouls,under,51.0,11.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,away_fouls,over,72.0,11.5,
+SC0,2026-11-08,Hearts,Falkirk,away_fouls,under,72.0,17.5,
+SC0,2026-11-08,Hearts,Falkirk,away_fouls,under,51.0,14.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,home_gk,over,72.0,4.5,
+SC0,2026-11-08,Hearts,Falkirk,home_gk,under,72.0,8.5,
+SC0,2026-11-08,Hearts,Falkirk,home_gk,over,53.0,6.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,away_gk,over,72.0,6.5,
+SC0,2026-11-08,Hearts,Falkirk,away_gk,under,72.0,11.5,
+SC0,2026-11-08,Hearts,Falkirk,away_gk,over,52.0,8.5,1.0
+SC0,2026-11-08,Hearts,Falkirk,free_kicks,over,72.0,25.5,
+SC0,2026-11-08,Hearts,Falkirk,free_kicks,under,72.0,33.5,
+SC0,2026-11-08,Hearts,Falkirk,free_kicks,over,51.0,29.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,result,H,56.0,,
+SP1,2026-11-08,Sociedad,Vallecano,btts,yes,59.0,,
+SP1,2026-11-08,Sociedad,Vallecano,total_shots,over,72.0,24.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_shots,under,72.0,32.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_shots,over,52.0,28.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,total_sot,over,72.0,7.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_sot,under,72.0,11.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_sot,over,50.0,9.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,home_sot,over,72.0,3.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_sot,under,72.0,7.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_sot,over,52.0,5.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,away_sot,over,72.0,1.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_sot,under,72.0,5.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_sot,over,52.0,3.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,home_cards,over,72.0,0.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_cards,under,72.0,3.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_cards,over,62.0,1.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,away_cards,over,72.0,1.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_cards,under,72.0,3.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_cards,over,50.0,2.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,total_cards,over,72.0,2.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_cards,under,72.0,6.5,
+SP1,2026-11-08,Sociedad,Vallecano,total_cards,over,52.0,4.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,home_fouls,over,72.0,9.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_fouls,under,72.0,14.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_fouls,under,54.0,12.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,away_fouls,over,72.0,9.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_fouls,under,72.0,14.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_fouls,over,55.0,11.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,home_gk,over,72.0,4.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_gk,under,72.0,8.5,
+SP1,2026-11-08,Sociedad,Vallecano,home_gk,over,51.0,6.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,away_gk,over,72.0,5.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_gk,under,72.0,10.5,
+SP1,2026-11-08,Sociedad,Vallecano,away_gk,over,56.0,7.5,1.0
+SP1,2026-11-08,Sociedad,Vallecano,free_kicks,over,72.0,24.5,
+SP1,2026-11-08,Sociedad,Vallecano,free_kicks,under,72.0,31.5,
+SP1,2026-11-08,Sociedad,Vallecano,free_kicks,over,53.0,27.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,result,H,80.0,,
+SC0,2026-11-08,Celtic,Kilmarnock,btts,yes,56.0,,
+SC0,2026-11-08,Celtic,Kilmarnock,total_shots,over,72.0,26.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_shots,under,72.0,34.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_shots,over,52.0,30.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,total_sot,over,72.0,8.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_sot,under,72.0,13.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_sot,under,54.0,11.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,home_sot,over,72.0,5.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_sot,under,72.0,10.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_sot,under,55.0,8.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,away_sot,over,72.0,1.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_sot,under,72.0,4.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_sot,over,58.0,2.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,home_cards,over,72.0,0.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_cards,under,72.0,2.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_cards,under,65.0,1.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,away_cards,over,72.0,0.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_cards,under,72.0,3.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_cards,over,58.0,1.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,total_cards,over,72.0,1.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_cards,under,72.0,4.5,
+SC0,2026-11-08,Celtic,Kilmarnock,total_cards,under,59.0,3.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,home_fouls,over,72.0,7.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_fouls,under,72.0,12.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_fouls,under,54.0,10.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,away_fouls,over,72.0,7.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_fouls,under,72.0,12.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_fouls,over,53.0,9.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,home_gk,over,72.0,3.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_gk,under,72.0,7.5,
+SC0,2026-11-08,Celtic,Kilmarnock,home_gk,over,53.0,5.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,away_gk,over,72.0,7.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_gk,under,72.0,11.5,
+SC0,2026-11-08,Celtic,Kilmarnock,away_gk,under,51.0,9.5,1.0
+SC0,2026-11-08,Celtic,Kilmarnock,free_kicks,over,72.0,20.5,
+SC0,2026-11-08,Celtic,Kilmarnock,free_kicks,under,72.0,27.5,
+SC0,2026-11-08,Celtic,Kilmarnock,free_kicks,over,52.0,23.5,1.0
+F1,2026-11-08,Angers,Nice,result,A,47.0,,
+F1,2026-11-08,Angers,Nice,btts,yes,58.0,,
+F1,2026-11-08,Angers,Nice,total_shots,over,72.0,22.5,
+F1,2026-11-08,Angers,Nice,total_shots,under,72.0,29.5,
+F1,2026-11-08,Angers,Nice,total_shots,over,53.0,25.5,1.0
+F1,2026-11-08,Angers,Nice,total_sot,over,72.0,6.5,
+F1,2026-11-08,Angers,Nice,total_sot,under,72.0,11.5,
+F1,2026-11-08,Angers,Nice,total_sot,over,53.0,8.5,1.0
+F1,2026-11-08,Angers,Nice,home_sot,over,72.0,2.5,
+F1,2026-11-08,Angers,Nice,home_sot,under,72.0,5.5,
+F1,2026-11-08,Angers,Nice,home_sot,over,57.0,3.5,1.0
+F1,2026-11-08,Angers,Nice,away_sot,over,72.0,2.5,
+F1,2026-11-08,Angers,Nice,away_sot,under,72.0,6.5,
+F1,2026-11-08,Angers,Nice,away_sot,over,52.0,4.5,1.0
+F1,2026-11-08,Angers,Nice,home_cards,over,72.0,0.5,
+F1,2026-11-08,Angers,Nice,home_cards,under,72.0,2.5,
+F1,2026-11-08,Angers,Nice,home_cards,over,53.0,1.5,1.0
+F1,2026-11-08,Angers,Nice,away_cards,over,72.0,0.5,
+F1,2026-11-08,Angers,Nice,away_cards,under,72.0,3.5,
+F1,2026-11-08,Angers,Nice,away_cards,over,60.0,1.5,1.0
+F1,2026-11-08,Angers,Nice,total_cards,over,72.0,2.5,
+F1,2026-11-08,Angers,Nice,total_cards,under,72.0,5.5,
+F1,2026-11-08,Angers,Nice,total_cards,over,52.0,3.5,1.0
+F1,2026-11-08,Angers,Nice,home_fouls,over,72.0,7.5,
+F1,2026-11-08,Angers,Nice,home_fouls,under,72.0,12.5,
+F1,2026-11-08,Angers,Nice,home_fouls,over,56.0,9.5,1.0
+F1,2026-11-08,Angers,Nice,away_fouls,over,72.0,8.5,
+F1,2026-11-08,Angers,Nice,away_fouls,under,72.0,13.5,
+F1,2026-11-08,Angers,Nice,away_fouls,under,53.0,11.5,1.0
+F1,2026-11-08,Angers,Nice,home_gk,over,72.0,5.5,
+F1,2026-11-08,Angers,Nice,home_gk,under,72.0,9.5,
+F1,2026-11-08,Angers,Nice,home_gk,under,55.0,7.5,1.0
+F1,2026-11-08,Angers,Nice,away_gk,over,72.0,4.5,
+F1,2026-11-08,Angers,Nice,away_gk,under,72.0,9.5,
+F1,2026-11-08,Angers,Nice,away_gk,over,56.0,6.5,1.0
+F1,2026-11-08,Angers,Nice,free_kicks,over,72.0,21.5,
+F1,2026-11-08,Angers,Nice,free_kicks,under,72.0,28.5,
+F1,2026-11-08,Angers,Nice,free_kicks,over,53.0,24.5,1.0
+F1,2026-11-08,Brest,Lyon,result,A,39.0,,
+F1,2026-11-08,Brest,Lyon,btts,yes,56.0,,
+F1,2026-11-08,Brest,Lyon,total_shots,over,72.0,22.5,
+F1,2026-11-08,Brest,Lyon,total_shots,under,72.0,29.5,
+F1,2026-11-08,Brest,Lyon,total_shots,over,52.0,25.5,1.0
+F1,2026-11-08,Brest,Lyon,total_sot,over,72.0,6.5,
+F1,2026-11-08,Brest,Lyon,total_sot,under,72.0,10.5,
+F1,2026-11-08,Brest,Lyon,total_sot,over,50.0,8.5,1.0
+F1,2026-11-08,Brest,Lyon,home_sot,over,72.0,2.5,
+F1,2026-11-08,Brest,Lyon,home_sot,under,72.0,6.5,
+F1,2026-11-08,Brest,Lyon,home_sot,under,55.0,4.5,1.0
+F1,2026-11-08,Brest,Lyon,away_sot,over,72.0,2.5,
+F1,2026-11-08,Brest,Lyon,away_sot,under,72.0,5.5,
+F1,2026-11-08,Brest,Lyon,away_sot,under,59.0,4.5,1.0
+F1,2026-11-08,Brest,Lyon,home_cards,over,72.0,0.5,
+F1,2026-11-08,Brest,Lyon,home_cards,under,72.0,3.5,
+F1,2026-11-08,Brest,Lyon,home_cards,over,62.0,1.5,1.0
+F1,2026-11-08,Brest,Lyon,away_cards,over,72.0,0.5,
+F1,2026-11-08,Brest,Lyon,away_cards,under,72.0,3.5,
+F1,2026-11-08,Brest,Lyon,away_cards,over,63.0,1.5,1.0
+F1,2026-11-08,Brest,Lyon,total_cards,over,72.0,2.5,
+F1,2026-11-08,Brest,Lyon,total_cards,under,72.0,5.5,
+F1,2026-11-08,Brest,Lyon,total_cards,under,60.0,4.5,1.0
+F1,2026-11-08,Brest,Lyon,home_fouls,over,72.0,10.5,
+F1,2026-11-08,Brest,Lyon,home_fouls,under,72.0,15.5,
+F1,2026-11-08,Brest,Lyon,home_fouls,under,54.0,13.5,1.0
+F1,2026-11-08,Brest,Lyon,away_fouls,over,72.0,10.5,
+F1,2026-11-08,Brest,Lyon,away_fouls,under,72.0,15.5,
+F1,2026-11-08,Brest,Lyon,away_fouls,over,51.0,12.5,1.0
+F1,2026-11-08,Brest,Lyon,home_gk,over,72.0,4.5,
+F1,2026-11-08,Brest,Lyon,home_gk,under,72.0,9.5,
+F1,2026-11-08,Brest,Lyon,home_gk,over,55.0,6.5,1.0
+F1,2026-11-08,Brest,Lyon,away_gk,over,72.0,4.5,
+F1,2026-11-08,Brest,Lyon,away_gk,under,72.0,8.5,
+F1,2026-11-08,Brest,Lyon,away_gk,over,55.0,6.5,1.0
+F1,2026-11-08,Brest,Lyon,free_kicks,over,72.0,25.5,
+F1,2026-11-08,Brest,Lyon,free_kicks,under,72.0,33.5,
+F1,2026-11-08,Brest,Lyon,free_kicks,over,50.0,29.5,1.0
+F1,2026-11-08,Le Havre,Lorient,result,A,38.0,,
+F1,2026-11-08,Le Havre,Lorient,btts,yes,53.0,,
+F1,2026-11-08,Le Havre,Lorient,total_shots,over,72.0,20.5,
+F1,2026-11-08,Le Havre,Lorient,total_shots,under,72.0,28.5,
+F1,2026-11-08,Le Havre,Lorient,total_shots,over,50.0,24.5,1.0
+F1,2026-11-08,Le Havre,Lorient,total_sot,over,72.0,5.5,
+F1,2026-11-08,Le Havre,Lorient,total_sot,under,72.0,10.5,
+F1,2026-11-08,Le Havre,Lorient,total_sot,over,56.0,7.5,1.0
+F1,2026-11-08,Le Havre,Lorient,home_sot,over,72.0,2.5,
+F1,2026-11-08,Le Havre,Lorient,home_sot,under,72.0,5.5,
+F1,2026-11-08,Le Havre,Lorient,home_sot,under,59.0,4.5,1.0
+F1,2026-11-08,Le Havre,Lorient,away_sot,over,72.0,2.5,
+F1,2026-11-08,Le Havre,Lorient,away_sot,under,72.0,5.5,
+F1,2026-11-08,Le Havre,Lorient,away_sot,over,54.0,3.5,1.0
+F1,2026-11-08,Le Havre,Lorient,home_cards,over,72.0,0.5,
+F1,2026-11-08,Le Havre,Lorient,home_cards,under,72.0,3.5,
+F1,2026-11-08,Le Havre,Lorient,home_cards,over,64.0,1.5,1.0
+F1,2026-11-08,Le Havre,Lorient,away_cards,over,72.0,0.5,
+F1,2026-11-08,Le Havre,Lorient,away_cards,under,72.0,3.5,
+F1,2026-11-08,Le Havre,Lorient,away_cards,over,59.0,1.5,1.0
+F1,2026-11-08,Le Havre,Lorient,total_cards,over,72.0,2.5,
+F1,2026-11-08,Le Havre,Lorient,total_cards,under,72.0,5.5,
+F1,2026-11-08,Le Havre,Lorient,total_cards,over,57.0,3.5,1.0
+F1,2026-11-08,Le Havre,Lorient,home_fouls,over,72.0,11.5,
+F1,2026-11-08,Le Havre,Lorient,home_fouls,under,72.0,16.5,
+F1,2026-11-08,Le Havre,Lorient,home_fouls,under,54.0,14.5,1.0
+F1,2026-11-08,Le Havre,Lorient,away_fouls,over,72.0,9.5,
+F1,2026-11-08,Le Havre,Lorient,away_fouls,under,72.0,14.5,
+F1,2026-11-08,Le Havre,Lorient,away_fouls,over,54.0,11.5,1.0
+F1,2026-11-08,Le Havre,Lorient,home_gk,over,72.0,4.5,
+F1,2026-11-08,Le Havre,Lorient,home_gk,under,72.0,8.5,
+F1,2026-11-08,Le Havre,Lorient,home_gk,over,53.0,6.5,1.0
+F1,2026-11-08,Le Havre,Lorient,away_gk,over,72.0,5.5,
+F1,2026-11-08,Le Havre,Lorient,away_gk,under,72.0,9.5,
+F1,2026-11-08,Le Havre,Lorient,away_gk,under,52.0,7.5,1.0
+F1,2026-11-08,Le Havre,Lorient,free_kicks,over,72.0,26.5,
+F1,2026-11-08,Le Havre,Lorient,free_kicks,under,72.0,33.5,
+F1,2026-11-08,Le Havre,Lorient,free_kicks,over,52.0,29.5,1.0
+F1,2026-11-08,Le Mans,Monaco,result,A,55.0,,
+F1,2026-11-08,Le Mans,Monaco,btts,yes,59.0,,
+F1,2026-11-08,Le Mans,Monaco,total_shots,over,72.0,22.5,
+F1,2026-11-08,Le Mans,Monaco,total_shots,under,72.0,29.5,
+F1,2026-11-08,Le Mans,Monaco,total_shots,under,53.0,26.5,1.0
+F1,2026-11-08,Le Mans,Monaco,total_sot,over,72.0,6.5,
+F1,2026-11-08,Le Mans,Monaco,total_sot,under,72.0,11.5,
+F1,2026-11-08,Le Mans,Monaco,total_sot,under,55.0,9.5,1.0
+F1,2026-11-08,Le Mans,Monaco,home_sot,over,72.0,2.5,
+F1,2026-11-08,Le Mans,Monaco,home_sot,under,72.0,5.5,
+F1,2026-11-08,Le Mans,Monaco,home_sot,over,53.0,3.5,1.0
+F1,2026-11-08,Le Mans,Monaco,away_sot,over,72.0,3.5,
+F1,2026-11-08,Le Mans,Monaco,away_sot,under,72.0,7.5,
+F1,2026-11-08,Le Mans,Monaco,away_sot,under,55.0,5.5,1.0
+F1,2026-11-08,Le Mans,Monaco,home_cards,over,72.0,0.5,
+F1,2026-11-08,Le Mans,Monaco,home_cards,under,72.0,3.5,
+F1,2026-11-08,Le Mans,Monaco,home_cards,under,64.0,2.5,1.0
+F1,2026-11-08,Le Mans,Monaco,away_cards,over,72.0,0.5,
+F1,2026-11-08,Le Mans,Monaco,away_cards,under,72.0,3.5,
+F1,2026-11-08,Le Mans,Monaco,away_cards,over,62.0,1.5,1.0
+F1,2026-11-08,Le Mans,Monaco,total_cards,over,72.0,2.5,
+F1,2026-11-08,Le Mans,Monaco,total_cards,under,72.0,5.5,
+F1,2026-11-08,Le Mans,Monaco,total_cards,under,59.0,4.5,1.0
+F1,2026-11-08,Le Mans,Monaco,home_fouls,over,72.0,9.5,
+F1,2026-11-08,Le Mans,Monaco,home_fouls,under,72.0,14.5,
+F1,2026-11-08,Le Mans,Monaco,home_fouls,under,51.0,12.5,1.0
+F1,2026-11-08,Le Mans,Monaco,away_fouls,over,72.0,9.5,
+F1,2026-11-08,Le Mans,Monaco,away_fouls,under,72.0,14.5,
+F1,2026-11-08,Le Mans,Monaco,away_fouls,over,52.0,11.5,1.0
+F1,2026-11-08,Le Mans,Monaco,home_gk,over,72.0,5.5,
+F1,2026-11-08,Le Mans,Monaco,home_gk,under,72.0,9.5,
+F1,2026-11-08,Le Mans,Monaco,home_gk,over,52.0,7.5,1.0
+F1,2026-11-08,Le Mans,Monaco,away_gk,over,72.0,4.5,
+F1,2026-11-08,Le Mans,Monaco,away_gk,under,72.0,8.5,
+F1,2026-11-08,Le Mans,Monaco,away_gk,under,53.0,6.5,1.0
+F1,2026-11-08,Le Mans,Monaco,free_kicks,over,72.0,24.5,
+F1,2026-11-08,Le Mans,Monaco,free_kicks,under,72.0,31.5,
+F1,2026-11-08,Le Mans,Monaco,free_kicks,over,52.0,27.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,result,H,38.0,,
+I2,2026-11-08,Carrarese,Sampdoria,btts,yes,54.0,,
+I2,2026-11-08,Carrarese,Sampdoria,total_shots,over,72.0,21.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_shots,under,72.0,29.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_shots,under,51.0,25.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,total_sot,over,72.0,5.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_sot,under,72.0,10.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_sot,over,55.0,7.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,home_sot,over,72.0,2.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_sot,under,72.0,6.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_sot,under,56.0,4.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,away_sot,over,72.0,1.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_sot,under,72.0,5.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_sot,over,52.0,3.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,home_cards,over,72.0,0.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_cards,under,72.0,3.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_cards,under,62.0,2.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,away_cards,over,72.0,1.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_cards,under,72.0,3.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_cards,under,54.0,2.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,total_cards,over,72.0,2.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_cards,under,72.0,6.5,
+I2,2026-11-08,Carrarese,Sampdoria,total_cards,over,50.0,4.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,home_fouls,over,72.0,11.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_fouls,under,72.0,16.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_fouls,under,55.0,14.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,away_fouls,over,72.0,11.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_fouls,under,72.0,16.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_fouls,under,53.0,14.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,home_gk,over,72.0,5.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_gk,under,72.0,10.5,
+I2,2026-11-08,Carrarese,Sampdoria,home_gk,over,54.0,7.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,away_gk,over,72.0,5.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_gk,under,72.0,10.5,
+I2,2026-11-08,Carrarese,Sampdoria,away_gk,under,56.0,8.5,1.0
+I2,2026-11-08,Carrarese,Sampdoria,free_kicks,over,72.0,28.5,
+I2,2026-11-08,Carrarese,Sampdoria,free_kicks,under,72.0,35.5,
+I2,2026-11-08,Carrarese,Sampdoria,free_kicks,under,53.0,32.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,result,H,63.0,,
+D1,2026-11-08,Freiburg,Union Berlin,btts,yes,55.0,,
+D1,2026-11-08,Freiburg,Union Berlin,total_shots,over,72.0,22.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_shots,under,72.0,30.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_shots,under,52.0,26.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,total_sot,over,72.0,6.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_sot,under,72.0,11.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_sot,over,55.0,8.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,home_sot,over,72.0,3.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_sot,under,72.0,7.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_sot,over,53.0,5.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,away_sot,over,72.0,1.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_sot,under,72.0,4.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_sot,under,60.0,3.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,home_cards,over,72.0,0.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_cards,under,72.0,2.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_cards,under,51.0,1.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,away_cards,over,72.0,0.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_cards,under,72.0,3.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_cards,over,65.0,1.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,total_cards,over,72.0,2.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_cards,under,72.0,5.5,
+D1,2026-11-08,Freiburg,Union Berlin,total_cards,over,51.0,3.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,home_fouls,over,72.0,6.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_fouls,under,72.0,11.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_fouls,over,55.0,8.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,away_fouls,over,72.0,9.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_fouls,under,72.0,14.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_fouls,under,54.0,12.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,home_gk,over,72.0,4.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_gk,under,72.0,8.5,
+D1,2026-11-08,Freiburg,Union Berlin,home_gk,under,53.0,6.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,away_gk,over,72.0,6.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_gk,under,72.0,11.5,
+D1,2026-11-08,Freiburg,Union Berlin,away_gk,over,52.0,8.5,1.0
+D1,2026-11-08,Freiburg,Union Berlin,free_kicks,over,72.0,21.5,
+D1,2026-11-08,Freiburg,Union Berlin,free_kicks,under,72.0,28.5,
+D1,2026-11-08,Freiburg,Union Berlin,free_kicks,over,53.0,24.5,1.0
+E0,2026-11-08,Man United,Aston Villa,result,H,44.0,,
+E0,2026-11-08,Man United,Aston Villa,btts,yes,63.0,,
+E0,2026-11-08,Man United,Aston Villa,total_shots,over,72.0,24.5,
+E0,2026-11-08,Man United,Aston Villa,total_shots,under,72.0,32.5,
+E0,2026-11-08,Man United,Aston Villa,total_shots,over,51.0,28.5,1.0
+E0,2026-11-08,Man United,Aston Villa,total_sot,over,72.0,7.5,
+E0,2026-11-08,Man United,Aston Villa,total_sot,under,72.0,11.5,
+E0,2026-11-08,Man United,Aston Villa,total_sot,under,51.0,9.5,1.0
+E0,2026-11-08,Man United,Aston Villa,home_sot,over,72.0,3.5,
+E0,2026-11-08,Man United,Aston Villa,home_sot,under,72.0,7.5,
+E0,2026-11-08,Man United,Aston Villa,home_sot,under,54.0,5.5,1.0
+E0,2026-11-08,Man United,Aston Villa,away_sot,over,72.0,2.5,
+E0,2026-11-08,Man United,Aston Villa,away_sot,under,72.0,5.5,
+E0,2026-11-08,Man United,Aston Villa,away_sot,over,58.0,3.5,1.0
+E0,2026-11-08,Man United,Aston Villa,home_cards,over,72.0,0.5,
+E0,2026-11-08,Man United,Aston Villa,home_cards,under,72.0,3.5,
+E0,2026-11-08,Man United,Aston Villa,home_cards,under,56.0,2.5,1.0
+E0,2026-11-08,Man United,Aston Villa,away_cards,over,72.0,0.5,
+E0,2026-11-08,Man United,Aston Villa,away_cards,under,72.0,3.5,
+E0,2026-11-08,Man United,Aston Villa,away_cards,under,58.0,2.5,1.0
+E0,2026-11-08,Man United,Aston Villa,total_cards,over,72.0,2.5,
+E0,2026-11-08,Man United,Aston Villa,total_cards,under,72.0,6.5,
+E0,2026-11-08,Man United,Aston Villa,total_cards,over,54.0,4.5,1.0
+E0,2026-11-08,Man United,Aston Villa,home_fouls,over,72.0,9.5,
+E0,2026-11-08,Man United,Aston Villa,home_fouls,under,72.0,14.5,
+E0,2026-11-08,Man United,Aston Villa,home_fouls,over,54.0,11.5,1.0
+E0,2026-11-08,Man United,Aston Villa,away_fouls,over,72.0,8.5,
+E0,2026-11-08,Man United,Aston Villa,away_fouls,under,72.0,13.5,
+E0,2026-11-08,Man United,Aston Villa,away_fouls,over,55.0,10.5,1.0
+E0,2026-11-08,Man United,Aston Villa,home_gk,over,72.0,4.5,
+E0,2026-11-08,Man United,Aston Villa,home_gk,under,72.0,8.5,
+E0,2026-11-08,Man United,Aston Villa,home_gk,over,50.0,6.5,1.0
+E0,2026-11-08,Man United,Aston Villa,away_gk,over,72.0,6.5,
+E0,2026-11-08,Man United,Aston Villa,away_gk,under,72.0,10.5,
+E0,2026-11-08,Man United,Aston Villa,away_gk,over,50.0,8.5,1.0
+E0,2026-11-08,Man United,Aston Villa,free_kicks,over,72.0,23.5,
+E0,2026-11-08,Man United,Aston Villa,free_kicks,under,72.0,30.5,
+E0,2026-11-08,Man United,Aston Villa,free_kicks,over,50.0,26.5,1.0
+I1,2026-11-08,Inter,Como,result,H,50.0,,
+I1,2026-11-08,Inter,Como,btts,yes,64.0,,
+I1,2026-11-08,Inter,Como,total_shots,over,72.0,24.5,
+I1,2026-11-08,Inter,Como,total_shots,under,72.0,32.5,
+I1,2026-11-08,Inter,Como,total_shots,under,53.0,28.5,1.0
+I1,2026-11-08,Inter,Como,total_sot,over,72.0,7.5,
+I1,2026-11-08,Inter,Como,total_sot,under,72.0,11.5,
+I1,2026-11-08,Inter,Como,total_sot,under,51.0,9.5,1.0
+I1,2026-11-08,Inter,Como,home_sot,over,72.0,3.5,
+I1,2026-11-08,Inter,Como,home_sot,under,72.0,7.5,
+I1,2026-11-08,Inter,Como,home_sot,over,50.0,5.5,1.0
+I1,2026-11-08,Inter,Como,away_sot,over,72.0,2.5,
+I1,2026-11-08,Inter,Como,away_sot,under,72.0,5.5,
+I1,2026-11-08,Inter,Como,away_sot,over,58.0,3.5,1.0
+I1,2026-11-08,Inter,Como,home_cards,over,72.0,0.5,
+I1,2026-11-08,Inter,Como,home_cards,under,72.0,2.5,
+I1,2026-11-08,Inter,Como,home_cards,over,54.0,1.5,1.0
+I1,2026-11-08,Inter,Como,away_cards,over,72.0,0.5,
+I1,2026-11-08,Inter,Como,away_cards,under,72.0,3.5,
+I1,2026-11-08,Inter,Como,away_cards,over,61.0,1.5,1.0
+I1,2026-11-08,Inter,Como,total_cards,over,72.0,2.5,
+I1,2026-11-08,Inter,Como,total_cards,under,72.0,5.5,
+I1,2026-11-08,Inter,Como,total_cards,over,55.0,3.5,1.0
+I1,2026-11-08,Inter,Como,home_fouls,over,72.0,8.5,
+I1,2026-11-08,Inter,Como,home_fouls,under,72.0,13.5,
+I1,2026-11-08,Inter,Como,home_fouls,under,55.0,11.5,1.0
+I1,2026-11-08,Inter,Como,away_fouls,over,72.0,7.5,
+I1,2026-11-08,Inter,Como,away_fouls,under,72.0,12.5,
+I1,2026-11-08,Inter,Como,away_fouls,under,55.0,10.5,1.0
+I1,2026-11-08,Inter,Como,home_gk,over,72.0,4.5,
+I1,2026-11-08,Inter,Como,home_gk,under,72.0,9.5,
+I1,2026-11-08,Inter,Como,home_gk,over,56.0,6.5,1.0
+I1,2026-11-08,Inter,Como,away_gk,over,72.0,6.5,
+I1,2026-11-08,Inter,Como,away_gk,under,72.0,11.5,
+I1,2026-11-08,Inter,Como,away_gk,under,53.0,9.5,1.0
+I1,2026-11-08,Inter,Como,free_kicks,over,72.0,21.5,
+I1,2026-11-08,Inter,Como,free_kicks,under,72.0,28.5,
+I1,2026-11-08,Inter,Como,free_kicks,over,53.0,24.5,1.0
+SP1,2026-11-08,Celta,Levante,result,H,50.0,,
+SP1,2026-11-08,Celta,Levante,btts,yes,53.0,,
+SP1,2026-11-08,Celta,Levante,total_shots,over,72.0,21.5,
+SP1,2026-11-08,Celta,Levante,total_shots,under,72.0,28.5,
+SP1,2026-11-08,Celta,Levante,total_shots,under,52.0,25.5,1.0
+SP1,2026-11-08,Celta,Levante,total_sot,over,72.0,6.5,
+SP1,2026-11-08,Celta,Levante,total_sot,under,72.0,10.5,
+SP1,2026-11-08,Celta,Levante,total_sot,under,53.0,8.5,1.0
+SP1,2026-11-08,Celta,Levante,home_sot,over,72.0,2.5,
+SP1,2026-11-08,Celta,Levante,home_sot,under,72.0,6.5,
+SP1,2026-11-08,Celta,Levante,home_sot,over,55.0,4.5,1.0
+SP1,2026-11-08,Celta,Levante,away_sot,over,72.0,1.5,
+SP1,2026-11-08,Celta,Levante,away_sot,under,72.0,4.5,
+SP1,2026-11-08,Celta,Levante,away_sot,under,56.0,3.5,1.0
+SP1,2026-11-08,Celta,Levante,home_cards,over,72.0,0.5,
+SP1,2026-11-08,Celta,Levante,home_cards,under,72.0,2.5,
+SP1,2026-11-08,Celta,Levante,home_cards,over,56.0,1.5,1.0
+SP1,2026-11-08,Celta,Levante,away_cards,over,72.0,0.5,
+SP1,2026-11-08,Celta,Levante,away_cards,under,72.0,3.5,
+SP1,2026-11-08,Celta,Levante,away_cards,under,64.0,2.5,1.0
+SP1,2026-11-08,Celta,Levante,total_cards,over,72.0,2.5,
+SP1,2026-11-08,Celta,Levante,total_cards,under,72.0,5.5,
+SP1,2026-11-08,Celta,Levante,total_cards,over,56.0,3.5,1.0
+SP1,2026-11-08,Celta,Levante,home_fouls,over,72.0,9.5,
+SP1,2026-11-08,Celta,Levante,home_fouls,under,72.0,14.5,
+SP1,2026-11-08,Celta,Levante,home_fouls,under,55.0,12.5,1.0
+SP1,2026-11-08,Celta,Levante,away_fouls,over,72.0,9.5,
+SP1,2026-11-08,Celta,Levante,away_fouls,under,72.0,14.5,
+SP1,2026-11-08,Celta,Levante,away_fouls,over,55.0,11.5,1.0
+SP1,2026-11-08,Celta,Levante,home_gk,over,72.0,4.5,
+SP1,2026-11-08,Celta,Levante,home_gk,under,72.0,8.5,
+SP1,2026-11-08,Celta,Levante,home_gk,under,51.0,6.5,1.0
+SP1,2026-11-08,Celta,Levante,away_gk,over,72.0,5.5,
+SP1,2026-11-08,Celta,Levante,away_gk,under,72.0,9.5,
+SP1,2026-11-08,Celta,Levante,away_gk,under,54.0,7.5,1.0
+SP1,2026-11-08,Celta,Levante,free_kicks,over,72.0,24.5,
+SP1,2026-11-08,Celta,Levante,free_kicks,under,72.0,31.5,
+SP1,2026-11-08,Celta,Levante,free_kicks,over,52.0,27.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,result,H,66.0,,
+SP1,2026-11-08,Villarreal,Getafe,btts,no,52.0,,
+SP1,2026-11-08,Villarreal,Getafe,total_shots,over,72.0,21.5,
+SP1,2026-11-08,Villarreal,Getafe,total_shots,under,72.0,28.5,
+SP1,2026-11-08,Villarreal,Getafe,total_shots,over,52.0,24.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,total_sot,over,72.0,6.5,
+SP1,2026-11-08,Villarreal,Getafe,total_sot,under,72.0,10.5,
+SP1,2026-11-08,Villarreal,Getafe,total_sot,under,52.0,8.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,home_sot,over,72.0,3.5,
+SP1,2026-11-08,Villarreal,Getafe,home_sot,under,72.0,7.5,
+SP1,2026-11-08,Villarreal,Getafe,home_sot,over,52.0,5.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,away_sot,over,72.0,1.5,
+SP1,2026-11-08,Villarreal,Getafe,away_sot,under,72.0,4.5,
+SP1,2026-11-08,Villarreal,Getafe,away_sot,over,50.0,2.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,home_cards,over,72.0,0.5,
+SP1,2026-11-08,Villarreal,Getafe,home_cards,under,72.0,2.5,
+SP1,2026-11-08,Villarreal,Getafe,home_cards,over,56.0,1.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,away_cards,over,72.0,1.5,
+SP1,2026-11-08,Villarreal,Getafe,away_cards,under,72.0,4.5,
+SP1,2026-11-08,Villarreal,Getafe,away_cards,over,55.0,2.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,total_cards,over,72.0,2.5,
+SP1,2026-11-08,Villarreal,Getafe,total_cards,under,72.0,6.5,
+SP1,2026-11-08,Villarreal,Getafe,total_cards,under,51.0,4.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,home_fouls,over,72.0,9.5,
+SP1,2026-11-08,Villarreal,Getafe,home_fouls,under,72.0,14.5,
+SP1,2026-11-08,Villarreal,Getafe,home_fouls,under,55.0,12.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,away_fouls,over,72.0,11.5,
+SP1,2026-11-08,Villarreal,Getafe,away_fouls,under,72.0,16.5,
+SP1,2026-11-08,Villarreal,Getafe,away_fouls,over,54.0,13.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,home_gk,over,72.0,4.5,
+SP1,2026-11-08,Villarreal,Getafe,home_gk,under,72.0,8.5,
+SP1,2026-11-08,Villarreal,Getafe,home_gk,under,54.0,6.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,away_gk,over,72.0,5.5,
+SP1,2026-11-08,Villarreal,Getafe,away_gk,under,72.0,10.5,
+SP1,2026-11-08,Villarreal,Getafe,away_gk,under,56.0,8.5,1.0
+SP1,2026-11-08,Villarreal,Getafe,free_kicks,over,72.0,26.5,
+SP1,2026-11-08,Villarreal,Getafe,free_kicks,under,72.0,33.5,
+SP1,2026-11-08,Villarreal,Getafe,free_kicks,over,51.0,29.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,result,H,59.0,,
+D1,2026-11-08,Hoffenheim,Schalke 04,btts,yes,61.0,,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_shots,over,72.0,23.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_shots,under,72.0,31.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_shots,over,52.0,27.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,total_sot,over,72.0,7.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_sot,under,72.0,12.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_sot,over,52.0,9.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,home_sot,over,72.0,4.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_sot,under,72.0,8.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_sot,under,55.0,6.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,away_sot,over,72.0,1.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_sot,under,72.0,5.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_sot,under,54.0,3.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,home_cards,over,72.0,0.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_cards,under,72.0,2.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_cards,over,54.0,1.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,away_cards,over,72.0,0.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_cards,under,72.0,2.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_cards,over,54.0,1.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,total_cards,over,72.0,1.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_cards,under,72.0,5.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,total_cards,under,52.0,3.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,home_fouls,over,72.0,10.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_fouls,under,72.0,15.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_fouls,over,52.0,12.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,away_fouls,over,72.0,7.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_fouls,under,72.0,12.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_fouls,over,53.0,9.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,home_gk,over,72.0,4.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_gk,under,72.0,9.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,home_gk,over,55.0,6.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,away_gk,over,72.0,5.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_gk,under,72.0,10.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,away_gk,over,56.0,7.5,1.0
+D1,2026-11-08,Hoffenheim,Schalke 04,free_kicks,over,72.0,22.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,free_kicks,under,72.0,29.5,
+D1,2026-11-08,Hoffenheim,Schalke 04,free_kicks,under,53.0,26.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,result,A,39.0,,
+I2,2026-11-08,Vicenza,Cremonese,btts,yes,54.0,,
+I2,2026-11-08,Vicenza,Cremonese,total_shots,over,72.0,22.5,
+I2,2026-11-08,Vicenza,Cremonese,total_shots,under,72.0,29.5,
+I2,2026-11-08,Vicenza,Cremonese,total_shots,over,53.0,25.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,total_sot,over,72.0,6.5,
+I2,2026-11-08,Vicenza,Cremonese,total_sot,under,72.0,10.5,
+I2,2026-11-08,Vicenza,Cremonese,total_sot,under,54.0,8.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,home_sot,over,72.0,2.5,
+I2,2026-11-08,Vicenza,Cremonese,home_sot,under,72.0,5.5,
+I2,2026-11-08,Vicenza,Cremonese,home_sot,over,57.0,3.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,away_sot,over,72.0,2.5,
+I2,2026-11-08,Vicenza,Cremonese,away_sot,under,72.0,5.5,
+I2,2026-11-08,Vicenza,Cremonese,away_sot,under,57.0,4.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,home_cards,over,72.0,0.5,
+I2,2026-11-08,Vicenza,Cremonese,home_cards,under,72.0,3.5,
+I2,2026-11-08,Vicenza,Cremonese,home_cards,under,64.0,2.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,away_cards,over,72.0,0.5,
+I2,2026-11-08,Vicenza,Cremonese,away_cards,under,72.0,3.5,
+I2,2026-11-08,Vicenza,Cremonese,away_cards,under,58.0,2.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,total_cards,over,72.0,2.5,
+I2,2026-11-08,Vicenza,Cremonese,total_cards,under,72.0,6.5,
+I2,2026-11-08,Vicenza,Cremonese,total_cards,under,53.0,4.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,home_fouls,over,72.0,11.5,
+I2,2026-11-08,Vicenza,Cremonese,home_fouls,under,72.0,16.5,
+I2,2026-11-08,Vicenza,Cremonese,home_fouls,over,52.0,13.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,away_fouls,over,72.0,9.5,
+I2,2026-11-08,Vicenza,Cremonese,away_fouls,under,72.0,14.5,
+I2,2026-11-08,Vicenza,Cremonese,away_fouls,under,53.0,12.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,home_gk,over,72.0,4.5,
+I2,2026-11-08,Vicenza,Cremonese,home_gk,under,72.0,8.5,
+I2,2026-11-08,Vicenza,Cremonese,home_gk,under,56.0,6.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,away_gk,over,72.0,6.5,
+I2,2026-11-08,Vicenza,Cremonese,away_gk,under,72.0,10.5,
+I2,2026-11-08,Vicenza,Cremonese,away_gk,under,52.0,8.5,1.0
+I2,2026-11-08,Vicenza,Cremonese,free_kicks,over,72.0,26.5,
+I2,2026-11-08,Vicenza,Cremonese,free_kicks,under,72.0,33.5,
+I2,2026-11-08,Vicenza,Cremonese,free_kicks,over,51.0,29.5,1.0
+F1,2026-11-08,Lens,Marseille,result,H,43.0,,
+F1,2026-11-08,Lens,Marseille,btts,yes,66.0,,
+F1,2026-11-08,Lens,Marseille,total_shots,over,72.0,24.5,
+F1,2026-11-08,Lens,Marseille,total_shots,under,72.0,32.5,
+F1,2026-11-08,Lens,Marseille,total_shots,under,53.0,28.5,1.0
+F1,2026-11-08,Lens,Marseille,total_sot,over,72.0,7.5,
+F1,2026-11-08,Lens,Marseille,total_sot,under,72.0,12.5,
+F1,2026-11-08,Lens,Marseille,total_sot,over,54.0,9.5,1.0
+F1,2026-11-08,Lens,Marseille,home_sot,over,72.0,3.5,
+F1,2026-11-08,Lens,Marseille,home_sot,under,72.0,7.5,
+F1,2026-11-08,Lens,Marseille,home_sot,under,52.0,5.5,1.0
+F1,2026-11-08,Lens,Marseille,away_sot,over,72.0,2.5,
+F1,2026-11-08,Lens,Marseille,away_sot,under,72.0,6.5,
+F1,2026-11-08,Lens,Marseille,away_sot,under,54.0,4.5,1.0
+F1,2026-11-08,Lens,Marseille,home_cards,over,72.0,0.5,
+F1,2026-11-08,Lens,Marseille,home_cards,under,72.0,3.5,
+F1,2026-11-08,Lens,Marseille,home_cards,over,61.0,1.5,1.0
+F1,2026-11-08,Lens,Marseille,away_cards,over,72.0,0.5,
+F1,2026-11-08,Lens,Marseille,away_cards,under,72.0,3.5,
+F1,2026-11-08,Lens,Marseille,away_cards,under,63.0,2.5,1.0
+F1,2026-11-08,Lens,Marseille,total_cards,over,72.0,2.5,
+F1,2026-11-08,Lens,Marseille,total_cards,under,72.0,5.5,
+F1,2026-11-08,Lens,Marseille,total_cards,under,56.0,4.5,1.0
+F1,2026-11-08,Lens,Marseille,home_fouls,over,72.0,9.5,
+F1,2026-11-08,Lens,Marseille,home_fouls,under,72.0,13.5,
+F1,2026-11-08,Lens,Marseille,home_fouls,over,50.0,11.5,1.0
+F1,2026-11-08,Lens,Marseille,away_fouls,over,72.0,9.5,
+F1,2026-11-08,Lens,Marseille,away_fouls,under,72.0,14.5,
+F1,2026-11-08,Lens,Marseille,away_fouls,under,53.0,12.5,1.0
+F1,2026-11-08,Lens,Marseille,home_gk,over,72.0,4.5,
+F1,2026-11-08,Lens,Marseille,home_gk,under,72.0,8.5,
+F1,2026-11-08,Lens,Marseille,home_gk,under,52.0,6.5,1.0
+F1,2026-11-08,Lens,Marseille,away_gk,over,72.0,5.5,
+F1,2026-11-08,Lens,Marseille,away_gk,under,72.0,10.5,
+F1,2026-11-08,Lens,Marseille,away_gk,over,54.0,7.5,1.0
+F1,2026-11-08,Lens,Marseille,free_kicks,over,72.0,23.5,
+F1,2026-11-08,Lens,Marseille,free_kicks,under,72.0,31.5,
+F1,2026-11-08,Lens,Marseille,free_kicks,over,50.0,27.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,result,A,46.0,,
+I1,2026-11-08,Fiorentina,Juventus,btts,yes,57.0,,
+I1,2026-11-08,Fiorentina,Juventus,total_shots,over,72.0,22.5,
+I1,2026-11-08,Fiorentina,Juventus,total_shots,under,72.0,30.5,
+I1,2026-11-08,Fiorentina,Juventus,total_shots,over,50.0,26.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,total_sot,over,72.0,6.5,
+I1,2026-11-08,Fiorentina,Juventus,total_sot,under,72.0,10.5,
+I1,2026-11-08,Fiorentina,Juventus,total_sot,over,51.0,8.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,home_sot,over,72.0,2.5,
+I1,2026-11-08,Fiorentina,Juventus,home_sot,under,72.0,5.5,
+I1,2026-11-08,Fiorentina,Juventus,home_sot,over,53.0,3.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,away_sot,over,72.0,2.5,
+I1,2026-11-08,Fiorentina,Juventus,away_sot,under,72.0,6.5,
+I1,2026-11-08,Fiorentina,Juventus,away_sot,over,54.0,4.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,home_cards,over,72.0,0.5,
+I1,2026-11-08,Fiorentina,Juventus,home_cards,under,72.0,3.5,
+I1,2026-11-08,Fiorentina,Juventus,home_cards,under,63.0,2.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,away_cards,over,72.0,0.5,
+I1,2026-11-08,Fiorentina,Juventus,away_cards,under,72.0,3.5,
+I1,2026-11-08,Fiorentina,Juventus,away_cards,over,61.0,1.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,total_cards,over,72.0,2.5,
+I1,2026-11-08,Fiorentina,Juventus,total_cards,under,72.0,5.5,
+I1,2026-11-08,Fiorentina,Juventus,total_cards,under,59.0,4.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,home_fouls,over,72.0,8.5,
+I1,2026-11-08,Fiorentina,Juventus,home_fouls,under,72.0,12.5,
+I1,2026-11-08,Fiorentina,Juventus,home_fouls,under,53.0,10.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,away_fouls,over,72.0,10.5,
+I1,2026-11-08,Fiorentina,Juventus,away_fouls,under,72.0,16.5,
+I1,2026-11-08,Fiorentina,Juventus,away_fouls,under,51.0,13.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,home_gk,over,72.0,4.5,
+I1,2026-11-08,Fiorentina,Juventus,home_gk,under,72.0,9.5,
+I1,2026-11-08,Fiorentina,Juventus,home_gk,over,57.0,6.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,away_gk,over,72.0,5.5,
+I1,2026-11-08,Fiorentina,Juventus,away_gk,under,72.0,10.5,
+I1,2026-11-08,Fiorentina,Juventus,away_gk,under,56.0,8.5,1.0
+I1,2026-11-08,Fiorentina,Juventus,free_kicks,over,72.0,23.5,
+I1,2026-11-08,Fiorentina,Juventus,free_kicks,under,72.0,31.5,
+I1,2026-11-08,Fiorentina,Juventus,free_kicks,over,50.0,27.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,result,A,52.0,,
+SP1,2026-11-08,Ath Madrid,Barcelona,btts,yes,70.0,,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_shots,over,72.0,23.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_shots,under,72.0,31.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_shots,under,52.0,27.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,total_sot,over,72.0,7.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_sot,under,72.0,12.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_sot,under,52.0,10.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,home_sot,over,72.0,2.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_sot,under,72.0,6.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_sot,over,51.0,4.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,away_sot,over,72.0,3.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_sot,under,72.0,7.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_sot,over,54.0,5.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,home_cards,over,72.0,0.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_cards,under,72.0,3.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_cards,over,62.0,1.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,away_cards,over,72.0,0.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_cards,under,72.0,2.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_cards,over,51.0,1.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,total_cards,over,72.0,2.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_cards,under,72.0,5.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,total_cards,over,56.0,3.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,home_fouls,over,72.0,8.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_fouls,under,72.0,12.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_fouls,under,52.0,10.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,away_fouls,over,72.0,6.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_fouls,under,72.0,11.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_fouls,over,53.0,8.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,home_gk,over,72.0,6.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_gk,under,72.0,10.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,home_gk,over,50.0,8.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,away_gk,over,72.0,4.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_gk,under,72.0,8.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,away_gk,under,57.0,6.5,1.0
+SP1,2026-11-08,Ath Madrid,Barcelona,free_kicks,over,72.0,19.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,free_kicks,under,72.0,26.5,
+SP1,2026-11-08,Ath Madrid,Barcelona,free_kicks,over,53.0,22.5,1.0

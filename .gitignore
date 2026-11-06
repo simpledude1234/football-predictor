@@ -1,0 +1,12 @@
+# downloaded data (re-downloaded on every run; not ours to republish)
+data/
+# built files
+predictions.html
+_site/
+*.tmp
+__pycache__/
+backtest_results.csv
+# private notes that stay on this PC
+*.local.md
+handovers/
+graphify-out/
