@@ -75,7 +75,8 @@ def main():
     now = dt.datetime.now(ZoneInfo("Europe/London"))
     payload = {"generated": now.strftime("%a %d %b %Y, %H:%M"), "generated_ms": int(now.timestamp() * 1000),
                "matches": matches, "report": params["report"], "record": None, "track": track}
-    write_page(simple_page.HTML, simple_page.SCRIPT, payload, OUT)
+    payload["slugs"] = espn.SLUGS
+    write_page(simple_page.HTML, simple_page.SCRIPT.replace("__LIVE__", live_script()), payload, OUT, connect=True)
     write_page(HTML, SCRIPT, payload, HERE / "details.html")
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
 
@@ -116,7 +117,14 @@ def link_espn(matches, candidates):
     print(f"Linked {linked} of {len(matches)} matches to ESPN")
 
 
-def write_page(html, script, payload, out):
+def live_script():
+    """The live-picks model (live_model.js) with its fitted settings (live_params.json)."""
+    cfg = (HERE / "live_params.json").read_text(encoding="utf-8")
+    json.loads(cfg)                                      # must be valid data, nothing else
+    return (HERE / "live_model.js").read_text(encoding="utf-8").replace("__LIVE_CFG__", cfg.strip())
+
+
+def write_page(html, script, payload, out, connect=False):
     # Data goes inside a <script>; escaping "<" stops any text in the data from
     # closing the script tag and running as code.
     data = json.dumps(payload, default=lambda o: o.item() if hasattr(o, "item") else float(o)).replace("<", "\\u003c").replace("\u2028", "\\u2028")
@@ -124,8 +132,9 @@ def write_page(html, script, payload, out):
     # Content-Security-Policy: the browser will run only this exact script,
     # load nothing from the internet, and send nothing anywhere.
     digest = base64.b64encode(hashlib.sha256(script.encode("utf-8")).digest()).decode()
+    # connect=True (tips page only): it may also ask its own site for live scores (/api/live).
     csp = (f"default-src 'none'; script-src 'sha256-{digest}'; style-src 'unsafe-inline'; "
-           "img-src data:; base-uri 'none'; form-action 'none'")
+           "img-src data:; base-uri 'none'; form-action 'none'" + ("; connect-src 'self'" if connect else ""))
     page = html.replace("__CSP__", csp).replace("__SCRIPT__", script)
     # refuse to publish garbled symbols (text saved in the wrong format)
     if any(bad in page for bad in ("â˜", "â€", "Â·", "ðŸ")):

@@ -154,8 +154,9 @@ def update(days_ahead=21, season_start=None):
                 elif st.get("state") == "pre":
                     all_done = False
                     upcoming.append({"code": code, "slug": slug, "event": ev})
-                else:
+                else:              # in play: still linked, so the Live tab can follow it
                     all_done = False
+                    upcoming.append({"code": code, "slug": slug, "event": ev, "in_play": True})
             if all_done and day < today:
                 done.add(d)
         c["dates_done"][slug] = sorted(done)

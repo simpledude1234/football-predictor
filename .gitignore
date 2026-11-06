@@ -11,3 +11,8 @@ backtest_results.csv
 handovers/
 graphify-out/
 details.html
+# backtest-only event download (big, local)
+cache/espn_events.json
+cache/live_bt_prematch.json
+cache/live_bt_data.json
+.wrangler/

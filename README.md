@@ -18,6 +18,13 @@
 - ⚠ **little data** badge: a team with fewer than 10 matches in our data (usually newly promoted).
 - A yellow banner appears when the predictions are more than 20 hours old.
 
+## Live tab (games in play)
+- Shows each game in play with the minute, score and stats, and a live pick per market (result, both teams to score, shots, shots on target, bookings, fouls). Updates every minute while the tab is open.
+- How it works: what has happened so far + what the pre-match model still expects for the time left. A pick needs at least a 72% chance on a line that isn't already decided. Picks only between 20 and 75 minutes (the window that was tested).
+- Tested on 308 past games, not used to set it up, at 20, 30, 45, 60 and 75 minutes: about 79 in 100 picks landed (78 at half-time, 79 at 60 minutes). These are mostly safe lines at short odds, so check the bookmaker price.
+- Privacy: your browser only talks to this site. A small Cloudflare program on the site (`functions/api/live.js`) fetches ESPN's free scores, so ESPN never sees you. It only answers for our 11 competitions and keeps replies 30 seconds.
+- Re-test: `py -3.13 tools/fetch_events.py`, `py -3.13 tools/live_prematch.py`, `py -3.13 tools/live_backtest_data.py`, then `node tools/live_backtest.js --write` (updates `live_params.json`).
+
 ## Reading a match
 - **Expected**: the number the model expects.
 - **Main line**: the over/under line nearest 50/50.
@@ -27,9 +34,9 @@
 - Bookings = yellow + red cards. Goal kicks and free kicks are **estimates** (no free source records them).
 
 ## Security
-- The page cannot run any code except its own (Content-Security-Policy with a fingerprint), cannot load or send anything over the internet, and shows all text as plain text.
+- The page cannot run any code except its own (Content-Security-Policy with a fingerprint), cannot load anything from other websites, and shows all text as plain text. The tips page may ask its own site for live scores (`/api/live`); nothing else.
 - Downloads: HTTPS, one website only, no redirects, size-capped, checked before replacing the old copy, and never run as code. Impossible numbers are thrown out.
-- No server, no open ports, no passwords or API keys, no accounts.
+- No server of our own, no open ports, no passwords or API keys, no accounts. The only code that runs on Cloudflare is the live-scores reader, which takes no input except a competition name from a fixed list.
 - Library versions are pinned in `requirements.txt`.
 
 ## Files

@@ -17,7 +17,9 @@ header{position:sticky;top:0;z-index:5;background:rgba(11,16,22,.94);backdrop-fi
 .top{display:flex;align-items:center;gap:10px;padding:14px 0 6px}
 .logo{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#34d399,#60a5fa);display:grid;place-items:center}
 h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
-.tabs{display:flex;gap:4px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:3px;max-width:360px;margin-top:6px}
+.tabs{display:flex;gap:4px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:3px;max-width:420px;margin-top:6px}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
+.lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
 .tabs button.on{background:#1b2532;color:var(--text)}
 .chips{display:flex;gap:6px;overflow-x:auto;padding:8px 0 12px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
@@ -50,7 +52,7 @@ footer a{color:var(--acc)}
 </style></head><body>
 <header><div class="wrap">
 <div class="top"><div class="logo">&#9917;</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> &middot; times are UK time</div></div></div>
-<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="track">Track record</button></div>
+<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
 <div class="chips" id="chips"></div>
 </div></header>
 <main class="wrap" id="app"></main>
@@ -134,10 +136,90 @@ function chips() {
   });
 }
 
-function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : trackView(); }
+function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : view === 'live' ? liveView() : trackView(); }
 document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click', () => {
   view = b.dataset.v; document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b));
+  document.getElementById('chips').style.display = view === 'live' ? 'none' : '';
   chips(); render(); window.scrollTo(0, 0);
+  if (view === 'live') refreshLive();
 }));
 chips(); render();
+
+// ------------------------------------------------------------ Live tab
+__LIVE__
+const SLUG = D.slugs || {};
+let liveData = {}, liveErr = false, liveAt = 0, liveTimer = null;
+// UK clock time -> real time (works in any time zone, and across clock changes)
+const ukOffsetMs = (() => { const d = new Date(); const uk = Date.parse(new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false}).format(d).replace(' ', 'T') + 'Z'); return uk - d.getTime(); })();
+const kickMs = m => Date.parse(m.kickoff.replace(' ', 'T') + ':00Z') - ukOffsetMs;
+function inPlayWindow() {
+  const now = Date.now();
+  return D.matches.filter(m => m.espn_id && SLUG[m.code] && kickMs(m) - 10 * 60e3 <= now && now <= kickMs(m) + 135 * 60e3);
+}
+function setDot() {
+  const live = inPlayWindow().some(m => (liveData[String(m.espn_id)] || {state: 'in'}).state === 'in');
+  document.getElementById('livetab').innerHTML = 'Live' + (live ? '<span class="dot"></span>' : '');
+}
+async function refreshLive() {
+  clearTimeout(liveTimer);
+  const slugs = [...new Set(inPlayWindow().map(m => SLUG[m.code]))];
+  if (slugs.length) {
+    liveErr = false;
+    await Promise.all(slugs.map(async s => {
+      try {
+        const r = await fetch('/api/live?slug=' + encodeURIComponent(s), {credentials: 'omit', cache: 'no-store'});
+        if (!r.ok) throw new Error('feed');
+        const j = await r.json();
+        (Array.isArray(j.games) ? j.games : []).forEach(g => { if (g && g.home && g.away) liveData[String(g.id)] = g; });
+      } catch (e) { liveErr = true; }
+    }));
+    liveAt = Date.now();
+  }
+  setDot();
+  if (view === 'live') render();
+  if (view === 'live' && document.visibilityState === 'visible') liveTimer = setTimeout(refreshLive, 60e3);
+}
+document.addEventListener('visibilitychange', () => {
+  if (view === 'live' && document.visibilityState === 'visible') refreshLive(); else clearTimeout(liveTimer);
+});
+
+function livePickText(m, p) {
+  if (p.key === 'result') return p.side === 'H' ? m.home + ' to win' : p.side === 'A' ? m.away + ' to win' : 'Draw';
+  if (p.key === 'btts') return p.side === 'yes' ? 'Yes' : 'No';
+  return (p.pick === 'over' ? 'Over ' : 'Under ') + p.line;
+}
+function liveCard(m) {
+  const L = liveData[String(m.espn_id)];
+  const head = `<div class="mt"><span class="teams">${esc(m.home)}${L && L.state !== 'pre' ? ` <span class="score">${esc(L.home.goals ?? 0)}&ndash;${esc(L.away.goals ?? 0)}</span>` : ''} ${esc(m.away)}</span>`;
+  if (!L || L.state === 'pre') return `<div class="m">${head}<span class="time">${esc(m.time)}</span></div><div class="sub">${esc(m.league)} &middot; not started yet</div></div>`;
+  if (L.state === 'post') return `<div class="m">${head}<span class="time">Full time</span></div><div class="sub">${esc(m.league)}</div></div>`;
+  const R = LIVE.picks(m, L), lab = {};
+  (m.tips || []).forEach(x => { lab[x.key] = x.label; });
+  const two = (a, b) => `${esc(a ?? '–')}&ndash;${esc(b ?? '–')}`;
+  let html = `<div class="m">${head}<span class="time min">${esc(L.display || '')}</span></div>
+    <div class="lstat">${esc(m.league)} &middot; Shots ${two(L.home.shots, L.away.shots)} &middot; On target ${two(L.home.sot, L.away.sot)} &middot; Fouls ${two(L.home.fouls, L.away.fouls)} &middot; Bookings ${two(L.home.yellow + L.home.red, L.away.yellow + L.away.red)}${L.home.red || L.away.red ? ` &middot; Red cards ${two(L.home.red, L.away.red)}` : ''}</div>`;
+  if (R.t == null || R.t < LIVE.CFG.from) return html + `<div class="sub">Live picks start at ${LIVE.CFG.from} minutes, once there is enough to go on.</div></div>`;
+  if (R.late) return html + '<div class="sub">Too late in the game for new picks.</div></div>';
+  html += '<ul>' + R.list.map(p => {
+    const label = esc(lab[p.key] || (p.key === 'result' ? 'Result' : p.key === 'btts' ? 'Both teams to score' : p.key));
+    if (!p.pick) return `<li><span>${label}</span><b class="na" style="font-weight:400">${p.why === 'landed' ? 'Already landed' : 'No tip'}</b></li>`;
+    return `<li><span>${label}</span><b>${esc(livePickText(m, p))}</b></li>`;
+  }).join('') + '</ul></div>';
+  return html;
+}
+function liveView() {
+  const ms = inPlayWindow();
+  let html = `<h2>Live${LIVE.CFG.tested ? '' : '<span class="beta">NEW &middot; not yet tested</span>'}</h2>
+    <div class="sub">${esc(LIVE.CFG.note || '')} Updates every minute while this tab is open. Bookmakers change live prices fast, so check the price before you bet: a pick at very short odds is not worth it.</div>`;
+  if (liveErr) html += '<div class="banner">Live scores are not loading right now. Trying again in a minute.</div>';
+  if (!ms.length) {
+    const next = upcoming.filter(m => m.espn_id && SLUG[m.code])[0];
+    return html + `<div class="empty">No games in play right now.${next ? `<br>Next: ${esc(next.home)} v ${esc(next.away)}, ${dayName(next.iso)} at ${esc(next.time)}.` : ''}</div>`;
+  }
+  const isIn = m => (liveData[String(m.espn_id)] || {}).state === 'in' ? 1 : 0;
+  const order = ms.slice().sort((a, b) => isIn(b) - isIn(a) || a.kickoff.localeCompare(b.kickoff));
+  return html + order.map(liveCard).join('') + (liveAt ? `<div class="sub" style="text-align:center">Checked at ${new Date(liveAt).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit'})}</div>` : '');
+}
+setDot();
+setInterval(setDot, 5 * 60e3);
 """
