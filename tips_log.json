@@ -1438,14 +1438,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 82,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Bristol City offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 72,
+"normal": 60,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Norwich offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -1636,14 +1670,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 80,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Portsmouth offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Stoke offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 74,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
+"pick": "Over 24.5",
 "side": "over",
-"line": 23.5,
+"line": 24.5,
+"chance": 75,
+"normal": 66,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -1828,14 +1898,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 80,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Wrexham offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Wolves offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 77,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -2028,14 +2132,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Leeds offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Tottenham offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 91,
+"normal": 84,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
+"pick": "Over 25.5",
 "side": "over",
-"line": 24.5,
-"star": false,
-"estimate": true
+"line": 25.5,
+"chance": 77,
+"normal": 59,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -2228,14 +2366,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Malaga offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 88,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Santander offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Over 25.5",
 "side": "over",
 "line": 25.5,
+"chance": 78,
+"normal": 68,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -2434,14 +2606,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Cagliari offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Frosinone offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 26.5",
+"pick": "Over 25.5",
 "side": "over",
-"line": 26.5,
-"star": false,
-"estimate": true
+"line": 25.5,
+"chance": 82,
+"normal": 48,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -2634,14 +2838,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 83,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Torino offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 81,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lecce offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 76,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
-"side": "under",
-"line": 30.5,
-"star": false,
-"estimate": true
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 73,
+"normal": 48,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -2832,14 +3074,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Cesena offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 80,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Catanzaro offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 85,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 32.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 32.5,
+"line": 34.5,
+"chance": 87,
+"normal": 80,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -3034,14 +3312,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 83,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Juve Stabia offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 76,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Arezzo offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 82,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 35.5",
-"side": "under",
-"line": 35.5,
-"star": false,
-"estimate": true
+"pick": "Over 27.5",
+"side": "over",
+"line": 27.5,
+"chance": 79,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -3230,14 +3546,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Padova offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 86,
+"normal": 70,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Empoli offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 34.5",
-"side": "under",
-"line": 34.5,
-"star": false,
-"estimate": true
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 78,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -3434,14 +3786,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Pisa offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 86,
+"normal": 70,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sudtirol offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 80,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 31.5,
+"line": 34.5,
+"chance": 89,
+"normal": 80,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -3640,14 +4030,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 78,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Dortmund offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Elversberg offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 84,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
+"pick": "Over 23.5",
 "side": "over",
-"line": 22.5,
+"line": 23.5,
+"chance": 77,
+"normal": 70,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -3842,14 +4268,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Mainz offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Bayern Munich offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 24.5",
 "side": "under",
 "line": 24.5,
-"star": false,
-"estimate": true
+"chance": 77,
+"normal": 41,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -4040,14 +4500,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 77,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Paderborn offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Ein Frankfurt offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 21.5",
-"side": "over",
-"line": 21.5,
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 88,
+"normal": 82,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -4244,14 +4740,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 85,
+"normal": 79,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "RB Leipzig offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Augsburg offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 27.5,
+"line": 30.5,
+"chance": 89,
+"normal": 82,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -4442,14 +4972,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 74,
+"normal": 60,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Birmingham offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 80,
+"normal": 60,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Swansea offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
+"pick": "Over 24.5",
 "side": "over",
-"line": 22.5,
+"line": 24.5,
+"chance": 73,
+"normal": 66,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -4640,14 +5206,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 84,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Blackburn offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "West Ham offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 26.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 26.5,
+"chance": 76,
+"normal": 54,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -4840,14 +5444,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 76,
+"normal": 60,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Cardiff offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 81,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Burnley offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 74,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 21.5",
-"side": "over",
-"line": 21.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -5038,14 +5678,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 86,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Charlton offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 88,
+"normal": 81,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sheffield United offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 80,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -5244,14 +5920,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Preston offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Southampton offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 78,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 27.5,
+"line": 28.5,
+"chance": 76,
+"normal": 68,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -5440,14 +6152,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 72,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "QPR offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lincoln offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 21.5",
-"side": "over",
-"line": 21.5,
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 74,
+"normal": 68,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -5642,14 +6390,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Watford offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Middlesbrough offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 27.5",
 "side": "under",
 "line": 27.5,
-"star": false,
-"estimate": true
+"chance": 77,
+"normal": 62,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -5834,14 +6618,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 87,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "West Brom offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 76,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Millwall offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -6036,14 +6854,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Arsenal offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 80,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Hull offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 85,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 30.5,
+"chance": 87,
+"normal": 71,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -6230,14 +7084,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Fulham offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 89,
+"normal": 84,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Newcastle offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 30.5,
+"chance": 88,
+"normal": 71,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -6432,14 +7320,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Dundee United offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Motherwell offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 80,
+"normal": 65,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -6628,14 +7548,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 88,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "St Johnstone offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Dundee offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 82,
+"normal": 65,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -6826,14 +7782,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 73,
+"normal": 55,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Espanol offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 77,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "La Coruna offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 42,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 25.5",
+"pick": "Over 20.5",
 "side": "over",
-"line": 25.5,
+"line": 20.5,
+"chance": 93,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -7022,14 +8016,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 85,
+"normal": 72,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Mantova offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 77,
+"normal": 55,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Verona offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 77,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 34.5",
-"side": "under",
-"line": 34.5,
-"star": false,
-"estimate": true
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 73,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -7222,14 +8254,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Parma offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Bologna offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 89,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 26.5",
+"pick": "Over 25.5",
 "side": "over",
-"line": 26.5,
-"star": false,
-"estimate": true
+"line": 25.5,
+"chance": 81,
+"normal": 48,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -7422,14 +8490,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 77,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Stuttgart offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Werder Bremen offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 85,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 26.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 26.5,
+"chance": 77,
+"normal": 62,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -7626,14 +8732,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Osasuna offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 89,
+"normal": 77,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Ath Bilbao offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 75,
+"normal": 42,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
-"side": "under",
-"line": 31.5,
+"pick": "Over 20.5",
+"side": "over",
+"line": 20.5,
+"chance": 92,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -7826,14 +8968,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Nott'm Forest offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Man City offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 79,
+"normal": 71,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -8024,14 +9198,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Aberdeen offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 84,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Hibernian offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
+"pick": "Over 19.5",
 "side": "over",
-"line": 24.5,
+"line": 19.5,
+"chance": 95,
+"normal": 87,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -8220,14 +9428,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 83,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Auxerre offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Paris FC offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
-"side": "over",
-"line": 24.5,
+"pick": "Under 33.5",
+"side": "under",
+"line": 33.5,
+"chance": 89,
+"normal": 80,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -8414,14 +9658,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 79,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Benevento offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Avellino offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 77,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 32.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 32.5,
+"line": 34.5,
+"chance": 89,
+"normal": 80,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -8612,14 +9894,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 75,
+"normal": 55,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Roma offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 80,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sassuolo offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 35.5",
 "side": "under",
-"line": 29.5,
+"line": 35.5,
+"chance": 97,
+"normal": 92,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -8816,14 +10134,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Valencia offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Real Madrid offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"star": false,
-"estimate": true
+"chance": 77,
+"normal": 52,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -9018,14 +10368,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "St Mirren offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Rangers offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
+"pick": "Over 19.5",
 "side": "over",
-"line": 24.5,
+"line": 19.5,
+"chance": 94,
+"normal": 87,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -9224,14 +10606,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Paris SG offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Troyes offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 26.5",
 "side": "under",
 "line": 26.5,
-"star": false,
-"estimate": true
+"chance": 76,
+"normal": 37,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -9426,14 +10840,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Napoli offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lazio offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 87,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -9630,14 +11078,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Elche offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Betis offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 87,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
+"pick": "Over 20.5",
 "side": "over",
-"line": 24.5,
+"line": 20.5,
+"chance": 95,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -9834,14 +11316,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 76,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Rennes offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lille offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 87,
+"normal": 73,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
+"pick": "Over 23.5",
 "side": "over",
-"line": 24.5,
+"line": 23.5,
+"chance": 86,
+"normal": 78,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -10032,14 +11550,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Brighton offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Brentford offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 30.5,
+"chance": 87,
+"normal": 71,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -10236,14 +11786,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Crystal Palace offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 76,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Liverpool offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 30.5,
+"chance": 88,
+"normal": 71,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -10434,14 +12018,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 76,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Ipswich offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Bournemouth offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 82,
+"normal": 71,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -10634,14 +12252,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 81,
+"normal": 67,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sunderland offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Chelsea offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 77,
+"normal": 51,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -10832,14 +12484,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Genoa offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 86,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Milan offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
-"side": "under",
-"line": 29.5,
+"pick": "Over 21.5",
+"side": "over",
+"line": 21.5,
+"chance": 82,
+"normal": 76,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -11034,14 +12722,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Monza offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Atalanta offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 35.5",
 "side": "under",
-"line": 28.5,
+"line": 35.5,
+"chance": 97,
+"normal": 92,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -11232,14 +12956,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 87,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Virtus Entella offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Modena offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 71,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 35.5",
-"side": "under",
-"line": 35.5,
-"star": false,
-"estimate": true
+"pick": "Over 27.5",
+"side": "over",
+"line": 27.5,
+"chance": 80,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -11436,14 +13196,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 84,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "FC Koln offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 82,
+"normal": 59,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Leverkusen offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 26.5",
+"pick": "Under 24.5",
 "side": "under",
-"line": 26.5,
-"star": false,
-"estimate": true
+"line": 24.5,
+"chance": 76,
+"normal": 41,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -11634,14 +13432,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Hearts offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 73,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Falkirk offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 25.5",
+"pick": "Over 24.5",
 "side": "over",
-"line": 25.5,
+"line": 24.5,
+"chance": 78,
+"normal": 68,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -11832,14 +13666,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 91,
+"normal": 77,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sociedad offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 81,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Vallecano offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
+"pick": "Under 30.5",
 "side": "under",
-"line": 31.5,
+"line": 30.5,
+"chance": 75,
+"normal": 65,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -12038,14 +13910,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Celtic offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Kilmarnock offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 26.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 26.5,
+"chance": 78,
+"normal": 46,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -12234,14 +14138,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Angers offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Nice offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 82,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 27.5",
 "side": "under",
-"line": 28.5,
-"star": false,
-"estimate": true
+"line": 27.5,
+"chance": 72,
+"normal": 46,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -12432,14 +14372,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Brest offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 74,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lyon offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 25.5",
+"pick": "Over 23.5",
 "side": "over",
-"line": 25.5,
+"line": 23.5,
+"chance": 87,
+"normal": 78,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -12630,14 +14604,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Le Havre offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lorient offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 26.5",
+"pick": "Over 23.5",
 "side": "over",
-"line": 26.5,
+"line": 23.5,
+"chance": 87,
+"normal": 78,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -12830,14 +14838,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Le Mans offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Monaco offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 81,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
-"side": "over",
-"line": 24.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -13028,14 +15068,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 86,
+"normal": 72,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Carrarese offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 81,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sampdoria offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 74,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 28.5",
+"pick": "Over 27.5",
 "side": "over",
-"line": 28.5,
-"star": false,
-"estimate": true
+"line": 27.5,
+"chance": 73,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -13230,14 +15308,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 75,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Freiburg offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Union Berlin offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 21.5",
-"side": "over",
-"line": 21.5,
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 88,
+"normal": 82,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -13430,14 +15544,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Man United offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 72,
+"normal": 63,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Aston Villa offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -13630,14 +15778,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 84,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Inter offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 78,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Como offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
+"pick": "Over 21.5",
+"side": "over",
+"line": 21.5,
+"chance": 84,
+"normal": 76,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -13834,14 +16018,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 85,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Celta offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 86,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Levante offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 73,
+"normal": 42,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
-"side": "under",
-"line": 31.5,
+"pick": "Over 20.5",
+"side": "over",
+"line": 20.5,
+"chance": 92,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -14036,14 +16258,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 83,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Villarreal offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 82,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Getafe offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 82,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 26.5",
+"pick": "Over 20.5",
 "side": "over",
-"line": 26.5,
+"line": 20.5,
+"chance": 96,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -14236,14 +16496,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 86,
+"normal": 79,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Hoffenheim offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 86,
+"normal": 79,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Schalke 04 offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 22.5",
-"side": "over",
-"line": 22.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -14430,14 +16724,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 83,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Vicenza offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 91,
+"normal": 70,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Cremonese offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 78,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 33.5",
-"side": "under",
-"line": 33.5,
-"star": false,
-"estimate": true
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 73,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -14632,14 +16964,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 79,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Lens offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Marseille offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 91,
+"normal": 76,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 74,
+"normal": 59,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -14836,14 +17206,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 75,
+"normal": 55,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Fiorentina offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 82,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Juventus offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
-"side": "under",
-"line": 31.5,
+"pick": "Over 22.5",
+"side": "over",
+"line": 22.5,
+"chance": 82,
+"normal": 71,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -15040,14 +17446,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 74,
+"normal": 45,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Ath Madrid offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 81,
+"normal": 48,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Barcelona offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 83,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 26.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 26.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 77,
+"normal": 52,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -15230,14 +17674,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 74,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Bodo/Glimt offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "LASK Linz offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 83,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
+"pick": "Over 21.5",
 "side": "over",
-"line": 23.5,
+"line": 21.5,
+"chance": 87,
+"normal": 81,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -15430,14 +17910,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 73,
+"normal": 38,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Galatasaray offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 74,
+"normal": 36,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Aston Villa offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 88,
+"normal": 76,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
-"side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 76,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -15632,14 +18150,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 76,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Arsenal offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 87,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Borussia Dortmund offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 75,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
+"pick": "Over 25.5",
 "side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"line": 25.5,
+"chance": 76,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -15824,14 +18380,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 80,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Como offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 77,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AEK Athens offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 84,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
-"side": "under",
-"line": 30.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -16020,14 +18612,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 80,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Feyenoord Rotterdam offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "FC Porto offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 87,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
-"side": "under",
-"line": 30.5,
-"star": false,
-"estimate": true
+"pick": "Over 24.5",
+"side": "over",
+"line": 24.5,
+"chance": 73,
+"normal": 61,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -16216,14 +18844,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 73,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Manchester City offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 76,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Napoli offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 89,
+"normal": 76,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 33.5",
 "side": "under",
-"line": 28.5,
+"line": 33.5,
+"chance": 92,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -16418,14 +19084,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "RB Leipzig offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 81,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lens offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 84,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
+"pick": "Over 21.5",
 "side": "over",
-"line": 23.5,
+"line": 21.5,
+"chance": 86,
+"normal": 81,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -16618,14 +19322,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 81,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Real Madrid offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 83,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "PSV Eindhoven offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 78,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"star": false,
-"estimate": true
+"chance": 78,
+"normal": 64,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -16816,14 +19558,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 77,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Slovan Bratislava offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Real Betis offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 33.5",
 "side": "under",
-"line": 29.5,
+"line": 33.5,
+"chance": 92,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -17018,14 +19794,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 80,
+"normal": 38,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sabah FK offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 78,
+"normal": 36,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Barcelona offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 74,
+"normal": 53,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
-"star": false,
-"estimate": true
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 73,
+"normal": 53,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -17212,14 +20026,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 77,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Slavia Prague offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Villarreal offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
-"side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -17408,14 +20254,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 75,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Atlético Madrid offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Viking FK offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 81,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 33.5",
 "side": "under",
-"line": 28.5,
+"line": 33.5,
+"chance": 93,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -17604,14 +20486,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 74,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Club Brugge offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Liverpool offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 33.5",
 "side": "under",
-"line": 28.5,
+"line": 33.5,
+"chance": 92,
+"normal": 86,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -17802,14 +20718,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Internazionale offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 86,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "VfB Stuttgart offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 87,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
-"side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -18000,14 +20950,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 81,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Lille offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Bayern Munich offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 89,
+"normal": 76,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
-"star": false,
-"estimate": true
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -18202,14 +21186,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Paris Saint-Germain offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 73,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AS Roma offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 88,
+"normal": 76,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 27.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 27.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 77,
+"normal": 64,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -18398,14 +21418,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 87,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Shakhtar Donetsk offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 74,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Fenerbahce offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
+"line": 28.5,
+"chance": 72,
+"normal": 64,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -18594,14 +21652,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 88,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sporting CP offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 77,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Manchester United offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 82,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
+"line": 28.5,
+"chance": 74,
+"normal": 64,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -18784,14 +21880,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 88,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Kairat Almaty offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 93,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Mjällby AIF offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 76,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 75,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -18980,14 +22114,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 82,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Besiktas offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Hapoel Be'er offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 73,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -19178,14 +22348,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Celta Vigo offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AFC Bournemouth offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 74,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
-"side": "over",
-"line": 24.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 73,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -19372,14 +22576,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 85,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Dinamo Zagreb offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 86,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Bayer Leverkusen offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 79,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -19568,14 +22808,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 84,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Marseille offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Levski Sofia offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 75,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 78,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -19764,14 +23042,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Olympiacos offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AC Milan offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"star": false,
-"estimate": true
+"chance": 79,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -19954,14 +23264,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "RB Salzburg offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Ararat-Armenia offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 73,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -20148,14 +23492,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Union St.-Gilloise offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lech Poznan offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 76,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -20344,14 +23720,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Viktoria Plzen offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 86,
+"normal": 81,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Benfica offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 75,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -20540,14 +23950,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 85,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Ajax Amsterdam offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 95,
+"normal": 89,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "FC Thun offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 76,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 74,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -20734,14 +24182,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 80,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Brighton & Hove Albion offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 78,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "CSU Craiova offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 30.5,
+"line": 34.5,
+"chance": 89,
+"normal": 78,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -20924,14 +24408,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 77,
+"normal": 35,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Egnatia offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 73,
+"normal": 26,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lincoln Red Imps offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 76,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 85,
+"normal": 78,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -21122,14 +24644,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 87,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Heart of Midlothian offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AS Monaco offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 85,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 92,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -21324,14 +24882,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 92,
+"normal": 80,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Iberia 1999 offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 95,
+"normal": 89,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Getafe offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 75,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 24.5",
-"side": "over",
-"line": 24.5,
-"star": false,
-"estimate": true
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 90,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -21514,14 +25110,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Jablonec offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 84,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "FC Lugano offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 93,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -21704,14 +25334,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 92,
+"normal": 80,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Kauno Zalgiris offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 84,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Riga FC offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 77,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -21894,14 +25560,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 93,
+"normal": 80,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Pafos offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 74,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "FC Midtjylland offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 78,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -22084,14 +25786,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "SK Brann offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 88,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AGF offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 75,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 93,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -22276,14 +26014,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 80,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Crystal Palace offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Real Sociedad offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 81,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 80,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -22466,14 +26240,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 89,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Ferencvaros offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "NK Celje offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 74,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 74,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -22662,14 +26472,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Juventus offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Omonia Nicosia offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 73,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 74,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -22852,14 +26696,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Lyon offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lillestrom offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 74,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -23050,14 +26926,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "NEC Nijmegen offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Stade Rennais offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
+"pick": "Under 31.5",
+"side": "under",
+"line": 31.5,
+"chance": 81,
+"normal": 74,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -23252,14 +27160,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "OFI Crete offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Anderlecht offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
+"pick": "Under 33.5",
+"side": "under",
+"line": 33.5,
+"chance": 88,
+"normal": 82,
 "star": false,
-"estimate": true
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -23450,14 +27392,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sparta Prague offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "AZ Alkmaar offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 74,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -23644,14 +27618,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Sunderland offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Jagiellonia Bialystok offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 75,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -23840,14 +27846,48 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Torreense offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Celtic offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 77,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"star": false,
-"estimate": true
+"line": 28.5,
+"chance": 74,
+"normal": 49,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -24032,14 +28072,46 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "TSG Hoffenheim offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "SK Sturm Graz offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 72,
+"normal": 60,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -24234,14 +28306,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 93,
+"normal": 80,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Borac Banja Luka offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 91,
+"normal": 83,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Atalanta offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 76,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 28.5",
+"pick": "Under 27.5",
 "side": "under",
-"line": 28.5,
-"star": false,
-"estimate": true
+"line": 27.5,
+"chance": 74,
+"normal": 43,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -24428,14 +28538,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 90,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Braga offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "KuPS Kuopio offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 74,
+"normal": 63,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 79,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -24624,14 +28770,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 85,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "CSKA Sofia offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 94,
+"normal": 89,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Trabzonspor offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
+"pick": "Under 29.5",
 "side": "under",
-"line": 30.5,
-"star": false,
-"estimate": true
+"line": 29.5,
+"chance": 74,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -24818,14 +29000,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 72,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "FC Nordsjælland offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Panathinaikos offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 84,
+"normal": 70,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 30.5,
-"star": false,
-"estimate": true
+"line": 34.5,
+"chance": 91,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -25010,14 +29228,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 85,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Hajduk Split offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 78,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sint-Truidense offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 85,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 76,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -25200,14 +29456,50 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 86,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Inter D'Escaldes offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 90,
+"normal": 78,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "F.C. København offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Over 23.5",
-"side": "over",
-"line": 23.5,
-"star": false,
-"estimate": true
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 92,
+"normal": 78,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -25390,14 +29682,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 93,
+"normal": 80,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "KAA Gent offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 96,
+"normal": 89,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Red Star Belgrade offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 78,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 82,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -25592,14 +29922,52 @@
 "estimate": true
 },
 {
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 81,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "SC Freiburg offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 73,
+"normal": 43,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "FC Twente offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 88,
+"normal": 80,
+"star": false,
+"estimate": false
+},
+{
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"star": false,
-"estimate": true
+"chance": 82,
+"normal": 56,
+"star": true,
+"estimate": false
 },
 {
 "key": "player_booked",
