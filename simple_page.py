@@ -4,6 +4,7 @@ HTML = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="__CSP__">
 <meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Football Tips</title>
 <style>

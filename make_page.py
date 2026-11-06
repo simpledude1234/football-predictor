@@ -1,4 +1,4 @@
-"""Download fresh data, predict upcoming matches, write predictions.html."""
+﻿"""Download fresh data, predict upcoming matches, write predictions.html."""
 import base64
 import datetime as dt
 import hashlib
@@ -59,6 +59,7 @@ HTML = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="__CSP__">
 <meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Football Predictor</title>
 <style>
@@ -117,7 +118,7 @@ h2{font-size:15px;margin:16px 0 8px}
 @media (min-width:760px){.top{padding-top:16px}h1{font-size:20px}.tabs{max-width:520px}}
 </style></head><body>
 <header><div class="wrap">
-<div class="top"><div class="brand"><div class="logo">⚽</div><div><h1>Football Predictor</h1><div class="sub">Updated <span id="gen"></span></div></div></div></div>
+<div class="top"><div class="brand"><div class="logo">âš½</div><div><h1>Football Predictor</h1><div class="sub">Updated <span id="gen"></span></div></div></div></div>
 <div class="tabs" id="views"><button data-v="matches" class="on">Matches</button><button data-v="stand">Standouts</button><button data-v="record">My record</button><button data-v="how">Accuracy</button></div>
 <div class="scroll" id="leagues"></div>
 <div class="tools"><input id="search" type="search" placeholder="Search a team" autocomplete="off"></div>
@@ -186,10 +187,10 @@ document.addEventListener('input', e => {
   }
   const out = box.querySelector('.out');
   if (p === null) { out.innerHTML = 'Type the line (for example 9.5).'; return; }
-  let txt = `<b>${esc(what)}</b>: our chance <b>${Math.round(100 * p)}%</b> · fair odds ${(1 / p).toFixed(2)}`;
+  let txt = `<b>${esc(what)}</b>: our chance <b>${Math.round(100 * p)}%</b> Â· fair odds ${(1 / p).toFixed(2)}`;
   if (!isNaN(price) && price > 1) {
     const edge = p * price - 1;
-    txt += edge > 0.05 ? ` · <span class="good">value +${Math.round(100 * edge)}% ✅</span>` : edge > 0 ? ` · <span class="warn">tiny edge +${Math.round(100 * edge)}%</span>` : ` · <span class="bad">no value (${Math.round(100 * edge)}%)</span>`;
+    txt += edge > 0.05 ? ` Â· <span class="good">value +${Math.round(100 * edge)}% âœ…</span>` : edge > 0 ? ` Â· <span class="warn">tiny edge +${Math.round(100 * edge)}%</span>` : ` Â· <span class="bad">no value (${Math.round(100 * edge)}%)</span>`;
   }
   out.innerHTML = txt;
 });
@@ -203,8 +204,8 @@ function matchCard(m, idx) {
     if (k.safe_over !== null) tips.push(`Over ${k.safe_over}`);
     if (k.safe_under !== null) tips.push(`Under ${k.safe_under}`);
     const rel = (k.expected - k.league_avg) / k.league_avg;
-    const arrow = rel > 0.08 ? '<span class="good">▲ above normal</span>' : rel < -0.08 ? '<span class="bad">▼ below normal</span>' : '<span class="mut">normal</span>';
-    return `<tr><td>${esc(k.label)}${k.estimate ? '<div class="est">estimate (not in free data)</div>' : ''}<div class="mut">league normal ${k.league_avg} · ${arrow}</div></td>
+    const arrow = rel > 0.08 ? '<span class="good">â–² above normal</span>' : rel < -0.08 ? '<span class="bad">â–¼ below normal</span>' : '<span class="mut">normal</span>';
+    return `<tr><td>${esc(k.label)}${k.estimate ? '<div class="est">estimate (not in free data)</div>' : ''}<div class="mut">league normal ${k.league_avg} Â· ${arrow}</div></td>
       <td class="num"><b>${k.expected.toFixed(1)}</b></td>
       <td class="num">O ${k.line}: <span class="${cls(k.over)}">${k.over}%</span><br>U ${k.line}: <span class="${cls(k.under)}">${k.under}%</span></td>
       <td class="tip">${tips.join('<br>')}</td></tr>`;
@@ -216,30 +217,30 @@ function matchCard(m, idx) {
     const rel = (k.expected - k.league_avg) / k.league_avg;
     const dir = rel > 0.08 ? 'hi' : rel < -0.08 ? 'lo' : '';
     let tip;
-    if (dir === 'hi' && k.safe_over !== null) tip = `<b>Over ${k.safe_over}</b> <i>· 72%+</i>`;
-    else if (dir === 'lo' && k.safe_under !== null) tip = `<b>Under ${k.safe_under}</b> <i>· 72%+</i>`;
-    else tip = `<i>${k.over >= 50 ? 'Over' : 'Under'} ${k.line} · ${Math.max(k.over, k.under)}%</i>`;
+    if (dir === 'hi' && k.safe_over !== null) tip = `<b>Over ${k.safe_over}</b> <i>Â· 72%+</i>`;
+    else if (dir === 'lo' && k.safe_under !== null) tip = `<b>Under ${k.safe_under}</b> <i>Â· 72%+</i>`;
+    else tip = `<i>${k.over >= 50 ? 'Over' : 'Under'} ${k.line} Â· ${Math.max(k.over, k.under)}%</i>`;
     return `<div class="cell ${dir}"><div class="cl"><span>${i + 1}. ${SHORT[k.key] || esc(k.label)}</span>${k.estimate ? '<span class="est" title="estimate">est.</span>' : ''}</div>
-      <div class="cv">${k.expected.toFixed(1)}<small>${dir === 'hi' ? '▲' : dir === 'lo' ? '▼' : ''} avg ${k.league_avg}</small></div><div class="ct">${tip}</div></div>`;
+      <div class="cv">${k.expected.toFixed(1)}<small>${dir === 'hi' ? 'â–²' : dir === 'lo' ? 'â–¼' : ''} avg ${k.league_avg}</small></div><div class="ct">${tip}</div></div>`;
   }).join('');
-  const resCell = `<div class="cell"><div class="cl"><span>13. Match result</span></div><div class="cv">${LAB[best]}<small>${f[best]}%</small></div><div class="ct"><i>H ${f.H}% · D ${f.D}% · A ${f.A}%</i></div></div>`;
+  const resCell = `<div class="cell"><div class="cl"><span>13. Match result</span></div><div class="cv">${LAB[best]}<small>${f[best]}%</small></div><div class="ct"><i>H ${f.H}% Â· D ${f.D}% Â· A ${f.A}%</i></div></div>`;
   const bttsYes = m.btts >= 50;
   const bttsCell = `<div class="cell ${m.btts >= 60 ? 'hi' : m.btts <= 40 ? 'lo' : ''}"><div class="cl"><span>14. BTTS</span></div><div class="cv">${bttsYes ? 'Yes' : 'No'}<small>${bttsYes ? m.btts : 100 - m.btts}%</small></div><div class="ct"><i>fair odds ${odds(bttsYes ? m.btts : 100 - m.btts)}</i></div></div>`;
   return `<div class="card" data-i="${idx}"><div class="mh"><div><div class="teams">${esc(m.home)}<span class="v">v</span>${esc(m.away)}</div>
-    <div class="meta">${esc(m.league)} · expected goals ${m.goals_exp[0]} – ${m.goals_exp[1]}${low.length ? `<span class="badge">little data: ${esc(low.join(', '))}</span>` : ''}</div></div>
+    <div class="meta">${esc(m.league)} Â· expected goals ${m.goals_exp[0]} â€“ ${m.goals_exp[1]}${low.length ? `<span class="badge">little data: ${esc(low.join(', '))}</span>` : ''}</div></div>
     <div class="time">${esc(m.time)}</div></div>
     <div class="grid">${cells}${resCell}${bttsCell}</div>
-    <button class="more" type="button">Full details and price checker ▾</button>
+    <button class="more" type="button">Full details and price checker â–¾</button>
     <div class="body">
     <h2>13. Match outcome</h2>
     <div class="res">${['H', 'D', 'A'].map(k => `<div class="${k === best ? 'big' : ''}">${LAB[k]}<b>${f[k]}%</b><span class="mut">fair odds ${odds(f[k])}</span></div>`).join('')}</div>
     <div class="mut">Team stats alone: ${m.model.H}/${m.model.D}/${m.model.A}%. ${m.bookie ? 'Bookmakers: ' + m.bookie.H + '/' + m.bookie.D + '/' + m.bookie.A + '%.' : ''} The final figure follows bookmaker odds, because in testing they were more accurate than team stats alone.</div>
     <h2>14. Both teams to score</h2>
     <div class="res"><div class="${bttsYes ? 'big' : ''}">Yes<b>${m.btts}%</b><span class="mut">fair odds ${odds(m.btts)}</span></div><div class="${!bttsYes ? 'big' : ''}">No<b>${100 - m.btts}%</b><span class="mut">fair odds ${odds(100 - m.btts)}</span></div></div>
-    <h2>1–12. Stats markets</h2>
+    <h2>1â€“12. Stats markets</h2>
     <table><tr><th>Market</th><th class="num">Expected</th><th class="num">Main line</th><th>Safer tips (72%+)</th></tr>${rows}</table>
     ${checker(m, idx)}
-    <div class="mut" style="margin-top:8px">${m.referee ? 'Referee: ' + esc(m.referee) + ' (cards ×' + m.ref_factor + ' vs average). ' : ''}Matches in our data: ${esc(m.home)} ${m.data_matches[0]}, ${esc(m.away)} ${m.data_matches[1]}. Bookings = yellow + red cards.</div>
+    <div class="mut" style="margin-top:8px">${m.referee ? 'Referee: ' + esc(m.referee) + ' (cards Ã—' + m.ref_factor + ' vs average). ' : ''}Matches in our data: ${esc(m.home)} ${m.data_matches[0]}, ${esc(m.away)} ${m.data_matches[1]}. Bookings = yellow + red cards.</div>
     </div></div>`;
 }
 
@@ -247,7 +248,7 @@ function standouts(list) {
   const keys = list.length ? list[0].markets.map(k => [k.key, k.label]) : [];
   return keys.map(([key, label]) => {
     const r = list.map(m => { const k = m.markets.find(x => x.key === key); return {m, k, rel: k.expected / k.league_avg - 1}; }).sort((a, b) => b.rel - a.rel);
-    const line = x => `<tr><td>${esc(x.m.home)} v ${esc(x.m.away)}<div class="mut">${esc(x.m.league)} · ${esc(x.m.date)}</div></td><td class="num"><b>${x.k.expected.toFixed(1)}</b> <span class="mut">(normal ${x.k.league_avg})</span></td><td class="num ${x.rel > 0 ? 'good' : 'bad'}">${x.rel > 0 ? '+' : ''}${Math.round(100 * x.rel)}%</td></tr>`;
+    const line = x => `<tr><td>${esc(x.m.home)} v ${esc(x.m.away)}<div class="mut">${esc(x.m.league)} Â· ${esc(x.m.date)}</div></td><td class="num"><b>${x.k.expected.toFixed(1)}</b> <span class="mut">(normal ${x.k.league_avg})</span></td><td class="num ${x.rel > 0 ? 'good' : 'bad'}">${x.rel > 0 ? '+' : ''}${Math.round(100 * x.rel)}%</td></tr>`;
     return `<section class="box"><h2>${esc(label)}</h2><div class="mut">Highest expected (lean Over)</div><table>${r.slice(0, 3).map(line).join('')}</table>
       <div class="mut" style="margin-top:6px">Lowest expected (lean Under)</div><table>${r.slice(-3).reverse().map(line).join('')}</table></section>`;
   }).join('');
@@ -267,10 +268,10 @@ function how() {
   const names = {total_shots: 'Total shots', total_sot: 'Total shots on target', home_sot: 'Home shots on target', away_sot: 'Away shots on target',
     home_cards: 'Home bookings', away_cards: 'Away bookings', total_cards: 'Total bookings', home_fouls: 'Home fouls', away_fouls: 'Away fouls'};
   const rows = Object.entries(names).map(([k, n]) => { const x = M[k];
-    return `<tr><td>${n}</td><td class="num">${x.avg_miss_final}</td><td class="num">${x.avg_miss_league_average}</td><td class="num">${x['safer_over_promised_%']}% → <b>${x['safer_over_hit_%']}%</b></td></tr>`; }).join('');
+    return `<tr><td>${n}</td><td class="num">${x.avg_miss_final}</td><td class="num">${x.avg_miss_league_average}</td><td class="num">${x['safer_over_promised_%']}% â†’ <b>${x['safer_over_hit_%']}%</b></td></tr>`; }).join('');
   return `<section class="box"><h2>Honest test on ${R.matches_tested} real matches</h2>
   <div class="mut">Period: ${esc(R.test_period)}. Each match was predicted using only games played before it, and these results were kept out while the model was being set up.</div>
-  <table style="margin-top:8px"><tr><th>Market</th><th class="num">Our avg miss</th><th class="num">League-avg miss</th><th class="num">Safer tips: promised → landed</th></tr>${rows}</table>
+  <table style="margin-top:8px"><tr><th>Market</th><th class="num">Our avg miss</th><th class="num">League-avg miss</th><th class="num">Safer tips: promised â†’ landed</th></tr>${rows}</table>
   <p><b>Match result:</b> our pick was right ${M.match_result['final_pick_right_%']}% of the time (bookmaker favourite: ${M.match_result['bookmaker_pick_right_%']}%).</p>
   <p><b>BTTS:</b> right ${M.btts['final_pick_right_%']}% (saying "Yes" every time: ${M.btts['always_yes_right_%']}%). When we said Yes at 60%+, it landed ${M.btts['strong_yes_hit_%']}%.</p>
   <p><b>What this means:</b> shots, shots on target and fouls are where the tool knows most. Bookings sit close to a coin-flip around the bookmaker line, so treat them with care. Goal kicks and free kicks are estimates, because no free source records them.</p>
@@ -278,10 +279,10 @@ function how() {
 }
 
 let shown = [];
-document.addEventListener('click', e => { const b = e.target.closest('.more'); if (!b) return; const c = b.closest('.card'); c.classList.toggle('open'); b.textContent = c.classList.contains('open') ? 'Hide details ▴' : 'Full details and price checker ▾'; });
+document.addEventListener('click', e => { const b = e.target.closest('.more'); if (!b) return; const c = b.closest('.card'); c.classList.toggle('open'); b.textContent = c.classList.contains('open') ? 'Hide details â–´' : 'Full details and price checker â–¾'; });
 function render() {
   shown = upcoming.filter(m => (league === 'All' || m.league === league) && (!query || (m.home + ' ' + m.away).toLowerCase().includes(query)));
-  const stale = hoursOld > 20 ? `<div class="banner">⚠ These predictions are ${Math.round(hoursOld)} hours old. Run “Update predictions” for fresh ones.</div>` : '';
+  const stale = hoursOld > 20 ? `<div class="banner">âš  These predictions are ${Math.round(hoursOld)} hours old. Run â€œUpdate predictionsâ€ for fresh ones.</div>` : '';
   const app = $('app');
   $('search').style.display = view === 'how' || view === 'record' ? 'none' : '';
   if (view === 'how') app.innerHTML = how();

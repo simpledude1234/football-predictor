@@ -1,12 +1,15 @@
-# Builds the predictions pages in the cloud.
-# The project is private, and GitHub's free plan has no website for private
-# projects, so for now this only runs when the owner presses "Run workflow"
-# and the pages can be downloaded from the run ("predictions-site").
-# Security: uses only GitHub's own official actions, locked to exact versions;
-# needs no passwords or keys.
+# Builds the tips pages every morning and afternoon (UK time) and puts them
+# on Cloudflare Pages: https://ftips-2eb50e.pages.dev
+# Security: runs only on its timer or when the owner presses "Run workflow";
+# uses GitHub's official actions and Cloudflare's official uploader, locked to
+# exact versions. The Cloudflare key lives in GitHub's encrypted Secrets,
+# never in the code, and can only upload pages (nothing else on the account).
 name: Update predictions
 
 on:
+  schedule:
+    - cron: "17 6 * * *"    # about 06:17 UK
+    - cron: "47 15 * * *"   # about 15:47 UK
   workflow_dispatch:
 
 permissions:
@@ -15,6 +18,9 @@ permissions:
 concurrency:
   group: update-predictions
   cancel-in-progress: false
+
+env:
+  CF_PROJECT: ftips-2eb50e
 
 jobs:
   build:
@@ -42,7 +48,15 @@ jobs:
           mkdir -p _site
           cp predictions.html _site/index.html
           cp details.html _site/details.html
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9   # v5.0.0
-        with:
-          path: _site
-          name: predictions-site
+          printf 'User-agent: *\nDisallow: /\n' > _site/robots.txt
+          printf '/*\n  X-Robots-Tag: noindex\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  X-Frame-Options: DENY\n' > _site/_headers
+      - name: Upload to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "Cloudflare secrets not added yet; skipping upload."; exit 0
+          fi
+          npx --yes wrangler@4.158.0 pages project create "$CF_PROJECT" --production-branch main >/dev/null 2>&1 || true
+          npx --yes wrangler@4.158.0 pages deploy _site --project-name "$CF_PROJECT" --branch main --commit-dirty=true

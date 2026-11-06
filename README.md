@@ -6,6 +6,7 @@
 - Leagues: Premier League, Championship, Serie A, Serie B, La Liga, Ligue 1, Bundesliga, Scottish Premiership, plus Champions League, Europa League and Conference League (marked "new, not yet tested").
 - European cup fixtures and odds come from ESPN's free public feed. Teams are rated from their own league (13 leagues covered). Teams from other leagues lean on bookmaker odds.
 - Code backup: private GitHub project simpledude1234/football-predictor.
+- Website: https://ftips-2eb50e.pages.dev (Cloudflare Pages). Rebuilt about 06:17 and 15:47 UK time every day, even with the PC off. To update it right now: GitHub → the project → Actions → "Update predictions" → Run workflow.
 - Update on Friday morning for weekend games and on Tuesday for midweek. Fixtures appear a few days before each round.
 
 ## The page
