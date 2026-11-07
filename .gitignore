@@ -16,3 +16,4 @@ cache/espn_events.json
 cache/live_bt_prematch.json
 cache/live_bt_data.json
 .wrangler/
+cache/live_pl_data.json

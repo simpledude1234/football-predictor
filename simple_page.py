@@ -173,6 +173,7 @@ function trackView() {
   if (!games.length) return `<div class="empty">No finished matches yet.<br>Every tip is saved before kick-off and marked &#10004; or &#10008; here once the result is in${T.waiting ? ` (${T.waiting} match${T.waiting > 1 ? 'es' : ''} waiting for results)` : ''}.</div>`;
   const sum = {};
   games.forEach(g => g.tips.forEach(t => { if (t.hit === null) return;
+    if (t.key === 'player_booked') { const s = sum.__lplayer = sum.__lplayer || [0, 0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; s[2] += t.chance || 0; return; }   // long shots: counted on their own
     (t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
   const markets = Object.keys(sum).filter(k => !k.startsWith('__')).sort((a, b) => sum[b][0] / sum[b][1] - sum[a][0] / sum[a][1]);
   let html = `<h2>How the tips did</h2><div class="sub">${games.length} finished match${games.length > 1 ? 'es' : ''}${pick === 'All' ? '' : ' in ' + esc(pick)}: ${games.filter(g => !g.replay).length} live (tips saved before kick-off) and ${games.filter(g => g.replay).length} replayed (predicted afterwards, using only information from before each game, to give a record from day one).</div>
@@ -181,7 +182,8 @@ function trackView() {
     <div class="box"><div class="n">${pct(sum.__value__)}</div><div class="l">Higher-price picks right (${sum.__value__ ? sum.__value__[0] + ' of ' + sum.__value__[1] : 0}). They need about 54%+ to profit at 1.85.</div></div>
     <div class="box"><div class="n ok">${pct(sum.__best_safe)}</div><div class="l">Best bets right (${sum.__best_safe ? sum.__best_safe[0] + ' of ' + sum.__best_safe[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__best_value)}</div><div class="l">Higher-price best bets right (${sum.__best_value ? sum.__best_value[0] + ' of ' + sum.__best_value[1] : 0})</div></div>
-    <div class="box"><div class="n">${pct(sum.__live)}</div><div class="l">Live picks right at 45' and 60' (${sum.__live ? sum.__live[0] + ' of ' + sum.__live[1] : 0})</div></div></div>
+    <div class="box"><div class="n">${pct(sum.__live)}</div><div class="l">Live picks right at 45' and 60' (${sum.__live ? sum.__live[0] + ' of ' + sum.__live[1] : 0})</div></div>
+    ${sum.__lplayer ? `<div class="box"><div class="n">${pct(sum.__lplayer)}</div><div class="l">Live players to be booked who were (${sum.__lplayer[0]} of ${sum.__lplayer[1]}; they said ${Math.round(sum.__lplayer[2] / sum.__lplayer[1])}% on average)</div></div>` : ''}</div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
     <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks show &ndash; because no free source records them.</div>`;
   let day = '';
@@ -229,6 +231,14 @@ chips(); render();
 __LIVE__
 const SLUG = D.slugs || {};
 let liveData = {}, liveErr = false, liveAt = 0, liveTimer = null;
+// picks already shown, kept in this browser so they stay visible after the model moves on
+let liveMem = {};
+try { liveMem = JSON.parse(localStorage.getItem('liveTips') || '{}') || {}; } catch (e) { liveMem = {}; }
+function saveLiveMem() {
+  const keep = new Set(D.matches.map(m => String(m.espn_id)));
+  Object.keys(liveMem).forEach(k => { if (!keep.has(k)) delete liveMem[k]; });
+  try { localStorage.setItem('liveTips', JSON.stringify(liveMem)); } catch (e) {}
+}
 // UK clock time -> real time (works in any time zone, and across clock changes)
 const ukOffsetMs = (() => { const d = new Date(); const uk = Date.parse(new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false}).format(d).replace(' ', 'T') + 'Z'); return uk - d.getTime(); })();
 const kickMs = m => Date.parse(m.kickoff.replace(' ', 'T') + ':00Z') - ukOffsetMs;
@@ -263,6 +273,8 @@ document.addEventListener('visibilitychange', () => {
   if (view === 'live' && document.visibilityState === 'visible') refreshLive(); else clearTimeout(liveTimer);
 });
 
+const LIVE_NAMES = {result: 'Result', btts: 'Both teams to score', total_goals: 'Total goals', total_corners: 'Total corners',
+  home_corners: 'Home corners', away_corners: 'Away corners'};
 function livePickText(m, p) {
   if (p.key === 'result') return p.side === 'H' ? m.home + ' to win' : p.side === 'A' ? m.away + ' to win' : 'Draw';
   if (p.key === 'btts') return p.side === 'yes' ? 'Yes' : 'No';
@@ -273,24 +285,54 @@ function liveCard(m) {
   const head = `<div class="mt"><span class="teams">${esc(m.home)}${L && L.state !== 'pre' ? ` <span class="score">${esc(L.home.goals ?? 0)}&ndash;${esc(L.away.goals ?? 0)}</span>` : ''} ${esc(m.away)}</span>`;
   if (!L || L.state === 'pre') return `<div class="m">${head}<span class="time">${esc(m.time)}</span></div><div class="sub">${esc(m.league)} &middot; not started yet</div></div>`;
   if (L.state === 'post') return `<div class="m">${head}<span class="time">Full time</span></div><div class="sub">${esc(m.league)}</div></div>`;
-  const R = LIVE.picks(m, L), lab = {};
+  const R0 = LIVE.picks(m, L), lab = {};
   (m.tips || []).forEach(x => { lab[x.key] = x.label; });
   const two = (a, b) => `${esc(a ?? '–')}&ndash;${esc(b ?? '–')}`;
   let html = `<div class="m">${head}<span class="time min">${esc(L.display || '')}</span></div>
-    <div class="lstat">${esc(m.league)} &middot; Shots ${two(L.home.shots, L.away.shots)} &middot; On target ${two(L.home.sot, L.away.sot)} &middot; Fouls ${two(L.home.fouls, L.away.fouls)} &middot; Bookings ${two(L.home.yellow + L.home.red, L.away.yellow + L.away.red)}${L.home.red || L.away.red ? ` &middot; Red cards ${two(L.home.red, L.away.red)}` : ''}</div>`;
-  if (R.t == null || R.t < LIVE.CFG.from) return html + `<div class="sub">Live picks start at ${LIVE.CFG.from} minutes, once there is enough to go on.</div></div>`;
-  if (R.late) return html + '<div class="sub">Too late in the game for new picks.</div></div>';
-  html += '<ul>' + R.list.map(p => {
-    const label = esc(lab[p.key] || (p.key === 'result' ? 'Result' : p.key === 'btts' ? 'Both teams to score' : p.key));
-    if (!p.pick) return `<li><span>${label}</span><b class="na" style="font-weight:400">${p.why === 'landed' ? 'Already landed' : 'No tip'}</b></li>`;
-    return `<li><span>${label}</span><b>${esc(livePickText(m, p))}</b></li>`;
-  }).join('') + '</ul></div>';
-  return html;
+    <div class="lstat">${esc(m.league)} &middot; Shots ${two(L.home.shots, L.away.shots)} &middot; On target ${two(L.home.sot, L.away.sot)} &middot; Fouls ${two(L.home.fouls, L.away.fouls)}${L.home.corners != null ? ` &middot; Corners ${two(L.home.corners, L.away.corners)}` : ''} &middot; Bookings ${two(L.home.yellow + L.home.red, L.away.yellow + L.away.red)}${L.home.red || L.away.red ? ` &middot; Red cards ${two(L.home.red, L.away.red)}` : ''}</div>`;
+  // Only picks actually made are listed. Each one is remembered (in this browser), so a pick
+  // stays on show later in the game and changes to "Already landed" only if it came true.
+  const mem = liveMem[String(m.espn_id)] = liveMem[String(m.espn_id)] || {tips: {}, players: {}};
+  const R = (R0.t != null && R0.t >= LIVE.CFG.from && !R0.late) ? R0 : {list: [], players: []};
+  R.list.filter(p => p.pick).forEach(p => {
+    const o = mem.tips[p.key];
+    if (!o || o.pick !== p.pick || o.side !== p.side || o.line !== p.line)
+      mem.tips[p.key] = {key: p.key, pick: p.pick, side: p.side, line: p.line, at: Math.floor(R0.t)};
+  });
+  (R.players || []).forEach(p => { if (!mem.players[p.player]) mem.players[p.player] = {player: p.player, side: p.side, at: Math.floor(R0.t)}; });
+  saveLiveMem();
+  const now = {};
+  R.list.filter(p => p.pick).forEach(p => { now[p.key] = true; });
+  const rows = Object.values(mem.tips).map(p => {
+    const label = esc(lab[p.key] || LIVE_NAMES[p.key] || p.key);
+    const n = LIVE.soFar(p.key, L);
+    const landed = p.key === 'btts' ? p.side === 'yes' && L.home.goals > 0 && L.away.goals > 0
+      : p.pick === 'over' && n != null && n > p.line;
+    const lost = p.key === 'btts' ? p.side === 'no' && L.home.goals > 0 && L.away.goals > 0
+      : p.pick === 'under' && n != null && n > p.line;
+    const tag = landed ? ' <span class="ok">&check; Already landed</span>' : lost ? ' <span class="no">&cross; Didn&rsquo;t land</span>'
+      : now[p.key] ? '' : ` <span class="na" style="font-weight:400">(tip from ${esc(p.at)}')</span>`;
+    return `<li><span>${label}</span><b>${esc(livePickText(m, p))}${tag}</b></li>`;
+  });
+  if (R0.t == null || R0.t < LIVE.CFG.from) html += `<div class="sub">Live picks start at ${LIVE.CFG.from} minutes, once there is enough to go on.</div>`;
+  else if (R0.late && !rows.length) html += '<div class="sub">Too late in the game for new picks.</div>';
+  else if (!rows.length) html += '<div class="sub">No live tips for this game right now.</div>';
+  if (rows.length) html += '<ul>' + rows.join('') + '</ul>';
+  // players: the current top 3, plus any shown earlier who have since been booked
+  const onNow = {};
+  ['home', 'away'].forEach(sd => ((L.players || {})[sd] || []).forEach(q => { onNow[q[0]] = q; }));
+  const booked = Object.values(mem.players).filter(p => onNow[p.player] && (onNow[p.player][2] || onNow[p.player][3]));
+  const cur = (R.players || []).filter(p => !booked.some(b => b.player === p.player));
+  const team = sd => esc(sd === 'home' ? m.home : m.away);
+  if (cur.length || booked.length) html += `<div class="info"><b style="color:var(--text)">Players to be booked from now:</b> ${cur.map(p =>
+    `${esc(p.player)} (${team(p.side)}${p.fouls ? ', ' + p.fouls + ' foul' + (p.fouls > 1 ? 's' : '') + ' so far' : ''}) ${p.chance}%`).concat(booked.map(p =>
+    `${esc(p.player)} (${team(p.side)}) <span class="ok">&check; booked</span>`)).join(' &middot; ')}</div>`;
+  return html + '</div>';
 }
 function liveView() {
   const ms = inPlayWindow();
   let html = `<h2>Live${LIVE.CFG.tested ? '' : '<span class="beta">NEW &middot; not yet tested</span>'}</h2>
-    <div class="sub">${esc(LIVE.CFG.note || '')} Updates every minute while this tab is open. Bookmakers change live prices fast, so check the price before you bet: a pick at very short odds is not worth it.</div>`;
+    <div class="sub">${esc(LIVE.CFG.note || '')}${LIVE.CFG.pl && LIVE.CFG.pl.tested ? ` Players to be booked come from each player's booking record, the referee and how card-heavy the game should be, and his fouls so far in this game (tested on ${LIVE.CFG.pl.tested.games} past games: the top 3 per game said ${Math.round(LIVE.CFG.pl.tested.said)}% on average and ${Math.round(LIVE.CFG.pl.tested.landed)}% were booked).` : ''} Updates every minute while this tab is open. Bookmakers change live prices fast, so check the price before you bet: a pick at very short odds is not worth it.</div>`;
   if (liveErr) html += '<div class="banner">Live scores are not loading right now. Trying again in a minute.</div>';
   if (!ms.length) {
     const next = upcoming.filter(m => m.espn_id && SLUG[m.code])[0];

@@ -1,4 +1,5 @@
 // Live scores and stats for the Live tab: GET /api/live?slug=eng.1
+// For games in play it also gives each player's fouls and cards so far.
 // Cloudflare runs this on our own site. It fetches ESPN's free scoreboard
 // itself, so ESPN only ever sees Cloudflare, never the visitor (no IP, no
 // cookies, no browser details are passed on). It returns only a few numbers
@@ -37,7 +38,8 @@ function trim(ev) {
     const s = {};
     for (const x of t.statistics || []) s[x.name] = x.displayValue;
     sides[ha] = { name: String((t.team && t.team.displayName) || "").slice(0, 60), goals: num(t.score),
-      shots: num(s.totalShots), sot: num(s.shotsOnTarget), fouls: num(s.foulsCommitted), yellow: 0, red: 0 };
+      shots: num(s.totalShots), sot: num(s.shotsOnTarget), fouls: num(s.foulsCommitted), corners: num(s.wonCorners),
+      yellow: 0, red: 0 };
   }
   if (!sides.home || !sides.away) return null;
   for (const d of c.details || []) {
@@ -51,26 +53,52 @@ function trim(ev) {
     display: String(st.displayClock || "").slice(0, 12), home: sides.home, away: sides.away };
 }
 
+// Players in a game in play, from ESPN's match summary: [name, on the pitch now (1/0), yellow, red, fouls so far].
+// Only these five things per player are passed on.
+function squads(s) {
+  const out = {};
+  for (const t of (s && s.rosters) || []) {
+    const ha = t.homeAway;
+    if (ha !== "home" && ha !== "away") continue;
+    out[ha] = (t.roster || []).slice(0, 40).map(p => {
+      const st = {};
+      for (const x of p.stats || []) st[x.name] = x.value;
+      const on = (p.starter || p.subbedIn) && !p.subbedOut ? 1 : 0;
+      return [String((p.athlete && p.athlete.displayName) || "").slice(0, 60), on,
+        num(st.yellowCards) || 0, num(st.redCards) || 0, num(st.foulsCommitted) || 0];
+    }).filter(p => p[0]);
+  }
+  return out.home && out.away ? out : null;
+}
+
+async function espnJson(url) {
+  // a brand-new request: nothing from the visitor is forwarded
+  const r = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0", "Accept": "application/json" },
+    redirect: "manual",            // never follow a redirect elsewhere
+    cf: { cacheTtl: 30, cacheEverything: true },
+  });
+  if (r.status !== 200) throw new Error("feed");
+  const text = await r.text();
+  if (text.length > 3000000) throw new Error("feed");
+  return JSON.parse(text);
+}
+
 export async function onRequestGet({ request }) {
   const slug = new URL(request.url).searchParams.get("slug") || "";
   if (!SLUGS.has(slug)) return reply({ error: "unknown competition" }, 400);
   const day = new Date().toISOString().slice(0, 10).replace(/-/g, "");
   let data;
   try {
-    // a brand-new request: nothing from the visitor is forwarded
-    const r = await fetch(`${BASE}${slug}/scoreboard?dates=${day}`, {
-      headers: { "User-Agent": "Mozilla/5.0", "Accept": "application/json" },
-      redirect: "manual",            // never follow a redirect elsewhere
-      cf: { cacheTtl: 30, cacheEverything: true },
-    });
-    if (r.status !== 200) return reply({ error: "live feed unavailable" }, 502, { "Cache-Control": "no-store" });
-    const text = await r.text();
-    if (text.length > 3000000) return reply({ error: "live feed unavailable" }, 502, { "Cache-Control": "no-store" });
-    data = JSON.parse(text);
+    data = await espnJson(`${BASE}${slug}/scoreboard?dates=${day}`);
   } catch (e) {
     return reply({ error: "live feed unavailable" }, 502, { "Cache-Control": "no-store" });
   }
   const games = (data.events || []).slice(0, 40).map(trim).filter(Boolean);
+  // player details for games in play (for the player-to-be-booked picks); a game without them still shows
+  await Promise.all(games.filter(g => g.state === "in").slice(0, 12).map(async g => {
+    try { g.players = squads(await espnJson(`${BASE}${slug}/summary?event=${g.id}`)); } catch (e) { g.players = null; }
+  }));
   return reply({ slug, at: Date.now(), games });
 }
 

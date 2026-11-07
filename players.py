@@ -45,6 +45,37 @@ class PlayerModel:
                 vals.append((s.get("yellowCards") or 0) + (s.get("redCards") or 0))
         return sum(vals) / len(vals) if vals else None
 
+    def match_factor(self, team, before, expected_team_cards):
+        """How card-heavy this match should be for `team` versus its usual games
+        (the expected team bookings already include the referee)."""
+        avg = self.team_card_avg(team, before)
+        factor = (expected_team_cards / avg) if (avg and expected_team_cards) else 1.0
+        return max(0.6, min(1.6, factor))
+
+    def squad_rates(self, team, before, expected_team_cards):
+        """For the Live tab: every player who played in the team's last 5 games, with
+        his booking rate for a full match (as -log(1 - chance)), adjusted for this match.
+        The live model scales it by the minutes left, his fouls so far and the game's pace.
+        "": the rate for a player we have no record of (a new signing or youngster)."""
+        games = [m for m in self.team_games.get(team, []) if m["date"] < before]
+        if not games:
+            return {}
+        factor = self.match_factor(team, before, expected_team_cards)
+        st = defaultdict(lambda: [0.0, 0])
+        recent = set()
+        for m in games:
+            side = "home" if m["home"] == team else "away"
+            for name, s, starter, y, r, f in m["players"]:
+                if s == side:
+                    st[name][0] += 1 if starter else SUB_WEIGHT
+                    st[name][1] += (y + r) > 0
+                    if m in games[-5:]:
+                        recent.add(name)
+        lam = lambda b, eq: round(-math.log(1 - min((b + PRIOR_GAMES * self.prior) / (eq + PRIOR_GAMES), 0.9)) * factor, 4)
+        out = {n: lam(st[n][1], st[n][0]) for n in sorted(recent)}
+        out[""] = lam(0, 0)
+        return out
+
     def candidates(self, team, before, expected_team_cards, lineup=None):
         """Players of `team` with their chance of being booked in the next match.
         lineup: the confirmed starting eleven (names), if already announced."""
@@ -68,9 +99,7 @@ class PlayerModel:
         for name, s, starter, y, r, f in last["players"]:
             if s == side and r > 0:
                 stats[name]["last_red"] = True
-        avg = self.team_card_avg(team, before)
-        factor = (expected_team_cards / avg) if (avg and expected_team_cards) else 1.0
-        factor = max(0.6, min(1.6, factor))
+        factor = self.match_factor(team, before, expected_team_cards)
         if lineup:                       # confirmed starters: they will play
             for name in lineup:
                 stats[name]["recent"] = 1.0

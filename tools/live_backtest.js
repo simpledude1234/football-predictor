@@ -25,17 +25,22 @@ const fin = (g, key) => {
   const b = g.final_box, c = h => (b[h].yellowCards || 0) + (b[h].redCards || 0);
   return { total_shots: b.home.totalShots + b.away.totalShots, total_sot: b.home.shotsOnTarget + b.away.shotsOnTarget,
     home_sot: b.home.shotsOnTarget, away_sot: b.away.shotsOnTarget, home_cards: c('home'), away_cards: c('away'),
-    total_cards: c('home') + c('away'), home_fouls: b.home.foulsCommitted, away_fouls: b.away.foulsCommitted }[key];
+    total_cards: c('home') + c('away'), home_fouls: b.home.foulsCommitted, away_fouls: b.away.foulsCommitted,
+    home_corners: b.home.wonCorners, away_corners: b.away.wonCorners,
+    total_corners: b.home.wonCorners == null || b.away.wonCorners == null ? null : b.home.wonCorners + b.away.wonCorners,
+    total_goals: g.score.home + g.score.away }[key];
 };
 const resultOf = g => g.score.home > g.score.away ? 'H' : g.score.home < g.score.away ? 'A' : 'D';
 const NAMES = { result: 'Result', btts: 'Both teams to score', total_shots: 'Total shots', total_sot: 'Total shots on target',
   home_sot: 'Home shots on target', away_sot: 'Away shots on target', home_cards: 'Home bookings', away_cards: 'Away bookings',
-  total_cards: 'Total bookings', home_fouls: 'Home fouls', away_fouls: 'Away fouls' };
+  total_cards: 'Total bookings', home_fouls: 'Home fouls', away_fouls: 'Away fouls', total_corners: 'Total corners',
+  home_corners: 'Home corners', away_corners: 'Away corners', total_goals: 'Total goals' };
 const STATOF = { total_shots: 'shots', total_sot: 'sot', home_sot: 'sot', away_sot: 'sot', home_cards: 'cards',
-  away_cards: 'cards', total_cards: 'cards', home_fouls: 'fouls', away_fouls: 'fouls' };
+  away_cards: 'cards', total_cards: 'cards', home_fouls: 'fouls', away_fouls: 'fouls', total_corners: 'corners',
+  home_corners: 'corners', away_corners: 'corners', total_goals: 'goals' };
 
-const base = { curves: D.curves, k: { shots: 1, sot: 1, fouls: 1, cards: 1, goals: 1 }, red_own: 0.75, red_opp: 1.25,
-  goal_pace: 0, min_pace: 0.05, from: 20, until: 76 };   // picks only in the tested window (20'-75')
+const base = { curves: D.curves, k: { shots: 1, sot: 1, fouls: 1, cards: 1, goals: 1, corners: 1 }, red_own: 0.75, red_opp: 1.25,
+  goal_pace: 0, min_pace: 0.05, from: 20, until: 76, goals_line: true };   // picks only in the tested window (20'-75')
 
 const AT = ['20', '30', '45', '60', '75'];
 const fitG = D.games.filter(g => Number(g.id) % 2 === 0), testG = D.games.filter(g => Number(g.id) % 2 === 1);
@@ -49,6 +54,7 @@ function logScore(cfg, stat, games) {
       if (STATOF[x.key] !== stat || x.estimate || !g.ok[stat]) continue;
       const sides = x.key.startsWith('home') ? ['home'] : x.key.startsWith('away') ? ['away'] : ['home', 'away'];
       const now = sides.reduce((a, h) => a + (stat === 'cards' ? Lv[h].yellow + Lv[h].red : Lv[h][stat]), 0);
+      if (fin(g, x.key) == null) continue;
       const y = fin(g, x.key) - now;
       if (!(y >= 0)) continue;
       const f = L.left(stat, t), k = cfg.k[stat], rate = (k * x.expected + now) / (k + 1 - f), mu = rate * f;
@@ -59,7 +65,7 @@ function logScore(cfg, stat, games) {
   return s / n;
 }
 const cfg = JSON.parse(JSON.stringify(base));
-for (const stat of ['shots', 'sot', 'fouls', 'cards']) {
+for (const stat of ['shots', 'sot', 'fouls', 'cards', 'corners']) {
   let best = null;
   for (const k of [0.25, 0.5, 0.75, 1, 1.5, 2, 3, 5, 10, 1000]) {
     cfg.k[stat] = k; const s = logScore(cfg, stat, fitG);
@@ -130,6 +136,7 @@ const note = `Tested on ${testG.length} past games (checked at 20, 30, 45, 60 an
 const params = { ...cfg, tested: true, note, test: { games: testG.length, picks: all.n, landed: +(100 * all.hit / all.n).toFixed(1),
   claimed: +(all.claim / all.n).toFixed(1), per_market: Object.fromEntries(Object.keys(NAMES).map(k => [k, res.out['both|' + k] ? { n: res.out['both|' + k].n, landed: +(100 * res.out['both|' + k].hit / res.out['both|' + k].n).toFixed(1) } : null])) } };
 if (process.argv.includes('--write')) {
+  try { const old = JSON.parse(fs.readFileSync(path.join(ROOT, 'live_params.json'), 'utf8')); if (old.pl) params.pl = old.pl; } catch (e) {}   // keep the player settings (tools/live_players_bt.js)
   fs.writeFileSync(path.join(ROOT, 'live_params.json'), JSON.stringify(params, null, 1) + '\n');
   console.log('wrote live_params.json');
 }

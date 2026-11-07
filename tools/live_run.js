@@ -9,5 +9,9 @@ const mod = { exports: null };
 new Function('module', SRC)(mod);
 const LIVE = mod.exports;
 const jobs = JSON.parse(fs.readFileSync(0, 'utf8'));
-const out = jobs.map(j => ({ id: j.id, at: j.at, list: LIVE.picks(j.m, j.L).list.filter(p => p.pick) }));
+const out = jobs.map(j => {
+  const R = LIVE.picks(j.m, j.L), later = new Set((j.L.later || []).map(LIVE.norm));
+  return { id: j.id, at: j.at, list: R.list.filter(p => p.pick),
+    players: (R.players || []).map(p => ({ player: p.player, chance: p.chance, hit: later.has(LIVE.norm(p.player)) })) };
+});
 process.stdout.write(JSON.stringify(out));

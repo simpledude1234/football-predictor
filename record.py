@@ -34,8 +34,11 @@ def save(log):
 
 def pre_match(m):
     """The pre-match numbers the live model starts from (to replay live picks after the game)."""
-    return {"goals_exp": m["goals_exp"],
-            "markets": [{k: x.get(k) for k in ("key", "expected", "phi", "estimate")} for x in m["markets"]]}
+    out = {"goals_exp": m["goals_exp"],
+           "markets": [{k: x.get(k) for k in ("key", "expected", "phi", "estimate")} for x in m["markets"]]}
+    if m.get("squad"):                 # players' booking rates (live player picks)
+        out["squad"] = m["squad"]
+    return out
 
 
 def update(matches):
@@ -180,7 +183,8 @@ def score(espn_cache):
         for t in g["tips"]:
             if t["hit"] is None:
                 continue
-            keys = (t["market"], "__value__") if t.get("value") else (t["market"], "__live__") if t.get("live") else \
+            keys = (t["market"], "__value__") if t.get("value") else (t["market"],) if t.get("key") == "player_booked" else \
+                (t["market"], "__live__") if t.get("live") else \
                 (t["market"], "__all__") + (("__star__",) if t["star"] else ())
             for key in keys:
                 s = summary.setdefault(key, [0, 0])

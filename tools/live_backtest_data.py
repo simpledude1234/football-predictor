@@ -36,6 +36,8 @@ def kinds(r):
         out += ["cards", "yellow"]
     if ty == "Red Card":
         out += ["cards", "red"]
+    if ty == "Corner Awarded":
+        out.append("corners")
     return out
 
 
@@ -62,7 +64,7 @@ def dedupe(rows):
 
 
 def snapshot(rows, upto):
-    s = {h: {"goals": 0, "shots": 0, "sot": 0, "fouls": 0, "yellow": 0, "red": 0} for h in ("home", "away")}
+    s = {h: {"goals": 0, "shots": 0, "sot": 0, "fouls": 0, "corners": 0, "yellow": 0, "red": 0} for h in ("home", "away")}
     for r in rows:
         if r[3] not in s or r[0] not in (1, 2) or pos(r) > upto:
             continue
@@ -76,8 +78,8 @@ def main():
     ev = json.loads((CACHE / "espn_events.json").read_text(encoding="utf-8"))
     store = espn.load_cache()["matches"]
     pre = json.loads((CACHE / "live_bt_prematch.json").read_text(encoding="utf-8"))
-    curves_pos = {k: [] for k in ("shots", "sot", "fouls", "cards", "goals")}
-    games, check = [], {"games": 0, "exact": {k: 0 for k in ("goals", "shots", "sot", "fouls", "cards")}}
+    curves_pos = {k: [] for k in ("shots", "sot", "fouls", "cards", "goals", "corners")}
+    games, check = [], {"games": 0, "exact": {k: 0 for k in ("goals", "shots", "sot", "fouls", "cards", "corners")}}
     for eid, e in ev.items():
         m = store.get(eid)
         rows = dedupe([r for r in e["rows"] if r[0] in (1, 2)])
@@ -89,16 +91,20 @@ def main():
         st = m["stats"]
         for k, box in (("goals", lambda h: m["score"][h]), ("shots", lambda h: st[h]["totalShots"]),
                        ("sot", lambda h: st[h]["shotsOnTarget"]), ("fouls", lambda h: st[h]["foulsCommitted"]),
-                       ("cards", lambda h: (st[h]["yellowCards"] or 0) + (st[h]["redCards"] or 0))):
+                       ("cards", lambda h: (st[h]["yellowCards"] or 0) + (st[h]["redCards"] or 0)),
+                       ("corners", lambda h: st[h].get("wonCorners"))):
             got = [full[h]["yellow"] + full[h]["red"] if k == "cards" else full[h][k] for h in ("home", "away")]
             if got == [box("home"), box("away")]:
                 check["exact"][k] += 1
         # games whose commentary is patchy for a stat are left out for that stat
         ok = {"goals": True}
-        for k, bk in (("shots", "totalShots"), ("sot", "shotsOnTarget"), ("fouls", "foulsCommitted"), ("cards", None)):
-            ok[k] = all(abs((full[h]["yellow"] + full[h]["red"] if k == "cards" else full[h][k]) -
-                            ((st[h]["yellowCards"] or 0) + (st[h]["redCards"] or 0) if k == "cards" else (st[h][bk] or 0))) <= 2
-                        for h in ("home", "away"))
+        for k, bk in (("shots", "totalShots"), ("sot", "shotsOnTarget"), ("fouls", "foulsCommitted"), ("cards", None),
+                      ("corners", "wonCorners")):
+            ok[k] = e.get("v", 1) >= 2 if k == "corners" else True     # older downloads have no corners
+            ok[k] = ok[k] and all(st[h].get(bk or "yellowCards") is not None and abs(
+                (full[h]["yellow"] + full[h]["red"] if k == "cards" else full[h][k]) -
+                ((st[h]["yellowCards"] or 0) + (st[h]["redCards"] or 0) if k == "cards" else (st[h][bk] or 0))) <= 2
+                for h in ("home", "away"))
         if int(eid) % 2 == 0:          # fitting half
             for r in rows:
                 for k in kinds(r):
