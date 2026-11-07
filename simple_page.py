@@ -133,7 +133,7 @@ const MK_ORDER = ['Match result', 'Both teams to score', 'Total goals', 'Total c
   'Home bookings', 'Away bookings', 'Player to be booked', 'Total shots on target', 'Home shots on target', 'Away shots on target',
   'Total shots', 'Home fouls', 'Away fouls', 'Total free kicks', 'Total offsides', 'Home offsides', 'Away offsides',
   'Total tackles', 'Home tackles', 'Away tackles', 'Home goal kicks', 'Away goal kicks'];
-const MK_NAME = {'Match result': "Bookies' favourite"};
+const MK_NAME = {};
 const shortDay = iso => new Date(iso + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'short', day: 'numeric', month: 'short'});
 
 function marketView() {

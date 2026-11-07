@@ -32,15 +32,29 @@ def make_tips(m):
              "home_tackles": f"{h} tackles", "away_tackles": f"{a} tackles"}
     f = m["final"]
     best = max("HDA", key=lambda k: f[k])
-    res = f"{h} to win" if best == "H" else f"{a} to win" if best == "A" else "Draw"
-    # the result is the bookmakers' view (their prices beat our model in the test), so it is
-    # labelled as theirs and never starred: stars are for the system's own strongest picks
-    out = [{"key": "result", "market": "Match result", "label": "Bookies' favourite",
-            "pick": f"{res} ({round(f[best])}%)" + (" - close call" if f[best] < 45 else ""), "side": best,
-            "line": None, "star": False},
-           {"key": "btts", "market": "Both teams to score", "label": "Both teams to score",
-            "pick": "Yes" if m["btts"] >= 50 else "No", "side": "yes" if m["btts"] >= 50 else "no",
-            "line": None, "star": m["btts"] >= 62 or m["btts"] <= 38}]
+    out = []
+    # Match result (the bookmakers' view: their prices beat our model in the test). Tested on 6,610
+    # past games: always tipping the favourite landed 51%. A win tip only when the favourite has 65%+
+    # (landed 78%), otherwise "favourite or draw" when that has 72%+ (landed 82%), otherwise no tip.
+    if f[best] >= 65:
+        res = f"{h} to win" if best == "H" else f"{a} to win" if best == "A" else "Draw"
+        out.append({"key": "result", "market": "Match result", "label": "Match result",
+                    "pick": f"{res} ({round(f[best])}%)", "side": best, "chance": round(f[best]),
+                    "line": None, "star": False})
+    else:
+        fav = "H" if f["H"] >= f["A"] else "A"
+        dc = f[fav] + f["D"]
+        if dc >= 72:
+            out.append({"key": "result", "market": "Match result", "label": "Match result",
+                        "pick": f"{h if fav == 'H' else a} or draw ({round(dc)}%)", "side": fav + "D",
+                        "chance": round(dc), "line": None, "star": False})
+    # Both teams to score: before kick-off it rarely gets past 60%; tipping it every game landed 55%.
+    # Shown only when it reaches the same 72% bar as the other markets.
+    bt = max(m["btts"], 100 - m["btts"])
+    if bt >= 72:
+        out.append({"key": "btts", "market": "Both teams to score", "label": "Both teams to score",
+                    "pick": "Yes" if m["btts"] >= 50 else "No", "side": "yes" if m["btts"] >= 50 else "no",
+                    "chance": round(bt), "line": None, "star": False})
     for k in m["markets"]:
         label = named.get(k["key"], GENERIC[k["key"]])
         if not k["estimate"]:

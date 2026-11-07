@@ -160,7 +160,7 @@ def score(espn_cache):
                     else:
                         shown = "did not play"
             elif k in ("result", "btts"):
-                hit = act[k] == t["side"]
+                hit = act[k] in t["side"] if k == "result" else act[k] == t["side"]   # "HD" = home or draw
                 shown = {"H": "home win", "D": "draw", "A": "away win"}.get(act[k], act[k]) if k == "result" else act[k]
                 shown = shown.title() if k == "btts" else shown
             elif act.get(k) is not None:
