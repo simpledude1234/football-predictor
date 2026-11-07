@@ -13,8 +13,8 @@ on:
   schedule:
     - cron: "17 6 * * *"    # about 06:17 UK
     - cron: "47 15 * * *"   # about 15:47 UK
-    - cron: "10,40 10-19 * * 0,6"   # weekends: line-up check every 30 min
-    - cron: "10,40 16-19 * * 1-5"   # weekday evenings: line-up check
+    - cron: "10,40 10-22 * * 0,6"   # weekends: line-up check every 30 min
+    - cron: "10,40 16-22 * * 1-5"   # weekday evenings: line-up check
   workflow_dispatch:     # also started by the Cloudflare timer job in scheduler/ (GitHub's timer is unreliable)
     inputs:
       slot:
@@ -46,7 +46,7 @@ jobs:
           SCHED: ${{ github.event.schedule || inputs.slot }}
         run: |
           case "$SCHED" in
-            "10,40 10-19 * * 0,6"|"10,40 16-19 * * 1-5"|lineup) ;;
+            "10,40 10-22 * * 0,6"|"10,40 16-22 * * 1-5"|lineup) ;;
             *) echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0 ;;
           esac
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
@@ -55,8 +55,11 @@ jobs:
           now = dt.datetime.now(ZoneInfo("Europe/London")).replace(tzinfo=None)
           lo, hi = now + dt.timedelta(minutes=5), now + dt.timedelta(minutes=75)
           log = json.loads(pathlib.Path("tips_log.json").read_text(encoding="utf-8"))
+          # also build once a game has just finished (kick-off 2 to 2.5 hours ago) so results show soon
+          done_lo, done_hi = now - dt.timedelta(minutes=150), now - dt.timedelta(minutes=120)
+          def ko(e): return dt.datetime.strptime(e["kickoff"], "%Y-%m-%d %H:%M")
           soon = [e for e in log.values() if not e.get("replay")
-                  and lo <= dt.datetime.strptime(e["kickoff"], "%Y-%m-%d %H:%M") <= hi]
+                  and (lo <= ko(e) <= hi or done_lo < ko(e) <= done_hi)]
           print("go=" + ("yes" if soon else "no"))
           PY
           cat "$GITHUB_OUTPUT"

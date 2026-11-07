@@ -9,8 +9,8 @@ preview_urls = false
 crons = [
   "17 6 * * *",             # daily build
   "47 15 * * *",            # afternoon build
-  "10,40 10-19 * * SAT,SUN",  # weekends: line-up check every 30 min
-  "10,40 16-19 * * MON-FRI",  # weekday evenings: line-up check
+  "10,40 10-22 * * SAT,SUN",  # weekends: line-up and results check every 30 min
+  "10,40 16-22 * * MON-FRI",  # weekday evenings: line-up and results check
 ]
 
 [observability]
