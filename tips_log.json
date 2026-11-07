@@ -6969,39 +6969,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Jobe Bellingham (Dortmund)",
+"side": "player",
+"line": null,
+"player": "Jobe Bellingham",
+"team": "home",
+"chance": 18,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Felix Keidel (Elversberg)",
 "side": "player",
 "line": null,
 "player": "Felix Keidel",
 "team": "away",
 "chance": 18,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Nicolas Kristof (Elversberg)",
+"pick": "Joey Veerman (Dortmund)",
 "side": "player",
 "line": null,
-"player": "Nicolas Kristof",
-"team": "away",
-"chance": 15,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Julian Ryerson (Dortmund)",
-"side": "player",
-"line": null,
-"player": "Julian Ryerson",
+"player": "Joey Veerman",
 "team": "home",
-"chance": 13,
-"confirmed": false,
+"chance": 15,
+"confirmed": true,
 "star": false
 }
 ],
@@ -7510,20 +7510,20 @@
 "player": "Konrad Laimer",
 "team": "away",
 "chance": 22,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Phillipp Mwene (Mainz)",
+"pick": "Josip Stanisic (Bayern Munich)",
 "side": "player",
 "line": null,
-"player": "Phillipp Mwene",
-"team": "home",
-"chance": 20,
-"confirmed": false,
+"player": "Josip Stanisic",
+"team": "away",
+"chance": 19,
+"confirmed": true,
 "star": false
 },
 {
@@ -7536,7 +7536,7 @@
 "player": "Dayot Upamecano",
 "team": "away",
 "chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -7976,7 +7976,7 @@
 "player": "Raphael Onyedika",
 "team": "away",
 "chance": 20,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -7989,7 +7989,7 @@
 "player": "Tjark Scheller",
 "team": "home",
 "chance": 19,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -8002,7 +8002,7 @@
 "player": "Jano Horst",
 "team": "home",
 "chance": 19,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -8500,13 +8500,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Rodrigo Ribeiro (Augsburg)",
+"side": "player",
+"line": null,
+"player": "Rodrigo Ribeiro",
+"team": "away",
+"chance": 22,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Chrislain Matsima (Augsburg)",
 "side": "player",
 "line": null,
 "player": "Chrislain Matsima",
 "team": "away",
 "chance": 18,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -8519,20 +8532,7 @@
 "player": "Han-Noah Massengo",
 "team": "away",
 "chance": 18,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Hennes Behrens (Augsburg)",
-"side": "player",
-"line": null,
-"player": "Hennes Behrens",
-"team": "away",
-"chance": 18,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -8989,8 +8989,8 @@
 "line": null,
 "player": "Filip Lissah",
 "team": "away",
-"chance": 26,
-"confirmed": false,
+"chance": 32,
+"confirmed": true,
 "star": false
 },
 {
@@ -9002,21 +9002,21 @@
 "line": null,
 "player": "Jay Fulton",
 "team": "away",
-"chance": 22,
-"confirmed": false,
+"chance": 25,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Alex Cochrane (Birmingham)",
+"pick": "Marko Stamenic (Swansea)",
 "side": "player",
 "line": null,
-"player": "Alex Cochrane",
-"team": "home",
-"chance": 18,
-"confirmed": false,
+"player": "Marko Stamenic",
+"team": "away",
+"chance": 20,
+"confirmed": true,
 "star": false
 }
 ],
@@ -9476,39 +9476,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Sam Morsy (Blackburn)",
+"side": "player",
+"line": null,
+"player": "Sam Morsy",
+"team": "home",
+"chance": 18,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Max Kilman (West Ham)",
 "side": "player",
 "line": null,
 "player": "Max Kilman",
 "team": "away",
 "chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Harry Pickering (Blackburn)",
+"pick": "Konstantinos Mavropanos (West Ham)",
 "side": "player",
 "line": null,
-"player": "Harry Pickering",
-"team": "home",
-"chance": 14,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Todd Cantwell (Blackburn)",
-"side": "player",
-"line": null,
-"player": "Todd Cantwell",
-"team": "home",
-"chance": 14,
-"confirmed": false,
+"player": "Konstantinos Mavropanos",
+"team": "away",
+"chance": 15,
+"confirmed": true,
 "star": false
 }
 ],
@@ -10437,34 +10437,34 @@
 "line": null,
 "player": "Liam Kitching",
 "team": "away",
-"chance": 23,
-"confirmed": false,
+"chance": 29,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Japhet Tanganga (Sheffield United)",
+"pick": "Dan McNamara (Charlton)",
 "side": "player",
 "line": null,
-"player": "Japhet Tanganga",
-"team": "away",
-"chance": 21,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Conor Coventry (Charlton)",
-"side": "player",
-"line": null,
-"player": "Conor Coventry",
+"player": "Dan McNamara",
 "team": "home",
-"chance": 15,
-"confirmed": false,
+"chance": 23,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Alan Nwamba (Charlton)",
+"side": "player",
+"line": null,
+"player": "Alan Nwamba",
+"team": "home",
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -11444,39 +11444,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Conor McGrandles (Lincoln)",
+"side": "player",
+"line": null,
+"player": "Conor McGrandles",
+"team": "away",
+"chance": 22,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Freddie Draper (Lincoln)",
+"side": "player",
+"line": null,
+"player": "Freddie Draper",
+"team": "away",
+"chance": 21,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Glen Kamara (QPR)",
 "side": "player",
 "line": null,
 "player": "Glen Kamara",
 "team": "home",
 "chance": 20,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Ben House (Lincoln)",
-"side": "player",
-"line": null,
-"player": "Ben House",
-"team": "away",
-"chance": 17,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Kealey Adamson (QPR)",
-"side": "player",
-"line": null,
-"player": "Kealey Adamson",
-"team": "home",
-"chance": 14,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -11931,13 +11931,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Riley McGree (Middlesbrough)",
+"side": "player",
+"line": null,
+"player": "Riley McGree",
+"team": "away",
+"chance": 27,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Ashley Phillips (Middlesbrough)",
 "side": "player",
 "line": null,
 "player": "Ashley Phillips",
 "team": "away",
 "chance": 23,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -11949,21 +11962,8 @@
 "line": null,
 "player": "Sebastian Berhalter",
 "team": "away",
-"chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Adilson Malanda (Middlesbrough)",
-"side": "player",
-"line": null,
-"player": "Adilson Malanda",
-"team": "away",
-"chance": 17,
-"confirmed": false,
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -12371,7 +12371,8 @@
 "chance": 71,
 "min_odds": 1.45,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_cards",
@@ -12430,8 +12431,8 @@
 "line": null,
 "player": "Jenson Metcalfe",
 "team": "away",
-"chance": 22,
-"confirmed": false,
+"chance": 27,
+"confirmed": true,
 "star": false
 },
 {
@@ -12444,20 +12445,20 @@
 "player": "Derek Mazou-Sacko",
 "team": "away",
 "chance": 22,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Lyndon Dykes (Millwall)",
+"pick": "Ousmane Diakite (West Brom)",
 "side": "player",
 "line": null,
-"player": "Lyndon Dykes",
-"team": "away",
-"chance": 18,
-"confirmed": false,
+"player": "Ousmane Diakite",
+"team": "home",
+"chance": 21,
+"confirmed": true,
 "star": false
 }
 ],
@@ -13001,33 +13002,33 @@
 "player": "Oliver McBurnie",
 "team": "away",
 "chance": 16,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Semi Ajayi (Hull)",
+"pick": "Elliot Stroud (Hull)",
 "side": "player",
 "line": null,
-"player": "Semi Ajayi",
+"player": "Elliot Stroud",
 "team": "away",
-"chance": 13,
-"confirmed": false,
+"chance": 14,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Regan Slater (Hull)",
+"pick": "Lucas Gourna-Douath (Hull)",
 "side": "player",
 "line": null,
-"player": "Regan Slater",
+"player": "Lucas Gourna-Douath",
 "team": "away",
-"chance": 13,
-"confirmed": false,
+"chance": 14,
+"confirmed": true,
 "star": false
 }
 ],
@@ -13512,7 +13513,7 @@
 "player": "Calvin Bassey",
 "team": "home",
 "chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -13525,20 +13526,20 @@
 "player": "Josh King",
 "team": "home",
 "chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "David Affengruber (Fulham)",
+"pick": "Jacob Murphy (Newcastle)",
 "side": "player",
 "line": null,
-"player": "David Affengruber",
-"team": "home",
-"chance": 12,
-"confirmed": false,
+"player": "Jacob Murphy",
+"team": "away",
+"chance": 16,
+"confirmed": true,
 "star": false
 }
 ],
@@ -14086,7 +14087,7 @@
 "player": "Tom Sparrow",
 "team": "away",
 "chance": 22,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -14099,7 +14100,7 @@
 "player": "Dylan Tait",
 "team": "home",
 "chance": 19,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -14112,7 +14113,7 @@
 "player": "Martin Moormann",
 "team": "away",
 "chance": 18,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
