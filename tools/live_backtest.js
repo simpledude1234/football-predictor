@@ -40,7 +40,8 @@ const STATOF = { total_shots: 'shots', total_sot: 'sot', home_sot: 'sot', away_s
   home_corners: 'corners', away_corners: 'corners', total_goals: 'goals' };
 
 const base = { curves: D.curves, k: { shots: 1, sot: 1, fouls: 1, cards: 1, goals: 1, corners: 1 }, red_own: 0.75, red_opp: 1.25,
-  goal_pace: 0, min_pace: 0.05, from: 20, until: 76, goals_line: true };   // picks only in the tested window (20'-75')
+  goal_pace: 0, min_pace: 0.05, from: 20, until: 76, goals_line: true,   // picks only in the tested window (20'-75')
+  gm: (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'live_params.json'), 'utf8')).gm; } catch (e) { return undefined; } })() };   // live goal model (tools/live_goals_fit.js)
 
 const AT = ['20', '30', '45', '60', '75'];
 const fitG = D.games.filter(g => Number(g.id) % 2 === 0), testG = D.games.filter(g => Number(g.id) % 2 === 1);
@@ -84,7 +85,7 @@ function resultLog(c, games) {
   return s / n;
 }
 let bestGP = null;
-for (const gp of [0, 0.25, 0.5, 0.75, 1]) {
+for (const gp of base.gm ? [0] : [0, 0.25, 0.5, 0.75, 1]) {
   cfg.goal_pace = gp; const s = resultLog(cfg, fitG);
   if (!bestGP || s < bestGP.s) bestGP = { gp, s };
 }
@@ -115,7 +116,10 @@ function score(c, games) {
   return { out, shown, slots };
 }
 
+const before = cfg;   // a per-market correction was tried (2026-11-07) and did not hold up on the test half
+
 const res = score(cfg, testG);
+const resBefore = score(before, testG);
 const pct = o => o ? (100 * o.hit / o.n).toFixed(1) + '%' : '-';
 const claim = o => o ? (o.claim / o.n).toFixed(1) + '%' : '-';
 console.log(`Settings chosen on ${fitG.length} games; tested on ${testG.length} other games.`);
@@ -126,9 +130,11 @@ for (const key of ['__all__', ...Object.keys(NAMES)]) {
   console.log((NAMES[key] || 'ALL PICKS').padEnd(26), ...AT.map(at => { const a = res.out[at + '|' + key]; return `${a ? a.n : 0}, ${pct(a)} (${claim(a)})`.padEnd(26); }));
 }
 // pace ignored (pre-match numbers scaled by time only), for comparison
-const flat = JSON.parse(JSON.stringify(cfg)); for (const k in flat.k) flat.k[k] = 1e6; flat.goal_pace = 0;
+const flat = JSON.parse(JSON.stringify(cfg)); for (const k in flat.k) flat.k[k] = 1e6; flat.goal_pace = 0; delete flat.gm;
 const rf = score(flat, testG);
 console.log(`\nFor comparison, ignoring how the game is going (pre-match numbers x time left): ${rf.out['both|__all__'].n} picks, ${pct(rf.out['both|__all__'])} landed (claimed ${claim(rf.out['both|__all__'])})`);
+console.log(`Before the per-market correction: ${resBefore.out['both|__all__'].n} picks, ${pct(resBefore.out['both|__all__'])} landed (claimed ${claim(resBefore.out['both|__all__'])})`);
+for (const k of Object.keys(NAMES)) { const a = resBefore.out['both|' + k], b = res.out['both|' + k]; console.log('  ' + NAMES[k].padEnd(24), 'before', `${a ? a.n : 0}, ${pct(a)} (${claim(a)})`.padEnd(24), 'after', `${b ? b.n : 0}, ${pct(b)} (${claim(b)})`); }
 console.log(`Live model: ${res.out['both|__all__'].n} picks, ${pct(res.out['both|__all__'])} landed (claimed ${claim(res.out['both|__all__'])})`);
 
 const all = res.out['both|__all__'];

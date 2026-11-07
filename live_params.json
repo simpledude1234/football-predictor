@@ -574,21 +574,29 @@
  "from": 20,
  "until": 76,
  "goals_line": true,
+ "gm": {
+  "k": 1,
+  "sot": 0.2,
+  "opp": 0.1,
+  "share": 0,
+  "lead": 0,
+  "trail": 0.1
+ },
  "tested": true,
  "note": "Tested on 318 past games (checked at 20, 30, 45, 60 and 75 minutes): 80 in 100 live picks landed.",
  "test": {
   "games": 318,
-  "picks": 16816,
+  "picks": 16815,
   "landed": 79.9,
-  "claimed": 80.4,
+  "claimed": 80.3,
   "per_market": {
    "result": {
-    "n": 662,
-    "landed": 85.8
+    "n": 620,
+    "landed": 87.9
    },
    "btts": {
-    "n": 317,
-    "landed": 79.5
+    "n": 342,
+    "landed": 79.2
    },
    "total_shots": {
     "n": 1108,
@@ -639,8 +647,8 @@
     "landed": 77.6
    },
    "total_goals": {
-    "n": 1215,
-    "landed": 83.7
+    "n": 1231,
+    "landed": 82.7
    }
   }
  },

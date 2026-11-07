@@ -11,7 +11,13 @@
 
 const LIVE = (() => {
   const CFG = __LIVE_CFG__;   // curves and settings, fitted by tools/live_backtest.js
-  const BAR = 72;
+  const BAR = CFG.bar || 72;
+  // each market's chance corrected by how that market's picks did on past games (tools/live_backtest.js)
+  const cal = (key, ch) => {
+    const a = CFG.cal && CFG.cal[key]; if (!a) return ch;
+    const p = Math.min(0.999, Math.max(0.001, ch / 100)), z = Math.log(p / (1 - p)) + a;
+    return 100 / (1 + Math.exp(-z));
+  };
 
   // share of the full-match count still to come after minute t (0..90)
   function left(stat, t) {
@@ -68,12 +74,12 @@ const LIVE = (() => {
   }
 
   // the line to suggest: over L wins if the final count > L; under L wins if final < L
-  function pickLine(n, mean, phi, side) {
+  function pickLine(n, mean, phi, side, key) {
     let best = null;
     for (let line = n + 0.5; line < n + 60; line += 1) {
       const need = line - n + 0.5;                       // more events needed for over
       const pOver = 1 - cdf(mean, need - 1, phi);
-      const ch = 100 * (side === 'over' ? pOver : 1 - pOver);
+      const ch = cal(key, 100 * (side === 'over' ? pOver : 1 - pOver));
       if (ch >= BAR) {
         if (side === 'over') best = { line, chance: ch };              // keep raising the line while it stays >= 72%
         else if (!best) best = { line, chance: ch };                   // first (lowest) under line that clears 72%
@@ -94,7 +100,7 @@ const LIVE = (() => {
     const pace = proj / pre - 1;
     if (Math.abs(pace) < CFG.min_pace) return { key, n, proj, pick: null, why: 'normal' };
     const side = pace > 0 ? 'over' : 'under';
-    const best = pickLine(n, mean, phi, side);
+    const best = pickLine(n, mean, phi, side, key);
     if (!best) return { key, n, proj, pick: null, why: 'none' };
     return { key, n, proj, pick: side, line: best.line, chance: Math.round(best.chance) };
   }
@@ -109,6 +115,20 @@ const LIVE = (() => {
         const r = rest(sot.expected, L[s].sot, 'sot', t);
         l *= Math.pow(Math.max(0.3, Math.min(3, r.rate / sot.expected)), CFG.goal_pace);
       }
+      // goals still to come, adjusted by how the game is going (fitted on past games, tools/live_goals_fit.js):
+      // a side outshooting what was expected scores more; a side behind pushes, a side ahead sits back
+      const G = CFG.gm;
+      if (G && sot && L[s].sot != null) {
+        const o = s === 'home' ? 'away' : 'home', osot = m.markets.find(x => x.key === o + '_sot');
+        const ratio = (n, e) => Math.max(0.25, Math.min(4, (G.k * e + n) / (G.k * e + e * (1 - f))));
+        const d = (L[s].goals || 0) - (L[o].goals || 0);
+        let x = G.sot * Math.log(ratio(L[s].sot, sot.expected));
+        if (osot && L[o].sot != null) x += G.opp * Math.log(ratio(L[o].sot, osot.expected));
+        if (L[s].shots != null && L[o].shots != null && L[s].shots + L[o].shots > 0)
+          x += G.share * ((L[s].shots + 1) / (L[s].shots + L[o].shots + 2) - sot.expected / (sot.expected + (osot ? osot.expected : sot.expected)));
+        x += d > 0 ? G.lead : d < 0 ? G.trail : 0;
+        l *= Math.exp(x);
+      }
       return l;
     });
     const gh = L.home.goals || 0, ga = L.away.goals || 0;
@@ -117,7 +137,7 @@ const LIVE = (() => {
     ph.forEach((x, i) => pa.forEach((y, j) => { const a = gh + i, b = ga + j, p = x * y; if (a > b) H += p; else if (a < b) A += p; else D += p; }));
     const tot = H + D + A; H /= tot; D /= tot; A /= tot;
     const yes = (gh > 0 ? 1 : 1 - ph[0]) * (ga > 0 ? 1 : 1 - pa[0]);
-    return { H: 100 * H, D: 100 * D, A: 100 * A, btts: 100 * yes, settledBtts: gh > 0 && ga > 0, rest: lam[0] + lam[1] };
+    return { H: 100 * H, D: 100 * D, A: 100 * A, btts: 100 * yes, settledBtts: gh > 0 && ga > 0, rest: lam[0] + lam[1], lam };
   }
 
   // total goals: goals so far + goals still to come (same goal rates as the result)
@@ -125,7 +145,7 @@ const LIVE = (() => {
     const n = (L.home.goals || 0) + (L.away.goals || 0), pre = m.goals_exp[0] + m.goals_exp[1];
     const pace = (n + g.rest) / pre - 1;
     if (Math.abs(pace) < CFG.min_pace) return { key: 'total_goals', n, pick: null, why: 'normal' };
-    const side = pace > 0 ? 'over' : 'under', best = pickLine(n, g.rest, 1, side);
+    const side = pace > 0 ? 'over' : 'under', best = pickLine(n, g.rest, 1, side, 'total_goals');
     if (!best) return { key: 'total_goals', n, pick: null, why: 'none' };
     return { key: 'total_goals', n, pick: side, line: best.line, chance: Math.round(best.chance) };
   }
@@ -171,10 +191,10 @@ const LIVE = (() => {
     if (t < CFG.from || t > CFG.until) return { t, state: L.state, list: [], late: t > CFG.until };
     const list = [];
     const g = goals(m, L, t);
-    const best = ['H', 'D', 'A'].reduce((a, b) => g[b] > g[a] ? b : a, 'H');
-    list.push({ key: 'result', chance: Math.round(g[best]), side: best, pick: g[best] >= BAR ? best : null });
+    const best = ['H', 'D', 'A'].reduce((a, b) => g[b] > g[a] ? b : a, 'H'), rc = cal('result', g[best]);
+    list.push({ key: 'result', chance: Math.round(rc), side: best, pick: rc >= BAR ? best : null });
     if (!g.settledBtts) {
-      const s = g.btts >= 50 ? 'yes' : 'no', ch = s === 'yes' ? g.btts : 100 - g.btts;
+      const s = g.btts >= 50 ? 'yes' : 'no', ch = cal('btts', s === 'yes' ? g.btts : 100 - g.btts);
       list.push({ key: 'btts', chance: Math.round(ch), side: s, pick: ch >= BAR ? s : null });
     } else list.push({ key: 'btts', pick: null, why: 'landed' });
     for (const x of m.markets) {
