@@ -1612,33 +1612,33 @@
 "player": "Jason Knight",
 "team": "home",
 "chance": 24,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Luke McNally (Bristol City)",
+"pick": "Joe Williams (Bristol City)",
 "side": "player",
 "line": null,
-"player": "Luke McNally",
+"player": "Joe Williams",
+"team": "home",
+"chance": 21,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Lisav Eissat (Bristol City)",
+"side": "player",
+"line": null,
+"player": "Lisav Eissat",
 "team": "home",
 "chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Mathias Kvistgaarden (Norwich)",
-"side": "player",
-"line": null,
-"player": "Mathias Kvistgaarden",
-"team": "away",
-"chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -2084,13 +2084,13 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Marko Milovanovic (Portsmouth)",
+"pick": "Ebrima Adams (Portsmouth)",
 "side": "player",
 "line": null,
-"player": "Marko Milovanovic",
+"player": "Ebrima Adams",
 "team": "home",
-"chance": 19,
-"confirmed": false,
+"chance": 27,
+"confirmed": true,
 "star": false
 },
 {
@@ -2102,8 +2102,8 @@
 "line": null,
 "player": "Ethan Galbraith",
 "team": "away",
-"chance": 19,
-"confirmed": false,
+"chance": 24,
+"confirmed": true,
 "star": false
 },
 {
@@ -2115,8 +2115,8 @@
 "line": null,
 "player": "Jayden Meghoma",
 "team": "home",
-"chance": 18,
-"confirmed": false,
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -2570,39 +2570,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Dominic Hyam (Wrexham)",
+"pick": "Benjamin Whiteman (Wrexham)",
 "side": "player",
 "line": null,
-"player": "Dominic Hyam",
+"player": "Benjamin Whiteman",
 "team": "home",
-"chance": 22,
-"confirmed": false,
+"chance": 23,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Kieffer Moore (Wrexham)",
+"pick": "George Dobson (Wrexham)",
 "side": "player",
 "line": null,
-"player": "Kieffer Moore",
+"player": "George Dobson",
 "team": "home",
-"chance": 19,
-"confirmed": false,
+"chance": 20,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Callum Doyle (Wrexham)",
+"pick": "Mateus Mané (Wolves)",
 "side": "player",
 "line": null,
-"player": "Callum Doyle",
-"team": "home",
-"chance": 18,
-"confirmed": false,
+"player": "Mateus Mané",
+"team": "away",
+"chance": 20,
+"confirmed": true,
 "star": false
 }
 ],
@@ -3058,26 +3058,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Ethan Ampadu (Leeds)",
+"pick": "Mateus Fernandes (Tottenham)",
 "side": "player",
 "line": null,
-"player": "Ethan Ampadu",
-"team": "home",
-"chance": 25,
-"confirmed": false,
+"player": "Mateus Fernandes",
+"team": "away",
+"chance": 27,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Jan Paul van Hecke (Tottenham)",
+"pick": "Micky van de Ven (Tottenham)",
 "side": "player",
 "line": null,
-"player": "Jan Paul van Hecke",
+"player": "Micky van de Ven",
 "team": "away",
-"chance": 24,
-"confirmed": false,
+"chance": 26,
+"confirmed": true,
 "star": false
 },
 {
@@ -3089,8 +3089,8 @@
 "line": null,
 "player": "Archie Gray",
 "team": "away",
-"chance": 23,
-"confirmed": false,
+"chance": 26,
+"confirmed": true,
 "star": false
 }
 ],
@@ -3522,13 +3522,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Jorge Salinas (Santander)",
+"side": "player",
+"line": null,
+"player": "Jorge Salinas",
+"team": "away",
+"chance": 24,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Pablo Ramon (Santander)",
 "side": "player",
 "line": null,
 "player": "Pablo Ramon",
 "team": "away",
 "chance": 21,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -3541,20 +3554,7 @@
 "player": "Yassir Zabiri",
 "team": "away",
 "chance": 21,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "David Larrubia (Malaga)",
-"side": "player",
-"line": null,
-"player": "David Larrubia",
-"team": "home",
-"chance": 19,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -60281,7 +60281,105 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "E0|2026-10-10|Ipswich|Fulham": {
 "code": "E0",
@@ -60559,7 +60657,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 8.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Fulham to win",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 83,
+"hit": true
+}
+]
 },
 "E0|2026-10-10|Man United|Tottenham": {
 "code": "E0",
@@ -60841,7 +61045,161 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 14.5",
+"chance": 83,
+"hit": true
+}
+]
 },
 "E0|2026-10-10|Aston Villa|Brentford": {
 "code": "E0",
@@ -61119,7 +61477,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 16.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 29.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 19.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "E0|2026-10-10|Arsenal|Leeds": {
 "code": "E0",
@@ -61399,7 +61871,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 14.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 15.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "E0|2026-10-10|Chelsea|Bournemouth": {
 "code": "E0",
@@ -61681,7 +62259,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Chelsea to win",
+"chance": 94,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Chelsea to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "E0|2026-10-11|Hull|Everton": {
 "code": "E0",
@@ -61957,7 +62673,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 7.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 5.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "E0|2026-10-11|Liverpool|Man City": {
 "code": "E0",
@@ -62241,7 +63079,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 14.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "E0|2026-10-11|Crystal Palace|Nott'm Forest": {
 "code": "E0",
@@ -62511,7 +63479,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 11.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Crystal Palace to win",
+"chance": 94,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 36.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 12.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 78,
+"hit": false
+}
+]
 },
 "E0|2026-10-12|Coventry|Newcastle": {
 "code": "E0",
@@ -62791,7 +63881,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 28.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Coventry to win",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 5.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": true
+}
+]
 },
 "E0|2026-10-17|Everton|Chelsea": {
 "code": "E0",
@@ -63067,7 +64287,97 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 6.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Chelsea to win",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "E0|2026-10-17|Brentford|Liverpool": {
 "code": "E0",
@@ -75234,7 +76544,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Burnley to win",
+"chance": 98,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Burnley to win",
+"chance": 99,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 11.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 76,
+"hit": false
+}
+]
 },
 "E1|2026-10-10|Sheffield United|Lincoln": {
 "code": "E1",
@@ -75514,7 +76970,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Sheffield United to win",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Sheffield United to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Preston|Millwall": {
 "code": "E1",
@@ -75798,7 +77368,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Derby|Wrexham": {
 "code": "E1",
@@ -76080,7 +77772,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Derby to win",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 8.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Middlesbrough|Wolves": {
 "code": "E1",
@@ -76360,7 +78174,105 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Middlesbrough to win",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Blackburn|Cardiff": {
 "code": "E1",
@@ -76642,7 +78554,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Blackburn to win",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 22.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 80,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|West Brom|Birmingham": {
 "code": "E1",
@@ -76918,7 +78968,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 24.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 7.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Swansea|Norwich": {
 "code": "E1",
@@ -77192,7 +79356,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Swansea to win",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Charlton|Bristol City": {
 "code": "E1",
@@ -77474,7 +79752,97 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 93,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "E1|2026-10-10|Bolton|Stoke": {
 "code": "E1",
@@ -77752,7 +80120,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 72,
+"hit": true
+}
+]
 },
 "E1|2026-10-11|Southampton|Portsmouth": {
 "code": "E1",
@@ -78032,7 +80514,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 89,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Southampton to win",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 6.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": false
+}
+]
 },
 "E1|2026-10-13|Cardiff|Watford": {
 "code": "E1",
@@ -78312,7 +80916,169 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Cardiff to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 8.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Cardiff to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 73,
+"hit": false
+}
+]
 },
 "E1|2026-10-13|Millwall|Swansea": {
 "code": "E1",
@@ -78590,7 +81356,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 8.5",
+"chance": 86,
+"hit": true
+}
+]
 },
 "E1|2026-10-13|Wolves|Bolton": {
 "code": "E1",
@@ -78874,7 +81786,105 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 25.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "E1|2026-10-13|Bristol City|Blackburn": {
 "code": "E1",
@@ -79150,7 +82160,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 75,
+"hit": true
+}
+]
 },
 "E1|2026-10-13|Birmingham|Preston": {
 "code": "E1",
@@ -79432,7 +82588,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Birmingham to win",
+"chance": 99,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Birmingham to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "E1|2026-10-13|Stoke|Middlesbrough": {
 "code": "E1",
@@ -79716,7 +82978,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "E1|2026-10-13|Burnley|Charlton": {
 "code": "E1",
@@ -79994,7 +83394,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Burnley to win",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 6.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Burnley to win",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 5.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 77,
+"hit": false
+}
+]
 },
 "E1|2026-10-13|Wrexham|West Brom": {
 "code": "E1",
@@ -80270,7 +83800,161 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 22.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 86,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 20.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 76,
+"hit": false
+}
+]
 },
 "E1|2026-10-14|Norwich|Southampton": {
 "code": "E1",
@@ -80554,7 +84238,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 28.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": false
+}
+]
 },
 "E1|2026-10-14|Portsmouth|Sheffield United": {
 "code": "E1",
@@ -80830,7 +84644,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Portsmouth to win",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 28.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Portsmouth to win",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 33.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 88,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 74,
+"hit": true
+}
+]
 },
 "E1|2026-10-14|QPR|Derby": {
 "code": "E1",
@@ -81106,7 +85066,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "QPR to win",
+"chance": 99,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "QPR to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 8.5",
+"chance": 86,
+"hit": true
+}
+]
 },
 "E1|2026-10-14|Lincoln|West Ham": {
 "code": "E1",
@@ -81390,7 +85472,161 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "West Ham to win",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 29.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "West Ham to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 6.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 14.5",
+"chance": 78,
+"hit": false
+}
+]
 },
 "E1|2026-10-16|Burnley|Wolves": {
 "code": "E1",
@@ -81674,7 +85910,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": true
+}
+]
 },
 "E1|2026-10-17|Derby|Stoke": {
 "code": "E1",
@@ -82380,7 +86754,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Cardiff to win",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "Yes",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 36.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 38.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 8.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 82,
+"hit": false
+}
+]
 },
 "E1|2026-10-17|Wrexham|Preston": {
 "code": "E1",
@@ -85454,7 +89974,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 6.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 16.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Watford to win",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 4.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 6.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 17.5",
+"chance": 86,
+"hit": true
+}
+]
 },
 "E1|2026-10-17|Millwall|Lincoln": {
 "code": "E1",
@@ -85736,7 +90386,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Lincoln to win",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Lincoln to win",
+"chance": 89,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 75,
+"hit": false
+}
+]
 },
 "E1|2026-10-20|Wolves|Portsmouth": {
 "code": "E1",
@@ -101280,7 +106052,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Genoa to win",
+"chance": 89,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Genoa to win",
+"chance": 93,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "I1|2026-10-10|Inter|Parma": {
 "code": "I1",
@@ -101568,7 +106486,161 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Inter to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 31.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 93,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Inter to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 30.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": false
+}
+]
 },
 "I1|2026-10-10|Napoli|Frosinone": {
 "code": "I1",
@@ -101852,7 +106924,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Napoli to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 33.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Napoli to win",
+"chance": 97,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 2.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "I1|2026-10-11|Como|Roma": {
 "code": "I1",
@@ -102136,7 +107354,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 25.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "I1|2026-10-11|Lazio|Monza": {
 "code": "I1",
@@ -102418,7 +107774,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Lazio to win",
+"chance": 98,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Lazio to win",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 29.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "I1|2026-10-11|Lecce|Bologna": {
 "code": "I1",
@@ -102700,7 +108186,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Bologna to win",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 20.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 3.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 19.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Bologna to win",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 18.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 18.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "I1|2026-10-11|Sassuolo|Milan": {
 "code": "I1",
@@ -102982,7 +108614,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 82,
+"hit": true
+}
+]
 },
 "I1|2026-10-11|Cagliari|Juventus": {
 "code": "I1",
@@ -103266,7 +109012,97 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 2.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 5.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 74,
+"hit": true
+}
+]
 },
 "I1|2026-10-12|Atalanta|Venezia": {
 "code": "I1",
@@ -103550,7 +109386,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Atalanta to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Atalanta to win",
+"chance": 97,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 35.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 13.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 8.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "I1|2026-10-12|Torino|Udinese": {
 "code": "I1",
@@ -103826,7 +109784,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 24.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "I1|2026-10-16|Frosinone|Sassuolo": {
 "code": "I1",
@@ -104112,7 +110176,161 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 14.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 14.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Frosinone to win",
+"chance": 93,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 33.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 15.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 9.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 80,
+"hit": false
+}
+]
 },
 "I1|2026-10-17|Roma|Genoa": {
 "code": "I1",
@@ -105184,7 +111402,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 2.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 85,
+"hit": true
+}
+]
 },
 "I1|2026-10-18|Udinese|Lecce": {
 "code": "I1",
@@ -119969,7 +126301,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-10|Empoli|Palermo": {
 "code": "I2",
@@ -120251,7 +126584,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-10|Sudtirol|Ascoli": {
 "code": "I2",
@@ -120531,7 +126865,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-10|Virtus Entella|Juve Stabia": {
 "code": "I2",
@@ -120817,7 +127152,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-10|Vicenza|Pisa": {
 "code": "I2",
@@ -121097,7 +127433,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-10|Arezzo|Cremonese": {
 "code": "I2",
@@ -121385,7 +127722,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-11|Catanzaro|Mantova": {
 "code": "I2",
@@ -121661,7 +127999,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-11|Padova|Carrarese": {
 "code": "I2",
@@ -121939,7 +128278,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-11|Modena|Verona": {
 "code": "I2",
@@ -122215,7 +128555,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-16|Verona|Catanzaro": {
 "code": "I2",
@@ -122497,7 +128838,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-17|Pisa|Cremonese": {
 "code": "I2",
@@ -123345,7 +129687,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-17|Benevento|Vicenza": {
 "code": "I2",
@@ -123627,7 +129970,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-17|Padova|Virtus Entella": {
 "code": "I2",
@@ -123905,7 +130249,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-17|Carrarese|Modena": {
 "code": "I2",
@@ -124187,7 +130532,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "I2|2026-10-18|Juve Stabia|Sudtirol": {
 "code": "I2",
@@ -133975,7 +140321,89 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 24.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 86,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+}
+]
 },
 "SP1|2026-10-10|Barcelona|Getafe": {
 "code": "SP1",
@@ -134263,7 +140691,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Barcelona to win",
+"chance": 99,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Barcelona to win",
+"chance": 99,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 8.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 74,
+"hit": true
+}
+]
 },
 "SP1|2026-10-10|Real Madrid|Villarreal": {
 "code": "SP1",
@@ -134549,7 +141107,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 28.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 72,
+"hit": false
+}
+]
 },
 "SP1|2026-10-11|Elche|Celta": {
 "code": "SP1",
@@ -134829,7 +141517,153 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 5.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 15.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 17.5",
+"chance": 75,
+"hit": true
+}
+]
 },
 "SP1|2026-10-11|Sociedad|La Coruna": {
 "code": "SP1",
@@ -135109,7 +141943,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Sociedad to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 25.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Sociedad to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": false
+}
+]
 },
 "SP1|2026-10-11|Betis|Osasuna": {
 "code": "SP1",
@@ -135393,7 +142349,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Betis to win",
+"chance": 96,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Betis to win",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 86,
+"hit": true
+}
+]
 },
 "SP1|2026-10-11|Santander|Valencia": {
 "code": "SP1",
@@ -135673,7 +142751,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 14.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Santander to win",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 85,
+"hit": false
+}
+]
 },
 "SP1|2026-10-12|Levante|Sevilla": {
 "code": "SP1",
@@ -135957,7 +143173,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 6.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 89,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Sevilla to win",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 31.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 7.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 3.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 76,
+"hit": false
+}
+]
 },
 "SP1|2026-10-16|La Coruna|Levante": {
 "code": "SP1",
@@ -136237,7 +143567,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 21.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 81,
+"hit": false
+}
+]
 },
 "SP1|2026-10-17|Villarreal|Elche": {
 "code": "SP1",
@@ -136937,7 +144381,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 25.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 6.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": true
+}
+]
 },
 "SP1|2026-10-17|Betis|Barcelona": {
 "code": "SP1",
@@ -148843,7 +156425,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 77,
+"hit": true
+}
+]
 },
 "F1|2026-10-10|Monaco|Toulouse": {
 "code": "F1",
@@ -149125,7 +156845,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Monaco to win",
+"chance": 95,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": false
+}
+]
 },
 "F1|2026-10-10|Lille|Le Havre": {
 "code": "F1",
@@ -149403,7 +157229,169 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Lille to win",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 11.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Lille to win",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 5.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 88,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 81,
+"hit": false
+}
+]
 },
 "F1|2026-10-10|Brest|Angers": {
 "code": "F1",
@@ -149683,7 +157671,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Brest to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 26.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 7.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Brest to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 8.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 78,
+"hit": false
+}
+]
 },
 "F1|2026-10-10|Paris SG|Le Mans": {
 "code": "F1",
@@ -149971,7 +158089,105 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Paris SG to win",
+"chance": 93,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 12.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 2.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 29.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 12.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 8.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 86,
+"hit": false
+}
+]
 },
 "F1|2026-10-11|Nice|Strasbourg": {
 "code": "F1",
@@ -150251,7 +158467,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 90,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 7.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "F1|2026-10-11|Rennes|Auxerre": {
 "code": "F1",
@@ -150533,7 +158863,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Rennes to win",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 83,
+"hit": true
+}
+]
 },
 "F1|2026-10-11|Troyes|Marseille": {
 "code": "F1",
@@ -150815,7 +159267,105 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Marseille to win",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 84,
+"hit": true
+}
+]
 },
 "F1|2026-10-16|Le Mans|Toulouse": {
 "code": "F1",
@@ -151097,7 +159647,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 8.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 12.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Toulouse to win",
+"chance": 94,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 13.5",
+"chance": 83,
+"hit": true
+}
+]
 },
 "F1|2026-10-17|Strasbourg|Paris SG": {
 "code": "F1",
@@ -162274,7 +170962,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "Yes",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 12.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 9.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 31.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 11.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 8.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 93,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 8.5",
+"chance": 82,
+"hit": false
+}
+]
 },
 "D1|2026-10-10|Hoffenheim|Hamburg": {
 "code": "D1",
@@ -162558,7 +171368,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 11.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 15.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Hoffenheim to win",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 13.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "D1|2026-10-10|Mainz|Leverkusen": {
 "code": "D1",
@@ -162844,7 +171784,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Leverkusen to win",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 5.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 80,
+"hit": false
+}
+]
 },
 "D1|2026-10-10|Paderborn|Stuttgart": {
 "code": "D1",
@@ -163128,7 +172182,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Stuttgart to win",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 10.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Stuttgart to win",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 36.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "D1|2026-10-10|Union Berlin|Elversberg": {
 "code": "D1",
@@ -163410,7 +172578,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 8.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 14.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": false
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 27.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 13.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "D1|2026-10-10|RB Leipzig|Ein Frankfurt": {
 "code": "D1",
@@ -163696,7 +172994,145 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "RB Leipzig to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 16.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 9.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 90,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "RB Leipzig to win",
+"chance": 100,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 15.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 9.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 16.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 12.5",
+"chance": 75,
+"hit": true
+}
+]
 },
 "D1|2026-10-11|FC Koln|M'gladbach": {
 "code": "D1",
@@ -164221,7 +173657,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 25.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 8.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 24.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 6.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 3.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 2.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 75,
+"hit": true
+}
+]
 },
 "D1|2026-10-16|Ein Frankfurt|FC Koln": {
 "code": "D1",
@@ -164505,7 +174071,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 29.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 29.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 14.5",
+"chance": 72,
+"hit": true
+}
+]
 },
 "D1|2026-10-17|Hamburg|Stuttgart": {
 "code": "D1",
@@ -164789,7 +174461,121 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 29.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 93,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": true
+}
+]
 },
 "D1|2026-10-17|Schalke 04|Mainz": {
 "code": "D1",
@@ -165071,7 +174857,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 26.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 7.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 80,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 78,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 16.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Mainz to win",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 22.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 6.5",
+"chance": 85,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 9.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 15.5",
+"chance": 81,
+"hit": true
+}
+]
 },
 "D1|2026-10-17|Union Berlin|Dortmund": {
 "code": "D1",
@@ -165351,7 +175259,137 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 7.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 3.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 5.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 2.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 3.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "btts",
+"market": "Both teams to score",
+"pick": "No",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Under 23.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Under 6.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 4.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 5.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 11.5",
+"chance": 81,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "D1|2026-10-17|Werder Bremen|Paderborn": {
 "code": "D1",
@@ -165633,7 +175671,129 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Paderborn to win",
+"chance": 81,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 29.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 12.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 10.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 28.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 12.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 6.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 73,
+"hit": true
+}
+]
 },
 "D1|2026-10-17|Bayern Munich|RB Leipzig": {
 "code": "D1",
@@ -166349,7 +176509,113 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Elversberg to win",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 39.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 89,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Elversberg to win",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 37.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": true
+}
+]
 },
 "D1|2026-10-18|Leverkusen|Freiburg": {
 "code": "D1",
@@ -174707,7 +184973,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-10|Hearts|St Mirren": {
 "code": "SC0",
@@ -174989,7 +185256,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-10|Rangers|Kilmarnock": {
 "code": "SC0",
@@ -175275,7 +185543,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-10|Falkirk|Dundee": {
 "code": "SC0",
@@ -175549,7 +185818,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-11|Motherwell|Celtic": {
 "code": "SC0",
@@ -175829,7 +186099,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-11|Aberdeen|St Johnstone": {
 "code": "SC0",
@@ -176107,7 +186378,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-17|St Johnstone|Dundee United": {
 "code": "SC0",
@@ -176941,7 +187213,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-17|Kilmarnock|Motherwell": {
 "code": "SC0",
@@ -177225,7 +187498,8 @@
 }
 ]
 },
-"pre_tried": true
+"pre_tried": true,
+"live": []
 },
 "SC0|2026-10-17|Dundee|Rangers": {
 "code": "SC0",
