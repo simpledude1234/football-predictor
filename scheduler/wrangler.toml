@@ -12,3 +12,6 @@ crons = [
   "10,40 10-19 * * SAT,SUN",  # weekends: line-up check every 30 min
   "10,40 16-19 * * MON-FRI",  # weekday evenings: line-up check
 ]
+
+[observability]
+enabled = true     # keep a log of each run (to see why a run failed)
