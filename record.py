@@ -99,6 +99,10 @@ def _offsides_from_espn(e):
     v = {"home_offsides": ho, "away_offsides": ao, "total_offsides": ho + ao}
     if hf is not None and af is not None:
         v["free_kicks"] = hf + af + ho + ao        # free kicks = fouls + offsides
+    for espn_name, name in (("wonCorners", "corners"), ("totalTackles", "tackles")):
+        h, a = hs.get(espn_name), as_.get(espn_name)
+        if h is not None and a is not None:
+            v.update({f"home_{name}": h, f"away_{name}": a, f"total_{name}": h + a})
     return v
 
 

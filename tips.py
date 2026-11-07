@@ -9,7 +9,9 @@ GENERIC = {"total_shots": "Total shots", "total_sot": "Total shots on target",
            "home_cards": "Home bookings", "away_cards": "Away bookings", "total_cards": "Total bookings",
            "home_fouls": "Home fouls", "away_fouls": "Away fouls",
            "home_gk": "Home goal kicks", "away_gk": "Away goal kicks", "free_kicks": "Total free kicks",
-           "total_offsides": "Total offsides", "home_offsides": "Home offsides", "away_offsides": "Away offsides"}
+           "total_offsides": "Total offsides", "home_offsides": "Home offsides", "away_offsides": "Away offsides",
+           "total_corners": "Total corners", "home_corners": "Home corners", "away_corners": "Away corners",
+           "total_tackles": "Total tackles", "home_tackles": "Home tackles", "away_tackles": "Away tackles"}
 
 
 def make_tips(m):
@@ -18,7 +20,9 @@ def make_tips(m):
              "home_cards": f"{h} bookings", "away_cards": f"{a} bookings",
              "home_fouls": f"{h} fouls", "away_fouls": f"{a} fouls",
              "home_gk": f"{h} goal kicks", "away_gk": f"{a} goal kicks",
-             "home_offsides": f"{h} offsides", "away_offsides": f"{a} offsides"}
+             "home_offsides": f"{h} offsides", "away_offsides": f"{a} offsides",
+             "home_corners": f"{h} corners", "away_corners": f"{a} corners",
+             "home_tackles": f"{h} tackles", "away_tackles": f"{a} tackles"}
     f = m["final"]
     best = max("HDA", key=lambda k: f[k])
     res = f"{h} to win" if best == "H" else f"{a} to win" if best == "A" else "Draw"

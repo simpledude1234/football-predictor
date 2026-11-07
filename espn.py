@@ -73,7 +73,7 @@ def _compact(slug, ev, summary):
     for t in summary.get("boxscore", {}).get("teams", []):
         st = {x["name"]: x.get("displayValue") for x in t.get("statistics", [])}
         stats[side.get(t["team"]["id"], "?")] = {k: _num(st.get(k)) for k in
-                                                ("totalShots", "shotsOnTarget", "foulsCommitted", "yellowCards", "redCards", "offsides")}
+                                                ("totalShots", "shotsOnTarget", "foulsCommitted", "yellowCards", "redCards", "offsides", "wonCorners", "totalTackles")}
     players = []
     for r in summary.get("rosters", []):
         ha = side.get(r["team"]["id"], "?")
@@ -162,21 +162,24 @@ def update(days_ahead=21, season_start=None):
         c["dates_done"][slug] = sorted(done)
         print(f"ESPN {slug}: {new} new finished matches stored")
         save_cache(c)
-    backfill_offsides(c)
+    backfill_extra(c)
     add_lineups(upcoming)
     return c, upcoming
 
 
-def backfill_offsides(c, limit=400):
-    """Matches stored before offsides were kept: fetch them again, a few hundred per run."""
+EXTRA = ("offsides", "wonCorners", "totalTackles")
+
+
+def backfill_extra(c, limit=400):
+    """Matches stored before offsides, corners and tackles were kept: fetch them again, a few hundred per run."""
     todo = [k for k, m in c["matches"].items()
-            if m.get("stats") and "offsides" not in (m["stats"].get("home") or {})][:limit]
+            if m.get("stats") and any(x not in (m["stats"].get("home") or {}) for x in EXTRA)][:limit]
     for eid in todo:
         m = c["matches"][eid]
         try:
             s = get_json(f"{BASE}{m['slug']}/summary?event={eid}")
         except Exception as e:
-            print(f"ESPN offsides {eid}: failed ({e})")
+            print(f"ESPN extra stats {eid}: failed ({e})")
             continue
         side = {}
         for r in s.get("header", {}).get("competitions", [{}])[0].get("competitors", []):
@@ -185,9 +188,10 @@ def backfill_offsides(c, limit=400):
             ha = side.get(t["team"]["id"])
             if ha in m["stats"]:
                 st = {x["name"]: x.get("displayValue") for x in t.get("statistics", [])}
-                m["stats"][ha]["offsides"] = _num(st.get("offsides"))
+                for x in EXTRA:
+                    m["stats"][ha][x] = _num(st.get(x))
     if todo:
-        print(f"ESPN: offsides added to {len(todo)} stored matches")
+        print(f"ESPN: offsides, corners and tackles added to {len(todo)} stored matches")
         save_cache(c)
 
 
