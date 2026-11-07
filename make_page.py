@@ -78,6 +78,7 @@ def main():
             # every player's booking rate, for the live player-to-be-booked picks
             m["squad"] = {sd: pm.squad_rates(m["espn_" + sd], m["iso"], exp.get(sd + "_cards"))
                           for sd in ("home", "away")} if m.get("espn_home") else None
+            m["fh"] = {sd: pm.foul_habit(m["espn_" + sd], m["iso"]) for sd in ("home", "away")} if m.get("espn_home") else None
             team_stats.add_markets(m, om, op, espn.SLUGS.get(m["code"]))
             m["tips"] = tips.make_tips(m)
     finish(matches)

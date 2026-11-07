@@ -33,6 +33,12 @@ class PlayerModel:
                 cards += (y + r) > 0
                 starts += 1 if starter else SUB_WEIGHT
         self.prior = cards / starts if starts else 0.15
+        fouls = apps = 0
+        for m in cache["matches"].values():
+            for name, side, starter, y, r, f in m["players"]:
+                fouls += f or 0
+                apps += 1
+        self.foul_prior = fouls / apps if apps else 1.0
 
     def team_card_avg(self, team, before):
         vals = []
@@ -74,6 +80,28 @@ class PlayerModel:
         lam = lambda b, eq: round(-math.log(1 - min((b + PRIOR_GAMES * self.prior) / (eq + PRIOR_GAMES), 0.9)) * factor, 4)
         out = {n: lam(st[n][1], st[n][0]) for n in sorted(recent)}
         out[""] = lam(0, 0)
+        return out
+
+    def foul_habit(self, team, before):
+        """For the Live tab: fouls per appearance over each player's last 15 games for the team
+        (pulled towards the average for players with few games). A player who fouls a lot is
+        booked more often: tested on 548 past games (tools/live_players_bt.js).
+        "": the average, for a player we have no record of."""
+        games = [m for m in self.team_games.get(team, []) if m["date"] < before]
+        if not games:
+            return {}
+        st = defaultdict(list)
+        recent = set()
+        for m in games:
+            side = "home" if m["home"] == team else "away"
+            for name, s, starter, y, r, f in m["players"]:
+                if s == side:
+                    st[name].append(f or 0)
+                    if m in games[-5:]:
+                        recent.add(name)
+        k = 3.0
+        out = {n: round((sum(st[n][-15:]) + k * self.foul_prior) / (len(st[n][-15:]) + k), 3) for n in sorted(recent)}
+        out[""] = round(self.foul_prior, 3)
         return out
 
     def candidates(self, team, before, expected_team_cards, lineup=None):

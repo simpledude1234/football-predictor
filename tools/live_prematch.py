@@ -28,8 +28,9 @@ def main(days=100):
             team_stats.add_markets(m, om, op, espn.SLUGS.get(m["code"]))     # corners
             exp = {k["key"]: k["expected"] for k in m["markets"]}
             m["squad"] = {s: pm.squad_rates(m["espn_" + s], m["iso"], exp.get(s + "_cards")) for s in ("home", "away")}
+            m["fh"] = {s: pm.foul_habit(m["espn_" + s], m["iso"]) for s in ("home", "away")}
     keep = [{"espn_id": m["espn_id"], "iso": m["iso"], "code": m["code"], "home": m["home"], "away": m["away"],
-             "goals_exp": m["goals_exp"], "final": m["final"], "btts": m["btts"], "squad": m["squad"],
+             "goals_exp": m["goals_exp"], "final": m["final"], "btts": m["btts"], "squad": m["squad"], "fh": m["fh"],
              "markets": [{k: x[k] for k in ("key", "expected", "phi", "estimate")} for x in m["markets"]]}
             for m in past if m.get("espn_id")]
     OUT.write_text(json.dumps(keep, default=lambda o: o.item() if hasattr(o, "item") else float(o)), encoding="utf-8")

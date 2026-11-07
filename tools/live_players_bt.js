@@ -37,18 +37,20 @@ const fit = D.games.filter(g => Number(g.id) % 2 === 0), test = D.games.filter(g
 let best = null;
 // s: overall level, g: how much a player's own record counts, h: expected team bookings,
 // b: fouls so far, u: a player with no record, a: the game's booking pace so far
+// fh: how often the player fouls per game (his habit over recent games)
 for (const s of [0.12, 0.14, 0.16, 0.18]) for (const g of [0.75, 1, 1.25]) for (const h of [0, 0.5, 1])
-  for (const b of [0, 0.001, 0.002, 0.004, 0.006]) for (const u of [0.6, 0.8, 1]) for (const a of [0, 1]) {
-    const ll = logLoss(rows({ s, g, h, b, u, a }, fit));
-    if (!best || ll < best.ll) best = { s, g, h, b, u, a, ll };
+  for (const b of [0, 0.002, 0.004]) for (const u of [0.6, 0.8, 1]) for (const fh of [0, 0.25, 0.5, 0.75, 1]) {
+    const ll = logLoss(rows({ s, g, h, b, u, a: 0, fh }, fit));
+    if (!best || ll < best.ll) best = { s, g, h, b, u, a: 0, fh, ll };
   }
-const pl = { s: best.s, g: best.g, h: best.h, b: best.b, u: best.u, a: best.a };
+const pl = { s: best.s, g: best.g, h: best.h, b: best.b, u: best.u, a: best.a, fh: best.fh };
 { // correction for the top 3 shown, from the fitting half only
   const t = rows(pl, fit).filter(r => r.top);
   pl.c = +(t.filter(r => r.hit).length / t.reduce((x, r) => x + r.p, 0)).toFixed(3);
 }
 console.log('fit log score', best.ll.toFixed(5), 'same without fouls', logLoss(rows({ ...pl, b: 0 }, fit)).toFixed(5));
-const T = rows(pl, test), base = rows({ ...pl, a: 0, b: 0 }, test);
+const T = rows(pl, test), base = rows({ ...pl, a: 0, b: 0 }, test), old = rows({ ...pl, fh: 0 }, test);
+console.log(`Log score without foul habit: ${logLoss(old).toFixed(4)}`);
 const top = T.filter(r => r.top).map(r => ({ ...r, p: r.p * pl.c })), sum = rs => ({ n: rs.length, landed: 100 * rs.filter(r => r.hit).length / rs.length, said: 100 * rs.reduce((a, r) => a + r.p, 0) / rs.length });
 console.log(`Settings chosen on ${fit.length} games:`, pl);
 console.log(`Checked on ${test.length} other games. Log score (lower is better): live model ${logLoss(T).toFixed(4)}, ` +

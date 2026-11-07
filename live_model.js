@@ -164,6 +164,8 @@ const LIVE = (() => {
     const P = CFG.pl;
     if (!P || !m.squad || !L.players) return [];
     const out = [], f = left('cards', t), played = Math.max(1 - f, 0.15);
+    const fhN = { home: {}, away: {} };                                  // foul habits by accent-free name
+    if (m.fh) for (const s of ['home', 'away']) for (const k in (m.fh[s] || {})) if (k) fhN[s][norm(k)] = m.fh[s][k];
     for (const side of ['home', 'away']) {
       const sq = m.squad[side], ps = L.players[side];
       const cm = m.markets.find(x => x.key === side + '_cards');
@@ -177,7 +179,9 @@ const LIVE = (() => {
       for (const [name, on, y, r, fouls] of ps) {
         if (!on || y || r) continue;
         const own = rates[norm(name)];
-        const rel = own == null ? P.u : Math.pow(own / avg, P.g);        // no record: a new face
+        let rel = own == null ? P.u : Math.pow(own / avg, P.g);          // no record: a new face
+        const fh = m.fh && m.fh[side];                                    // how often he fouls per game
+        if (P.fh && fh && fh[''] > 0) { const x = fh[norm(name)] ?? fhN[side][norm(name)]; if (x != null) rel *= Math.pow(x / fh[''], P.fh); }
         const lam = (P.s * rel * Math.pow(cm.expected / 2, P.h) + P.b * (fouls || 0) / played) * f * Math.pow(pace, P.a);
         out.push({ player: name, side, fouls: fouls || 0, chance: 100 * (1 - Math.exp(-lam)) });
       }

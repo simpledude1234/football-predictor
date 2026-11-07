@@ -16,6 +16,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import espn  # noqa: E402
 import live_backtest_data as LB  # noqa: E402
+import players  # noqa: E402
 
 CACHE = espn.CACHE.parent
 AT = (20, 30, 45, 60, 75)
@@ -67,7 +68,10 @@ def _dist(x, y):
 
 def main():
     ev = json.loads((CACHE / "espn_events.json").read_text(encoding="utf-8"))
-    store = espn.load_cache()["matches"]
+    cache = espn.load_cache()
+    store = cache["matches"]
+    global PM
+    PM = players.PlayerModel(cache)
     pre = {p["espn_id"]: p for p in json.loads((CACHE / "live_bt_prematch.json").read_text(encoding="utf-8"))}
     games, skipped = [], {"no data": 0, "commentary off": 0}
     for eid, p in pre.items():
@@ -112,6 +116,7 @@ def main():
                 "cards": {h: {"yellow": sum(1 for n in yl if side_of.get(n) == h),
                               "red": sum(1 for n in rd if side_of.get(n) == h)} for h in ("home", "away")},
                 "later": later}
+        p = {**p, "fh": {h: PM.foul_habit(m[h], m["date"]) for h in ("home", "away")}}
         games.append({"id": eid, "pre": p, "snap": snaps})
     (CACHE / "live_pl_data.json").write_text(json.dumps({"games": games}), encoding="utf-8")
     print(f"{len(games)} games rebuilt for player bookings; left out: {skipped}")

@@ -38,6 +38,8 @@ def pre_match(m):
            "markets": [{k: x.get(k) for k in ("key", "expected", "phi", "estimate")} for x in m["markets"]]}
     if m.get("squad"):                 # players' booking rates (live player picks)
         out["squad"] = m["squad"]
+    if m.get("fh"):                    # players' fouls per game (live player picks)
+        out["fh"] = m["fh"]
     return out
 
 
