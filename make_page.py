@@ -16,6 +16,7 @@ import espn
 import europe
 import fetch_data
 import learn
+import live_record
 import team_stats
 import value
 import players
@@ -91,6 +92,11 @@ def main():
         record.add_replay(past)
         print(f"Replayed {len(past)} past games for the track record")
     predictor.LEARNED = learned
+    try:
+        fill_pre(params, cache)
+        live_record.update(cache)
+    except Exception as e:
+        print(f"Live picks replay skipped this time ({e})")
     track = record.score(cache)
 
     now = dt.datetime.now(ZoneInfo("Europe/London"))
@@ -103,6 +109,28 @@ def main():
     write_page(simple_page.HTML, simple_page.SCRIPT.replace("__LIVE__", live_script()), payload, OUT, connect=True)
     write_page(HTML, SCRIPT, payload, HERE / "details.html")
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
+
+
+def fill_pre(params, cache):
+    """Older log entries were saved before the pre-match numbers were kept: add them
+    (predicted again with only earlier data), once, for the last 28 days."""
+    log = record.load()
+    cut = str(dt.date.today() - dt.timedelta(days=28))
+    if not any("pre" not in e and not e.get("pre_tried") and e["date"] >= cut for e in log.values()):
+        return
+    learned, predictor.LEARNED = predictor.LEARNED, {}
+    try:
+        past = predictor.replay(params, days=28)
+    finally:
+        predictor.LEARNED = learned
+    by_id = {f"{m['code']}|{m['iso']}|{m['home']}|{m['away']}": m for m in past}
+    for mid, e in log.items():
+        if "pre" not in e and e["date"] >= cut:
+            if mid in by_id:
+                e["pre"] = record.pre_match(by_id[mid])
+            e["pre_tried"] = True
+    record.save(log)
+    print(f"Pre-match numbers added to {sum(1 for e in log.values() if 'pre' in e)} logged games")
 
 
 def value_note(vp):

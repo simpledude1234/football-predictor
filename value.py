@@ -52,7 +52,7 @@ def pick(mean, phi, line, shrink, key=None, show=True):
         return None
     side, p = raw_pick(mean, phi, line)
     ch = 0.5 + shrink * (p - 0.5) + move
-    if 100 * ch < MIN_CHANCE:
+    if 100 * ch < MIN_CHANCE or ch > P.MAX_SAFE:      # higher price means 1.20 at the very least
         return None
     return {"side": side, "line": line, "chance": round(100 * ch),
             "min_odds": math.ceil(20 / ch) / 20}     # rounded up to the next 0.05

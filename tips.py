@@ -14,6 +14,8 @@ GENERIC = {"total_shots": "Total shots", "total_sot": "Total shots on target",
            "total_tackles": "Total tackles", "home_tackles": "Home tackles", "away_tackles": "Away tackles"}
 
 
+import learn
+import predictor as P
 import value
 
 _VP = value.load_params()
@@ -71,9 +73,11 @@ def make_tips(m):
                         "label": named.get(k["key"], GENERIC[k["key"]]),
                         "pick": f"{v['side'].title()} {v['line']}", "side": v["side"], "line": v["line"],
                         "chance": v["chance"], "min_odds": v["min_odds"], "value": True, "star": False})
+    pmove, _ = learn.adjust("player", "player_booked", P.LEARNED)     # learned from the track record
     for p in m.get("players", []):
         out.append({"key": "player_booked", "market": "Player to be booked", "label": "Player to be booked",
                     "pick": f"{p['player']} ({h if p['team'] == 'home' else a})", "side": "player",
-                    "line": None, "player": p["player"], "team": p["team"], "chance": p["chance"],
+                    "line": None, "player": p["player"], "team": p["team"],
+                    "chance": max(1, min(99, round(p["chance"] + 100 * pmove))),
                     "confirmed": p.get("confirmed", False), "star": False})   # no player pick is strong enough to star (see players.py)
     return out

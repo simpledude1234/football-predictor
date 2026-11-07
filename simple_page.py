@@ -131,20 +131,21 @@ function trackView() {
   if (!games.length) return `<div class="empty">No finished matches yet.<br>Every tip is saved before kick-off and marked &#10004; or &#10008; here once the result is in${T.waiting ? ` (${T.waiting} match${T.waiting > 1 ? 'es' : ''} waiting for results)` : ''}.</div>`;
   const sum = {};
   games.forEach(g => g.tips.forEach(t => { if (t.hit === null) return;
-    (t.value ? [t.market, '__value__'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
+    (t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
   const markets = Object.keys(sum).filter(k => !k.startsWith('__')).sort((a, b) => sum[b][0] / sum[b][1] - sum[a][0] / sum[a][1]);
   let html = `<h2>How the tips did</h2><div class="sub">${games.length} finished match${games.length > 1 ? 'es' : ''}${pick === 'All' ? '' : ' in ' + esc(pick)}: ${games.filter(g => !g.replay).length} live (tips saved before kick-off) and ${games.filter(g => g.replay).length} replayed (predicted afterwards, using only information from before each game, to give a record from day one).</div>
     <div class="sum"><div class="box"><div class="n">${pct(sum.__all__)}</div><div class="l">All tips right (${sum.__all__ ? sum.__all__[0] + ' of ' + sum.__all__[1] : 0})</div></div>
     <div class="box"><div class="n ok">${pct(sum.__star__)}</div><div class="l">&#9733; tips right (${sum.__star__ ? sum.__star__[0] + ' of ' + sum.__star__[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__value__)}</div><div class="l">Higher-price picks right (${sum.__value__ ? sum.__value__[0] + ' of ' + sum.__value__[1] : 0}). They need about 54%+ to profit at 1.85.</div></div>
     <div class="box"><div class="n ok">${pct(sum.__best_safe)}</div><div class="l">Best bets right (${sum.__best_safe ? sum.__best_safe[0] + ' of ' + sum.__best_safe[1] : 0})</div></div>
-    <div class="box"><div class="n">${pct(sum.__best_value)}</div><div class="l">Higher-price best bets right (${sum.__best_value ? sum.__best_value[0] + ' of ' + sum.__best_value[1] : 0})</div></div></div>
+    <div class="box"><div class="n">${pct(sum.__best_value)}</div><div class="l">Higher-price best bets right (${sum.__best_value ? sum.__best_value[0] + ' of ' + sum.__best_value[1] : 0})</div></div>
+    <div class="box"><div class="n">${pct(sum.__live)}</div><div class="l">Live picks right at 45' and 60' (${sum.__live ? sum.__live[0] + ' of ' + sum.__live[1] : 0})</div></div></div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
     <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks show &ndash; because no free source records them.</div>`;
   let day = '';
   games.forEach(g => {
     if (g.date !== day) { day = g.date; html += `<div class="day">${dayName(day)}</div>`; }
-    const safe = g.tips.filter(t => !t.value), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
+    const safe = g.tips.filter(t => !t.value && !t.live), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
     html += `<details class="m"><summary><div class="mt"><span class="teams">${esc(g.home)} <span class="score">${esc(g.score)}</span> ${esc(g.away)}</span>
       <span class="time ${n && ok / n >= 0.6 ? 'ok' : ''}">${ok}/${n} right</span></div><div class="sub">${esc(g.league)}${g.replay ? ' &middot; replay' : ' &middot; live tip'}</div></summary>
       <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">higher price</i>' : ''}${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i></span>

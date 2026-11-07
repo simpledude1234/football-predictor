@@ -36,6 +36,8 @@ GK_BASE, GK_PER_MISS = 2.5, 0.55   # goal kicks ~ 2.5 + 0.55 x opponent off-targ
 OFFSIDES_PER_MATCH = 3.6           # free kicks = fouls + offsides (offsides not in free data)
 DC_RHO = -0.08
 SAFE = 0.72                        # "safer tip" = at least 72% chance
+MIN_PRICE = 1.20                   # ...but no tip worth less than 1.20 (e.g. "bookings over 0.5")
+MAX_SAFE = 1 / MIN_PRICE           # = 83%
 EDGE = 0.05                        # a tip must beat how often its line normally lands by 5+ points
 LINES = [x + 0.5 for x in range(0, 45)]
 
@@ -240,8 +242,9 @@ def safe_under_line(mean, phi):
 def best_tip(mean, phi, normal, key=None):
     """The line where this game stands out most from a normal game in the league.
     normal: last year's actual values in the league for this market.
-    Our chance must be at least 72% and at least 5 points above how often the
-    line normally lands; otherwise no tip (a normal game tells us nothing).
+    Our chance must be at least 72% (but at most 83%, so the tip is worth 1.20+)
+    and at least 5 points above how often the line normally lands; otherwise no
+    tip (a normal game tells us nothing).
     Tested on 90 days of replays: 62% of games got a tip; they landed 79.8%
     against 66.9% normally (the old way: 78.9% against 70.6%)."""
     if normal is None or not len(normal):
@@ -253,7 +256,7 @@ def best_tip(mean, phi, normal, key=None):
     for L in LINES:
         po, bo = over_prob(mean, L, phi), float((normal > L).mean())
         for side, ch, base in (("over", po + move, bo), ("under", 1 - po + move, 1 - bo)):
-            if ch >= SAFE and base < 0.97 and ch - base >= EDGE and (best is None or ch - base > best[2] - best[3]):
+            if SAFE <= ch <= MAX_SAFE and base < 0.97 and ch - base >= EDGE and (best is None or ch - base > best[2] - best[3]):
                 best = (side, L, ch, base)
     if best is None:
         return None

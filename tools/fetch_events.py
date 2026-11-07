@@ -14,6 +14,26 @@ KEEP = {"Shot Off Target", "Shot Blocked", "Shot On Target", "Goal", "Goal - Hea
         "Shot Hit Woodwork", "Halftime", "End Regular Time"}
 
 
+def commentary_rows(s):
+    """Minute-by-minute events from an ESPN match summary: [period, clock secs, clock text, side, type, text]."""
+    side = {}
+    for t in s.get("header", {}).get("competitions", [{}])[0].get("competitors", []):
+        side[t["team"]["displayName"]] = t["homeAway"]
+    rows, types = [], set()
+    for x in s.get("commentary", []):
+        p = x.get("play") or {}
+        ty = (p.get("type") or {}).get("text")
+        if not ty:
+            continue
+        types.add(ty)
+        if ty not in KEEP and "Goal" not in ty and "Card" not in ty and "Penalty" not in ty and "Shot" not in ty:
+            continue
+        rows.append([p.get("period", {}).get("number"), (p.get("clock") or {}).get("value"),
+                     (p.get("clock") or {}).get("displayValue"), side.get((p.get("team") or {}).get("displayName"), "?"),
+                     ty, (p.get("text") or "")[:60]])
+    return rows, types
+
+
 def main():
     c = espn.load_cache()
     ev = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
@@ -25,21 +45,7 @@ def main():
         except Exception as e:
             print(f"{m['id']}: failed ({e})", flush=True)
             continue
-        side = {}
-        for t in s.get("header", {}).get("competitions", [{}])[0].get("competitors", []):
-            side[t["team"]["displayName"]] = t["homeAway"]
-        rows, types = [], set()
-        for x in s.get("commentary", []):
-            p = x.get("play") or {}
-            ty = (p.get("type") or {}).get("text")
-            if not ty:
-                continue
-            types.add(ty)
-            if ty not in KEEP and "Goal" not in ty and "Card" not in ty and "Penalty" not in ty and "Shot" not in ty:
-                continue
-            rows.append([p.get("period", {}).get("number"), (p.get("clock") or {}).get("value"),
-                         (p.get("clock") or {}).get("displayValue"), side.get((p.get("team") or {}).get("displayName"), "?"),
-                         ty, (p.get("text") or "")[:60]])
+        rows, types = commentary_rows(s)
         ev[m["id"]] = {"rows": rows, "types": sorted(types)}
         if i % 25 == 0:
             OUT.write_text(json.dumps(ev, separators=(",", ":")), encoding="utf-8")

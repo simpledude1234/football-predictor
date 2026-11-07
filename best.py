@@ -2,7 +2,7 @@
 
 Two short lists, at most one pick per game:
   - "safe":  safer tips with the highest chance (after learning from the track record),
-             leaving out near-certain lines whose fair price is under 1.15
+             leaving out near-certain lines whose fair price is under 1.20
   - "value": higher-price picks with the highest chance
 Each chosen tip is marked (tip["best"] = "safe" / "value") so the track record
 scores the best bets on their own.
@@ -11,7 +11,7 @@ import datetime as dt
 from zoneinfo import ZoneInfo
 
 N = 10
-MAX_CHANCE = 87      # above this the fair price is under 1.15: bookmakers barely pay, so leave it out
+MAX_CHANCE = 83      # above this the fair price is under 1.20: bookmakers barely pay, so leave it out
 
 
 def select(matches):

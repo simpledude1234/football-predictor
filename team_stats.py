@@ -204,7 +204,7 @@ def _fast_tip(mean, phi, base_over):
     base = np.empty(2 * len(_LINES))
     ch[0::2], ch[1::2] = po, 1 - po                  # same order as best_tip: over then under, line by line
     base[0::2], base[1::2] = base_over, 1 - base_over
-    edge = np.where((ch >= P.SAFE) & (base < 0.97) & (ch - base >= P.EDGE), ch - base, -np.inf)
+    edge = np.where((ch >= P.SAFE) & (ch <= P.MAX_SAFE) & (base < 0.97) & (ch - base >= P.EDGE), ch - base, -np.inf)
     i = int(np.argmax(edge))
     if not np.isfinite(edge[i]):
         return None

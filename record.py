@@ -32,6 +32,12 @@ def save(log):
     tmp.replace(LOG)
 
 
+def pre_match(m):
+    """The pre-match numbers the live model starts from (to replay live picks after the game)."""
+    return {"goals_exp": m["goals_exp"],
+            "markets": [{k: x.get(k) for k in ("key", "expected", "phi", "estimate")} for x in m["markets"]]}
+
+
 def update(matches):
     log = load()
     now = dt.datetime.now(UK).strftime("%Y-%m-%d %H:%M")
@@ -42,7 +48,8 @@ def update(matches):
         if m["kickoff"] <= now:
             continue
         log[mid] = {"code": m["code"], "league": m["league"], "date": m["iso"], "kickoff": m["kickoff"],
-                    "home": m["home"], "away": m["away"], "espn_id": m.get("espn_id"), "tips": m["tips"]}
+                    "home": m["home"], "away": m["away"], "espn_id": m.get("espn_id"), "tips": m["tips"],
+                    "pre": pre_match(m)}
     save(log)
     return log
 
@@ -55,7 +62,7 @@ def add_replay(matches):
         if mid not in log:
             log[mid] = {"code": m["code"], "league": m["league"], "date": m["iso"], "kickoff": m["kickoff"],
                         "home": m["home"], "away": m["away"], "espn_id": m.get("espn_id"), "tips": m["tips"],
-                        "replay": True}
+                        "replay": True, "pre": pre_match(m)}
     save(log)
 
 
@@ -160,6 +167,10 @@ def score(espn_cache):
                          "pick": t["pick"], "actual": shown, "key": k, "chance": t.get("chance"),
                          "hit": hit, "star": t.get("star", False), "value": t.get("value", False),
                          "min_odds": t.get("min_odds"), "best": t.get("best")})
+        for lp in e.get("live", []):
+            rows.append({"label": f"Live {lp['at']}': {lp['market']}", "market": "Live: " + lp["market"],
+                         "pick": lp["pick"], "actual": "", "key": lp["key"], "chance": lp["chance"],
+                         "hit": lp["hit"], "star": False, "value": False, "live": True})
         games.append({"league": e["league"], "date": e["date"], "kickoff": e["kickoff"], "home": e["home"],
                       "away": e["away"], "score": act.get("score", ""), "tips": rows, "replay": e.get("replay", False)})
     games.sort(key=lambda g: g["kickoff"], reverse=True)
@@ -168,7 +179,7 @@ def score(espn_cache):
         for t in g["tips"]:
             if t["hit"] is None:
                 continue
-            keys = (t["market"], "__value__") if t.get("value") else \
+            keys = (t["market"], "__value__") if t.get("value") else (t["market"], "__live__") if t.get("live") else \
                 (t["market"], "__all__") + (("__star__",) if t["star"] else ())
             for key in keys:
                 s = summary.setdefault(key, [0, 0])
