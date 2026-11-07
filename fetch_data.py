@@ -31,6 +31,7 @@ def season_codes(n=3):
     return [f"{(start - i) % 100:02d}{(start - i + 1) % 100:02d}" for i in range(n)]
 
 
+OLD_SEASONS = 5                # corners use two more (older) seasons than the rest
 MAX_BYTES = 5_000_000          # real files are well under 1 MB
 ALLOWED_HOST = "https://football-data.co.uk/"
 
@@ -74,6 +75,15 @@ def main():
     for s in season_codes():
         for code in ALL_LEAGUES:
             p = DATA / f"{code}_{s}.csv"
+            try:
+                print(f"{code} {s}: {get(f'https://football-data.co.uk/mmz4281/{s}/{code}.csv', p)} bytes")
+            except Exception as e:
+                print(f"{code} {s}: failed ({e})")
+    for s in season_codes(OLD_SEASONS)[3:]:     # finished seasons, used for corners: fetched once
+        for code in ALL_LEAGUES:
+            p = DATA / f"{code}_{s}.csv"
+            if p.exists() and p.stat().st_size > 100:
+                continue
             try:
                 print(f"{code} {s}: {get(f'https://football-data.co.uk/mmz4281/{s}/{code}.csv', p)} bytes")
             except Exception as e:

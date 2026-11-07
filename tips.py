@@ -33,9 +33,11 @@ def make_tips(m):
     f = m["final"]
     best = max("HDA", key=lambda k: f[k])
     res = f"{h} to win" if best == "H" else f"{a} to win" if best == "A" else "Draw"
-    out = [{"key": "result", "market": "Match result", "label": "Result",
-            "pick": res + (" (close call)" if f[best] < 45 else ""), "side": best, "line": None,
-            "star": f[best] >= 60},
+    # the result is the bookmakers' view (their prices beat our model in the test), so it is
+    # labelled as theirs and never starred: stars are for the system's own strongest picks
+    out = [{"key": "result", "market": "Match result", "label": "Bookies' favourite",
+            "pick": f"{res} ({round(f[best])}%)" + (" - close call" if f[best] < 45 else ""), "side": best,
+            "line": None, "star": False},
            {"key": "btts", "market": "Both teams to score", "label": "Both teams to score",
             "pick": "Yes" if m["btts"] >= 50 else "No", "side": "yes" if m["btts"] >= 50 else "no",
             "line": None, "star": m["btts"] >= 62 or m["btts"] <= 38}]

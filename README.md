@@ -31,7 +31,8 @@
 - **Safer tips (72%+)**: the highest Over line and lowest Under line with at least a 72% chance.
 - **Tips page lines**: for shots, shots on target, fouls and bookings, the tip is the line where this game stands out most from a normal game in that league (at least a 72% chance, and at least 5 points more likely than that line normally is). If the game looks normal, it says "No tip".
 - **Fair odds** = 100 / chance. Bookmaker odds above fair odds = value according to the model.
-- Bookings = yellow + red cards. Goal kicks are **estimates** (no free source records them). Offsides, corners and tackles come from ESPN match stats (`team_stats.py`); free kicks = both teams' fouls + offsides.
+- Bookings = yellow + red cards. Goal kicks are **estimates** (no free source records them). Offsides and tackles come from ESPN match stats (`team_stats.py`). Corners come from football-data's files over five seasons (about 19,000 games, `corners.py`; older games count less). Free kicks = both teams' fouls + offsides.
+- The match result shown is the **bookies' favourite** (from their prices), not our own pick: in the test their prices beat our model, so it is labelled as theirs and never starred.
 
 ## Security
 - The page cannot run any code except its own (Content-Security-Policy with a fingerprint), cannot load anything from other websites, and shows all text as plain text. The tips page may ask its own site for live scores (`/api/live`); nothing else.

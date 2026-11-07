@@ -1,4 +1,9 @@
-"""Offsides, corners, tackles and free kicks, from ESPN's stored match stats.
+"""Offsides, corners, tackles and free kicks.
+
+Offsides and tackles come from ESPN's stored match stats. Corners come from
+football-data's files instead (five seasons, see corners.py), because ESPN only
+has games since the summer; ESPN corners are used only where those have none
+(European cups).
 
 For each stat every team gets two numbers: how many it makes (offsides it is
 caught in, corners it wins, tackles it makes) and how many its opponents make,
@@ -19,6 +24,7 @@ import pathlib
 
 import numpy as np
 
+import corners as C
 import predictor as P
 
 HERE = pathlib.Path(__file__).parent
@@ -54,6 +60,12 @@ def _rows(cache):
 class Model:
     def __init__(self, cache):
         self.rows = _rows(cache)
+        try:
+            self.corners = C.Corners()
+        except Exception as e:
+            print(f"Corners history not loaded ({e}); using ESPN corners")
+            self.corners = None
+        self.corners_codes = set(self.corners.league) if self.corners else set()
 
     def before(self, date):
         return [r for r in self.rows if r["date"] < date]
@@ -166,12 +178,22 @@ def load_params():
 
 def add_markets(m, model, params, slug):
     """Add offsides, corners and tackles markets to match `m`, and make free kicks measured (fouls + offsides)."""
-    if not params or not m.get("espn_home") or not slug:
+    if not params:
         return
-    nm = model.normal(slug, m["iso"])
-    rows = model.before(m["iso"])
-    means = _means_for(model, m["espn_home"], m["espn_away"], slug, m["iso"], rows)
-    plain = plain_means(rows, m["espn_home"], m["espn_away"], slug, m["iso"])
+    nm, means, plain = {}, {}, {}
+    if m.get("espn_home") and slug:
+        nm = model.normal(slug, m["iso"])
+        rows = model.before(m["iso"])
+        means = _means_for(model, m["espn_home"], m["espn_away"], slug, m["iso"], rows)
+        plain = plain_means(rows, m["espn_home"], m["espn_away"], slug, m["iso"])
+    cm = model.corners.predict(m["home"], m["away"], m["code"], m["iso"]) if getattr(model, "corners", None) else None
+    if cm:                                   # corners from the longer football-data history
+        nm.update(cm["nm"])
+        means.update(cm["mean"])
+        plain = {**{k: v for k, v in plain.items() if k not in C.KEYS}, **cm["plain"]}
+    elif m.get("code") in getattr(model, "corners_codes", ()):
+        for k in C.KEYS:                     # a league game without enough corners history: no corners tip
+            means.pop(k, None)
     fouls = {k["key"]: k["expected"] for k in m["markets"]}
     if "total_offsides" in means and fouls.get("home_fouls") is not None and fouls.get("away_fouls") is not None:
         means["free_kicks"] = fouls["home_fouls"] + fouls["away_fouls"] + means["total_offsides"]
@@ -212,19 +234,37 @@ def _fast_tip(mean, phi, base_over):
             "chance": round(100 * ch[i]), "normal": round(100 * base[i])}
 
 
+def _fast_tips(means, phi, bo):
+    """_fast_tip for many games at once: (found, side is over, line, chance %, normal %)."""
+    po = P.over_prob_vec(np.asarray(means, float)[:, None], _K[None, :], phi)
+    n, L = po.shape
+    ch = np.empty((n, 2 * L))
+    base = np.empty((n, 2 * L))
+    ch[:, 0::2], ch[:, 1::2] = po, 1 - po
+    base[:, 0::2], base[:, 1::2] = bo, 1 - bo
+    edge = np.where((ch >= P.SAFE) & (ch <= P.MAX_SAFE) & (base < 0.97) & (ch - base >= P.EDGE), ch - base, -np.inf)
+    i = np.argmax(edge, 1)
+    r = np.arange(n)
+    return (np.isfinite(edge[r, i]), i % 2 == 0, _LINES[i // 2], np.round(100 * ch[r, i]), np.round(100 * base[r, i]))
+
+
+def _tip_hits(preds, k, phi):
+    """For each usable game: tipped?, landed?, chance %, normal %."""
+    if not preds:
+        return np.zeros(0, bool), np.zeros(0, bool), np.zeros(0), np.zeros(0)
+    found, over, line, ch, base = _fast_tips([p["mean"][k] for p in preds], phi, np.array([p["bo"][k] for p in preds]))
+    a = np.array([p["act"][k] for p in preds], float)
+    hit = np.where(over, a > line, a < line)
+    return found, hit, ch, base
+
+
 def _usable(preds, k):
     return [p for p in preds if k in p["mean"] and k in p["nm"]]
 
 
 def _tips(preds, k, phi):
-    hit, cl = [], []
-    for p in _usable(preds, k):
-        t = _fast_tip(p["mean"][k], phi, p["bo"][k])
-        if t:
-            a = p["act"][k]
-            hit.append((a > t["line"]) if t["side"] == "over" else (a < t["line"]))
-            cl.append(t["chance"])
-    return (100 * float(np.mean(hit)), float(np.mean(cl))) if hit else (None, None)
+    found, hit, ch, _ = _tip_hits(_usable(preds, k), k, phi)
+    return (100 * float(hit[found].mean()), float(ch[found].mean())) if found.any() else (None, None)
 
 
 def _fit_phi(preds, k):
@@ -255,33 +295,34 @@ def test_preds(cache):
         if f and r["fouls"][0] is not None and "total_offsides" in mean and "total_offsides" in act:
             mean["free_kicks"] = f["home"] + f["away"] + mean["total_offsides"]
             act["free_kicks"] = sum(r["fouls"]) + act["total_offsides"]
+        if mo.corners is not None:
+            mean = {k: v for k, v in mean.items() if k not in C.KEYS}
         mean = {k: v for k, v in mean.items() if k in act}
         if mean:
             preds.append({"id": r["id"], "nm": nm, "mean": mean, "act": act,
                           "plain": plain_means(before, r["home"], r["away"], r["slug"], r["date"]),
                           "bo": {k: (v[:, None] > _LINES).mean(0) for k, v in nm.items()}})
+    if mo.corners is not None:
+        preds += mo.corners.test_preds(_LINES)
     return preds
 
 
 def backtest(cache, preds=None):
     preds = test_preds(cache) if preds is None else preds
-    halves = ([p for p in preds if int(p["id"]) % 2 == 0], [p for p in preds if int(p["id"]) % 2 == 1])
+    halves = ([p for p in preds if C.half(p["id"]) == 0], [p for p in preds if C.half(p["id"]) == 1])
     out = {"fitted": str(dt.date.today()), "phi": {}, "show": {}, "test": {}}
     for k in KEYS:
         n = hit = games = 0
         claim, base = [], []
         for fit, test in (halves, halves[::-1]):       # fit on one half, score the other, then swap
             phi = _fit_phi(fit, k)
-            for p in _usable(test, k):
-                games += 1
-                t = _fast_tip(p["mean"][k], phi, p["bo"][k])
-                if not t:
-                    continue
-                a = p["act"][k]
-                n += 1
-                hit += (a > t["line"]) if t["side"] == "over" else (a < t["line"])
-                claim.append(t["chance"])
-                base.append(t["normal"])
+            use = _usable(test, k)
+            found, h, ch, bs = _tip_hits(use, k, phi)
+            games += len(use)
+            n += int(found.sum())
+            hit += int(h[found].sum())
+            claim += list(ch[found])
+            base += list(bs[found])
         out["phi"][k] = _fit_phi(preds, k)    # live setting: all games
         res = {"games": games, "tips": n,
                "landed": round(100 * hit / n, 1) if n else None,
