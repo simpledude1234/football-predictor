@@ -1,0 +1,70 @@
+{
+ "updated": "2026-11-07",
+ "days": 120,
+ "safe": {
+  "home_sot": {
+   "n": 285,
+   "landed": 81.4,
+   "said": 80.3,
+   "move": 0.008,
+   "hide": false
+  },
+  "away_sot": {
+   "n": 246,
+   "landed": 77.6,
+   "said": 79.8,
+   "move": -0.015,
+   "hide": false
+  },
+  "away_fouls": {
+   "n": 299,
+   "landed": 81.6,
+   "said": 80.6,
+   "move": 0.007,
+   "hide": false
+  },
+  "total_shots": {
+   "n": 253,
+   "landed": 79.8,
+   "said": 76.6,
+   "move": 0.024,
+   "hide": false
+  },
+  "total_sot": {
+   "n": 200,
+   "landed": 77.5,
+   "said": 77.9,
+   "move": -0.003,
+   "hide": false
+  },
+  "away_cards": {
+   "n": 128,
+   "landed": 82.0,
+   "said": 80.0,
+   "move": 0.011,
+   "hide": false
+  },
+  "total_cards": {
+   "n": 179,
+   "landed": 77.7,
+   "said": 79.3,
+   "move": -0.011,
+   "hide": false
+  },
+  "home_fouls": {
+   "n": 284,
+   "landed": 78.5,
+   "said": 78.7,
+   "move": -0.001,
+   "hide": false
+  },
+  "home_cards": {
+   "n": 130,
+   "landed": 86.2,
+   "said": 86.0,
+   "move": 0.001,
+   "hide": false
+  }
+ },
+ "value": {}
+}

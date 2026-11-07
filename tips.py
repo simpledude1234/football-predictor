@@ -64,9 +64,10 @@ def make_tips(m):
     for k in m["markets"]:
         if k["estimate"] or not _VP:
             continue
-        v = value.pick(k["expected"], k.get("phi"), k.get("even_line"), _VP["shrink"].get(k["key"]))
+        v = value.pick(k["expected"], k.get("phi"), k.get("book_line"), _VP["shrink"].get(k["key"]), k["key"],
+                       _VP.get("show", {}).get(k["key"], False))
         if v:
-            out.append({"key": k["key"], "market": "Better price: " + GENERIC[k["key"]],
+            out.append({"key": k["key"], "market": "Higher price: " + GENERIC[k["key"]],
                         "label": named.get(k["key"], GENERIC[k["key"]]),
                         "pick": f"{v['side'].title()} {v['line']}", "side": v["side"], "line": v["line"],
                         "chance": v["chance"], "min_odds": v["min_odds"], "value": True, "star": False})

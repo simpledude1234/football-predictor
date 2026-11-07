@@ -11,9 +11,11 @@ import difflib
 
 import pandas as pd
 
+import best
 import espn
 import europe
 import fetch_data
+import learn
 import team_stats
 import value
 import players
@@ -28,6 +30,11 @@ OUT = HERE / "predictions.html"
 
 def main():
     fetch_data.main()
+    try:                     # learn from the track record before predicting
+        predictor.LEARNED = learn.learn(record.score(espn.load_cache()))
+        print(learn.note(predictor.LEARNED))
+    except Exception as e:
+        print(f"Learning from the track record skipped ({e})")
     params_age_days = 999
     if predictor.PARAMS_FILE.exists():
         fitted = json.loads(predictor.PARAMS_FILE.read_text()).get("fitted")
@@ -70,9 +77,11 @@ def main():
             team_stats.add_markets(m, om, op, espn.SLUGS.get(m["code"]))
             m["tips"] = tips.make_tips(m)
     finish(matches)
+    best_bets = best.select(matches)
     record.update(matches)
 
     # replay of recent past games (only once each), so the track record is useful from day one
+    learned, predictor.LEARNED = predictor.LEARNED, {}   # replays: no learning from games after them
     past = predictor.replay(params, days=28, skip=set(record.load()))
     if past:
         code_of = {v: k for k, v in espn.SLUGS.items()}
@@ -81,6 +90,7 @@ def main():
         finish(past)
         record.add_replay(past)
         print(f"Replayed {len(past)} past games for the track record")
+    predictor.LEARNED = learned
     track = record.score(cache)
 
     now = dt.datetime.now(ZoneInfo("Europe/London"))
@@ -88,6 +98,8 @@ def main():
                "matches": matches, "report": params["report"], "record": None, "track": track}
     payload["slugs"] = espn.SLUGS
     payload["value_note"] = value_note(tips._VP)
+    payload["best"] = best_bets
+    payload["learn_note"] = learn.note(predictor.LEARNED)
     write_page(simple_page.HTML, simple_page.SCRIPT.replace("__LIVE__", live_script()), payload, OUT, connect=True)
     write_page(HTML, SCRIPT, payload, HERE / "details.html")
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
@@ -97,12 +109,15 @@ def value_note(vp):
     """One line on how the better-price picks tested (picks on games the settings never saw)."""
     if not vp:
         return ""
-    t = [v for v in vp["test"].values() if v["picks"]]
+    t = [v for k, v in vp["test"].items() if v["picks"] and vp.get("show", {}).get(k)]
     n = sum(v["picks"] for v in t)
     landed = sum(v["picks"] * v["landed"] for v in t) / n
     said = sum(v["picks"] * v["said"] for v in t) / n
-    return (f"Tested on past games: {n:,} picks landed {landed:.0f}% (they said {said:.0f}%). "
-            "No free source has bookmaker prices for these markets, so they are not tested against real odds.")
+    return (f"Tested on past games against a line set from each team's last 10 games: {n:,} picks landed "
+            f"{landed:.0f}% (they said {said:.0f}%). Markets that did not beat recent form get no "
+            f"higher-price picks: {', '.join(tips.GENERIC[k].lower() for k, v in vp['show'].items() if not v)}. "
+            "Real bookmakers are sharper than recent form, and no free source has their prices for these "
+            "markets, so treat these as untested against real odds.")
 
 
 def _sim(a, b):

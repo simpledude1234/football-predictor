@@ -156,9 +156,10 @@ def score(espn_cache):
                 val = float(act[k])
                 hit = val > t["line"] if t["side"] == "over" else val < t["line"]
                 shown = f"{val:g}"
-            rows.append({"label": t["label"], "market": t["market"], "pick": t["pick"], "actual": shown,
+            rows.append({"label": t["label"], "market": t["market"].replace("Better price: ", "Higher price: "),
+                         "pick": t["pick"], "actual": shown, "key": k, "chance": t.get("chance"),
                          "hit": hit, "star": t.get("star", False), "value": t.get("value", False),
-                         "min_odds": t.get("min_odds")})
+                         "min_odds": t.get("min_odds"), "best": t.get("best")})
         games.append({"league": e["league"], "date": e["date"], "kickoff": e["kickoff"], "home": e["home"],
                       "away": e["away"], "score": act.get("score", ""), "tips": rows, "replay": e.get("replay", False)})
     games.sort(key=lambda g: g["kickoff"], reverse=True)

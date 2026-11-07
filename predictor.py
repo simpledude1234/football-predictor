@@ -18,6 +18,8 @@ import math
 import pathlib
 
 import numpy as np
+
+import learn
 import pandas as pd
 from scipy import optimize, stats
 
@@ -25,6 +27,7 @@ from fetch_data import DATA, LEAGUES, season_codes
 
 HERE = pathlib.Path(__file__).parent
 PARAMS_FILE = HERE / "model_params.json"
+LEARNED = learn.load()             # corrections learned from the track record (learn.py)
 
 HALF_LIFE_DAYS = 150
 PRIOR_MATCHES = 5.0
@@ -234,7 +237,7 @@ def safe_under_line(mean, phi):
     return None
 
 
-def best_tip(mean, phi, normal):
+def best_tip(mean, phi, normal, key=None):
     """The line where this game stands out most from a normal game in the league.
     normal: last year's actual values in the league for this market.
     Our chance must be at least 72% and at least 5 points above how often the
@@ -243,10 +246,13 @@ def best_tip(mean, phi, normal):
     against 66.9% normally (the old way: 78.9% against 70.6%)."""
     if normal is None or not len(normal):
         return None
+    move, hide = learn.adjust("safe", key, LEARNED) if key else (0.0, False)
+    if hide:                       # this market's recent tips fell below the bar: no tip for now
+        return None
     best = None
     for L in LINES:
         po, bo = over_prob(mean, L, phi), float((normal > L).mean())
-        for side, ch, base in (("over", po, bo), ("under", 1 - po, 1 - bo)):
+        for side, ch, base in (("over", po + move, bo), ("under", 1 - po + move, 1 - bo)):
             if ch >= SAFE and base < 0.97 and ch - base >= EDGE and (best is None or ch - base > best[2] - best[3]):
                 best = (side, L, ch, base)
     if best is None:
@@ -254,12 +260,50 @@ def best_tip(mean, phi, normal):
     return {"side": best[0], "line": best[1], "chance": round(100 * best[2]), "normal": round(100 * best[3])}
 
 
-def even_line(normal):
-    """The line a normal game in this league goes over about half the time
-    (roughly where bookmakers price both sides near evens)."""
-    if normal is None or len(normal) < 20:
+STAT_OF = {"total_shots": ("shots", "total"), "total_sot": ("sot", "total"), "home_sot": ("sot", "home"),
+           "away_sot": ("sot", "away"), "home_cards": ("cards", "home"), "away_cards": ("cards", "away"),
+           "total_cards": ("cards", "total"), "home_fouls": ("fouls", "home"), "away_fouls": ("fouls", "away")}
+PLAIN_GAMES = 10
+
+
+def plain_means(hist, home, away, date):
+    """What a bookmaker working from plain recent form would expect for each stat:
+    each team's last 10 games (made and allowed), with the league's home/away split.
+    Used to set a game's "bookmaker line" for the higher-price picks. None if too few games."""
+    def last(team):
+        g = hist[(hist.HomeTeam == team) | (hist.AwayTeam == team)].tail(PLAIN_GAMES)
+        return g if len(g) >= 3 else None
+    gh, ga = last(home), last(away)
+    if gh is None or ga is None:
         return None
-    return min(LINES, key=lambda L: abs(float((normal > L).mean()) - 0.5))
+    recent = hist[hist.Date >= date - pd.Timedelta(days=365)]
+    out = {}
+    for s in ("shots", "sot", "fouls", "cards"):
+        hc, ac = BASE[s]
+        lh, la = float(recent[hc].mean()), float(recent[ac].mean())
+        per = (lh + la) / 2
+
+        def made(g, t):
+            return float(np.where(g.HomeTeam == t, g[hc], g[ac]).mean())
+
+        def allowed(g, t):
+            return float(np.where(g.HomeTeam == t, g[ac], g[hc]).mean())
+        out[s] = ((made(gh, home) + allowed(ga, away)) / 2 * lh / per,
+                  (made(ga, away) + allowed(gh, home)) / 2 * la / per)
+    return out
+
+
+def plain_mean_for(key, pm):
+    s, side = STAT_OF[key]
+    h, a = pm[s]
+    return h + a if side == "total" else (h if side == "home" else a)
+
+
+def book_line(key, pm, phi):
+    """The line a plain-form bookmaker would set for this game (both sides near evens)."""
+    if not pm or key not in STAT_OF:
+        return None
+    return main_line(plain_mean_for(key, pm), phi)
 
 
 def normal_values(recent):
@@ -464,14 +508,15 @@ def predict_one(df, f, params, lg, code, name):
     else:
         btts = op["BTTS"]
     normal = normal_values(df[df.Date >= f.Date - pd.Timedelta(days=365)])
+    pm = plain_means(df, f.HomeTeam, f.AwayTeam, f.Date)
     markets = []
     for k, (label, est, _) in MARKETS.items():
         mean, ph = means[k], phi.get(k)
         ml = main_line(mean, ph)
         po = over_prob(mean, ml, ph)
         markets.append({"key": k, "label": label, "estimate": est,
-                        "tip": None if est else best_tip(mean, ph, normal.get(k)),
-                        "even_line": None if est else even_line(normal.get(k)),
+                        "tip": None if est else best_tip(mean, ph, normal.get(k), k),
+                        "book_line": None if est else book_line(k, pm, ph),
                         "expected": round(mean, 2), "league_avg": round(lg[k], 1),
                         "phi": ph,
                         "line": ml,

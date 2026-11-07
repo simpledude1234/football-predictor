@@ -117,6 +117,40 @@ class Model:
         return out
 
 
+PLAIN_GAMES = 10
+
+
+def plain_means(rows, home, away, slug, date):
+    """Plain recent form (each team's last 10 games), like predictor.plain_means.
+    {market: expected} for every stat both teams have enough games for."""
+    out = {}
+    for st in list(STATS) + ["fouls"]:
+        lg = Model._norm(rows, slug, date, st)
+        if lg is None:
+            continue
+        per = (lg[0] + lg[1]) / 2
+
+        def last(team):
+            g = [r for r in rows if team in (r["home"], r["away"]) and r[st][0] is not None][-PLAIN_GAMES:]
+            return g if len(g) >= 3 else None
+        gh, ga = last(home), last(away)
+        if not gh or not ga:
+            continue
+
+        def made(g, t):
+            return float(np.mean([r[st][0] if r["home"] == t else r[st][1] for r in g]))
+
+        def allowed(g, t):
+            return float(np.mean([r[st][1] if r["home"] == t else r[st][0] for r in g]))
+        h = (made(gh, home) + allowed(ga, away)) / 2 * lg[0] / per
+        a = (made(ga, away) + allowed(gh, home)) / 2 * lg[1] / per
+        name = STATS[st][1] if st in STATS else "fouls"
+        out.update({f"home_{name}": h, f"away_{name}": a, f"total_{name}": h + a})
+    if "total_offsides" in out and "total_fouls" in out:
+        out["free_kicks"] = out["total_fouls"] + out["total_offsides"]
+    return out
+
+
 def _means_for(model, home, away, slug, date, rows):
     out = {}
     for st, (_, name) in STATS.items():
@@ -135,7 +169,9 @@ def add_markets(m, model, params, slug):
     if not params or not m.get("espn_home") or not slug:
         return
     nm = model.normal(slug, m["iso"])
-    means = _means_for(model, m["espn_home"], m["espn_away"], slug, m["iso"], model.before(m["iso"]))
+    rows = model.before(m["iso"])
+    means = _means_for(model, m["espn_home"], m["espn_away"], slug, m["iso"], rows)
+    plain = plain_means(rows, m["espn_home"], m["espn_away"], slug, m["iso"])
     fouls = {k["key"]: k["expected"] for k in m["markets"]}
     if "total_offsides" in means and fouls.get("home_fouls") is not None and fouls.get("away_fouls") is not None:
         means["free_kicks"] = fouls["home_fouls"] + fouls["away_fouls"] + means["total_offsides"]
@@ -148,8 +184,8 @@ def add_markets(m, model, params, slug):
         ml = P.main_line(mean, ph)
         po = P.over_prob(mean, ml, ph)
         m["markets"].append({"key": key, "label": LABELS[key], "estimate": False,
-                             "tip": P.best_tip(mean, ph, nm[key]) if params["show"].get(key) else None,
-                             "even_line": P.even_line(nm[key]),
+                             "tip": P.best_tip(mean, ph, nm[key], key) if params["show"].get(key) else None,
+                             "book_line": P.main_line(plain[key], ph) if key in plain else None,
                              "expected": round(mean, 2), "league_avg": round(float(nm[key].mean()), 1),
                              "phi": ph, "line": ml, "over": round(100 * po), "under": round(100 * (1 - po)),
                              "safe_over": P.safe_over_line(mean, ph), "safe_under": P.safe_under_line(mean, ph)})
@@ -222,6 +258,7 @@ def test_preds(cache):
         mean = {k: v for k, v in mean.items() if k in act}
         if mean:
             preds.append({"id": r["id"], "nm": nm, "mean": mean, "act": act,
+                          "plain": plain_means(before, r["home"], r["away"], r["slug"], r["date"]),
                           "bo": {k: (v[:, None] > _LINES).mean(0) for k, v in nm.items()}})
     return preds
 
