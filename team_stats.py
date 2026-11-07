@@ -149,6 +149,7 @@ def add_markets(m, model, params, slug):
         po = P.over_prob(mean, ml, ph)
         m["markets"].append({"key": key, "label": LABELS[key], "estimate": False,
                              "tip": P.best_tip(mean, ph, nm[key]) if params["show"].get(key) else None,
+                             "even_line": P.even_line(nm[key]),
                              "expected": round(mean, 2), "league_avg": round(float(nm[key].mean()), 1),
                              "phi": ph, "line": ml, "over": round(100 * po), "under": round(100 * (1 - po)),
                              "safe_over": P.safe_over_line(mean, ph), "safe_under": P.safe_under_line(mean, ph)})
@@ -201,7 +202,8 @@ def _fit_phi(preds, k):
     return phi
 
 
-def backtest(cache):
+def test_preds(cache):
+    """Every stored game predicted from only the games before it."""
     mo = Model(cache)
     rows = mo.rows
     preds = []
@@ -221,6 +223,11 @@ def backtest(cache):
         if mean:
             preds.append({"id": r["id"], "nm": nm, "mean": mean, "act": act,
                           "bo": {k: (v[:, None] > _LINES).mean(0) for k, v in nm.items()}})
+    return preds
+
+
+def backtest(cache, preds=None):
+    preds = test_preds(cache) if preds is None else preds
     halves = ([p for p in preds if int(p["id"]) % 2 == 0], [p for p in preds if int(p["id"]) % 2 == 1])
     out = {"fitted": str(dt.date.today()), "phi": {}, "show": {}, "test": {}}
     for k in KEYS:

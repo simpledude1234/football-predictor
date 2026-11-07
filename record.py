@@ -157,7 +157,8 @@ def score(espn_cache):
                 hit = val > t["line"] if t["side"] == "over" else val < t["line"]
                 shown = f"{val:g}"
             rows.append({"label": t["label"], "market": t["market"], "pick": t["pick"], "actual": shown,
-                         "hit": hit, "star": t.get("star", False)})
+                         "hit": hit, "star": t.get("star", False), "value": t.get("value", False),
+                         "min_odds": t.get("min_odds")})
         games.append({"league": e["league"], "date": e["date"], "kickoff": e["kickoff"], "home": e["home"],
                       "away": e["away"], "score": act.get("score", ""), "tips": rows, "replay": e.get("replay", False)})
     games.sort(key=lambda g: g["kickoff"], reverse=True)
@@ -166,7 +167,9 @@ def score(espn_cache):
         for t in g["tips"]:
             if t["hit"] is None:
                 continue
-            for key in (t["market"], "__all__") + (("__star__",) if t["star"] else ()):
+            keys = (t["market"], "__value__") if t.get("value") else \
+                (t["market"], "__all__") + (("__star__",) if t["star"] else ())
+            for key in keys:
                 s = summary.setdefault(key, [0, 0])
                 s[0] += t["hit"]
                 s[1] += 1

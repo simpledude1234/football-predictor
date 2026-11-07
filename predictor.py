@@ -254,6 +254,14 @@ def best_tip(mean, phi, normal):
     return {"side": best[0], "line": best[1], "chance": round(100 * best[2]), "normal": round(100 * best[3])}
 
 
+def even_line(normal):
+    """The line a normal game in this league goes over about half the time
+    (roughly where bookmakers price both sides near evens)."""
+    if normal is None or len(normal) < 20:
+        return None
+    return min(LINES, key=lambda L: abs(float((normal > L).mean()) - 0.5))
+
+
 def normal_values(recent):
     """Last year's actual values for each measured market (what a normal game looks like)."""
     return {k: v.to_numpy(float) for k, v in actual_values(recent).items()}
@@ -463,6 +471,7 @@ def predict_one(df, f, params, lg, code, name):
         po = over_prob(mean, ml, ph)
         markets.append({"key": k, "label": label, "estimate": est,
                         "tip": None if est else best_tip(mean, ph, normal.get(k)),
+                        "even_line": None if est else even_line(normal.get(k)),
                         "expected": round(mean, 2), "league_avg": round(lg[k], 1),
                         "phi": ph,
                         "line": ml,

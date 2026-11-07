@@ -48,6 +48,8 @@ details.m summary{list-style:none;cursor:pointer}details.m summary::-webkit-deta
 footer{color:var(--mut);font-size:12px;padding:24px 0 40px;text-align:center}
 footer a{color:var(--acc)}
 .banner{background:rgba(251,191,36,.12);color:var(--warn);border:1px solid rgba(251,191,36,.35);border-radius:12px;padding:10px 12px;margin:12px 0;font-size:14px}
+.mode{max-width:340px;margin:16px 0 4px}.price{display:block;font-weight:400;font-size:13px;color:var(--mut)}
+.info{color:var(--mut);font-size:13px;margin:6px 0 0}
 @media (max-width:620px){ul{columns:1}}
 </style></head><body>
 <header><div class="wrap">
@@ -67,7 +69,7 @@ const ORDER = ['Champions League', 'Europa League', 'Conference League', 'Premie
 const ukNow = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false}).format(new Date()).replace(',', '');
 const upcoming = D.matches.filter(m => m.kickoff > ukNow);
 const T = D.track || {games: [], summary: {}, waiting: 0};
-let view = 'tips', pick = 'All';
+let view = 'tips', pick = 'All', mode = 'safe';
 const dayName = iso => new Date(iso + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'long', day: 'numeric', month: 'long'});
 
 function leagueList(list, dateOf) {
@@ -76,8 +78,16 @@ function leagueList(list, dateOf) {
   return view === 'tips' ? ls.sort((a, b) => first(a).slice(0, 10).localeCompare(first(b).slice(0, 10)) || ORDER.indexOf(a) - ORDER.indexOf(b)) : ls;
 }
 
+function valueCard(m) {
+  const t = (m.tips || []).filter(x => x.value);
+  return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
+    ${t.length ? `<ul>${t.map(x => `<li><span>${esc(x.label)}</span><b>${esc(x.pick)}<span class="price">${x.chance}% &middot; worth it at ${x.min_odds.toFixed(2)}+</span></b></li>`).join('')}</ul>`
+      : '<div class="sub">No better-price pick: the model has no strong view on the usual lines for this game.</div>'}</div>`;
+}
+
 function card(m) {
-  const t = m.tips || [];
+  if (mode === 'value') return valueCard(m);
+  const t = (m.tips || []).filter(x => !x.value);
   const stars = t.filter(x => x.star).slice(0, 3);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
     ${stars.length ? `<div class="top3">${stars.map(x => `<span>${esc(x.label)}: ${esc(x.pick)}</span>`).join('')}</div>` : ''}
@@ -88,6 +98,9 @@ function card(m) {
 function tipsView() {
   const ls = leagueList(upcoming, m => m.kickoff);
   let html = (Date.now() - D.generated_ms) / 3.6e6 > 20 ? '<div class="banner">These tips are more than 20 hours old. Update for fresh ones.</div>' : '';
+  html += `<div class="tabs mode"><button data-mode="safe" class="${mode === 'safe' ? 'on' : ''}">Safer tips</button><button data-mode="value" class="${mode === 'value' ? 'on' : ''}">Better price</button></div>`;
+  html += mode === 'safe' ? '<div class="info">Likely to land (72%+ chance), so usually short prices.</div>'
+    : `<div class="info">Lines near even money (where bookmakers usually price both sides around 1.85). Back a pick only if your bookmaker's price is at least the &ldquo;worth it at&rdquo; price. ${esc(D.value_note || '')}</div>`;
   (pick === 'All' ? ls : [pick]).forEach(l => {
     const list = upcoming.filter(m => m.league === l);
     if (!list.length) return;
@@ -105,20 +118,21 @@ function trackView() {
   if (!games.length) return `<div class="empty">No finished matches yet.<br>Every tip is saved before kick-off and marked &#10004; or &#10008; here once the result is in${T.waiting ? ` (${T.waiting} match${T.waiting > 1 ? 'es' : ''} waiting for results)` : ''}.</div>`;
   const sum = {};
   games.forEach(g => g.tips.forEach(t => { if (t.hit === null) return;
-    [t.market, '__all__'].concat(t.star ? ['__star__'] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
+    (t.value ? [t.market, '__value__'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
   const markets = Object.keys(sum).filter(k => !k.startsWith('__')).sort((a, b) => sum[b][0] / sum[b][1] - sum[a][0] / sum[a][1]);
   let html = `<h2>How the tips did</h2><div class="sub">${games.length} finished match${games.length > 1 ? 'es' : ''}${pick === 'All' ? '' : ' in ' + esc(pick)}: ${games.filter(g => !g.replay).length} live (tips saved before kick-off) and ${games.filter(g => g.replay).length} replayed (predicted afterwards, using only information from before each game, to give a record from day one).</div>
     <div class="sum"><div class="box"><div class="n">${pct(sum.__all__)}</div><div class="l">All tips right (${sum.__all__ ? sum.__all__[0] + ' of ' + sum.__all__[1] : 0})</div></div>
-    <div class="box"><div class="n ok">${pct(sum.__star__)}</div><div class="l">&#9733; tips right (${sum.__star__ ? sum.__star__[0] + ' of ' + sum.__star__[1] : 0})</div></div></div>
+    <div class="box"><div class="n ok">${pct(sum.__star__)}</div><div class="l">&#9733; tips right (${sum.__star__ ? sum.__star__[0] + ' of ' + sum.__star__[1] : 0})</div></div>
+    <div class="box"><div class="n">${pct(sum.__value__)}</div><div class="l">Better-price picks right (${sum.__value__ ? sum.__value__[0] + ' of ' + sum.__value__[1] : 0}). They need about 54%+ to profit at 1.85.</div></div></div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
     <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks show &ndash; because no free source records them.</div>`;
   let day = '';
   games.forEach(g => {
     if (g.date !== day) { day = g.date; html += `<div class="day">${dayName(day)}</div>`; }
-    const ok = g.tips.filter(t => t.hit === true).length, n = g.tips.filter(t => t.hit !== null).length;
+    const safe = g.tips.filter(t => !t.value), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
     html += `<details class="m"><summary><div class="mt"><span class="teams">${esc(g.home)} <span class="score">${esc(g.score)}</span> ${esc(g.away)}</span>
       <span class="time ${n && ok / n >= 0.6 ? 'ok' : ''}">${ok}/${n} right</span></div><div class="sub">${esc(g.league)}${g.replay ? ' &middot; replay' : ' &middot; live tip'}</div></summary>
-      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i></span>
+      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">better price</i>' : ''}${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i></span>
       <b class="${t.hit === true ? 'ok' : t.hit === false ? 'no' : 'na'}">${t.hit === true ? '&#10004;' : t.hit === false ? '&#10008;' : '&ndash;'}</b></li>`).join('')}</ul></details>`;
   });
   return html;
@@ -143,6 +157,10 @@ document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click
   chips(); render(); window.scrollTo(0, 0);
   if (view === 'live') refreshLive();
 }));
+document.getElementById('app').addEventListener('click', e => {
+  const b = e.target.closest('[data-mode]');
+  if (b) { mode = b.dataset.mode; render(); }
+});
 chips(); render();
 
 // ------------------------------------------------------------ Live tab

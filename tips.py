@@ -14,6 +14,11 @@ GENERIC = {"total_shots": "Total shots", "total_sot": "Total shots on target",
            "total_tackles": "Total tackles", "home_tackles": "Home tackles", "away_tackles": "Away tackles"}
 
 
+import value
+
+_VP = value.load_params()
+
+
 def make_tips(m):
     h, a = m["home"], m["away"]
     named = {"home_sot": f"{h} shots on target", "away_sot": f"{a} shots on target",
@@ -56,6 +61,15 @@ def make_tips(m):
         out.append({"key": k["key"], "market": GENERIC[k["key"]], "label": named.get(k["key"], GENERIC[k["key"]]),
                     "pick": f"{side.title()} {line}", "side": side, "line": line,
                     "star": abs(rel) > 0.12 and not k["estimate"], "estimate": k["estimate"]})
+    for k in m["markets"]:
+        if k["estimate"] or not _VP:
+            continue
+        v = value.pick(k["expected"], k.get("phi"), k.get("even_line"), _VP["shrink"].get(k["key"]))
+        if v:
+            out.append({"key": k["key"], "market": "Better price: " + GENERIC[k["key"]],
+                        "label": named.get(k["key"], GENERIC[k["key"]]),
+                        "pick": f"{v['side'].title()} {v['line']}", "side": v["side"], "line": v["line"],
+                        "chance": v["chance"], "min_odds": v["min_odds"], "value": True, "star": False})
     for p in m.get("players", []):
         out.append({"key": "player_booked", "market": "Player to be booked", "label": "Player to be booked",
                     "pick": f"{p['player']} ({h if p['team'] == 'home' else a})", "side": "player",

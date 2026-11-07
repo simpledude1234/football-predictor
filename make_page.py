@@ -15,6 +15,7 @@ import espn
 import europe
 import fetch_data
 import team_stats
+import value
 import players
 import predictor
 import record
@@ -55,6 +56,7 @@ def main():
         try:
             op = team_stats.backtest(cache)
             team_stats.PARAMS.write_text(json.dumps(op, indent=1) + "\n", encoding="utf-8")
+            tips._VP = value.refit(cache, op)
         except Exception as e:
             print(f"Team stats re-test skipped ({e})")
     lineups = {u["event"]["id"]: u["lineup"] for u in upcoming if u.get("lineup")}
@@ -85,9 +87,22 @@ def main():
     payload = {"generated": now.strftime("%a %d %b %Y, %H:%M"), "generated_ms": int(now.timestamp() * 1000),
                "matches": matches, "report": params["report"], "record": None, "track": track}
     payload["slugs"] = espn.SLUGS
+    payload["value_note"] = value_note(tips._VP)
     write_page(simple_page.HTML, simple_page.SCRIPT.replace("__LIVE__", live_script()), payload, OUT, connect=True)
     write_page(HTML, SCRIPT, payload, HERE / "details.html")
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
+
+
+def value_note(vp):
+    """One line on how the better-price picks tested (picks on games the settings never saw)."""
+    if not vp:
+        return ""
+    t = [v for v in vp["test"].values() if v["picks"]]
+    n = sum(v["picks"] for v in t)
+    landed = sum(v["picks"] * v["landed"] for v in t) / n
+    said = sum(v["picks"] * v["said"] for v in t) / n
+    return (f"Tested on past games: {n:,} picks landed {landed:.0f}% (they said {said:.0f}%). "
+            "No free source has bookmaker prices for these markets, so they are not tested against real odds.")
 
 
 def _sim(a, b):

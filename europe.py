@@ -214,6 +214,7 @@ def predict(params):
             po = P.over_prob(mean, ml, ph)
             markets.append({"key": k, "label": label, "estimate": est, "expected": round(mean, 2),
                             "tip": None if est else P.best_tip(mean, ph, normal.get(k)),
+                            "even_line": None if est else P.even_line(normal.get(k)),
                             "league_avg": round(lg[k], 1), "phi": ph, "line": ml,
                             "over": round(100 * po), "under": round(100 * (1 - po)),
                             "safe_over": P.safe_over_line(mean, ph), "safe_under": P.safe_under_line(mean, ph)})

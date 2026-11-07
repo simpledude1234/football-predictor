@@ -1,0 +1,141 @@
+{
+ "fitted": "2026-11-07",
+ "min_chance": 58,
+ "shrink": {
+  "total_shots": 0.95,
+  "total_sot": 1.0,
+  "home_sot": 1.0,
+  "away_sot": 1.05,
+  "home_cards": 1.0,
+  "away_cards": 1.0,
+  "total_cards": 0.85,
+  "home_fouls": 1.05,
+  "away_fouls": 1.0,
+  "total_offsides": 0.75,
+  "home_offsides": 0.8,
+  "away_offsides": 0.85,
+  "total_corners": 0.75,
+  "home_corners": 0.6,
+  "away_corners": 0.75,
+  "total_tackles": 1.0,
+  "home_tackles": 0.75,
+  "away_tackles": 0.85,
+  "free_kicks": 0.85
+ },
+ "test": {
+  "total_shots": {
+   "picks": 1580,
+   "landed": 64.9,
+   "said": 65.2,
+   "avg_min_odds": 1.57
+  },
+  "total_sot": {
+   "picks": 1443,
+   "landed": 64.4,
+   "said": 64.0,
+   "avg_min_odds": 1.6
+  },
+  "home_sot": {
+   "picks": 2017,
+   "landed": 68.2,
+   "said": 68.2,
+   "avg_min_odds": 1.51
+  },
+  "away_sot": {
+   "picks": 1906,
+   "landed": 67.1,
+   "said": 67.4,
+   "avg_min_odds": 1.53
+  },
+  "home_cards": {
+   "picks": 1825,
+   "landed": 65.4,
+   "said": 64.1,
+   "avg_min_odds": 1.6
+  },
+  "away_cards": {
+   "picks": 2276,
+   "landed": 66.1,
+   "said": 66.3,
+   "avg_min_odds": 1.54
+  },
+  "total_cards": {
+   "picks": 1243,
+   "landed": 62.7,
+   "said": 62.6,
+   "avg_min_odds": 1.63
+  },
+  "home_fouls": {
+   "picks": 2032,
+   "landed": 68.3,
+   "said": 67.9,
+   "avg_min_odds": 1.52
+  },
+  "away_fouls": {
+   "picks": 1988,
+   "landed": 67.8,
+   "said": 68.4,
+   "avg_min_odds": 1.51
+  },
+  "total_offsides": {
+   "picks": 319,
+   "landed": 64.9,
+   "said": 64.5,
+   "avg_min_odds": 1.59
+  },
+  "home_offsides": {
+   "picks": 348,
+   "landed": 65.2,
+   "said": 66.0,
+   "avg_min_odds": 1.55
+  },
+  "away_offsides": {
+   "picks": 341,
+   "landed": 66.0,
+   "said": 66.3,
+   "avg_min_odds": 1.55
+  },
+  "total_corners": {
+   "picks": 168,
+   "landed": 60.1,
+   "said": 63.7,
+   "avg_min_odds": 1.6
+  },
+  "home_corners": {
+   "picks": 176,
+   "landed": 59.1,
+   "said": 62.3,
+   "avg_min_odds": 1.63
+  },
+  "away_corners": {
+   "picks": 227,
+   "landed": 62.6,
+   "said": 62.6,
+   "avg_min_odds": 1.63
+  },
+  "total_tackles": {
+   "picks": 339,
+   "landed": 67.3,
+   "said": 66.5,
+   "avg_min_odds": 1.54
+  },
+  "home_tackles": {
+   "picks": 279,
+   "landed": 66.3,
+   "said": 64.7,
+   "avg_min_odds": 1.58
+  },
+  "away_tackles": {
+   "picks": 280,
+   "landed": 62.1,
+   "said": 65.4,
+   "avg_min_odds": 1.57
+  },
+  "free_kicks": {
+   "picks": 321,
+   "landed": 67.3,
+   "said": 65.0,
+   "avg_min_odds": 1.57
+  }
+ }
+}
