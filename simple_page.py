@@ -17,7 +17,7 @@ header{position:sticky;top:0;z-index:5;background:rgba(11,16,22,.94);backdrop-fi
 .top{display:flex;align-items:center;gap:10px;padding:14px 0 6px}
 .logo{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#34d399,#60a5fa);display:grid;place-items:center}
 h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
-.tabs{display:flex;gap:4px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:3px;max-width:420px;margin-top:6px}
+.tabs{display:flex;gap:4px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:3px;max-width:520px;margin-top:6px}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
 .lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
@@ -50,6 +50,10 @@ footer a{color:var(--acc)}
 .banner{background:rgba(251,191,36,.12);color:var(--warn);border:1px solid rgba(251,191,36,.35);border-radius:12px;padding:10px 12px;margin:12px 0;font-size:14px}
 .mode{max-width:340px;margin:16px 0 4px}.price{display:block;font-weight:400;font-size:13px;color:var(--mut)}
 .info{color:var(--mut);font-size:13px;margin:6px 0 0}
+.mk{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 6px}.mk .chip{font-size:13px;padding:5px 11px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line)}.row:first-child{border-top:0}
+.row .g{color:var(--mut);font-size:12px;display:block;margin-top:2px}.row b{text-align:right;white-space:nowrap}
+.sort{font-size:13px;color:var(--mut);margin:8px 0}.sort button{background:none;border:0;color:var(--acc);cursor:pointer;font-size:13px;padding:0 4px}.sort button.on{color:var(--text);font-weight:600}
 .bestbox{background:linear-gradient(135deg,rgba(52,211,153,.10),rgba(96,165,250,.08));border:1px solid rgba(52,211,153,.35);border-radius:14px;padding:12px 16px;margin:14px 0 4px}
 .bestbox h3{margin:0 0 2px;font-size:16px}.bestbox ol{margin:8px 0 0;padding-left:22px}
 .bestbox li{display:list-item;border:0;padding:4px 0;font-size:14px}.bestbox .g{color:var(--mut);font-size:12px;display:block}
@@ -57,7 +61,7 @@ footer a{color:var(--acc)}
 </style></head><body>
 <header><div class="wrap">
 <div class="top"><div class="logo">&#9917;</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> &middot; times are UK time</div></div></div>
-<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
+<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="market">By market</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
 <div class="chips" id="chips"></div>
 </div></header>
 <main class="wrap" id="app"></main>
@@ -72,13 +76,13 @@ const ORDER = ['Champions League', 'Europa League', 'Conference League', 'Premie
 const ukNow = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false}).format(new Date()).replace(',', '');
 const upcoming = D.matches.filter(m => m.kickoff > ukNow);
 const T = D.track || {games: [], summary: {}, waiting: 0};
-let view = 'tips', pick = 'All', mode = 'safe';
+let view = 'tips', pick = 'All', mode = 'safe', mkt = null, sortBy = 'chance';
 const dayName = iso => new Date(iso + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'long', day: 'numeric', month: 'long'});
 
 function leagueList(list, dateOf) {
   const first = l => list.filter(m => m.league === l).map(dateOf).sort()[0];
   const ls = ORDER.filter(l => list.some(m => m.league === l));
-  return view === 'tips' ? ls.sort((a, b) => first(a).slice(0, 10).localeCompare(first(b).slice(0, 10)) || ORDER.indexOf(a) - ORDER.indexOf(b)) : ls;
+  return view !== 'track' ? ls.sort((a, b) => first(a).slice(0, 10).localeCompare(first(b).slice(0, 10)) || ORDER.indexOf(a) - ORDER.indexOf(b)) : ls;
 }
 
 function valueCard(m) {
@@ -124,6 +128,44 @@ function tipsView() {
   return html || '<div class="empty">No upcoming matches yet. New fixtures appear a few days before each round.</div>';
 }
 
+// ------------------------------------------------------------ By market tab: one market, every game
+const MK_ORDER = ['Match result', 'Both teams to score', 'Total corners', 'Home corners', 'Away corners', 'Total bookings',
+  'Home bookings', 'Away bookings', 'Player to be booked', 'Total shots on target', 'Home shots on target', 'Away shots on target',
+  'Total shots', 'Home fouls', 'Away fouls', 'Total free kicks', 'Total offsides', 'Home offsides', 'Away offsides',
+  'Total tackles', 'Home tackles', 'Away tackles', 'Home goal kicks', 'Away goal kicks'];
+const MK_NAME = {'Match result': "Bookies' favourite"};
+const shortDay = iso => new Date(iso + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'short', day: 'numeric', month: 'short'});
+
+function marketView() {
+  const games = upcoming.filter(m => pick === 'All' || m.league === pick);
+  const rows = {}, none = {};
+  games.forEach(m => (m.tips || []).forEach(t => {
+    if (!!t.value !== (mode === 'value') || t.live) return;
+    const name = t.market.replace(/^Higher price: /, '');
+    if (t.skip) { none[name] = (none[name] || 0) + 1; return; }
+    const ch = t.chance ?? (t.key === 'result' ? Math.round(m.final[t.side]) : t.key === 'btts' ? (t.side === 'yes' ? m.btts : 100 - m.btts) : null);
+    (rows[name] = rows[name] || []).push({m, t, ch});
+  }));
+  const rank = n => MK_ORDER.indexOf(n) < 0 ? 99 : MK_ORDER.indexOf(n);
+  const names = Object.keys(rows).sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+  let html = `<div class="tabs mode"><button data-mode="safe" class="${mode === 'safe' ? 'on' : ''}">Safer tips</button><button data-mode="value" class="${mode === 'value' ? 'on' : ''}">Higher price</button></div>`;
+  if (!names.length) return html + '<div class="empty">No tips for these games yet.</div>';
+  if (!names.includes(mkt)) mkt = names[0];
+  html += `<div class="mk">${names.map(n => `<button class="chip${n === mkt ? ' on' : ''}" data-mkt="${esc(n)}">${esc(MK_NAME[n] || n)}</button>`).join('')}</div>`;
+  const list = rows[mkt].slice().sort((a, b) => a.m.iso.localeCompare(b.m.iso) || (sortBy === 'chance'
+    ? (b.ch ?? -1) - (a.ch ?? -1) || a.m.kickoff.localeCompare(b.m.kickoff)
+    : a.m.kickoff.localeCompare(b.m.kickoff) || (b.ch ?? -1) - (a.ch ?? -1)));
+  html += `<h2>${esc(MK_NAME[mkt] || mkt)}${mode === 'value' ? ' &middot; higher price' : ''}</h2>`;
+  if (mkt === 'Match result') html += `<div class="info">From the bookmakers' prices, not the system's own pick: their prices beat our model on results. Shown for information.</div>`;
+  if (/goal kicks/.test(mkt)) html += `<div class="info">Estimates: no free source records goal kicks, so these can't be checked.</div>`;
+  html += `<div class="sort">Each day: <button data-sort="chance" class="${sortBy === 'chance' ? 'on' : ''}">most likely first</button>&middot;<button data-sort="time" class="${sortBy === 'time' ? 'on' : ''}">kick-off time</button></div>`;
+  const days = [...new Set(list.map(r => r.m.iso))];
+  html += days.map(d => `<div class="day">${dayName(d)}</div><div class="m">${list.filter(r => r.m.iso === d).map(({m, t, ch}) => `<div class="row"><span>${t.star ? '&#9733; ' : ''}${esc(m.home)} v ${esc(m.away)}<span class="g">${esc(shortDay(m.iso))} ${esc(m.time)} &middot; ${esc(m.league)}</span></span>
+    <b>${esc(t.key === 'result' ? t.pick.replace(/ \(\d+%\)/, '') : t.pick)}${ch != null ? `<span class="price">${ch}% &middot; ${t.value ? 'worth it at ' + t.min_odds.toFixed(2) + '+' : 'fair price ' + (100 / ch).toFixed(2)}</span>` : ''}${t.confirmed ? '<span class="price">in the starting line-up</span>' : ''}</b></div>`).join('')}</div>`).join('');
+  if (none[mkt]) html += `<div class="sub">${none[mkt]} more game${none[mkt] > 1 ? 's have' : ' has'} no tip for this market (a normal game, nothing worth backing).</div>`;
+  return html;
+}
+
 function pct(s) { return s && s[1] ? Math.round(100 * s[0] / s[1]) + '%' : '–'; }
 
 function trackView() {
@@ -156,7 +198,7 @@ function trackView() {
 
 function chips() {
   const el = document.getElementById('chips'); el.innerHTML = '';
-  const ls = view === 'tips' ? leagueList(upcoming, m => m.kickoff) : ORDER.filter(l => T.games.some(g => g.league === l));
+  const ls = view !== 'track' ? leagueList(upcoming, m => m.kickoff) : ORDER.filter(l => T.games.some(g => g.league === l));
   if (!ls.includes(pick)) pick = 'All';
   ['All', ...ls].forEach(l => {
     const b = document.createElement('button');
@@ -166,7 +208,7 @@ function chips() {
   });
 }
 
-function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : view === 'live' ? liveView() : trackView(); }
+function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : view === 'market' ? marketView() : view === 'live' ? liveView() : trackView(); }
 document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click', () => {
   view = b.dataset.v; document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b));
   document.getElementById('chips').style.display = view === 'live' ? 'none' : '';
@@ -175,7 +217,11 @@ document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click
 }));
 document.getElementById('app').addEventListener('click', e => {
   const b = e.target.closest('[data-mode]');
-  if (b) { mode = b.dataset.mode; render(); }
+  if (b) { mode = b.dataset.mode; render(); return; }
+  const k = e.target.closest('[data-mkt]');
+  if (k) { mkt = k.dataset.mkt; render(); return; }
+  const o = e.target.closest('[data-sort]');
+  if (o) { sortBy = o.dataset.sort; render(); }
 });
 chips(); render();
 
