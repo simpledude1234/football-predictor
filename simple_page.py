@@ -129,7 +129,7 @@ function tipsView() {
 }
 
 // ------------------------------------------------------------ By market tab: one market, every game
-const MK_ORDER = ['Match result', 'Both teams to score', 'Total corners', 'Home corners', 'Away corners', 'Total bookings',
+const MK_ORDER = ['Match result', 'Both teams to score', 'Total goals', 'Total corners', 'Home corners', 'Away corners', 'Total bookings',
   'Home bookings', 'Away bookings', 'Player to be booked', 'Total shots on target', 'Home shots on target', 'Away shots on target',
   'Total shots', 'Home fouls', 'Away fouls', 'Total free kicks', 'Total offsides', 'Home offsides', 'Away offsides',
   'Total tackles', 'Home tackles', 'Away tackles', 'Home goal kicks', 'Away goal kicks'];

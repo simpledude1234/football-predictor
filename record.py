@@ -69,6 +69,7 @@ def add_replay(matches):
 def _actuals_from_fd(r):
     v = P.actual_values(r)
     v["result"] = r.FTR
+    v["total_goals"] = int(r.FTHG + r.FTAG)
     v["btts"] = "yes" if (r.FTHG > 0 and r.FTAG > 0) else "no"
     v["score"] = f"{int(r.FTHG)}-{int(r.FTAG)}"
     return v
@@ -93,7 +94,7 @@ def _actuals_from_espn(e):
     v.update(_offsides_from_espn(e))
     h, a = e["score"]["home"], e["score"]["away"]
     v.update({"result": "H" if h > a else "A" if a > h else "D", "btts": "yes" if h and a else "no",
-              "score": f"{h}-{a}"})
+              "score": f"{h}-{a}", "total_goals": h + a})
     return v
 
 

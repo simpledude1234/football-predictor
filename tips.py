@@ -4,7 +4,7 @@ The tips page shows exactly these, and the track record scores exactly these,
 so the two always agree.
 """
 
-GENERIC = {"total_shots": "Total shots", "total_sot": "Total shots on target",
+GENERIC = {"total_goals": "Total goals", "total_shots": "Total shots", "total_sot": "Total shots on target",
            "home_sot": "Home shots on target", "away_sot": "Away shots on target",
            "home_cards": "Home bookings", "away_cards": "Away bookings", "total_cards": "Total bookings",
            "home_fouls": "Home fouls", "away_fouls": "Away fouls",
