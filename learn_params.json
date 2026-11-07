@@ -66,5 +66,14 @@
    "hide": false
   }
  },
- "value": {}
+ "value": {},
+ "player": {
+  "player_booked": {
+   "n": 960,
+   "landed": 19.4,
+   "said": 21.6,
+   "move": -0.02,
+   "hide": false
+  }
+ }
 }
