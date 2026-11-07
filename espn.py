@@ -72,8 +72,8 @@ def _compact(slug, ev, summary):
     stats = {}
     for t in summary.get("boxscore", {}).get("teams", []):
         st = {x["name"]: x.get("displayValue") for x in t.get("statistics", [])}
-        stats[side.get(t["team"]["id"], "?")] = {k: _num(st.get(k)) for k in
-                                                ("totalShots", "shotsOnTarget", "foulsCommitted", "yellowCards", "redCards", "offsides", "wonCorners", "totalTackles")}
+        # every team stat ESPN gives (passes, crosses, saves, clearances...), kept for future markets
+        stats[side.get(t["team"]["id"], "?")] = {k: _num(v) for k, v in st.items()}
     players = []
     for r in summary.get("rosters", []):
         ha = side.get(r["team"]["id"], "?")
@@ -85,7 +85,7 @@ def _compact(slug, ev, summary):
             players.append([p["athlete"].get("displayName", "?"), ha, int(bool(p.get("starter"))),
                             int(st.get("yellowCards") or 0), int(st.get("redCards") or 0), int(st.get("foulsCommitted") or 0)])
     return {"id": ev["id"], "slug": slug, "date": ev["date"][:10], "home": names.get("home"), "away": names.get("away"),
-            "score": score, "stats": stats, "players": players}
+            "score": score, "stats": stats, "players": players, "full": True}
 
 
 def _num(v):
@@ -167,13 +167,9 @@ def update(days_ahead=21, season_start=None):
     return c, upcoming
 
 
-EXTRA = ("offsides", "wonCorners", "totalTackles")
-
-
-def backfill_extra(c, limit=400):
-    """Matches stored before offsides, corners and tackles were kept: fetch them again, a few hundred per run."""
-    todo = [k for k, m in c["matches"].items()
-            if m.get("stats") and any(x not in (m["stats"].get("home") or {}) for x in EXTRA)][:limit]
+def backfill_extra(c, limit=150):
+    """Matches stored before every team stat was kept: fetch them again, a few at a time."""
+    todo = [k for k, m in c["matches"].items() if m.get("stats") and not m.get("full")][:limit]
     for eid in todo:
         m = c["matches"][eid]
         try:
@@ -188,10 +184,10 @@ def backfill_extra(c, limit=400):
             ha = side.get(t["team"]["id"])
             if ha in m["stats"]:
                 st = {x["name"]: x.get("displayValue") for x in t.get("statistics", [])}
-                for x in EXTRA:
-                    m["stats"][ha][x] = _num(st.get(x))
+                m["stats"][ha].update({k: _num(v) for k, v in st.items()})
+        m["full"] = True
     if todo:
-        print(f"ESPN: offsides, corners and tackles added to {len(todo)} stored matches")
+        print(f"ESPN: all team stats added to {len(todo)} stored matches")
         save_cache(c)
 
 

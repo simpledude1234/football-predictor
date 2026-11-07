@@ -1,0 +1,14 @@
+name = "ftips-scheduler"
+main = "index.js"
+compatibility_date = "2026-11-01"
+workers_dev = false      # no public web address: it only runs on the timers below
+preview_urls = false
+
+# times are UTC (UK time in winter, one hour earlier than UK time in summer)
+[triggers]
+crons = [
+  "17 6 * * *",             # daily build
+  "47 15 * * *",            # afternoon build
+  "10,40 10-19 * * SAT,SUN",  # weekends: line-up check every 30 min
+  "10,40 16-19 * * MON-FRI",  # weekday evenings: line-up check
+]
