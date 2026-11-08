@@ -20,6 +20,7 @@ import pathlib
 import numpy as np
 
 import learn
+import referees
 import pandas as pd
 from scipy import optimize, stats
 
@@ -92,6 +93,7 @@ def load_league(code):
         df[c] = pd.to_numeric(df[c], errors="coerce")
         df = df[(df[c].isna() & c.endswith("R")) | df[c].between(0, hi)]
     df = df[(df.HST <= df.HS) & (df.AST <= df.AS)].copy()
+    referees.fill(df, code)            # referee names where our data has none (Italy, Spain, Germany, France)
     df = df.assign(HCARD=df.HY + df.HR.fillna(0), ACARD=df.AY + df.AR.fillna(0),
                    HMISS=df.HS - df.HST, AMISS=df.AS - df.AST)
     return df.sort_values("Date").reset_index(drop=True)
@@ -566,7 +568,7 @@ def predict_fixtures(params):
         df = load_league(code)
         teams = set(df.HomeTeam) | set(df.AwayTeam)
         lg = league_norms(df)
-        for _, f in fx[fx.Div == code].iterrows():
+        for _, f in referees.fill(fx[fx.Div == code].copy(), code).iterrows():
             if f.HomeTeam in teams and f.AwayTeam in teams:
                 out.append(predict_one(df, f, params, lg, code, name))
     out.sort(key=lambda x: (x["sort"], x["league"]))

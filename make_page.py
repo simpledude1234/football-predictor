@@ -22,6 +22,7 @@ import value
 import players
 import predictor
 import record
+import referees
 import simple_page
 import tips
 
@@ -31,6 +32,10 @@ OUT = HERE / "predictions.html"
 
 def main():
     fetch_data.main()
+    try:
+        referees.update()             # referee names for Serie A, LaLiga, Bundesliga, Ligue 1
+    except Exception as e:
+        print("  referees: skipped,", e)
     try:                     # learn from the track record before predicting
         predictor.LEARNED = learn.learn(record.score(espn.load_cache()))
         print(learn.note(predictor.LEARNED))

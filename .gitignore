@@ -16,4 +16,6 @@ cache/espn_events.json
 cache/live_bt_prematch.json
 cache/live_bt_data.json
 .wrangler/
+# football-data.org key (also in GitHub Secrets)
+.football_data_key
 cache/live_pl_data.json
