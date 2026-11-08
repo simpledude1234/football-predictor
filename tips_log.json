@@ -35891,7 +35891,7 @@
 "Takefusa Kubo": 0.114,
 "Unai Marrero": 0.1225,
 "Yangel Herrera": 0.2927,
-"Álex Remiro": 0.1009,
+"Álex Remiro": 0.101,
 "": 0.1558
 },
 "away": {
@@ -35943,7 +35943,7 @@
 "Unai Marrero": 0.283,
 "Yangel Herrera": 1.618,
 "Álex Remiro": 0.174,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrià Pedrosa": 1.206,
@@ -35951,13 +35951,13 @@
 "Andrei Ratiu": 0.627,
 "Emil Audero": 0.252,
 "Florian Lejeune": 1.328,
-"Fran Pérez": 0.919,
+"Fran Pérez": 0.918,
 "Giorgi Tsitaishvili": 0.327,
 "Gnangoro Bouare Samake": 0.827,
 "Isi Palazón": 0.533,
 "Iván Balliu": 0.661,
 "Jorge de Frutos": 1.206,
-"Jozhua Vertrouwd": 0.61,
+"Jozhua Vertrouwd": 0.609,
 "Mujaid Sadick": 0.474,
 "Pathé Ciss": 1.106,
 "Pedro Díaz": 0.606,
@@ -35965,7 +35965,7 @@
 "Unai López": 0.944,
 "Álvaro García": 0.636,
 "Óscar Valentín": 0.856,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -36562,14 +36562,14 @@
 "Benjamin Nygren": 0.959,
 "Callum McGregor": 0.626,
 "Callum Osmand": 0.522,
-"Cameron Carter-Vickers": 1.021,
+"Cameron Carter-Vickers": 1.02,
 "Camilo Durán": 1.015,
 "Colby Donovan": 1.181,
 "Dane Murray": 0.689,
 "Haissem Hassan": 0.369,
 "James Forrest": 0.218,
 "Jordan Lotomba": 0.711,
-"Jota": 0.61,
+"Jota": 0.609,
 "Kasper Høgh": 1.079,
 "Kieran Tierney": 0.486,
 "Landon Emenalo": 1.253,
@@ -36580,10 +36580,10 @@
 "Sam Johnstone": 0.252,
 "Sebastian Tounekti": 0.329,
 "Shim Mheuka": 0.527,
-"": 0.756
+"": 0.755
 },
 "away": {
-"Aaron Tshibola": 2.021,
+"Aaron Tshibola": 2.02,
 "Bailey Rice": 0.727,
 "Calum Ferie": 0.324,
 "Cathal McCarthy": 0.713,
@@ -36591,7 +36591,7 @@
 "Erik Ring": 0.636,
 "George Stanger": 0.818,
 "Greg Kiltie": 0.684,
-"Ieuan Owen": 0.61,
+"Ieuan Owen": 0.609,
 "Jamie Brandon": 1.418,
 "Joe Hugill": 1.018,
 "Jonathan Meier": 0.653,
@@ -36603,7 +36603,7 @@
 "Robbie Deas": 0.544,
 "Tom Lowery": 0.351,
 "Tyreece John-Jules": 1.351,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -37130,7 +37130,7 @@
 },
 "fh": {
 "home": {
-"Amine El Ouazzani": 0.752,
+"Amine El Ouazzani": 0.751,
 "Amine Sbaï": 0.772,
 "Anthony Bermont": 0.807,
 "Anthony Lopes": 0.272,
@@ -37144,14 +37144,14 @@
 "Jordan Lefort": 1.206,
 "Joseph Kalulu Kyatengwa": 0.388,
 "Lilian Raolisoa": 0.206,
-"Louis Mouton": 0.61,
+"Louis Mouton": 0.609,
 "Mamadou Simbakoli": 0.727,
 "Marius Louãr": 0.653,
 "Maël Gernigon": 0.653,
 "Ousmane Camara": 0.57,
 "Prosper Peter": 0.606,
 "Yassin Belkhdim": 1.189,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Ali Abdi": 0.711,
@@ -37174,7 +37174,7 @@
 "Xavier Junior Mandza Tsiendi": 0.479,
 "Yehvann Diouf": 0.272,
 "Youssouf Ndayishimiye": 0.606,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -37712,10 +37712,10 @@
 "Julien Duranville": 0.2458,
 "Kail Boudache": 0.2075,
 "Keito Nakamura": 0.2867,
-"Khalis Merah": 0.1779,
+"Khalis Merah": 0.178,
 "Mads Bidstrup": 0.1416,
 "Moussa Niakhaté": 0.3239,
-"Nicolás Tagliafico": 0.2014,
+"Nicolás Tagliafico": 0.2015,
 "Noah Nartey": 0.2745,
 "Noham Kamara": 0.2197,
 "Pavel Sulc": 0.225,
@@ -37734,7 +37734,7 @@
 "Bradley Locko": 0.856,
 "Djylian N'Guessan": 0.711,
 "Egil Selvik": 0.189,
-"Gautier Lloris": 0.752,
+"Gautier Lloris": 0.751,
 "Giovani Versini": 0.895,
 "Hugo Magnetti": 0.933,
 "Ibrahim Kanté": 0.711,
@@ -37750,10 +37750,10 @@
 "Noah Edjouma": 0.324,
 "Pathé Mboup": 2.189,
 "Raphaël Le Guen": 0.533,
-"": 0.756
+"": 0.755
 },
 "away": {
-"Abner": 1.021,
+"Abner": 1.02,
 "Alejandro Rodríguez": 0.567,
 "Clinton Mata": 0.467,
 "Corentin Tolisso": 0.767,
@@ -37766,7 +37766,7 @@
 "Khalis Merah": 0.479,
 "Mads Bidstrup": 0.818,
 "Moussa Niakhaté": 1.189,
-"Nicolás Tagliafico": 0.61,
+"Nicolás Tagliafico": 0.609,
 "Noah Nartey": 0.618,
 "Noham Kamara": 0.567,
 "Pavel Sulc": 0.606,
@@ -37777,7 +37777,7 @@
 "Tanner Tessmann": 0.418,
 "Tyler Morton": 0.636,
 "Zachary Athekame": 0.948,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -38301,7 +38301,7 @@
 "": 0.1975
 },
 "away": {
-"Alec Georgen": 0.248,
+"Alec Georgen": 0.2481,
 "Arsène Kouassi": 0.3072,
 "Arthur Avom": 0.2606,
 "Dembo Sylla": 0.1788,
@@ -38327,13 +38327,13 @@
 },
 "fh": {
 "home": {
-"Ahmed Touba": 0.752,
+"Ahmed Touba": 0.751,
 "Amir Richardson": 1.939,
 "Arnaud Bodart": 0.567,
 "Ayumu Seko": 0.933,
 "Daren Mosengo": 0.378,
 "Djibril Ouziad": 1.115,
-"Elias Jelert": 0.61,
+"Elias Jelert": 0.609,
 "Enzo Koffi": 0.661,
 "Gauthier Gallon": 0.252,
 "Guy Zohouri": 0.567,
@@ -38349,7 +38349,7 @@
 "Simon Ebonog": 1.606,
 "Sota Nakamura": 0.606,
 "Vincent Sasso": 0.711,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alec Georgen": 0.653,
@@ -38373,7 +38373,7 @@
 "Théo Le Bris": 0.585,
 "Tosin Aiyegun": 0.378,
 "Yvon Mvogo": 0.189,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -38887,7 +38887,7 @@
 "Brahimi Bilal": 0.1624,
 "Dame Guèye": 0.1336,
 "Daouda Traoré": 0.1217,
-"Djibril Sidibé": 0.2361,
+"Djibril Sidibé": 0.2362,
 "Habib Diallo": 0.1415,
 "Harold Voyer": 0.1358,
 "Jean Vercruysse": 0.1356,
@@ -38953,7 +38953,7 @@
 "Samuel Yohou": 1.227,
 "William Harhouz": 0.711,
 "Yasser Larouci": 0.474,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aleksandr Golovin": 1.084,
@@ -38962,23 +38962,23 @@
 "Christian Mawissa": 0.696,
 "Denis Zakaria": 0.884,
 "Edan Diop": 1.024,
-"Eric Dier": 0.752,
+"Eric Dier": 0.751,
 "Folarin Balogun": 0.585,
 "Ilane Touré": 0.653,
 "Jordan Teze": 0.427,
 "Lamine Camara": 1.305,
 "Lukas Hradecky": 0.151,
-"Mamadou Coulibaly": 0.919,
+"Mamadou Coulibaly": 0.918,
 "Mathys Detourbet": 0.606,
 "Matthis Abline": 0.733,
 "Mika Biereth": 0.378,
 "Mohammed Salisu": 0.544,
 "Názinho": 1.09,
-"Paris Brunner": 1.021,
+"Paris Brunner": 1.02,
 "Sadibou Sané": 0.818,
 "Takumi Minamino": 0.324,
 "Vanderson": 1.305,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -39505,7 +39505,7 @@
 "Karim Diop": 0.1913,
 "Kevin Mbabu": 0.3058,
 "Liam Henderson": 0.3146,
-"Lorenzo Insigne": 0.2732,
+"Lorenzo Insigne": 0.2733,
 "Lorenzo Mezzotero": 0.1844,
 "Luca Ravanelli": 0.1816,
 "Manuel Cicconi": 0.3764,
@@ -39515,7 +39515,7 @@
 "Tjas Begic": 0.1931,
 "Tobias Lauritsen": 0.151,
 "Yann Karamoh": 0.1696,
-"Yari Verschaeren": 0.1323,
+"Yari Verschaeren": 0.1324,
 "": 0.1949
 }
 },
@@ -39524,7 +39524,7 @@
 "Fabio Abiuso": 1.174,
 "Fabio Ruggeri": 1.251,
 "Filippo Oliana": 1.174,
-"Filippo Reale": 1.021,
+"Filippo Reale": 1.02,
 "Gabriele Parlanti": 1.482,
 "Giacomo Marconi": 0.689,
 "Jacopo Martini": 0.772,
@@ -39540,19 +39540,19 @@
 "Tommaso Guercio": 0.783,
 "Tommaso Macchioni": 0.567,
 "Tommaso Rubino": 0.527,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alessandro Di Pardo": 0.606,
-"Alex Ferrari": 0.61,
+"Alex Ferrari": 0.609,
 "Andrey Krastev": 0.378,
 "Antoine Makoumbou": 0.439,
 "Fabio Depaoli": 0.783,
-"Filippo Delli Carri": 0.752,
+"Filippo Delli Carri": 0.751,
 "Gennaro Tutino": 0.79,
 "Karim Diop": 0.567,
 "Kevin Mbabu": 1.181,
-"Liam Henderson": 2.021,
+"Liam Henderson": 2.02,
 "Lorenzo Insigne": 0.533,
 "Lorenzo Mezzotero": 0.544,
 "Luca Ravanelli": 0.653,
@@ -39564,7 +39564,7 @@
 "Tobias Lauritsen": 1.03,
 "Yann Karamoh": 0.252,
 "Yari Verschaeren": 0.636,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -40155,10 +40155,10 @@
 "Vincenzo Grifo": 0.251,
 "Yannick Engelhardt": 1.189,
 "Yuito Suzuki": 0.636,
-"": 0.756
+"": 0.755
 },
 "away": {
-"Aljoscha Kemlein": 0.752,
+"Aljoscha Kemlein": 0.751,
 "András Schäfer": 0.842,
 "Christopher Trimmel": 0.283,
 "Derrick Köhn": 0.544,
@@ -40176,10 +40176,10 @@
 "Michel Aebischer": 0.842,
 "Oliver Burke": 0.378,
 "Rani Khedira": 1.297,
-"Tim Skarke": 0.752,
+"Tim Skarke": 0.751,
 "Tom Rothe": 1.127,
 "Zeno Van Den Bosch": 1.227,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -40685,7 +40685,7 @@
 "home": {
 "Amad Diallo": 0.527,
 "Andrey Santos": 0.939,
-"Ayden Heaven": 0.919,
+"Ayden Heaven": 0.918,
 "Bruno Fernandes": 0.684,
 "Bryan Mbeumo": 0.829,
 "Carlos Baleba": 0.927,
@@ -40703,7 +40703,7 @@
 "Senne Lammens": 0.142,
 "Shea Lacey": 0.533,
 "Youri Tielemans": 0.618,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aaron Wan-Bissaka": 0.57,
@@ -40717,7 +40717,7 @@
 "Ibrahim Mbaye": 0.439,
 "Johan Manzambi": 0.206,
 "John McGinn": 1.079,
-"João Gomes": 1.021,
+"João Gomes": 1.02,
 "Leon Goretzka": 0.363,
 "Matty Cash": 1.519,
 "Nicolas Jackson": 0.551,
@@ -40727,7 +40727,7 @@
 "Tyrone Mings": 0.527,
 "Victor Lindelöf": 0.392,
 "Zion Suzuki": 0.151,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -41275,12 +41275,12 @@
 "Alessandro Bastoni": 0.2182,
 "Andy Diouf": 0.1093,
 "Ange-Yoan Bonny": 0.1311,
-"Benjamin Pavard": 0.1438,
+"Benjamin Pavard": 0.1439,
 "Carlos Augusto": 0.199,
 "Djed Spence": 0.1416,
 "Federico Dimarco": 0.108,
 "Hakan Çalhanoglu": 0.2783,
-"Henrikh Mkhitaryan": 0.1863,
+"Henrikh Mkhitaryan": 0.1864,
 "Ivan Provedel": 0.1558,
 "Josep Martínez": 0.1046,
 "Luis Henrique": 0.1458,
@@ -41314,7 +41314,7 @@
 "Robert Sánchez": 0.2214,
 "Samuele Ricci": 0.2043,
 "Tasos Douvikas": 0.1524,
-"Willy Kambwala": 0.2399,
+"Willy Kambwala": 0.24,
 "Yan Couto": 0.2636,
 "Álex Valle": 0.2226,
 "": 0.2576
@@ -41343,7 +41343,7 @@
 "Pio Esposito": 0.618,
 "Piotr Zielinski": 0.329,
 "Yann Bisseck": 0.454,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrian Lahdo": 0.567,
@@ -41368,7 +41368,7 @@
 "Willy Kambwala": 0.853,
 "Yan Couto": 0.829,
 "Álex Valle": 0.519,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -41878,7 +41878,7 @@
 "Ifeanyi Ndukwe": 0.1984,
 "Iván Romero": 0.2853,
 "Jeremy Toljan": 0.328,
-"Jon Ander Olasagasti": 0.1663,
+"Jon Ander Olasagasti": 0.1664,
 "Manu Sánchez": 0.2275,
 "Marc Santos Gavilán": 0.2504,
 "Mathew Ryan": 0.1627,
@@ -41897,7 +41897,7 @@
 "home": {
 "Aleix Febas": 1.174,
 "Andrei Radu": 0.126,
-"Andrés Antañón": 0.61,
+"Andrés Antañón": 0.609,
 "Couhaib Driouech": 0.522,
 "Ferran Jutglà": 0.848,
 "Hugo Burcio": 0.689,
@@ -41914,7 +41914,7 @@
 "Sergio Carreira": 0.681,
 "Williot Swedberg": 0.957,
 "Yoel Lago": 1.517,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrián de la Fuente": 0.772,
@@ -41922,7 +41922,7 @@
 "Aïssa Mandi": 0.522,
 "Dani Requena": 1.479,
 "Enzo Bardeli": 0.827,
-"Etta Eyong": 0.919,
+"Etta Eyong": 0.918,
 "Ifeanyi Ndukwe": 0.427,
 "Iván Romero": 0.948,
 "Jeremy Toljan": 0.482,
@@ -41938,7 +41938,7 @@
 "Thiago Fernandez": 0.439,
 "Víctor García": 0.79,
 "Yanis Kasonga Musuayi": 0.752,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -42505,7 +42505,7 @@
 "Ramón Terrats": 0.2255,
 "Saba Sazonov": 0.1801,
 "Sebastián Boselli": 0.2031,
-"": 0.1522
+"": 0.1523
 }
 },
 "fh": {
@@ -42532,7 +42532,7 @@
 "Sergi Cardona": 1.162,
 "Tajon Buchanan": 0.951,
 "Tani Oluwaseyi": 0.405,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdel Abqar": 0.658,
@@ -42556,7 +42556,7 @@
 "Ramón Terrats": 0.954,
 "Saba Sazonov": 0.696,
 "Sebastián Boselli": 0.79,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -43051,9 +43051,9 @@
 "Andrej Kramaric": 0.1526,
 "Bambasé Conté": 0.0864,
 "Bernardo": 0.1393,
-"Cajetan Lenz": 0.1167,
+"Cajetan Lenz": 0.1168,
 "Fisnik Asllani": 0.1489,
-"Jykese Fields": 0.1167,
+"Jykese Fields": 0.1168,
 "Koki Machida": 0.1451,
 "Leon Avdullahu": 0.1255,
 "Mats Rots": 0.1086,
@@ -43121,7 +43121,7 @@
 "Valentin Lässig": 0.567,
 "Vladimír Coufal": 0.636,
 "Wouter Burger": 0.876,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adil Aouchiche": 0.661,
@@ -43130,7 +43130,7 @@
 "Dejan Ljubicic": 0.324,
 "Edin Dzeko": 0.585,
 "Hasan Kurucay": 0.933,
-"Hwang Hee-Chan": 0.919,
+"Hwang Hee-Chan": 0.918,
 "Janik Bachmann": 0.653,
 "Junior Adamu": 1.141,
 "Junior Dina Ebimbe": 0.627,
@@ -43146,7 +43146,7 @@
 "Soufian El-Faouzi": 1.127,
 "Timo Becker": 0.297,
 "Vitalie Becker": 0.363,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -43621,7 +43621,7 @@
 "home": {
 "Alessandro Bellemo": 0.1949,
 "Alessandro Pietrelli": 0.121,
-"Andrea Papetti": 0.1621,
+"Andrea Papetti": 0.1622,
 "Claudio Morra": 0.1593,
 "Filippo Alessio": 0.1525,
 "Filippo Costa": 0.1487,
@@ -43634,7 +43634,7 @@
 "Mattia Valoti": 0.2254,
 "Maxime Leverbe": 0.1698,
 "Niccolò Brighenti": 0.2258,
-"Nicola Rauti": 0.1568,
+"Nicola Rauti": 0.1569,
 "Riccardo Gagno": 0.0957,
 "Riccardo Marchizza": 0.1393,
 "Silvio Merkaj": 0.1055,
@@ -43673,7 +43673,7 @@
 "fh": {
 "home": {
 "Alessandro Bellemo": 0.627,
-"Alessandro Pietrelli": 0.919,
+"Alessandro Pietrelli": 0.918,
 "Andrea Papetti": 1.408,
 "Claudio Morra": 1.024,
 "Filippo Alessio": 0.939,
@@ -43683,7 +43683,7 @@
 "Giuseppe Cuomo": 1.252,
 "Lorenzo Caferri": 1.251,
 "Loris Zonta": 0.772,
-"Marco Carraro": 0.919,
+"Marco Carraro": 0.918,
 "Mattia Valoti": 1.606,
 "Maxime Leverbe": 1.467,
 "Niccolò Brighenti": 1.027,
@@ -43692,8 +43692,8 @@
 "Riccardo Marchizza": 0.57,
 "Silvio Merkaj": 1.842,
 "Thomas Sandon": 0.658,
-"Tommaso Corazza": 0.752,
-"": 0.756
+"Tommaso Corazza": 0.751,
+"": 0.755
 },
 "away": {
 "Adin Licina": 0.527,
@@ -43720,7 +43720,7 @@
 "Simone Lottici Tessadri": 0.585,
 "Tommaso Barbieri": 1.038,
 "Tommaso Berti": 0.405,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -44262,7 +44262,7 @@
 "CJ Egan-Riley": 0.1765,
 "Emerson": 0.1353,
 "Geoffrey Kondogbia": 0.1591,
-"Himad Abdelli": 0.1706,
+"Himad Abdelli": 0.1707,
 "Igor Paixão": 0.2291,
 "Jeffrey de Lange": 0.1239,
 "Kelyann Bezahaf": 0.176,
@@ -44300,7 +44300,7 @@
 "Saud Abdulhamid": 0.827,
 "Thorgan Hazard": 0.689,
 "Yassine Titraoui": 0.689,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alexi Koum": 0.567,
@@ -44320,11 +44320,11 @@
 "Neal Maupay": 0.618,
 "Nouhoum Kamissoko": 0.895,
 "Pierre-Emile Højbjerg": 1.405,
-"Tadjidine Mmadi": 0.61,
+"Tadjidine Mmadi": 0.609,
 "Timothy Weah": 1.151,
 "Tochukwu Nnadi": 1.479,
 "Ulisses Garcia": 0.522,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -44854,7 +44854,7 @@
 "Pedro Gonçalves": 0.135,
 "Radu Dragusin": 0.1753,
 "Viery": 0.2407,
-"Víctor Valdepeñas": 0.1653,
+"Víctor Valdepeñas": 0.1654,
 "Wilfried Gnonto": 0.2307,
 "Álex Jiménez": 0.1467,
 "": 0.1577
@@ -44887,10 +44887,10 @@
 "home": {
 "Alieu Njie": 1.024,
 "Beto": 0.57,
-"Cher Ndour": 1.021,
+"Cher Ndour": 1.02,
 "Christ Inao Oulaï": 0.585,
 "David de Gea": 0.174,
-"Dodô": 0.61,
+"Dodô": 0.609,
 "Franco Mastantuono": 0.944,
 "João Mário": 0.696,
 "Luca Ranieri": 1.181,
@@ -44899,12 +44899,12 @@
 "Mateo Pellegrino": 0.944,
 "Nicolò Fagioli": 0.559,
 "Pedro Gonçalves": 0.327,
-"Radu Dragusin": 1.021,
+"Radu Dragusin": 1.02,
 "Viery": 1.022,
-"Víctor Valdepeñas": 0.752,
+"Víctor Valdepeñas": 0.751,
 "Wilfried Gnonto": 0.842,
 "Álex Jiménez": 0.439,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Andrea Cambiaso": 0.636,
@@ -44927,7 +44927,7 @@
 "Teun Koopmeiners": 0.892,
 "Weston McKennie": 0.559,
 "Zeki Çelik": 0.772,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -45456,7 +45456,7 @@
 "Cristian Romero": 0.214,
 "Daniel Martinez": 0.1568,
 "Dávid Hancko": 0.1343,
-"Giuliano Simeone": 0.1738,
+"Giuliano Simeone": 0.1739,
 "Jan Oblak": 0.0958,
 "Johnny Cardoso": 0.2324,
 "Jonathan David": 0.1272,
@@ -45521,7 +45521,7 @@
 "Robin Le Normand": 0.733,
 "Rodrigo Mendoza": 0.474,
 "Álex Baena": 1.237,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alejandro Balde": 0.533,
@@ -45532,7 +45532,7 @@
 "Fermín López": 1.31,
 "Frenkie de Jong": 0.878,
 "Gabriel Jesus": 0.328,
-"Gavi": 0.752,
+"Gavi": 0.751,
 "Gerard Martín": 0.767,
 "Joan García": 0.133,
 "João Cancelo": 0.751,
@@ -45545,7 +45545,7 @@
 "Raphinha": 0.454,
 "Rodri": 0.722,
 "Xavi Espart": 1.439,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -46028,16 +46028,16 @@
 "Ola Brynhildsen": 0.324,
 "Ole Didrik Blomberg": 0.467,
 "Patrick Berg": 0.324,
-"Sondre Auklend": 0.61,
+"Sondre Auklend": 0.609,
 "Sondre Brunstad Fet": 1.181,
 "Ulrik Saltnes": 0.544,
 "Villads Nielsen": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alemão": 0.895,
 "Alessandro Schöpf": 0.752,
-"Andrés Andrade": 0.61,
+"Andrés Andrade": 0.609,
 "Christoph Lang": 0.752,
 "Daniel Elfadli": 0.853,
 "Florian Flecker": 0.378,
@@ -46055,7 +46055,7 @@
 "Tobias Schützenauer": 0.567,
 "Xavier Mbuyamba": 0.467,
 "Yvan Dibango": 0.711,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -46570,7 +46570,7 @@
 "Gabriel Gomes": 0.467,
 "Ilkay Gündogan": 0.453,
 "Ismail Jakobs": 1.181,
-"Leroy Sané": 0.61,
+"Leroy Sané": 0.609,
 "Lesley Ugochukwu": 0.653,
 "Lucas Torreira": 0.752,
 "Mario Lemina": 0.544,
@@ -46581,7 +46581,7 @@
 "Victor Osimhen": 1.044,
 "Wilfried Singo": 0.567,
 "Yunus Akgün": 0.467,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aaron Wan-Bissaka": 0.57,
@@ -46595,7 +46595,7 @@
 "Ibrahim Mbaye": 0.439,
 "Johan Manzambi": 0.206,
 "John McGinn": 1.079,
-"João Gomes": 1.021,
+"João Gomes": 1.02,
 "Leon Goretzka": 0.363,
 "Matty Cash": 1.519,
 "Nicolas Jackson": 0.551,
@@ -46605,7 +46605,7 @@
 "Tyrone Mings": 0.527,
 "Victor Lindelöf": 0.392,
 "Zion Suzuki": 0.151,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -47085,7 +47085,7 @@
 "Myles Lewis-Skelly": 0.2087,
 "Noni Madueke": 0.203,
 "Piero Hincapié": 0.1428,
-"Riccardo Calafiori": 0.11,
+"Riccardo Calafiori": 0.1101,
 "Viktor Gyökeres": 0.1273,
 "": 0.172
 },
@@ -47122,7 +47122,7 @@
 "Declan Rice": 0.78,
 "Eberechi Eze": 0.519,
 "Ezri Konsa": 0.767,
-"Gabriel Magalhães": 1.075,
+"Gabriel Magalhães": 1.074,
 "Jurriën Timber": 0.689,
 "Kai Havertz": 1.017,
 "Martin Ødegaard": 0.31,
@@ -47134,7 +47134,7 @@
 "Piero Hincapié": 0.427,
 "Riccardo Calafiori": 0.662,
 "Viktor Gyökeres": 0.733,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Carney Chukwuemeka": 0.388,
@@ -47155,7 +47155,7 @@
 "Samuele Inácio": 0.878,
 "Serhou Guirassy": 0.951,
 "Waldemar Anton": 1.079,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -47641,27 +47641,27 @@
 "Willy Kambwala": 0.853,
 "Yan Couto": 0.829,
 "Álex Valle": 0.519,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aboubakary Koita": 0.895,
 "Alberto Brignoli": 0.324,
 "Barnabás Varga": 0.895,
-"Filipe Relvas": 0.61,
+"Filipe Relvas": 0.609,
 "Harold Moukoudi": 0.895,
 "João Mário": 1.253,
 "Kaan Kairinen": 0.653,
 "Kervin Arriaga": 0.878,
 "Lazaros Rota": 1.324,
 "Lovro Majer": 0.752,
-"Luka Jovic": 0.61,
+"Luka Jovic": 0.609,
 "Mijat Gacinovic": 0.467,
 "Milán Vitális": 0.878,
 "Oleksandr Zubkov": 0.378,
 "Razvan Marin": 0.895,
 "Stavros Pilios": 0.324,
 "Zini": 0.467,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -48110,7 +48110,7 @@
 "Oussama Targhaline": 0.1717,
 "Sem Steijn": 0.1921,
 "Shaqueel Van Persie": 0.1992,
-"Thijs Kraaijeveld": 0.1925,
+"Thijs Kraaijeveld": 0.1926,
 "Tjark Ernst": 0.1668,
 "Tobias van den Elshout": 0.1887,
 "Tsuyoshi Watanabe": 0.1827,
@@ -48153,7 +48153,7 @@
 "Javi López": 1.038,
 "Jerayno Schaken": 0.653,
 "Jerry St. Juste": 1.044,
-"Luciano Valente": 0.61,
+"Luciano Valente": 0.609,
 "Mats Deijl": 0.567,
 "Mika Mármol": 0.752,
 "Nacho Ferri": 1.181,
@@ -48164,7 +48164,7 @@
 "Tjark Ernst": 0.324,
 "Tobias van den Elshout": 0.467,
 "Tsuyoshi Watanabe": 0.467,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alan Varela": 0.853,
@@ -48174,7 +48174,7 @@
 "Diogo Costa": 0.324,
 "Gabri Veiga": 1.038,
 "Hwang In-Beom": 0.467,
-"Jakub Kiwior": 0.61,
+"Jakub Kiwior": 0.609,
 "Jan Bednarek": 0.653,
 "Martim Fernandes": 0.544,
 "Moura": 0.853,
@@ -48189,7 +48189,7 @@
 "Victor Froholdt": 0.711,
 "William Gomes": 0.817,
 "Zaidu Sanusi": 0.453,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -48653,7 +48653,7 @@
 "Floyd Samba": 0.1883,
 "Gianluigi Donnarumma": 0.152,
 "Iliman Ndiaye": 0.1331,
-"Josko Gvardiol": 0.3009,
+"Josko Gvardiol": 0.301,
 "Jérémy Doku": 0.2025,
 "Kaden Braithwaite": 0.1913,
 "Marc Guéhi": 0.1622,
@@ -48681,7 +48681,7 @@
 "Kevin De Bruyne": 0.1538,
 "Leonardo Spinazzola": 0.135,
 "Lorenzo Lucca": 0.192,
-"Luca Marianucci": 0.237,
+"Luca Marianucci": 0.2371,
 "Mathías Olivera": 0.1282,
 "Matteo Politano": 0.1473,
 "Noa Lang": 0.2122,
@@ -48719,11 +48719,11 @@
 "Ryan McAidoo": 0.467,
 "Rúben Dias": 1.192,
 "Vitor Reis": 0.453,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alex Meret": 0.174,
-"Amir Rrahmani": 1.075,
+"Amir Rrahmani": 1.074,
 "Antonio Vergara": 0.606,
 "Benoît Badiashile": 1.033,
 "Billy Gilmour": 0.519,
@@ -48743,7 +48743,7 @@
 "Scott McTominay": 0.59,
 "Stanislav Lobotka": 0.418,
 "Vanja Milinkovic-Savic": 0.252,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -49175,16 +49175,16 @@
 "squad": {
 "home": {
 "Abdoul Koné": 0.1937,
-"Andrija Maksimovic": 0.1622,
+"Andrija Maksimovic": 0.1623,
 "Antonio Nusa": 0.2509,
 "Benjamin Henrichs": 0.2103,
-"Brajan Gruda": 0.1316,
+"Brajan Gruda": 0.1317,
 "Castello Lukeba": 0.176,
 "Christoph Baumgartner": 0.242,
 "Christopher Nkunku": 0.1822,
 "David Raum": 0.2082,
 "Ezechiel Banzuzi": 0.1678,
-"Johan Bakayoko": 0.184,
+"Johan Bakayoko": 0.1841,
 "Maarten Vandevoordt": 0.1217,
 "Max Finkgrafe": 0.1809,
 "Maxime Estève": 0.1674,
@@ -49246,7 +49246,7 @@
 "Tidiam Gomis": 0.392,
 "Willi Orbán": 0.829,
 "Ørjan Nyland": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Amadou Haidara": 0.751,
@@ -49269,7 +49269,7 @@
 "Saud Abdulhamid": 0.827,
 "Thorgan Hazard": 0.689,
 "Yassine Titraoui": 0.689,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -49528,18 +49528,6 @@
 "star": false
 },
 {
-"key": "home_corners",
-"market": "Higher price: Home corners",
-"label": "Real Madrid corners",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
-"chance": 58,
-"min_odds": 1.75,
-"value": true,
-"star": false
-},
-{
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
@@ -49653,13 +49641,13 @@
 },
 {
 "key": "total_offsides",
-"expected": 3.83,
+"expected": 3.81,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 2.17,
+"expected": 2.16,
 "phi": 1.25,
 "estimate": false
 },
@@ -49671,43 +49659,43 @@
 },
 {
 "key": "total_corners",
-"expected": 10.36,
+"expected": 10.32,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 5.48,
+"expected": 5.46,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 4.88,
+"expected": 4.86,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 31.24,
+"expected": 31.29,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 14.92,
+"expected": 14.95,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 16.32,
+"expected": 16.34,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 25.02,
+"expected": 25.0,
 "phi": 1.0,
 "estimate": false
 }
@@ -49717,7 +49705,7 @@
 "Andriy Lunin": 0.1531,
 "Antonio Rüdiger": 0.1626,
 "Arda Güler": 0.1316,
-"Aurélien Tchouaméni": 0.1884,
+"Aurélien Tchouaméni": 0.1885,
 "Bernardo Silva": 0.1055,
 "Brahim Díaz": 0.13,
 "Carlos Espí": 0.1335,
@@ -49728,7 +49716,7 @@
 "Federico Valverde": 0.0907,
 "Ibrahima Konaté": 0.2338,
 "Jude Bellingham": 0.1501,
-"Kylian Mbappé": 0.179,
+"Kylian Mbappé": 0.1791,
 "Marc Cucurella": 0.1631,
 "Thiago Pitarch": 0.1585,
 "Thibaut Courtois": 0.089,
@@ -49741,7 +49729,7 @@
 },
 "away": {
 "Amir Bouhamdi": 0.2118,
-"Armando Obispo": 0.3172,
+"Armando Obispo": 0.3173,
 "Ayoni Santos": 0.2118,
 "Dennis Man": 0.2118,
 "Esmir Bajraktarevic": 0.2011,
@@ -49758,7 +49746,7 @@
 "Ricardo Pepi": 0.2011,
 "Ruben Van Bommel": 0.2523,
 "Ryan Flamingo": 0.2042,
-"Sergiño Dest": 0.3075,
+"Sergiño Dest": 0.3076,
 "Sven Mijnans": 0.1826,
 "Yarek Gasiorowski": 0.2011,
 "": 0.2159
@@ -49789,7 +49777,7 @@
 "Yan Diomande": 0.737,
 "Álvaro Carreras": 0.606,
 "Éder Militão": 0.653,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Amir Bouhamdi": 0.567,
@@ -49797,7 +49785,7 @@
 "Ayoni Santos": 0.567,
 "Dennis Man": 0.567,
 "Esmir Bajraktarevic": 0.653,
-"Filip Kostic": 0.61,
+"Filip Kostic": 0.609,
 "Guus Til": 0.467,
 "Ivan Perisic": 0.752,
 "Kodai Sano": 0.895,
@@ -49813,7 +49801,7 @@
 "Sergiño Dest": 0.895,
 "Sven Mijnans": 1.181,
 "Yarek Gasiorowski": 0.653,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -49954,7 +49942,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 78,
+"chance": 75,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -49996,7 +49984,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 80,
+"chance": 79,
 "normal": 64,
 "star": true,
 "estimate": false
@@ -50005,11 +49993,11 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "Real Betis corners",
-"pick": "Over 3.5",
+"pick": "Over 4.5",
 "side": "over",
-"line": 3.5,
-"chance": 83,
-"normal": 65,
+"line": 4.5,
+"chance": 73,
+"normal": 49,
 "star": true,
 "estimate": false
 },
@@ -50017,12 +50005,12 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Under 37.5",
+"pick": "Under 34.5",
 "side": "under",
-"line": 37.5,
-"chance": 83,
-"normal": 74,
-"star": false,
+"line": 34.5,
+"chance": 72,
+"normal": 58,
+"star": true,
 "estimate": false
 },
 {
@@ -50064,7 +50052,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -50076,9 +50064,22 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 60,
-"min_odds": 1.7,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Natan (Real Betis)",
+"side": "player",
+"line": null,
+"player": "Natan",
+"team": "away",
+"chance": 20,
+"confirmed": false,
 "star": false
 },
 {
@@ -50102,19 +50103,6 @@
 "side": "player",
 "line": null,
 "player": "César Blackman",
-"team": "home",
-"chance": 17,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Suleiman Camara (Slovan Bratislava)",
-"side": "player",
-"line": null,
-"player": "Suleiman Camara",
 "team": "home",
 "chance": 17,
 "confirmed": false,
@@ -50195,61 +50183,61 @@
 },
 {
 "key": "total_offsides",
-"expected": 3.91,
+"expected": 4.08,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 2.12,
+"expected": 2.19,
 "phi": 1.25,
 "estimate": false
 },
 {
 "key": "away_offsides",
-"expected": 1.79,
+"expected": 1.89,
 "phi": 1.75,
 "estimate": false
 },
 {
 "key": "total_corners",
-"expected": 9.83,
+"expected": 10.11,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 3.44,
+"expected": 3.53,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 6.39,
+"expected": 6.58,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 31.45,
+"expected": 31.07,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 14.58,
+"expected": 14.61,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 16.87,
+"expected": 16.45,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 26.21,
+"expected": 26.38,
 "phi": 1.0,
 "estimate": false
 }
@@ -50281,30 +50269,29 @@
 "": 0.1797
 },
 "away": {
-"Abde Ezzalzouli": 0.1329,
-"Aitor Ruibal": 0.2021,
-"Antony": 0.0929,
-"Cucho Hernández": 0.1447,
-"Dani Ceballos": 0.1609,
-"Diego Llorente": 0.2003,
-"Facundo Bernal": 0.2165,
-"Fran García": 0.1297,
-"Giovani Lo Celso": 0.1384,
-"Héctor Bellerín": 0.1667,
-"Isco": 0.1282,
-"José Morante": 0.1482,
-"Marc Bartra": 0.1044,
-"Marc Roca": 0.2034,
-"Natan": 0.2227,
-"Nelson Deossa": 0.1764,
-"Pablo Fornals": 0.0961,
-"Rodrigo Riquelme": 0.1391,
-"Troy Parrott": 0.1042,
-"Valentín Gómez": 0.2029,
-"Álvaro Fidalgo": 0.1404,
-"Álvaro Valles": 0.0847,
-"Ángel Ortiz": 0.245,
-"": 0.1538
+"Abde Ezzalzouli": 0.1369,
+"Aitor Ruibal": 0.2116,
+"Antony": 0.096,
+"Dani Ceballos": 0.1691,
+"Diego Llorente": 0.2137,
+"Facundo Bernal": 0.2309,
+"Fran García": 0.1337,
+"Giovani Lo Celso": 0.1476,
+"Héctor Bellerín": 0.1717,
+"Isco": 0.1322,
+"José Morante": 0.1552,
+"Marc Bartra": 0.1074,
+"Marc Roca": 0.2094,
+"Natan": 0.2297,
+"Nelson Deossa": 0.1857,
+"Pablo Fornals": 0.0991,
+"Rodrigo Riquelme": 0.1465,
+"Troy Parrott": 0.1072,
+"Valentín Gómez": 0.2164,
+"Álvaro Fidalgo": 0.1498,
+"Álvaro Valles": 0.0878,
+"Ángel Ortiz": 0.2613,
+"": 0.1641
 }
 },
 "fh": {
@@ -50330,34 +50317,33 @@
 "Sandro Cruz": 0.895,
 "Suleiman Camara": 0.752,
 "Svetozar Markovic": 0.467,
-"Tigran Barseghyan": 0.61,
-"": 0.756
+"Tigran Barseghyan": 0.609,
+"": 0.755
 },
 "away": {
-"Abde Ezzalzouli": 0.805,
-"Aitor Ruibal": 0.853,
-"Antony": 0.839,
-"Cucho Hernández": 0.559,
-"Dani Ceballos": 0.405,
+"Abde Ezzalzouli": 0.818,
+"Aitor Ruibal": 0.711,
+"Antony": 0.793,
+"Dani Ceballos": 0.376,
 "Diego Llorente": 0.696,
 "Facundo Bernal": 1.019,
-"Fran García": 0.517,
-"Giovani Lo Celso": 0.61,
-"Héctor Bellerín": 0.684,
-"Isco": 0.957,
-"José Morante": 0.453,
-"Marc Bartra": 0.251,
-"Marc Roca": 1.351,
-"Natan": 0.392,
+"Fran García": 0.545,
+"Giovani Lo Celso": 0.609,
+"Héctor Bellerín": 0.642,
+"Isco": 0.904,
+"José Morante": 0.378,
+"Marc Bartra": 0.233,
+"Marc Roca": 1.454,
+"Natan": 0.369,
 "Nelson Deossa": 0.959,
-"Pablo Fornals": 0.767,
-"Rodrigo Riquelme": 0.579,
-"Troy Parrott": 0.484,
+"Pablo Fornals": 0.78,
+"Rodrigo Riquelme": 0.545,
+"Troy Parrott": 0.517,
 "Valentín Gómez": 0.927,
 "Álvaro Fidalgo": 0.283,
 "Álvaro Valles": 0.126,
 "Ángel Ortiz": 0.842,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -50556,7 +50542,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 83,
+"chance": 82,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -50568,7 +50554,7 @@
 "pick": "Under 34.5",
 "side": "under",
 "line": 34.5,
-"chance": 73,
+"chance": 72,
 "normal": 58,
 "star": true,
 "estimate": false
@@ -50626,7 +50612,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 71,
+"chance": 70,
 "min_odds": 1.45,
 "value": true,
 "star": false
@@ -50757,61 +50743,61 @@
 },
 {
 "key": "total_offsides",
-"expected": 7.33,
+"expected": 7.3,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 4.48,
+"expected": 4.46,
 "phi": 1.25,
 "estimate": false
 },
 {
 "key": "away_offsides",
-"expected": 2.85,
+"expected": 2.84,
 "phi": 1.75,
 "estimate": false
 },
 {
 "key": "total_corners",
-"expected": 10.69,
+"expected": 10.65,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 3.09,
+"expected": 3.08,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 7.59,
+"expected": 7.57,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 30.94,
+"expected": 30.99,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 16.0,
+"expected": 16.03,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 14.94,
+"expected": 14.96,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 28.96,
+"expected": 28.93,
 "phi": 1.0,
 "estimate": false
 }
@@ -50881,11 +50867,11 @@
 "Rahman Dashdamirov": 0.378,
 "Stas Pokatilov": 0.324,
 "Steve Solvet": 0.878,
-"Tymoteusz Puchacz": 0.61,
+"Tymoteusz Puchacz": 0.609,
 "Umarali Rakhmonaliev": 1.038,
 "Veljko Simic": 0.895,
 "Xander Severina": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alejandro Balde": 0.533,
@@ -50896,7 +50882,7 @@
 "Fermín López": 1.31,
 "Frenkie de Jong": 0.878,
 "Gabriel Jesus": 0.328,
-"Gavi": 0.752,
+"Gavi": 0.751,
 "Gerard Martín": 0.767,
 "Joan García": 0.133,
 "João Cancelo": 0.751,
@@ -50909,7 +50895,7 @@
 "Raphinha": 0.454,
 "Rodri": 0.722,
 "Xavi Espart": 1.439,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -51044,7 +51030,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 77,
+"chance": 78,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -51273,13 +51259,13 @@
 },
 {
 "key": "total_offsides",
-"expected": 3.94,
+"expected": 3.92,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 2.21,
+"expected": 2.2,
 "phi": 1.25,
 "estimate": false
 },
@@ -51291,43 +51277,43 @@
 },
 {
 "key": "total_corners",
-"expected": 11.12,
+"expected": 11.08,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 5.18,
+"expected": 5.16,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 5.94,
+"expected": 5.92,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 35.23,
+"expected": 35.29,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 18.46,
+"expected": 18.48,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 16.78,
+"expected": 16.8,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 26.71,
+"expected": 26.69,
 "phi": 1.0,
 "estimate": false
 }
@@ -51350,7 +51336,7 @@
 "Nazar Domchak": 0.2475,
 "Oskar Kubiak": 0.3,
 "Pavel Kacor": 0.2561,
-"Samuel Isife": 0.2388,
+"Samuel Isife": 0.2389,
 "Stepán Chaloupek": 0.2431,
 "Tomás Chorý": 0.2431,
 "Tomás Holes": 0.2353,
@@ -51407,10 +51393,10 @@
 "Stepán Chaloupek": 0.453,
 "Tomás Chorý": 0.453,
 "Tomás Holes": 0.653,
-"Tomás Vlcek": 0.61,
+"Tomás Vlcek": 0.609,
 "Toumani Diakité": 0.453,
 "Wiktor Nowak": 0.752,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alberto Moleiro": 0.515,
@@ -51435,7 +51421,7 @@
 "Sergi Cardona": 1.162,
 "Tajon Buchanan": 0.951,
 "Tani Oluwaseyi": 0.405,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -51652,7 +51638,7 @@
 "pick": "Under 34.5",
 "side": "under",
 "line": 34.5,
-"chance": 74,
+"chance": 73,
 "normal": 58,
 "star": true,
 "estimate": false
@@ -51664,7 +51650,7 @@
 "pick": "Under 15.5",
 "side": "under",
 "line": 15.5,
-"chance": 78,
+"chance": 77,
 "normal": 35,
 "star": true,
 "estimate": false
@@ -51676,7 +51662,7 @@
 "pick": "Over 13.5",
 "side": "over",
 "line": 13.5,
-"chance": 77,
+"chance": 78,
 "normal": 65,
 "star": true,
 "estimate": false
@@ -51713,7 +51699,7 @@
 "side": "under",
 "line": 5.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -51831,61 +51817,61 @@
 },
 {
 "key": "total_offsides",
-"expected": 4.07,
+"expected": 4.06,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 2.64,
+"expected": 2.63,
 "phi": 1.25,
 "estimate": false
 },
 {
 "key": "away_offsides",
-"expected": 1.43,
+"expected": 1.42,
 "phi": 1.75,
 "estimate": false
 },
 {
 "key": "total_corners",
-"expected": 11.62,
+"expected": 11.58,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 6.62,
+"expected": 6.6,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 5.0,
+"expected": 4.98,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 30.74,
+"expected": 30.78,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 12.45,
+"expected": 12.47,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 18.29,
+"expected": 18.31,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 25.66,
+"expected": 25.65,
 "phi": 1.0,
 "estimate": false
 }
@@ -51929,7 +51915,7 @@
 "Jesper Daland": 0.2192,
 "Joe Bell": 0.2123,
 "Kristoffer Askildsen": 0.2026,
-"Kristoffer Haugen": 0.2715,
+"Kristoffer Haugen": 0.2716,
 "Niklas Fuglestad": 0.1782,
 "Peter Christiansen": 0.2088,
 "Simen Kvia-Egeskog": 0.1634,
@@ -51963,17 +51949,17 @@
 "Robin Le Normand": 0.733,
 "Rodrigo Mendoza": 0.474,
 "Álex Baena": 1.237,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Amin Cosic": 0.817,
 "Arild Østbø": 0.324,
-"Erik Botheim": 0.61,
+"Erik Botheim": 0.609,
 "Essien Bassey": 0.567,
 "Gianni Stensness": 0.895,
 "Henrik Bjørdal": 1.038,
 "Henrik Falchener": 0.378,
-"Henrik Heggheim": 0.61,
+"Henrik Heggheim": 0.609,
 "Herman Haugen": 0.324,
 "Jakob Segadal Hansen": 0.567,
 "Jesper Daland": 0.544,
@@ -51982,12 +51968,12 @@
 "Kristoffer Haugen": 0.878,
 "Niklas Fuglestad": 0.567,
 "Peter Christiansen": 1.181,
-"Simen Kvia-Egeskog": 0.61,
-"Tobias Moi": 0.61,
+"Simen Kvia-Egeskog": 0.609,
+"Tobias Moi": 0.609,
 "Vetle Auklend": 0.378,
 "Viljar Vevatne": 0.817,
 "Zlatko Tripic": 0.895,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -52459,14 +52445,14 @@
 "fh": {
 "home": {
 "Brandon Mechele": 0.895,
-"Carlos Forbs": 0.61,
+"Carlos Forbs": 0.609,
 "Cheveyo Tsawa": 0.817,
 "Felix Lemarechal": 1.038,
 "Freddie Potts": 1.324,
 "Hans Vanaken": 0.895,
 "Hugo Siquet": 0.324,
 "Hugo Vetlesen": 1.038,
-"Jan Virgili": 0.61,
+"Jan Virgili": 0.609,
 "Joaquin Seys": 0.752,
 "Jorne Spileers": 1.044,
 "Kyriani Sabbe": 0.324,
@@ -52476,7 +52462,7 @@
 "Nicolo Tresoldi": 0.467,
 "Romeo Vermant": 0.752,
 "Yann Sommer": 0.467,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alexander Isak": 0.305,
@@ -52499,7 +52485,7 @@
 "Trey Nyoni": 0.79,
 "Virgil van Dijk": 0.704,
 "Víctor Muñoz": 0.876,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -52962,7 +52948,7 @@
 "": 0.1825
 },
 "away": {
-"Ameen Al Dakhil": 0.2024,
+"Ameen Al Dakhil": 0.2025,
 "Angelo Stiller": 0.1839,
 "Atakan Karazor": 0.34,
 "Bilal El Khannouss": 0.1813,
@@ -53011,7 +52997,7 @@
 "Pio Esposito": 0.618,
 "Piotr Zielinski": 0.329,
 "Yann Bisseck": 0.454,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Ameen Al Dakhil": 0.653,
@@ -53037,7 +53023,7 @@
 "Ramon Hendriks": 0.551,
 "Tiago Tomás": 0.544,
 "Yanik Spalt": 1.038,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -53579,7 +53565,7 @@
 "Romain Perraud": 0.662,
 "Soriba Diaoune": 0.696,
 "Tanguy Nianzou": 0.533,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aleksandar Pavlovic": 1.174,
@@ -53603,7 +53589,7 @@
 "Sacha Boey": 0.467,
 "Serge Gnabry": 0.363,
 "Tom Bischof": 0.684,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -54071,7 +54057,7 @@
 "Lucas Digne": 0.2217,
 "Lucas Hernández": 0.2472,
 "Maghnes Akliouche": 0.2297,
-"Marquinhos": 0.2611,
+"Marquinhos": 0.2612,
 "Matvei Safonov": 0.1512,
 "Mika Godts": 0.2024,
 "Ousmane Dembélé": 0.1952,
@@ -54130,7 +54116,7 @@
 "Vitinha": 0.454,
 "Warren Zaïre-Emery": 0.351,
 "Willian Pacho": 0.376,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Bryan Cristante": 1.448,
@@ -54141,7 +54127,7 @@
 "Emanuele Lulli": 0.57,
 "Evan Ndicka": 1.351,
 "Gianluca Mancini": 1.267,
-"Konstantinos Koulierakis": 0.752,
+"Konstantinos Koulierakis": 0.751,
 "Leonardo Balerdi": 1.162,
 "Manu Koné": 1.022,
 "Mario Hermoso": 0.898,
@@ -54153,7 +54139,7 @@
 "Rodrigo Mora": 0.142,
 "Santiago Castro": 1.09,
 "Wesley": 0.898,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -54647,11 +54633,11 @@
 "Mykola Matviyenko": 0.324,
 "Newertton": 0.324,
 "Oleh Ocheretko": 1.181,
-"Pedrinho": 0.919,
+"Pedrinho": 0.918,
 "Valeriy Bondar": 1.038,
 "Vinícius Tobias": 1.038,
 "Yehor Nazaryna": 0.378,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Archie Brown": 1.324,
@@ -54673,7 +54659,7 @@
 "Oguz Aydin": 0.467,
 "Romelu Lukaku": 0.752,
 "Vedat Muriqi": 0.895,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -55122,12 +55108,12 @@
 ],
 "squad": {
 "home": {
-"Eduardo Felicíssimo": 0.2348,
+"Eduardo Felicíssimo": 0.2349,
 "Eduardo Quaresma": 0.2034,
 "Flávio Gonçalves": 0.2385,
 "Fotis Ioannidis": 0.2228,
 "Geny Catamo": 0.2034,
-"Georgios Vagiannidis": 0.2348,
+"Georgios Vagiannidis": 0.2349,
 "Gonçalo Inácio": 0.2034,
 "Issa Doumbia": 0.2762,
 "Iván Fresneda": 0.2159,
@@ -55174,12 +55160,12 @@
 "fh": {
 "home": {
 "Eduardo Felicíssimo": 1.067,
-"Eduardo Quaresma": 0.61,
+"Eduardo Quaresma": 0.609,
 "Flávio Gonçalves": 0.653,
 "Fotis Ioannidis": 0.467,
 "Geny Catamo": 0.752,
 "Georgios Vagiannidis": 0.817,
-"Gonçalo Inácio": 0.61,
+"Gonçalo Inácio": 0.609,
 "Issa Doumbia": 0.895,
 "Iván Fresneda": 0.752,
 "Jesse Derry": 0.653,
@@ -55196,12 +55182,12 @@
 "Sergi Altimira": 1.038,
 "Silas Andersen": 1.211,
 "Zeno Debast": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Amad Diallo": 0.527,
 "Andrey Santos": 0.939,
-"Ayden Heaven": 0.919,
+"Ayden Heaven": 0.918,
 "Bruno Fernandes": 0.684,
 "Bryan Mbeumo": 0.829,
 "Carlos Baleba": 0.927,
@@ -55219,7 +55205,7 @@
 "Senne Lammens": 0.142,
 "Shea Lacey": 0.533,
 "Youri Tielemans": 0.618,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -55714,7 +55700,7 @@
 "Oiva Jukkola": 0.878,
 "Olzhas Baybek": 0.653,
 "Temirlan Anarbekov": 0.378,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdullah Iqbal": 0.878,
@@ -55735,7 +55721,7 @@
 "Viktor Gustafson": 1.878,
 "Villiam Granath": 1.211,
 "Áki Debes Samuelsen": 0.378,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -56183,8 +56169,8 @@
 "Alexander Nübel": 0.1264,
 "Amir Murillo": 0.177,
 "Dusan Vlahovic": 0.1409,
-"Emir Han Topcu": 0.1799,
-"Emmanuel Agbadou": 0.1799,
+"Emir Han Topcu": 0.18,
+"Emmanuel Agbadou": 0.18,
 "Ernest Poku": 0.1434,
 "Fabio Miretti": 0.1919,
 "Ilhan Fakili": 0.1302,
@@ -56254,7 +56240,7 @@
 "Umit Akdag": 1.253,
 "Václav Cerný": 0.544,
 "Wilfred Ndidi": 1.044,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrián Ugarriza": 0.711,
@@ -56273,13 +56259,13 @@
 "Miguel Vítor": 0.711,
 "Mohamad Abu Rumi": 0.878,
 "Mohammad Knaan": 1.211,
-"Niv Yehoshua": 0.61,
+"Niv Yehoshua": 0.609,
 "Ofir Davidadze": 0.567,
 "Ofir Marciano": 0.324,
 "Pedro Amador": 0.895,
 "Yonas Malede": 0.853,
 "Zahi Ahmed": 1.324,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -56651,7 +56637,7 @@
 },
 {
 "key": "total_offsides",
-"expected": 2.39,
+"expected": 2.37,
 "phi": 1.35,
 "estimate": false
 },
@@ -56669,43 +56655,43 @@
 },
 {
 "key": "total_corners",
-"expected": 8.39,
+"expected": 8.36,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 4.57,
+"expected": 4.55,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 3.82,
+"expected": 3.8,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 27.51,
+"expected": 27.55,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 13.09,
+"expected": 13.11,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 14.42,
+"expected": 14.44,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 26.52,
+"expected": 26.5,
 "phi": 1.0,
 "estimate": false
 }
@@ -56762,7 +56748,7 @@
 "home": {
 "Aleix Febas": 1.174,
 "Andrei Radu": 0.126,
-"Andrés Antañón": 0.61,
+"Andrés Antañón": 0.609,
 "Couhaib Driouech": 0.522,
 "Ferran Jutglà": 0.848,
 "Hugo Burcio": 0.689,
@@ -56779,7 +56765,7 @@
 "Sergio Carreira": 0.681,
 "Williot Swedberg": 0.957,
 "Yoel Lago": 1.517,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adam Smith": 1.084,
@@ -56803,7 +56789,7 @@
 "Ryan Christie": 0.684,
 "Tyler Adams": 1.267,
 "Álvaro Rodríguez": 0.689,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -57264,7 +57250,7 @@
 "Scott McKenna": 0.2401,
 "Sergi Domínguez": 0.2187,
 "Smail Prevljak": 0.2565,
-"Stjepan Radeljic": 0.248,
+"Stjepan Radeljic": 0.2481,
 "": 0.2663
 },
 "away": {
@@ -57301,7 +57287,7 @@
 "Iker Almena": 0.378,
 "Josip Misic": 1.324,
 "Kirill Kravtsov": 0.567,
-"Luka Ivanusec": 0.61,
+"Luka Ivanusec": 0.609,
 "Luka Stojkovic": 1.181,
 "Lukas Kacavenda": 1.467,
 "Mateo Lisica": 1.053,
@@ -57309,12 +57295,12 @@
 "Miha Zajc": 0.567,
 "Mislav Orsic": 0.378,
 "Moris Valincic": 0.878,
-"Niko Galesic": 1.61,
+"Niko Galesic": 1.609,
 "Scott McKenna": 0.453,
 "Sergi Domínguez": 0.752,
 "Smail Prevljak": 0.853,
 "Stjepan Radeljic": 1.053,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Afonso Moreira": 0.818,
@@ -57337,7 +57323,7 @@
 "Patrik Schick": 0.551,
 "Robert Andrich": 1.206,
 "Victor Boniface": 0.453,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -57773,9 +57759,9 @@
 "Amine Harit": 0.2094,
 "Angel Gomes": 0.2649,
 "Bamo Meïté": 0.3,
-"CJ Egan-Riley": 0.1592,
+"CJ Egan-Riley": 0.1593,
 "Emerson": 0.1221,
-"Geoffrey Kondogbia": 0.1435,
+"Geoffrey Kondogbia": 0.1436,
 "Himad Abdelli": 0.154,
 "Igor Paixão": 0.2067,
 "Jeffrey de Lange": 0.1118,
@@ -57784,7 +57770,7 @@
 "Nayef Aguerd": 0.1646,
 "Neal Maupay": 0.1886,
 "Nouhoum Kamissoko": 0.1614,
-"Pierre-Emile Højbjerg": 0.1709,
+"Pierre-Emile Højbjerg": 0.171,
 "Tadjidine Mmadi": 0.1773,
 "Timothy Weah": 0.2021,
 "Tochukwu Nnadi": 0.255,
@@ -57833,11 +57819,11 @@
 "Neal Maupay": 0.618,
 "Nouhoum Kamissoko": 0.895,
 "Pierre-Emile Højbjerg": 1.405,
-"Tadjidine Mmadi": 0.61,
+"Tadjidine Mmadi": 0.609,
 "Timothy Weah": 1.151,
 "Tochukwu Nnadi": 1.479,
 "Ulisses Garcia": 0.522,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Akram Bouras": 0.567,
@@ -57851,7 +57837,7 @@
 "Gasper Trdin": 0.711,
 "Juan Esteban Perea Sanchez": 1.044,
 "Kristian Dimitrov": 0.324,
-"Maicon": 0.61,
+"Maicon": 0.609,
 "Marko Grujic": 0.878,
 "Mazire Soula": 0.752,
 "Reinaldo": 0.467,
@@ -57859,7 +57845,7 @@
 "Stivan Stoyanchov": 0.653,
 "Svetoslav Vutsov": 0.324,
 "Álex Centelles": 0.711,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -58335,7 +58321,7 @@
 "Adrien Rabiot": 0.1892,
 "Alphadjo Cissè": 0.2403,
 "Ardon Jashari": 0.1433,
-"Christian Comotto": 0.2,
+"Christian Comotto": 0.2001,
 "Christian Pulisic": 0.2095,
 "Davide Bartesaghi": 0.1508,
 "Diego Moreira": 0.2125,
@@ -58363,7 +58349,7 @@
 "Bruno Onyemaechi": 1.181,
 "Chiquinho": 0.467,
 "David Carmo": 1.317,
-"Gelson Martins": 0.61,
+"Gelson Martins": 0.609,
 "Gustavo Puerta": 0.752,
 "Gustavo Sá": 0.711,
 "Jota Silva": 1.211,
@@ -58372,13 +58358,13 @@
 "Lorenzo Pirola": 0.544,
 "Manolis Saliakas": 1.038,
 "Marcus Holmgren Pedersen": 0.544,
-"Nayair Tiknizyan": 0.61,
+"Nayair Tiknizyan": 0.609,
 "Panagiotis Retsos": 0.324,
 "Remo Freuler": 0.378,
 "Roman Yaremchuk": 0.467,
 "Santiago Hezze": 0.895,
 "Stefan Ortega": 0.324,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrien Rabiot": 1.018,
@@ -58390,7 +58376,7 @@
 "Diego Moreira": 0.272,
 "Fikayo Tomori": 0.533,
 "Filippo Terracciano": 0.533,
-"Francesco Camarda": 0.919,
+"Francesco Camarda": 0.918,
 "Gonçalo Ramos": 1.392,
 "Koni De Winter": 1.369,
 "Lorenzo Torriani": 0.453,
@@ -58403,7 +58389,7 @@
 "Sankhoun Diawara": 0.363,
 "Strahinja Pavlovic": 0.954,
 "Yunus Musah": 0.642,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -58865,7 +58851,7 @@
 "Abubakr Barry": 1.324,
 "Bartosz Mazurek": 1.467,
 "Christian Zawieschitzky": 0.324,
-"Damir Redzic": 0.61,
+"Damir Redzic": 0.609,
 "Dominik Schmid": 0.878,
 "Edmund Baidoo": 0.878,
 "Frans Krätzig": 0.544,
@@ -58882,7 +58868,7 @@
 "Umut Tohumcu": 0.817,
 "Valentin Zabransky": 1.053,
 "Yorbe Vertessen": 1.467,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alexandros Malis": 1.211,
@@ -58896,7 +58882,7 @@
 "Bruno Wilson": 1.038,
 "Carlos França": 0.467,
 "Edgar Grigoryan": 0.895,
-"Hugo Oliveira": 0.61,
+"Hugo Oliveira": 0.609,
 "José Junior Bueno": 0.817,
 "João Bravim": 0.467,
 "Juan Andrés Balanta": 0.752,
@@ -58905,9 +58891,9 @@
 "Luis Felipe": 0.817,
 "Maxence Carlier": 0.711,
 "Sandro Lima": 0.895,
-"Zhirayr Shaghoyan": 0.61,
+"Zhirayr Shaghoyan": 0.609,
 "Zidane Banjaqui": 0.878,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -59388,10 +59374,10 @@
 "Adem Zorgane": 0.567,
 "Besfort Zeneli": 0.467,
 "Daniel Tshilanda": 0.567,
-"Darius Olaru": 0.61,
+"Darius Olaru": 0.609,
 "Denzel De Roeve": 0.324,
 "Dylan Aquino": 0.467,
-"Guilherme Smith": 0.61,
+"Guilherme Smith": 0.609,
 "Hervé Koffi": 0.324,
 "Ilan Henri Hurtevent": 0.853,
 "Kamiel Van De Perre": 1.211,
@@ -59399,7 +59385,7 @@
 "Louis Patris": 1.181,
 "Massiré Sylla": 0.467,
 "Mateo Biondic": 0.878,
-"Nikki Havenaar": 1.61,
+"Nikki Havenaar": 1.609,
 "Nohim Chibani": 1.181,
 "Ondrej Kricfalusi": 0.567,
 "Raul Florucz": 0.817,
@@ -59407,29 +59393,29 @@
 "Rob Schoofs": 1.067,
 "Ross Sykes": 0.567,
 "Sekou Keita": 0.817,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Allahyar Sayyad": 0.817,
 "Antoni Kozubal": 0.878,
-"Daniel Håkans": 0.61,
+"Daniel Håkans": 0.609,
 "Filip Jagiello": 0.324,
 "Gustaf Beggren": 0.378,
-"Joel Pereira": 0.61,
+"Joel Pereira": 0.609,
 "Leo Bengtsson": 0.467,
-"Luis Palma": 0.61,
+"Luis Palma": 0.609,
 "Mateusz Lis": 0.324,
 "Mateusz Skrzypczak": 0.711,
 "Michal Gurgul": 0.324,
 "Mikael Ishak": 0.544,
-"Pablo Rodriguez": 0.61,
+"Pablo Rodriguez": 0.609,
 "Patrick Walemark": 0.467,
 "Radoslaw Murawski": 1.211,
 "Robert Gumny": 0.453,
 "Terry Yegbe": 1.324,
 "Wojciech Monka": 0.453,
 "Yannick Agnero": 0.467,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -59928,17 +59914,17 @@
 "Lukás Cerv": 1.038,
 "Matej Vydra": 0.567,
 "Merchas Doski": 0.853,
-"Patrik Hrosovský": 0.61,
+"Patrik Hrosovský": 0.609,
 "Prince Adu": 0.853,
 "Salim Lawal": 0.378,
 "Sampson Dweh": 1.324,
 "Stefan Pirgic": 1.324,
 "Tobiás Paliscák": 0.878,
 "Tomás Ladra": 0.544,
-"": 0.756
+"": 0.755
 },
 "away": {
-"Alessandro Circati": 0.61,
+"Alessandro Circati": 0.609,
 "Alexander Bah": 1.053,
 "Anatoliy Trubin": 0.324,
 "Andreas Schjelderup": 0.467,
@@ -59953,7 +59939,7 @@
 "Gianluca Prestianni": 0.324,
 "Jakub Kaminski": 0.567,
 "Jhon Durán": 0.878,
-"João Palhinha": 0.61,
+"João Palhinha": 0.609,
 "Leandro Barreiro": 0.817,
 "Manu Silva": 0.853,
 "Rafa Silva": 1.053,
@@ -59961,7 +59947,7 @@
 "Souffian El Karouani": 1.038,
 "Tomás Araújo": 1.181,
 "Vangelis Pavlidis": 0.711,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -60392,8 +60378,8 @@
 "Abdellah Ouazane": 0.2361,
 "Daley Blind": 0.2613,
 "Davy Klaassen": 0.2289,
-"Dies Janse": 0.248,
-"Jofre Torrents": 0.248,
+"Dies Janse": 0.2481,
+"Jofre Torrents": 0.2481,
 "Jorthy Mokio": 0.2361,
 "Julian Brandt": 0.2401,
 "Lucas Rosa": 0.2361,
@@ -60406,7 +60392,7 @@
 "Sofyan Amrabat": 0.327,
 "Thilo Kehrer": 0.2401,
 "Tolu Arokodare": 0.2361,
-"Viktor Tsygankov": 0.248,
+"Viktor Tsygankov": 0.2481,
 "Youri Baas": 0.3113,
 "": 0.2663
 },
@@ -60427,12 +60413,12 @@
 "Nicolas Bürgy": 0.1278,
 "Niklas Steffen": 0.1159,
 "Nils Reichmuth": 0.2015,
-"Noah Christofferson": 0.1298,
+"Noah Christofferson": 0.1299,
 "Olivier Mambwa": 0.1159,
 "Patrik Kristal": 0.1711,
-"Riccardo Braschi": 0.1298,
+"Riccardo Braschi": 0.1299,
 "Simon Lengen": 0.1323,
-"Tom Strannegard": 0.1298,
+"Tom Strannegard": 0.1299,
 "": 0.1348
 }
 },
@@ -60458,7 +60444,7 @@
 "Tolu Arokodare": 0.878,
 "Viktor Tsygankov": 1.253,
 "Youri Baas": 0.878,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Brighton Labeau": 1.711,
@@ -60483,7 +60469,7 @@
 "Riccardo Braschi": 0.453,
 "Simon Lengen": 0.567,
 "Tom Strannegard": 0.653,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -60950,7 +60936,7 @@
 "Jaouen Hadjam": 0.1738,
 "Lewis Dunk": 0.1335,
 "Luka Vuskovic": 0.0964,
-"Malick Yalcouyé": 0.1034,
+"Malick Yalcouyé": 0.1035,
 "Mats Wieffer": 0.1321,
 "Matt O'Riley": 0.1278,
 "Maxim De Cuyper": 0.2046,
@@ -60968,17 +60954,17 @@
 "Assad Al-Hamlawi": 0.093,
 "Carlos Mora": 0.0976,
 "David Matei": 0.1395,
-"João Lameira": 0.1264,
+"João Lameira": 0.1265,
 "Laurentiu Popescu": 0.093,
 "Luca Basceanu": 0.1042,
 "Nicusor Bancu": 0.093,
-"Nikola Stevanovic": 0.1264,
+"Nikola Stevanovic": 0.1265,
 "Oleksandr Romanchuk": 0.1617,
 "Simon Elisor": 0.1395,
 "Stefan Baiaram": 0.093,
 "Teles": 0.099,
 "Tudor Baluta": 0.093,
-"Vladimir Screciu": 0.1264,
+"Vladimir Screciu": 0.1265,
 "": 0.1082
 }
 },
@@ -61005,7 +60991,7 @@
 "Pascal Gross": 1.218,
 "Promise David": 0.895,
 "Yasin Ayari": 0.59,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adrian Rus": 0.567,
@@ -61025,7 +61011,7 @@
 "Teles": 0.711,
 "Tudor Baluta": 1.378,
 "Vladimir Screciu": 0.711,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -61456,7 +61442,7 @@
 "Edison Ndreca": 0.1543,
 "Eljon Sota": 0.1418,
 "Enea Bitri": 0.2351,
-"Fernando Medeiros": 0.1439,
+"Fernando Medeiros": 0.144,
 "Geralb Smajli": 0.1488,
 "Guillem Jaime": 0.1352,
 "Ibrahim Diabaté": 0.2602,
@@ -61465,7 +61451,7 @@
 "Karim Loukili": 0.1352,
 "Ledio Beqja": 0.1543,
 "Mario Dajsinani": 0.1352,
-"Numan Ajetovikj": 0.1439,
+"Numan Ajetovikj": 0.144,
 "Zamiq Aliyev": 0.1543,
 "": 0.1573
 },
@@ -61475,7 +61461,7 @@
 "Christian Rutjens": 0.3108,
 "Enrique Gómez": 0.3108,
 "Facundo Álvarez": 0.2515,
-"Gabri Cardozo": 0.3264,
+"Gabri Cardozo": 0.3265,
 "Graeme Torrilla": 0.3108,
 "Jaylan Hankins": 0.2286,
 "Joe": 0.2477,
@@ -61511,7 +61497,7 @@
 "Mario Dajsinani": 0.378,
 "Numan Ajetovikj": 0.378,
 "Zamiq Aliyev": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alejandro Mula": 1.253,
@@ -61531,7 +61517,7 @@
 "Toni": 0.544,
 "Yussef Flalhi Idrissi": 0.378,
 "Álvaro Romero": 0.878,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -62062,7 +62048,7 @@
 "Stuart Findlay": 0.479,
 "Tómas Magnússon": 0.867,
 "Yan Dhanda": 0.853,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aleksandr Golovin": 1.084,
@@ -62071,23 +62057,23 @@
 "Christian Mawissa": 0.696,
 "Denis Zakaria": 0.884,
 "Edan Diop": 1.024,
-"Eric Dier": 0.752,
+"Eric Dier": 0.751,
 "Folarin Balogun": 0.585,
 "Ilane Touré": 0.653,
 "Jordan Teze": 0.427,
 "Lamine Camara": 1.305,
 "Lukas Hradecky": 0.151,
-"Mamadou Coulibaly": 0.919,
+"Mamadou Coulibaly": 0.918,
 "Mathys Detourbet": 0.606,
 "Matthis Abline": 0.733,
 "Mika Biereth": 0.378,
 "Mohammed Salisu": 0.544,
 "Názinho": 1.09,
-"Paris Brunner": 1.021,
+"Paris Brunner": 1.02,
 "Sadibou Sané": 0.818,
 "Takumi Minamino": 0.324,
 "Vanderson": 1.305,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -62310,7 +62296,7 @@
 "pick": "Under 33.5",
 "side": "under",
 "line": 33.5,
-"chance": 80,
+"chance": 79,
 "normal": 59,
 "star": true,
 "estimate": false
@@ -62334,7 +62320,7 @@
 "pick": "Under 15.5",
 "side": "under",
 "line": 15.5,
-"chance": 73,
+"chance": 72,
 "normal": 44,
 "star": true,
 "estimate": false
@@ -62465,7 +62451,7 @@
 },
 {
 "key": "total_offsides",
-"expected": 2.63,
+"expected": 2.62,
 "phi": 1.35,
 "estimate": false
 },
@@ -62483,43 +62469,43 @@
 },
 {
 "key": "total_corners",
-"expected": 8.33,
+"expected": 8.3,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 4.38,
+"expected": 4.36,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 3.95,
+"expected": 3.93,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 28.57,
+"expected": 28.62,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 15.7,
+"expected": 15.73,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 12.87,
+"expected": 12.89,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 27.55,
+"expected": 27.54,
 "phi": 1.0,
 "estimate": false
 }
@@ -62555,7 +62541,7 @@
 "David Soria": 0.0785,
 "Davinchi": 0.223,
 "Djené": 0.1686,
-"Enes Ünal": 0.1967,
+"Enes Ünal": 0.1968,
 "Francho Serrano": 0.1533,
 "Ivan Azón": 0.1318,
 "Jean Ives Valou": 0.107,
@@ -62591,7 +62577,7 @@
 "Stephen Jighjigh Ende": 0.653,
 "Vahid Selimovic": 0.711,
 "Zviad Natchkebia": 1.044,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdel Abqar": 0.658,
@@ -62615,7 +62601,7 @@
 "Ramón Terrats": 0.954,
 "Saba Sazonov": 0.696,
 "Sebastián Boselli": 0.79,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -63112,7 +63098,7 @@
 "Saidou Alioum Moubarak": 0.544,
 "Sebastian Nebyla": 0.878,
 "Vakhtang Chanturishvili": 0.378,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Ahmed Kendouci": 0.567,
@@ -63135,7 +63121,7 @@
 "Renato Steffen": 1.317,
 "Uran Bislimi": 1.044,
 "Yanis Cimignani": 0.711,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -63652,7 +63638,7 @@
 "Tomas Svedkauskas": 0.453,
 "Vykintas Slivka": 0.711,
 "Yukiyoshi Karashima": 0.453,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Ahmed Ankrah": 1.044,
@@ -63671,7 +63657,7 @@
 "Reginaldo Ramires": 0.711,
 "Salah-Eddine Oulad": 2.544,
 "Samuel Pedro": 0.453,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -64142,7 +64128,7 @@
 "Rasmus Kristensen": 0.2289,
 "Sofus Johannesen": 0.2361,
 "Stanley Iheanacho": 0.2519,
-"Viktor Bak": 0.248,
+"Viktor Bak": 0.2481,
 "": 0.2663
 }
 },
@@ -64164,7 +64150,7 @@
 "Radoslaw Majecki": 0.378,
 "Samy Mmaee": 0.711,
 "Vlad Dragomir": 0.544,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdou Ndiaye": 0.567,
@@ -64187,7 +64173,7 @@
 "Sofus Johannesen": 0.378,
 "Stanley Iheanacho": 1.211,
 "Viktor Bak": 0.653,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -64681,7 +64667,7 @@
 "Thore Baardsen Pedersen": 0.378,
 "Ulrick Mathisen": 1.067,
 "Vetle Dragsnes": 0.653,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Callum McCowatt": 1.044,
@@ -64707,7 +64693,7 @@
 "Stefen Tchamche": 1.453,
 "Tobias Bech": 0.453,
 "Tobias Henriksen": 0.378,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -64961,7 +64947,7 @@
 "side": "under",
 "line": 1.5,
 "chance": 61,
-"min_odds": 1.7,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -65103,13 +65089,13 @@
 },
 {
 "key": "total_offsides",
-"expected": 2.17,
+"expected": 2.16,
 "phi": 1.35,
 "estimate": false
 },
 {
 "key": "home_offsides",
-"expected": 1.39,
+"expected": 1.38,
 "phi": 1.25,
 "estimate": false
 },
@@ -65121,43 +65107,43 @@
 },
 {
 "key": "total_corners",
-"expected": 10.14,
+"expected": 10.11,
 "phi": 2.05,
 "estimate": false
 },
 {
 "key": "home_corners",
-"expected": 4.28,
+"expected": 4.26,
 "phi": 1.7,
 "estimate": false
 },
 {
 "key": "away_corners",
-"expected": 5.86,
+"expected": 5.84,
 "phi": 1.45,
 "estimate": false
 },
 {
 "key": "total_tackles",
-"expected": 35.41,
+"expected": 35.47,
 "phi": 1.5,
 "estimate": false
 },
 {
 "key": "home_tackles",
-"expected": 19.7,
+"expected": 19.73,
 "phi": 1.6,
 "estimate": false
 },
 {
 "key": "away_tackles",
-"expected": 15.71,
+"expected": 15.74,
 "phi": 2.15,
 "estimate": false
 },
 {
 "key": "free_kicks",
-"expected": 24.35,
+"expected": 24.34,
 "phi": 1.0,
 "estimate": false
 }
@@ -65170,7 +65156,7 @@
 "Chris Richards": 0.1706,
 "Daichi Kamada": 0.1744,
 "Darío Osorio": 0.1529,
-"Dean Henderson": 0.1339,
+"Dean Henderson": 0.134,
 "Dwight McNeil": 0.1279,
 "Eddie Nketiah": 0.173,
 "Honest Ahanor": 0.187,
@@ -65237,8 +65223,8 @@
 "Walter Benítez": 0.206,
 "Will Hughes": 0.324,
 "Yéremy Pino": 0.954,
-"Óscar Mingueza": 0.919,
-"": 0.756
+"Óscar Mingueza": 0.918,
+"": 0.755
 },
 "away": {
 "Aihen Muñoz": 0.544,
@@ -65265,7 +65251,7 @@
 "Unai Marrero": 0.283,
 "Yangel Herrera": 1.618,
 "Álex Remiro": 0.174,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -65764,7 +65750,7 @@
 "Ádám Bagi": 0.817,
 "Ádám Madarász": 0.544,
 "Ádám Nagy": 1.324,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alpha Dionkou": 0.817,
@@ -65775,7 +65761,7 @@
 "Darko Hrka": 0.453,
 "Leonardo Koutris": 0.567,
 "Luka Ticic": 0.653,
-"Lukasz Bejger": 0.61,
+"Lukasz Bejger": 0.609,
 "Mario Kvesic": 0.544,
 "Mark Zabukovnik": 0.752,
 "Matic Ivansek": 0.567,
@@ -65787,7 +65773,7 @@
 "Yaya Dukuly": 0.544,
 "Zan Zuzek": 0.544,
 "Zan-Luk Leban": 0.324,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -66277,7 +66263,7 @@
 "Jaden Montnor": 0.297,
 "Jean-Kévin Duverne": 0.2187,
 "Jure Balkovec": 0.2289,
-"Loïc Négo": 0.248,
+"Loïc Négo": 0.2481,
 "Loïs Diony": 0.3061,
 "Lubomir Satka": 0.2187,
 "Luuk Brouwers": 0.2519,
@@ -66314,7 +66300,7 @@
 "Teun Koopmeiners": 0.892,
 "Weston McKennie": 0.559,
 "Zeki Çelik": 0.772,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Andreas Christou": 0.567,
@@ -66324,22 +66310,22 @@
 "Ewandro": 1.038,
 "Fabiano": 0.378,
 "Florin Tanase": 0.752,
-"Jaden Montnor": 1.61,
+"Jaden Montnor": 1.609,
 "Jean-Kévin Duverne": 0.467,
 "Jure Balkovec": 0.544,
 "Loïc Négo": 0.453,
-"Loïs Diony": 0.61,
+"Loïs Diony": 0.609,
 "Lubomir Satka": 0.467,
 "Luuk Brouwers": 1.044,
 "Mateo Maric": 0.324,
-"Mihlali Mayambela": 0.61,
+"Mihlali Mayambela": 0.609,
 "Muamer Tankovic": 0.653,
 "Panagiotis Andreou": 0.467,
 "Panagiotis Christoforou": 0.567,
 "Senou Coulibaly": 0.544,
 "Stefan Simic": 0.853,
 "Thomas Kaminski": 0.567,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -66828,7 +66814,7 @@
 "Fredrik Gulbrandsen": 0.3036,
 "Gustav Nordh": 0.2498,
 "Gustav Nyheim": 0.3762,
-"Henrik Melland": 0.3343,
+"Henrik Melland": 0.3344,
 "Kevin Martin Krygard": 0.2591,
 "Lars Ranger": 0.3036,
 "Pontus Dahlberg": 0.2169,
@@ -66845,7 +66831,7 @@
 },
 "fh": {
 "home": {
-"Abner": 1.021,
+"Abner": 1.02,
 "Alejandro Rodríguez": 0.567,
 "Clinton Mata": 0.467,
 "Corentin Tolisso": 0.767,
@@ -66858,7 +66844,7 @@
 "Khalis Merah": 0.479,
 "Mads Bidstrup": 0.818,
 "Moussa Niakhaté": 1.189,
-"Nicolás Tagliafico": 0.61,
+"Nicolás Tagliafico": 0.609,
 "Noah Nartey": 0.618,
 "Noham Kamara": 0.567,
 "Pavel Sulc": 0.606,
@@ -66869,11 +66855,11 @@
 "Tanner Tessmann": 0.418,
 "Tyler Morton": 0.636,
 "Zachary Athekame": 0.948,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Daniel Bassi": 0.878,
-"Eric Kitolano": 0.61,
+"Eric Kitolano": 0.609,
 "Filip Ottosson": 1.038,
 "Frederik Elkaer": 0.544,
 "Fredrik Gulbrandsen": 0.752,
@@ -66887,11 +66873,11 @@
 "Sander Moen Foss": 0.653,
 "Stian Kristiansen": 0.453,
 "Sturla Ottesen": 0.653,
-"Thomas Lehne Olsen": 0.61,
+"Thomas Lehne Olsen": 0.609,
 "Vá": 0.467,
 "Yaw Paintsil": 0.752,
 "Ylldren Ibrahimaj": 0.467,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -67337,7 +67323,7 @@
 "squad": {
 "home": {
 "Ahmetcan Kaplan": 0.2361,
-"Almugera Kabar": 0.248,
+"Almugera Kabar": 0.2481,
 "Ayodele Thomas": 0.2401,
 "Bram Nuytinck": 0.2613,
 "Bryan Linssen": 0.2187,
@@ -67354,7 +67340,7 @@
 "Nikolas Polster": 0.2525,
 "Noé Lebreton": 0.3794,
 "Perr Schuurs": 0.2252,
-"Philippe Sandler": 0.248,
+"Philippe Sandler": 0.2481,
 "Tjaronn Chery": 0.2187,
 "Tobias Storm": 0.2401,
 "Willum Thór Willumsson": 0.2519,
@@ -67369,7 +67355,7 @@
 "Brice Samba": 0.1694,
 "Bryan Reynolds": 0.1467,
 "Charlie Cresswell": 0.2008,
-"Djaoui Cissé": 0.3035,
+"Djaoui Cissé": 0.3036,
 "Eliezer Mayenda": 0.1611,
 "Esteban Lepaul": 0.2372,
 "Gonçalo Oliveira": 0.1902,
@@ -67411,7 +67397,7 @@
 "Tobias Storm": 1.253,
 "Willum Thór Willumsson": 0.711,
 "Yassin Moslih": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdelhamid Aït Boudlal": 0.842,
@@ -67435,7 +67421,7 @@
 "Quentin Merlin": 1.033,
 "Sebastian Szymanski": 0.376,
 "Valentin Rongier": 1.204,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -67908,7 +67894,7 @@
 "Achilleas Poungouras": 0.324,
 "Aitor Cantalapiedra": 0.467,
 "Andreas Bouchalakis": 0.752,
-"Borja González": 0.61,
+"Borja González": 0.609,
 "Dimitris Nikolaou": 0.453,
 "Giannis Apostolakis": 0.544,
 "Giannis Theodosoulakis": 0.711,
@@ -67921,11 +67907,11 @@
 "Nicolaos Athanasiou": 0.895,
 "Nikos Christogeorgos": 0.453,
 "Taxiarchis Fountas": 0.467,
-"Thanasis Androutsos": 0.61,
+"Thanasis Androutsos": 0.609,
 "Thanasis Sitmalidis": 0.567,
 "Thiago Thomas Nuss": 1.181,
 "Zisis Karachalios": 0.453,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adriano Bertaccini": 0.453,
@@ -67951,7 +67937,7 @@
 "Tawfik Bentayeb": 0.378,
 "Thelo Aasgaard": 1.378,
 "Tristan Degreef": 1.653,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -68460,7 +68446,7 @@
 "Jakub Surovcik": 0.324,
 "Jaroslav Zelený": 0.544,
 "John Mercado": 0.853,
-"Jonatan Brunes": 0.61,
+"Jonatan Brunes": 0.609,
 "Josimar Alcócer": 1.181,
 "Ki-Jana Hoever": 0.711,
 "Loïc Mbe Soh": 1.053,
@@ -68475,7 +68461,7 @@
 "Sivert Mannsverk": 0.544,
 "Tobias Guddal": 1.181,
 "Viktor Vitályos": 0.567,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Ayoub Oufkir": 0.895,
@@ -68497,11 +68483,11 @@
 "Rion Ichihara": 0.567,
 "Ro-Zangelo Daal": 0.467,
 "Seiya Maikuma": 1.253,
-"Valdemar Byskov": 0.61,
+"Valdemar Byskov": 0.609,
 "Wesley Hoedt": 1.378,
 "Weslley Patati": 0.878,
 "Wouter Goes": 0.378,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -68945,8 +68931,8 @@
 "Brian Brobbey": 0.1556,
 "Chemsdine Talbi": 0.1543,
 "Chris Rigg": 0.1639,
-"Dayann Methalie": 0.179,
-"Enzo Le Fée": 0.1375,
+"Dayann Methalie": 0.1791,
+"Enzo Le Fée": 0.1376,
 "Granit Xhaka": 0.2035,
 "Habib Diarra": 0.1443,
 "Jules Ahoka": 0.138,
@@ -69006,7 +68992,7 @@
 "Malick Fofana": 0.772,
 "Nilson Angulo": 0.951,
 "Noah Sadiki": 0.704,
-"Nordi Mukiele": 1.021,
+"Nordi Mukiele": 1.02,
 "Omar Alderete": 1.327,
 "Reinildo Mandava": 0.818,
 "Robin Roefs": 0.142,
@@ -69014,7 +69000,7 @@
 "Trai Hume": 0.951,
 "Tymur Tutierov": 0.895,
 "Wilson Isidor": 0.939,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aleksandar Cirkovic": 0.378,
@@ -69033,13 +69019,13 @@
 "Nik Prelec": 1.044,
 "Norbert Wojtuszek": 1.317,
 "Ousmane Sow": 0.544,
-"Rodrigo Conceição": 0.61,
+"Rodrigo Conceição": 0.609,
 "Sergio Lozano": 0.453,
 "Slawomir Abramowicz": 0.324,
 "Taras Romanczuk": 0.752,
 "Youssuf Sylla": 0.817,
 "Yuki Kobayashi": 0.378,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -69458,7 +69444,7 @@
 ],
 "squad": {
 "home": {
-"Adriel": 0.1067,
+"Adriel": 0.1068,
 "Alejandro Alfaro": 0.1256,
 "Amine Oudrhiri": 0.0952,
 "Andre Simoes": 0.1084,
@@ -69487,7 +69473,7 @@
 "Benjamin Nygren": 0.1694,
 "Callum McGregor": 0.1611,
 "Callum Osmand": 0.1611,
-"Cameron Carter-Vickers": 0.1945,
+"Cameron Carter-Vickers": 0.1946,
 "Camilo Durán": 0.1626,
 "Colby Donovan": 0.3527,
 "Dane Murray": 0.153,
@@ -69514,7 +69500,7 @@
 "Alejandro Alfaro": 0.752,
 "Amine Oudrhiri": 0.895,
 "Andre Simoes": 0.453,
-"Dany Jean": 0.61,
+"Dany Jean": 0.609,
 "David Bruno": 1.044,
 "Javier Vazquez": 0.467,
 "Jonathan Mutombo": 1.211,
@@ -69525,13 +69511,13 @@
 "Lucas Paes": 0.378,
 "Luis Quintero": 0.544,
 "Malik Abubakari": 0.544,
-"Manuel Pozo": 0.61,
-"Mohamed Diadié": 0.61,
+"Manuel Pozo": 0.609,
+"Mohamed Diadié": 0.609,
 "Musa Drammeh": 1.038,
 "Nuha Jatta": 0.853,
 "Stopira": 0.653,
 "Volnei Feltes": 0.895,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alex Oxlade-Chamberlain": 0.252,
@@ -69539,14 +69525,14 @@
 "Benjamin Nygren": 0.959,
 "Callum McGregor": 0.626,
 "Callum Osmand": 0.522,
-"Cameron Carter-Vickers": 1.021,
+"Cameron Carter-Vickers": 1.02,
 "Camilo Durán": 1.015,
 "Colby Donovan": 1.181,
 "Dane Murray": 0.689,
 "Haissem Hassan": 0.369,
 "James Forrest": 0.218,
 "Jordan Lotomba": 0.711,
-"Jota": 0.61,
+"Jota": 0.609,
 "Kasper Høgh": 1.079,
 "Kieran Tierney": 0.486,
 "Landon Emenalo": 1.253,
@@ -69557,7 +69543,7 @@
 "Sam Johnstone": 0.252,
 "Sebastian Tounekti": 0.329,
 "Shim Mheuka": 0.527,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -70052,7 +70038,7 @@
 "Valentin Lässig": 0.567,
 "Vladimír Coufal": 0.636,
 "Wouter Burger": 0.876,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Albert Vallci": 0.878,
@@ -70075,7 +70061,7 @@
 "Petar Petrović": 0.567,
 "Simon Seidl": 0.895,
 "Valmir Matoshi": 0.752,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -70534,7 +70520,7 @@
 "Lazar Samardzic": 0.2475,
 "Lorenzo Bernasconi": 0.1787,
 "Marco Carnesecchi": 0.1505,
-"Mario Pasalic": 0.1807,
+"Mario Pasalic": 0.1808,
 "Nicola Zalewski": 0.251,
 "Nikola Krstovic": 0.2413,
 "Raoul Bellanova": 0.2485,
@@ -70563,7 +70549,7 @@
 "Stefan Savic": 1.044,
 "Stojan Vranjes": 0.378,
 "Viktor Rogan": 0.853,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Charles De Ketelaere": 0.642,
@@ -70585,7 +70571,7 @@
 "Relja Obric": 1.03,
 "Thomas Kristensen": 0.827,
 "Éderson": 1.329,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -71044,11 +71030,11 @@
 "Arttu Lotjonen": 0.2696,
 "Ayman Aiki": 0.2045,
 "Bob Armah": 0.2045,
-"Brahima Magassa": 0.2187,
+"Brahima Magassa": 0.2188,
 "Gustav Engvall": 0.2111,
 "Jaime Moreno": 0.2222,
 "Johannes Kreidl": 0.1983,
-"Joslyn Luyeye-Lutumba": 0.2187,
+"Joslyn Luyeye-Lutumba": 0.2188,
 "Julius Eskesen": 0.2783,
 "Kasim Nuhu": 0.2983,
 "Niilo Kujasalo": 0.1983,
@@ -71057,12 +71043,12 @@
 "Ricardo Araujo": 0.2263,
 "Saikou Touray": 0.2149,
 "Saku Heiskanen": 0.2222,
-"Saku Savolainen": 0.2187,
+"Saku Savolainen": 0.2188,
 "Samuel Pasanen": 0.208,
 "Taneli Hämäläinen": 0.2983,
 "Tommi Jyry": 0.2111,
-"Valentín Gasc": 0.2187,
-"": 0.2306
+"Valentín Gasc": 0.2188,
+"": 0.2307
 }
 },
 "fh": {
@@ -71088,7 +71074,7 @@
 "Ricardo Horta": 0.544,
 "Sergio Barcia": 1.053,
 "Víctor Gómez": 0.544,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Akseli Puukko": 0.453,
@@ -71113,7 +71099,7 @@
 "Taneli Hämäläinen": 1.317,
 "Tommi Jyry": 0.711,
 "Valentín Gasc": 0.817,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -71570,7 +71556,7 @@
 "away": {
 "André Onana": 0.1402,
 "Aral Simsir": 0.1519,
-"Batista Mendy": 0.1906,
+"Batista Mendy": 0.1907,
 "Benjamin Bouchouari": 0.1446,
 "Cenk Özkacar": 0.1402,
 "Chibuike Nwaiwu": 0.2109,
@@ -71614,7 +71600,7 @@
 "Tamimou Ouorou": 0.567,
 "Teodor Ivanov": 0.711,
 "Ángelo Martino": 1.211,
-"": 0.756
+"": 0.755
 },
 "away": {
 "André Onana": 0.378,
@@ -71637,7 +71623,7 @@
 "Sidny Lopes Cabral": 1.067,
 "Tim Jabol-Folcarelli": 0.853,
 "Wagner Pina": 0.544,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -72131,7 +72117,7 @@
 "Tobias Salquist": 0.711,
 "Victor Nelsson": 0.878,
 "Villum Berthelsen": 1.211,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Adriano Jagusic": 0.453,
@@ -72155,7 +72141,7 @@
 "Stefan de Vrij": 0.711,
 "Triantafyllos Tsapras": 0.817,
 "Vicente Taborda": 1.044,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -72644,7 +72630,7 @@
 "Michele Sego": 1.878,
 "Simun Hrgovic": 1.044,
 "Toni Silic": 0.378,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Abdoulage Sissako": 1.044,
@@ -72665,7 +72651,7 @@
 "Taiga Hata": 0.567,
 "Visar Musliu": 0.711,
 "Wolke Janssens": 0.567,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -73127,7 +73113,7 @@
 "Thomas Delaney": 0.1571,
 "Viktor Dadason": 0.1571,
 "William Clem": 0.1651,
-"Ákos Markgráf": 0.2831,
+"Ákos Markgráf": 0.2832,
 "": 0.1772
 }
 },
@@ -73150,7 +73136,7 @@
 "Soule": 0.711,
 "Victor Alonso": 0.878,
 "Álex Sánchez": 0.544,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Alex Král": 0.853,
@@ -73175,7 +73161,7 @@
 "Viktor Dadason": 0.878,
 "William Clem": 0.653,
 "Ákos Markgráf": 2.211,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -73608,7 +73594,7 @@
 "home": {
 "Abdelkahar Kadri": 0.1742,
 "Christian Burgess": 0.1657,
-"Davy Roef": 0.1579,
+"Davy Roef": 0.158,
 "El Hadji Seck": 0.177,
 "Gilles De Meyer": 0.177,
 "Hyllarion": 0.1629,
@@ -73623,8 +73609,8 @@
 "Matties Volckaert": 0.1657,
 "Michel-Ange Balikwisha": 0.1657,
 "Momodou Sonko": 0.2148,
-"Siebe van der Heyden": 0.1579,
-"Tiago Araújo": 0.1579,
+"Siebe van der Heyden": 0.158,
+"Tiago Araújo": 0.158,
 "Tibe De Vlieger": 0.2747,
 "": 0.1837
 },
@@ -73678,7 +73664,7 @@
 "Siebe van der Heyden": 0.544,
 "Tiago Araújo": 0.544,
 "Tibe De Vlieger": 0.711,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aleksandar Katai": 1.067,
@@ -73705,7 +73691,7 @@
 "Vasilije Kostov": 0.544,
 "Vladimir Lucic": 0.544,
 "Yuta Nakayama": 1.211,
-"": 0.756
+"": 0.755
 }
 }
 }
@@ -74172,7 +74158,7 @@
 "Matthias Ginter": 0.1832,
 "Max Rosenfelder": 0.1465,
 "Maximilian Eggestein": 0.2236,
-"Mio Backhaus": 0.1443,
+"Mio Backhaus": 0.1444,
 "Niklas Beste": 0.1531,
 "Patrick Osterhage": 0.2593,
 "Philipp Lienhart": 0.1531,
@@ -74181,7 +74167,7 @@
 "Vincenzo Grifo": 0.1787,
 "Yannick Engelhardt": 0.1971,
 "Yuito Suzuki": 0.1945,
-"": 0.1708
+"": 0.1709
 },
 "away": {
 "Aske Adelgaard": 0.2641,
@@ -74227,7 +74213,7 @@
 "Vincenzo Grifo": 0.251,
 "Yannick Engelhardt": 1.189,
 "Yuito Suzuki": 0.636,
-"": 0.756
+"": 0.755
 },
 "away": {
 "Aske Adelgaard": 1.211,
@@ -74249,7 +74235,7 @@
 "Thomas van den Belt": 0.711,
 "Wout Weghorst": 0.711,
 "Younes Taha": 1.044,
-"": 0.756
+"": 0.755
 }
 }
 }
