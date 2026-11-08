@@ -34305,26 +34305,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Facundo Medina (Leverkusen)",
+"pick": "Paul Okon-Engstler (FC Koln)",
 "side": "player",
 "line": null,
-"player": "Facundo Medina",
-"team": "away",
-"chance": 21,
-"confirmed": false,
+"player": "Paul Okon-Engstler",
+"team": "home",
+"chance": 22,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Jahmai Simpson-Pusey (FC Koln)",
+"pick": "Ibrahim Maza (Leverkusen)",
 "side": "player",
 "line": null,
-"player": "Jahmai Simpson-Pusey",
-"team": "home",
-"chance": 19,
-"confirmed": false,
+"player": "Ibrahim Maza",
+"team": "away",
+"chance": 22,
+"confirmed": true,
 "star": false
 },
 {
@@ -34336,8 +34336,8 @@
 "line": null,
 "player": "Ezequiel Fernández",
 "team": "away",
-"chance": 19,
-"confirmed": false,
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -34909,7 +34909,7 @@
 "player": "Owen Eames",
 "team": "away",
 "chance": 27,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -34922,20 +34922,20 @@
 "player": "Brad Spencer",
 "team": "away",
 "chance": 25,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Ryan Strain (Falkirk)",
+"pick": "Finley Barbrook (Falkirk)",
 "side": "player",
 "line": null,
-"player": "Ryan Strain",
+"player": "Finley Barbrook",
 "team": "away",
 "chance": 20,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -35462,7 +35462,8 @@
 "chance": 68,
 "min_odds": 1.5,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_cards",
@@ -37766,7 +37767,8 @@
 "chance": 83,
 "normal": 75,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_corners",
@@ -38461,7 +38463,8 @@
 "chance": 66,
 "min_odds": 1.55,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_sot",
@@ -42433,7 +42436,8 @@
 "chance": 83,
 "normal": 75,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_cards",
@@ -42645,7 +42649,8 @@
 "chance": 69,
 "min_odds": 1.45,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_fouls",
@@ -44958,7 +44963,8 @@
 "chance": 83,
 "normal": 75,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_tackles",
