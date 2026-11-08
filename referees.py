@@ -26,7 +26,7 @@ API = "https://api.football-data.org/v4/competitions/{}/matches"
 COMPS = {"I1": "SA", "SP1": "PD", "D1": "BL1", "F1": "FL1"}   # our league code -> theirs
 PAST = 4                                                        # past seasons kept
 _MAPS = {}
-ON = False                                                      # switched on once tested
+ON = True                                                       # tested 2026-11-08: better booking predictions in all 4 leagues
 
 
 def _key():
@@ -78,6 +78,8 @@ def update():
             calls += 1
             if rows is not None:
                 store.setdefault(comp, {})[s] = rows
+            elif season != now:
+                store.setdefault(comp, {})[s] = []   # not in the free plan: don't ask again
     CACHE.parent.mkdir(exist_ok=True)
     CACHE.write_text(json.dumps(store, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"  referees: {calls} requests, {sum(len(v) for c in store.values() for v in c.values())} matches saved")
