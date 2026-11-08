@@ -3,38 +3,122 @@
  "days": 120,
  "safe": {
   "result": {
-   "n": 6,
-   "landed": 83.3,
-   "said": 76.7,
-   "move": 0.004,
+   "n": 8,
+   "landed": 75.0,
+   "said": 77.5,
+   "move": -0.002,
    "hide": false
   },
   "total_shots": {
-   "n": 295,
-   "landed": 78.6,
+   "n": 297,
+   "landed": 78.8,
    "said": 76.5,
-   "move": 0.016,
+   "move": 0.017,
    "hide": false
   },
   "total_sot": {
-   "n": 230,
-   "landed": 78.3,
+   "n": 231,
+   "landed": 77.9,
    "said": 77.9,
-   "move": 0.003,
+   "move": 0.0,
    "hide": false
   },
   "home_sot": {
-   "n": 326,
-   "landed": 81.9,
+   "n": 328,
+   "landed": 81.7,
    "said": 80.0,
-   "move": 0.014,
+   "move": 0.013,
+   "hide": false
+  },
+  "away_cards": {
+   "n": 145,
+   "landed": 81.4,
+   "said": 79.6,
+   "move": 0.011,
+   "hide": false
+  },
+  "away_fouls": {
+   "n": 348,
+   "landed": 81.0,
+   "said": 80.2,
+   "move": 0.007,
+   "hide": false
+  },
+  "home_offsides": {
+   "n": 17,
+   "landed": 76.5,
+   "said": 78.9,
+   "move": -0.004,
+   "hide": false
+  },
+  "away_offsides": {
+   "n": 17,
+   "landed": 70.6,
+   "said": 78.5,
+   "move": -0.011,
+   "hide": false
+  },
+  "total_corners": {
+   "n": 8,
+   "landed": 75.0,
+   "said": 75.1,
+   "move": -0.0,
+   "hide": false
+  },
+  "home_corners": {
+   "n": 32,
+   "landed": 75.0,
+   "said": 77.0,
+   "move": -0.005,
+   "hide": false
+  },
+  "free_kicks": {
+   "n": 40,
+   "landed": 77.5,
+   "said": 77.6,
+   "move": -0.0,
    "hide": false
   },
   "away_sot": {
-   "n": 281,
-   "landed": 78.6,
-   "said": 79.4,
-   "move": -0.005,
+   "n": 282,
+   "landed": 78.4,
+   "said": 79.3,
+   "move": -0.007,
+   "hide": false
+  },
+  "home_fouls": {
+   "n": 322,
+   "landed": 79.2,
+   "said": 78.6,
+   "move": 0.004,
+   "hide": false
+  },
+  "away_corners": {
+   "n": 28,
+   "landed": 75.0,
+   "said": 76.9,
+   "move": -0.004,
+   "hide": false
+  },
+  "total_tackles": {
+   "n": 39,
+   "landed": 76.9,
+   "said": 77.1,
+   "move": -0.0,
+   "hide": false
+  },
+  "home_tackles": {
+   "n": 40,
+   "landed": 72.5,
+   "said": 76.3,
+   "move": -0.011,
+   "hide": false
+  },
+  "away_tackles": {
+   "n": 37,
+   "landed": 75.7,
+   "said": 76.0,
+   "move": -0.001,
    "hide": false
   },
   "total_cards": {
@@ -44,76 +128,6 @@
    "move": -0.005,
    "hide": false
   },
-  "home_fouls": {
-   "n": 321,
-   "landed": 79.1,
-   "said": 78.6,
-   "move": 0.004,
-   "hide": false
-  },
-  "away_fouls": {
-   "n": 346,
-   "landed": 80.9,
-   "said": 80.2,
-   "move": 0.006,
-   "hide": false
-  },
-  "home_offsides": {
-   "n": 15,
-   "landed": 73.3,
-   "said": 79.1,
-   "move": -0.007,
-   "hide": false
-  },
-  "home_corners": {
-   "n": 30,
-   "landed": 73.3,
-   "said": 76.7,
-   "move": -0.008,
-   "hide": false
-  },
-  "away_corners": {
-   "n": 27,
-   "landed": 74.1,
-   "said": 76.8,
-   "move": -0.006,
-   "hide": false
-  },
-  "total_tackles": {
-   "n": 38,
-   "landed": 76.3,
-   "said": 77.1,
-   "move": -0.002,
-   "hide": false
-  },
-  "home_tackles": {
-   "n": 39,
-   "landed": 74.4,
-   "said": 76.4,
-   "move": -0.006,
-   "hide": false
-  },
-  "away_tackles": {
-   "n": 36,
-   "landed": 75.0,
-   "said": 76.0,
-   "move": -0.003,
-   "hide": false
-  },
-  "free_kicks": {
-   "n": 38,
-   "landed": 76.3,
-   "said": 77.7,
-   "move": -0.004,
-   "hide": false
-  },
-  "away_cards": {
-   "n": 143,
-   "landed": 81.1,
-   "said": 79.6,
-   "move": 0.009,
-   "hide": false
-  },
   "total_offsides": {
    "n": 28,
    "landed": 75.0,
@@ -121,25 +135,11 @@
    "move": -0.006,
    "hide": false
   },
-  "away_offsides": {
-   "n": 15,
-   "landed": 73.3,
-   "said": 78.3,
-   "move": -0.007,
-   "hide": false
-  },
   "total_goals": {
    "n": 3,
    "landed": 33.3,
    "said": 79.3,
    "move": -0.013,
-   "hide": false
-  },
-  "total_corners": {
-   "n": 7,
-   "landed": 71.4,
-   "said": 74.9,
-   "move": -0.002,
    "hide": false
   },
   "home_cards": {
@@ -151,25 +151,60 @@
   }
  },
  "value": {
-  "home_sot": {
-   "n": 29,
-   "landed": 62.1,
-   "said": 65.7,
-   "move": -0.008,
+  "total_sot": {
+   "n": 19,
+   "landed": 73.7,
+   "said": 61.9,
+   "move": 0.019,
    "hide": false
   },
   "away_sot": {
-   "n": 31,
-   "landed": 77.4,
+   "n": 33,
+   "landed": 75.8,
    "said": 64.6,
-   "move": 0.03,
+   "move": 0.028,
    "hide": false
   },
   "home_cards": {
-   "n": 28,
-   "landed": 53.6,
+   "n": 29,
+   "landed": 55.2,
    "said": 64.8,
-   "move": -0.024,
+   "move": -0.022,
+   "hide": false
+  },
+  "home_offsides": {
+   "n": 25,
+   "landed": 64.0,
+   "said": 62.1,
+   "move": 0.004,
+   "hide": false
+  },
+  "away_offsides": {
+   "n": 24,
+   "landed": 50.0,
+   "said": 63.5,
+   "move": -0.026,
+   "hide": false
+  },
+  "home_sot": {
+   "n": 30,
+   "landed": 63.3,
+   "said": 65.4,
+   "move": -0.005,
+   "hide": false
+  },
+  "away_fouls": {
+   "n": 17,
+   "landed": 58.8,
+   "said": 62.4,
+   "move": -0.005,
+   "hide": false
+  },
+  "home_corners": {
+   "n": 19,
+   "landed": 68.4,
+   "said": 61.7,
+   "move": 0.011,
    "hide": false
   },
   "away_cards": {
@@ -193,46 +228,11 @@
    "move": -0.008,
    "hide": false
   },
-  "away_fouls": {
-   "n": 16,
-   "landed": 62.5,
-   "said": 62.6,
-   "move": -0.0,
-   "hide": false
-  },
-  "away_offsides": {
-   "n": 23,
-   "landed": 52.2,
-   "said": 63.3,
-   "move": -0.021,
-   "hide": false
-  },
-  "home_corners": {
-   "n": 18,
-   "landed": 66.7,
-   "said": 61.6,
-   "move": 0.008,
-   "hide": false
-  },
   "total_shots": {
    "n": 8,
    "landed": 62.5,
    "said": 59.9,
    "move": 0.002,
-   "hide": false
-  },
-  "total_sot": {
-   "n": 18,
-   "landed": 72.2,
-   "said": 61.9,
-   "move": 0.016,
-   "hide": false
-  },
-  "home_offsides": {
-   "n": 24,
-   "landed": 66.7,
-   "said": 62.2,
-   "move": 0.009,
    "hide": false
   },
   "total_corners": {
@@ -252,8 +252,8 @@
  },
  "player": {
   "player_booked": {
-   "n": 1108,
-   "landed": 20.3,
+   "n": 1114,
+   "landed": 20.4,
    "said": 21.5,
    "move": -0.011,
    "hide": false

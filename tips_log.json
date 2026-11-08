@@ -36529,7 +36529,249 @@
 "": 0.756
 }
 }
+},
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Leverkusen to win",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 27.5",
+"chance": 79,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 11.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 3.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 1.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 11.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Under 4.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 5.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Ibrahim Maza",
+"chance": 15,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Paul Okon-Engstler",
+"chance": 14,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Ezequiel Fernández",
+"chance": 13,
+"hit": false
+},
+{
+"at": 60,
+"key": "result",
+"market": "Match result",
+"pick": "Leverkusen to win",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 12.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 6.5",
+"chance": 89,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 7.5",
+"chance": 90,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Over 12.5",
+"chance": 72,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 9.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Under 11.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Under 3.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Under 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Ibrahim Maza",
+"chance": 12,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Paul Okon-Engstler",
+"chance": 11,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Ezequiel Fernández",
+"chance": 10,
+"hit": false
 }
+]
 },
 "SC0|2026-11-08|Hearts|Falkirk": {
 "code": "SC0",
@@ -44350,8 +44592,7 @@
 "side": "HD",
 "chance": 81,
 "line": null,
-"star": false,
-"best": "safe"
+"star": false
 },
 {
 "key": "total_shots",
@@ -44391,11 +44632,14 @@
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Schalke 04 shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 83,
+"normal": 75,
+"star": false,
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_cards",
@@ -44566,7 +44810,7 @@
 "pick": "Under 19.5",
 "side": "under",
 "line": 19.5,
-"chance": 80,
+"chance": 79,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -44625,8 +44869,8 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -44953,7 +45197,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 78,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -45072,7 +45316,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 72,
+"chance": 73,
 "normal": 45,
 "star": true,
 "estimate": false
@@ -45106,7 +45350,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 77,
+"chance": 78,
 "normal": 68,
 "star": false,
 "estimate": false
@@ -45130,9 +45374,9 @@
 "pick": "Under 33.5",
 "side": "under",
 "line": 33.5,
-"chance": 78,
+"chance": 79,
 "normal": 67,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -45164,9 +45408,9 @@
 "pick": "Over 26.5",
 "side": "over",
 "line": 26.5,
-"chance": 72,
+"chance": 73,
 "normal": 61,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -45210,13 +45454,26 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Andrea Fulignati (Cremonese)",
+"pick": "Tommaso Barbieri (Cremonese)",
 "side": "player",
 "line": null,
-"player": "Andrea Fulignati",
+"player": "Tommaso Barbieri",
 "team": "away",
-"chance": 19,
-"confirmed": false,
+"chance": 26,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Federico Bonazzoli (Cremonese)",
+"side": "player",
+"line": null,
+"player": "Federico Bonazzoli",
+"team": "away",
+"chance": 23,
+"confirmed": true,
 "star": false
 },
 {
@@ -45228,21 +45485,8 @@
 "line": null,
 "player": "Tommaso Berti",
 "team": "away",
-"chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Federico Baschirotto (Cremonese)",
-"side": "player",
-"line": null,
-"player": "Federico Baschirotto",
-"team": "away",
-"chance": 19,
-"confirmed": false,
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -45521,7 +45765,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 78,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -45668,7 +45912,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 75,
+"chance": 74,
 "normal": 62,
 "star": true,
 "estimate": false
@@ -45722,7 +45966,7 @@
 "pick": "Over 13.5",
 "side": "over",
 "line": 13.5,
-"chance": 78,
+"chance": 77,
 "normal": 68,
 "star": false,
 "estimate": false
@@ -45756,7 +46000,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -45817,7 +46061,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -46163,7 +46407,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 81,
+"chance": 80,
 "normal": 67,
 "star": true,
 "estimate": false
@@ -46283,10 +46527,11 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 81,
+"chance": 82,
 "normal": 64,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "away_offsides",
@@ -46327,7 +46572,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 80,
+"chance": 81,
 "normal": 67,
 "star": true,
 "estimate": false
@@ -46348,14 +46593,11 @@
 "key": "home_tackles",
 "market": "Home tackles",
 "label": "Fiorentina tackles",
-"pick": "Under 19.5",
-"side": "under",
-"line": 19.5,
-"chance": 83,
-"normal": 77,
-"star": false,
-"estimate": false,
-"best": "safe"
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_tackles",
@@ -46752,11 +46994,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 8.5",
+"pick": "Over 7.5",
 "side": "over",
-"line": 8.5,
-"chance": 72,
-"normal": 54,
+"line": 7.5,
+"chance": 82,
+"normal": 67,
 "star": true,
 "estimate": false
 },
@@ -46782,8 +47024,7 @@
 "chance": 82,
 "normal": 52,
 "star": true,
-"estimate": false,
-"best": "safe"
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -46892,10 +47133,11 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 81,
+"chance": 82,
 "normal": 49,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "away_offsides",
@@ -47559,7 +47801,7 @@
 "pick": "Over 22.5",
 "side": "over",
 "line": 22.5,
-"chance": 82,
+"chance": 83,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -47571,7 +47813,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 62,
+"chance": 61,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -48060,11 +48302,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Over 27.5",
+"pick": "Over 29.5",
 "side": "over",
-"line": 27.5,
-"chance": 81,
-"normal": 71,
+"line": 29.5,
+"chance": 72,
+"normal": 61,
 "star": false,
 "estimate": false
 },
@@ -48107,7 +48349,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 73,
+"chance": 72,
 "min_odds": 1.4,
 "value": true,
 "star": false
@@ -48120,7 +48362,7 @@
 "side": "under",
 "line": 2.5,
 "chance": 59,
-"min_odds": 1.7,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -48459,7 +48701,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 77,
+"chance": 76,
 "normal": 63,
 "star": true,
 "estimate": false
@@ -48483,7 +48725,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 72,
+"chance": 73,
 "normal": 63,
 "star": false,
 "estimate": false
@@ -48625,7 +48867,7 @@
 "pick": "Under 17.5",
 "side": "under",
 "line": 17.5,
-"chance": 76,
+"chance": 75,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -49120,11 +49362,13 @@
 "key": "home_corners",
 "market": "Home corners",
 "label": "Como corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 75,
+"normal": 69,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_corners",
@@ -49145,7 +49389,7 @@
 "pick": "Over 29.5",
 "side": "over",
 "line": 29.5,
-"chance": 79,
+"chance": 80,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -49600,13 +49844,11 @@
 "key": "away_offsides",
 "market": "Away offsides",
 "label": "FC Porto offsides",
-"pick": "Over 0.5",
-"side": "over",
-"line": 0.5,
-"chance": 82,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_corners",
@@ -49615,7 +49857,7 @@
 "pick": "Under 9.5",
 "side": "under",
 "line": 9.5,
-"chance": 72,
+"chance": 73,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -49639,7 +49881,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 72,
+"chance": 73,
 "normal": 51,
 "star": true,
 "estimate": false
@@ -49673,7 +49915,7 @@
 "pick": "Under 18.5",
 "side": "under",
 "line": 18.5,
-"chance": 73,
+"chance": 74,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -49697,8 +49939,8 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 61,
-"min_odds": 1.65,
+"chance": 60,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -50053,7 +50295,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 72,
+"chance": 73,
 "normal": 63,
 "star": false,
 "estimate": false
@@ -50131,7 +50373,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 77,
+"chance": 78,
 "normal": 64,
 "star": true,
 "estimate": false
@@ -50163,9 +50405,9 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 80,
+"chance": 81,
 "normal": 69,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -50175,7 +50417,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 77,
+"chance": 78,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -50199,7 +50441,7 @@
 "pick": "Under 16.5",
 "side": "under",
 "line": 16.5,
-"chance": 73,
+"chance": 72,
 "normal": 47,
 "star": true,
 "estimate": false
@@ -50233,8 +50475,8 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -50703,7 +50945,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 73,
+"chance": 74,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -50715,7 +50957,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 82,
+"chance": 83,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -51093,7 +51335,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 80,
+"chance": 79,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -51301,8 +51543,8 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -51763,7 +52005,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 80,
+"chance": 81,
 "normal": 64,
 "star": true,
 "estimate": false
@@ -51775,7 +52017,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 72,
+"chance": 73,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -52140,11 +52382,11 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Under 30.5",
+"pick": "Under 29.5",
 "side": "under",
-"line": 30.5,
-"chance": 83,
-"normal": 78,
+"line": 29.5,
+"chance": 79,
+"normal": 74,
 "star": false,
 "estimate": false
 },
@@ -52334,11 +52576,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Under 37.5",
+"pick": "Under 36.5",
 "side": "under",
-"line": 37.5,
-"chance": 83,
-"normal": 74,
+"line": 36.5,
+"chance": 80,
+"normal": 71,
 "star": false,
 "estimate": false
 },
@@ -52407,7 +52649,7 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 63,
+"chance": 64,
 "min_odds": 1.6,
 "value": true,
 "star": false
@@ -52728,13 +52970,11 @@
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Villarreal shots on target",
-"pick": "Over 2.5",
-"side": "over",
-"line": 2.5,
-"chance": 77,
-"normal": 71,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "home_cards",
@@ -53399,7 +53639,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 81,
+"chance": 82,
 "normal": 69,
 "star": true,
 "estimate": false
@@ -53445,20 +53685,22 @@
 "pick": "Over 13.5",
 "side": "over",
 "line": 13.5,
-"chance": 76,
+"chance": 77,
 "normal": 65,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 72,
+"normal": 64,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_offsides",
@@ -53467,7 +53709,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 62,
+"chance": 61,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -53807,7 +54049,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 80,
+"chance": 79,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -53954,13 +54196,11 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "Liverpool corners",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
-"chance": 83,
-"normal": 65,
-"star": true,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_tackles",
@@ -54011,7 +54251,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 67,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -54319,7 +54559,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 76,
+"chance": 75,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -54535,7 +54775,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 65,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -55033,7 +55273,7 @@
 "pick": "Over 16.5",
 "side": "over",
 "line": 16.5,
-"chance": 76,
+"chance": 75,
 "normal": 53,
 "star": true,
 "estimate": false
@@ -55067,8 +55307,8 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -55597,7 +55837,7 @@
 "pick": "Over 26.5",
 "side": "over",
 "line": 26.5,
-"chance": 80,
+"chance": 81,
 "normal": 75,
 "star": false,
 "estimate": false
@@ -55973,7 +56213,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 81,
+"chance": 80,
 "normal": 75,
 "star": false,
 "estimate": false
@@ -56037,7 +56277,7 @@
 "pick": "Under 13.5",
 "side": "under",
 "line": 13.5,
-"chance": 76,
+"chance": 77,
 "normal": 70,
 "star": false,
 "estimate": false
@@ -56081,7 +56321,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 73,
+"chance": 74,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -56093,9 +56333,9 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 81,
+"chance": 80,
 "normal": 69,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -56168,11 +56408,13 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 72,
+"normal": 64,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_offsides",
@@ -56477,7 +56719,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 75,
+"chance": 76,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -56489,9 +56731,9 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 77,
+"chance": 76,
 "normal": 65,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -56533,7 +56775,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 72,
+"chance": 73,
 "normal": 63,
 "star": false,
 "estimate": false
@@ -56611,7 +56853,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 76,
+"chance": 77,
 "normal": 64,
 "star": true,
 "estimate": false
@@ -56669,7 +56911,7 @@
 "pick": "Over 29.5",
 "side": "over",
 "line": 29.5,
-"chance": 78,
+"chance": 79,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -56703,7 +56945,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 73,
+"chance": 74,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -57162,13 +57404,11 @@
 "key": "home_corners",
 "market": "Home corners",
 "label": "Kairat Almaty corners",
-"pick": "Under 7.5",
-"side": "under",
-"line": 7.5,
-"chance": 83,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_corners",
@@ -57201,7 +57441,7 @@
 "pick": "Over 14.5",
 "side": "over",
 "line": 14.5,
-"chance": 78,
+"chance": 77,
 "normal": 52,
 "star": true,
 "estimate": false
@@ -57223,7 +57463,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 74,
+"chance": 75,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -57548,11 +57788,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 7.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 7.5,
-"chance": 72,
-"normal": 65,
+"line": 6.5,
+"chance": 82,
+"normal": 76,
 "star": false,
 "estimate": false
 },
@@ -57669,7 +57909,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 75,
+"chance": 76,
 "normal": 58,
 "star": true,
 "estimate": false
@@ -57765,6 +58005,18 @@
 "normal": 49,
 "star": true,
 "estimate": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Besiktas corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -58085,7 +58337,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 75,
+"chance": 74,
 "normal": 62,
 "star": true,
 "estimate": false
@@ -58201,7 +58453,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 75,
+"chance": 74,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -58281,7 +58533,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 72,
+"chance": 73,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -58293,7 +58545,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 60,
+"chance": 59,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -58730,11 +58982,13 @@
 "key": "total_corners",
 "market": "Total corners",
 "label": "Total corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 72,
+"normal": 65,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_corners",
@@ -59141,7 +59395,7 @@
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 82,
+"chance": 81,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -59269,7 +59523,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 75,
+"chance": 74,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -59303,7 +59557,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 81,
+"chance": 82,
 "normal": 65,
 "star": true,
 "estimate": false
@@ -59349,7 +59603,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 77,
+"chance": 78,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -59877,7 +60131,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 73,
+"chance": 72,
 "min_odds": 1.4,
 "value": true,
 "star": false
@@ -60397,7 +60651,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 72,
+"chance": 73,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -60739,7 +60993,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 78,
+"chance": 77,
 "normal": 63,
 "star": true,
 "estimate": false
@@ -60875,7 +61129,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 81,
+"chance": 82,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -61239,9 +61493,9 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 74,
+"chance": 73,
 "normal": 62,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -61382,11 +61636,11 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "Benfica corners",
-"pick": "Under 5.5",
+"pick": "Under 4.5",
 "side": "under",
-"line": 5.5,
-"chance": 83,
-"normal": 76,
+"line": 4.5,
+"chance": 72,
+"normal": 65,
 "star": false,
 "estimate": false
 },
@@ -61397,7 +61651,7 @@
 "pick": "Under 36.5",
 "side": "under",
 "line": 36.5,
-"chance": 76,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -61433,7 +61687,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 74,
+"chance": 75,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -61756,11 +62010,13 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 21.5",
+"side": "over",
+"line": 21.5,
+"chance": 82,
+"normal": 77,
+"star": false,
+"estimate": false
 },
 {
 "key": "total_sot",
@@ -61843,7 +62099,7 @@
 "pick": "Over 9.5",
 "side": "over",
 "line": 9.5,
-"chance": 76,
+"chance": 77,
 "normal": 70,
 "star": false,
 "estimate": false
@@ -61915,7 +62171,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 72,
+"chance": 73,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -61951,7 +62207,7 @@
 "pick": "Over 11.5",
 "side": "over",
 "line": 11.5,
-"chance": 83,
+"chance": 82,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -61960,11 +62216,11 @@
 "key": "away_tackles",
 "market": "Away tackles",
 "label": "FC Thun tackles",
-"pick": "Over 14.5",
+"pick": "Over 15.5",
 "side": "over",
-"line": 14.5,
-"chance": 78,
-"normal": 63,
+"line": 15.5,
+"chance": 72,
+"normal": 56,
 "star": true,
 "estimate": false
 },
@@ -62441,7 +62697,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 81,
+"chance": 82,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -62465,7 +62721,7 @@
 "pick": "Under 31.5",
 "side": "under",
 "line": 31.5,
-"chance": 76,
+"chance": 77,
 "normal": 52,
 "star": true,
 "estimate": false
@@ -62477,7 +62733,7 @@
 "pick": "Under 16.5",
 "side": "under",
 "line": 16.5,
-"chance": 80,
+"chance": 79,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -62513,7 +62769,7 @@
 "pick": "Over 5.5",
 "side": "over",
 "line": 5.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -62957,7 +63213,7 @@
 "pick": "Over 5.5",
 "side": "over",
 "line": 5.5,
-"chance": 73,
+"chance": 74,
 "normal": 43,
 "star": true,
 "estimate": false
@@ -62990,13 +63246,11 @@
 "key": "home_tackles",
 "market": "Home tackles",
 "label": "Egnatia tackles",
-"pick": "Under 20.5",
-"side": "under",
-"line": 20.5,
-"chance": 81,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_tackles",
@@ -63026,7 +63280,7 @@
 "side": "under",
 "line": 8.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -63373,7 +63627,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 77,
+"chance": 78,
 "normal": 63,
 "star": true,
 "estimate": false
@@ -63481,7 +63735,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 73,
+"chance": 74,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -63517,7 +63771,7 @@
 "pick": "Over 13.5",
 "side": "over",
 "line": 13.5,
-"chance": 78,
+"chance": 77,
 "normal": 59,
 "star": true,
 "estimate": false
@@ -63541,7 +63795,7 @@
 "pick": "Under 30.5",
 "side": "under",
 "line": 30.5,
-"chance": 74,
+"chance": 75,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -63553,7 +63807,7 @@
 "pick": "Over 0.5",
 "side": "over",
 "line": 0.5,
-"chance": 62,
+"chance": 61,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -63897,7 +64151,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 81,
+"chance": 80,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -64041,7 +64295,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 73,
+"chance": 74,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -64065,7 +64319,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 76,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -64089,7 +64343,7 @@
 "pick": "Under 20.5",
 "side": "under",
 "line": 20.5,
-"chance": 83,
+"chance": 82,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -64563,9 +64817,9 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 78,
+"chance": 79,
 "normal": 67,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -64609,7 +64863,7 @@
 "pick": "Under 30.5",
 "side": "under",
 "line": 30.5,
-"chance": 77,
+"chance": 78,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -64621,7 +64875,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 60,
+"chance": 59,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -64633,8 +64887,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 64,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -65065,7 +65319,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 81,
+"chance": 82,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -65099,7 +65353,7 @@
 "pick": "Over 27.5",
 "side": "over",
 "line": 27.5,
-"chance": 75,
+"chance": 76,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -65145,7 +65399,7 @@
 "pick": "Over 0.5",
 "side": "over",
 "line": 0.5,
-"chance": 66,
+"chance": 65,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -65157,8 +65411,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 64,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -65626,11 +65880,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Under 37.5",
-"side": "under",
-"line": 37.5,
-"chance": 80,
-"normal": 74,
+"pick": "Over 27.5",
+"side": "over",
+"line": 27.5,
+"chance": 72,
+"normal": 61,
 "star": false,
 "estimate": false
 },
@@ -65687,8 +65941,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 64,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -66125,7 +66379,7 @@
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 76,
+"chance": 77,
 "normal": 26,
 "star": true,
 "estimate": false
@@ -66137,7 +66391,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 82,
+"chance": 83,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -66161,7 +66415,7 @@
 "pick": "Under 18.5",
 "side": "under",
 "line": 18.5,
-"chance": 76,
+"chance": 75,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -66183,7 +66437,7 @@
 "pick": "Under 30.5",
 "side": "under",
 "line": 30.5,
-"chance": 77,
+"chance": 78,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -66500,13 +66754,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 6.5",
-"side": "over",
-"line": 6.5,
-"chance": 81,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "home_sot",
@@ -66576,11 +66828,13 @@
 "key": "away_fouls",
 "market": "Away fouls",
 "label": "Real Sociedad fouls",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 14.5",
+"side": "under",
+"line": 14.5,
+"chance": 82,
+"normal": 77,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_gk",
@@ -66650,11 +66904,13 @@
 "key": "home_corners",
 "market": "Home corners",
 "label": "Crystal Palace corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 80,
+"normal": 75,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_corners",
@@ -66672,11 +66928,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Over 28.5",
+"pick": "Over 29.5",
 "side": "over",
-"line": 28.5,
-"chance": 83,
-"normal": 72,
+"line": 29.5,
+"chance": 79,
+"normal": 71,
 "star": false,
 "estimate": false
 },
@@ -66687,7 +66943,7 @@
 "pick": "Over 15.5",
 "side": "over",
 "line": 15.5,
-"chance": 77,
+"chance": 76,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -66724,7 +66980,7 @@
 "side": "under",
 "line": 1.5,
 "chance": 59,
-"min_odds": 1.7,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -66735,7 +66991,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -67179,7 +67435,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 74,
+"chance": 73,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -67213,9 +67469,9 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 76,
+"chance": 77,
 "normal": 65,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -67259,7 +67515,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 73,
+"chance": 74,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -67717,7 +67973,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 73,
+"chance": 72,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -67777,7 +68033,7 @@
 "pick": "Under 19.5",
 "side": "under",
 "line": 19.5,
-"chance": 81,
+"chance": 80,
 "normal": 75,
 "star": false,
 "estimate": false
@@ -67801,7 +68057,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 73,
+"chance": 74,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -67813,8 +68069,8 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 64,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -67837,7 +68093,7 @@
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 65,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -68190,11 +68446,13 @@
 "key": "away_cards",
 "market": "Away bookings",
 "label": "Lillestrom bookings",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 72,
+"normal": 63,
+"star": false,
+"estimate": false
 },
 {
 "key": "total_cards",
@@ -68317,7 +68575,7 @@
 "pick": "Under 35.5",
 "side": "under",
 "line": 35.5,
-"chance": 76,
+"chance": 77,
 "normal": 62,
 "star": true,
 "estimate": false
@@ -68329,7 +68587,7 @@
 "pick": "Under 17.5",
 "side": "under",
 "line": 17.5,
-"chance": 80,
+"chance": 79,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -68363,8 +68621,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -68375,7 +68633,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 60,
+"chance": 59,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -68694,11 +68952,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 7.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 7.5,
-"chance": 72,
-"normal": 65,
+"line": 6.5,
+"chance": 82,
+"normal": 76,
 "star": false,
 "estimate": false
 },
@@ -68854,11 +69112,13 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "Stade Rennais corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 81,
+"normal": 76,
+"star": false,
+"estimate": false
 },
 {
 "key": "total_tackles",
@@ -68867,9 +69127,9 @@
 "pick": "Over 29.5",
 "side": "over",
 "line": 29.5,
-"chance": 82,
+"chance": 83,
 "normal": 71,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -68903,7 +69163,7 @@
 "pick": "Under 31.5",
 "side": "under",
 "line": 31.5,
-"chance": 81,
+"chance": 82,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -68915,8 +69175,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 67,
-"min_odds": 1.5,
+"chance": 66,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -68927,7 +69187,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 69,
+"chance": 70,
 "min_odds": 1.45,
 "value": true,
 "star": false
@@ -69436,11 +69696,13 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 31.5",
+"side": "under",
+"line": 31.5,
+"chance": 79,
+"normal": 74,
+"star": false,
+"estimate": false
 },
 {
 "key": "player_booked",
@@ -69746,13 +70008,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Under 10.5",
-"side": "under",
-"line": 10.5,
-"chance": 76,
-"normal": 71,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "home_sot",
@@ -69901,7 +70161,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 80,
+"chance": 81,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -69959,7 +70219,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 73,
+"chance": 74,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -69983,7 +70243,7 @@
 "pick": "Over 0.5",
 "side": "over",
 "line": 0.5,
-"chance": 60,
+"chance": 59,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -70297,7 +70557,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 77,
+"chance": 76,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -70527,7 +70787,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 74,
+"chance": 73,
 "min_odds": 1.4,
 "value": true,
 "star": false
@@ -70835,7 +71095,7 @@
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 82,
+"chance": 81,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -70971,7 +71231,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 77,
+"chance": 78,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -71004,11 +71264,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Under 32.5",
+"pick": "Under 31.5",
 "side": "under",
-"line": 32.5,
-"chance": 77,
-"normal": 47,
+"line": 31.5,
+"chance": 72,
+"normal": 38,
 "star": true,
 "estimate": false
 },
@@ -71019,7 +71279,7 @@
 "pick": "Under 16.5",
 "side": "under",
 "line": 16.5,
-"chance": 77,
+"chance": 76,
 "normal": 54,
 "star": true,
 "estimate": false
@@ -71546,12 +71806,12 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 31.5",
+"pick": "Under 29.5",
 "side": "under",
-"line": 31.5,
-"chance": 83,
-"normal": 74,
-"star": false,
+"line": 29.5,
+"chance": 72,
+"normal": 60,
+"star": true,
 "estimate": false
 },
 {
@@ -71561,7 +71821,7 @@
 "pick": "Over 5.5",
 "side": "over",
 "line": 5.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -71993,7 +72253,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 79,
+"chance": 80,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -72005,7 +72265,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 77,
+"chance": 76,
 "normal": 63,
 "star": true,
 "estimate": false
@@ -72087,7 +72347,7 @@
 "pick": "Under 27.5",
 "side": "under",
 "line": 27.5,
-"chance": 74,
+"chance": 75,
 "normal": 43,
 "star": true,
 "estimate": false
@@ -72555,7 +72815,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 78,
+"chance": 79,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -72910,11 +73170,11 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Over 21.5",
+"pick": "Over 22.5",
 "side": "over",
-"line": 21.5,
-"chance": 83,
-"normal": 77,
+"line": 22.5,
+"chance": 78,
+"normal": 72,
 "star": false,
 "estimate": false
 },
@@ -72922,11 +73182,11 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 7.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 7.5,
-"chance": 72,
-"normal": 65,
+"line": 6.5,
+"chance": 82,
+"normal": 76,
 "star": false,
 "estimate": false
 },
@@ -72947,7 +73207,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 80,
+"chance": 79,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -73001,7 +73261,7 @@
 "pick": "Under 13.5",
 "side": "under",
 "line": 13.5,
-"chance": 78,
+"chance": 79,
 "normal": 70,
 "star": false,
 "estimate": false
@@ -73471,7 +73731,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 81,
+"chance": 80,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -73562,11 +73822,13 @@
 "key": "home_offsides",
 "market": "Home offsides",
 "label": "FC Nordsjælland offsides",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 83,
+"normal": 78,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_offsides",
@@ -73619,7 +73881,7 @@
 "pick": "Over 27.5",
 "side": "over",
 "line": 27.5,
-"chance": 78,
+"chance": 79,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -73631,7 +73893,7 @@
 "pick": "Over 13.5",
 "side": "over",
 "line": 13.5,
-"chance": 74,
+"chance": 73,
 "normal": 59,
 "star": true,
 "estimate": false
@@ -74123,7 +74385,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 75,
+"chance": 76,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -74132,11 +74394,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Over 33.5",
+"pick": "Over 35.5",
 "side": "over",
-"line": 33.5,
-"chance": 80,
-"normal": 41,
+"line": 35.5,
+"chance": 72,
+"normal": 31,
 "star": true,
 "estimate": false
 },
@@ -74171,7 +74433,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 75,
+"chance": 76,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -74183,8 +74445,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 67,
-"min_odds": 1.5,
+"chance": 66,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -74619,7 +74881,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 79,
+"chance": 80,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -74652,13 +74914,11 @@
 "key": "home_tackles",
 "market": "Home tackles",
 "label": "Inter D'Escaldes tackles",
-"pick": "Under 20.5",
-"side": "under",
-"line": 20.5,
-"chance": 81,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_tackles",
@@ -74689,8 +74949,8 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 64,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -75008,13 +75268,11 @@
 "key": "home_sot",
 "market": "Home shots on target",
 "label": "KAA Gent shots on target",
-"pick": "Under 6.5",
-"side": "under",
-"line": 6.5,
-"chance": 80,
-"normal": 75,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_sot",
@@ -75149,7 +75407,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 72,
+"chance": 73,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -75567,9 +75825,9 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 74,
+"chance": 75,
 "normal": 63,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -75667,7 +75925,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 73,
+"chance": 74,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -75703,7 +75961,7 @@
 "pick": "Under 37.5",
 "side": "under",
 "line": 37.5,
-"chance": 81,
+"chance": 82,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -75749,8 +76007,8 @@
 "pick": "Over 0.5",
 "side": "over",
 "line": 0.5,
-"chance": 59,
-"min_odds": 1.7,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
