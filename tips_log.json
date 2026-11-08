@@ -29436,39 +29436,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Tanguy Nianzou (Lille)",
+"side": "player",
+"line": null,
+"player": "Tanguy Nianzou",
+"team": "away",
+"chance": 23,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Benjamin André (Lille)",
 "side": "player",
 "line": null,
 "player": "Benjamin André",
 "team": "away",
 "chance": 23,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Hákon Haraldsson (Lille)",
+"pick": "Calvin Verdonk (Lille)",
 "side": "player",
 "line": null,
-"player": "Hákon Haraldsson",
+"player": "Calvin Verdonk",
 "team": "away",
 "chance": 22,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Anthony Rouault (Rennes)",
-"side": "player",
-"line": null,
-"player": "Anthony Rouault",
-"team": "home",
-"chance": 19,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -30019,7 +30019,8 @@
 "chance": 69,
 "min_odds": 1.5,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_fouls",
@@ -30066,8 +30067,21 @@
 "line": null,
 "player": "Vitaly Janelt",
 "team": "away",
-"chance": 19,
-"confirmed": false,
+"chance": 23,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Costinha (Brighton)",
+"side": "player",
+"line": null,
+"player": "Costinha",
+"team": "home",
+"chance": 21,
+"confirmed": true,
 "star": false
 },
 {
@@ -30080,20 +30094,7 @@
 "player": "Igor Thiago",
 "team": "away",
 "chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "Pascal Gross (Brighton)",
-"side": "player",
-"line": null,
-"player": "Pascal Gross",
-"team": "home",
-"chance": 17,
-"confirmed": false,
+"confirmed": true,
 "star": false
 }
 ],
@@ -30684,7 +30685,7 @@
 "player": "Yéremy Pino",
 "team": "home",
 "chance": 27,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
@@ -30697,20 +30698,20 @@
 "player": "Alexis Mac Allister",
 "team": "away",
 "chance": 23,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Virgil van Dijk (Liverpool)",
+"pick": "Jefferson Lerma (Crystal Palace)",
 "side": "player",
 "line": null,
-"player": "Virgil van Dijk",
-"team": "away",
-"chance": 16,
-"confirmed": false,
+"player": "Jefferson Lerma",
+"team": "home",
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
@@ -31295,8 +31296,8 @@
 "line": null,
 "player": "Ryan Christie",
 "team": "away",
-"chance": 20,
-"confirmed": false,
+"chance": 23,
+"confirmed": true,
 "star": false
 },
 {
@@ -31308,21 +31309,21 @@
 "line": null,
 "player": "Tyler Adams",
 "team": "away",
-"chance": 18,
-"confirmed": false,
+"chance": 21,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Issa Diop (Ipswich)",
+"pick": "Adrien Truffert (Bournemouth)",
 "side": "player",
 "line": null,
-"player": "Issa Diop",
-"team": "home",
-"chance": 17,
-"confirmed": false,
+"player": "Adrien Truffert",
+"team": "away",
+"chance": 18,
+"confirmed": true,
 "star": false
 }
 ],
@@ -31656,7 +31657,8 @@
 "chance": 83,
 "normal": 74,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_fouls",
@@ -31889,39 +31891,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Morgan Rogers (Chelsea)",
-"side": "player",
-"line": null,
-"player": "Morgan Rogers",
-"team": "away",
-"chance": 24,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
 "pick": "Cole Palmer (Chelsea)",
 "side": "player",
 "line": null,
 "player": "Cole Palmer",
 "team": "away",
 "chance": 24,
-"confirmed": false,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Granit Xhaka (Sunderland)",
+"pick": "Morgan Rogers (Chelsea)",
 "side": "player",
 "line": null,
-"player": "Granit Xhaka",
+"player": "Morgan Rogers",
+"team": "away",
+"chance": 24,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Nordi Mukiele (Sunderland)",
+"side": "player",
+"line": null,
+"player": "Nordi Mukiele",
 "team": "home",
-"chance": 20,
-"confirmed": false,
+"chance": 22,
+"confirmed": true,
 "star": false
 }
 ],
