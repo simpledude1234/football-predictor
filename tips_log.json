@@ -28827,39 +28827,39 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Gonzalo Villar (Elche)",
-"side": "player",
-"line": null,
-"player": "Gonzalo Villar",
-"team": "home",
-"chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
 "pick": "Natan (Betis)",
 "side": "player",
 "line": null,
 "player": "Natan",
 "team": "away",
-"chance": 17,
-"confirmed": false,
+"chance": 20,
+"confirmed": true,
 "star": false
 },
 {
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Víctor Chust (Elche)",
+"pick": "Marc Roca (Betis)",
 "side": "player",
 "line": null,
-"player": "Víctor Chust",
+"player": "Marc Roca",
+"team": "away",
+"chance": 19,
+"confirmed": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Federico Redondo (Elche)",
+"side": "player",
+"line": null,
+"player": "Federico Redondo",
 "team": "home",
-"chance": 13,
-"confirmed": false,
+"chance": 18,
+"confirmed": true,
 "star": false
 }
 ],
@@ -42092,7 +42092,8 @@
 "chance": 70,
 "min_odds": 1.45,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "total_cards",
