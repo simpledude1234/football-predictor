@@ -49098,7 +49098,233 @@
 "": 0.755
 }
 }
+},
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 12.5",
+"chance": 74,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Over 2.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Tochukwu Nnadi",
+"chance": 16,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Florian Thauvin",
+"chance": 13,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Pierre-Emile Højbjerg",
+"chance": 12,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 3.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 1.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 9.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 9.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Over 4.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Tochukwu Nnadi",
+"chance": 12,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Florian Thauvin",
+"chance": 10,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Timothy Weah",
+"chance": 9,
+"hit": false
 }
+]
 },
 "I1|2026-11-08|Fiorentina|Juventus": {
 "code": "I1",
@@ -49700,7 +49926,209 @@
 "": 0.755
 }
 }
+},
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 34.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 2.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 5.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Under 2.5",
+"chance": 82,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Over 2.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Under 4.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 8.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Over 2.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Douglas Luiz",
+"chance": 15,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Viery",
+"chance": 14,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Alieu Njie",
+"chance": 12,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 38.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Over 4.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 10.5",
+"chance": 74,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Under 3.5",
+"chance": 76,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 8.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Douglas Luiz",
+"chance": 11,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Viery",
+"chance": 11,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Alieu Njie",
+"chance": 9,
+"hit": false
 }
+]
 },
 "SP1|2026-11-08|Ath Madrid|Barcelona": {
 "code": "SP1",
@@ -50318,7 +50746,185 @@
 "": 0.755
 }
 }
+},
+"live": [
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 28.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 5.5",
+"chance": 75,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 6.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_cards",
+"market": "Home bookings",
+"pick": "Over 1.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 91,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 72,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 11.5",
+"chance": 73,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Under 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Over 3.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Under 5.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Over 2.5",
+"chance": 88,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 30.5",
+"chance": 73,
+"hit": false
+},
+{
+"at": 60,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 84,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 5.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 80,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 4.5",
+"chance": 86,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Over 13.5",
+"chance": 87,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Under 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Under 6.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Under 5.5",
+"chance": 85,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Under 4.5",
+"chance": 84,
+"hit": true
 }
+]
 },
 "UCL|2026-11-24|Bodo/Glimt|LASK Linz": {
 "code": "UCL",
