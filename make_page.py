@@ -228,15 +228,17 @@ HTML = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Football Predictor</title>
 <style>
-:root{--bg:#0b1016;--bg2:#111821;--card:#151d27;--card2:#1b2532;--line:#263243;--text:#eef2f6;--mut:#8c9aab;--good:#34d399;--goodbg:rgba(52,211,153,.12);--warn:#fbbf24;--bad:#f87171;--badbg:rgba(248,113,113,.12);--acc:#60a5fa;--accbg:rgba(96,165,250,.14)}
+:root{color-scheme:dark;--bg:#0b1016;--bg2:#111821;--card:#151d27;--card2:#1b2532;--line:#263243;--text:#eef2f6;--mut:#8c9aab;--good:#34d399;--goodbg:rgba(52,211,153,.12);--warn:#fbbf24;--bad:#f87171;--badbg:rgba(248,113,113,.12);--acc:#60a5fa;--accbg:rgba(96,165,250,.14);--hdr:rgba(11,16,22,.92);--soft:#111821}
+:root[data-theme=light]{color-scheme:light;--bg:#f3f5f8;--bg2:#e9edf2;--card:#ffffff;--card2:#ffffff;--line:#d5dce5;--text:#111827;--mut:#5a6677;--good:#047857;--goodbg:rgba(4,120,87,.10);--warn:#b45309;--bad:#dc2626;--badbg:rgba(220,38,38,.09);--acc:#2563eb;--accbg:rgba(37,99,235,.10);--hdr:rgba(243,245,248,.92);--soft:#e9edf2}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI Variable","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
 .wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-header{position:sticky;top:0;z-index:5;background:rgba(11,16,22,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:5;background:var(--hdr);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0 6px}
 .brand{display:flex;align-items:center;gap:10px}.logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#34d399,#60a5fa);display:grid;place-items:center;font-size:18px}
 h1{font-size:18px;margin:0;letter-spacing:-.2px}.sub{color:var(--mut);font-size:12px}
 .mut{color:var(--mut);font-size:13px}
+.theme{margin-left:auto;flex:none;background:var(--soft);border:1px solid var(--line);color:var(--text);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer}
 .tabs{display:flex;gap:4px;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:3px}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
 .tabs button.on{background:var(--card2);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.4)}
@@ -283,7 +285,7 @@ h2{font-size:15px;margin:16px 0 8px}
 @media (min-width:760px){.top{padding-top:16px}h1{font-size:20px}.tabs{max-width:520px}}
 </style></head><body>
 <header><div class="wrap">
-<div class="top"><div class="brand"><div class="logo">⚽</div><div><h1>Football Predictor</h1><div class="sub">Updated <span id="gen"></span></div></div></div></div>
+<div class="top"><div class="brand"><div class="logo">⚽</div><div><h1>Football Predictor</h1><div class="sub">Updated <span id="gen"></span></div></div></div><button class="theme" id="theme" type="button"></button></div>
 <div class="tabs" id="views"><button data-v="matches" class="on">Matches</button><button data-v="stand">Standouts</button><button data-v="record">My record</button><button data-v="how">Accuracy</button></div>
 <div class="scroll" id="leagues"></div>
 <div class="tools"><input id="search" type="search" placeholder="Search a team" autocomplete="off"></div>
@@ -296,6 +298,18 @@ const D = __DATA__;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const $ = id => document.getElementById(id);
 $('gen').textContent = D.generated;
+// Dark/light switch: dark unless this device chose light; remembered on the device.
+const themeBtn = document.getElementById('theme');
+function setTheme(t, save) {
+  document.documentElement.dataset.theme = t;
+  themeBtn.textContent = t === 'light' ? '☾ Dark' : '☀ Light';
+  themeBtn.title = t === 'light' ? 'Switch to dark colours' : 'Switch to light colours';
+  if (save) try { localStorage.setItem('ftheme', t); } catch (e) {}
+}
+let savedTheme = 'dark';
+try { if (localStorage.getItem('ftheme') === 'light') savedTheme = 'light'; } catch (e) {}
+setTheme(savedTheme);
+themeBtn.addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light', true));
 let league = 'All', view = 'matches', query = '';
 
 // hide matches that have already kicked off (fixture times are UK time)

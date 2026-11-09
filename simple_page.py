@@ -9,11 +9,12 @@ HTML = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Football Tips</title>
 <style>
-:root{--bg:#0b1016;--card:#151d27;--soft:#111821;--line:#263243;--text:#eef2f6;--mut:#8c9aab;--good:#34d399;--bad:#f87171;--acc:#60a5fa;--warn:#fbbf24}
+:root{color-scheme:dark;--bg:#0b1016;--card:#151d27;--soft:#111821;--line:#263243;--text:#eef2f6;--mut:#8c9aab;--good:#34d399;--bad:#f87171;--acc:#60a5fa;--warn:#fbbf24;--hdr:rgba(11,16,22,.94);--on:#1b2532;--li:rgba(38,50,67,.6)}
+:root[data-theme=light]{color-scheme:light;--bg:#f3f5f8;--card:#ffffff;--soft:#e9edf2;--line:#d5dce5;--text:#111827;--mut:#5a6677;--good:#047857;--bad:#dc2626;--acc:#2563eb;--warn:#b45309;--hdr:rgba(243,245,248,.94);--on:#ffffff;--li:rgba(213,220,229,.9)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI Variable","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
 .wrap{max-width:820px;margin:0 auto;padding:0 16px}
-header{position:sticky;top:0;z-index:5;background:rgba(11,16,22,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:5;background:var(--hdr);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .top{display:flex;align-items:center;gap:10px;padding:14px 0 6px}
 .logo{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#34d399,#60a5fa);display:grid;place-items:center}
 h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
@@ -21,7 +22,8 @@ h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
 .lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
-.tabs button.on{background:#1b2532;color:var(--text)}
+.tabs button.on{background:var(--on);color:var(--text)}
+.theme{margin-left:auto;flex:none;background:var(--soft);border:1px solid var(--line);color:var(--text);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer}
 .chips{display:flex;gap:6px;padding:8px 0 12px;overflow-x:auto;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}@media (min-width:600px){.chips{flex-wrap:wrap;overflow:visible}}
 .chip{flex:none;background:var(--soft);color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14px;cursor:pointer}
 .chip.on{background:rgba(96,165,250,.15);color:var(--acc);border-color:rgba(96,165,250,.5);font-weight:600}
@@ -32,7 +34,7 @@ h2{font-size:20px;margin:26px 0 4px;letter-spacing:-.3px}
 .mt{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:8px}
 .teams{font-weight:700;font-size:17px}.time{color:var(--mut);font-size:14px;white-space:nowrap}
 ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
-li{break-inside:avoid;padding:5px 0;border-bottom:1px solid rgba(38,50,67,.6);display:flex;justify-content:space-between;gap:10px;font-size:15px}
+li{break-inside:avoid;padding:5px 0;border-bottom:1px solid var(--li);display:flex;justify-content:space-between;gap:10px;font-size:15px}
 li span:first-child{color:var(--mut)}li b{font-weight:650;text-align:right}
 li.star b{color:var(--good)}li.star b::before{content:"\2605  "}
 .top3{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
@@ -60,7 +62,7 @@ footer a{color:var(--acc)}
 @media (max-width:620px){ul{columns:1}}
 </style></head><body>
 <header><div class="wrap">
-<div class="top"><div class="logo">&#9917;</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> &middot; times are UK time</div></div></div>
+<div class="top"><div class="logo">&#9917;</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> &middot; times are UK time</div></div><button class="theme" id="theme" type="button"></button></div>
 <div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="market">By market</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
 <div class="chips" id="chips"></div>
 </div></header>
@@ -72,6 +74,18 @@ SCRIPT = r"""
 const D = __DATA__;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 document.getElementById('gen').textContent = D.generated;
+// Dark/light switch: dark unless this device chose light; remembered on the device.
+const themeBtn = document.getElementById('theme');
+function setTheme(t, save) {
+  document.documentElement.dataset.theme = t;
+  themeBtn.textContent = t === 'light' ? '☾ Dark' : '☀ Light';
+  themeBtn.title = t === 'light' ? 'Switch to dark colours' : 'Switch to light colours';
+  if (save) try { localStorage.setItem('ftheme', t); } catch (e) {}
+}
+let savedTheme = 'dark';
+try { if (localStorage.getItem('ftheme') === 'light') savedTheme = 'light'; } catch (e) {}
+setTheme(savedTheme);
+themeBtn.addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light', true));
 const ORDER = ['Champions League', 'Europa League', 'Conference League', 'Premier League', 'Championship', 'Serie A', 'Serie B', 'La Liga', 'Ligue 1', 'Bundesliga', 'Scottish Premiership'];
 const ukNow = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false}).format(new Date()).replace(',', '');
 const upcoming = D.matches.filter(m => m.kickoff > ukNow);
