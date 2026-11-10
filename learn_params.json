@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "days": 120,
  "safe": {
   "result": {
@@ -258,5 +258,6 @@
    "move": -0.012,
    "hide": false
   }
- }
+ },
+ "pstat": {}
 }
