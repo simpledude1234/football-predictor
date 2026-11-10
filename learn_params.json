@@ -260,25 +260,32 @@
   }
  },
  "pstat": {
-  "pl_shots": {
-   "n": 906,
-   "landed": 81.6,
-   "said": 80.5,
-   "move": 0.009,
+  "pl_fwon": {
+   "n": 633,
+   "landed": 60.2,
+   "said": 58.8,
+   "move": 0.012,
    "hide": false
   },
   "pl_fouls": {
-   "n": 64,
-   "landed": 76.6,
-   "said": 74.7,
-   "move": 0.007,
+   "n": 966,
+   "landed": 56.0,
+   "said": 58.9,
+   "move": -0.027,
+   "hide": false
+  },
+  "pl_shots": {
+   "n": 137,
+   "landed": 56.2,
+   "said": 59.6,
+   "move": -0.019,
    "hide": false
   },
   "pl_sot": {
-   "n": 21,
-   "landed": 85.7,
-   "said": 76.9,
-   "move": 0.015,
+   "n": 86,
+   "landed": 62.8,
+   "said": 59.2,
+   "move": 0.017,
    "hide": false
   }
  }
