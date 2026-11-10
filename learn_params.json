@@ -259,5 +259,27 @@
    "hide": false
   }
  },
- "pstat": {}
+ "pstat": {
+  "pl_shots": {
+   "n": 906,
+   "landed": 81.6,
+   "said": 80.5,
+   "move": 0.009,
+   "hide": false
+  },
+  "pl_fouls": {
+   "n": 64,
+   "landed": 76.6,
+   "said": 74.7,
+   "move": 0.007,
+   "hide": false
+  },
+  "pl_sot": {
+   "n": 21,
+   "landed": 85.7,
+   "said": 76.9,
+   "move": 0.015,
+   "hide": false
+  }
+ }
 }
