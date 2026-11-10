@@ -6,7 +6,9 @@ the chance they stated. Next time, that market's chances are moved by the gap,
 trusted more as tips pile up (gap x n / (n + TRUST)). A market whose recent
 tips fall below the bar it needs (72% for safer tips, 54% for higher-price
 picks, the break-even at 1.85) is not tipped until its record recovers.
-Player-booking chances are corrected the same way (never paused).
+Player-booking chances are corrected the same way (never paused); player stat
+picks (shots, fouls...) are corrected and paused like safer tips. Bet builders are
+scored but not learned from.
 Live picks are scored in the track record but not learned from (yet).
 
 Writes learn_params.json; predictor.best_tip and value.pick read it.
@@ -21,24 +23,26 @@ DAYS = 120
 TRUST = 100              # after 100 tips the gap counts half, after 300 three quarters
 MAX_MOVE = 0.15
 MIN_TO_HIDE = 50
-BARS = {"safe": 72, "value": 54}
+BARS = {"safe": 72, "value": 54, "pstat": 72}
 
 
 def learn(track):
     cut = str(dt.date.today() - dt.timedelta(days=DAYS))
-    g = {"safe": {}, "value": {}, "player": {}}
+    g = {"safe": {}, "value": {}, "player": {}, "pstat": {}}
     for game in track["games"]:
         if game["date"] < cut:
             continue
         for t in game["tips"]:
             if t["hit"] is None or t.get("chance") is None or t.get("key") is None or t.get("live"):
                 continue
-            kind = "player" if t["key"] == "player_booked" else "value" if t.get("value") else "safe"
+            if t["key"] == "bet_builder":      # combinations: scored, not learned from
+                continue
+            kind = "player" if t["key"] == "player_booked" else "pstat" if t["key"].startswith("pl_") else "value" if t.get("value") else "safe"
             s = g[kind].setdefault(t["key"], [0, 0, 0.0])
             s[0] += 1
             s[1] += t["hit"]
             s[2] += t["chance"]
-    out = {"updated": str(dt.date.today()), "days": DAYS, "safe": {}, "value": {}, "player": {}}
+    out = {"updated": str(dt.date.today()), "days": DAYS, "safe": {}, "value": {}, "player": {}, "pstat": {}}
     for kind, d in g.items():
         for k, (n, hit, said) in d.items():
             landed, claimed = 100 * hit / n, said / n
@@ -62,7 +66,7 @@ def adjust(kind, key, learned=None):
 
 def note(learned):
     """One plain line for the page."""
-    kinds = ("safe", "value", "player")
+    kinds = ("safe", "value", "player", "pstat")
     moved = [(k, v) for kind in kinds for k, v in learned.get(kind, {}).items() if abs(v["move"]) >= 0.01]
     hidden = [k for kind in kinds for k, v in learned.get(kind, {}).items() if v["hide"]]
     n = sum(v["n"] for kind in kinds for v in learned.get(kind, {}).values())

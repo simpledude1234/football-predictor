@@ -142,18 +142,32 @@ def score(espn_cache):
                 act.update(_offsides_from_espn(em))
         elif em:
             act = _actuals_from_espn(em)
+        pst = None
         if em:
             booked = {(n, s) for n, s, st, y, rd, f in em["players"] if y + rd > 0}
             played = {(n, s) for n, s, *_ in em["players"]}
+            pst = em.get("pstats")
         if act is None:
             waiting += 1
             continue
-        rows = []
-        for t in e["tips"]:
-            if t.get("skip"):          # "No tip" markets are not scored
-                continue
+
+        def judge(t):
+            """(landed True/False/None, what happened) for one tip."""
             k, hit, shown = t["key"], None, "–"
-            if k == "player_booked":
+            if k.startswith("pl_"):
+                if pst is not None:
+                    v = pst.get(f"{t['team']}|{t['player']}")
+                    if v is None:
+                        shown = "did not play"           # void, as at the bookmakers
+                    else:
+                        n = v[("shots", "sot", "fouls", "fwon").index(t["stat"])]
+                        hit, shown = n >= t["line"], str(n)
+            elif k == "bet_builder":
+                res = [judge(x) for x in t["legs"]]
+                hits = [r[0] for r in res]
+                hit = False if False in hits else None if None in hits else True
+                shown = ", ".join(r[1] for r in res)
+            elif k == "player_booked":
                 if booked is not None:
                     who = (t["player"], t["team"])
                     if who in played:
@@ -169,10 +183,22 @@ def score(espn_cache):
                 val = float(act[k])
                 hit = val > t["line"] if t["side"] == "over" else val < t["line"]
                 shown = f"{val:g}"
-            rows.append({"label": t["label"], "market": t["market"].replace("Better price: ", "Higher price: "),
-                         "pick": t["pick"], "actual": shown, "key": k, "chance": t.get("chance"),
-                         "hit": hit, "star": t.get("star", False), "value": t.get("value", False),
-                         "min_odds": t.get("min_odds"), "best": t.get("best")})
+            return hit, shown
+
+        rows = []
+        for t in e["tips"]:
+            if t.get("skip"):          # "No tip" markets are not scored
+                continue
+            k = t["key"]
+            hit, shown = judge(t)
+            row = {"label": t["label"], "market": t["market"].replace("Better price: ", "Higher price: "),
+                   "pick": t["pick"], "actual": shown, "key": k, "chance": t.get("chance"),
+                   "hit": hit, "star": t.get("star", False), "value": t.get("value", False),
+                   "min_odds": t.get("min_odds"), "best": t.get("best")}
+            if k == "bet_builder":
+                row["legs"] = [{"pick": x["pick"] if x["key"].startswith("pl_") else f"{x['label']}: {x['pick']}",
+                                "hit": judge(x)[0], "actual": judge(x)[1]} for x in t["legs"]]
+            rows.append(row)
         for lp in e.get("live", []):
             rows.append({"label": f"Live {lp['at']}': {lp['market']}", "market": "Live: " + lp["market"],
                          "pick": lp["pick"], "actual": "", "key": lp["key"], "chance": lp["chance"],
@@ -186,6 +212,8 @@ def score(espn_cache):
             if t["hit"] is None:
                 continue
             keys = (t["market"], "__value__") if t.get("value") else (t["market"],) if t.get("key") == "player_booked" else \
+                (t["market"], "__pstat__") if (t.get("key") or "").startswith("pl_") else \
+                (t["market"], "__bb__") if t.get("key") == "bet_builder" else \
                 (t["market"], "__live__") if t.get("live") else \
                 (t["market"], "__all__") + (("__star__",) if t["star"] else ())
             for key in keys:

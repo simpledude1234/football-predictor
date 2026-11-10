@@ -19,6 +19,12 @@ header{position:sticky;top:0;z-index:5;background:var(--hdr);backdrop-filter:blu
 .logo{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#34d399,#60a5fa);display:grid;place-items:center}
 h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
 .tabs{display:flex;gap:4px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:3px;max-width:520px;margin-top:6px}
+#tabs{max-width:760px}@media (max-width:600px){#tabs{display:grid;grid-template-columns:repeat(3,1fr)}#tabs button{padding:7px 4px;font-size:13.5px}}
+.pk{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--li)}.pk:first-of-type{border-top:0}
+.pk .g{color:var(--mut);font-size:12px;display:block;margin-top:1px}.pk b{text-align:right;white-space:nowrap}
+.legs{margin:4px 0 8px;padding:0;columns:1}.legs li{font-size:15px}
+.bbtot{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-top:8px;border-top:1px solid var(--line);font-weight:700}
+.bbtot .price{display:inline;margin-left:6px}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
 .lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
@@ -63,7 +69,7 @@ footer a{color:var(--acc)}
 </style></head><body>
 <header><div class="wrap">
 <div class="top"><div class="logo">&#9917;</div><div><h1>Football Tips</h1><div class="sub">Updated <span id="gen"></span> &middot; times are UK time</div></div><button class="theme" id="theme" type="button"></button></div>
-<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="market">By market</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
+<div class="tabs" id="tabs"><button data-v="tips" class="on">Tips</button><button data-v="market">By market</button><button data-v="players">Player stats</button><button data-v="bb">Bet builder</button><button data-v="live" id="livetab">Live</button><button data-v="track">Track record</button></div>
 <div class="chips" id="chips"></div>
 </div></header>
 <main class="wrap" id="app"></main>
@@ -99,6 +105,9 @@ function leagueList(list, dateOf) {
   return view !== 'track' ? ls.sort((a, b) => first(a).slice(0, 10).localeCompare(first(b).slice(0, 10)) || ORDER.indexOf(a) - ORDER.indexOf(b)) : ls;
 }
 
+// player stats and bet builders have their own tabs
+const own = t => (t.key || '').startsWith('pl_') || t.key === 'bet_builder';
+
 function valueCard(m) {
   const t = (m.tips || []).filter(x => x.value);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
@@ -108,7 +117,7 @@ function valueCard(m) {
 
 function card(m) {
   if (mode === 'value') return valueCard(m);
-  const t = (m.tips || []).filter(x => !x.value);
+  const t = (m.tips || []).filter(x => !x.value && !own(x));
   const stars = t.filter(x => x.star).slice(0, 3);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
     ${stars.length ? `<div class="top3">${stars.map(x => `<span>${esc(x.label)}: ${esc(x.pick)}</span>`).join('')}</div>` : ''}
@@ -154,7 +163,7 @@ function marketView() {
   const games = upcoming.filter(m => pick === 'All' || m.league === pick);
   const rows = {}, none = {};
   games.forEach(m => (m.tips || []).forEach(t => {
-    if (!!t.value !== (mode === 'value') || t.live) return;
+    if (!!t.value !== (mode === 'value') || t.live || own(t)) return;
     const name = t.market.replace(/^Higher price: /, '');
     if (t.skip) { none[name] = (none[name] || 0) + 1; return; }
     const ch = t.chance ?? (t.key === 'result' ? Math.round(m.final[t.side]) : t.key === 'btts' ? (t.side === 'yes' ? m.btts : 100 - m.btts) : null);
@@ -180,6 +189,50 @@ function marketView() {
   return html;
 }
 
+// ------------------------------------------------------------ Player stats tab
+const PSTAT = [['all', 'All'], ['pl_shots', 'Shots'], ['pl_sot', 'Shots on target'], ['pl_fouls', 'Fouls'], ['pl_fwon', 'Fouls won']];
+let pstat = 'all';
+function gamesBy(fn) {
+  const ls = leagueList(upcoming, m => m.kickoff);
+  let html = '';
+  (pick === 'All' ? ls : [pick]).forEach(l => {
+    const list = upcoming.filter(m => m.league === l).map(m => [m, fn(m)]).filter(x => x[1]);
+    if (!list.length) return;
+    html += `<h2>${esc(l)}</h2>`;
+    let day = '';
+    list.forEach(([m, inner]) => { if (m.iso !== day) { day = m.iso; html += `<div class="day">${dayName(day)}</div>`; }
+      html += `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>${inner}</div>`; });
+  });
+  return html;
+}
+function playersView() {
+  const have = new Set(upcoming.filter(m => pick === 'All' || m.league === pick).flatMap(m => (m.tips || []).map(x => x.key)));
+  const opts = PSTAT.filter(([k]) => k === 'all' || have.has(k));
+  if (!opts.some(([k]) => k === pstat)) pstat = 'all';
+  let html = `<h2>Player stats</h2><div class="info">${esc(D.pstat_note || '')}</div>
+    <div class="mk">${opts.length > 2 ? opts.map(([k, n]) => `<button class="chip${k === pstat ? ' on' : ''}" data-pstat="${k}">${n}</button>`).join('') : ''}</div>`;
+  const body = gamesBy(m => {
+    const t = (m.tips || []).filter(x => x.key.startsWith('pl_') && (pstat === 'all' || x.key === pstat));
+    if (!t.length) return '';
+    return t.map(x => { const [who, what] = x.pick.split(': ');
+      return `<div class="pk"><span>${esc(who)}${x.confirmed ? '<span class="g">in the starting line-up</span>' : ''}</span><b>${esc(what)}<span class="price">${x.chance}% &middot; fair price ${(100 / x.chance).toFixed(2)}</span></b></div>`; }).join('')
+      + (t.some(x => x.confirmed) ? '' : '<div class="sub">Checked against the line-ups about an hour before kick-off. If he doesn&rsquo;t play, the pick is void.</div>');
+  });
+  return html + (body || '<div class="empty">No player picks for these games yet. Picks appear for regular starters when a line is likely enough (72%+).</div>');
+}
+
+// ------------------------------------------------------------ Bet builder tab
+function bbView() {
+  let html = `<h2>Bet builder</h2><div class="info">${esc(D.bb_note || '')}</div>`;
+  const body = gamesBy(m => {
+    const b = (m.tips || []).find(x => x.key === 'bet_builder');
+    if (!b) return '';
+    return `<ul class="legs">${b.legs.map(x => `<li><span>${esc(x.key.startsWith('pl_') ? x.pick.split(': ')[0] : x.label)}</span><b>${esc(x.key.startsWith('pl_') ? x.pick.split(': ')[1] : x.pick.replace(/ \(\d+%\)/, ''))}<span class="price">${x.chance}% on its own</span></b></li>`).join('')}</ul>
+      <div class="bbtot"><span>All ${b.legs.length} together</span><span>${b.chance}%<span class="price">fair price ${(100 / b.chance).toFixed(2)}</span></span></div>`;
+  });
+  return html + (body || '<div class="empty">No bet builders for these games yet. One is built only when a game has enough strong tips to combine at 50%+.</div>');
+}
+
 function pct(s) { return s && s[1] ? Math.round(100 * s[0] / s[1]) + '%' : '–'; }
 
 function trackView() {
@@ -188,7 +241,7 @@ function trackView() {
   const sum = {};
   games.forEach(g => g.tips.forEach(t => { if (t.hit === null) return;
     if (t.key === 'player_booked') { const s = sum.__lplayer = sum.__lplayer || [0, 0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; s[2] += t.chance || 0; return; }   // long shots: counted on their own
-    (t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
+    (t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : t.key === 'bet_builder' ? [t.market, '__bb'] : (t.key || '').startsWith('pl_') ? [t.market, '__pstat'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
   const markets = Object.keys(sum).filter(k => !k.startsWith('__')).sort((a, b) => sum[b][0] / sum[b][1] - sum[a][0] / sum[a][1]);
   let html = `<h2>How the tips did</h2><div class="sub">${games.length} finished match${games.length > 1 ? 'es' : ''}${pick === 'All' ? '' : ' in ' + esc(pick)}: ${games.filter(g => !g.replay).length} live (tips saved before kick-off) and ${games.filter(g => g.replay).length} replayed (predicted afterwards, using only information from before each game, to give a record from day one).</div>
     <div class="sum"><div class="box"><div class="n">${pct(sum.__all__)}</div><div class="l">All tips right (${sum.__all__ ? sum.__all__[0] + ' of ' + sum.__all__[1] : 0})</div></div>
@@ -197,16 +250,18 @@ function trackView() {
     <div class="box"><div class="n ok">${pct(sum.__best_safe)}</div><div class="l">Best bets right (${sum.__best_safe ? sum.__best_safe[0] + ' of ' + sum.__best_safe[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__best_value)}</div><div class="l">Higher-price best bets right (${sum.__best_value ? sum.__best_value[0] + ' of ' + sum.__best_value[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__live)}</div><div class="l">Live picks right at 45' and 60' (${sum.__live ? sum.__live[0] + ' of ' + sum.__live[1] : 0})</div></div>
+    <div class="box"><div class="n">${pct(sum.__pstat)}</div><div class="l">Player stat picks right (${sum.__pstat ? sum.__pstat[0] + ' of ' + sum.__pstat[1] : 0})</div></div>
+    <div class="box"><div class="n">${pct(sum.__bb)}</div><div class="l">Bet builders right, every leg landed (${sum.__bb ? sum.__bb[0] + ' of ' + sum.__bb[1] : 0})</div></div>
     ${sum.__lplayer ? `<div class="box"><div class="n">${pct(sum.__lplayer)}</div><div class="l">Live players to be booked who were (${sum.__lplayer[0]} of ${sum.__lplayer[1]}; they said ${Math.round(sum.__lplayer[2] / sum.__lplayer[1])}% on average)</div></div>` : ''}</div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
     <h2>Every game</h2><div class="sub">Tap a game to see each tip. Goal kicks show &ndash; because no free source records them.</div>`;
   let day = '';
   games.forEach(g => {
     if (g.date !== day) { day = g.date; html += `<div class="day">${dayName(day)}</div>`; }
-    const safe = g.tips.filter(t => !t.value && !t.live), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
+    const safe = g.tips.filter(t => !t.value && !t.live && t.key !== 'bet_builder'), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
     html += `<details class="m"><summary><div class="mt"><span class="teams">${esc(g.home)} <span class="score">${esc(g.score)}</span> ${esc(g.away)}</span>
       <span class="time ${n && ok / n >= 0.6 ? 'ok' : ''}">${ok}/${n} right</span></div><div class="sub">${esc(g.league)}${g.replay ? ' &middot; replay' : ' &middot; live tip'}</div></summary>
-      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">higher price</i>' : ''}${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i></span>
+      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">higher price</i>' : ''}${t.legs ? `Bet builder (${t.chance}%):${t.legs.map(x => `<br><i style="margin:0 6px 0 10px">${x.hit === true ? '&#10004;' : x.hit === false ? '&#10008;' : '&ndash;'}</i>${esc(x.pick)} <i>(${esc(x.actual)})</i>`).join('')}` : `${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i>`}</span>
       <b class="${t.hit === true ? 'ok' : t.hit === false ? 'no' : 'na'}">${t.hit === true ? '&#10004;' : t.hit === false ? '&#10008;' : '&ndash;'}</b></li>`).join('')}</ul></details>`;
   });
   return html;
@@ -224,7 +279,7 @@ function chips() {
   });
 }
 
-function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : view === 'market' ? marketView() : view === 'live' ? liveView() : trackView(); }
+function render() { document.getElementById('app').innerHTML = view === 'tips' ? tipsView() : view === 'market' ? marketView() : view === 'players' ? playersView() : view === 'bb' ? bbView() : view === 'live' ? liveView() : trackView(); }
 document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click', () => {
   view = b.dataset.v; document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b));
   document.getElementById('chips').style.display = view === 'live' ? 'none' : '';
@@ -236,6 +291,8 @@ document.getElementById('app').addEventListener('click', e => {
   if (b) { mode = b.dataset.mode; render(); return; }
   const k = e.target.closest('[data-mkt]');
   if (k) { mkt = k.dataset.mkt; render(); return; }
+  const ps = e.target.closest('[data-pstat]');
+  if (ps) { pstat = ps.dataset.pstat; render(); return; }
   const o = e.target.closest('[data-sort]');
   if (o) { sortBy = o.dataset.sort; render(); }
 });

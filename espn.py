@@ -85,7 +85,37 @@ def _compact(slug, ev, summary):
             players.append([p["athlete"].get("displayName", "?"), ha, int(bool(p.get("starter"))),
                             int(st.get("yellowCards") or 0), int(st.get("redCards") or 0), int(st.get("foulsCommitted") or 0)])
     return {"id": ev["id"], "slug": slug, "date": ev["date"][:10], "home": names.get("home"), "away": names.get("away"),
-            "score": score, "stats": stats, "players": players, "full": True}
+            "score": score, "stats": stats, "players": players, "full": True, "pstats": player_stats(summary, side)}
+
+
+def player_stats(summary, side):
+    """Per player: [shots, shots on target, fouls committed, fouls won, minutes], keyed "side|name".
+    Minutes come from the substitution times (90 for a full match, stoppage time ignored)."""
+    off, on = {}, {}
+    for k in summary.get("keyEvents", []):
+        if k.get("type", {}).get("type") != "substitution":
+            continue
+        ps = [x.get("athlete", {}).get("displayName") for x in k.get("participants", [])]
+        mins = min(90, round((k.get("clock", {}).get("value") or 0) / 60))
+        if len(ps) == 2:
+            on[ps[0]], off[ps[1]] = mins, mins
+    out = {}
+    for r in summary.get("rosters", []):
+        ha = side.get(r["team"]["id"], "?")
+        for p in r.get("roster", []):
+            if not (p.get("starter") or p.get("subbedIn")):
+                continue
+            name = p["athlete"].get("displayName", "?")
+            st = {x["name"]: x.get("value") for x in p.get("stats", [])}
+            if p.get("starter"):
+                mins = off.get(name, 90) if p.get("subbedOut") else 90
+            else:
+                mins = 90 - on.get(name, 75)
+                if p.get("subbedOut"):
+                    mins = max(1, off.get(name, 90) - on.get(name, 75))
+            out[f"{ha}|{name}"] = [int(st.get("totalShots") or 0), int(st.get("shotsOnTarget") or 0),
+                                   int(st.get("foulsCommitted") or 0), int(st.get("foulsSuffered") or 0), max(1, mins)]
+    return out
 
 
 def _num(v):
@@ -163,6 +193,7 @@ def update(days_ahead=21, season_start=None):
         print(f"ESPN {slug}: {new} new finished matches stored")
         save_cache(c)
     backfill_extra(c)
+    backfill_players(c)
     add_lineups(upcoming)
     return c, upcoming
 
@@ -188,6 +219,25 @@ def backfill_extra(c, limit=150):
         m["full"] = True
     if todo:
         print(f"ESPN: all team stats added to {len(todo)} stored matches")
+        save_cache(c)
+
+
+def backfill_players(c, limit=150):
+    """Matches stored before per-player shots and minutes were kept: fetch them again, a few at a time."""
+    todo = [k for k, m in c["matches"].items() if "pstats" not in m][:limit]
+    for eid in todo:
+        m = c["matches"][eid]
+        try:
+            s = get_json(f"{BASE}{m['slug']}/summary?event={eid}")
+        except Exception as e:
+            print(f"ESPN player stats {eid}: failed ({e})")
+            continue
+        side = {}
+        for r in s.get("header", {}).get("competitions", [{}])[0].get("competitors", []):
+            side[r.get("team", {}).get("id") or r.get("id")] = r.get("homeAway")
+        m["pstats"] = player_stats(s, side)
+    if todo:
+        print(f"ESPN: player shots and minutes added to {len(todo)} stored matches")
         save_cache(c)
 
 

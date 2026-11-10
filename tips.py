@@ -14,11 +14,14 @@ GENERIC = {"total_goals": "Total goals", "total_shots": "Total shots", "total_so
            "total_tackles": "Total tackles", "home_tackles": "Home tackles", "away_tackles": "Away tackles"}
 
 
+import bet_builder
 import learn
+import player_stats as PS
 import predictor as P
 import value
 
 _VP = value.load_params()
+_BB = bet_builder.load_params()
 
 
 def make_tips(m):
@@ -96,4 +99,26 @@ def make_tips(m):
                     "line": None, "player": p["player"], "team": p["team"],
                     "chance": max(1, min(99, round(p["chance"] + 100 * pmove))),
                     "confirmed": p.get("confirmed", False), "star": False})   # no player pick is strong enough to star (see players.py)
+    out += pstat_tips(h, a, m.get("pstats", []))
+    bb = builder_tip(out)
+    if bb:
+        out.append(bb)
     return out
+
+
+def pstat_tips(h, a, picks):
+    """Player shots / shots on target / fouls (tested in player_stats.py); own tab on the page."""
+    return [{"key": "pl_" + p["stat"], "market": PS.MARKET[p["stat"]], "label": PS.MARKET[p["stat"]],
+             "pick": f"{p['player']} ({h if p['team'] == 'home' else a}): {PS.label(p['stat'], p['line'])}",
+             "side": "over", "line": p["line"], "player": p["player"], "team": p["team"], "stat": p["stat"],
+             "chance": p["chance"], "confirmed": p.get("confirmed", False), "star": False} for p in picks]
+
+
+def builder_tip(tips):
+    """One bet builder per game from its tips (tested in bet_builder.py); own tab on the page."""
+    bb = bet_builder.build(tips, _BB)
+    if not bb:
+        return None
+    return {"key": "bet_builder", "market": "Bet builder", "label": "Bet builder",
+            "pick": " + ".join(t["pick"] if t["key"].startswith("pl_") else f"{t['label']}: {t['pick']}" for t in bb["legs"]),
+            "side": None, "line": None, "legs": bb["legs"], "chance": bb["chance"], "star": False}

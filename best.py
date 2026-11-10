@@ -27,7 +27,8 @@ def select(matches):
             if m["iso"] != day:
                 continue
             ts = [t for t in m["tips"] if t.get("chance") is not None and not t.get("skip")
-                  and t["key"] != "player_booked" and bool(t.get("value")) == (kind == "value")
+                  and t["key"] != "player_booked" and not t["key"].startswith("pl_") and t["key"] != "bet_builder"
+                  and bool(t.get("value")) == (kind == "value")
                   and t["chance"] <= MAX_CHANCE]
             if ts:
                 rank = lambda t: (t["chance"], t["chance"] - (t.get("normal") or 50))   # ties: stands out most
