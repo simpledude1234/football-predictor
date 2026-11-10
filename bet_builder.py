@@ -1,7 +1,8 @@
 """Bet builder: one combination bet per game, built from that game's own tips.
 
 Legs come only from markets already tested and tipped (team tips at 72%+ and
-player stat picks). At most one leg per kind of market (goals, shots, cards,
+72%+ player stat picks, which are used only here; the Player stats tab shows
+priced lines instead). At most one leg per kind of market (goals, shots, cards,
 fouls, corners, offsides, tackles) and at most two player legs, never two from
 the same player, so the bet mixes different things.
 
@@ -123,7 +124,8 @@ def _past_games(cache):
                          "side": src.get("side"), "line": src.get("line"), "hit": r["hit"]})
         em = cache["matches"].get(str(e.get("espn_id"))) if e.get("espn_id") else None
         if pm and em and em.get("pstats"):
-            for p in PS.picks(pm, pp, em["home"], em["away"], em["date"]):
+            for p in PS.picks(pm, pp, em["home"], em["away"], em["date"], mode="safe",
+                              xg=(em.get("odds") or {}).get("xg")):
                 v = em["pstats"].get(f"{p['team']}|{p['player']}")
                 if v is None:
                     continue                 # did not play: void

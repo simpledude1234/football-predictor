@@ -103,11 +103,7 @@ def main():
             m["fh"] = {sd: pm.foul_habit(m["espn_" + sd], m["iso"]) for sd in ("home", "away")} if m.get("espn_home") else None
             team_stats.add_markets(m, om, op, espn.SLUGS.get(m["code"]))
             # player shots / shots on target / fouls / fouls won, corrected by the track record
-            pmove = {s: learn.adjust("pstat", "pl_" + s, predictor.LEARNED) for s in player_stats.IDX}
-            m["pstats"] = player_stats.picks(psm, {**(psp or {}), "show": {k: v for k, v in (psp or {}).get("show", {}).items()
-                                                                        if not pmove[k.rsplit("_", 1)[0]][1]}},
-                                             m.get("espn_home"), m.get("espn_away"), m["iso"],
-                                             lineups.get(m.get("espn_id")), move={s: v[0] for s, v in pmove.items()})
+            m["pstats"], m["pstats_safe"] = player_picks(psm, psp, m, lineups.get(m.get("espn_id")))
             m["tips"] = tips.make_tips(m)
     finish(matches)
     best_bets = best.select(matches)
@@ -149,6 +145,19 @@ def main():
     print(f"Wrote {OUT} and details.html with {len(matches)} matches")
 
 
+def player_picks(psm, psp, m, lineup=None):
+    """(priced picks for the Player stats tab, 72%+ picks for bet builder legs) for one match,
+    with the bookmakers' expected goals and the corrections learned from the track record."""
+    if not psp or not m.get("espn_home"):
+        return [], []
+    pmove = {s: learn.adjust("pstat", "pl_" + s, predictor.LEARNED) for s in player_stats.IDX}
+    show = {mode: {k: v for k, v in d.items() if not pmove[k.rsplit("_", 1)[0]][1]}
+            for mode, d in (psp.get("show") or {}).items()}
+    args = dict(lineup=lineup, move={s: v[0] for s, v in pmove.items()}, xg=m.get("goals_exp"))
+    return tuple(player_stats.picks(psm, {**psp, "show": show}, m["espn_home"], m["espn_away"], m["iso"], mode=mode, **args)
+                 for mode in ("price", "safe"))
+
+
 def fill_player_replays(psm, psp, cache):
     """Replayed games logged before player stat picks and bet builders existed: add them, once each,
     predicted with only games before each match (live tips saved before kick-off are never changed)."""
@@ -157,17 +166,19 @@ def fill_player_replays(psm, psp, cache):
     log = record.load()
     added = 0
     for e in log.values():
-        if not e.get("replay") or e.get("pstat_done"):
+        if not e.get("replay") or e.get("pstat_v2"):
             continue
         em = cache.get("matches", {}).get(str(e.get("espn_id"))) if e.get("espn_id") else None
         if not em:
             continue
         e["tips"] = [t for t in e["tips"] if not t["key"].startswith("pl_") and t["key"] != "bet_builder"]
-        e["tips"] += tips.pstat_tips(e["home"], e["away"], player_stats.picks(psm, psp, em["home"], em["away"], em["date"]))
-        bb = tips.builder_tip(e["tips"])
+        price, safe = player_picks(psm, psp, {"espn_home": em["home"], "espn_away": em["away"], "iso": em["date"],
+                                              "goals_exp": (em.get("odds") or {}).get("xg")})
+        e["tips"] += tips.pstat_tips(e["home"], e["away"], price)
+        bb = tips.builder_tip(e["tips"] + tips.pstat_tips(e["home"], e["away"], safe))
         if bb:
             e["tips"].append(bb)
-        e["pstat_done"] = True
+        e["pstat_v2"] = True
         added += 1
     if added:
         record.save(log)
@@ -200,14 +211,15 @@ def pstat_note(psp):
     """One line on how the player stat picks tested (games the settings never saw)."""
     if not psp:
         return ""
-    o = psp.get("overall") or {}
+    o = (psp.get("overall") or {}).get("price") or {}
     n = o.get("picks")
     if not n:
         return "Not tipped yet: no player stat line passed the test on past games."
     landed, said = o["landed"], o["said"]
-    return (f"Tested on {psp['test_games']:,} past games the settings never saw: {n:,} picks said {said:.0f}% "
-            f"and {landed:.0f}% landed. Regular starters only; if he doesn't play, the pick is void. "
-            "Only lines that passed the test are tipped. No free source has player tackles, so there is no tackles market.")
+    return (f"The most likely line per player priced about 1.60 to 1.90, from his recent form, the opponent and "
+            f"the bookmakers' view of the match. Tested on {psp['test_games']:,} past games: {n:,} picks said "
+            f"{said:.0f}% and {landed:.0f}% landed. Back one only at the fair price or better. Regular starters "
+            "only; void if he doesn't play. No free source has player tackles.")
 
 
 def bb_note(bbp):

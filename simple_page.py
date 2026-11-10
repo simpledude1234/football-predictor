@@ -218,7 +218,7 @@ function playersView() {
       return `<div class="pk"><span>${esc(who)}${x.confirmed ? '<span class="g">in the starting line-up</span>' : ''}</span><b>${esc(what)}<span class="price">${x.chance}% &middot; fair price ${(100 / x.chance).toFixed(2)}</span></b></div>`; }).join('')
       + (t.some(x => x.confirmed) ? '' : '<div class="sub">Checked against the line-ups about an hour before kick-off. If he doesn&rsquo;t play, the pick is void.</div>');
   });
-  return html + (body || '<div class="empty">No player picks for these games yet. Picks appear for regular starters when a line is likely enough (72%+).</div>');
+  return html + (body || '<div class="empty">No player picks for these games yet. Picks appear for regular starters with a line priced about 1.60 to 1.90.</div>');
 }
 
 // ------------------------------------------------------------ Bet builder tab

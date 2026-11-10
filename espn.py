@@ -85,11 +85,80 @@ def _compact(slug, ev, summary):
             players.append([p["athlete"].get("displayName", "?"), ha, int(bool(p.get("starter"))),
                             int(st.get("yellowCards") or 0), int(st.get("redCards") or 0), int(st.get("foulsCommitted") or 0)])
     return {"id": ev["id"], "slug": slug, "date": ev["date"][:10], "home": names.get("home"), "away": names.get("away"),
-            "score": score, "stats": stats, "players": players, "full": True, "pstats": player_stats(summary, side)}
+            "score": score, "stats": stats, "players": players, "full": True, "pstats": player_stats(summary, side),
+            "odds": match_odds(summary)}
+
+
+def _dec(ml):
+    """American odds -> decimal."""
+    ml = float(ml)
+    return 1 + (ml / 100 if ml > 0 else 100 / -ml)
+
+
+def _expected_goals(ph, pa, line, p_over):
+    """Each team's expected goals that best match the win chances and the goals line (simple search)."""
+    import math
+    def probs(lh, la):
+        P = lambda k, l: math.exp(-l) * l ** k / math.factorial(k)
+        h = a = over = 0.0
+        for i in range(11):
+            for j in range(11):
+                q = P(i, lh) * P(j, la)
+                h += q * (i > j)
+                a += q * (j > i)
+                over += q * (i + j > line)
+        return h, a, over
+    best = None
+    for lh in [x / 10 for x in range(2, 40)]:
+        for la in [x / 10 for x in range(2, 40)]:
+            if abs(lh + la - (line + 0.3)) > 2.2:
+                continue
+            h, a, o = probs(lh, la)
+            e = (h - ph) ** 2 + (a - pa) ** 2 + ((o - p_over) ** 2 if p_over is not None else 0)
+            if best is None or e < best[0]:
+                best = (e, lh, la)
+    return [best[1], best[2]] if best else None
+
+
+def match_odds(summary):
+    """Closing bookmaker odds (ESPN's pick centre): win/draw/win chances and each team's expected goals."""
+    try:
+        pc = (summary.get("pickcenter") or [{}])[0]
+        h, a = _dec(pc["homeTeamOdds"]["moneyLine"]), _dec(pc["awayTeamOdds"]["moneyLine"])
+        d = _dec(pc["drawOdds"]["moneyLine"])
+    except (KeyError, TypeError, ValueError, ZeroDivisionError, IndexError):
+        return None
+    tot = 1 / h + 1 / a + 1 / d
+    ph, pd_, pa = 1 / h / tot, 1 / d / tot, 1 / a / tot
+    p_over = None
+    try:
+        o, u = _dec(pc["overOdds"]), _dec(pc["underOdds"])
+        p_over = (1 / o) / (1 / o + 1 / u)
+    except (KeyError, TypeError, ValueError, ZeroDivisionError):
+        pass
+    line = pc.get("overUnder") or 2.5
+    return {"h": round(ph, 3), "d": round(pd_, 3), "a": round(pa, 3),
+            "xg": _expected_goals(ph, pa, line, p_over)}
+
+
+def _group(abbr):
+    """ESPN position (e.g. "CD-L", "AM", "F") -> G, D, M or F."""
+    a = abbr.upper()
+    if not a or a == "SUB":
+        return "?"                 # substitutes: taken from the player's starts instead
+    if a.startswith(("DM", "CM")):
+        return "M"
+    if a.startswith("G"):
+        return "G"
+    if a in ("F", "CF", "ST", "LF", "RF", "CF-L", "CF-R", "SS") or a.startswith("CF") or a.endswith("W"):
+        return "F"
+    if a.startswith(("CD", "LB", "RB", "D", "SW")) or a in ("WB", "LWB", "RWB"):
+        return "D"
+    return "M" if a else "?"
 
 
 def player_stats(summary, side):
-    """Per player: [shots, shots on target, fouls committed, fouls won, minutes], keyed "side|name".
+    """Per player: [shots, shots on target, fouls committed, fouls won, minutes, position G/D/M/F], keyed "side|name".
     Minutes come from the substitution times (90 for a full match, stoppage time ignored)."""
     off, on = {}, {}
     for k in summary.get("keyEvents", []):
@@ -114,7 +183,8 @@ def player_stats(summary, side):
                 if p.get("subbedOut"):
                     mins = max(1, off.get(name, 90) - on.get(name, 75))
             out[f"{ha}|{name}"] = [int(st.get("totalShots") or 0), int(st.get("shotsOnTarget") or 0),
-                                   int(st.get("foulsCommitted") or 0), int(st.get("foulsSuffered") or 0), max(1, mins)]
+                                   int(st.get("foulsCommitted") or 0), int(st.get("foulsSuffered") or 0), max(1, mins),
+                                   _group((p.get("position") or {}).get("abbreviation", ""))]
     return out
 
 
@@ -223,8 +293,9 @@ def backfill_extra(c, limit=150):
 
 
 def backfill_players(c, limit=150):
-    """Matches stored before per-player shots and minutes were kept: fetch them again, a few at a time."""
-    todo = [k for k, m in c["matches"].items() if "pstats" not in m][:limit]
+    """Matches stored before per-player shots, positions and closing odds were kept: fetch them again,
+    a few at a time."""
+    todo = [k for k, m in c["matches"].items() if "pstats" not in m or "odds" not in m][:limit]
     for eid in todo:
         m = c["matches"][eid]
         try:
@@ -236,6 +307,7 @@ def backfill_players(c, limit=150):
         for r in s.get("header", {}).get("competitions", [{}])[0].get("competitors", []):
             side[r.get("team", {}).get("id") or r.get("id")] = r.get("homeAway")
         m["pstats"] = player_stats(s, side)
+        m["odds"] = match_odds(s)
     if todo:
         print(f"ESPN: player shots and minutes added to {len(todo)} stored matches")
         save_cache(c)

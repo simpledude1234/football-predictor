@@ -7,7 +7,7 @@ trusted more as tips pile up (gap x n / (n + TRUST)). A market whose recent
 tips fall below the bar it needs (72% for safer tips, 54% for higher-price
 picks, the break-even at 1.85) is not tipped until its record recovers.
 Player-booking chances are corrected the same way (never paused); player stat
-picks (shots, fouls...) are corrected and paused like safer tips. Bet builders are
+picks (shots, fouls...) are corrected, and paused if they land under 50%. Bet builders are
 scored but not learned from.
 Live picks are scored in the track record but not learned from (yet).
 
@@ -23,7 +23,7 @@ DAYS = 120
 TRUST = 100              # after 100 tips the gap counts half, after 300 three quarters
 MAX_MOVE = 0.15
 MIN_TO_HIDE = 50
-BARS = {"safe": 72, "value": 54, "pstat": 72}
+BARS = {"safe": 72, "value": 54, "pstat": 50}   # player stats: priced lines (said 52-62%)
 
 
 def learn(track):

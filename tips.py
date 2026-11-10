@@ -100,7 +100,7 @@ def make_tips(m):
                     "chance": max(1, min(99, round(p["chance"] + 100 * pmove))),
                     "confirmed": p.get("confirmed", False), "star": False})   # no player pick is strong enough to star (see players.py)
     out += pstat_tips(h, a, m.get("pstats", []))
-    bb = builder_tip(out)
+    bb = builder_tip(out + pstat_tips(h, a, m.get("pstats_safe", [])))   # 72%+ player legs, used only here
     if bb:
         out.append(bb)
     return out
