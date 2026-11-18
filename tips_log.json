@@ -264908,5 +264908,6071 @@
 "live": [],
 "pstat_done": true,
 "pstat_v2": true
+},
+"UCL|2026-12-08|Viking FK|Feyenoord Rotterdam": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 17:45",
+"home": "Viking FK",
+"away": "Feyenoord Rotterdam",
+"espn_id": "401915290",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Viking FK shots on target",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 72,
+"normal": 61,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Feyenoord Rotterdam shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 81,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Viking FK bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Feyenoord Rotterdam bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Viking FK fouls",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 77,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Feyenoord Rotterdam fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 79,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Viking FK goal kicks",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Feyenoord Rotterdam goal kicks",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 77,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Viking FK offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 73,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Feyenoord Rotterdam offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 73,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Viking FK corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Feyenoord Rotterdam corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 77,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Under 37.5",
+"side": "under",
+"line": 37.5,
+"chance": 82,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Viking FK tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Feyenoord Rotterdam tackles",
+"pick": "Under 17.5",
+"side": "under",
+"line": 17.5,
+"chance": 77,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Charles Vanhoutte (Feyenoord Rotterdam)",
+"side": "player",
+"line": null,
+"player": "Charles Vanhoutte",
+"team": "away",
+"chance": 26,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Mika Mármol (Feyenoord Rotterdam)",
+"side": "player",
+"line": null,
+"player": "Mika Mármol",
+"team": "away",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Givairo Read (Feyenoord Rotterdam)",
+"side": "player",
+"line": null,
+"player": "Givairo Read",
+"team": "away",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Charles Vanhoutte (Feyenoord Rotterdam): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Charles Vanhoutte",
+"team": "away",
+"stat": "fouls",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Zlatko Tripic (Viking FK): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Zlatko Tripic",
+"team": "home",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Gjivai Zechiël (Feyenoord Rotterdam): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Gjivai Zechiël",
+"team": "away",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Gianni Stensness (Viking FK): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Gianni Stensness",
+"team": "home",
+"stat": "fouls",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Henrik Heggheim (Viking FK): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Henrik Heggheim",
+"team": "home",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Givairo Read (Feyenoord Rotterdam): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Givairo Read",
+"team": "away",
+"stat": "fouls",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Zlatko Tripic (Viking FK): 1+ shot + Anis Hadj Moussa (Feyenoord Rotterdam): 1+ shot + Total tackles: Under 37.5 + Feyenoord Rotterdam shots on target: Over 2.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Zlatko Tripic (Viking FK): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 85,
+"player": "Zlatko Tripic",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Anis Hadj Moussa (Feyenoord Rotterdam): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 84,
+"player": "Anis Hadj Moussa",
+"team": "away",
+"stat": "shots"
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 37.5",
+"side": "under",
+"line": 37.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "away_sot",
+"label": "Feyenoord Rotterdam shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 81,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 59,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.41,
+1.48
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 25.93,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.03,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.43,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.6,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.92,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.0,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.91,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 12.12,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.93,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 7.02,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.27,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 4.33,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 1.82,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 2.51,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 10.67,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 4.88,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 5.79,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 31.12,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 17.5,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 13.62,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 27.38,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Amin Cosic": 0.18,
+"Arild Østbø": 0.1506,
+"Erik Botheim": 0.1552,
+"Essien Bassey": 0.18,
+"Gianni Stensness": 0.2044,
+"Henrik Bjørdal": 0.1552,
+"Henrik Falchener": 0.1626,
+"Henrik Heggheim": 0.1506,
+"Herman Haugen": 0.165,
+"Jakob Segadal Hansen": 0.18,
+"Jesper Daland": 0.2211,
+"Joe Bell": 0.2142,
+"Kristoffer Askildsen": 0.2044,
+"Kristoffer Haugen": 0.2738,
+"Niklas Fuglestad": 0.18,
+"Peter Christiansen": 0.2107,
+"Simen Kvia-Egeskog": 0.165,
+"Tobias Moi": 0.1552,
+"Vetle Auklend": 0.1735,
+"Viljar Vevatne": 0.18,
+"Zlatko Tripic": 0.1506,
+"": 0.1834
+},
+"away": {
+"Anis Hadj Moussa": 0.1831,
+"Charles Vanhoutte": 0.3171,
+"Gaoussou Diarra": 0.2926,
+"Givairo Read": 0.2484,
+"Gjivai Zechiël": 0.2484,
+"Gonçalo Borges": 0.2188,
+"Javi López": 0.1831,
+"Jerayno Schaken": 0.2147,
+"Jerry St. Juste": 0.1916,
+"Luciano Valente": 0.1831,
+"Mats Deijl": 0.2188,
+"Mika Mármol": 0.2484,
+"Nacho Ferri": 0.1831,
+"Oussama Targhaline": 0.1886,
+"Sem Steijn": 0.2109,
+"Shaqueel Van Persie": 0.2188,
+"Thijs Kraaijeveld": 0.2114,
+"Tjark Ernst": 0.1831,
+"Tobias van den Elshout": 0.2071,
+"Tsuyoshi Watanabe": 0.2005,
+"": 0.2229
+}
+},
+"fh": {
+"home": {
+"Amin Cosic": 0.816,
+"Arild Østbø": 0.324,
+"Erik Botheim": 0.609,
+"Essien Bassey": 0.566,
+"Gianni Stensness": 0.895,
+"Henrik Bjørdal": 1.038,
+"Henrik Falchener": 0.378,
+"Henrik Heggheim": 0.609,
+"Herman Haugen": 0.324,
+"Jakob Segadal Hansen": 0.566,
+"Jesper Daland": 0.544,
+"Joe Bell": 1.211,
+"Kristoffer Askildsen": 1.181,
+"Kristoffer Haugen": 0.878,
+"Niklas Fuglestad": 0.566,
+"Peter Christiansen": 1.181,
+"Simen Kvia-Egeskog": 0.609,
+"Tobias Moi": 0.609,
+"Vetle Auklend": 0.378,
+"Viljar Vevatne": 0.816,
+"Zlatko Tripic": 0.895,
+"": 0.755
+},
+"away": {
+"Anis Hadj Moussa": 0.324,
+"Charles Vanhoutte": 1.324,
+"Gaoussou Diarra": 1.053,
+"Givairo Read": 1.038,
+"Gjivai Zechiël": 0.895,
+"Gonçalo Borges": 0.566,
+"Javi López": 1.038,
+"Jerayno Schaken": 0.653,
+"Jerry St. Juste": 1.044,
+"Luciano Valente": 0.609,
+"Mats Deijl": 0.566,
+"Mika Mármol": 0.752,
+"Nacho Ferri": 1.181,
+"Oussama Targhaline": 1.038,
+"Sem Steijn": 0.378,
+"Shaqueel Van Persie": 0.566,
+"Thijs Kraaijeveld": 0.816,
+"Tjark Ernst": 0.324,
+"Tobias van den Elshout": 0.467,
+"Tsuyoshi Watanabe": 0.467,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Villarreal|Sabah FK": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 17:45",
+"home": "Villarreal",
+"away": "Sabah FK",
+"espn_id": "401915372",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Villarreal or draw (75%)",
+"side": "HD",
+"chance": 75,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Villarreal shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 76,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Sabah FK shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Villarreal bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Sabah FK bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Villarreal fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 79,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Sabah FK fouls",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 74,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Villarreal goal kicks",
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Sabah FK goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 83,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Villarreal offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 78,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sabah FK offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 77,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Villarreal corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 82,
+"normal": 49,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Sabah FK corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 82,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Villarreal tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Sabah FK tackles",
+"pick": "Over 13.5",
+"side": "over",
+"line": 13.5,
+"chance": 72,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 77,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Villarreal corners",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 59,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Santiago Mouriño (Villarreal)",
+"side": "player",
+"line": null,
+"player": "Santiago Mouriño",
+"team": "home",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Renato Veiga (Villarreal)",
+"side": "player",
+"line": null,
+"player": "Renato Veiga",
+"team": "home",
+"chance": 17,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Akim Zedadka (Sabah FK)",
+"side": "player",
+"line": null,
+"player": "Akim Zedadka",
+"team": "away",
+"chance": 16,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Akim Zedadka (Sabah FK): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Akim Zedadka",
+"team": "away",
+"stat": "fouls",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Pape Gueye (Villarreal): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Pape Gueye",
+"team": "home",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Carlos Macià (Villarreal): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Carlos Macià",
+"team": "home",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Tajon Buchanan (Villarreal): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Tajon Buchanan",
+"team": "home",
+"stat": "shots",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Ivan Lepinjica (Sabah FK): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ivan Lepinjica",
+"team": "away",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Veljko Simic (Sabah FK): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Veljko Simic",
+"team": "away",
+"stat": "fouls",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Total offsides: Over 2.5 + Villarreal corners: Over 4.5 + Total tackles: Over 26.5 + Tajon Buchanan (Villarreal): 1+ shot",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "total_offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_corners",
+"label": "Villarreal corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Tajon Buchanan (Villarreal): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 81,
+"player": "Tajon Buchanan",
+"team": "home",
+"stat": "shots"
+}
+],
+"chance": 59,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.71,
+1.19
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 26.25,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 8.94,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 5.25,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 3.69,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.78,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.2,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.98,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 10.95,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 11.74,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.64,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.88,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 4.94,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 3.02,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.92,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 12.51,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 7.83,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.68,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 33.09,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 15.46,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 17.63,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 27.63,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Alberto Moleiro": 0.1297,
+"Alex Freeman": 0.1133,
+"Ayoze Pérez": 0.1082,
+"Carlos Macià": 0.1292,
+"Carlos Romero": 0.121,
+"Georges Mikautadze": 0.1069,
+"Gerard Moreno": 0.0882,
+"Ilias Akhomach": 0.1292,
+"Juan Foyth": 0.1989,
+"Logan Costa": 0.1106,
+"Nathan Saliba": 0.1241,
+"Nicolas Pépé": 0.1241,
+"Pape Gueye": 0.1257,
+"Pau Navarro": 0.1499,
+"Péter Gulácsi": 0.0805,
+"Renato Veiga": 0.202,
+"Santi Comesaña": 0.1855,
+"Santiago Mouriño": 0.2264,
+"Sergi Cardona": 0.1807,
+"Tajon Buchanan": 0.1677,
+"Tani Oluwaseyi": 0.0978,
+"": 0.1287
+},
+"away": {
+"Abdulakh Khaybulaev": 0.1203,
+"Aden McCarthy": 0.1902,
+"Akim Zedadka": 0.1902,
+"Aleksey Isayev": 0.1288,
+"Christian Nwachukwu": 0.1166,
+"Du Queiroz": 0.1166,
+"Ivan Lepinjica": 0.1902,
+"Joy-Lance Mickels": 0.1536,
+"Júnior Almeida": 0.1313,
+"Kaheem Parris": 0.115,
+"Khayal Aliyev": 0.1313,
+"Orphé Mbina": 0.1203,
+"Rahman Dashdamirov": 0.1224,
+"Stas Pokatilov": 0.1098,
+"Steve Solvet": 0.1996,
+"Tymoteusz Puchacz": 0.1098,
+"Umarali Rakhmonaliev": 0.149,
+"Veljko Simic": 0.149,
+"Xander Severina": 0.1313,
+"": 0.1338
+}
+},
+"fh": {
+"home": {
+"Alberto Moleiro": 0.515,
+"Alex Freeman": 0.348,
+"Ayoze Pérez": 0.681,
+"Carlos Macià": 0.772,
+"Carlos Romero": 0.405,
+"Georges Mikautadze": 0.293,
+"Gerard Moreno": 0.517,
+"Ilias Akhomach": 0.522,
+"Juan Foyth": 0.661,
+"Logan Costa": 0.711,
+"Nathan Saliba": 1.02,
+"Nicolas Pépé": 0.328,
+"Pape Gueye": 0.848,
+"Pau Navarro": 0.79,
+"Péter Gulácsi": 0.162,
+"Renato Veiga": 0.681,
+"Santi Comesaña": 1.459,
+"Santiago Mouriño": 1.579,
+"Sergi Cardona": 1.162,
+"Tajon Buchanan": 0.892,
+"Tani Oluwaseyi": 0.448,
+"": 0.755
+},
+"away": {
+"Abdulakh Khaybulaev": 1.324,
+"Aden McCarthy": 0.752,
+"Akim Zedadka": 1.038,
+"Aleksey Isayev": 0.653,
+"Christian Nwachukwu": 0.324,
+"Du Queiroz": 0.324,
+"Ivan Lepinjica": 1.181,
+"Joy-Lance Mickels": 0.752,
+"Júnior Almeida": 0.816,
+"Kaheem Parris": 1.211,
+"Khayal Aliyev": 0.566,
+"Orphé Mbina": 0.324,
+"Rahman Dashdamirov": 0.378,
+"Stas Pokatilov": 0.324,
+"Steve Solvet": 0.878,
+"Tymoteusz Puchacz": 0.609,
+"Umarali Rakhmonaliev": 1.038,
+"Veljko Simic": 0.895,
+"Xander Severina": 0.566,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|AEK Athens|Galatasaray": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "AEK Athens",
+"away": "Galatasaray",
+"espn_id": "401915289",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "AEK Athens or draw (73%)",
+"side": "HD",
+"chance": 73,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 73,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "AEK Athens shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Galatasaray shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "AEK Athens bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Galatasaray bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "AEK Athens fouls",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Galatasaray fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 79,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "AEK Athens goal kicks",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Galatasaray goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 83,
+"normal": 68,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "AEK Athens offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 76,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Galatasaray offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 81,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "AEK Athens corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Galatasaray corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 81,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "AEK Athens tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Galatasaray tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "AEK Athens corners",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 59,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Harold Moukoudi (AEK Athens)",
+"side": "player",
+"line": null,
+"player": "Harold Moukoudi",
+"team": "home",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Lovro Majer (AEK Athens)",
+"side": "player",
+"line": null,
+"player": "Lovro Majer",
+"team": "home",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Luka Jovic (AEK Athens)",
+"side": "player",
+"line": null,
+"player": "Luka Jovic",
+"team": "home",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Lucas Torreira (Galatasaray): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Lucas Torreira",
+"team": "away",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Davinson Sánchez (Galatasaray): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Davinson Sánchez",
+"team": "away",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Luka Jovic (AEK Athens): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Luka Jovic",
+"team": "home",
+"stat": "sot",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Alexey Batrakov (Galatasaray): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Alexey Batrakov",
+"team": "away",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Baris Alper Yilmaz (Galatasaray): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Baris Alper Yilmaz",
+"team": "away",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Harold Moukoudi (AEK Athens): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Harold Moukoudi",
+"team": "home",
+"stat": "fouls",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Total offsides: Over 2.5 + AEK Athens corners: Under 5.5 + Total tackles: Over 26.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "total_offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_corners",
+"label": "AEK Athens corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 26.5",
+"side": "over",
+"line": 26.5,
+"chance": 81,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 55,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.69,
+1.26
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 26.92,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.05,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.97,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.08,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.95,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.96,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.91,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 11.26,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 11.0,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 7.0,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.82,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 4.91,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.89,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 2.01,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.12,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 3.47,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.65,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 32.98,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 16.35,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 16.63,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 27.17,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Aboubakary Koita": 0.214,
+"Alberto Brignoli": 0.153,
+"Barnabás Varga": 0.2207,
+"Filipe Relvas": 0.153,
+"Harold Moukoudi": 0.2076,
+"João Mário": 0.1735,
+"Kaan Kairinen": 0.1735,
+"Kervin Arriaga": 0.2246,
+"Lazaros Rota": 0.153,
+"Lovro Majer": 0.2076,
+"Luka Jovic": 0.2076,
+"Mijat Gacinovic": 0.1676,
+"Milán Vitális": 0.1652,
+"Oleksandr Zubkov": 0.1762,
+"Razvan Marin": 0.214,
+"Stavros Pilios": 0.153,
+"Zini": 0.1676,
+"": 0.1863
+},
+"away": {
+"Abdülkerim Bardakçi": 0.1313,
+"Alexey Batrakov": 0.1196,
+"Baris Alper Yilmaz": 0.1623,
+"Davinson Sánchez": 0.1196,
+"Deniz Gül": 0.1912,
+"Eren Elmali": 0.1726,
+"Gabriel Gomes": 0.127,
+"Ilkay Gündogan": 0.1403,
+"Ismail Jakobs": 0.2071,
+"Leroy Sané": 0.131,
+"Lesley Ugochukwu": 0.1403,
+"Lucas Torreira": 0.1623,
+"Mario Lemina": 0.1291,
+"Rafael Leão": 0.1814,
+"Renato Nhaga": 0.1403,
+"Roland Sallai": 0.2137,
+"Ugurcan Çakir": 0.1196,
+"Victor Osimhen": 0.1252,
+"Wilfried Singo": 0.1429,
+"Yunus Akgün": 0.1196,
+"": 0.1456
+}
+},
+"fh": {
+"home": {
+"Aboubakary Koita": 0.895,
+"Alberto Brignoli": 0.324,
+"Barnabás Varga": 0.895,
+"Filipe Relvas": 0.609,
+"Harold Moukoudi": 0.895,
+"João Mário": 1.253,
+"Kaan Kairinen": 0.653,
+"Kervin Arriaga": 0.878,
+"Lazaros Rota": 1.324,
+"Lovro Majer": 0.752,
+"Luka Jovic": 0.609,
+"Mijat Gacinovic": 0.467,
+"Milán Vitális": 0.878,
+"Oleksandr Zubkov": 0.378,
+"Razvan Marin": 0.895,
+"Stavros Pilios": 0.324,
+"Zini": 0.467,
+"": 0.755
+},
+"away": {
+"Abdülkerim Bardakçi": 0.453,
+"Alexey Batrakov": 0.895,
+"Baris Alper Yilmaz": 0.895,
+"Davinson Sánchez": 0.895,
+"Deniz Gül": 1.053,
+"Eren Elmali": 0.752,
+"Gabriel Gomes": 0.467,
+"Ilkay Gündogan": 0.453,
+"Ismail Jakobs": 1.181,
+"Leroy Sané": 0.609,
+"Lesley Ugochukwu": 0.653,
+"Lucas Torreira": 0.752,
+"Mario Lemina": 0.544,
+"Rafael Leão": 0.544,
+"Renato Nhaga": 0.853,
+"Roland Sallai": 1.181,
+"Ugurcan Çakir": 0.324,
+"Victor Osimhen": 1.044,
+"Wilfried Singo": 0.566,
+"Yunus Akgün": 0.467,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|AS Roma|Sporting CP": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "AS Roma",
+"away": "Sporting CP",
+"espn_id": "401915288",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 82,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "AS Roma shots on target",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 81,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Sporting CP shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 82,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "AS Roma bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Sporting CP bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "AS Roma fouls",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Sporting CP fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 78,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "AS Roma goal kicks",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Sporting CP goal kicks",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 76,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "AS Roma offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Sporting CP offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "AS Roma corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Sporting CP corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 76,
+"normal": 51,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 27.5",
+"side": "over",
+"line": 27.5,
+"chance": 80,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "AS Roma tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Sporting CP tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "AS Roma offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 60,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Maxi Araújo (Sporting CP)",
+"side": "player",
+"line": null,
+"player": "Maxi Araújo",
+"team": "away",
+"chance": 25,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Issa Doumbia (Sporting CP)",
+"side": "player",
+"line": null,
+"player": "Issa Doumbia",
+"team": "away",
+"chance": 25,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Sergi Altimira (Sporting CP)",
+"side": "player",
+"line": null,
+"player": "Sergi Altimira",
+"team": "away",
+"chance": 25,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Matìas Soulè (AS Roma): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Matìas Soulè",
+"team": "home",
+"stat": "shots",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Evan Ndicka (AS Roma): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Evan Ndicka",
+"team": "home",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Sergi Altimira (Sporting CP): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Sergi Altimira",
+"team": "away",
+"stat": "fouls",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Luis Suárez (Sporting CP): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Luis Suárez",
+"team": "away",
+"stat": "shots",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Wesley (AS Roma): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Wesley",
+"team": "home",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Donyell Malen (AS Roma): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Donyell Malen",
+"team": "home",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Matìas Soulè (AS Roma): 1+ shot + Donyell Malen (AS Roma): 2+ shots + Total shots on target: Over 6.5 + Total offsides: Under 4.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Matìas Soulè (AS Roma): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 84,
+"player": "Matìas Soulè",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Donyell Malen (AS Roma): 2+ shots",
+"side": "over",
+"line": 2,
+"chance": 83,
+"player": "Donyell Malen",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "total_offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 76,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 51,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.59,
+1.44
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 26.19,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.35,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.68,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.67,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 2.09,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.16,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 4.26,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 11.37,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 11.1,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.7,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.57,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 3.27,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.07,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.2,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.82,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 5.64,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 3.18,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 33.69,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 17.11,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 16.57,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 25.74,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Bryan Cristante": 0.2535,
+"Daniele Ghilardi": 0.2028,
+"Devis Vásquez": 0.1751,
+"Devyne Rensch": 0.2513,
+"Donyell Malen": 0.2337,
+"Emanuele Lulli": 0.1925,
+"Evan Ndicka": 0.1655,
+"Gianluca Mancini": 0.1599,
+"Konstantinos Koulierakis": 0.2153,
+"Leonardo Balerdi": 0.1846,
+"Manu Koné": 0.2292,
+"Mario Hermoso": 0.1918,
+"Marten de Roon": 0.2202,
+"Matìas Soulè": 0.2413,
+"Nahuel Molina": 0.1285,
+"Niccolò Pisilli": 0.231,
+"Pierluigi Gollini": 0.1406,
+"Rodrigo Mora": 0.1299,
+"Santiago Castro": 0.1516,
+"Wesley": 0.1547,
+"": 0.1941
+},
+"away": {
+"Eduardo Felicíssimo": 0.2537,
+"Eduardo Quaresma": 0.2197,
+"Flávio Gonçalves": 0.2577,
+"Fotis Ioannidis": 0.2407,
+"Geny Catamo": 0.2197,
+"Georgios Vagiannidis": 0.2537,
+"Gonçalo Inácio": 0.2197,
+"Issa Doumbia": 0.2981,
+"Iván Fresneda": 0.2332,
+"Jesse Derry": 0.2577,
+"João Simões": 0.3224,
+"Kaique": 0.2413,
+"Luis Guilherme": 0.2449,
+"Luis Suárez": 0.2981,
+"Maxi Araújo": 0.2981,
+"Nestory Irankunda": 0.2413,
+"Pedro Lima": 0.2625,
+"Rodrigo Zalazar": 0.2492,
+"Rui Silva": 0.2413,
+"Salvador Blopa": 0.2625,
+"Sergi Altimira": 0.2981,
+"Silas Andersen": 0.2449,
+"Zeno Debast": 0.2625,
+"": 0.2675
+}
+},
+"fh": {
+"home": {
+"Bryan Cristante": 1.448,
+"Daniele Ghilardi": 0.713,
+"Devis Vásquez": 0.453,
+"Devyne Rensch": 0.328,
+"Donyell Malen": 0.604,
+"Emanuele Lulli": 0.57,
+"Evan Ndicka": 1.351,
+"Gianluca Mancini": 1.267,
+"Konstantinos Koulierakis": 0.751,
+"Leonardo Balerdi": 1.162,
+"Manu Koné": 1.022,
+"Mario Hermoso": 0.898,
+"Marten de Roon": 1.018,
+"Matìas Soulè": 0.181,
+"Nahuel Molina": 0.551,
+"Niccolò Pisilli": 0.604,
+"Pierluigi Gollini": 0.227,
+"Rodrigo Mora": 0.142,
+"Santiago Castro": 1.09,
+"Wesley": 0.898,
+"": 0.755
+},
+"away": {
+"Eduardo Felicíssimo": 1.066,
+"Eduardo Quaresma": 0.609,
+"Flávio Gonçalves": 0.653,
+"Fotis Ioannidis": 0.467,
+"Geny Catamo": 0.752,
+"Georgios Vagiannidis": 0.816,
+"Gonçalo Inácio": 0.609,
+"Issa Doumbia": 0.895,
+"Iván Fresneda": 0.752,
+"Jesse Derry": 0.653,
+"João Simões": 0.878,
+"Kaique": 0.453,
+"Luis Guilherme": 0.544,
+"Luis Suárez": 1.467,
+"Maxi Araújo": 1.467,
+"Nestory Irankunda": 0.853,
+"Pedro Lima": 0.566,
+"Rodrigo Zalazar": 0.653,
+"Rui Silva": 0.453,
+"Salvador Blopa": 0.566,
+"Sergi Altimira": 1.038,
+"Silas Andersen": 1.211,
+"Zeno Debast": 0.566,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Aston Villa|Paris Saint-Germain": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "Aston Villa",
+"away": "Paris Saint-Germain",
+"espn_id": "401915286",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 75,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 76,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Aston Villa shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Paris Saint-Germain shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 75,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Aston Villa bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Paris Saint-Germain bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 83,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Aston Villa fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 76,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Paris Saint-Germain fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 75,
+"normal": 59,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Aston Villa goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Paris Saint-Germain goal kicks",
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 73,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Aston Villa offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 83,
+"normal": 78,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Paris Saint-Germain offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 73,
+"normal": 53,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Aston Villa corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Paris Saint-Germain corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 77,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 29.5",
+"side": "over",
+"line": 29.5,
+"chance": 80,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Aston Villa tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Paris Saint-Germain tackles",
+"pick": "Over 13.5",
+"side": "over",
+"line": 13.5,
+"chance": 73,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Aston Villa offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 60,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Higher price: Away offsides",
+"label": "Paris Saint-Germain offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 73,
+"min_odds": 1.4,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Aston Villa corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 69,
+"min_odds": 1.45,
+"value": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Higher price: Away corners",
+"label": "Paris Saint-Germain corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 59,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Vitinha (Paris Saint-Germain)",
+"side": "player",
+"line": null,
+"player": "Vitinha",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Illia Zabarnyi (Paris Saint-Germain)",
+"side": "player",
+"line": null,
+"player": "Illia Zabarnyi",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Lucas Hernández (Paris Saint-Germain)",
+"side": "player",
+"line": null,
+"player": "Lucas Hernández",
+"team": "away",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Lucas Hernández (Paris Saint-Germain): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Lucas Hernández",
+"team": "away",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Nicolas Jackson (Aston Villa): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Nicolas Jackson",
+"team": "home",
+"stat": "shots",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "John McGinn (Aston Villa): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "John McGinn",
+"team": "home",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Alysson (Aston Villa): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Alysson",
+"team": "home",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Ian Maatsen (Aston Villa): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ian Maatsen",
+"team": "home",
+"stat": "fwon",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Désiré Doué (Paris Saint-Germain): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Désiré Doué",
+"team": "away",
+"stat": "sot",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Désiré Doué (Paris Saint-Germain): 1+ shot + Total bookings: Under 5.5 + Aston Villa offsides: Under 3.5 + Nicolas Jackson (Aston Villa): 1+ shot",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Désiré Doué (Paris Saint-Germain): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 85,
+"player": "Désiré Doué",
+"team": "away",
+"stat": "shots"
+},
+{
+"key": "total_cards",
+"label": "Total bookings",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_offsides",
+"label": "Aston Villa offsides",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Nicolas Jackson (Aston Villa): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 83,
+"player": "Nicolas Jackson",
+"team": "home",
+"stat": "shots"
+}
+],
+"chance": 64,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.38,
+1.67
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 27.15,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.79,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.44,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 5.35,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.63,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.97,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.6,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 10.4,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.53,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 7.58,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 6.96,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 5.24,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.08,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 3.16,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 9.26,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 3.45,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 5.81,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 35.96,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 18.11,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 17.84,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 26.17,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Alejandro Garnacho": 0.1268,
+"Alysson": 0.1705,
+"Boubacar Kamara": 0.0828,
+"Brian Madjo": 0.1855,
+"Emiliano Buendía": 0.1865,
+"George Hemmings": 0.1063,
+"Ian Maatsen": 0.1988,
+"Ibrahim Mbaye": 0.112,
+"Johan Manzambi": 0.1313,
+"John McGinn": 0.1701,
+"João Gomes": 0.1984,
+"Leon Goretzka": 0.1174,
+"Matty Cash": 0.2683,
+"Nicolas Jackson": 0.1721,
+"Pau Torres": 0.0904,
+"Ross Barkley": 0.0956,
+"Tammy Abraham": 0.1226,
+"Taylor Harwood-Bellis": 0.134,
+"Tyrone Mings": 0.1461,
+"Victor Lindelöf": 0.0802,
+"Zion Suzuki": 0.1115,
+"": 0.1413
+},
+"away": {
+"Achraf Hakimi": 0.223,
+"David Boly": 0.2577,
+"Dro Fernández": 0.2801,
+"Désiré Doué": 0.173,
+"Fabián Ruiz": 0.2334,
+"Ferran Torres": 0.1727,
+"Illia Zabarnyi": 0.2584,
+"João Neves": 0.1751,
+"Khvicha Kvaratskhelia": 0.1934,
+"Lucas Beraldo": 0.2034,
+"Lucas Digne": 0.2227,
+"Lucas Hernández": 0.2481,
+"Maghnes Akliouche": 0.2305,
+"Marquinhos": 0.2621,
+"Matvei Safonov": 0.1519,
+"Mika Godts": 0.2034,
+"Ousmane Dembélé": 0.1961,
+"Quentin Ndjantou": 0.3384,
+"Senny Mayulu": 0.2158,
+"Vitinha": 0.2794,
+"Warren Zaïre-Emery": 0.2281,
+"Willian Pacho": 0.1674,
+"": 0.2675
+}
+},
+"fh": {
+"home": {
+"Alejandro Garnacho": 0.252,
+"Alysson": 0.767,
+"Boubacar Kamara": 1.642,
+"Brian Madjo": 0.653,
+"Emiliano Buendía": 0.884,
+"George Hemmings": 1.024,
+"Ian Maatsen": 0.855,
+"Ibrahim Mbaye": 0.405,
+"Johan Manzambi": 0.189,
+"John McGinn": 1.074,
+"João Gomes": 0.948,
+"Leon Goretzka": 0.727,
+"Matty Cash": 1.519,
+"Nicolas Jackson": 0.517,
+"Pau Torres": 0.448,
+"Ross Barkley": 0.722,
+"Tammy Abraham": 0.297,
+"Taylor Harwood-Bellis": 1.066,
+"Tyrone Mings": 0.527,
+"Victor Lindelöf": 0.369,
+"Zion Suzuki": 0.142,
+"": 0.755
+},
+"away": {
+"Achraf Hakimi": 0.351,
+"David Boly": 0.453,
+"Dro Fernández": 0.57,
+"Désiré Doué": 1.018,
+"Fabián Ruiz": 0.351,
+"Ferran Torres": 0.251,
+"Illia Zabarnyi": 0.57,
+"João Neves": 1.019,
+"Khvicha Kvaratskhelia": 0.439,
+"Lucas Beraldo": 0.233,
+"Lucas Digne": 0.783,
+"Lucas Hernández": 0.662,
+"Maghnes Akliouche": 1.204,
+"Marquinhos": 0.727,
+"Matvei Safonov": 0.133,
+"Mika Godts": 0.376,
+"Ousmane Dembélé": 0.297,
+"Quentin Ndjantou": 0.467,
+"Senny Mayulu": 0.427,
+"Vitinha": 0.454,
+"Warren Zaïre-Emery": 0.351,
+"Willian Pacho": 0.376,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Barcelona|Manchester City": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "Barcelona",
+"away": "Manchester City",
+"espn_id": "401915285",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Barcelona or draw (76%)",
+"side": "HD",
+"chance": 76,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
+"chance": 79,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 74,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Barcelona shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 81,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Manchester City shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Barcelona bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Manchester City bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Barcelona fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 77,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Manchester City fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 73,
+"normal": 59,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Barcelona goal kicks",
+"pick": "Under 7.5",
+"side": "under",
+"line": 7.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Manchester City goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 74,
+"normal": 38,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Barcelona offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 83,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Manchester City offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 72,
+"normal": 53,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Barcelona corners",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 79,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Manchester City corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 29.5",
+"side": "over",
+"line": 29.5,
+"chance": 79,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Barcelona tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Manchester City tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Over 24.5",
+"side": "over",
+"line": 24.5,
+"chance": 75,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Barcelona offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 64,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"chance": 59,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "João Cancelo (Barcelona)",
+"side": "player",
+"line": null,
+"player": "João Cancelo",
+"team": "home",
+"chance": 23,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Josko Gvardiol (Manchester City)",
+"side": "player",
+"line": null,
+"player": "Josko Gvardiol",
+"team": "away",
+"chance": 22,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Abdukodir Khusanov (Manchester City)",
+"side": "player",
+"line": null,
+"player": "Abdukodir Khusanov",
+"team": "away",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Pedri (Barcelona): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Pedri",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Rúben Dias (Manchester City): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Rúben Dias",
+"team": "away",
+"stat": "fouls",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Erling Haaland (Manchester City): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Erling Haaland",
+"team": "away",
+"stat": "shots",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Fermín López (Barcelona): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Fermín López",
+"team": "home",
+"stat": "fwon",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Raphinha (Barcelona): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Raphinha",
+"team": "home",
+"stat": "sot",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Lamine Yamal (Barcelona): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Lamine Yamal",
+"team": "home",
+"stat": "sot",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Lamine Yamal (Barcelona): 2+ shots + Raphinha (Barcelona): 1+ shot + Barcelona offsides: Over 1.5 + Total bookings: Under 5.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Lamine Yamal (Barcelona): 2+ shots",
+"side": "over",
+"line": 2,
+"chance": 87,
+"player": "Lamine Yamal",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Raphinha (Barcelona): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 85,
+"player": "Raphinha",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "home_offsides",
+"label": "Barcelona offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "total_cards",
+"label": "Total bookings",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 66,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+2.02,
+1.29
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 25.54,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.58,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 5.65,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 3.93,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.64,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.96,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.6,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 11.17,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.67,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.05,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.74,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 6.51,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 3.4,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 3.11,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.73,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 4.5,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.23,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 35.54,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 19.27,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 16.27,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 28.35,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Alejandro Balde": 0.2595,
+"Andreas Christensen": 0.1572,
+"Anthony Gordon": 0.1681,
+"Brian Fariñas": 0.1796,
+"Dani Olmo": 0.2491,
+"Eric García": 0.1418,
+"Fermín López": 0.2597,
+"Frenkie de Jong": 0.1879,
+"Gabriel Jesus": 0.1657,
+"Gavi": 0.1682,
+"Gerard Martín": 0.1665,
+"Joan García": 0.1151,
+"João Cancelo": 0.2788,
+"Karim Adeyemi": 0.2453,
+"Lamine Yamal": 0.19,
+"Marc Bernal": 0.1956,
+"Pau Cubarsí": 0.1649,
+"Pedri": 0.1563,
+"Raphinha": 0.163,
+"Rodri": 0.1701,
+"Xavi Espart": 0.1894,
+"": 0.2089
+},
+"away": {
+"Abdukodir Khusanov": 0.2451,
+"Allan Elias": 0.1965,
+"Ayyoub Bouaddi": 0.2353,
+"Elliot Anderson": 0.2206,
+"Enzo Fernández": 0.1821,
+"Erling Haaland": 0.1724,
+"Floyd Samba": 0.2072,
+"Gianluigi Donnarumma": 0.167,
+"Iliman Ndiaye": 0.1464,
+"Josko Gvardiol": 0.3302,
+"Jérémy Doku": 0.2225,
+"Kaden Braithwaite": 0.2104,
+"Marc Guéhi": 0.1782,
+"Mateo Kovacic": 0.1932,
+"Matheus Nunes": 0.1519,
+"Nico O'Reilly": 0.2162,
+"Phil Foden": 0.2575,
+"Rayan Aït-Nouri": 0.2104,
+"Rayan Cherki": 0.2282,
+"Rico Lewis": 0.1937,
+"Ryan McAidoo": 0.2763,
+"Rúben Dias": 0.1266,
+"Vitor Reis": 0.2104,
+"": 0.2185
+}
+},
+"fh": {
+"home": {
+"Alejandro Balde": 0.533,
+"Andreas Christensen": 0.933,
+"Anthony Gordon": 0.626,
+"Brian Fariñas": 0.711,
+"Dani Olmo": 0.484,
+"Eric García": 0.559,
+"Fermín López": 1.404,
+"Frenkie de Jong": 0.752,
+"Gabriel Jesus": 0.328,
+"Gavi": 0.689,
+"Gerard Martín": 0.78,
+"Joan García": 0.126,
+"João Cancelo": 0.767,
+"Karim Adeyemi": 0.515,
+"Lamine Yamal": 1.126,
+"Marc Bernal": 0.898,
+"Pau Cubarsí": 0.704,
+"Pedri": 0.293,
+"Raphinha": 0.486,
+"Rodri": 0.722,
+"Xavi Espart": 1.439,
+"": 0.755
+},
+"away": {
+"Abdukodir Khusanov": 0.733,
+"Allan Elias": 0.895,
+"Ayyoub Bouaddi": 0.479,
+"Elliot Anderson": 1.133,
+"Enzo Fernández": 0.951,
+"Erling Haaland": 0.767,
+"Floyd Samba": 0.566,
+"Gianluigi Donnarumma": 0.133,
+"Iliman Ndiaye": 0.519,
+"Josko Gvardiol": 0.829,
+"Jérémy Doku": 0.479,
+"Kaden Braithwaite": 0.453,
+"Marc Guéhi": 0.884,
+"Mateo Kovacic": 0.283,
+"Matheus Nunes": 0.482,
+"Nico O'Reilly": 0.713,
+"Phil Foden": 0.59,
+"Rayan Aït-Nouri": 0.453,
+"Rayan Cherki": 0.642,
+"Rico Lewis": 0.878,
+"Ryan McAidoo": 0.467,
+"Rúben Dias": 1.192,
+"Vitor Reis": 0.453,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Bayern Munich|Slavia Prague": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "Bayern Munich",
+"away": "Slavia Prague",
+"espn_id": "401915284",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Bayern Munich or draw (83%)",
+"side": "HD",
+"chance": 83,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 77,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 76,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Bayern Munich shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 77,
+"normal": 52,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Slavia Prague shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 74,
+"normal": 63,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Bayern Munich bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 78,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Slavia Prague bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Bayern Munich fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 81,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Slavia Prague fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 81,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Bayern Munich goal kicks",
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Slavia Prague goal kicks",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 81,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Bayern Munich offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Slavia Prague offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 73,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Bayern Munich corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 82,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Slavia Prague corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 30.5",
+"side": "over",
+"line": 30.5,
+"chance": 81,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Bayern Munich tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Slavia Prague tackles",
+"pick": "Over 15.5",
+"side": "over",
+"line": 15.5,
+"chance": 76,
+"normal": 53,
+"star": true,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Under 28.5",
+"side": "under",
+"line": 28.5,
+"chance": 73,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Bayern Munich offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Bayern Munich corners",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Konrad Laimer (Bayern Munich)",
+"side": "player",
+"line": null,
+"player": "Konrad Laimer",
+"team": "home",
+"chance": 32,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Emmanuel Dennis Ayaosi (Slavia Prague)",
+"side": "player",
+"line": null,
+"player": "Emmanuel Dennis Ayaosi",
+"team": "away",
+"chance": 25,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Dayot Upamecano (Bayern Munich)",
+"side": "player",
+"line": null,
+"player": "Dayot Upamecano",
+"team": "home",
+"chance": 22,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Michael Olise (Bayern Munich): 3+ shots",
+"side": "over",
+"line": 3,
+"player": "Michael Olise",
+"team": "home",
+"stat": "shots",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Harry Kane (Bayern Munich): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Harry Kane",
+"team": "home",
+"stat": "sot",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Konrad Laimer (Bayern Munich): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Konrad Laimer",
+"team": "home",
+"stat": "fwon",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Danijel Sturm (Slavia Prague): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Danijel Sturm",
+"team": "away",
+"stat": "fouls",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Harry Kane (Bayern Munich): 2+ shots + Match result: Bayern Munich or draw (83%) + Bayern Munich corners: Over 3.5 + Bayern Munich fouls: Under 13.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Harry Kane (Bayern Munich): 2+ shots",
+"side": "over",
+"line": 2,
+"chance": 89,
+"player": "Harry Kane",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "result",
+"label": "Match result",
+"pick": "Bayern Munich or draw (83%)",
+"side": "HD",
+"line": null,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_corners",
+"label": "Bayern Munich corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_fouls",
+"label": "Bayern Munich fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 81,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 60,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+2.17,
+1.06
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 27.54,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.8,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 6.49,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 3.32,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.62,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.12,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.74,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 10.76,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.81,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.23,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 8.5,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 3.7,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.0,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.7,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 10.69,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 6.62,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.07,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 37.27,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 16.64,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 20.63,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 25.27,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Aleksandar Pavlovic": 0.2199,
+"Alphonso Davies": 0.1664,
+"Bara Sapoko Ndiaye": 0.2468,
+"Dayot Upamecano": 0.2569,
+"Harry Kane": 0.1505,
+"Hiroki Ito": 0.2337,
+"Ismael Saibari": 0.2392,
+"Jonas Urbig": 0.1948,
+"Jonathan Tah": 0.2306,
+"Joshua Kimmich": 0.2171,
+"Josip Stanisic": 0.2924,
+"Kim Min-Jae": 0.2494,
+"Konrad Laimer": 0.4049,
+"Lennart Karl": 0.1746,
+"Luis Díaz": 0.1773,
+"Manuel Neuer": 0.1753,
+"Michael Olise": 0.2097,
+"Nathaniel Brown": 0.1704,
+"Sacha Boey": 0.2337,
+"Serge Gnabry": 0.2061,
+"Tom Bischof": 0.179,
+"": 0.2515
+},
+"away": {
+"Ange N'Guessan": 0.2372,
+"Danijel Sturm": 0.2197,
+"David Jurásek": 0.2577,
+"David Moses": 0.3124,
+"David Zima": 0.2197,
+"Emmanuel Dennis Ayaosi": 0.2981,
+"Ivan Schranz": 0.2625,
+"Jakub Markovic": 0.23,
+"Lukás Provod": 0.2413,
+"Michal Sadílek": 0.2263,
+"Mikulás Konecny": 0.3512,
+"Mojmír Chytil": 0.2407,
+"Mubarak Suleiman": 0.2372,
+"Nazar Domchak": 0.2537,
+"Oskar Kubiak": 0.3072,
+"Pavel Kacor": 0.2625,
+"Samuel Isife": 0.2449,
+"Stepán Chaloupek": 0.2492,
+"Tomás Chorý": 0.2492,
+"Tomás Holes": 0.2413,
+"Tomás Vlcek": 0.2197,
+"Toumani Diakité": 0.2577,
+"Wiktor Nowak": 0.3072,
+"": 0.2675
+}
+},
+"fh": {
+"home": {
+"Aleksandar Pavlovic": 1.174,
+"Alphonso Davies": 0.351,
+"Bara Sapoko Ndiaye": 0.566,
+"Dayot Upamecano": 1.142,
+"Harry Kane": 0.454,
+"Hiroki Ito": 0.467,
+"Ismael Saibari": 0.662,
+"Jonas Urbig": 0.252,
+"Jonathan Tah": 0.867,
+"Joshua Kimmich": 0.162,
+"Josip Stanisic": 0.484,
+"Kim Min-Jae": 1.024,
+"Konrad Laimer": 1.713,
+"Lennart Karl": 0.218,
+"Luis Díaz": 1.189,
+"Manuel Neuer": 0.206,
+"Michael Olise": 0.484,
+"Nathaniel Brown": 0.484,
+"Sacha Boey": 0.467,
+"Serge Gnabry": 0.363,
+"Tom Bischof": 0.684,
+"": 0.755
+},
+"away": {
+"Ange N'Guessan": 1.878,
+"Danijel Sturm": 1.038,
+"David Jurásek": 0.653,
+"David Moses": 1.378,
+"David Zima": 0.467,
+"Emmanuel Dennis Ayaosi": 1.467,
+"Ivan Schranz": 0.566,
+"Jakub Markovic": 0.378,
+"Lukás Provod": 0.853,
+"Michal Sadílek": 0.752,
+"Mikulás Konecny": 0.653,
+"Mojmír Chytil": 0.752,
+"Mubarak Suleiman": 0.544,
+"Nazar Domchak": 0.566,
+"Oskar Kubiak": 1.181,
+"Pavel Kacor": 0.566,
+"Samuel Isife": 0.378,
+"Stepán Chaloupek": 0.453,
+"Tomás Chorý": 0.453,
+"Tomás Holes": 0.653,
+"Tomás Vlcek": 0.609,
+"Toumani Diakité": 0.453,
+"Wiktor Nowak": 0.752,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Manchester United|RB Leipzig": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "Manchester United",
+"away": "RB Leipzig",
+"espn_id": "401915371",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 76,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 78,
+"normal": 66,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Manchester United shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 80,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "RB Leipzig shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 79,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Manchester United bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "RB Leipzig bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 74,
+"normal": 63,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Manchester United fouls",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 75,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "RB Leipzig fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 77,
+"normal": 70,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Manchester United goal kicks",
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "RB Leipzig goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 78,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Manchester United offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 80,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "RB Leipzig offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Manchester United corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 79,
+"normal": 69,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "RB Leipzig corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 29.5",
+"side": "over",
+"line": 29.5,
+"chance": 79,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Manchester United tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "RB Leipzig tackles",
+"pick": "Under 18.5",
+"side": "under",
+"line": 18.5,
+"chance": 75,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Over 22.5",
+"side": "over",
+"line": 22.5,
+"chance": 81,
+"normal": 76,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Manchester United offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 61,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Higher price: Away offsides",
+"label": "RB Leipzig offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 66,
+"min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Neil El Aynaoui (RB Leipzig)",
+"side": "player",
+"line": null,
+"player": "Neil El Aynaoui",
+"team": "away",
+"chance": 24,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Antonio Nusa (RB Leipzig)",
+"side": "player",
+"line": null,
+"player": "Antonio Nusa",
+"team": "away",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Harry Maguire (Manchester United)",
+"side": "player",
+"line": null,
+"player": "Harry Maguire",
+"team": "home",
+"chance": 20,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Matheus Cunha (Manchester United): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Matheus Cunha",
+"team": "home",
+"stat": "sot",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Bruno Fernandes (Manchester United): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Bruno Fernandes",
+"team": "home",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Brajan Gruda (RB Leipzig): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Brajan Gruda",
+"team": "away",
+"stat": "fouls",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Diogo Dalot (Manchester United): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Diogo Dalot",
+"team": "home",
+"stat": "fouls",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Bryan Mbeumo (Manchester United): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Bryan Mbeumo",
+"team": "home",
+"stat": "fouls",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Amad Diallo (Manchester United): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Amad Diallo",
+"team": "home",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Bruno Fernandes (Manchester United): 1+ shot + RB Leipzig offsides: Under 2.5 + RB Leipzig corners: Under 5.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Bruno Fernandes (Manchester United): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 84,
+"player": "Bruno Fernandes",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "away_offsides",
+"label": "RB Leipzig offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "away_corners",
+"label": "RB Leipzig corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 54,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.68,
+1.53
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 27.44,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 10.08,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 5.61,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.47,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.84,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.81,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.66,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 11.84,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 11.19,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.51,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 8.03,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 4.47,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 3.2,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.27,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 9.69,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 6.16,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 3.53,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 35.73,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 20.9,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 14.83,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 27.5,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Amad Diallo": 0.0986,
+"Andrey Santos": 0.2049,
+"Ayden Heaven": 0.2238,
+"Bruno Fernandes": 0.1639,
+"Bryan Mbeumo": 0.1302,
+"Carlos Baleba": 0.1391,
+"Diogo Dalot": 0.1406,
+"Harry Amass": 0.1296,
+"Harry Maguire": 0.2313,
+"Joshua Zirkzee": 0.156,
+"Kobbie Mainoo": 0.1234,
+"Leny Yoro": 0.1234,
+"Lisandro Martínez": 0.151,
+"Mason Mount": 0.1084,
+"Matheus Cunha": 0.1096,
+"Matthijs de Ligt": 0.1254,
+"Noussair Mazraoui": 0.1056,
+"Patrick Dorgu": 0.1879,
+"Senne Lammens": 0.0764,
+"Shea Lacey": 0.1643,
+"Youri Tielemans": 0.1085,
+"": 0.1346
+},
+"away": {
+"Abdoul Koné": 0.2229,
+"Andrija Maksimovic": 0.1867,
+"Antonio Nusa": 0.2881,
+"Benjamin Henrichs": 0.2418,
+"Brajan Gruda": 0.1515,
+"Castello Lukeba": 0.2023,
+"Christoph Baumgartner": 0.2782,
+"Christopher Nkunku": 0.2094,
+"David Raum": 0.2392,
+"Ezechiel Banzuzi": 0.1929,
+"Johan Bakayoko": 0.2118,
+"Maarten Vandevoordt": 0.14,
+"Max Finkgrafe": 0.2082,
+"Maxime Estève": 0.1926,
+"Neil El Aynaoui": 0.2916,
+"Nicolas Seiwald": 0.1713,
+"Ridle Baku": 0.2045,
+"Rocco Reitz": 0.3088,
+"Rômulo": 0.1609,
+"Tidiam Gomis": 0.1666,
+"Willi Orbán": 0.1826,
+"Ørjan Nyland": 0.2195,
+"": 0.2314
+}
+},
+"fh": {
+"home": {
+"Amad Diallo": 0.57,
+"Andrey Santos": 0.939,
+"Ayden Heaven": 0.927,
+"Bruno Fernandes": 0.829,
+"Bryan Mbeumo": 0.839,
+"Carlos Baleba": 0.927,
+"Diogo Dalot": 0.954,
+"Harry Amass": 0.453,
+"Harry Maguire": 0.767,
+"Joshua Zirkzee": 0.605,
+"Kobbie Mainoo": 0.867,
+"Leny Yoro": 0.713,
+"Lisandro Martínez": 0.948,
+"Mason Mount": 0.522,
+"Matheus Cunha": 1.251,
+"Matthijs de Ligt": 0.453,
+"Noussair Mazraoui": 0.927,
+"Patrick Dorgu": 1.127,
+"Senne Lammens": 0.133,
+"Shea Lacey": 0.585,
+"Youri Tielemans": 0.579,
+"": 0.755
+},
+"away": {
+"Abdoul Koné": 0.453,
+"Andrija Maksimovic": 0.427,
+"Antonio Nusa": 0.517,
+"Benjamin Henrichs": 0.636,
+"Brajan Gruda": 0.948,
+"Castello Lukeba": 0.559,
+"Christoph Baumgartner": 0.658,
+"Christopher Nkunku": 1.233,
+"David Raum": 1.084,
+"Ezechiel Banzuzi": 1.684,
+"Johan Bakayoko": 0.544,
+"Maarten Vandevoordt": 0.151,
+"Max Finkgrafe": 0.752,
+"Maxime Estève": 0.283,
+"Neil El Aynaoui": 0.751,
+"Nicolas Seiwald": 0.662,
+"Ridle Baku": 1.019,
+"Rocco Reitz": 0.57,
+"Rômulo": 0.636,
+"Tidiam Gomis": 0.392,
+"Willi Orbán": 0.829,
+"Ørjan Nyland": 0.566,
+"": 0.755
+}
+}
+}
+},
+"UCL|2026-12-08|Napoli|Club Brugge": {
+"code": "UCL",
+"league": "Champions League",
+"date": "2026-12-08",
+"kickoff": "2026-12-08 20:00",
+"home": "Napoli",
+"away": "Club Brugge",
+"espn_id": "401915287",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 75,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Napoli shots on target",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 81,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Club Brugge shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 77,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Napoli bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Club Brugge bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Napoli fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 75,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Club Brugge fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 75,
+"normal": 59,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Napoli goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Club Brugge goal kicks",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 76,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Napoli offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Club Brugge offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"normal": 69,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Napoli corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Club Brugge corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Under 37.5",
+"side": "under",
+"line": 37.5,
+"chance": 81,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Napoli tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Club Brugge tackles",
+"pick": "Under 18.5",
+"side": "under",
+"line": 18.5,
+"chance": 74,
+"normal": 64,
+"star": false,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Under 27.5",
+"side": "under",
+"line": 27.5,
+"chance": 74,
+"normal": 57,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Napoli offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Higher price: Away offsides",
+"label": "Club Brugge offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 66,
+"min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Rafa Marín (Napoli)",
+"side": "player",
+"line": null,
+"player": "Rafa Marín",
+"team": "home",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Frank Anguissa (Napoli)",
+"side": "player",
+"line": null,
+"player": "Frank Anguissa",
+"team": "home",
+"chance": 16,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Noa Lang (Napoli)",
+"side": "player",
+"line": null,
+"player": "Noa Lang",
+"team": "home",
+"chance": 15,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Nicolo Tresoldi (Club Brugge): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Nicolo Tresoldi",
+"team": "away",
+"stat": "sot",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Scott McTominay (Napoli): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Scott McTominay",
+"team": "home",
+"stat": "sot",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Rasmus Højlund (Napoli): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Rasmus Højlund",
+"team": "home",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Kevin De Bruyne (Napoli): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Kevin De Bruyne",
+"team": "home",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fouls",
+"market": "Player fouls",
+"label": "Player fouls",
+"pick": "Rafa Marín (Napoli): 1+ foul",
+"side": "over",
+"line": 1,
+"player": "Rafa Marín",
+"team": "home",
+"stat": "fouls",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Noa Lang (Napoli): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Noa Lang",
+"team": "home",
+"stat": "shots",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Rasmus Højlund (Napoli): 1+ shot + Nicolo Tresoldi (Club Brugge): 1+ shot + Club Brugge offsides: Under 2.5 + Napoli shots on target: Under 6.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Rasmus Højlund (Napoli): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 85,
+"player": "Rasmus Højlund",
+"team": "home",
+"stat": "shots"
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Nicolo Tresoldi (Club Brugge): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 84,
+"player": "Nicolo Tresoldi",
+"team": "away",
+"stat": "shots"
+},
+{
+"key": "away_offsides",
+"label": "Club Brugge offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 83,
+"player": null,
+"team": null,
+"stat": null
+},
+{
+"key": "home_sot",
+"label": "Napoli shots on target",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 81,
+"player": null,
+"team": null,
+"stat": null
+}
+],
+"chance": 55,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.45,
+1.43
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 27.14,
+"phi": 1.2,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 8.95,
+"phi": 1.05,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.65,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.3,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.8,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.95,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.74,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 10.49,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.47,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 7.29,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.67,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_offsides",
+"expected": 3.26,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 1.99,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.28,
+"phi": 1.75,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 9.61,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 4.9,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.71,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 31.45,
+"phi": 1.5,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 16.41,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 15.04,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 24.22,
+"phi": 1.0,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Alex Meret": 0.117,
+"Amir Rrahmani": 0.1784,
+"Antonio Vergara": 0.2908,
+"Benoît Badiashile": 0.198,
+"Billy Gilmour": 0.2128,
+"Frank Anguissa": 0.2104,
+"Giovane": 0.2003,
+"Giovanni Di Lorenzo": 0.2199,
+"Kevin De Bruyne": 0.1485,
+"Leonardo Spinazzola": 0.1305,
+"Lorenzo Lucca": 0.1855,
+"Luca Marianucci": 0.229,
+"Mathías Olivera": 0.1239,
+"Matteo Politano": 0.1423,
+"Noa Lang": 0.2048,
+"Rafa Marín": 0.2521,
+"Rasmus Højlund": 0.1046,
+"Sam Beukema": 0.148,
+"Scott McTominay": 0.1559,
+"Stanislav Lobotka": 0.1168,
+"Vanja Milinkovic-Savic": 0.1399,
+"": 0.1806
+},
+"away": {
+"Brandon Mechele": 0.0893,
+"Carlos Forbs": 0.1211,
+"Cheveyo Tsawa": 0.1066,
+"Felix Lemarechal": 0.1702,
+"Freddie Potts": 0.0893,
+"Hans Vanaken": 0.1211,
+"Hugo Siquet": 0.101,
+"Hugo Vetlesen": 0.1594,
+"Jan Virgili": 0.1546,
+"Joaquin Seys": 0.0893,
+"Jorne Spileers": 0.1622,
+"Kyriani Sabbe": 0.0893,
+"Lee Han-Beom": 0.1378,
+"Mamadou Diakhon": 0.101,
+"Milan Robberechts": 0.1066,
+"Nicolo Tresoldi": 0.0893,
+"Romeo Vermant": 0.1375,
+"Yann Sommer": 0.0893,
+"": 0.1087
+}
+},
+"fh": {
+"home": {
+"Alex Meret": 0.174,
+"Amir Rrahmani": 1.074,
+"Antonio Vergara": 0.605,
+"Benoît Badiashile": 1.033,
+"Billy Gilmour": 0.519,
+"Frank Anguissa": 0.636,
+"Giovane": 0.388,
+"Giovanni Di Lorenzo": 0.579,
+"Kevin De Bruyne": 0.848,
+"Leonardo Spinazzola": 0.522,
+"Lorenzo Lucca": 0.704,
+"Luca Marianucci": 0.853,
+"Mathías Olivera": 0.948,
+"Matteo Politano": 0.404,
+"Noa Lang": 0.551,
+"Rafa Marín": 1.31,
+"Rasmus Højlund": 0.663,
+"Sam Beukema": 0.363,
+"Scott McTominay": 0.59,
+"Stanislav Lobotka": 0.418,
+"Vanja Milinkovic-Savic": 0.252,
+"": 0.755
+},
+"away": {
+"Brandon Mechele": 0.895,
+"Carlos Forbs": 0.609,
+"Cheveyo Tsawa": 0.816,
+"Felix Lemarechal": 1.038,
+"Freddie Potts": 1.324,
+"Hans Vanaken": 0.895,
+"Hugo Siquet": 0.324,
+"Hugo Vetlesen": 1.038,
+"Jan Virgili": 0.609,
+"Joaquin Seys": 0.752,
+"Jorne Spileers": 1.044,
+"Kyriani Sabbe": 0.324,
+"Lee Han-Beom": 1.253,
+"Mamadou Diakhon": 0.324,
+"Milan Robberechts": 0.566,
+"Nicolo Tresoldi": 0.467,
+"Romeo Vermant": 0.752,
+"Yann Sommer": 0.467,
+"": 0.755
+}
+}
+}
 }
 }
