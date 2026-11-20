@@ -49,19 +49,18 @@ def main():
         params_age_days = (dt.date.today() - dt.date.fromisoformat(fitted)).days if fitted else 999
     refit = "--refit" in sys.argv or params_age_days > 14   # re-test the model every 2 weeks
     params = predictor.load_or_fit_params(refit=refit)
-    matches = predictor.predict_fixtures(params)
-    try:
-        matches += europe.predict(params)
-    except Exception as e:          # European feed down: the leagues still work
-        print(f"European cups skipped this time ({e})")
-    matches.sort(key=lambda m: m["sort"])
-
-    # ESPN: who gets booked, plus results for the track record
+    # ESPN: who gets booked, results for the track record, and upcoming games
     cache, upcoming = {"matches": {}}, []
     try:
         cache, upcoming = espn.update()
     except Exception as e:
         print(f"ESPN update skipped this time ({e})")
+    matches = predictor.predict_fixtures(params, espn_fixtures(upcoming), espn_aliases(cache))
+    try:
+        matches += europe.predict(params)
+    except Exception as e:          # European feed down: the leagues still work
+        print(f"European cups skipped this time ({e})")
+    matches.sort(key=lambda m: m["sort"])
     link_espn(matches, [{"code": u["code"], "day": _uk_day(u["event"]["date"]), "id": u["event"]["id"],
                          **{c["homeAway"]: c["team"]["displayName"] for c in u["event"]["competitions"][0]["competitors"]}}
                         for u in upcoming])
@@ -261,6 +260,64 @@ def _sim(a, b):
 
 def _uk_day(iso):
     return pd.Timestamp(iso).tz_convert("Europe/London").strftime("%Y-%m-%d")
+
+
+def espn_fixtures(upcoming):
+    """ESPN's not-yet-started league games (UK day and time, ESPN names), the fallback for fixtures.csv."""
+    out, now = [], pd.Timestamp.now(tz="UTC")
+    for u in upcoming:
+        if u["code"] not in fetch_data.LEAGUES:
+            continue
+        try:
+            uk = pd.Timestamp(u["event"]["date"]).tz_convert("Europe/London")
+            if uk <= now:              # by kick-off time (ESPN sometimes flags a game "in" hours early)
+                continue
+            comp = u["event"]["competitions"][0]
+            side = {c["homeAway"]: c["team"]["displayName"] for c in comp["competitors"]}
+            out.append({"code": u["code"], "day": uk.strftime("%Y-%m-%d"), "time": uk.strftime("%H:%M"),
+                        "home": side["home"], "away": side["away"], "odds": _espn_odds(comp)})
+        except (KeyError, IndexError, ValueError, TypeError):
+            continue
+    return out
+
+
+def _espn_odds(comp):
+    """Bookmaker odds ESPN shows for an upcoming game, as football-data style columns
+    (AvgH/AvgD/AvgA and Avg>2.5/Avg<2.5, decimal), so the model blends them in the same way."""
+    try:
+        o = (comp.get("odds") or [{}])[0]
+        ml = o["moneyline"]
+        pick = lambda x: (x.get("close") or {}).get("odds") or (x.get("open") or {}).get("odds")
+        h, d, a = (espn._dec(pick(ml[k])) for k in ("home", "draw", "away"))
+    except (KeyError, IndexError, TypeError, ValueError, ZeroDivisionError):
+        return {}
+    out = {"AvgH": h, "AvgD": d, "AvgA": a}
+    try:
+        line = float(o["overUnder"])
+        tot = o["total"]
+        ov, un = (espn._dec(pick(tot[k])) for k in ("over", "under"))
+    except (KeyError, TypeError, ValueError, ZeroDivisionError):
+        return out
+    if line == 2.5:
+        out["Avg>2.5"], out["Avg<2.5"] = ov, un
+        return out
+    s = 1 / h + 1 / d + 1 / a           # another goals line: find the goals it implies, then price 2.5
+    xg = espn._expected_goals(1 / h / s, 1 / a / s, line, (1 / ov) / (1 / ov + 1 / un))
+    if xg:
+        p = predictor.outcome_probs(xg[0], xg[1])["O25"]
+        if 0.02 < p < 0.98:
+            out["Avg>2.5"], out["Avg<2.5"] = round(1 / p, 3), round(1 / (1 - p), 3)
+    return out
+
+
+def espn_aliases(cache):
+    """ESPN name -> football-data name, learnt from logged league games that were linked to ESPN."""
+    out = {}
+    for e in record.load().values():
+        em = cache.get("matches", {}).get(str(e.get("espn_id"))) if e.get("espn_id") else None
+        if em and e["code"] in fetch_data.LEAGUES:
+            out[em["home"]], out[em["away"]] = e["home"], e["away"]
+    return out
 
 
 def link_espn(matches, candidates):

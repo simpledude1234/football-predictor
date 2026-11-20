@@ -561,14 +561,46 @@ def predict_one(df, f, params, lg, code, name):
     }
 
 
-def predict_fixtures(params):
+def espn_missing(rows, extra, teams, aliases=None):
+    """ESPN's upcoming games of one league that fixtures.csv does not list yet (it can lag by a
+    day or more, e.g. after an international break), as fixture rows with football-data names.
+    extra: [{"day": "YYYY-MM-DD" (UK), "time": "HH:MM" (UK), "home", "away"}] with ESPN names.
+    A game is added only if both teams map clearly onto this league's teams; never guessed."""
+    import espn
+    match = espn.matcher(teams, aliases)
+    have = [(d, h, a) for d, h, a in zip(rows.Date, rows.HomeTeam, rows.AwayTeam)]
+    busy = {(d.strftime("%Y-%m-%d"), t) for d, h, a in have if not pd.isna(d) for t in (h, a)}
+    out = []
+    for e in extra:
+        h, a = match(e["home"]), match(e["away"])
+        if not h or not a or h == a or h not in teams or a not in teams:
+            print(f"  ESPN fixture skipped (team names unclear): {e['home']} v {e['away']}")
+            continue
+        day = pd.Timestamp(e["day"])
+        if any(hh == h and aa == a and not pd.isna(d) and abs((d - day).days) <= 3 for d, hh, aa in have):
+            continue                                   # football-data already has it
+        if (e["day"], h) in busy or (e["day"], a) in busy:
+            continue
+        busy |= {(e["day"], h), (e["day"], a)}
+        out.append({"Div": e["code"], "Date": day, "Time": e["time"],
+                    "HomeTeam": h, "AwayTeam": a, "Referee": None, **(e.get("odds") or {})})
+    return out
+
+
+def predict_fixtures(params, extra=(), aliases=None):
+    """Upcoming league games from fixtures.csv, plus any that only ESPN lists so far (extra)."""
     fx = load_fixtures()
     out = []
     for code, name in LEAGUES.items():
         df = load_league(code)
         teams = set(df.HomeTeam) | set(df.AwayTeam)
         lg = league_norms(df)
-        for _, f in referees.fill(fx[fx.Div == code].copy(), code).iterrows():
+        rows = fx[fx.Div == code].copy()
+        add = espn_missing(rows, [e for e in extra if e["code"] == code], teams, aliases)
+        if add:
+            print(f"{name}: {len(add)} upcoming games taken from ESPN (not in fixtures.csv yet)")
+            rows = pd.concat([rows, pd.DataFrame(add)], ignore_index=True)
+        for _, f in referees.fill(rows, code).iterrows():
             if f.HomeTeam in teams and f.AwayTeam in teams:
                 out.append(predict_one(df, f, params, lg, code, name))
     out.sort(key=lambda x: (x["sort"], x["league"]))
