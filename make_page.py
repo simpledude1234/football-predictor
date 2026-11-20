@@ -272,6 +272,8 @@ def espn_fixtures(upcoming):
             uk = pd.Timestamp(u["event"]["date"]).tz_convert("Europe/London")
             if uk <= now:              # by kick-off time (ESPN sometimes flags a game "in" hours early)
                 continue
+            if uk > now + pd.Timedelta(days=7):   # about the week ahead fixtures.csv covers
+                continue
             comp = u["event"]["competitions"][0]
             side = {c["homeAway"]: c["team"]["displayName"] for c in comp["competitors"]}
             out.append({"code": u["code"], "day": uk.strftime("%Y-%m-%d"), "time": uk.strftime("%H:%M"),
