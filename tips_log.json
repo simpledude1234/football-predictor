@@ -51315,7 +51315,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 56,
 "star": false
 }
 ],
@@ -51990,7 +51990,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -52669,7 +52669,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 55,
 "star": false
 }
 ],
@@ -53975,7 +53975,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 55,
 "star": false
 }
 ],
@@ -54659,7 +54659,7 @@
 "stat": null
 }
 ],
-"chance": 68,
+"chance": 54,
 "star": false
 }
 ],
@@ -55326,7 +55326,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 54,
 "star": false
 }
 ],
@@ -55981,7 +55981,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 56,
 "star": false
 }
 ],
@@ -56663,7 +56663,7 @@
 "stat": null
 }
 ],
-"chance": 75,
+"chance": 64,
 "star": false
 }
 ],
@@ -57324,7 +57324,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Lamine Yamal (Barcelona): 2+ shots + Raphinha (Barcelona): 1+ shot + Total shots: Under 30.5 + Total tackles: Under 37.5",
+"pick": "Lamine Yamal (Barcelona): 2+ shots + Raphinha (Barcelona): 1+ shot + Total shots: Under 30.5 + Total offsides: Over 4.5",
 "side": null,
 "line": null,
 "legs": [
@@ -57362,18 +57362,18 @@
 "stat": null
 },
 {
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Under 37.5",
-"side": "under",
-"line": 37.5,
+"key": "total_offsides",
+"label": "Total offsides",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
 "chance": 81,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 56,
+"chance": 51,
 "star": false
 }
 ],
@@ -57952,7 +57952,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Slavia Prague shots on target: Under 6.5 + Emmanuel Dennis Ayaosi (Slavia Prague): 1+ shot + Total offsides: Under 5.5 + Villarreal fouls: Under 13.5",
+"pick": "Slavia Prague shots on target: Under 6.5 + Emmanuel Dennis Ayaosi (Slavia Prague): 1+ shot + Total offsides: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -57988,20 +57988,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Villarreal fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 57,
+"chance": 54,
 "star": false
 }
 ],
@@ -58634,7 +58623,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots: Over 21.5 + Total tackles: Under 37.5 + Atlético Madrid corners: Over 3.5 + Zlatko Tripic (Viking FK): 1+ shot",
+"pick": "Total shots: Over 21.5 + Total tackles: Under 37.5 + Viking FK offsides: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -58661,29 +58650,18 @@
 "stat": null
 },
 {
-"key": "home_corners",
-"label": "Atlético Madrid corners",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
+"key": "away_offsides",
+"label": "Viking FK offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
 "chance": 81,
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Zlatko Tripic (Viking FK): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 79,
-"player": "Zlatko Tripic",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 58,
+"chance": 52,
 "star": false
 }
 ],
@@ -59302,7 +59280,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Nicolo Tresoldi (Club Brugge): 1+ shot + Total shots on target: Over 6.5 + Total tackles: Over 27.5",
+"pick": "Nicolo Tresoldi (Club Brugge): 1+ shot + Total shots on target: Over 6.5 + Club Brugge corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -59329,18 +59307,18 @@
 "stat": null
 },
 {
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Over 27.5",
-"side": "over",
-"line": 27.5,
+"key": "home_corners",
+"label": "Club Brugge corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
 "chance": 80,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 52,
 "star": false
 }
 ],
@@ -59965,7 +59943,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Marcus Thuram (Internazionale): 2+ shots + Total tackles: Under 31.5 + Match result: Internazionale or draw (77%) + VfB Stuttgart fouls: Under 12.5",
+"pick": "Marcus Thuram (Internazionale): 2+ shots + Total tackles: Under 31.5 + Match result: Internazionale or draw (77%)",
 "side": null,
 "line": null,
 "legs": [
@@ -59998,17 +59976,6 @@
 "side": "HD",
 "line": null,
 "chance": 77,
-"player": null,
-"team": null,
-"stat": null
-},
-{
-"key": "away_fouls",
-"label": "VfB Stuttgart fouls",
-"pick": "Under 12.5",
-"side": "under",
-"line": 12.5,
-"chance": 76,
 "player": null,
 "team": null,
 "stat": null
@@ -60677,7 +60644,7 @@
 "stat": "shots"
 }
 ],
-"chance": 57,
+"chance": 59,
 "star": false
 }
 ],
@@ -61356,7 +61323,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -61975,7 +61942,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Fenerbahce shots on target: Over 2.5 + Kauã Elias (Shakhtar Donetsk): 1+ shot + Fenerbahce offsides: Under 2.5 + Fenerbahce tackles: Over 13.5",
+"pick": "Fenerbahce shots on target: Over 2.5 + Kauã Elias (Shakhtar Donetsk): 1+ shot + Fenerbahce offsides: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -62011,20 +61978,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_tackles",
-"label": "Fenerbahce tackles",
-"pick": "Over 13.5",
-"side": "over",
-"line": 13.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 50,
+"chance": 55,
 "star": false
 }
 ],
@@ -62657,7 +62613,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Sporting CP or draw (81%) + Bruno Fernandes (Manchester United): 1+ shot + Sporting CP fouls: Under 13.5 + Sporting CP offsides: Under 2.5",
+"pick": "Match result: Sporting CP or draw (81%) + Bruno Fernandes (Manchester United): 1+ shot + Sporting CP fouls: Under 13.5 + Total shots: Over 23.5",
 "side": null,
 "line": null,
 "legs": [
@@ -62695,18 +62651,18 @@
 "stat": null
 },
 {
-"key": "home_offsides",
-"label": "Sporting CP offsides",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 80,
+"key": "total_shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 50,
 "star": false
 }
 ],
@@ -63881,7 +63837,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 54,
 "star": false
 }
 ],
@@ -64492,7 +64448,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Evanilson (AFC Bournemouth): 1+ shot + Total shots on target: Under 10.5 + Celta Vigo bookings: Under 2.5",
+"pick": "Evanilson (AFC Bournemouth): 1+ shot + Total shots on target: Under 10.5 + Celta Vigo fouls: Under 13.5",
 "side": null,
 "line": null,
 "legs": [
@@ -64519,18 +64475,18 @@
 "stat": null
 },
 {
-"key": "home_cards",
-"label": "Celta Vigo bookings",
-"pick": "Under 2.5",
+"key": "home_fouls",
+"label": "Celta Vigo fouls",
+"pick": "Under 13.5",
 "side": "under",
-"line": 2.5,
+"line": 13.5,
 "chance": 77,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 50,
+"chance": 51,
 "star": false
 }
 ],
@@ -65202,7 +65158,7 @@
 "stat": null
 }
 ],
-"chance": 66,
+"chance": 57,
 "star": false
 }
 ],
@@ -65853,7 +65809,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 54,
 "star": false
 }
 ],
@@ -66472,7 +66428,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "AC Milan corners: Under 4.5 + Total tackles: Over 28.5 + Olympiacos shots on target: Over 3.5 + Olympiacos bookings: Under 2.5",
+"pick": "AC Milan corners: Under 4.5 + Total tackles: Over 28.5 + Olympiacos shots on target: Over 3.5",
 "side": null,
 "line": null,
 "legs": [
@@ -66508,20 +66464,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "home_cards",
-"label": "Olympiacos bookings",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 53,
+"chance": 55,
 "star": false
 }
 ],
@@ -67771,7 +67716,7 @@
 "stat": null
 }
 ],
-"chance": 60,
+"chance": 51,
 "star": false
 }
 ],
@@ -68364,7 +68309,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 52,
 "star": false
 }
 ],
@@ -68939,7 +68884,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 52,
 "star": false
 }
 ],
@@ -69548,7 +69493,7 @@
 "stat": "shots"
 }
 ],
-"chance": 58,
+"chance": 55,
 "star": false
 }
 ],
@@ -70080,7 +70025,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 61,
 "star": false
 }
 ],
@@ -70719,7 +70664,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total bookings: Over 2.5 + Heart of Midlothian fouls: Under 13.5 + Heart of Midlothian shots on target: Over 3.5",
+"pick": "Total bookings: Over 2.5 + Heart of Midlothian fouls: Under 13.5 + Joshua McPake (Heart of Midlothian): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -70746,18 +70691,18 @@
 "stat": null
 },
 {
-"key": "home_sot",
-"label": "Heart of Midlothian shots on target",
-"pick": "Over 3.5",
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Joshua McPake (Heart of Midlothian): 1+ shot",
 "side": "over",
-"line": 3.5,
-"chance": 75,
-"player": null,
-"team": null,
-"stat": null
+"line": 1,
+"chance": 79,
+"player": "Joshua McPake",
+"team": "home",
+"stat": "shots"
 }
 ],
-"chance": 51,
+"chance": 50,
 "star": false
 }
 ],
@@ -71356,7 +71301,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 55,
 "star": false
 }
 ],
@@ -71910,7 +71855,7 @@
 "stat": null
 }
 ],
-"chance": 66,
+"chance": 65,
 "star": false
 }
 ],
@@ -72478,7 +72423,7 @@
 "stat": null
 }
 ],
-"chance": 59,
+"chance": 60,
 "star": false
 }
 ],
@@ -73001,7 +72946,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total tackles: Under 38.5 + Total offsides: Under 3.5 + FC Midtjylland corners: Over 2.5",
+"pick": "Total tackles: Under 38.5 + Total offsides: Under 3.5",
 "side": null,
 "line": null,
 "legs": [
@@ -73026,20 +72971,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_corners",
-"label": "FC Midtjylland corners",
-"pick": "Over 2.5",
-"side": "over",
-"line": 2.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 53,
+"chance": 64,
 "star": false
 }
 ],
@@ -74233,7 +74167,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Real Sociedad fouls: Over 8.5 + Total tackles: Over 28.5 + Total shots on target: Over 6.5 + Total offsides: Under 3.5",
+"pick": "Real Sociedad fouls: Over 8.5 + Total tackles: Over 28.5 + Total shots on target: Over 6.5",
 "side": null,
 "line": null,
 "legs": [
@@ -74269,20 +74203,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 3.5",
-"side": "under",
-"line": 3.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 57,
 "star": false
 }
 ],
@@ -74905,7 +74828,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 51,
 "star": false
 }
 ],
@@ -75586,7 +75509,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 55,
 "star": false
 }
 ],
@@ -76238,7 +76161,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 59,
 "star": false
 }
 ],
@@ -76912,7 +76835,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -77550,7 +77473,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 52,
 "star": false
 }
 ],
@@ -78167,7 +78090,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 55,
 "star": false
 }
 ],
@@ -78802,7 +78725,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 52,
 "star": false
 }
 ],
@@ -79470,7 +79393,7 @@
 "stat": null
 }
 ],
-"chance": 62,
+"chance": 55,
 "star": false
 }
 ],
@@ -80130,7 +80053,7 @@
 "stat": null
 }
 ],
-"chance": 63,
+"chance": 53,
 "star": false
 }
 ],
@@ -80743,7 +80666,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total bookings: Under 5.5 + Borac Banja Luka corners: Over 3.5 + Borac Banja Luka offsides: Under 2.5 + Nikola Krstovic (Atalanta): 2+ shots",
+"pick": "Total bookings: Under 5.5 + Borac Banja Luka corners: Over 3.5 + Total tackles: Under 37.5",
 "side": null,
 "line": null,
 "legs": [
@@ -80770,29 +80693,18 @@
 "stat": null
 },
 {
-"key": "home_offsides",
-"label": "Borac Banja Luka offsides",
-"pick": "Under 2.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 37.5",
 "side": "under",
-"line": 2.5,
-"chance": 81,
+"line": 37.5,
+"chance": 82,
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Nikola Krstovic (Atalanta): 2+ shots",
-"side": "over",
-"line": 2,
-"chance": 76,
-"player": "Nikola Krstovic",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 51,
+"chance": 53,
 "star": false
 }
 ],
@@ -81315,7 +81227,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots: Under 29.5 + Total offsides: Under 4.5 + Total tackles: Under 34.5 + KuPS Kuopio fouls: Under 13.5",
+"pick": "Total shots: Under 29.5 + Total offsides: Under 4.5 + Total tackles: Under 34.5",
 "side": null,
 "line": null,
 "legs": [
@@ -81351,20 +81263,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "KuPS Kuopio fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 55,
 "star": false
 }
 ],
@@ -83075,7 +82976,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 52,
 "star": false
 }
 ],
@@ -83613,7 +83514,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 58,
 "star": false
 }
 ],
@@ -84166,7 +84067,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 53,
 "star": false
 }
 ],
@@ -84829,7 +84730,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 54,
 "star": false
 }
 ],
@@ -265306,7 +265207,7 @@
 "stat": null
 }
 ],
-"chance": 59,
+"chance": 55,
 "star": false
 }
 ],
@@ -265980,7 +265881,7 @@
 "stat": "shots"
 }
 ],
-"chance": 59,
+"chance": 51,
 "star": false
 }
 ],
@@ -267236,7 +267137,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Matìas Soulè (AS Roma): 1+ shot + Donyell Malen (AS Roma): 2+ shots + Total shots on target: Over 6.5 + Total offsides: Under 4.5",
+"pick": "Matìas Soulè (AS Roma): 1+ shot + Donyell Malen (AS Roma): 2+ shots + Total shots on target: Over 6.5",
 "side": null,
 "line": null,
 "legs": [
@@ -267272,20 +267173,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 4.5",
-"side": "under",
-"line": 4.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 54,
 "star": false
 }
 ],
@@ -267997,7 +267887,7 @@
 "stat": "shots"
 }
 ],
-"chance": 64,
+"chance": 57,
 "star": false
 }
 ],
@@ -268693,7 +268583,7 @@
 "stat": null
 }
 ],
-"chance": 66,
+"chance": 57,
 "star": false
 }
 ],
@@ -269363,7 +269253,7 @@
 "stat": null
 }
 ],
-"chance": 60,
+"chance": 53,
 "star": false
 }
 ],
@@ -270044,7 +269934,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 56,
 "star": false
 }
 ],
@@ -270724,7 +270614,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 52,
 "star": false
 }
 ],
@@ -271398,7 +271288,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 53,
 "star": false
 }
 ],
@@ -272071,7 +271961,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -272688,7 +272578,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Real Madrid tackles: Under 20.5 + Kylian Mbappé (Real Madrid): 2+ shots + Real Madrid fouls: Under 13.5 + Noni Madueke (Arsenal): 1+ shot",
+"pick": "Real Madrid tackles: Under 20.5 + Kylian Mbappé (Real Madrid): 2+ shots + Real Madrid fouls: Under 13.5 + Marc Cucurella (Real Madrid): 1+ foul",
 "side": null,
 "line": null,
 "legs": [
@@ -272726,15 +272616,15 @@
 "stat": null
 },
 {
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Noni Madueke (Arsenal): 1+ shot",
+"key": "pl_fouls",
+"label": "Player fouls",
+"pick": "Marc Cucurella (Real Madrid): 1+ foul",
 "side": "over",
 "line": 1,
-"chance": 77,
-"player": "Noni Madueke",
-"team": "home",
-"stat": "shots"
+"chance": 73,
+"player": "Marc Cucurella",
+"team": "away",
+"stat": "fouls"
 }
 ],
 "chance": 51,
@@ -273400,7 +273290,7 @@
 "stat": null
 }
 ],
-"chance": 56,
+"chance": 57,
 "star": false
 }
 ],
@@ -274026,7 +273916,7 @@
 "stat": null
 }
 ],
-"chance": 63,
+"chance": 54,
 "star": false
 }
 ],
@@ -274702,7 +274592,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 50,
 "star": false
 }
 ],
@@ -275349,7 +275239,7 @@
 "stat": null
 }
 ],
-"chance": 56,
+"chance": 55,
 "star": false
 }
 ],
@@ -276009,7 +275899,7 @@
 "stat": null
 }
 ],
-"chance": 61,
+"chance": 54,
 "star": false
 }
 ],
@@ -276614,7 +276504,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Deniz Undav (VfB Stuttgart): 1+ shot + VfB Stuttgart shots on target: Under 6.5 + Soriba Diaoune (Lille): 1+ shot + Total offsides: Under 5.5",
+"pick": "Deniz Undav (VfB Stuttgart): 1+ shot + VfB Stuttgart shots on target: Under 6.5 + Soriba Diaoune (Lille): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -276650,17 +276540,6 @@
 "player": "Soriba Diaoune",
 "team": "away",
 "stat": "shots"
-},
-{
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 5.5",
-"side": "under",
-"line": 5.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
 "chance": 55,
@@ -277221,7 +277100,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 63,
 "star": false
 }
 ],
@@ -277857,7 +277736,7 @@
 "stat": null
 }
 ],
-"chance": 62,
+"chance": 56,
 "star": false
 }
 ],
@@ -278525,7 +278404,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 56,
 "star": false
 }
 ],
@@ -279157,7 +279036,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 60,
 "star": false
 }
 ],
@@ -279772,7 +279651,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total tackles: Over 27.5 + Hapoel Be'er fouls: Under 13.5 + Nick Woltemade (Juventus): 1+ shot",
+"pick": "Total tackles: Over 27.5 + Hapoel Be'er fouls: Under 13.5 + Hapoel Be'er corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -279799,18 +279678,18 @@
 "stat": null
 },
 {
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Nick Woltemade (Juventus): 1+ shot",
-"side": "over",
-"line": 1,
+"key": "home_corners",
+"label": "Hapoel Be'er corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
 "chance": 80,
-"player": "Nick Woltemade",
-"team": "away",
-"stat": "shots"
+"player": null,
+"team": null,
+"stat": null
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -280427,7 +280306,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total tackles: Over 28.5 + Jagiellonia Bialystok shots on target: Over 3.5",
+"pick": "Total tackles: Over 28.5 + Jagiellonia Bialystok shots on target: Over 3.5 + Jagiellonia Bialystok fouls: Under 13.5",
 "side": null,
 "line": null,
 "legs": [
@@ -280452,9 +280331,20 @@
 "player": null,
 "team": null,
 "stat": null
+},
+{
+"key": "home_fouls",
+"label": "Jagiellonia Bialystok fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null
 }
 ],
-"chance": 62,
+"chance": 51,
 "star": false
 }
 ],
@@ -281079,7 +280969,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Amine Gouiri (Marseille): 1+ shot + Igor Paixão (Marseille): 1+ shot + Marseille offsides: Under 1.5 + Celta Vigo fouls: Under 13.5",
+"pick": "Amine Gouiri (Marseille): 1+ shot + Igor Paixão (Marseille): 1+ shot + Marseille offsides: Under 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -281115,20 +281005,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Celta Vigo fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 56,
 "star": false
 }
 ],
@@ -281737,7 +281616,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Olympiacos fouls: Over 8.5 + Olympiacos shots on target: Over 2.5",
+"pick": "Olympiacos fouls: Over 8.5 + Olympiacos shots on target: Over 2.5 + Olympiacos corners: Over 3.5",
 "side": null,
 "line": null,
 "legs": [
@@ -281762,9 +281641,20 @@
 "player": null,
 "team": null,
 "stat": null
+},
+{
+"key": "away_corners",
+"label": "Olympiacos corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null
 }
 ],
-"chance": 54,
+"chance": 50,
 "star": false
 }
 ],
@@ -282432,7 +282322,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 57,
 "star": false
 }
 ],
@@ -283073,7 +282963,7 @@
 "stat": "shots"
 }
 ],
-"chance": 60,
+"chance": 55,
 "star": false
 }
 ],
@@ -284218,7 +284108,7 @@
 "stat": null
 }
 ],
-"chance": 56,
+"chance": 54,
 "star": false
 }
 ],
@@ -285853,7 +285743,7 @@
 "stat": null
 }
 ],
-"chance": 63,
+"chance": 64,
 "star": false
 }
 ],
@@ -286446,7 +286336,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Atalanta offsides: Under 1.5 + Total bookings: Under 5.5 + Atalanta shots on target: Over 2.5 + Atalanta fouls: Under 13.5",
+"pick": "Atalanta offsides: Under 1.5 + Total bookings: Under 5.5 + Atalanta shots on target: Over 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -286482,20 +286372,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Atalanta fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 53,
+"chance": 55,
 "star": false
 }
 ],
@@ -287120,7 +286999,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 50,
 "star": false
 }
 ],
@@ -287685,7 +287564,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -288274,7 +288153,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 54,
 "star": false
 }
 ],
@@ -288917,7 +288796,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 55,
 "star": false
 }
 ],
@@ -289542,7 +289421,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Evanilson (AFC Bournemouth): 1+ shot + Viktoria Plzen fouls: Over 8.5 + Viktoria Plzen corners: Under 5.5 + Total offsides: Under 3.5",
+"pick": "Evanilson (AFC Bournemouth): 1+ shot + Viktoria Plzen fouls: Over 8.5 + Viktoria Plzen corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -289578,20 +289457,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 3.5",
-"side": "under",
-"line": 3.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 56,
 "star": false
 }
 ],
@@ -290228,7 +290096,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total bookings: Over 2.5 + Total shots on target: Over 6.5 + Ibrahim Maza (Bayer Leverkusen): 1+ shot + Total offsides: Under 2.5",
+"pick": "Total bookings: Over 2.5 + Total shots on target: Over 6.5 + Besiktas corners: Under 4.5",
 "side": null,
 "line": null,
 "legs": [
@@ -290255,29 +290123,18 @@
 "stat": null
 },
 {
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Ibrahim Maza (Bayer Leverkusen): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 79,
-"player": "Ibrahim Maza",
-"team": "home",
-"stat": "shots"
-},
-{
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 2.5",
+"key": "away_corners",
+"label": "Besiktas corners",
+"pick": "Under 4.5",
 "side": "under",
-"line": 2.5,
-"chance": 76,
+"line": 4.5,
+"chance": 82,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 53,
 "star": false
 }
 ],
@@ -290944,7 +290801,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 56,
 "star": false
 }
 ],
@@ -291511,7 +291368,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Ferencvaros corners: Over 2.5 + Ferencvaros tackles: Under 18.5 + Kristoffer Zachariassen (Ferencvaros): 1+ shot",
+"pick": "Ferencvaros corners: Over 2.5 + Ferencvaros tackles: Under 18.5",
 "side": null,
 "line": null,
 "legs": [
@@ -291536,20 +291393,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Kristoffer Zachariassen (Ferencvaros): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "Kristoffer Zachariassen",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 52,
+"chance": 59,
 "star": false
 }
 ],
@@ -292156,7 +292002,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Reinaldo (Levski Sofia): 1+ shot + Lillestrom tackles: Over 13.5 + Levski Sofia offsides: Under 1.5 + Everton Bala (Levski Sofia): 1+ shot",
+"pick": "Reinaldo (Levski Sofia): 1+ shot + Lillestrom tackles: Over 13.5 + Levski Sofia offsides: Under 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -292192,17 +292038,6 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Everton Bala (Levski Sofia): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 79,
-"player": "Everton Bala",
-"team": "home",
-"stat": "shots"
 }
 ],
 "chance": 58,
@@ -292852,7 +292687,7 @@
 "stat": "shots"
 }
 ],
-"chance": 52,
+"chance": 53,
 "star": false
 }
 ],
@@ -293454,7 +293289,7 @@
 "stat": "shots"
 }
 ],
-"chance": 68,
+"chance": 66,
 "star": false
 }
 ],
@@ -294136,7 +293971,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 52,
 "star": false
 }
 ],
@@ -294723,7 +294558,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 56,
 "star": false
 }
 ],
@@ -295342,7 +295177,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "AS Monaco fouls: Under 14.5 + AS Monaco corners: Under 5.5 + Yasin Ayari (Brighton & Hove Albion): 1+ shot + Match result: Brighton & Hove Albion or draw (75%)",
+"pick": "AS Monaco fouls: Under 14.5 + AS Monaco corners: Under 5.5 + Yasin Ayari (Brighton & Hove Albion): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -295378,20 +295213,9 @@
 "player": "Yasin Ayari",
 "team": "home",
 "stat": "shots"
-},
-{
-"key": "result",
-"label": "Match result",
-"pick": "Brighton & Hove Albion or draw (75%)",
-"side": "HD",
-"line": null,
-"chance": 75,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 55,
+"chance": 57,
 "star": false
 }
 ],
@@ -295951,7 +295775,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 63,
 "star": false
 }
 ],
@@ -296526,7 +296350,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -297680,7 +297504,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Borac Banja Luka tackles: Over 12.5 + Borac Banja Luka fouls: Over 9.5 + Borac Banja Luka corners: Under 5.5 + Borac Banja Luka bookings: Over 1.5",
+"pick": "Borac Banja Luka tackles: Over 12.5 + Borac Banja Luka fouls: Over 9.5 + Borac Banja Luka corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -297716,20 +297540,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_cards",
-"label": "Borac Banja Luka bookings",
-"pick": "Over 1.5",
-"side": "over",
-"line": 1.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 54,
+"chance": 56,
 "star": false
 }
 ],
@@ -298298,7 +298111,7 @@
 "stat": null
 }
 ],
-"chance": 54,
+"chance": 51,
 "star": false
 }
 ],
@@ -298837,7 +298650,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 55,
 "star": false
 }
 ],
@@ -299641,7 +299454,7 @@
 "stat": "shots"
 }
 ],
-"chance": 73,
+"chance": 61,
 "star": false
 }
 ],
@@ -300312,7 +300125,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Daniel Mosquera (Verona): 2+ shots + Match result: Verona or draw (80%) + Total bookings: Under 5.5 + Cesena fouls: Under 13.5",
+"pick": "Daniel Mosquera (Verona): 2+ shots + Match result: Verona or draw (80%) + Total bookings: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -300348,20 +300161,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Cesena fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 53,
 "star": false
 }
 ],
@@ -301026,7 +300828,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Mbwana Samatta (Le Havre): 1+ shot + Renaud Ripart (Troyes): 1+ shot + Le Havre offsides: Under 2.5 + Troyes shots on target: Under 6.5",
+"pick": "Mbwana Samatta (Le Havre): 1+ shot + Renaud Ripart (Troyes): 1+ shot + Le Havre offsides: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -301062,20 +300864,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "home_sot",
-"label": "Troyes shots on target",
-"pick": "Under 6.5",
-"side": "under",
-"line": 6.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 58,
 "star": false
 }
 ],
@@ -301804,7 +301595,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Ath Bilbao or draw (84%) + Ath Bilbao shots on target: Over 3.5 + Álex Berenguer (Ath Bilbao): 1+ shot + Ath Bilbao fouls: Under 14.5",
+"pick": "Match result: Ath Bilbao or draw (84%) + Ath Bilbao shots on target: Over 3.5 + Álex Berenguer (Ath Bilbao): 1+ shot + Roberto Fernández (Espanol): 1+ foul",
 "side": null,
 "line": null,
 "legs": [
@@ -301842,18 +301633,18 @@
 "stat": "shots"
 },
 {
-"key": "home_fouls",
-"label": "Ath Bilbao fouls",
-"pick": "Under 14.5",
-"side": "under",
-"line": 14.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
+"key": "pl_fouls",
+"label": "Player fouls",
+"pick": "Roberto Fernández (Espanol): 1+ foul",
+"side": "over",
+"line": 1,
+"chance": 77,
+"player": "Roberto Fernández",
+"team": "away",
+"stat": "fouls"
 }
 ],
-"chance": 53,
+"chance": 51,
 "star": false
 }
 ],
@@ -302538,7 +302329,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "QPR offsides: Under 2.5 + Total bookings: Over 2.5 + QPR fouls: Under 12.5 + Kwame Poku (QPR): 1+ shot",
+"pick": "QPR offsides: Under 2.5 + Total bookings: Over 2.5 + QPR fouls: Under 12.5",
 "side": null,
 "line": null,
 "legs": [
@@ -302574,20 +302365,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Kwame Poku (QPR): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 72,
-"player": "Kwame Poku",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 51,
+"chance": 54,
 "star": false
 }
 ],
@@ -303983,7 +303763,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Finn Azaz (Southampton): 1+ shot + Southampton corners: Over 3.5 + Derby fouls: Over 10.5 + David Ozoh (Derby): 1+ foul",
+"pick": "Finn Azaz (Southampton): 1+ shot + Southampton corners: Over 3.5 + Derby fouls: Over 10.5",
 "side": null,
 "line": null,
 "legs": [
@@ -304019,20 +303799,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_fouls",
-"label": "Player fouls",
-"pick": "David Ozoh (Derby): 1+ foul",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "David Ozoh",
-"team": "away",
-"stat": "fouls"
 }
 ],
-"chance": 54,
+"chance": 53,
 "star": false
 }
 ],
@@ -304767,7 +304536,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total goals: Over 1.5 + Man City corners: Over 3.5 + Erling Haaland (Man City): 2+ shots + Total tackles: Over 26.5",
+"pick": "Total goals: Over 1.5 + Man City corners: Over 3.5 + Erling Haaland (Man City): 2+ shots",
 "side": null,
 "line": null,
 "legs": [
@@ -304803,20 +304572,9 @@
 "player": "Erling Haaland",
 "team": "home",
 "stat": "shots"
-},
-{
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Over 26.5",
-"side": "over",
-"line": 26.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 59,
 "star": false
 }
 ],
@@ -305483,7 +305241,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots: Under 29.5 + La Coruna bookings: Under 3.5 + Lucas Boyé (Alaves): 1+ shot",
+"pick": "Total shots: Under 29.5 + La Coruna bookings: Under 3.5 + La Coruna fouls: Over 9.5",
 "side": null,
 "line": null,
 "legs": [
@@ -305510,18 +305268,18 @@
 "stat": null
 },
 {
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Lucas Boyé (Alaves): 1+ shot",
+"key": "away_fouls",
+"label": "La Coruna fouls",
+"pick": "Over 9.5",
 "side": "over",
-"line": 1,
+"line": 9.5,
 "chance": 81,
-"player": "Lucas Boyé",
-"team": "home",
-"stat": "shots"
+"player": null,
+"team": null,
+"stat": null
 }
 ],
-"chance": 52,
+"chance": 51,
 "star": false
 }
 ],
@@ -306304,7 +306062,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 55,
 "star": false
 }
 ],
@@ -307646,7 +307404,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Ascoli fouls: Under 13.5 + Total shots on target: Over 6.5 + Ascoli bookings: Under 2.5",
+"pick": "Ascoli fouls: Under 13.5 + Total shots on target: Over 6.5 + Ascoli offsides: Under 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -307673,12 +307431,12 @@
 "stat": null
 },
 {
-"key": "home_cards",
-"label": "Ascoli bookings",
-"pick": "Under 2.5",
+"key": "home_offsides",
+"label": "Ascoli offsides",
+"pick": "Under 1.5",
 "side": "under",
-"line": 2.5,
-"chance": 75,
+"line": 1.5,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null
@@ -309067,7 +308825,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 54,
 "star": false
 }
 ],
@@ -309724,7 +309482,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Sampdoria offsides: Under 2.5 + Francesco Salvemini (Benevento): 1+ shot + Sampdoria fouls: Under 14.5 + Benevento bookings: Over 1.5",
+"pick": "Sampdoria offsides: Under 2.5 + Francesco Salvemini (Benevento): 1+ shot + Sampdoria fouls: Under 14.5",
 "side": null,
 "line": null,
 "legs": [
@@ -309760,20 +309518,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_cards",
-"label": "Benevento bookings",
-"pick": "Over 1.5",
-"side": "over",
-"line": 1.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 50,
+"chance": 55,
 "star": false
 }
 ],
@@ -310532,7 +310279,7 @@
 "stat": null
 }
 ],
-"chance": 58,
+"chance": 54,
 "star": false
 }
 ],
@@ -311211,7 +310958,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Farès Chaïbi (Ein Frankfurt): 1+ shot + Jonathan Burkardt (Ein Frankfurt): 1+ shot + Total shots on target: Over 7.5 + Ein Frankfurt offsides: Under 2.5",
+"pick": "Farès Chaïbi (Ein Frankfurt): 1+ shot + Jonathan Burkardt (Ein Frankfurt): 1+ shot + Total shots on target: Over 7.5",
 "side": null,
 "line": null,
 "legs": [
@@ -311247,20 +310994,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "home_offsides",
-"label": "Ein Frankfurt offsides",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 53,
 "star": false
 }
 ],
@@ -311941,7 +311677,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Freiburg offsides: Under 2.5 + Freiburg corners: Over 2.5 + Elversberg fouls: Over 9.5 + Total shots on target: Under 11.5",
+"pick": "Freiburg offsides: Under 2.5 + Freiburg corners: Over 2.5 + Elversberg fouls: Over 9.5",
 "side": null,
 "line": null,
 "legs": [
@@ -311977,20 +311713,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_sot",
-"label": "Total shots on target",
-"pick": "Under 11.5",
-"side": "under",
-"line": 11.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 55,
 "star": false
 }
 ],
@@ -313483,7 +313208,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 55,
 "star": false
 }
 ],
@@ -314188,7 +313913,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: RB Leipzig or draw (83%) + Union Berlin shots on target: Under 5.5 + Total offsides: Over 2.5 + RB Leipzig fouls: Under 11.5",
+"pick": "Match result: RB Leipzig or draw (83%) + Union Berlin shots on target: Under 5.5 + Total offsides: Over 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -314224,20 +313949,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "RB Leipzig fouls",
-"pick": "Under 11.5",
-"side": "under",
-"line": 11.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 56,
 "star": false
 }
 ],
@@ -314952,7 +314666,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 55,
 "star": false
 }
 ],
@@ -315658,7 +315372,7 @@
 "stat": null
 }
 ],
-"chance": 61,
+"chance": 53,
 "star": false
 }
 ],
@@ -317040,7 +316754,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Sheffield United or draw (83%) + Total bookings: Over 2.5 + Sheffield United corners: Over 3.5 + Watford fouls: Over 9.5",
+"pick": "Match result: Sheffield United or draw (83%) + Total bookings: Over 2.5 + Sheffield United corners: Over 3.5",
 "side": null,
 "line": null,
 "legs": [
@@ -317076,20 +316790,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Watford fouls",
-"pick": "Over 9.5",
-"side": "over",
-"line": 9.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 57,
 "star": false
 }
 ],
@@ -317790,7 +317493,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots on target: Under 10.5 + Jay Stansfield (Birmingham): 1+ shot + Total tackles: Over 25.5 + Birmingham offsides: Under 2.5",
+"pick": "Total shots on target: Under 10.5 + Jay Stansfield (Birmingham): 1+ shot + Total tackles: Over 25.5",
 "side": null,
 "line": null,
 "legs": [
@@ -317826,20 +317529,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_offsides",
-"label": "Birmingham offsides",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 55,
+"chance": 58,
 "star": false
 }
 ],
@@ -318496,7 +318188,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Isaac Price (West Brom): 1+ shot + Total tackles: Over 29.5 + Jimmy Morgan (West Brom): 1+ shot",
+"pick": "Isaac Price (West Brom): 1+ shot + Total tackles: Over 29.5",
 "side": null,
 "line": null,
 "legs": [
@@ -318521,20 +318213,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Jimmy Morgan (West Brom): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "Jimmy Morgan",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 51,
+"chance": 62,
 "star": false
 }
 ],
@@ -319267,7 +318948,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 52,
 "star": false
 }
 ],
@@ -319968,7 +319649,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Rafiki Said (Wolves): 1+ shot + Charlton shots on target: Under 4.5 + Charlton fouls: Over 9.5 + Total tackles: Over 29.5",
+"pick": "Rafiki Said (Wolves): 1+ shot + Charlton shots on target: Under 4.5 + Charlton fouls: Over 9.5",
 "side": null,
 "line": null,
 "legs": [
@@ -320004,20 +319685,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Over 29.5",
-"side": "over",
-"line": 29.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 57,
 "star": false
 }
 ],
@@ -320700,7 +320370,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Nicolas Jackson (Aston Villa): 1+ shot + Aston Villa fouls: Over 8.5 + Total bookings: Over 2.5 + Aston Villa offsides: Under 1.5",
+"pick": "Nicolas Jackson (Aston Villa): 1+ shot + Aston Villa fouls: Over 8.5 + Total bookings: Over 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -320736,20 +320406,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "home_offsides",
-"label": "Aston Villa offsides",
-"pick": "Under 1.5",
-"side": "under",
-"line": 1.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -321471,7 +321130,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 53,
 "star": false
 }
 ],
@@ -322164,7 +321823,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 53,
 "star": false
 }
 ],
@@ -322865,7 +322524,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 51,
 "star": false
 }
 ],
@@ -323614,7 +323273,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -324373,7 +324032,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 54,
 "star": false
 }
 ],
@@ -325133,7 +324792,7 @@
 "stat": null
 }
 ],
-"chance": 63,
+"chance": 55,
 "star": false
 }
 ],
@@ -325812,7 +325471,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Josh Mulligan (Hibernian): 1+ shot + Total offsides: Over 1.5 + Hibernian corners: Over 3.5 + Hibernian shots on target: Over 3.5",
+"pick": "Josh Mulligan (Hibernian): 1+ shot + Total offsides: Over 1.5 + Hibernian corners: Over 3.5 + Dylan Tait (Dundee United): 1+ foul",
 "side": null,
 "line": null,
 "legs": [
@@ -325850,18 +325509,18 @@
 "stat": null
 },
 {
-"key": "home_sot",
-"label": "Hibernian shots on target",
-"pick": "Over 3.5",
+"key": "pl_fouls",
+"label": "Player fouls",
+"pick": "Dylan Tait (Dundee United): 1+ foul",
 "side": "over",
-"line": 3.5,
+"line": 1,
 "chance": 77,
-"player": null,
-"team": null,
-"stat": null
+"player": "Dylan Tait",
+"team": "away",
+"stat": "fouls"
 }
 ],
-"chance": 52,
+"chance": 51,
 "star": false
 }
 ],
@@ -326546,7 +326205,7 @@
 "stat": null
 }
 ],
-"chance": 59,
+"chance": 58,
 "star": false
 }
 ],
@@ -327284,7 +326943,7 @@
 "stat": null
 }
 ],
-"chance": 61,
+"chance": 51,
 "star": false
 }
 ],
@@ -328052,7 +327711,7 @@
 "stat": "shots"
 }
 ],
-"chance": 55,
+"chance": 52,
 "star": false
 }
 ],
@@ -328786,7 +328445,7 @@
 "stat": null
 }
 ],
-"chance": 68,
+"chance": 57,
 "star": false
 }
 ],
@@ -329481,7 +329140,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots on target: Over 6.5 + Matìas Soulè (Roma): 1+ shot + Total goals: Over 1.5",
+"pick": "Total shots on target: Over 6.5 + Matìas Soulè (Roma): 1+ shot + Total goals: Over 1.5 + Donyell Malen (Roma): 2+ shots",
 "side": null,
 "line": null,
 "legs": [
@@ -329517,9 +329176,20 @@
 "player": null,
 "team": null,
 "stat": null
+},
+{
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Donyell Malen (Roma): 2+ shots",
+"side": "over",
+"line": 2,
+"chance": 82,
+"player": "Donyell Malen",
+"team": "away",
+"stat": "shots"
 }
 ],
-"chance": 53,
+"chance": 52,
 "star": false
 }
 ],
@@ -330239,7 +329909,7 @@
 "stat": "shots"
 }
 ],
-"chance": 54,
+"chance": 51,
 "star": false
 }
 ],
@@ -331011,7 +330681,7 @@
 "stat": null
 }
 ],
-"chance": 63,
+"chance": 55,
 "star": false
 }
 ],
@@ -331688,7 +331358,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Arsenal or draw (83%) + Arsenal corners: Over 2.5 + Total tackles: Under 32.5 + Arsenal fouls: Under 12.5",
+"pick": "Match result: Arsenal or draw (83%) + Arsenal corners: Over 2.5 + Total tackles: Under 32.5",
 "side": null,
 "line": null,
 "legs": [
@@ -331724,20 +331394,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "away_fouls",
-"label": "Arsenal fouls",
-"pick": "Under 12.5",
-"side": "under",
-"line": 12.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 52,
+"chance": 56,
 "star": false
 }
 ],
@@ -332414,7 +332073,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Cláudio Braga (Hearts): 1+ shot + Ashley Hay (Dundee): 1+ shot + Dundee corners: Under 6.5 + Dundee offsides: Under 1.5",
+"pick": "Cláudio Braga (Hearts): 1+ shot + Ashley Hay (Dundee): 1+ shot + Dundee corners: Under 6.5",
 "side": null,
 "line": null,
 "legs": [
@@ -332450,20 +332109,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "home_offsides",
-"label": "Dundee offsides",
-"pick": "Under 1.5",
-"side": "under",
-"line": 1.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 54,
+"chance": 58,
 "star": false
 }
 ],
@@ -333193,7 +332841,7 @@
 "stat": null
 }
 ],
-"chance": 59,
+"chance": 51,
 "star": false
 }
 ],
@@ -333935,7 +333583,7 @@
 "stat": null
 }
 ],
-"chance": 53,
+"chance": 54,
 "star": false
 }
 ],
@@ -335385,7 +335033,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -336058,7 +335706,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Brest fouls: Over 9.5 + Brest corners: Under 5.5 + Total offsides: Under 4.5",
+"pick": "Brest fouls: Over 9.5 + Brest corners: Under 5.5 + Ludovic Ajorque (Brest): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -336085,18 +335733,18 @@
 "stat": null
 },
 {
-"key": "total_offsides",
-"label": "Total offsides",
-"pick": "Under 4.5",
-"side": "under",
-"line": 4.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Ludovic Ajorque (Brest): 1+ shot",
+"side": "over",
+"line": 1,
+"chance": 81,
+"player": "Ludovic Ajorque",
+"team": "away",
+"stat": "shots"
 }
 ],
-"chance": 54,
+"chance": 50,
 "star": false
 }
 ],
@@ -336896,7 +336544,7 @@
 "stat": "shots"
 }
 ],
-"chance": 60,
+"chance": 55,
 "star": false
 }
 ],
@@ -337668,7 +337316,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 53,
 "star": false
 }
 ],
@@ -338408,7 +338056,7 @@
 "stat": null
 }
 ],
-"chance": 61,
+"chance": 54,
 "star": false
 }
 ],
@@ -339824,7 +339472,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Largie Ramazani (Burnley): 1+ shot + Burnley offsides: Under 2.5 + Match result: Burnley or draw (75%) + Andri Gudjohnsen (Blackburn): 1+ shot",
+"pick": "Largie Ramazani (Burnley): 1+ shot + Burnley offsides: Under 2.5 + Match result: Burnley or draw (75%)",
 "side": null,
 "line": null,
 "legs": [
@@ -339860,20 +339508,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Andri Gudjohnsen (Blackburn): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "Andri Gudjohnsen",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 54,
+"chance": 53,
 "star": false
 }
 ],
@@ -340630,7 +340267,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Lamine Yamal (Barcelona): 2+ shots + Barcelona shots on target: Over 5.5 + Fermín López (Barcelona): 1+ shot + Match result: Barcelona to win (78%)",
+"pick": "Lamine Yamal (Barcelona): 2+ shots + Barcelona shots on target: Over 5.5 + Fermín López (Barcelona): 1+ shot + Barcelona corners: Over 4.5",
 "side": null,
 "line": null,
 "legs": [
@@ -340668,18 +340305,18 @@
 "stat": "shots"
 },
 {
-"key": "result",
-"label": "Match result",
-"pick": "Barcelona to win (78%)",
-"side": "H",
-"line": null,
-"chance": 78,
+"key": "home_corners",
+"label": "Barcelona corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 56,
 "star": false
 }
 ],
@@ -341380,7 +341017,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Angers shots on target: Under 4.5 + Paris FC offsides: Under 2.5 + Paris FC bookings: Under 2.5 + Pablo Pagis (Paris FC): 1+ shot",
+"pick": "Angers shots on target: Under 4.5 + Paris FC offsides: Under 2.5 + Paris FC bookings: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -341416,20 +341053,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Pablo Pagis (Paris FC): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 78,
-"player": "Pablo Pagis",
-"team": "home",
-"stat": "shots"
 }
 ],
-"chance": 54,
+"chance": 59,
 "star": false
 }
 ],
@@ -342102,7 +341728,7 @@
 "stat": null
 }
 ],
-"chance": 51,
+"chance": 53,
 "star": false
 }
 ],
@@ -342873,7 +342499,7 @@
 "stat": null
 }
 ],
-"chance": 57,
+"chance": 54,
 "star": false
 }
 ],
@@ -343602,7 +343228,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Armand Laurienté (Sassuolo): 1+ shot + Total bookings: Over 2.5 + Sassuolo fouls: Over 9.5 + Milutin Osmajic (Genoa): 1+ shot",
+"pick": "Armand Laurienté (Sassuolo): 1+ shot + Total bookings: Over 2.5 + Sassuolo fouls: Over 9.5",
 "side": null,
 "line": null,
 "legs": [
@@ -343638,20 +343264,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Milutin Osmajic (Genoa): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 76,
-"player": "Milutin Osmajic",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 52,
+"chance": 56,
 "star": false
 }
 ],
@@ -344326,7 +343941,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total offsides: Under 4.5 + Walid Cheddira (Avellino): 1+ shot + Mantova fouls: Over 12.5 + Stefano Cella (Mantova): 1+ foul",
+"pick": "Total offsides: Under 4.5 + Walid Cheddira (Avellino): 1+ shot + Mantova fouls: Over 12.5",
 "side": null,
 "line": null,
 "legs": [
@@ -344362,20 +343977,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_fouls",
-"label": "Player fouls",
-"pick": "Stefano Cella (Mantova): 1+ foul",
-"side": "over",
-"line": 1,
-"chance": 73,
-"player": "Stefano Cella",
-"team": "away",
-"stat": "fouls"
 }
 ],
-"chance": 55,
+"chance": 54,
 "star": false
 }
 ],
@@ -345058,7 +344662,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Arijon Ibrahimovic (Augsburg): 1+ shot + Mainz corners: Over 2.5 + Total shots on target: Over 7.5 + Total bookings: Over 2.5",
+"pick": "Arijon Ibrahimovic (Augsburg): 1+ shot + Mainz corners: Over 2.5 + Total shots on target: Over 7.5",
 "side": null,
 "line": null,
 "legs": [
@@ -345094,20 +344698,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "total_cards",
-"label": "Total bookings",
-"pick": "Over 2.5",
-"side": "over",
-"line": 2.5,
-"chance": 81,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 54,
+"chance": 55,
 "star": false
 }
 ],
@@ -345764,7 +345357,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Santander offsides: Under 2.5 + Sociedad fouls: Over 10.5 + Sergio Canales (Santander): 1+ shot + Sociedad bookings: Over 1.5",
+"pick": "Santander offsides: Under 2.5 + Sociedad fouls: Over 10.5 + Sergio Canales (Santander): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -345800,20 +345393,9 @@
 "player": "Sergio Canales",
 "team": "home",
 "stat": "shots"
-},
-{
-"key": "away_cards",
-"label": "Sociedad bookings",
-"pick": "Over 1.5",
-"side": "over",
-"line": 1.5,
-"chance": 75,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 60,
+"chance": 53,
 "star": false
 }
 ],
@@ -346502,7 +346084,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Lorient fouls: Under 13.5 + Lorient offsides: Under 2.5 + Rennes shots on target: Over 2.5 + Mousa Al-Tamari (Rennes): 1+ shot",
+"pick": "Lorient fouls: Under 13.5 + Lorient offsides: Under 2.5 + Rennes shots on target: Over 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -346538,20 +346120,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Mousa Al-Tamari (Rennes): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "Mousa Al-Tamari",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 50,
+"chance": 52,
 "star": false
 }
 ],
@@ -347228,7 +346799,7 @@
 "stat": null
 }
 ],
-"chance": 55,
+"chance": 54,
 "star": false
 }
 ],
@@ -347913,7 +347484,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Niclas Füllkrug (Werder Bremen): 2+ shots + Marco Grüll (Werder Bremen): 1+ shot + Hamburg shots on target: Under 5.5 + Match result: Werder Bremen or draw (79%)",
+"pick": "Niclas Füllkrug (Werder Bremen): 2+ shots + Marco Grüll (Werder Bremen): 1+ shot + Hamburg shots on target: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -347949,20 +347520,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "result",
-"label": "Match result",
-"pick": "Werder Bremen or draw (79%)",
-"side": "HD",
-"line": null,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null
 }
 ],
-"chance": 51,
+"chance": 57,
 "star": false
 }
 ],
@@ -348693,7 +348253,7 @@
 "stat": null
 }
 ],
-"chance": 52,
+"chance": 54,
 "star": false
 }
 ],
@@ -349419,7 +348979,7 @@
 "stat": null
 }
 ],
-"chance": 64,
+"chance": 57,
 "star": false
 }
 ],
@@ -350098,7 +349658,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Malaga bookings: Under 3.5 + Malaga fouls: Under 14.5 + Match result: Osasuna or draw (79%) + Adrián Niño (Malaga): 2+ shots",
+"pick": "Malaga bookings: Under 3.5 + Malaga fouls: Under 14.5 + Match result: Osasuna or draw (79%)",
 "side": null,
 "line": null,
 "legs": [
@@ -350134,20 +349694,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Adrián Niño (Malaga): 2+ shots",
-"side": "over",
-"line": 2,
-"chance": 74,
-"player": "Adrián Niño",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 50,
+"chance": 57,
 "star": false
 }
 ],
@@ -350822,7 +350371,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Marseille or draw (84%) + Le Mans corners: Under 4.5 + Amine Gouiri (Marseille): 1+ shot + Le Mans fouls: Over 9.5",
+"pick": "Match result: Marseille or draw (84%) + Le Mans corners: Under 4.5 + Amine Gouiri (Marseille): 1+ shot + Igor Paixão (Marseille): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -350860,18 +350409,18 @@
 "stat": "shots"
 },
 {
-"key": "away_fouls",
-"label": "Le Mans fouls",
-"pick": "Over 9.5",
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Igor Paixão (Marseille): 1+ shot",
 "side": "over",
-"line": 9.5,
+"line": 1,
 "chance": 82,
-"player": null,
-"team": null,
-"stat": null
+"player": "Igor Paixão",
+"team": "home",
+"stat": "shots"
 }
 ],
-"chance": 50,
+"chance": 51,
 "star": false
 }
 ],
@@ -351592,7 +351141,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Atalanta fouls: Under 12.5 + Inter corners: Over 2.5 + Total shots on target: Over 7.5",
+"pick": "Atalanta fouls: Under 12.5 + Inter corners: Over 2.5 + Match result: Inter or draw (80%)",
 "side": null,
 "line": null,
 "legs": [
@@ -351619,11 +351168,11 @@
 "stat": null
 },
 {
-"key": "total_sot",
-"label": "Total shots on target",
-"pick": "Over 7.5",
-"side": "over",
-"line": 7.5,
+"key": "result",
+"label": "Match result",
+"pick": "Inter or draw (80%)",
+"side": "AD",
+"line": null,
 "chance": 80,
 "player": null,
 "team": null,
@@ -352366,7 +351915,7 @@
 "stat": "shots"
 }
 ],
-"chance": 60,
+"chance": 55,
 "star": false
 }
 ],
@@ -353081,7 +352630,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Monza shots on target: Under 6.5 + Monza fouls: Over 10.5 + Total offsides: Under 4.5 + Total bookings: Over 2.5",
+"pick": "Monza shots on target: Under 6.5 + Monza fouls: Over 10.5 + Total offsides: Under 4.5 + Alieu Njie (Fiorentina): 1+ shot",
 "side": null,
 "line": null,
 "legs": [
@@ -353119,18 +352668,18 @@
 "stat": null
 },
 {
-"key": "total_cards",
-"label": "Total bookings",
-"pick": "Over 2.5",
+"key": "pl_shots",
+"label": "Player shots",
+"pick": "Alieu Njie (Fiorentina): 1+ shot",
 "side": "over",
-"line": 2.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null
+"line": 1,
+"chance": 76,
+"player": "Alieu Njie",
+"team": "away",
+"stat": "shots"
 }
 ],
-"chance": 56,
+"chance": 53,
 "star": false
 }
 ],
@@ -354534,7 +354083,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Everton tackles: Over 11.5 + Igor Thiago (Brentford): 1+ shot + Brentford offsides: Under 1.5 + Kiernan Dewsbury-Hall (Everton): 1+ shot",
+"pick": "Everton tackles: Over 11.5 + Igor Thiago (Brentford): 1+ shot + Brentford offsides: Under 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -354570,20 +354119,9 @@
 "player": null,
 "team": null,
 "stat": null
-},
-{
-"key": "pl_shots",
-"label": "Player shots",
-"pick": "Kiernan Dewsbury-Hall (Everton): 1+ shot",
-"side": "over",
-"line": 1,
-"chance": 76,
-"player": "Kiernan Dewsbury-Hall",
-"team": "away",
-"stat": "shots"
 }
 ],
-"chance": 53,
+"chance": 55,
 "star": false
 }
 ],
