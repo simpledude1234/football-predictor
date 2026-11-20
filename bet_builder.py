@@ -26,7 +26,7 @@ HERE = pathlib.Path(__file__).parent
 PARAMS = HERE / "bet_builder_params.json"
 MIN_CHANCE = 50
 MAX_LEGS = 4
-SHRINK = 30.0           # past games of "no link" added to every pair
+SHRINK = 100.0          # past games of "no link" added to every pair (30 over-promised by ~4 points on held-out games; 100 lands as said)
 GROUP = {"result": "goals", "btts": "goals", "total_goals": "goals",
          "total_shots": "shots", "total_sot": "shots", "home_sot": "shots", "away_sot": "shots",
          "home_cards": "cards", "away_cards": "cards", "total_cards": "cards",
