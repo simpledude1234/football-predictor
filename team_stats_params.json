@@ -1,16 +1,16 @@
 {
- "fitted": "2026-11-07",
+ "fitted": "2026-11-21",
  "phi": {
   "total_offsides": 1.35,
   "home_offsides": 1.25,
-  "away_offsides": 1.75,
+  "away_offsides": 1.7,
   "total_corners": 2.05,
   "home_corners": 1.7,
   "away_corners": 1.45,
-  "total_tackles": 1.5,
+  "total_tackles": 1.4,
   "home_tackles": 1.6,
   "away_tackles": 2.15,
-  "free_kicks": 1.0
+  "free_kicks": 1.05
  },
  "show": {
   "total_offsides": true,
@@ -26,74 +26,74 @@
  },
  "test": {
   "total_offsides": {
-   "games": 611,
-   "tips": 258,
-   "landed": 77.5,
-   "claimed": 78.0,
-   "normal": 64.8
+   "games": 684,
+   "tips": 339,
+   "landed": 78.8,
+   "claimed": 78.1,
+   "normal": 65.0
   },
   "home_offsides": {
-   "games": 611,
-   "tips": 266,
-   "landed": 75.6,
-   "claimed": 77.6,
-   "normal": 62.6
+   "games": 684,
+   "tips": 297,
+   "landed": 75.8,
+   "claimed": 77.7,
+   "normal": 62.9
   },
   "away_offsides": {
-   "games": 611,
-   "tips": 228,
-   "landed": 75.0,
+   "games": 684,
+   "tips": 256,
+   "landed": 75.4,
    "claimed": 78.1,
-   "normal": 62.6
+   "normal": 62.4
   },
   "total_corners": {
-   "games": 12989,
-   "tips": 2160,
-   "landed": 73.5,
+   "games": 13049,
+   "tips": 2167,
+   "landed": 73.6,
    "claimed": 75.4,
    "normal": 65.9
   },
   "home_corners": {
-   "games": 12989,
-   "tips": 8113,
+   "games": 13049,
+   "tips": 8156,
    "landed": 76.5,
    "claimed": 77.3,
    "normal": 63.1
   },
   "away_corners": {
-   "games": 12989,
-   "tips": 7724,
+   "games": 13049,
+   "tips": 7772,
    "landed": 77.3,
    "claimed": 77.9,
    "normal": 64.2
   },
   "total_tackles": {
-   "games": 611,
-   "tips": 492,
-   "landed": 75.6,
-   "claimed": 76.9,
-   "normal": 62.6
+   "games": 684,
+   "tips": 567,
+   "landed": 76.2,
+   "claimed": 77.0,
+   "normal": 62.2
   },
   "home_tackles": {
-   "games": 611,
-   "tips": 452,
-   "landed": 75.9,
-   "claimed": 77.5,
-   "normal": 62.3
+   "games": 684,
+   "tips": 501,
+   "landed": 75.0,
+   "claimed": 77.3,
+   "normal": 62.0
   },
   "away_tackles": {
-   "games": 611,
-   "tips": 388,
-   "landed": 73.5,
-   "claimed": 77.1,
-   "normal": 63.8
+   "games": 684,
+   "tips": 406,
+   "landed": 74.4,
+   "claimed": 76.7,
+   "normal": 63.9
   },
   "free_kicks": {
-   "games": 611,
-   "tips": 429,
-   "landed": 77.6,
-   "claimed": 77.3,
-   "normal": 63.1
+   "games": 684,
+   "tips": 455,
+   "landed": 78.9,
+   "claimed": 77.1,
+   "normal": 62.8
   }
  }
 }

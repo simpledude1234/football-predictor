@@ -30,24 +30,24 @@
   },
   "move": {
    "price": {
-    "shots_1": -0.021,
-    "shots_2": -0.064,
+    "shots_1": -0.022,
+    "shots_2": -0.06,
     "shots_3": -0.007,
     "shots_4": -0.014,
-    "sot_1": -0.019,
+    "sot_1": -0.023,
     "sot_2": -0.004,
-    "fouls_1": -0.008,
+    "fouls_1": -0.005,
     "fouls_2": -0.023,
-    "fwon_1": -0.047,
+    "fwon_1": -0.046,
     "fwon_2": -0.001
    },
    "safe": {
     "shots_1": -0.05,
-    "shots_2": -0.009,
+    "shots_2": -0.01,
     "shots_3": 0.019,
     "sot_1": 0.024,
     "fouls_1": -0.042,
-    "fwon_1": -0.021,
+    "fwon_1": -0.022,
     "fwon_2": 0.005
    }
   }
@@ -56,43 +56,43 @@
  "test": {
   "price": {
    "shots_1": {
-    "picks": 404,
+    "picks": 402,
     "said": 59.5,
-    "landed": 54.5
+    "landed": 54.0
    },
    "shots_2": {
-    "picks": 145,
+    "picks": 153,
     "said": 59.6,
-    "landed": 66.2,
+    "landed": 66.0,
     "shown": {
-     "picks": 168,
-     "said": 59.2,
-     "landed": 64.3
+     "picks": 274,
+     "said": 58.0,
+     "landed": 61.7
     }
    },
    "shots_3": {
-    "picks": 30,
-    "said": 59.1,
-    "landed": 70.0,
+    "picks": 33,
+    "said": 59.3,
+    "landed": 63.6,
     "shown": {
-     "picks": 34,
-     "said": 58.7,
-     "landed": 73.5
+     "picks": 52,
+     "said": 57.9,
+     "landed": 65.4
     }
    },
    "shots_4": {
     "picks": 3,
-    "said": 59.7,
+    "said": 60.0,
     "landed": 66.7
    },
    "sot_1": {
-    "picks": 94,
+    "picks": 85,
     "said": 59.3,
-    "landed": 59.6,
+    "landed": 64.7,
     "shown": {
-     "picks": 102,
-     "said": 59.2,
-     "landed": 60.8
+     "picks": 147,
+     "said": 57.7,
+     "landed": 63.9
     }
    },
    "sot_2": {
@@ -101,14 +101,9 @@
     "landed": 50.0
    },
    "fouls_1": {
-    "picks": 1029,
+    "picks": 1048,
     "said": 59.4,
-    "landed": 57.3,
-    "shown": {
-     "picks": 1261,
-     "said": 58.9,
-     "landed": 56.9
-    }
+    "landed": 55.8
    },
    "fouls_2": {
     "picks": 3,
@@ -116,46 +111,41 @@
     "landed": 0.0
    },
    "fwon_1": {
-    "picks": 603,
+    "picks": 614,
     "said": 59.4,
-    "landed": 58.0,
+    "landed": 57.7,
     "shown": {
-     "picks": 750,
-     "said": 58.8,
-     "landed": 57.6
+     "picks": 1296,
+     "said": 57.4,
+     "landed": 57.0
     }
    },
    "fwon_2": {
-    "picks": 52,
-    "said": 59.4,
-    "landed": 36.5
+    "picks": 53,
+    "said": 59.6,
+    "landed": 35.8
    }
   },
   "safe": {
    "shots_1": {
-    "picks": 1022,
+    "picks": 1037,
     "said": 79.2,
-    "landed": 81.1,
+    "landed": 81.4,
     "shown": {
-     "picks": 1099,
-     "said": 78.8,
-     "landed": 80.7
+     "picks": 1288,
+     "said": 80.3,
+     "landed": 82.8
     }
    },
    "shots_2": {
-    "picks": 149,
-    "said": 77.6,
-    "landed": 73.8,
-    "shown": {
-     "picks": 179,
-     "said": 77.9,
-     "landed": 74.9
-    }
+    "picks": 148,
+    "said": 77.7,
+    "landed": 73.0
    },
    "shots_3": {
-    "picks": 10,
-    "said": 77.2,
-    "landed": 100.0
+    "picks": 11,
+    "said": 77.5,
+    "landed": 90.9
    },
    "shots_4": {
     "picks": 0,
@@ -163,9 +153,9 @@
     "landed": null
    },
    "sot_1": {
-    "picks": 55,
-    "said": 77.0,
-    "landed": 72.7
+    "picks": 57,
+    "said": 76.9,
+    "landed": 71.9
    },
    "sot_2": {
     "picks": 0,
@@ -173,13 +163,13 @@
     "landed": null
    },
    "fouls_1": {
-    "picks": 134,
+    "picks": 138,
     "said": 75.6,
     "landed": 74.6,
     "shown": {
-     "picks": 185,
-     "said": 75.0,
-     "landed": 76.2
+     "picks": 190,
+     "said": 75.1,
+     "landed": 75.8
     }
    },
    "fouls_2": {
@@ -188,14 +178,14 @@
     "landed": null
    },
    "fwon_1": {
-    "picks": 582,
+    "picks": 581,
     "said": 78.3,
-    "landed": 71.6
+    "landed": 71.9
    },
    "fwon_2": {
-    "picks": 10,
+    "picks": 9,
     "said": 77.1,
-    "landed": 30.0
+    "landed": 33.3
    }
   }
  },
@@ -207,14 +197,14 @@
    "shots_4": false,
    "sot_1": true,
    "sot_2": false,
-   "fouls_1": true,
+   "fouls_1": false,
    "fouls_2": false,
    "fwon_1": true,
    "fwon_2": false
   },
   "safe": {
    "shots_1": true,
-   "shots_2": true,
+   "shots_2": false,
    "shots_3": false,
    "shots_4": false,
    "sot_1": false,
@@ -227,20 +217,20 @@
  },
  "overall": {
   "price": {
-   "picks": 2315,
-   "said": 58.9,
-   "landed": 58.1
+   "picks": 1769,
+   "said": 57.6,
+   "landed": 58.6
   },
   "safe": {
-   "picks": 1463,
-   "said": 78.2,
-   "landed": 79.4
+   "picks": 1478,
+   "said": 79.6,
+   "landed": 81.9
   }
  },
  "losses": {
-  "final": 0.42343,
-  "without_match_odds": 0.42366,
-  "first_version": 0.43282
+  "final": 0.42362,
+  "without_match_odds": 0.42385,
+  "first_version": 0.43314
  },
- "test_games": 471
+ "test_games": 475
 }

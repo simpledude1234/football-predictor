@@ -1,161 +1,161 @@
 {
   "coefs": {
     "total_shots": [
-      3.832142331014992,
-      0.703632280488342,
-      1.526606704248769,
-      0.1069871557922936
+      3.327941993960581,
+      0.7220248583401656,
+      1.5580109440707368,
+      0.06485238013675006
     ],
     "total_sot": [
-      1.6839022817315126,
-      0.29394991114049807,
-      1.6206703313651492,
-      0.005343693473764864
+      1.5550565835148686,
+      0.3106389507551535,
+      1.6207017186850927,
+      -0.008376039378492788
     ],
     "home_sot": [
-      0.8426353093375852,
-      0.18434515836917942,
-      2.095706070509254,
-      -0.1916768294246659
+      0.8161478116646869,
+      0.19432226164124272,
+      2.0829908615874033,
+      -0.19767038835129846
     ],
     "away_sot": [
-      0.623686405184428,
-      0.19994145382417694,
-      1.987126567741362,
-      0.049316056801966934
+      0.5927547299738638,
+      0.19772604403795746,
+      2.0224673694088637,
+      0.053051232902565894
     ],
     "home_cards": [
-      1.1882210053373712,
-      0.557285827092427,
-      -0.1617083041995634,
-      -0.18189915964103628
+      1.1553664402716273,
+      0.5766573330185746,
+      -0.17219670609668963,
+      -0.15807409041530993
     ],
     "away_cards": [
-      1.33511363428648,
-      0.554279791334197,
-      -0.15637508447723153,
-      -0.2876706079012607
+      1.2051279660110277,
+      0.5962013660193605,
+      -0.13579037086153825,
+      -0.2694941831622718
     ],
     "total_cards": [
-      1.7854990066512386,
-      0.5662442622292699,
-      0.12053814231075186,
-      -0.5983758969844561
+      1.5290296774542367,
+      0.613547521536169,
+      0.13591881458991953,
+      -0.5654593302931534
     ],
     "home_fouls": [
-      1.3691918290704592,
-      0.901365371021422,
-      -0.06803078274816785,
-      -0.3138947799797771
+      1.5630828823753016,
+      0.8977167410400853,
+      -0.18119582675470094,
+      -0.26408128795466257
     ],
     "away_fouls": [
-      2.158140664422587,
-      0.8970239556966791,
-      -0.4233629891623933,
-      -0.7306724351017866
+      2.0706616369619355,
+      0.9011894266706165,
+      -0.411288967753189,
+      -0.7053991458923328
     ]
   },
   "phi": {
-    "total_shots": 1.2,
-    "total_sot": 1.05,
+    "total_shots": 1.15,
+    "total_sot": 1.0,
     "home_sot": 1.15,
-    "away_sot": 1.15,
+    "away_sot": 1.1,
     "home_cards": 0.9,
     "away_cards": 0.85,
-    "total_cards": 1.0,
-    "home_fouls": 0.95,
+    "total_cards": 0.95,
+    "home_fouls": 1.0,
     "away_fouls": 1.0,
     "home_gk": 1.1,
     "away_gk": 1.1,
-    "free_kicks": 0.975
+    "free_kicks": 1.0
   },
   "report": {
-    "matches_tested": 1480,
-    "test_period": "14 Mar 2026 to 04 Nov 2026",
+    "matches_tested": 1511,
+    "test_period": "15 Mar 2026 to 08 Nov 2026",
     "markets": {
       "total_shots": {
-        "avg_miss_final": 4.81,
-        "avg_miss_ratings_only": 4.84,
-        "avg_miss_league_average": 5.03,
-        "safer_over_tips": 1480,
+        "avg_miss_final": 4.86,
+        "avg_miss_ratings_only": 4.88,
+        "avg_miss_league_average": 5.1,
+        "safer_over_tips": 1511,
         "safer_over_promised_%": 75.1,
-        "safer_over_hit_%": 80.0
+        "safer_over_hit_%": 79.9
       },
       "total_sot": {
-        "avg_miss_final": 2.51,
+        "avg_miss_final": 2.52,
         "avg_miss_ratings_only": 2.52,
-        "avg_miss_league_average": 2.59,
-        "safer_over_tips": 1480,
-        "safer_over_promised_%": 77.8,
-        "safer_over_hit_%": 81.2
+        "avg_miss_league_average": 2.61,
+        "safer_over_tips": 1511,
+        "safer_over_promised_%": 78.0,
+        "safer_over_hit_%": 81.0
       },
       "home_sot": {
-        "avg_miss_final": 1.83,
-        "avg_miss_ratings_only": 1.86,
-        "avg_miss_league_average": 2.0,
-        "safer_over_tips": 1480,
+        "avg_miss_final": 1.82,
+        "avg_miss_ratings_only": 1.84,
+        "avg_miss_league_average": 1.99,
+        "safer_over_tips": 1511,
         "safer_over_promised_%": 79.7,
-        "safer_over_hit_%": 81.4
+        "safer_over_hit_%": 81.7
       },
       "away_sot": {
-        "avg_miss_final": 1.76,
-        "avg_miss_ratings_only": 1.78,
-        "avg_miss_league_average": 1.89,
-        "safer_over_tips": 1480,
-        "safer_over_promised_%": 80.6,
-        "safer_over_hit_%": 80.3
+        "avg_miss_final": 1.78,
+        "avg_miss_ratings_only": 1.8,
+        "avg_miss_league_average": 1.92,
+        "safer_over_tips": 1511,
+        "safer_over_promised_%": 80.8,
+        "safer_over_hit_%": 79.8
       },
       "home_cards": {
-        "avg_miss_final": 1.05,
-        "avg_miss_ratings_only": 1.07,
-        "avg_miss_league_average": 1.08,
-        "safer_over_tips": 1456,
-        "safer_over_promised_%": 85.6,
+        "avg_miss_final": 1.07,
+        "avg_miss_ratings_only": 1.09,
+        "avg_miss_league_average": 1.1,
+        "safer_over_tips": 1484,
+        "safer_over_promised_%": 85.4,
         "safer_over_hit_%": 85.6
       },
       "away_cards": {
-        "avg_miss_final": 1.11,
-        "avg_miss_ratings_only": 1.12,
-        "avg_miss_league_average": 1.13,
-        "safer_over_tips": 1477,
-        "safer_over_promised_%": 85.8,
-        "safer_over_hit_%": 83.6
+        "avg_miss_final": 1.1,
+        "avg_miss_ratings_only": 1.11,
+        "avg_miss_league_average": 1.12,
+        "safer_over_tips": 1507,
+        "safer_over_promised_%": 85.5,
+        "safer_over_hit_%": 83.7
       },
       "total_cards": {
-        "avg_miss_final": 1.69,
-        "avg_miss_ratings_only": 1.7,
+        "avg_miss_final": 1.68,
+        "avg_miss_ratings_only": 1.68,
         "avg_miss_league_average": 1.7,
-        "safer_over_tips": 1480,
-        "safer_over_promised_%": 80.3,
-        "safer_over_hit_%": 77.5
+        "safer_over_tips": 1511,
+        "safer_over_promised_%": 80.5,
+        "safer_over_hit_%": 77.8
       },
       "home_fouls": {
-        "avg_miss_final": 2.81,
-        "avg_miss_ratings_only": 2.81,
+        "avg_miss_final": 2.82,
+        "avg_miss_ratings_only": 2.83,
         "avg_miss_league_average": 3.09,
-        "safer_over_tips": 1480,
-        "safer_over_promised_%": 77.0,
-        "safer_over_hit_%": 73.9
+        "safer_over_tips": 1511,
+        "safer_over_promised_%": 76.9,
+        "safer_over_hit_%": 74.7
       },
       "away_fouls": {
-        "avg_miss_final": 2.9,
+        "avg_miss_final": 2.91,
         "avg_miss_ratings_only": 2.92,
-        "avg_miss_league_average": 3.14,
-        "safer_over_tips": 1480,
-        "safer_over_promised_%": 76.8,
-        "safer_over_hit_%": 74.5
+        "avg_miss_league_average": 3.16,
+        "safer_over_tips": 1511,
+        "safer_over_promised_%": 76.9,
+        "safer_over_hit_%": 74.0
       },
       "match_result": {
-        "model_pick_right_%": 49.5,
-        "bookmaker_pick_right_%": 51.2,
-        "final_pick_right_%": 51.2,
+        "model_pick_right_%": 49.8,
+        "bookmaker_pick_right_%": 51.6,
+        "final_pick_right_%": 51.6,
         "model_share_in_final": 0.0
       },
       "btts": {
-        "final_pick_right_%": 59.3,
-        "always_yes_right_%": 57.3,
-        "strong_yes_(>=60%)_tips": 255,
-        "strong_yes_hit_%": 62.0,
+        "final_pick_right_%": 59.6,
+        "always_yes_right_%": 57.4,
+        "strong_yes_(>=60%)_tips": 275,
+        "strong_yes_hit_%": 62.9,
         "strong_no_(<=40%)_tips": 3,
         "strong_no_hit_%": 33.3,
         "model_share_in_final": 0.0
@@ -164,5 +164,5 @@
   },
   "w_result": 0.0,
   "w_btts": 0.0,
-  "fitted": "2026-11-06"
+  "fitted": "2026-11-21"
 }
