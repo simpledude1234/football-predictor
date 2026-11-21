@@ -13,7 +13,9 @@ The key comes from the ODDS_API_KEY environment variable (a GitHub secret) and
 is never printed or saved. Replies are read as data only.
 
 For each game we keep the best price on offer for each outcome and which
-bookmaker has it, plus how many bookmakers priced the game.
+bookmaker has it (exchanges left out: their prices are before commission; a
+lone price far above the rest is treated as a slip), the bookmakers' own fair
+chance for each outcome, and how many bookmakers priced the game.
 """
 import datetime as dt
 import difflib
@@ -55,30 +57,56 @@ def _get(sport, key):
     return r.json(), (int(float(rem)) if rem not in (None, "") else None)
 
 
-def _slim(events):
-    """Only what the page needs from each game: best price per outcome, and from whom."""
+EXCHANGES = ("betfair", "matchbook", "smarkets", "betdaq")   # prices before commission: not a best price
+OUTLIER = 1.08       # a best price more than 8% above the next best is treated as a slip: the next best is used
+
+
+def _slim(events, now=None):
+    """Only what the page needs from each game: the best price per outcome and from whom, and the
+    bookmakers' own fair chance (each bookmaker's prices with its margin taken out, averaged).
+    Games already under way are dropped (in-play prices)."""
+    now = now or dt.datetime.now(dt.timezone.utc).isoformat()
     out = []
     for ev in events if isinstance(events, list) else []:
-        best, books = {}, 0
+        if not ev.get("commence_time") or ev["commence_time"] <= now[:19]:
+            continue
+        prices, fair, books = {}, {}, 0
         for b in ev.get("bookmakers") or []:
             books += 1
+            title = str(b.get("title", ""))[:30]
+            exch = any(x in title.lower() for x in EXCHANGES)
             for mk in b.get("markets") or []:
+                got = {}
                 for o in mk.get("outcomes") or []:
                     try:
                         price = float(o["price"])
                     except (KeyError, TypeError, ValueError):
                         continue
                     if mk.get("key") == "h2h":
-                        k = "D" if o.get("name") == "Draw" else "H" if o.get("name") == ev.get("home_team") else \
-                            "A" if o.get("name") == ev.get("away_team") else None
-                    elif mk.get("key") == "totals" and o.get("point") is not None:
-                        k = f"{str(o.get('name', '')).lower()}_{float(o['point'])}"
+                        k = "D" if o.get("name") == "Draw" else "H" if o.get("name") == ev.get("home_team") else                             "A" if o.get("name") == ev.get("away_team") else None
+                    elif mk.get("key") == "totals" and o.get("point") is not None and float(o["point"]) % 1 == 0.5:
+                        k = f"{str(o.get('name', '')).lower()}_{float(o['point'])}"     # .5 lines only (no pushes)
                     else:
                         k = None
-                    if k and (k not in best or price > best[k][0]):
-                        best[k] = [price, str(b.get("title", ""))[:30]]
+                    if k and price > 1:
+                        got[k] = price
+                # margin out: within h2h, or within each over/under pair
+                groups = [["H", "D", "A"]] if mk.get("key") == "h2h" else                     [[k, "under" + k[4:]] for k in got if k.startswith("over_")]
+                for g in groups:
+                    if all(k in got for k in g):
+                        tot = sum(1 / got[k] for k in g)
+                        for k in g:
+                            fair.setdefault(k, []).append(1 / got[k] / tot)
+                if not exch:
+                    for k, price in got.items():
+                        prices.setdefault(k, []).append([price, title])
+        best = {}
+        for k, lst in prices.items():
+            lst.sort(key=lambda x: -x[0])
+            best[k] = lst[0] if len(lst) < 2 or lst[0][0] <= OUTLIER * lst[1][0] else lst[1]
         out.append({"home": ev.get("home_team"), "away": ev.get("away_team"), "time": ev.get("commence_time"),
-                    "books": books, "best": best})
+                    "books": books, "best": best,
+                    "fair": {k: round(100 * sum(v) / len(v), 1) for k, v in fair.items() if len(v) >= MIN_BOOKS}})
     return out
 
 
@@ -154,7 +182,7 @@ def attach(matches, data):
             if s > score:
                 best, score = ev, s
         if best and score >= 1.5 and best["books"] >= MIN_BOOKS:
-            m["book"] = {"best": best["best"], "books": best["books"]}
+            m["book"] = {"best": best["best"], "books": best["books"], "fair": best.get("fair", {})}
             n += 1
     if matches:
         print(f"Bookmaker prices matched to {n} of {len(matches)} games")

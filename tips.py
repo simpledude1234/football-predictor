@@ -123,8 +123,9 @@ def _book_key(t):
 
 def book_value(m, out):
     """Marks each tip that has a real bookmaker price (best on offer, and where), and returns at most one
-    "Bookmaker value" pick for the game: the result or total goals outcome where the best price beats our
-    fair price by the most, if by at least 5%."""
+    "Bookmaker value" pick for the game: the result or total goals outcome where the best price beats the
+    fair price by the most, if by at least 5%. The fair chance there is half ours and half the UK
+    bookmakers' own (margin taken out), so one bookmaker's slow price is value but our own error is not."""
     best = (m.get("book") or {}).get("best") or {}
     if not best:
         return []
@@ -143,9 +144,14 @@ def book_value(m, out):
                 po = 100 * P.over_prob(tg["expected"], float(line), tg.get("phi") or 1.0)
                 cands.append(("total_goals", side, float(line), po if side == "over" else 100 - po,
                               "Total goals", f"{side.title()} {float(line):g}"))
+    fair = (m.get("book") or {}).get("fair") or {}
     good = []
     for key, side, line, ch, label, pick in cands:
-        price = best[side if key == "result" else f"{side}_{line}"]
+        bk = side if key == "result" else f"{side}_{line}"
+        price = best[bk]
+        if bk not in fair:
+            continue
+        ch = (ch + fair[bk]) / 2       # half ours, half the UK bookmakers' own view: an old or odd price is not value
         if BV_CHANCE[0] <= ch <= BV_CHANCE[1] and BV_EDGE <= ch / 100 * price[0] <= BV_MAX:
             good.append((ch / 100 * price[0], key, side, line, ch, label, pick, price))
     if not good:
