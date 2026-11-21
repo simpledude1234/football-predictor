@@ -9,13 +9,26 @@ Players sent off in their team's last game are left out (likely suspended).
 Once the starting line-ups are out (about an hour before kick-off), only the
 named starters are considered. In replays this stopped about 1 in 10 picks
 going to a player who then did not play.
+
+Model 2 (2026-11-21, `candidates`): bookings and fouls per 90 minutes (pulled
+towards the position's average), position and recent minutes, weighed as fitted
+on past games; the card-heavy-match factor at half strength. Tested on 5,509
+held-out player-games (tools/booked_bt.py): better than model 1, and its top
+picks no longer over-promise (model 1 on the site: said 24%, landed 18% when the
+match factor was high).
 """
 import math
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 SUB_WEIGHT = 0.35       # a substitute appearance ~ a third of a match
 PRIOR_GAMES = 20.0      # strong pull towards average: tested on 4 weeks of replays (promised ~20%, ~20% happened)
 MIN_PLAY = 0.8          # only suggest regular players
+# model 2 (2026-11-21): fitted on this season's games, see tools/booked_bt.py
+W = {"const": -1.6, "card": 0.249, "foul": 0.314, "mins": 0.641, "pos_D": 0.195, "pos_M": -0.016, "pos_F": -0.178}
+SHRINK_MINS = 900.0     # 10 full matches of his position's average
+MIN_MINS = 45           # regulars only: at least 45 minutes a game over the last 5
+LINEUP_MINS = 80        # a confirmed starter plays about this long
+FACTOR_POWER = 0.5      # how card-heavy the match should be: half strength (full strength over-promised)
 
 
 class PlayerModel:
@@ -104,9 +117,67 @@ class PlayerModel:
         out[""] = round(self.foul_prior, 3)
         return out
 
+    def _pos_avgs(self):
+        """Bookings and fouls per 90 minutes by position (G/D/M/F), the targets players are pulled towards."""
+        if not hasattr(self, "_avg"):
+            t = defaultdict(lambda: [0, 0, 0])
+            for g in self.team_games.values():
+                for m in g:
+                    booked = {(n, s) for n, s, st, y, r, f in m["players"] if y + r > 0}
+                    for key, v in (m.get("pstats") or {}).items():
+                        s, n = key.split("|", 1)
+                        if v[4]:
+                            p = t[v[5]]; p[0] += v[4]; p[1] += (n, s) in booked; p[2] += v[2]
+            mins = sum(v[0] for v in t.values()) or 1
+            self._all = (sum(v[1] for v in t.values()) / mins * 90 or 0.17, sum(v[2] for v in t.values()) / mins * 90 or 1.1)
+            self._avg = {k: (v[1] / v[0] * 90, v[2] / v[0] * 90) for k, v in t.items() if v[0] > 2000}
+        return self._avg, self._all
+
     def candidates(self, team, before, expected_team_cards, lineup=None):
-        """Players of `team` with their chance of being booked in the next match.
-        lineup: the confirmed starting eleven (names), if already announced."""
+        """Players of `team` with their chance of being booked in the next match: his bookings and
+        fouls per 90 minutes this season (pulled towards his position's average), his position and
+        his recent minutes, weighed as fitted on past games (W). lineup: the confirmed starting
+        eleven (names), if already announced."""
+        games = [m for m in self.team_games.get(team, []) if m["date"] < before]
+        if not games or not all(m.get("pstats") for m in games[-5:]):
+            return self.candidates_v1(team, before, expected_team_cards, lineup)
+        avg, (c_all, f_all) = self._pos_avgs()
+        H = defaultdict(lambda: {"mins": 0, "cards": 0, "fouls": 0, "pos": Counter(), "m5": 0.0, "red": False})
+        n5 = min(5, len(games))
+        for i, m in enumerate(games):
+            side = "home" if m["home"] == team else "away"
+            booked = {n for n, s, st, y, r, f in m["players"] if s == side and y + r > 0}
+            for key, v in (m.get("pstats") or {}).items():
+                s, n = key.split("|", 1)
+                if s != side or not v[4]:
+                    continue
+                h = H[n]
+                h["mins"] += v[4]; h["fouls"] += v[2]; h["cards"] += n in booked; h["pos"][v[5]] += 1
+                if i >= len(games) - 5:
+                    h["m5"] += v[4] / n5
+        for n, s, st, y, r, f in games[-1]["players"]:
+            if s == ("home" if games[-1]["home"] == team else "away") and r > 0:
+                H[n]["red"] = True                        # sent off last time: likely suspended
+        if lineup:                                        # confirmed starters: they will play
+            H = {n: {**H[n], "m5": max(H[n]["m5"], LINEUP_MINS), "red": False} for n in lineup}
+        factor = self.match_factor(team, before, expected_team_cards) ** FACTOR_POWER
+        out = []
+        for name, h in H.items():
+            if h["m5"] < MIN_MINS or h["red"]:
+                continue
+            pos = h["pos"].most_common(1)[0][0] if h["pos"] else "?"
+            c90, f90 = avg.get(pos, (c_all, f_all)) if pos != "?" else (c_all, f_all)
+            card = (h["cards"] + SHRINK_MINS / 90 * c90) / (h["mins"] + SHRINK_MINS) * 90
+            foul = (h["fouls"] + SHRINK_MINS / 90 * f90) / (h["mins"] + SHRINK_MINS) * 90
+            z = W["const"] + W["card"] * math.log(card / c_all) + W["foul"] * math.log(foul / f_all) \
+                + W["mins"] * math.log(max(h["m5"], 1) / 90) + W.get("pos_" + pos, 0.0)
+            lam = -math.log(1 - 1 / (1 + math.exp(-z))) * factor
+            out.append({"player": name, "chance": round(100 * (1 - math.exp(-lam))),
+                        "booked": h["cards"], "games": round(h["mins"] / 90, 1)})
+        return sorted(out, key=lambda x: -x["chance"])
+
+    def candidates_v1(self, team, before, expected_team_cards, lineup=None):
+        """The first model (bookings per match only); used when per-player minutes are missing."""
         games = [m for m in self.team_games.get(team, []) if m["date"] < before]
         if not games:
             return []
