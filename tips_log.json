@@ -51756,6 +51756,18 @@
 "star": false
 },
 {
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Galatasaray corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
@@ -52236,7 +52248,7 @@
 "pick": "Under 13.5",
 "side": "under",
 "line": 13.5,
-"chance": 79,
+"chance": 80,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -52492,7 +52504,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Arsenal shots on target: Under 6.5 + Arsenal bookings: Under 2.5 + Arsenal fouls: Under 13.5 + Borussia Dortmund offsides: Under 2.5",
+"pick": "Arsenal shots on target: Under 6.5 + Arsenal fouls: Under 13.5 + Arsenal bookings: Under 2.5 + Borussia Dortmund offsides: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -52502,6 +52514,18 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Arsenal fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
 "chance": 80,
 "player": null,
 "team": null,
@@ -52521,18 +52545,6 @@
 "value": null
 },
 {
-"key": "home_fouls",
-"label": "Arsenal fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
 "key": "away_offsides",
 "label": "Borussia Dortmund offsides",
 "pick": "Under 2.5",
@@ -52545,7 +52557,7 @@
 "value": null
 }
 ],
-"chance": 35,
+"chance": 36,
 "star": false
 }
 ],
@@ -53598,7 +53610,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 82,
+"chance": 83,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -54200,7 +54212,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 78,
+"chance": 79,
 "normal": 64,
 "star": true,
 "estimate": false
@@ -54462,7 +54474,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 78,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
@@ -54481,7 +54493,7 @@
 "value": null
 }
 ],
-"chance": 36,
+"chance": 37,
 "star": false
 }
 ],
@@ -55043,20 +55055,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Matthieu Udol (Lens): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Matthieu Udol",
-"team": "away",
-"stat": "fwon",
-"chance": 57,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
@@ -55066,6 +55064,20 @@
 "player": "Antonio Nusa",
 "team": "home",
 "stat": "sot",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Matthieu Udol (Lens): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Matthieu Udol",
+"team": "away",
+"stat": "fwon",
 "chance": 56,
 "confirmed": false,
 "star": false
@@ -56860,7 +56872,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 75,
+"chance": 76,
 "normal": 51,
 "star": true,
 "estimate": false
@@ -56918,7 +56930,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 77,
+"chance": 78,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -57002,13 +57014,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Anthony Gordon (Barcelona): 1+ foul won",
+"pick": "Fermín López (Barcelona): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Anthony Gordon",
+"player": "Fermín López",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -57022,6 +57034,20 @@
 "player": "Lamine Yamal",
 "team": "away",
 "stat": "sot",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Anthony Gordon (Barcelona): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Anthony Gordon",
+"team": "away",
+"stat": "fwon",
 "chance": 60,
 "confirmed": false,
 "star": false
@@ -57050,20 +57076,6 @@
 "player": "Ivan Lepinjica",
 "team": "home",
 "stat": "fwon",
-"chance": 55,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_shots",
-"market": "Player shots",
-"label": "Player shots",
-"pick": "Fermín López (Barcelona): 2+ shots",
-"side": "over",
-"line": 2,
-"player": "Fermín López",
-"team": "away",
-"stat": "shots",
 "chance": 55,
 "confirmed": false,
 "star": false
@@ -58744,7 +58756,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 78,
+"chance": 79,
 "normal": 63,
 "star": true,
 "estimate": false
@@ -58980,20 +58992,6 @@
 "player": "Joaquin Seys",
 "team": "home",
 "stat": "fwon",
-"chance": 53,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Bradley Barcola (Liverpool): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Bradley Barcola",
-"team": "away",
-"stat": "fwon",
 "chance": 52,
 "confirmed": false,
 "star": false
@@ -59002,7 +59000,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Club Brugge shots on target: Over 3.5 + Club Brugge corners: Under 5.5 + Club Brugge fouls: Under 12.5",
+"pick": "Club Brugge shots on target: Over 3.5 + Club Brugge fouls: Under 12.5 + Club Brugge corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -59012,6 +59010,18 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Club Brugge fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
 "chance": 79,
 "player": null,
 "team": null,
@@ -59029,21 +59039,9 @@
 "team": null,
 "stat": null,
 "value": null
-},
-{
-"key": "home_fouls",
-"label": "Club Brugge fouls",
-"pick": "Under 12.5",
-"side": "under",
-"line": 12.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
 }
 ],
-"chance": 41,
+"chance": 42,
 "star": false
 }
 ],
@@ -59298,7 +59296,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 74,
+"chance": 75,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -59536,14 +59534,26 @@
 "star": false
 },
 {
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "home_corners",
 "market": "Higher price: Home corners",
 "label": "Internazionale corners",
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -59610,7 +59620,7 @@
 "player": "Grischa Prömel",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -60142,7 +60152,7 @@
 "pick": "Over 30.5",
 "side": "over",
 "line": 30.5,
-"chance": 80,
+"chance": 81,
 "normal": 58,
 "star": true,
 "estimate": false
@@ -60312,22 +60322,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total tackles: Over 30.5 + Lille fouls: Under 12.5 + Lille corners: Under 4.5",
+"pick": "Lille fouls: Under 12.5 + Lille corners: Under 4.5 + Lille shots on target: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Over 30.5",
-"side": "over",
-"line": 30.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "home_fouls",
 "label": "Lille fouls",
@@ -60351,9 +60349,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "home_sot",
+"label": "Lille shots on target",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 75,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 47,
+"chance": 37,
 "star": false
 }
 ],
@@ -60700,7 +60710,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 77,
+"chance": 78,
 "normal": 54,
 "star": true,
 "estimate": false
@@ -60788,7 +60798,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 82,
+"chance": 83,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -60866,8 +60876,8 @@
 "pick": "Under 9.5",
 "side": "under",
 "line": 9.5,
-"chance": 64,
-"min_odds": 1.6,
+"chance": 65,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -60988,7 +60998,7 @@
 "player": "Matìas Soulè",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -61010,7 +61020,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total offsides: Over 2.5 + Total corners: Under 11.5 + Paris Saint-Germain bookings: Under 2.5 + Total shots on target: Over 7.5",
+"pick": "Total offsides: Over 2.5 + Total corners: Under 11.5 + Paris Saint-Germain bookings: Under 2.5 + Paris Saint-Germain fouls: Under 11.5",
 "side": null,
 "line": null,
 "legs": [
@@ -61051,19 +61061,19 @@
 "value": null
 },
 {
-"key": "total_sot",
-"label": "Total shots on target",
-"pick": "Over 7.5",
-"side": "over",
-"line": 7.5,
-"chance": 77,
+"key": "home_fouls",
+"label": "Paris Saint-Germain fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 78,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 35,
+"chance": 38,
 "star": false
 }
 ],
@@ -61612,13 +61622,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Milan Skriniar (Fenerbahce): 1+ foul won",
+"pick": "Oleh Ocheretko (Shakhtar Donetsk): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Milan Skriniar",
-"team": "away",
+"player": "Oleh Ocheretko",
+"team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -61626,11 +61636,11 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Oleh Ocheretko (Shakhtar Donetsk): 1+ foul won",
+"pick": "Milan Skriniar (Fenerbahce): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Oleh Ocheretko",
-"team": "home",
+"player": "Milan Skriniar",
+"team": "away",
 "stat": "fwon",
 "chance": 58,
 "confirmed": false,
@@ -62276,7 +62286,7 @@
 "player": "Gonçalo Inácio",
 "team": "home",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -64056,7 +64066,7 @@
 "player": "Adam Smith",
 "team": "away",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -64438,7 +64448,7 @@
 "pick": "Over 21.5",
 "side": "over",
 "line": 21.5,
-"chance": 82,
+"chance": 83,
 "normal": 77,
 "star": false,
 "estimate": false
@@ -64682,7 +64692,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 65,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -64764,7 +64774,7 @@
 "player": "Luka Stojkovic",
 "team": "home",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -64779,20 +64789,6 @@
 "team": "away",
 "stat": "fwon",
 "chance": 54,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Miguel Gutiérrez (Bayer Leverkusen): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Miguel Gutiérrez",
-"team": "away",
-"stat": "fwon",
-"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -65292,7 +65288,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 80,
+"chance": 81,
 "normal": 65,
 "star": true,
 "estimate": false
@@ -65466,22 +65462,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Levski Sofia corners: Under 4.5 + Total tackles: Over 28.5 + Marseille offsides: Under 1.5 + Marseille shots on target: Over 3.5",
+"pick": "Total tackles: Over 28.5 + Marseille offsides: Under 1.5 + Marseille shots on target: Over 3.5 + Match result: Marseille or draw (74%)",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "away_corners",
-"label": "Levski Sofia corners",
-"pick": "Under 4.5",
-"side": "under",
-"line": 4.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "total_tackles",
 "label": "Total tackles",
@@ -65517,9 +65501,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "result",
+"label": "Match result",
+"pick": "Marseille or draw (74%)",
+"side": "HD",
+"line": null,
+"chance": 74,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 35,
+"chance": 36,
 "star": false
 }
 ],
@@ -65780,7 +65776,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 78,
+"chance": 79,
 "normal": 73,
 "star": false,
 "estimate": false
@@ -66034,8 +66030,8 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 60,
-"min_odds": 1.7,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -66088,20 +66084,6 @@
 "player": "Santiago Hezze",
 "team": "home",
 "stat": "fwon",
-"chance": 53,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Koni De Winter (AC Milan): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Koni De Winter",
-"team": "away",
-"stat": "fwon",
 "chance": 52,
 "confirmed": false,
 "star": false
@@ -66110,7 +66092,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total tackles: Over 29.5 + Olympiacos shots on target: Over 3.5 + Olympiacos bookings: Under 2.5 + Match result: Olympiacos or draw (77%)",
+"pick": "Total tackles: Over 29.5 + Total shots: Under 29.5 + Olympiacos bookings: Under 2.5 + Match result: Olympiacos or draw (77%)",
 "side": null,
 "line": null,
 "legs": [
@@ -66127,11 +66109,11 @@
 "value": null
 },
 {
-"key": "home_sot",
-"label": "Olympiacos shots on target",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
+"key": "total_shots",
+"label": "Total shots",
+"pick": "Under 29.5",
+"side": "under",
+"line": 29.5,
 "chance": 79,
 "player": null,
 "team": null,
@@ -66163,7 +66145,7 @@
 "value": null
 }
 ],
-"chance": 37,
+"chance": 41,
 "star": false
 }
 ],
@@ -66668,6 +66650,20 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Abubakr Barry (RB Salzburg): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Abubakr Barry",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Haris Tabakovic (RB Salzburg): 1+ foul won",
 "side": "over",
 "line": 1,
@@ -66696,7 +66692,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Ararat-Armenia corners: Under 4.5 + Haris Tabakovic (RB Salzburg): 1+ foul won",
+"pick": "Ararat-Armenia corners: Under 4.5 + Abubakr Barry (RB Salzburg): 1+ foul won",
 "side": null,
 "line": null,
 "legs": [
@@ -66715,17 +66711,17 @@
 {
 "key": "pl_fwon",
 "label": "Player fouls won",
-"pick": "Haris Tabakovic (RB Salzburg): 1+ foul won",
+"pick": "Abubakr Barry (RB Salzburg): 1+ foul won",
 "side": "over",
 "line": 1,
-"chance": 60,
-"player": "Haris Tabakovic",
+"chance": 62,
+"player": "Abubakr Barry",
 "team": "home",
 "stat": "fwon",
 "value": null
 }
 ],
-"chance": 42,
+"chance": 43,
 "star": false
 }
 ],
@@ -67816,7 +67812,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 72,
+"chance": 73,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -70158,7 +70154,7 @@
 "pick": "Under 32.5",
 "side": "under",
 "line": 32.5,
-"chance": 82,
+"chance": 83,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -70853,7 +70849,7 @@
 "side": "over",
 "line": 3.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -72016,7 +72012,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 61,
+"chance": 62,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -73082,7 +73078,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 81,
+"chance": 82,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -73434,7 +73430,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 72,
+"chance": 73,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -73608,7 +73604,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 76,
+"chance": 77,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -73617,11 +73613,11 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "Over 28.5",
+"pick": "Over 29.5",
 "side": "over",
-"line": 28.5,
-"chance": 83,
-"normal": 72,
+"line": 29.5,
+"chance": 79,
+"normal": 71,
 "star": false,
 "estimate": false
 },
@@ -73758,7 +73754,7 @@
 "player": "Jon Gorrotxategi",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -73794,7 +73790,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total offsides: Under 3.5 + Real Sociedad corners: Over 3.5 + Real Sociedad tackles: Under 19.5",
+"pick": "Total offsides: Under 3.5 + Total tackles: Over 29.5 + Real Sociedad corners: Over 3.5 + Crystal Palace fouls: Under 12.5",
 "side": null,
 "line": null,
 "legs": [
@@ -73811,31 +73807,43 @@
 "value": null
 },
 {
-"key": "away_corners",
-"label": "Real Sociedad corners",
-"pick": "Over 3.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 29.5",
 "side": "over",
-"line": 3.5,
-"chance": 76,
+"line": 29.5,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 },
 {
-"key": "away_tackles",
-"label": "Real Sociedad tackles",
-"pick": "Under 19.5",
+"key": "away_corners",
+"label": "Real Sociedad corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 77,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Crystal Palace fouls",
+"pick": "Under 12.5",
 "side": "under",
-"line": 19.5,
-"chance": 76,
+"line": 12.5,
+"chance": 74,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 50,
+"chance": 37,
 "star": false
 }
 ],
@@ -74262,7 +74270,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 75,
+"chance": 76,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -74386,7 +74394,7 @@
 "player": "Mark Zabukovnik",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -74484,7 +74492,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 75,
+"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
@@ -75002,7 +75010,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -75774,7 +75782,7 @@
 "player": "Yaw Paintsil",
 "team": "away",
 "stat": "fwon",
-"chance": 53,
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -76315,7 +76323,7 @@
 "side": "over",
 "line": 3.5,
 "chance": 69,
-"min_odds": 1.5,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -77278,7 +77286,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 81,
+"chance": 82,
 "normal": 73,
 "star": false,
 "estimate": false
@@ -78814,7 +78822,7 @@
 "player": "Kieran Tierney",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -78856,7 +78864,7 @@
 "player": "Callum McGregor",
 "team": "away",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -79178,7 +79186,7 @@
 "pick": "Over 21.5",
 "side": "over",
 "line": 21.5,
-"chance": 82,
+"chance": 83,
 "normal": 77,
 "star": false,
 "estimate": false
@@ -79343,11 +79351,13 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "SK Sturm Graz corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 73,
+"normal": 68,
+"star": false,
+"estimate": false
 },
 {
 "key": "total_tackles",
@@ -79386,7 +79396,7 @@
 "pick": "Under 31.5",
 "side": "under",
 "line": 31.5,
-"chance": 79,
+"chance": 80,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -79400,6 +79410,18 @@
 "line": 1.5,
 "chance": 67,
 "min_odds": 1.5,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "TSG Hoffenheim corners",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -79446,20 +79468,6 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Ozan Kabak (TSG Hoffenheim): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Ozan Kabak",
-"team": "home",
-"stat": "fwon",
-"chance": 60,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
 "pick": "Leon Avdullahu (TSG Hoffenheim): 1+ foul won",
 "side": "over",
 "line": 1,
@@ -79474,13 +79482,27 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Ozan Kabak (TSG Hoffenheim): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ozan Kabak",
+"team": "home",
+"stat": "fwon",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Mats Rots (TSG Hoffenheim): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Mats Rots",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -79508,7 +79530,7 @@
 "player": "Luís Balbo",
 "team": "away",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -79530,7 +79552,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "SK Sturm Graz fouls: Under 13.5 + Ozan Kabak (TSG Hoffenheim): 1+ foul + SK Sturm Graz offsides: Under 1.5",
+"pick": "SK Sturm Graz fouls: Under 13.5 + Ozan Kabak (TSG Hoffenheim): 1+ foul + SK Sturm Graz corners: Over 2.5 + SK Sturm Graz offsides: Under 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -79559,6 +79581,18 @@
 "value": null
 },
 {
+"key": "away_corners",
+"label": "SK Sturm Graz corners",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 73,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
 "key": "away_offsides",
 "label": "SK Sturm Graz offsides",
 "pick": "Under 1.5",
@@ -79571,7 +79605,7 @@
 "value": true
 }
 ],
-"chance": 41,
+"chance": 36,
 "star": false
 }
 ],
@@ -80074,7 +80108,7 @@
 "pick": "Over 5.5",
 "side": "over",
 "line": 5.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -80142,7 +80176,7 @@
 "player": "Relja Obric",
 "team": "away",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -81254,7 +81288,7 @@
 "pick": "Under 30.5",
 "side": "under",
 "line": 30.5,
-"chance": 77,
+"chance": 78,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -81824,7 +81858,7 @@
 "pick": "Under 32.5",
 "side": "under",
 "line": 32.5,
-"chance": 81,
+"chance": 82,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -82354,7 +82388,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 74,
+"chance": 75,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -82494,7 +82528,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 74,
+"chance": 75,
 "player": null,
 "team": null,
 "stat": null,
@@ -84072,13 +84106,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Jordy Makengo (SC Freiburg): 1+ foul won",
+"pick": "Philipp Lienhart (SC Freiburg): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Jordy Makengo",
+"player": "Philipp Lienhart",
 "team": "home",
 "stat": "fwon",
-"chance": 61,
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -84086,10 +84120,10 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Philipp Lienhart (SC Freiburg): 1+ foul won",
+"pick": "Jordy Makengo (SC Freiburg): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Philipp Lienhart",
+"player": "Jordy Makengo",
 "team": "home",
 "stat": "fwon",
 "chance": 60,
@@ -265045,7 +265079,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 80,
+"chance": 81,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -265098,11 +265132,13 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 76,
+"normal": 71,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_corners",
@@ -265165,7 +265201,7 @@
 "player": "Carlos Macià",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -265229,22 +265265,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Villarreal corners: Over 4.5 + Villarreal fouls: Under 13.5 + Villarreal offsides: Over 1.5 + Match result: Villarreal or draw (75%)",
+"pick": "Villarreal fouls: Under 13.5 + Villarreal offsides: Over 1.5 + Total corners: Over 8.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "home_corners",
-"label": "Villarreal corners",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "home_fouls",
 "label": "Villarreal fouls",
@@ -265270,19 +265294,19 @@
 "value": null
 },
 {
-"key": "result",
-"label": "Match result",
-"pick": "Villarreal or draw (75%)",
-"side": "HD",
-"line": null,
-"chance": 75,
+"key": "total_corners",
+"label": "Total corners",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 39,
+"chance": 45,
 "star": false
 }
 ],
@@ -265543,7 +265567,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 73,
+"chance": 74,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -265612,11 +265636,13 @@
 "key": "home_fouls",
 "market": "Home fouls",
 "label": "AEK Athens fouls",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 76,
+"normal": 71,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_fouls",
@@ -265767,7 +265793,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -266351,6 +266377,18 @@
 "line": 0.5,
 "chance": 61,
 "min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -267029,7 +267067,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 70,
+"chance": 71,
 "min_odds": 1.45,
 "value": true,
 "star": false
@@ -267147,10 +267185,10 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Achraf Hakimi (Paris Saint-Germain): 1+ foul won",
+"pick": "Fabián Ruiz (Paris Saint-Germain): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Achraf Hakimi",
+"player": "Fabián Ruiz",
 "team": "away",
 "stat": "fwon",
 "chance": 56,
@@ -267709,6 +267747,18 @@
 "star": false
 },
 {
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
@@ -267762,20 +267812,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Fermín López (Barcelona): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Fermín López",
-"team": "home",
-"stat": "fwon",
-"chance": 61,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
@@ -267786,6 +267822,20 @@
 "team": "home",
 "stat": "sot",
 "chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Fermín López (Barcelona): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Fermín López",
+"team": "home",
+"stat": "fwon",
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -268435,7 +268485,7 @@
 "player": "Konrad Laimer",
 "team": "home",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -268785,9 +268835,9 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 76,
+"chance": 77,
 "normal": 65,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -269665,7 +269715,7 @@
 "pick": "Under 27.5",
 "side": "under",
 "line": 27.5,
-"chance": 73,
+"chance": 74,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -269725,6 +269775,20 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Rasmus Højlund (Napoli): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Rasmus Højlund",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Kevin De Bruyne (Napoli): 1+ foul won",
 "side": "over",
 "line": 1,
@@ -269743,20 +269807,6 @@
 "side": "over",
 "line": 1,
 "player": "Scott McTominay",
-"team": "home",
-"stat": "sot",
-"chance": 61,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_sot",
-"market": "Player shots on target",
-"label": "Player shots on target",
-"pick": "Rasmus Højlund (Napoli): 1+ shot on target",
-"side": "over",
-"line": 1,
-"player": "Rasmus Højlund",
 "team": "home",
 "stat": "sot",
 "chance": 61,
@@ -270177,7 +270227,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 73,
+"chance": 74,
 "normal": 63,
 "star": false,
 "estimate": false
@@ -272051,7 +272101,7 @@
 "pick": "Under 13.5",
 "side": "under",
 "line": 13.5,
-"chance": 80,
+"chance": 81,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -272207,7 +272257,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -272311,22 +272361,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Borussia Dortmund fouls: Under 13.5 + Total offsides: Over 3.5 + Total shots on target: Under 10.5",
+"pick": "Total offsides: Over 3.5 + Total shots on target: Under 10.5 + Internazionale corners: Over 3.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "home_fouls",
-"label": "Borussia Dortmund fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "total_offsides",
 "label": "Total offsides",
@@ -272350,9 +272388,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "away_corners",
+"label": "Internazionale corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 73,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 46,
+"chance": 44,
 "star": false
 }
 ],
@@ -272781,7 +272831,7 @@
 "pick": "Under 38.5",
 "side": "under",
 "line": 38.5,
-"chance": 82,
+"chance": 83,
 "normal": 76,
 "star": false,
 "estimate": false
@@ -273395,7 +273445,7 @@
 "pick": "Over 26.5",
 "side": "over",
 "line": 26.5,
-"chance": 82,
+"chance": 83,
 "normal": 75,
 "star": false,
 "estimate": false
@@ -273457,6 +273507,18 @@
 "star": false
 },
 {
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
@@ -273499,13 +273561,27 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Ole Didrik Blomberg (Bodo/Glimt): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ole Didrik Blomberg",
+"team": "away",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Andreas Helmersen (Bodo/Glimt): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Andreas Helmersen",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -273561,7 +273637,7 @@
 "player": "Ruben Aguilar",
 "team": "home",
 "stat": "fwon",
-"chance": 53,
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -274085,7 +274161,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 76,
+"chance": 77,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -275339,6 +275415,18 @@
 "line": 1.5,
 "chance": 61,
 "min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "VfB Stuttgart corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -277810,7 +277898,7 @@
 "side": "over",
 "line": 4.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -277891,7 +277979,7 @@
 "player": "Luís Balbo",
 "team": "away",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -279129,12 +279217,26 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Kajetan Szmyt (Jagiellonia Bialystok): 1+ foul won",
+"pick": "Tyrick Mitchell (Crystal Palace): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Tyrick Mitchell",
+"team": "away",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Kajetan Szmyt (Jagiellonia Bialystok): 1+ shot on target",
 "side": "over",
 "line": 1,
 "player": "Kajetan Szmyt",
 "team": "home",
-"stat": "fwon",
+"stat": "sot",
 "chance": 57,
 "confirmed": false,
 "star": false
@@ -279617,9 +279719,9 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 76,
+"chance": 77,
 "normal": 65,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -279720,20 +279822,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Hugo Álvarez (Celta Vigo): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Hugo Álvarez",
-"team": "away",
-"stat": "fwon",
-"chance": 62,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
@@ -279751,13 +279839,27 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Hugo Álvarez (Celta Vigo): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Hugo Álvarez",
+"team": "away",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Aleix Febas (Celta Vigo): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Aleix Febas",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -279771,7 +279873,7 @@
 "player": "Timothy Weah",
 "team": "home",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -279807,7 +279909,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Celta Vigo fouls: Under 13.5 + Marseille offsides: Under 1.5 + Total corners: Under 10.5",
+"pick": "Celta Vigo fouls: Under 13.5 + Marseille offsides: Under 1.5 + Celta Vigo corners: Under 4.5",
 "side": null,
 "line": null,
 "legs": [
@@ -279836,19 +279938,19 @@
 "value": null
 },
 {
-"key": "total_corners",
-"label": "Total corners",
-"pick": "Under 10.5",
+"key": "away_corners",
+"label": "Celta Vigo corners",
+"pick": "Under 4.5",
 "side": "under",
-"line": 10.5,
-"chance": 76,
+"line": 4.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 42,
+"chance": 40,
 "star": false
 }
 ],
@@ -283267,9 +283369,9 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 78,
+"chance": 79,
 "normal": 67,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -283315,6 +283417,18 @@
 "normal": 56,
 "star": true,
 "estimate": false
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
 },
 {
 "key": "player_booked",
@@ -283812,12 +283926,12 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 30.5",
+"pick": "Under 29.5",
 "side": "under",
-"line": 30.5,
-"chance": 78,
-"normal": 67,
-"star": false,
+"line": 29.5,
+"chance": 72,
+"normal": 56,
+"star": true,
 "estimate": false
 },
 {
@@ -284339,7 +284453,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 73,
+"chance": 74,
 "normal": 54,
 "star": true,
 "estimate": false
@@ -284841,7 +284955,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 75,
+"chance": 76,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -284853,7 +284967,7 @@
 "pick": "Over 27.5",
 "side": "over",
 "line": 27.5,
-"chance": 77,
+"chance": 78,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -284910,7 +285024,7 @@
 "side": "over",
 "line": 4.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -285007,7 +285121,7 @@
 "pick": "Over 27.5",
 "side": "over",
 "line": 27.5,
-"chance": 77,
+"chance": 78,
 "player": null,
 "team": null,
 "stat": null,
@@ -285031,14 +285145,14 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 75,
+"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 40,
+"chance": 41,
 "star": false
 }
 ],
@@ -285571,10 +285685,10 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Philipp Lienhart (SC Freiburg): 1+ foul won",
+"pick": "Jordy Makengo (SC Freiburg): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Philipp Lienhart",
+"player": "Jordy Makengo",
 "team": "home",
 "stat": "fwon",
 "chance": 62,
@@ -285585,13 +285699,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Jordy Makengo (SC Freiburg): 1+ foul won",
+"pick": "Philipp Lienhart (SC Freiburg): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Jordy Makengo",
+"player": "Philipp Lienhart",
 "team": "home",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -286495,7 +286609,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 73,
+"chance": 74,
 "normal": 65,
 "star": false,
 "estimate": false
@@ -289147,7 +289261,7 @@
 "pick": "Under 13.5",
 "side": "under",
 "line": 13.5,
-"chance": 78,
+"chance": 79,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -289377,7 +289491,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Benfica corners: Over 4.5 + Benfica shots on target: Over 4.5 + Benfica fouls: Under 13.5 + Total tackles: Under 35.5",
+"pick": "Benfica corners: Over 4.5 + Benfica fouls: Under 13.5 + Benfica shots on target: Over 4.5 + Total tackles: Under 35.5",
 "side": null,
 "line": null,
 "legs": [
@@ -289394,23 +289508,23 @@
 "value": null
 },
 {
-"key": "home_sot",
-"label": "Benfica shots on target",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
-"chance": 78,
+"key": "home_fouls",
+"label": "Benfica fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 },
 {
-"key": "home_fouls",
-"label": "Benfica fouls",
-"pick": "Under 13.5",
-"side": "under",
-"line": 13.5,
+"key": "home_sot",
+"label": "Benfica shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
 "chance": 78,
 "player": null,
 "team": null,
@@ -291017,7 +291131,7 @@
 "pick": "Over 28.5",
 "side": "over",
 "line": 28.5,
-"chance": 79,
+"chance": 80,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -291129,21 +291243,7 @@
 "player": "Tanner Tessmann",
 "team": "home",
 "stat": "fwon",
-"chance": 58,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Relebohile Mofokeng (Union St.-Gilloise): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Relebohile Mofokeng",
-"team": "away",
-"stat": "fwon",
-"chance": 53,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -291159,6 +291259,80 @@
 "stat": "fwon",
 "chance": 52,
 "confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Relebohile Mofokeng (Union St.-Gilloise): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Relebohile Mofokeng",
+"team": "away",
+"stat": "fwon",
+"chance": 52,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Total tackles: Over 28.5 + Lyon shots on target: Under 5.5 + Union St.-Gilloise fouls: Over 9.5 + Lyon offsides: Under 1.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 28.5",
+"side": "over",
+"line": 28.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_sot",
+"label": "Lyon shots on target",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_fouls",
+"label": "Union St.-Gilloise fouls",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_offsides",
+"label": "Lyon offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 61,
+"player": null,
+"team": null,
+"stat": null,
+"value": true
+}
+],
+"chance": 35,
 "star": false
 }
 ],
@@ -292215,7 +292389,7 @@
 "pick": "Under 29.5",
 "side": "under",
 "line": 29.5,
-"chance": 76,
+"chance": 77,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -292899,7 +293073,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 75,
+"chance": 76,
 "min_odds": 1.35,
 "value": true,
 "star": false
@@ -296416,7 +296590,7 @@
 "side": "under",
 "line": 7.5,
 "chance": 61,
-"min_odds": 1.7,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -334766,7 +334940,209 @@
 "": 0.756
 }
 }
+},
+"live": [
+{
+"at": 45,
+"key": "result",
+"market": "Match result",
+"pick": "Roma to win",
+"chance": 86,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 32.5",
+"chance": 79,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 9.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_sot",
+"market": "Home shots on target",
+"pick": "Over 4.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 7.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 2.5",
+"chance": 92,
+"hit": true
+},
+{
+"at": 45,
+"key": "away_fouls",
+"market": "Away fouls",
+"pick": "Under 11.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 10.5",
+"chance": 76,
+"hit": true
+},
+{
+"at": 45,
+"key": "home_corners",
+"market": "Home corners",
+"pick": "Over 3.5",
+"chance": 77,
+"hit": false
+},
+{
+"at": 45,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 6.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 45,
+"key": "total_goals",
+"market": "Total goals",
+"pick": "Under 4.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Bryan Cristante",
+"chance": 14,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Mariano Troilo",
+"chance": 13,
+"hit": false
+},
+{
+"at": 45,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Manu Koné",
+"chance": 11,
+"hit": false
+},
+{
+"at": 60,
+"key": "total_shots",
+"market": "Total shots",
+"pick": "Over 33.5",
+"chance": 78,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_sot",
+"market": "Total shots on target",
+"pick": "Over 10.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_sot",
+"market": "Away shots on target",
+"pick": "Under 7.5",
+"chance": 83,
+"hit": false
+},
+{
+"at": 60,
+"key": "away_cards",
+"market": "Away bookings",
+"pick": "Under 1.5",
+"chance": 81,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_cards",
+"market": "Total bookings",
+"pick": "Under 3.5",
+"chance": 77,
+"hit": true
+},
+{
+"at": 60,
+"key": "home_fouls",
+"market": "Home fouls",
+"pick": "Under 10.5",
+"chance": 84,
+"hit": true
+},
+{
+"at": 60,
+"key": "total_corners",
+"market": "Total corners",
+"pick": "Over 9.5",
+"chance": 75,
+"hit": true
+},
+{
+"at": 60,
+"key": "away_corners",
+"market": "Away corners",
+"pick": "Over 5.5",
+"chance": 83,
+"hit": true
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Bryan Cristante",
+"chance": 11,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Mariano Troilo",
+"chance": 10,
+"hit": false
+},
+{
+"at": 60,
+"key": "player_booked",
+"market": "Player to be booked",
+"pick": "Manu Koné",
+"chance": 8,
+"hit": false
 }
+]
 },
 "D1|2026-11-21|Schalke 04|Stuttgart": {
 "code": "D1",
@@ -343697,7 +344073,7 @@
 "pick": "Over 25.5",
 "side": "over",
 "line": 25.5,
-"chance": 75,
+"chance": 76,
 "normal": 47,
 "star": true,
 "estimate": false
@@ -343926,11 +344302,11 @@
 "key": "free_kicks",
 "market": "Total free kicks",
 "label": "Total free kicks",
-"pick": "Under 29.5",
+"pick": "Under 28.5",
 "side": "under",
-"line": 29.5,
-"chance": 83,
-"normal": 73,
+"line": 28.5,
+"chance": 79,
+"normal": 71,
 "star": false,
 "estimate": false
 },
@@ -343982,6 +344358,20 @@
 "player": "Redouane Halhal",
 "team": "away",
 "chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Douglas Luiz (Juventus): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Douglas Luiz",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -344059,7 +344449,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Juventus fouls: Under 12.5 + Total bookings: Under 4.5 + Juventus corners: Over 4.5",
+"pick": "Juventus fouls: Under 12.5 + Total shots: Over 25.5 + Total bookings: Under 4.5",
 "side": null,
 "line": null,
 "legs": [
@@ -344076,6 +344466,18 @@
 "value": null
 },
 {
+"key": "total_shots",
+"label": "Total shots",
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 76,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
 "key": "total_cards",
 "label": "Total bookings",
 "pick": "Under 4.5",
@@ -344086,21 +344488,9 @@
 "team": null,
 "stat": null,
 "value": null
-},
-{
-"key": "home_corners",
-"label": "Juventus corners",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
 }
 ],
-"chance": 39,
+"chance": 40,
 "star": false
 }
 ],
@@ -344638,7 +345028,8 @@
 "chance": 78,
 "min_odds": 1.3,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_offsides",
@@ -344709,10 +345100,10 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Hjalmar Ekdal (Burnley): 1+ foul won",
+"pick": "Reo Hatate (Burnley): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Hjalmar Ekdal",
+"player": "Reo Hatate",
 "team": "home",
 "stat": "fwon",
 "chance": 59,
@@ -344723,13 +345114,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Reo Hatate (Burnley): 1+ foul won",
+"pick": "Hjalmar Ekdal (Burnley): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Reo Hatate",
+"player": "Hjalmar Ekdal",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -345094,11 +345485,11 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Over 25.5",
+"pick": "Over 26.5",
 "side": "over",
-"line": 25.5,
-"chance": 78,
-"normal": 51,
+"line": 26.5,
+"chance": 72,
+"normal": 45,
 "star": true,
 "estimate": false
 },
@@ -345372,7 +345763,8 @@
 "chance": 74,
 "min_odds": 1.4,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "total_cards",
@@ -345429,8 +345821,8 @@
 "pick": "Over 5.5",
 "side": "over",
 "line": 5.5,
-"chance": 64,
-"min_odds": 1.6,
+"chance": 65,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -345531,7 +345923,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Barcelona fouls: Under 12.5 + Match result: Barcelona to win (79%) + Total shots: Over 25.5 + Barcelona corners: Over 4.5",
+"pick": "Barcelona fouls: Under 12.5 + Match result: Barcelona to win (79%) + Villarreal corners: Under 5.5 + Total tackles: Over 31.5",
 "side": null,
 "line": null,
 "legs": [
@@ -345560,24 +345952,24 @@
 "value": null
 },
 {
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Over 25.5",
-"side": "over",
-"line": 25.5,
-"chance": 78,
+"key": "away_corners",
+"label": "Villarreal corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 },
 {
-"key": "home_corners",
-"label": "Barcelona corners",
-"pick": "Over 4.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 31.5",
 "side": "over",
-"line": 4.5,
-"chance": 76,
+"line": 31.5,
+"chance": 72,
 "player": null,
 "team": null,
 "stat": null,
@@ -346119,8 +346511,8 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 60,
-"min_odds": 1.7,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -346622,7 +347014,8 @@
 "chance": 82,
 "normal": 56,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_cards",
@@ -346828,7 +347221,8 @@
 "chance": 71,
 "min_odds": 1.45,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_fouls",
@@ -347202,7 +347596,8 @@
 "chance": 83,
 "normal": 77,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_sot",
@@ -347490,7 +347885,8 @@
 "chance": 66,
 "min_odds": 1.55,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_fouls",
@@ -347511,7 +347907,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -347577,7 +347973,7 @@
 "player": "Keinan Davis",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -348214,7 +348610,8 @@
 "chance": 83,
 "normal": 73,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_sot",
@@ -348273,6 +348670,19 @@
 "line": 1.5,
 "chance": 68,
 "min_odds": 1.5,
+"value": true,
+"star": false,
+"best": "value"
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -348953,6 +349363,18 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Mantova shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Mantova bookings",
@@ -348962,7 +349384,8 @@
 "chance": 70,
 "min_odds": 1.45,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_fouls",
@@ -349624,7 +350047,8 @@
 "chance": 83,
 "normal": 77,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_tackles",
@@ -349716,7 +350140,8 @@
 "chance": 67,
 "min_odds": 1.5,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "away_offsides",
@@ -349727,6 +350152,18 @@
 "line": 1.5,
 "chance": 64,
 "min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Augsburg corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -350192,7 +350629,8 @@
 "chance": 82,
 "normal": 52,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_cards",
@@ -350491,7 +350929,7 @@
 "player": "Jon Gorrotxategi",
 "team": "away",
 "stat": "fwon",
-"chance": 55,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -350505,7 +350943,7 @@
 "player": "Matteo Prati",
 "team": "home",
 "stat": "fwon",
-"chance": 54,
+"chance": 53,
 "confirmed": false,
 "star": false
 },
@@ -351007,7 +351445,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 73,
+"chance": 74,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -351095,6 +351533,18 @@
 "star": false
 },
 {
+"key": "home_fouls",
+"market": "Higher price: Home fouls",
+"label": "Lorient fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "away_offsides",
 "market": "Higher price: Away offsides",
 "label": "Rennes offsides",
@@ -351161,13 +351611,27 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Arsène Kouassi (Lorient): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Arsène Kouassi",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Nathaniel Adjei (Lorient): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Nathaniel Adjei",
 "team": "home",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -351263,7 +351727,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 73,
+"chance": 74,
 "player": null,
 "team": null,
 "stat": null,
@@ -352332,13 +352796,11 @@
 "key": "home_offsides",
 "market": "Home offsides",
 "label": "Werder Bremen offsides",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 83,
-"normal": 75,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_offsides",
@@ -352472,7 +352934,8 @@
 "chance": 72,
 "min_odds": 1.4,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_offsides",
@@ -352549,7 +353012,7 @@
 "player": "David Møller Wolfe",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -352563,7 +353026,7 @@
 "player": "Ludovit Reis",
 "team": "home",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -352577,7 +353040,7 @@
 "player": "Arthur",
 "team": "home",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -353060,7 +353523,8 @@
 "chance": 83,
 "normal": 78,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_offsides",
@@ -353106,11 +353570,13 @@
 "key": "home_corners",
 "market": "Home corners",
 "label": "Liverpool corners",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 76,
+"normal": 71,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_corners",
@@ -353165,7 +353631,7 @@
 "pick": "Under 30.5",
 "side": "under",
 "line": 30.5,
-"chance": 80,
+"chance": 81,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -353201,7 +353667,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -353315,7 +353781,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Liverpool fouls: Over 8.5 + Match result: Liverpool or draw (78%) + Total shots: Over 25.5 + Man United tackles: Over 13.5",
+"pick": "Liverpool fouls: Over 8.5 + Match result: Liverpool or draw (78%) + Total shots: Over 25.5 + Liverpool corners: Over 3.5",
 "side": null,
 "line": null,
 "legs": [
@@ -353356,19 +353822,19 @@
 "value": null
 },
 {
-"key": "away_tackles",
-"label": "Man United tackles",
-"pick": "Over 13.5",
+"key": "home_corners",
+"label": "Liverpool corners",
+"pick": "Over 3.5",
 "side": "over",
-"line": 13.5,
-"chance": 75,
+"line": 3.5,
+"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 38,
+"chance": 46,
 "star": false
 }
 ],
@@ -353638,7 +354104,8 @@
 "chance": 83,
 "normal": 41,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_sot",
@@ -353880,7 +354347,8 @@
 "chance": 76,
 "min_odds": 1.35,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_offsides",
@@ -354438,7 +354906,8 @@
 "chance": 83,
 "normal": 72,
 "star": false,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "home_gk",
@@ -354595,6 +355064,18 @@
 "line": 3.5,
 "chance": 63,
 "min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Malaga bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -355242,7 +355723,8 @@
 "chance": 82,
 "normal": 61,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "total_tackles",
@@ -355352,20 +355834,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Louis Mafouta (Le Mans): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Louis Mafouta",
-"team": "away",
-"stat": "fwon",
-"chance": 62,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_shots",
 "market": "Player shots",
 "label": "Player shots",
@@ -355375,6 +355843,20 @@
 "player": "Amine Gouiri",
 "team": "home",
 "stat": "shots",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Louis Mafouta (Le Mans): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Louis Mafouta",
+"team": "away",
+"stat": "fwon",
 "chance": 61,
 "confirmed": false,
 "star": false
@@ -355431,7 +355913,7 @@
 "player": "CJ Egan-Riley",
 "team": "home",
 "stat": "fwon",
-"chance": 54,
+"chance": 53,
 "confirmed": false,
 "star": false
 },
@@ -355848,7 +356330,8 @@
 "chance": 82,
 "normal": 58,
 "star": true,
-"estimate": false
+"estimate": false,
+"best": "safe"
 },
 {
 "key": "away_fouls",
@@ -356012,7 +356495,8 @@
 "chance": 66,
 "min_odds": 1.55,
 "value": true,
-"star": false
+"star": false,
+"best": "value"
 },
 {
 "key": "home_fouls",
@@ -356021,7 +356505,7 @@
 "pick": "Over 8.5",
 "side": "over",
 "line": 8.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -356099,7 +356583,7 @@
 "player": "Charles De Ketelaere",
 "team": "home",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -356736,7 +357220,7 @@
 "side": "under",
 "line": 2.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -357235,7 +357719,7 @@
 "pick": "Over 10.5",
 "side": "over",
 "line": 10.5,
-"chance": 80,
+"chance": 81,
 "normal": 58,
 "star": true,
 "estimate": false
@@ -357411,8 +357895,8 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -357531,7 +358015,7 @@
 "player": "Saba Goglichidze",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -357567,22 +358051,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Monza fouls: Over 10.5 + Total offsides: Under 4.5 + Total tackles: Over 30.5 + Total bookings: Over 2.5",
+"pick": "Total offsides: Under 4.5 + Total tackles: Over 30.5 + Total bookings: Over 2.5 + Fiorentina corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "home_fouls",
-"label": "Monza fouls",
-"pick": "Over 10.5",
-"side": "over",
-"line": 10.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "total_offsides",
 "label": "Total offsides",
@@ -357618,9 +358090,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "away_corners",
+"label": "Fiorentina corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 42,
+"chance": 37,
 "star": false
 }
 ],
@@ -358188,20 +358672,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Roy Revivo (Elche): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Roy Revivo",
-"team": "away",
-"stat": "fwon",
-"chance": 57,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
@@ -358224,6 +358694,20 @@
 "line": 1,
 "player": "Dani Requena",
 "team": "home",
+"stat": "fwon",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Roy Revivo (Elche): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Roy Revivo",
+"team": "away",
 "stat": "fwon",
 "chance": 56,
 "confirmed": false,
@@ -358907,13 +359391,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "James Garner (Everton): 1+ foul won",
+"pick": "Vitaly Janelt (Brentford): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "James Garner",
-"team": "away",
+"player": "Vitaly Janelt",
+"team": "home",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -358921,11 +359405,11 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Vitaly Janelt (Brentford): 1+ foul won",
+"pick": "James Garner (Everton): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Vitaly Janelt",
-"team": "home",
+"player": "James Garner",
+"team": "away",
 "stat": "fwon",
 "chance": 59,
 "confirmed": false,
@@ -358963,11 +359447,11 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Dango Ouattara (Brentford): 1+ foul won",
+"pick": "Jarrad Branthwaite (Everton): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Dango Ouattara",
-"team": "home",
+"player": "Jarrad Branthwaite",
+"team": "away",
 "stat": "fwon",
 "chance": 56,
 "confirmed": false,
@@ -359527,8 +360011,8 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -359971,7 +360455,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 75,
+"chance": 76,
 "normal": 62,
 "star": true,
 "estimate": false
@@ -360199,7 +360683,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 79,
+"chance": 80,
 "normal": 74,
 "star": false,
 "estimate": false
@@ -360875,7 +361359,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -361554,11 +362038,13 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Under 35.5",
+"side": "under",
+"line": 35.5,
+"chance": 80,
+"normal": 75,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_tackles",
@@ -361613,7 +362099,7 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 66,
+"chance": 67,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -361769,7 +362255,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Palermo fouls: Under 15.5 + Sudtirol tackles: Under 18.5 + Palermo shots on target: Over 3.5",
+"pick": "Palermo fouls: Under 15.5 + Total tackles: Under 35.5 + Palermo shots on target: Over 3.5 + Palermo bookings: Under 2.5",
 "side": null,
 "line": null,
 "legs": [
@@ -361786,11 +362272,11 @@
 "value": null
 },
 {
-"key": "away_tackles",
-"label": "Sudtirol tackles",
-"pick": "Under 18.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 35.5",
 "side": "under",
-"line": 18.5,
+"line": 35.5,
 "chance": 80,
 "player": null,
 "team": null,
@@ -361808,9 +362294,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "home_cards",
+"label": "Palermo bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 46,
+"chance": 36,
 "star": false
 }
 ],
@@ -362205,7 +362703,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 72,
+"chance": 73,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -362311,7 +362809,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 61,
+"chance": 62,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -362347,7 +362845,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 61,
+"chance": 62,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -363699,6 +364197,20 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Jason Knight (Bristol City): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Jason Knight",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Lorent Tolaj (Bristol City): 1+ foul won",
 "side": "over",
 "line": 1,
@@ -364143,7 +364655,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 73,
+"chance": 74,
 "normal": 53,
 "star": true,
 "estimate": false
@@ -364399,7 +364911,7 @@
 "player": "Chris Willock",
 "team": "home",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -364981,7 +365493,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -364995,6 +365507,18 @@
 "line": 1.5,
 "chance": 65,
 "min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Charlton corners",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -365715,8 +366239,8 @@
 "pick": "Over 8.5",
 "side": "over",
 "line": 8.5,
-"chance": 60,
-"min_odds": 1.7,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -365835,7 +366359,7 @@
 "player": "Filip Lissah",
 "team": "away",
 "stat": "fwon",
-"chance": 53,
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -367101,6 +367625,18 @@
 "star": false
 },
 {
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "home_corners",
 "market": "Higher price: Home corners",
 "label": "Portsmouth corners",
@@ -367783,8 +368319,8 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -368425,7 +368961,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 68,
+"chance": 69,
 "min_odds": 1.5,
 "value": true,
 "star": false
@@ -368461,7 +368997,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -368473,7 +369009,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -369207,8 +369743,8 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 64,
-"min_odds": 1.6,
+"chance": 65,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -369331,7 +369867,7 @@
 "player": "Rhian Brewster",
 "team": "away",
 "stat": "fwon",
-"chance": 53,
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -369669,7 +370205,7 @@
 "pick": "Over 25.5",
 "side": "over",
 "line": 25.5,
-"chance": 72,
+"chance": 73,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -371322,7 +371858,7 @@
 "side": "over",
 "line": 2.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -371439,7 +371975,7 @@
 "player": "Alessandro Arena",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -372057,8 +372593,20 @@
 "pick": "Over 11.5",
 "side": "over",
 "line": 11.5,
-"chance": 68,
+"chance": 69,
 "min_odds": 1.5,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Padova corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -372138,20 +372686,6 @@
 "team": "home",
 "stat": "fwon",
 "chance": 58,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Giovanni Giunti (Padova): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Giovanni Giunti",
-"team": "home",
-"stat": "fwon",
-"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -372719,7 +373253,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 65,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -372760,6 +373294,20 @@
 "player": "Mehdi Léris",
 "team": "home",
 "chance": 17,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Mehdi Léris (Pisa): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Mehdi Léris",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -372829,20 +373377,6 @@
 "player": "Andrea Primasso",
 "team": "home",
 "stat": "fwon",
-"chance": 53,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_shots",
-"market": "Player shots",
-"label": "Player shots",
-"pick": "Giuseppe Ambrosino (Modena): 3+ shots",
-"side": "over",
-"line": 3,
-"player": "Giuseppe Ambrosino",
-"team": "away",
-"stat": "shots",
 "chance": 52,
 "confirmed": false,
 "star": false
@@ -373485,7 +374019,7 @@
 "player": "Sam Dalby",
 "team": "home",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -373861,7 +374395,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 72,
+"chance": 73,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -374053,7 +374587,7 @@
 "pick": "Under 33.5",
 "side": "under",
 "line": 33.5,
-"chance": 76,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -376359,7 +376893,7 @@
 "player": "Arthur",
 "team": "home",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -376938,7 +377472,7 @@
 "side": "over",
 "line": 3.5,
 "chance": 67,
-"min_odds": 1.55,
+"min_odds": 1.5,
 "value": true,
 "star": false
 },
@@ -377055,7 +377589,7 @@
 "player": "Joris Chotard",
 "team": "home",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -377069,7 +377603,7 @@
 "player": "Maxime López",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -377655,6 +378189,18 @@
 "estimate": false
 },
 {
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Venezia corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
@@ -377746,20 +378292,6 @@
 "team": "home",
 "stat": "fwon",
 "chance": 55,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Redouane Halhal (Venezia): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Redouane Halhal",
-"team": "home",
-"stat": "fwon",
-"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -378715,7 +379247,7 @@
 "pick": "Over 26.5",
 "side": "over",
 "line": 26.5,
-"chance": 72,
+"chance": 73,
 "normal": 44,
 "star": true,
 "estimate": false
@@ -378906,11 +379438,13 @@
 "key": "total_tackles",
 "market": "Total tackles",
 "label": "Total tackles",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 29.5",
+"side": "over",
+"line": 29.5,
+"chance": 73,
+"normal": 68,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_tackles",
@@ -379639,7 +380173,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 66,
+"chance": 67,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -380283,7 +380817,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 73,
+"chance": 74,
 "normal": 68,
 "star": false,
 "estimate": false
@@ -380521,7 +381055,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total goals: Under 3.5 + Charlton fouls: Over 9.5 + Total tackles: Over 29.5 + Blackburn shots on target: Under 5.5",
+"pick": "Total goals: Under 3.5 + Charlton fouls: Over 9.5 + Charlton corners: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
@@ -380550,31 +381084,19 @@
 "value": null
 },
 {
-"key": "total_tackles",
-"label": "Total tackles",
-"pick": "Over 29.5",
-"side": "over",
-"line": 29.5,
-"chance": 74,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
-"key": "home_sot",
-"label": "Blackburn shots on target",
+"key": "away_corners",
+"label": "Charlton corners",
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 73,
+"chance": 74,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 36,
+"chance": 44,
 "star": false
 },
 {
@@ -381825,6 +382347,18 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Norwich shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "home_offsides",
 "market": "Higher price: Home offsides",
 "label": "Preston offsides",
@@ -381897,7 +382431,7 @@
 "player": "Benjamin Chrisene",
 "team": "away",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -381911,7 +382445,7 @@
 "player": "Jacob Wright",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -381953,7 +382487,7 @@
 "player": "Harry Darling",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -382367,7 +382901,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 77,
+"chance": 78,
 "normal": 53,
 "star": true,
 "estimate": false
@@ -382717,7 +383251,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 77,
+"chance": 78,
 "player": null,
 "team": null,
 "stat": null,
@@ -382736,7 +383270,7 @@
 "value": null
 }
 ],
-"chance": 43,
+"chance": 44,
 "star": false
 }
 ],
@@ -385351,7 +385885,7 @@
 "player": "Martin Frese",
 "team": "away",
 "stat": "fwon",
-"chance": 60,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -385939,7 +386473,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -386744,20 +387278,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Miro Muheim (Hamburg): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Miro Muheim",
-"team": "home",
-"stat": "fwon",
-"chance": 58,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
@@ -386768,6 +387288,20 @@
 "team": "away",
 "stat": "sot",
 "chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Miro Muheim (Hamburg): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Miro Muheim",
+"team": "home",
+"stat": "fwon",
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -387375,8 +387909,8 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -387399,7 +387933,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -387413,6 +387947,18 @@
 "line": 1.5,
 "chance": 61,
 "min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Mainz corners",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -388811,7 +389357,7 @@
 "player": "Liam Millar",
 "team": "home",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -390149,13 +390695,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Reo Hatate (Burnley): 1+ foul won",
+"pick": "Hjalmar Ekdal (Burnley): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Reo Hatate",
+"player": "Hjalmar Ekdal",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -390163,10 +390709,10 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Hjalmar Ekdal (Burnley): 1+ foul won",
+"pick": "Reo Hatate (Burnley): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Hjalmar Ekdal",
+"player": "Reo Hatate",
 "team": "away",
 "stat": "fwon",
 "chance": 55,
@@ -390188,20 +390734,6 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Josh Laurent (Burnley): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Josh Laurent",
-"team": "away",
-"stat": "fwon",
-"chance": 53,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_shots",
 "market": "Player shots",
 "label": "Player shots",
@@ -390212,6 +390744,20 @@
 "team": "away",
 "stat": "shots",
 "chance": 53,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Josh Laurent (Burnley): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Josh Laurent",
+"team": "away",
+"stat": "fwon",
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -390785,7 +391331,7 @@
 "pick": "Over 8.5",
 "side": "over",
 "line": 8.5,
-"chance": 61,
+"chance": 62,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -390838,6 +391384,20 @@
 "player": "Glen Kamara",
 "team": "home",
 "chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Paul Smyth (QPR): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Paul Smyth",
+"team": "home",
+"stat": "fwon",
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -391275,7 +391835,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 72,
+"chance": 73,
 "normal": 64,
 "star": false,
 "estimate": false
@@ -392024,13 +392584,11 @@
 "key": "home_offsides",
 "market": "Home offsides",
 "label": "West Ham offsides",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 83,
-"normal": 65,
-"star": true,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_offsides",
@@ -392173,7 +392731,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -392281,7 +392839,7 @@
 "player": "Djibril Soumaré",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -392609,7 +393167,7 @@
 "pick": "Under 26.5",
 "side": "under",
 "line": 26.5,
-"chance": 77,
+"chance": 78,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -392844,7 +393402,7 @@
 "side": "under",
 "line": 3.5,
 "chance": 61,
-"min_odds": 1.7,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -392855,7 +393413,7 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 67,
+"chance": 68,
 "min_odds": 1.5,
 "value": true,
 "star": false
@@ -392868,7 +393426,7 @@
 "side": "over",
 "line": 9.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -392985,7 +393543,7 @@
 "player": "Regan Poole",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -393015,7 +393573,7 @@
 "pick": "Under 26.5",
 "side": "under",
 "line": 26.5,
-"chance": 77,
+"chance": 78,
 "player": null,
 "team": null,
 "stat": null,
@@ -393034,7 +393592,7 @@
 "value": null
 }
 ],
-"chance": 43,
+"chance": 44,
 "star": false
 }
 ],
@@ -393551,7 +394109,7 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 63,
+"chance": 64,
 "min_odds": 1.6,
 "value": true,
 "star": false
@@ -393631,7 +394189,7 @@
 "player": "Ao Tanaka",
 "team": "home",
 "stat": "fwon",
-"chance": 57,
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -394163,7 +394721,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 75,
+"chance": 76,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -394327,7 +394885,7 @@
 "player": "Vitaly Janelt",
 "team": "away",
 "stat": "fwon",
-"chance": 57,
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -394973,7 +395531,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -394985,7 +395543,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -395081,7 +395639,7 @@
 "player": "Owen Bevan",
 "team": "away",
 "stat": "fwon",
-"chance": 57,
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -395445,9 +396003,9 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 81,
+"chance": 82,
 "normal": 70,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
@@ -395527,7 +396085,7 @@
 "pick": "Over 9.5",
 "side": "over",
 "line": 9.5,
-"chance": 74,
+"chance": 75,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -395809,7 +396367,7 @@
 "player": "Joshua Rawlins",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -397065,7 +397623,7 @@
 "pick": "Over 28.5",
 "side": "over",
 "line": 28.5,
-"chance": 82,
+"chance": 83,
 "normal": 69,
 "star": true,
 "estimate": false
@@ -397120,7 +397678,7 @@
 "side": "under",
 "line": 2.5,
 "chance": 67,
-"min_odds": 1.55,
+"min_odds": 1.5,
 "value": true,
 "star": false
 },
@@ -397808,13 +398366,11 @@
 "key": "away_corners",
 "market": "Away corners",
 "label": "Ath Bilbao corners",
-"pick": "Over 2.5",
-"side": "over",
-"line": 2.5,
-"chance": 83,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_tackles",
@@ -397878,7 +398434,7 @@
 "side": "over",
 "line": 1.5,
 "chance": 61,
-"min_odds": 1.7,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -397961,13 +398517,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Peio Canales (Ath Bilbao): 1+ foul won",
+"pick": "Daniel Lorenzo (Malaga): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Peio Canales",
-"team": "away",
+"player": "Daniel Lorenzo",
+"team": "home",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -397975,11 +398531,11 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Daniel Lorenzo (Malaga): 1+ foul won",
+"pick": "Peio Canales (Ath Bilbao): 1+ foul won",
 "side": "over",
 "line": 1,
-"player": "Daniel Lorenzo",
-"team": "home",
+"player": "Peio Canales",
+"team": "away",
 "stat": "fwon",
 "chance": 61,
 "confirmed": false,
@@ -398539,7 +399095,7 @@
 "pick": "Under 6.5",
 "side": "under",
 "line": 6.5,
-"chance": 80,
+"chance": 81,
 "normal": 71,
 "star": false,
 "estimate": false
@@ -398595,7 +399151,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 76,
+"chance": 77,
 "normal": 52,
 "star": true,
 "estimate": false
@@ -398631,7 +399187,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 58,
+"chance": 59,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -398643,7 +399199,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 70,
+"chance": 71,
 "min_odds": 1.45,
 "value": true,
 "star": false
@@ -398761,7 +399317,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Lens shots on target: Over 3.5 + Angers fouls: Under 13.5 + Angers corners: Under 6.5 + Lens offsides: Under 1.5",
+"pick": "Lens shots on target: Over 3.5 + Angers fouls: Under 13.5 + Lens offsides: Under 1.5 + Match result: Lens or draw (77%)",
 "side": null,
 "line": null,
 "legs": [
@@ -398790,18 +399346,6 @@
 "value": null
 },
 {
-"key": "home_corners",
-"label": "Angers corners",
-"pick": "Under 6.5",
-"side": "under",
-"line": 6.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
 "key": "away_offsides",
 "label": "Lens offsides",
 "pick": "Under 1.5",
@@ -398812,9 +399356,21 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "result",
+"label": "Match result",
+"pick": "Lens or draw (77%)",
+"side": "AD",
+"line": null,
+"chance": 77,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 49,
+"chance": 42,
 "star": false
 }
 ],
@@ -399217,7 +399773,7 @@
 "pick": "Under 1.5",
 "side": "under",
 "line": 1.5,
-"chance": 72,
+"chance": 73,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -400707,8 +401263,20 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 62,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Higher price: Home fouls",
+"label": "Stuttgart fouls",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 58,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -401379,7 +401947,7 @@
 "pick": "Under 37.5",
 "side": "under",
 "line": 37.5,
-"chance": 77,
+"chance": 78,
 "normal": 70,
 "star": false,
 "estimate": false
@@ -401535,7 +402103,7 @@
 "player": "Pablo Barrios",
 "team": "away",
 "stat": "fwon",
-"chance": 62,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -401613,7 +402181,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Ath Madrid or draw (80%) + Ath Madrid shots on target: Over 3.5 + Elche fouls: Under 13.5",
+"pick": "Match result: Ath Madrid or draw (80%) + Ath Madrid shots on target: Over 3.5 + Total tackles: Under 37.5 + Elche fouls: Under 13.5",
 "side": null,
 "line": null,
 "legs": [
@@ -401642,6 +402210,18 @@
 "value": null
 },
 {
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 37.5",
+"side": "under",
+"line": 37.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
 "key": "home_fouls",
 "label": "Elche fouls",
 "pick": "Under 13.5",
@@ -401654,7 +402234,7 @@
 "value": null
 }
 ],
-"chance": 45,
+"chance": 35,
 "star": false
 }
 ],
@@ -401997,7 +402577,7 @@
 "pick": "Over 9.5",
 "side": "over",
 "line": 9.5,
-"chance": 78,
+"chance": 79,
 "normal": 62,
 "star": true,
 "estimate": false
@@ -402113,7 +402693,7 @@
 "pick": "Over 30.5",
 "side": "over",
 "line": 30.5,
-"chance": 72,
+"chance": 73,
 "normal": 55,
 "star": true,
 "estimate": false
@@ -402267,7 +402847,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total bookings: Over 2.5 + Total shots: Over 23.5 + Ipswich fouls: Over 9.5 + Aston Villa tackles: Over 13.5",
+"pick": "Total bookings: Over 2.5 + Ipswich fouls: Over 9.5 + Total shots: Over 23.5 + Total tackles: Over 30.5",
 "side": null,
 "line": null,
 "legs": [
@@ -402278,6 +402858,18 @@
 "side": "over",
 "line": 2.5,
 "chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Ipswich fouls",
+"pick": "Over 9.5",
+"side": "over",
+"line": 9.5,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
@@ -402296,23 +402888,11 @@
 "value": null
 },
 {
-"key": "home_fouls",
-"label": "Ipswich fouls",
-"pick": "Over 9.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 30.5",
 "side": "over",
-"line": 9.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
-"key": "away_tackles",
-"label": "Aston Villa tackles",
-"pick": "Over 13.5",
-"side": "over",
-"line": 13.5,
+"line": 30.5,
 "chance": 73,
 "player": null,
 "team": null,
@@ -404008,6 +404588,4260 @@
 "Raffaele Romano": 0.727,
 "Simone Verdi": 0.878,
 "Stefano Scognamillo": 1.376,
+"": 0.757
+}
+}
+}
+},
+"F1|2026-11-28|Le Havre|Strasbourg": {
+"code": "F1",
+"league": "Ligue 1",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 19:45",
+"home": "Le Havre",
+"away": "Strasbourg",
+"espn_id": "401876391",
+"tips": [
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 75,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 82,
+"normal": 77,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Le Havre shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Strasbourg shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Le Havre bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Strasbourg bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Le Havre fouls",
+"pick": "Over 10.5",
+"side": "over",
+"line": 10.5,
+"chance": 74,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Strasbourg fouls",
+"pick": "Over 10.5",
+"side": "over",
+"line": 10.5,
+"chance": 81,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Le Havre goal kicks",
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Strasbourg goal kicks",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Le Havre offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Strasbourg offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 73,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Le Havre corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Strasbourg corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 81,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 33.5",
+"side": "over",
+"line": 33.5,
+"chance": 75,
+"normal": 40,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Le Havre tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Strasbourg tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 76,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Higher price: Total shots on target",
+"label": "Total shots on target",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 64,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Strasbourg bookings",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 61,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Le Havre corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 63,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Higher price: Away corners",
+"label": "Strasbourg corners",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 59,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Ahmed Touba (Le Havre)",
+"side": "player",
+"line": null,
+"player": "Ahmed Touba",
+"team": "home",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Karim Coulibaly (Strasbourg)",
+"side": "player",
+"line": null,
+"player": "Karim Coulibaly",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Junior Mwanga (Le Havre)",
+"side": "player",
+"line": null,
+"player": "Junior Mwanga",
+"team": "home",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Conrad Harder (Strasbourg): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Conrad Harder",
+"team": "away",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Rayan Fofana (Le Havre): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Rayan Fofana",
+"team": "home",
+"stat": "sot",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Josh Maja (Le Havre): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Josh Maja",
+"team": "home",
+"stat": "fwon",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Gessime Yassine (Strasbourg): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Gessime Yassine",
+"team": "away",
+"stat": "sot",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Total shots: Over 23.5 + Total tackles: Over 33.5 + Le Havre fouls: Over 10.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "total_shots",
+"label": "Total shots",
+"pick": "Over 23.5",
+"side": "over",
+"line": 23.5,
+"chance": 75,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 33.5",
+"side": "over",
+"line": 33.5,
+"chance": 75,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Le Havre fouls",
+"pick": "Over 10.5",
+"side": "over",
+"line": 10.5,
+"chance": 74,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 43,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.41,
+1.59
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 27.22,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.42,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 4.74,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.7,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.9,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.03,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 4.04,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 12.85,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 13.67,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.44,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.57,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 3.0,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 3.39,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 1.72,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.67,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.32,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 4.85,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 3.48,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 38.86,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 20.86,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 18.0,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 29.91,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Ahmed Touba": 0.2257,
+"Amir Richardson": 0.144,
+"Arnaud Bodart": 0.1435,
+"Ayumu Seko": 0.2345,
+"Bocar Wade": 0.1638,
+"Daren Mosengo": 0.1551,
+"Djibril Ouziad": 0.1529,
+"Enzo Koffi": 0.1743,
+"Gauthier Gallon": 0.1293,
+"Guy Zohouri": 0.1638,
+"Hakim Dongopandji": 0.1524,
+"Ismail Bouneb": 0.1551,
+"Josh Maja": 0.1509,
+"Junior Mwanga": 0.1942,
+"Kaito Mizuta": 0.129,
+"Mbwana Samatta": 0.1092,
+"Mouhamed N'Diaye": 0.2405,
+"Rassoul Ndiaye": 0.1654,
+"Rayan Fofana": 0.1238,
+"Simon Ebonog": 0.1407,
+"Sota Nakamura": 0.172,
+"Vincent Sasso": 0.1829,
+"": 0.1669
+},
+"away": {
+"Conrad Harder": 0.1925,
+"Diogo Sousa": 0.1801,
+"Dário Essugo": 0.1925,
+"Fabio Baldé": 0.1701,
+"Filip Jørgensen": 0.1225,
+"Genesis Antwi": 0.1318,
+"Gessime Yassine": 0.304,
+"Giovanni Reyna": 0.1733,
+"Ismael Doukoure": 0.1487,
+"Jacobo Ortega Conde": 0.1921,
+"Jeyland Mitchell": 0.1826,
+"Karim Coulibaly": 0.1925,
+"Lucas Høgsberg": 0.1506,
+"Martial Godo": 0.1677,
+"Omari Kellyman": 0.1856,
+"Oso": 0.178,
+"Pape Diop": 0.2834,
+"Samir El Mourabet": 0.1979,
+"Samuel Amo-Ameyaw": 0.2096,
+"Sebastian Nanasi": 0.1443,
+"Yaya Diémé": 0.1789,
+"": 0.1891
+}
+},
+"fh": {
+"home": {
+"Ahmed Touba": 0.79,
+"Amir Richardson": 1.948,
+"Arnaud Bodart": 0.378,
+"Ayumu Seko": 1.106,
+"Bocar Wade": 0.568,
+"Daren Mosengo": 0.324,
+"Djibril Ouziad": 1.252,
+"Enzo Koffi": 1.021,
+"Gauthier Gallon": 0.252,
+"Guy Zohouri": 0.568,
+"Hakim Dongopandji": 0.534,
+"Ismail Bouneb": 0.61,
+"Josh Maja": 0.948,
+"Junior Mwanga": 0.559,
+"Kaito Mizuta": 1.025,
+"Mbwana Samatta": 0.519,
+"Mouhamed N'Diaye": 1.034,
+"Rassoul Ndiaye": 1.025,
+"Rayan Fofana": 0.689,
+"Simon Ebonog": 1.519,
+"Sota Nakamura": 0.606,
+"Vincent Sasso": 0.784,
+"": 0.757
+},
+"away": {
+"Conrad Harder": 1.297,
+"Diogo Sousa": 1.189,
+"Dário Essugo": 0.752,
+"Fabio Baldé": 0.467,
+"Filip Jørgensen": 0.175,
+"Genesis Antwi": 0.752,
+"Gessime Yassine": 1.175,
+"Giovanni Reyna": 0.713,
+"Ismael Doukoure": 0.784,
+"Jacobo Ortega Conde": 1.328,
+"Jeyland Mitchell": 0.752,
+"Karim Coulibaly": 0.479,
+"Lucas Høgsberg": 0.697,
+"Martial Godo": 0.545,
+"Omari Kellyman": 0.818,
+"Oso": 0.752,
+"Pape Diop": 0.79,
+"Samir El Mourabet": 0.57,
+"Samuel Amo-Ameyaw": 0.661,
+"Sebastian Nanasi": 0.527,
+"Yaya Diémé": 0.545,
+"": 0.757
+}
+}
+}
+},
+"F1|2026-11-28|Le Mans|Lille": {
+"code": "F1",
+"league": "Ligue 1",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 19:45",
+"home": "Le Mans",
+"away": "Lille",
+"espn_id": "401876390",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Lille or draw (77%)",
+"side": "AD",
+"chance": 77,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Under 27.5",
+"side": "under",
+"line": 27.5,
+"chance": 73,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 78,
+"normal": 68,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Le Mans shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Lille shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Le Mans bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Lille bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Le Mans fouls",
+"pick": "Over 11.5",
+"side": "over",
+"line": 11.5,
+"chance": 79,
+"normal": 51,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Lille fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 74,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Le Mans goal kicks",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Lille goal kicks",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 75,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Le Mans offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lille offsides",
+"pick": "Over 0.5",
+"side": "over",
+"line": 0.5,
+"chance": 82,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Le Mans corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 79,
+"normal": 60,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Lille corners",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 81,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 76,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Le Mans tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Lille tackles",
+"pick": "Under 17.5",
+"side": "under",
+"line": 17.5,
+"chance": 78,
+"normal": 62,
+"star": true,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Over 24.5",
+"side": "over",
+"line": 24.5,
+"chance": 79,
+"normal": 73,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Lille bookings",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 61,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "away_fouls",
+"market": "Higher price: Away fouls",
+"label": "Lille fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 59,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Le Mans offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Higher price: Away corners",
+"label": "Lille corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 63,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Samuel Yohou (Le Mans)",
+"side": "player",
+"line": null,
+"player": "Samuel Yohou",
+"team": "home",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Nathan Ngoy (Lille)",
+"side": "player",
+"line": null,
+"player": "Nathan Ngoy",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Benjamin André (Lille)",
+"side": "player",
+"line": null,
+"player": "Benjamin André",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Alexsandro (Lille): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Alexsandro",
+"team": "away",
+"stat": "fwon",
+"chance": 55,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Soriba Diaoune (Lille): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Soriba Diaoune",
+"team": "away",
+"stat": "sot",
+"chance": 55,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Louis Mafouta (Le Mans): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Louis Mafouta",
+"team": "home",
+"stat": "sot",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Nathan Ngoy (Lille): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Nathan Ngoy",
+"team": "away",
+"stat": "fwon",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Le Mans fouls: Over 11.5 + Le Mans corners: Under 5.5 + Total shots on target: Under 10.5 + Lille tackles: Under 17.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "home_fouls",
+"label": "Le Mans fouls",
+"pick": "Over 11.5",
+"side": "over",
+"line": 11.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_corners",
+"label": "Le Mans corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_tackles",
+"label": "Lille tackles",
+"pick": "Under 17.5",
+"side": "under",
+"line": 17.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 41,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.02,
+1.6
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 24.53,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 8.31,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 3.5,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 4.77,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 2.08,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.03,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 4.06,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 14.6,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 10.54,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.71,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.03,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 2.62,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 4.24,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.05,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 2.19,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.54,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 3.59,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.95,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 30.03,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 16.55,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 13.48,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 29.38,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Adnane Hamza Kharroubi": 0.1426,
+"Alexandre Lauray": 0.2674,
+"Antoine Rabillard": 0.1155,
+"Brahimi Bilal": 0.1773,
+"Dame Guèye": 0.14,
+"Daouda Traoré": 0.1267,
+"Djibril Sidibé": 0.2573,
+"Erwan Colas": 0.14,
+"Habib Diallo": 0.1544,
+"Harold Voyer": 0.1423,
+"Jean Vercruysse": 0.142,
+"Louis Mafouta": 0.1269,
+"Lucas Bretelle": 0.0999,
+"Lucas Buades": 0.1482,
+"Lucas Calodat": 0.1011,
+"Nicolas Kocik": 0.1368,
+"Noa Boissé": 0.2633,
+"Rayan Bamba": 0.144,
+"Raúl Torrente": 0.1668,
+"Samuel Yohou": 0.1784,
+"William Harhouz": 0.135,
+"Yasser Larouci": 0.1191,
+"": 0.1453
+},
+"away": {
+"Alexsandro": 0.1202,
+"Basar Önal": 0.1627,
+"Benjamin André": 0.2097,
+"Berke Özer": 0.1566,
+"Calvin Verdonk": 0.2568,
+"Dilane Bakwa": 0.1378,
+"Ethan Mbappé": 0.1776,
+"Gaetan Perrin": 0.2201,
+"Hákon Haraldsson": 0.196,
+"Isaac Cossier": 0.1786,
+"Matah Yondjio": 0.1949,
+"Maurits Kjaergaard": 0.3335,
+"Maxima Goffi": 0.3351,
+"Nabil Bentaleb": 0.16,
+"Nathan Ngoy": 0.1983,
+"Ngal'ayel Mukau": 0.1226,
+"Olivier Giroud": 0.2394,
+"Osame Sahraoui": 0.1727,
+"Romain Perraud": 0.2617,
+"Soriba Diaoune": 0.1516,
+"Tanguy Nianzou": 0.2082,
+"": 0.1986
+}
+},
+"fh": {
+"home": {
+"Adnane Hamza Kharroubi": 1.068,
+"Alexandre Lauray": 1.297,
+"Antoine Rabillard": 0.661,
+"Brahimi Bilal": 0.363,
+"Dame Guèye": 1.021,
+"Daouda Traoré": 1.039,
+"Djibril Sidibé": 1.034,
+"Erwan Colas": 0.454,
+"Habib Diallo": 0.927,
+"Harold Voyer": 0.827,
+"Jean Vercruysse": 1.189,
+"Louis Mafouta": 0.79,
+"Lucas Bretelle": 1.273,
+"Lucas Buades": 1.252,
+"Lucas Calodat": 0.559,
+"Nicolas Kocik": 0.206,
+"Noa Boissé": 1.023,
+"Rayan Bamba": 1.115,
+"Raúl Torrente": 0.753,
+"Samuel Yohou": 1.206,
+"William Harhouz": 0.61,
+"Yasser Larouci": 0.474,
+"": 0.757
+},
+"away": {
+"Alexsandro": 0.485,
+"Basar Önal": 0.474,
+"Benjamin André": 1.485,
+"Berke Özer": 0.142,
+"Calvin Verdonk": 1.098,
+"Dilane Bakwa": 1.018,
+"Ethan Mbappé": 0.636,
+"Gaetan Perrin": 0.479,
+"Hákon Haraldsson": 0.781,
+"Isaac Cossier": 0.324,
+"Matah Yondjio": 0.568,
+"Maurits Kjaergaard": 0.405,
+"Maxima Goffi": 0.808,
+"Nabil Bentaleb": 0.954,
+"Nathan Ngoy": 0.829,
+"Ngal'ayel Mukau": 0.781,
+"Olivier Giroud": 0.392,
+"Osame Sahraoui": 0.252,
+"Romain Perraud": 0.685,
+"Soriba Diaoune": 0.927,
+"Tanguy Nianzou": 0.586,
+"": 0.757
+}
+}
+}
+},
+"F1|2026-11-28|Nice|Troyes": {
+"code": "F1",
+"league": "Ligue 1",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 19:45",
+"home": "Nice",
+"away": "Troyes",
+"espn_id": "401876388",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Nice or draw (80%)",
+"side": "HD",
+"chance": 80,
+"line": null,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Nice shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 78,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Troyes shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 72,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Nice bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Troyes bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Nice fouls",
+"pick": "Under 14.5",
+"side": "under",
+"line": 14.5,
+"chance": 82,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Troyes fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 78,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Nice goal kicks",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Troyes goal kicks",
+"pick": "Under 9.5",
+"side": "under",
+"line": 9.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 72,
+"normal": 65,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Nice offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Troyes offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Nice corners",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 80,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Troyes corners",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 78,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Nice tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Troyes tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 76,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Troyes bookings",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 59,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Nice corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 59,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "away_corners",
+"market": "Higher price: Away corners",
+"label": "Troyes corners",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 60,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Michel Diaz (Troyes)",
+"side": "player",
+"line": null,
+"player": "Michel Diaz",
+"team": "away",
+"chance": 20,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Antoine Mille (Troyes)",
+"side": "player",
+"line": null,
+"player": "Antoine Mille",
+"team": "away",
+"chance": 20,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Dermane Karim (Troyes)",
+"side": "player",
+"line": null,
+"player": "Dermane Karim",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Mohamed Abdelmoneim (Nice): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Mohamed Abdelmoneim",
+"team": "home",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Mohamed Amoura (Nice): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Mohamed Amoura",
+"team": "home",
+"stat": "sot",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Renaud Ripart (Troyes): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Renaud Ripart",
+"team": "away",
+"stat": "sot",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Antoine Mille (Troyes): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Antoine Mille",
+"team": "away",
+"stat": "fwon",
+"chance": 55,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Elye Wahi (Nice): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Elye Wahi",
+"team": "home",
+"stat": "shots",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Match result: Nice or draw (80%) + Nice corners: Under 6.5 + Nice shots on target: Over 3.5 + Troyes fouls: Under 13.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "result",
+"label": "Match result",
+"pick": "Nice or draw (80%)",
+"side": "HD",
+"line": null,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_corners",
+"label": "Nice corners",
+"pick": "Under 6.5",
+"side": "under",
+"line": 6.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_sot",
+"label": "Nice shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_fouls",
+"label": "Troyes fouls",
+"pick": "Under 13.5",
+"side": "under",
+"line": 13.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 37,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+1.89,
+1.05
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 25.64,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 8.93,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 5.5,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 3.5,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 2.0,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.96,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 4.0,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 11.48,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 11.06,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.82,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 7.36,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 2.93,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 4.04,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.45,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.59,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 8.97,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 4.26,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 4.72,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 32.35,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 15.75,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 16.6,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 26.58,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Ali Abdi": 0.1371,
+"Alidu Seidu": 0.1666,
+"Axel Witsel": 0.1015,
+"Djibril Coulibaly": 0.1352,
+"Elye Wahi": 0.2432,
+"Gauthier Hein": 0.1013,
+"Hamza Koutoune": 0.1865,
+"Hicham Boudaoui": 0.1524,
+"Isak Jansson": 0.1832,
+"Jonathan Clauss": 0.0923,
+"Mohamed Abdelmoneim": 0.2046,
+"Mohamed Amoura": 0.2127,
+"Morgan Sanson": 0.1371,
+"Nathan N'Goumou": 0.1206,
+"Niels Nkounkou": 0.1698,
+"Sofiane Diop": 0.1782,
+"Xavier Junior Mandza Tsiendi": 0.132,
+"Yehvann Diouf": 0.1244,
+"Youssouf Ndayishimiye": 0.1924,
+"": 0.1476
+},
+"away": {
+"Adrien Monfray": 0.1131,
+"Anis Ouzenadji": 0.1363,
+"Antoine Mille": 0.2413,
+"Dermane Karim": 0.2052,
+"Hillel Konaté": 0.1485,
+"Hugo Picard": 0.1377,
+"Idrissa Soukouna": 0.1774,
+"Iron Gomis": 0.1836,
+"Ismael Boura": 0.2784,
+"Jeremy Le Douaron": 0.1863,
+"Kandet Diawara": 0.1304,
+"Lucas Maronnier": 0.1656,
+"Merwan Ifnaoui": 0.126,
+"Michel Diaz": 0.3387,
+"Mouhamed Diop": 0.1524,
+"Noah Donkor": 0.1599,
+"Paolo Gozzi Iweru": 0.2013,
+"Patrick Beach": 0.177,
+"Renaud Ripart": 0.1675,
+"Timothé Nkada": 0.1863,
+"Yvann Titi": 0.1603,
+"": 0.1808
+}
+},
+"fh": {
+"home": {
+"Ali Abdi": 0.61,
+"Alidu Seidu": 0.784,
+"Axel Witsel": 0.356,
+"Djibril Coulibaly": 1.021,
+"Elye Wahi": 0.328,
+"Gauthier Hein": 0.376,
+"Hamza Koutoune": 1.039,
+"Hicham Boudaoui": 1.527,
+"Isak Jansson": 0.409,
+"Jonathan Clauss": 0.376,
+"Mohamed Abdelmoneim": 0.713,
+"Mohamed Amoura": 1.106,
+"Morgan Sanson": 0.61,
+"Nathan N'Goumou": 0.206,
+"Niels Nkounkou": 1.189,
+"Sofiane Diop": 0.591,
+"Xavier Junior Mandza Tsiendi": 0.559,
+"Yehvann Diouf": 0.234,
+"Youssouf Ndayishimiye": 0.591,
+"": 0.757
+},
+"away": {
+"Adrien Monfray": 0.519,
+"Anis Ouzenadji": 0.808,
+"Antoine Mille": 1.876,
+"Dermane Karim": 1.713,
+"Hillel Konaté": 0.324,
+"Hugo Picard": 0.606,
+"Idrissa Soukouna": 0.568,
+"Iron Gomis": 0.79,
+"Ismael Boura": 0.878,
+"Jeremy Le Douaron": 1.106,
+"Kandet Diawara": 0.448,
+"Lucas Maronnier": 1.021,
+"Merwan Ifnaoui": 0.297,
+"Michel Diaz": 1.252,
+"Mouhamed Diop": 0.662,
+"Noah Donkor": 0.909,
+"Paolo Gozzi Iweru": 0.896,
+"Patrick Beach": 0.327,
+"Renaud Ripart": 0.734,
+"Timothé Nkada": 0.439,
+"Yvann Titi": 0.545,
+"": 0.757
+}
+}
+}
+},
+"F1|2026-11-28|Paris SG|Lorient": {
+"code": "F1",
+"league": "Ligue 1",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 19:45",
+"home": "Paris SG",
+"away": "Lorient",
+"espn_id": "401876387",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Paris SG to win (77%)",
+"side": "H",
+"chance": 77,
+"line": null,
+"star": false,
+"book_price": [
+1.22,
+"Unibet (UK)"
+]
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 24.5",
+"side": "over",
+"line": 24.5,
+"chance": 75,
+"normal": 55,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 78,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Paris SG shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 83,
+"normal": 56,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Lorient shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Paris SG bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Lorient bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Paris SG fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 78,
+"normal": 49,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Lorient fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 81,
+"normal": 47,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Paris SG goal kicks",
+"pick": "Under 7.5",
+"side": "under",
+"line": 7.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Lorient goal kicks",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Paris SG offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Lorient offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 82,
+"normal": 74,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Paris SG corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 75,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Lorient corners",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 76,
+"normal": 46,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 73,
+"normal": 63,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Paris SG tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Lorient tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "Under 25.5",
+"side": "under",
+"line": 25.5,
+"chance": 79,
+"normal": 33,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_cards",
+"market": "Higher price: Total bookings",
+"label": "Total bookings",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 69,
+"min_odds": 1.45,
+"value": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Higher price: Home fouls",
+"label": "Paris SG fouls",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 61,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "away_fouls",
+"market": "Higher price: Away fouls",
+"label": "Lorient fouls",
+"pick": "Under 10.5",
+"side": "under",
+"line": 10.5,
+"chance": 65,
+"min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Higher price: Away offsides",
+"label": "Lorient offsides",
+"pick": "Under 1.5",
+"side": "under",
+"line": 1.5,
+"chance": 62,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 62,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Paris SG corners",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 64,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Illia Zabarnyi (Paris SG)",
+"side": "player",
+"line": null,
+"player": "Illia Zabarnyi",
+"team": "home",
+"chance": 21,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Lucas Hernández (Paris SG)",
+"side": "player",
+"line": null,
+"player": "Lucas Hernández",
+"team": "home",
+"chance": 20,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Nathaniel Adjei (Lorient)",
+"side": "player",
+"line": null,
+"player": "Nathaniel Adjei",
+"team": "away",
+"chance": 20,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Lucas Hernández (Paris SG): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Lucas Hernández",
+"team": "home",
+"stat": "fwon",
+"chance": 61,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Achraf Hakimi (Paris SG): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Achraf Hakimi",
+"team": "home",
+"stat": "fwon",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Fabián Ruiz (Paris SG): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Fabián Ruiz",
+"team": "home",
+"stat": "fwon",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Senny Mayulu (Paris SG): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Senny Mayulu",
+"team": "home",
+"stat": "sot",
+"chance": 58,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Dembo Sylla (Lorient): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Dembo Sylla",
+"team": "away",
+"stat": "fwon",
+"chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Arsène Kouassi (Lorient): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Arsène Kouassi",
+"team": "away",
+"stat": "fwon",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Total shots on target: Over 7.5 + Paris SG fouls: Under 11.5 + Match result: Paris SG to win (77%)",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "home_fouls",
+"label": "Paris SG fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "result",
+"label": "Match result",
+"pick": "Paris SG to win (77%)",
+"side": "H",
+"line": null,
+"chance": 77,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 44,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+2.64,
+0.76
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 28.24,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 10.04,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 7.27,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 2.79,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.22,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.42,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 2.65,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 9.29,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 8.94,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 5.44,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 9.47,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 3.4,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 3.28,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 1.88,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.4,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 9.49,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 7.15,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 2.34,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 30.56,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 14.7,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 15.85,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 21.51,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Achraf Hakimi": 0.206,
+"David Boly": 0.2463,
+"Dro Fernández": 0.2676,
+"Désiré Doué": 0.1597,
+"Fabián Ruiz": 0.2153,
+"Ferran Torres": 0.163,
+"Illia Zabarnyi": 0.2374,
+"João Neves": 0.1616,
+"Lucas Beraldo": 0.1944,
+"Lucas Digne": 0.2129,
+"Lucas Hernández": 0.2283,
+"Maghnes Akliouche": 0.2127,
+"Marquinhos": 0.2469,
+"Matvei Safonov": 0.1408,
+"Mika Godts": 0.1916,
+"Nuno Mendes": 0.2682,
+"Ousmane Dembélé": 0.1848,
+"Quentin Ndjantou": 0.3233,
+"Senny Mayulu": 0.1977,
+"Vitinha": 0.2668,
+"Warren Zaïre-Emery": 0.2105,
+"Willian Pacho": 0.1581,
+"": 0.2557
+},
+"away": {
+"Alec Georgen": 0.1706,
+"Arsène Kouassi": 0.203,
+"Arthur Avom": 0.172,
+"Dembo Sylla": 0.1186,
+"Gabin Bernardeau": 0.1274,
+"Ibrahima Baldé": 0.1398,
+"Isaak Touré": 0.195,
+"Isak Jensen": 0.1593,
+"Jean-Victor Makengo": 0.203,
+"Mamadou Koné": 0.1395,
+"Montassar Talbi": 0.16,
+"Nathaniel Adjei": 0.203,
+"Noah Cadiou": 0.203,
+"Noah Mbamba": 0.1597,
+"Nosa Obaretin": 0.1733,
+"Souleymane Faye": 0.2063,
+"Srdjan Kuzmic": 0.1764,
+"Théo Le Bris": 0.1546,
+"Tosin Aiyegun": 0.1648,
+"Yvon Mvogo": 0.1186,
+"": 0.1832
+}
+},
+"fh": {
+"home": {
+"Achraf Hakimi": 0.329,
+"David Boly": 0.454,
+"Dro Fernández": 0.57,
+"Désiré Doué": 0.954,
+"Fabián Ruiz": 0.329,
+"Ferran Torres": 0.237,
+"Illia Zabarnyi": 0.606,
+"João Neves": 1.151,
+"Lucas Beraldo": 0.234,
+"Lucas Digne": 0.784,
+"Lucas Hernández": 0.751,
+"Maghnes Akliouche": 1.134,
+"Marquinhos": 0.661,
+"Matvei Safonov": 0.126,
+"Mika Godts": 0.351,
+"Nuno Mendes": 0.697,
+"Ousmane Dembélé": 0.356,
+"Quentin Ndjantou": 0.467,
+"Senny Mayulu": 0.752,
+"Vitinha": 0.454,
+"Warren Zaïre-Emery": 0.392,
+"Willian Pacho": 0.351,
+"": 0.757
+},
+"away": {
+"Alec Georgen": 0.654,
+"Arsène Kouassi": 0.867,
+"Arthur Avom": 0.867,
+"Dembo Sylla": 0.79,
+"Gabin Bernardeau": 0.559,
+"Ibrahima Baldé": 0.827,
+"Isaak Touré": 1.284,
+"Isak Jensen": 0.252,
+"Jean-Victor Makengo": 0.944,
+"Mamadou Koné": 0.856,
+"Montassar Talbi": 0.405,
+"Nathaniel Adjei": 0.944,
+"Noah Cadiou": 0.944,
+"Noah Mbamba": 0.753,
+"Nosa Obaretin": 0.712,
+"Souleymane Faye": 0.727,
+"Srdjan Kuzmic": 0.854,
+"Théo Le Bris": 0.586,
+"Tosin Aiyegun": 0.467,
+"Yvon Mvogo": 0.175,
+"": 0.757
+}
+}
+}
+},
+"I1|2026-11-28|Inter|Genoa": {
+"code": "I1",
+"league": "Serie A",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 19:45",
+"home": "Inter",
+"away": "Genoa",
+"espn_id": "401874977",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Inter to win (73%)",
+"side": "H",
+"chance": 73,
+"line": null,
+"star": false,
+"book_price": [
+1.29,
+"Betfred (UK)"
+]
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 24.5",
+"side": "over",
+"line": 24.5,
+"chance": 77,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 82,
+"normal": 71,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Inter shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 78,
+"normal": 48,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Genoa shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Inter bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Genoa bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 75,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 75,
+"normal": 67,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Inter fouls",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Genoa fouls",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 74,
+"normal": 44,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Inter goal kicks",
+"pick": "Under 7.5",
+"side": "under",
+"line": 7.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Genoa goal kicks",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 82,
+"normal": 75,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Inter offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Genoa offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Inter corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 74,
+"normal": 51,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Genoa corners",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 83,
+"normal": 61,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Under 35.5",
+"side": "under",
+"line": 35.5,
+"chance": 77,
+"normal": 66,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Inter tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Genoa tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_shots",
+"market": "Higher price: Total shots",
+"label": "Total shots",
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 59,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Genoa bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 74,
+"min_odds": 1.35,
+"value": true,
+"star": false
+},
+{
+"key": "home_fouls",
+"market": "Higher price: Home fouls",
+"label": "Inter fouls",
+"pick": "Over 10.5",
+"side": "over",
+"line": 10.5,
+"chance": 60,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Higher price: Away offsides",
+"label": "Genoa offsides",
+"pick": "Over 1.5",
+"side": "over",
+"line": 1.5,
+"chance": 63,
+"min_odds": 1.6,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Carlos Augusto (Inter)",
+"side": "player",
+"line": null,
+"player": "Carlos Augusto",
+"team": "home",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Leo Østigard (Genoa)",
+"side": "player",
+"line": null,
+"player": "Leo Østigard",
+"team": "away",
+"chance": 18,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Manuel Akanji (Inter)",
+"side": "player",
+"line": null,
+"player": "Manuel Akanji",
+"team": "home",
+"chance": 17,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Marcus Thuram (Inter): 3+ shots",
+"side": "over",
+"line": 3,
+"player": "Marcus Thuram",
+"team": "home",
+"stat": "shots",
+"chance": 60,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Mikael Ellertsson (Genoa): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Mikael Ellertsson",
+"team": "away",
+"stat": "fwon",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Nicolò Barella (Inter): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Nicolò Barella",
+"team": "home",
+"stat": "fwon",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Inter shots on target: Over 4.5 + Total tackles: Under 35.5 + Genoa bookings: Under 2.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "home_sot",
+"label": "Inter shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 35.5",
+"side": "under",
+"line": 35.5,
+"chance": 77,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_cards",
+"label": "Genoa bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 75,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 42,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+2.42,
+0.78
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 28.57,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 9.46,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 6.73,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 2.78,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.51,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 1.76,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.27,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 12.02,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 9.62,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 5.98,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 10.43,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 3.2,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 5.02,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.47,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 2.56,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 9.63,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 7.01,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 2.62,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 30.68,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 14.52,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 16.16,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 26.66,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Aleksandar Stankovic": 0.1321,
+"Alessandro Bastoni": 0.1848,
+"Andy Diouf": 0.0949,
+"Ange-Yoan Bonny": 0.1136,
+"Benjamin Pavard": 0.1245,
+"Carlos Augusto": 0.1681,
+"Djed Spence": 0.1192,
+"Federico Dimarco": 0.0918,
+"Hakan Çalhanoglu": 0.2348,
+"Henrikh Mkhitaryan": 0.161,
+"Ivan Provedel": 0.137,
+"Josep Martínez": 0.089,
+"Manuel Akanji": 0.2241,
+"Marcus Thuram": 0.1532,
+"Matteo Lavelli": 0.1491,
+"Nicolò Barella": 0.15,
+"Petar Sucic": 0.1354,
+"Pio Esposito": 0.1659,
+"Piotr Zielinski": 0.0959,
+"Yann Bisseck": 0.1251,
+"": 0.1519
+},
+"away": {
+"Alessandro Marcandalli": 0.1582,
+"Alexsandro Amorim": 0.159,
+"David Puczka": 0.127,
+"Djibril Sow": 0.15,
+"Ethan Meichtry": 0.1245,
+"Hamed Traoré": 0.1973,
+"Johan Vásquez": 0.1909,
+"Junior Messias": 0.0993,
+"Justin Bijlow": 0.0883,
+"Kingsley Ehizibue": 0.1857,
+"Leo Østigard": 0.2185,
+"Lorenzo Colombo": 0.1075,
+"Mario Mitaj": 0.1315,
+"Mikael Ellertsson": 0.1509,
+"Milutin Osmajic": 0.0936,
+"Morten Frendrup": 0.0936,
+"Robinho Junior": 0.1385,
+"Samuel Wiafe": 0.1523,
+"Sebastian Otoa": 0.2069,
+"Stephan El Shaarawy": 0.1107,
+"Tommaso Baldanzi": 0.1049,
+"Vitinha": 0.1434,
+"": 0.1411
+}
+},
+"fh": {
+"home": {
+"Aleksandar Stankovic": 0.697,
+"Alessandro Bastoni": 1.079,
+"Andy Diouf": 0.642,
+"Ange-Yoan Bonny": 0.428,
+"Benjamin Pavard": 0.586,
+"Carlos Augusto": 0.751,
+"Djed Spence": 0.227,
+"Federico Dimarco": 0.31,
+"Hakan Çalhanoglu": 0.829,
+"Henrikh Mkhitaryan": 0.439,
+"Ivan Provedel": 0.454,
+"Josep Martínez": 0.142,
+"Manuel Akanji": 0.642,
+"Marcus Thuram": 1.428,
+"Matteo Lavelli": 0.568,
+"Nicolò Barella": 1.31,
+"Petar Sucic": 0.486,
+"Pio Esposito": 0.642,
+"Piotr Zielinski": 0.31,
+"Yann Bisseck": 0.454,
+"": 0.757
+},
+"away": {
+"Alessandro Marcandalli": 0.591,
+"Alexsandro Amorim": 0.327,
+"David Puczka": 0.61,
+"Djibril Sow": 0.627,
+"Ethan Meichtry": 0.427,
+"Hamed Traoré": 0.909,
+"Johan Vásquez": 0.636,
+"Junior Messias": 0.591,
+"Justin Bijlow": 0.162,
+"Kingsley Ehizibue": 0.727,
+"Leo Østigard": 0.876,
+"Lorenzo Colombo": 0.939,
+"Mario Mitaj": 0.454,
+"Mikael Ellertsson": 1.019,
+"Milutin Osmajic": 0.867,
+"Morten Frendrup": 0.559,
+"Robinho Junior": 0.568,
+"Samuel Wiafe": 1.141,
+"Sebastian Otoa": 0.896,
+"Stephan El Shaarawy": 0.527,
+"Tommaso Baldanzi": 0.727,
+"Vitinha": 0.328,
+"": 0.757
+}
+}
+}
+},
+"SP1|2026-11-28|Real Madrid|Alaves": {
+"code": "SP1",
+"league": "La Liga",
+"date": "2026-11-28",
+"kickoff": "2026-11-28 20:00",
+"home": "Real Madrid",
+"away": "Alaves",
+"espn_id": "401882789",
+"tips": [
+{
+"key": "result",
+"market": "Match result",
+"label": "Match result",
+"pick": "Real Madrid to win (82%)",
+"side": "H",
+"chance": 82,
+"line": null,
+"star": false,
+"book_price": [
+1.17,
+"Betfred (UK)"
+]
+},
+{
+"key": "total_shots",
+"market": "Total shots",
+"label": "Total shots",
+"pick": "Over 25.5",
+"side": "over",
+"line": 25.5,
+"chance": 74,
+"normal": 51,
+"star": true,
+"estimate": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 74,
+"normal": 54,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Real Madrid shots on target",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 79,
+"normal": 42,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Alaves shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 83,
+"normal": 65,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_cards",
+"market": "Home bookings",
+"label": "Real Madrid bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 82,
+"normal": 63,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_cards",
+"market": "Away bookings",
+"label": "Alaves bookings",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Total bookings",
+"label": "Total bookings",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 81,
+"normal": 64,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"market": "Home fouls",
+"label": "Real Madrid fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 82,
+"normal": 53,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"market": "Away fouls",
+"label": "Alaves fouls",
+"pick": "Over 11.5",
+"side": "over",
+"line": 11.5,
+"chance": 81,
+"normal": 59,
+"star": true,
+"estimate": false
+},
+{
+"key": "home_gk",
+"market": "Home goal kicks",
+"label": "Real Madrid goal kicks",
+"pick": "Under 7.5",
+"side": "under",
+"line": 7.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "away_gk",
+"market": "Away goal kicks",
+"label": "Alaves goal kicks",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"star": false,
+"estimate": true
+},
+{
+"key": "total_goals",
+"market": "Total goals",
+"label": "Total goals",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_offsides",
+"market": "Total offsides",
+"label": "Total offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Home offsides",
+"label": "Real Madrid offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_offsides",
+"market": "Away offsides",
+"label": "Alaves offsides",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Total corners",
+"label": "Total corners",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Home corners",
+"label": "Real Madrid corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 72,
+"normal": 58,
+"star": true,
+"estimate": false
+},
+{
+"key": "away_corners",
+"market": "Away corners",
+"label": "Alaves corners",
+"pick": "Under 5.5",
+"side": "under",
+"line": 5.5,
+"chance": 82,
+"normal": 72,
+"star": false,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"market": "Total tackles",
+"label": "Total tackles",
+"pick": "Over 30.5",
+"side": "over",
+"line": 30.5,
+"chance": 72,
+"normal": 62,
+"star": false,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"market": "Home tackles",
+"label": "Real Madrid tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_tackles",
+"market": "Away tackles",
+"label": "Alaves tackles",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "free_kicks",
+"market": "Total free kicks",
+"label": "Total free kicks",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Alaves shots on target",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 71,
+"min_odds": 1.45,
+"value": true,
+"star": false
+},
+{
+"key": "away_cards",
+"market": "Higher price: Away bookings",
+"label": "Alaves bookings",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 62,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "total_cards",
+"market": "Higher price: Total bookings",
+"label": "Total bookings",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 65,
+"min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
+"key": "home_offsides",
+"market": "Higher price: Home offsides",
+"label": "Real Madrid offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
+"chance": 68,
+"min_odds": 1.5,
+"value": true,
+"star": false
+},
+{
+"key": "total_corners",
+"market": "Higher price: Total corners",
+"label": "Total corners",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 59,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
+"key": "home_corners",
+"market": "Higher price: Home corners",
+"label": "Real Madrid corners",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 61,
+"min_odds": 1.65,
+"value": true,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Nahuel Tenaglia (Alaves)",
+"side": "player",
+"line": null,
+"player": "Nahuel Tenaglia",
+"team": "away",
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Pablo Ibáñez (Alaves)",
+"side": "player",
+"line": null,
+"player": "Pablo Ibáñez",
+"team": "away",
+"chance": 16,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Dean Huijsen (Real Madrid)",
+"side": "player",
+"line": null,
+"player": "Dean Huijsen",
+"team": "home",
+"chance": 15,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Arda Güler (Real Madrid): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Arda Güler",
+"team": "home",
+"stat": "sot",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Marc Cucurella (Real Madrid): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Marc Cucurella",
+"team": "home",
+"stat": "fwon",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Ángel Pérez (Alaves): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ángel Pérez",
+"team": "away",
+"stat": "fwon",
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Lucas Boyé (Alaves): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Lucas Boyé",
+"team": "away",
+"stat": "shots",
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Jude Bellingham (Real Madrid): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Jude Bellingham",
+"team": "home",
+"stat": "sot",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "bet_builder",
+"market": "Bet builder",
+"label": "Bet builder",
+"pick": "Real Madrid shots on target: Over 5.5 + Lucas Boyé (Alaves): 1+ foul + Real Madrid corners: Over 4.5",
+"side": null,
+"line": null,
+"legs": [
+{
+"key": "home_sot",
+"label": "Real Madrid shots on target",
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
+"chance": 79,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "pl_fouls",
+"label": "Player fouls",
+"pick": "Lucas Boyé (Alaves): 1+ foul",
+"side": "over",
+"line": 1,
+"chance": 78,
+"player": "Lucas Boyé",
+"team": "away",
+"stat": "fouls",
+"value": null
+},
+{
+"key": "home_corners",
+"label": "Real Madrid corners",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 72,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+}
+],
+"chance": 45,
+"star": false
+}
+],
+"pre": {
+"goals_exp": [
+3.03,
+0.77
+],
+"markets": [
+{
+"key": "total_shots",
+"expected": 29.15,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "total_sot",
+"expected": 10.82,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_sot",
+"expected": 8.03,
+"phi": 1.15,
+"estimate": false
+},
+{
+"key": "away_sot",
+"expected": 2.89,
+"phi": 1.1,
+"estimate": false
+},
+{
+"key": "home_cards",
+"expected": 1.46,
+"phi": 0.9,
+"estimate": false
+},
+{
+"key": "away_cards",
+"expected": 2.14,
+"phi": 0.85,
+"estimate": false
+},
+{
+"key": "total_cards",
+"expected": 3.72,
+"phi": 0.95,
+"estimate": false
+},
+{
+"key": "home_fouls",
+"expected": 9.76,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "away_fouls",
+"expected": 14.8,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "home_gk",
+"expected": 6.02,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "away_gk",
+"expected": 9.17,
+"phi": 1.1,
+"estimate": true
+},
+{
+"key": "total_goals",
+"expected": 3.8,
+"phi": 1.0,
+"estimate": false
+},
+{
+"key": "total_offsides",
+"expected": 3.96,
+"phi": 1.35,
+"estimate": false
+},
+{
+"key": "home_offsides",
+"expected": 2.0,
+"phi": 1.25,
+"estimate": false
+},
+{
+"key": "away_offsides",
+"expected": 1.96,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "total_corners",
+"expected": 10.26,
+"phi": 2.05,
+"estimate": false
+},
+{
+"key": "home_corners",
+"expected": 6.83,
+"phi": 1.7,
+"estimate": false
+},
+{
+"key": "away_corners",
+"expected": 3.43,
+"phi": 1.45,
+"estimate": false
+},
+{
+"key": "total_tackles",
+"expected": 34.99,
+"phi": 1.4,
+"estimate": false
+},
+{
+"key": "home_tackles",
+"expected": 17.81,
+"phi": 1.6,
+"estimate": false
+},
+{
+"key": "away_tackles",
+"expected": 17.17,
+"phi": 2.15,
+"estimate": false
+},
+{
+"key": "free_kicks",
+"expected": 28.52,
+"phi": 1.05,
+"estimate": false
+}
+],
+"squad": {
+"home": {
+"Andriy Lunin": 0.1198,
+"Antonio Rüdiger": 0.127,
+"Arda Güler": 0.1028,
+"Aurélien Tchouaméni": 0.147,
+"Bernardo Silva": 0.0826,
+"Brahim Díaz": 0.1017,
+"Carlos Espí": 0.1045,
+"Dean Huijsen": 0.1887,
+"Denzel Dumfries": 0.1143,
+"Eduardo Camavinga": 0.1564,
+"Endrick": 0.1081,
+"Federico Valverde": 0.071,
+"Ibrahima Konaté": 0.1822,
+"Jude Bellingham": 0.1171,
+"Kylian Mbappé": 0.1396,
+"Marc Cucurella": 0.1272,
+"Thiago Pitarch": 0.124,
+"Thibaut Courtois": 0.0696,
+"Trent Alexander-Arnold": 0.0951,
+"Vinícius Júnior": 0.1627,
+"Yan Diomande": 0.133,
+"Álvaro Carreras": 0.1975,
+"Éder Militão": 0.1177,
+"": 0.1264
+},
+"away": {
+"Abde Rebbach": 0.2457,
+"Aitor Mañas": 0.1381,
+"Ander Guevara": 0.1794,
+"Antonio Blanco": 0.2145,
+"Antonio Sivera": 0.1314,
+"Carles Aleñá": 0.1324,
+"Carlos Protesoni": 0.1908,
+"Denis Suárez": 0.1583,
+"Hugo Novoa": 0.1548,
+"Jonny": 0.1066,
+"Lucas Boyé": 0.172,
+"Mariano Díaz": 0.2062,
+"Nahuel Tenaglia": 0.2026,
+"Nicolás Valentini": 0.21,
+"Pablo Ibáñez": 0.2071,
+"Toni Martínez": 0.1888,
+"Ville Koski": 0.0997,
+"Xanet Oláiz": 0.1605,
+"Youssef Lekhedim": 0.1321,
+"Ángel Pérez": 0.2145,
+"": 0.1666
+}
+},
+"fh": {
+"home": {
+"Andriy Lunin": 0.568,
+"Antonio Rüdiger": 0.627,
+"Arda Güler": 0.486,
+"Aurélien Tchouaméni": 0.559,
+"Bernardo Silva": 0.829,
+"Brahim Díaz": 0.273,
+"Carlos Espí": 0.234,
+"Dean Huijsen": 0.951,
+"Denzel Dumfries": 0.519,
+"Eduardo Camavinga": 1.142,
+"Endrick": 0.327,
+"Federico Valverde": 0.515,
+"Ibrahima Konaté": 1.079,
+"Jude Bellingham": 0.737,
+"Kylian Mbappé": 0.626,
+"Marc Cucurella": 1.182,
+"Thiago Pitarch": 0.568,
+"Thibaut Courtois": 0.126,
+"Trent Alexander-Arnold": 0.206,
+"Vinícius Júnior": 0.885,
+"Yan Diomande": 0.737,
+"Álvaro Carreras": 0.606,
+"Éder Militão": 0.654,
+"": 0.757
+},
+"away": {
+"Abde Rebbach": 1.142,
+"Aitor Mañas": 0.439,
+"Ander Guevara": 0.843,
+"Antonio Blanco": 1.285,
+"Antonio Sivera": 0.142,
+"Carles Aleñá": 0.661,
+"Carlos Protesoni": 1.03,
+"Denis Suárez": 0.591,
+"Hugo Novoa": 0.467,
+"Jonny": 0.448,
+"Lucas Boyé": 2.218,
+"Mariano Díaz": 0.642,
+"Nahuel Tenaglia": 0.892,
+"Nicolás Valentini": 0.661,
+"Pablo Ibáñez": 1.392,
+"Toni Martínez": 0.951,
+"Ville Koski": 0.829,
+"Xanet Oláiz": 0.454,
+"Youssef Lekhedim": 0.944,
+"Ángel Pérez": 0.885,
 "": 0.757
 }
 }
