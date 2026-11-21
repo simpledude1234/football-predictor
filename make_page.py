@@ -217,7 +217,7 @@ def pstat_note(psp):
     landed, said = o["landed"], o["said"]
     return (f"The most likely line per player priced about 1.60 to 1.90, from his recent form, the opponent and "
             f"the bookmakers' view of the match. Tested on {psp['test_games']:,} past games: {n:,} picks said "
-            f"{said:.0f}% and {landed:.0f}% landed. Back one only at the fair price or better. Regular starters "
+            f"{said:.0f}% and {landed:.0f}% landed. Type the bookmaker's price in the box: back it only if it says value. Regular starters "
             "only; void if he doesn't play. No free source has player tackles.")
 
 
@@ -226,10 +226,11 @@ def bb_note(bbp):
     if not bbp or not bbp.get("test", {}).get("built"):
         return ""
     t = bbp["test"]
-    return (f"One combination per game from its strongest tips (2 to 4 legs, all from tested markets). Legs in "
+    return (f"One combination per game at a fair price of 2.00 to 2.85, from tested picks (2 to 4 legs). No "
+            f"near-certain legs such as a player's 1+ shot: bookmakers pay almost nothing for those. Legs in "
             f"the same game are linked, so the combined chance allows for that. Tested on {t['built']} past "
-            f"games: they said {t['said']:.0f}% and {t['landed']:.0f}% landed (every leg). "
-            "Bookmakers price bet builders with a bigger margin than singles, so compare with the fair price.")
+            f"games: they said {t['said']:.0f}% and {t['landed']:.0f}% landed (every leg). Type the bookmaker's "
+            "price for the same legs in the box: back it only if it says value.")
 
 
 def value_note(vp):

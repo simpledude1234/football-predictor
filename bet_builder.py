@@ -1,8 +1,10 @@
 """Bet builder: one combination bet per game, built from that game's own tips.
 
-Legs come only from markets already tested and tipped (team tips at 72%+ and
-72%+ player stat picks, which are used only here; the Player stats tab shows
-priced lines instead). At most one leg per kind of market (goals, shots, cards,
+Legs come only from markets already tested and tipped: team tips (72%+ ones and
+the higher-price ones) and player stat picks (the priced lines and the 72%+
+ones). No leg above MAX_LEG% and no player "1+ shot" leg: bookmakers price those
+at 1.01-1.25, so they add almost nothing to the price of the bet builder (and
+bet365's 1+ shot bets move to the substitute, a different bet from ours). At most one leg per kind of market (goals, shots, cards,
 fouls, corners, offsides, tackles) and at most two player legs, never two from
 the same player, so the bet mixes different things.
 
@@ -11,8 +13,9 @@ shots on target too), so the combined chance is not just the chances
 multiplied: each pair of legs gets a correction measured on past games (how
 often both landed, against what multiplying said), pulled towards "no link"
 when there are few past examples. Legs are added, most likely first, while
-the combined chance stays at MIN_CHANCE or more; a game gets a bet builder
-only with 2 to 4 legs.
+the combined chance stays at MIN_CHANCE or more (a fair price of about 2.85 at
+most, so the bet pays a real price); a game gets a bet builder only with 2 to 4
+legs and a fair price of MIN_ODDS or more.
 
 Run `py -3.13 bet_builder.py` to test: links are measured on the earlier half
 of the logged games and the bet builders are scored on the later half.
@@ -24,7 +27,11 @@ from collections import defaultdict
 
 HERE = pathlib.Path(__file__).parent
 PARAMS = HERE / "bet_builder_params.json"
-MIN_CHANCE = 50
+MIN_CHANCE = 35          # held-out (from 25 Oct 2026), 226 bet builders: said 41.2, landed 42.5
+MAX_LEG = 80            # legs above this price under 1.25: they barely move the price
+MIN_ODDS = 2.0          # the whole bet builder at a fair price of at least this
+MIN_VALUE_LEG = 58
+MIN_PLAYER_LEG = 55
 MAX_LEGS = 4
 SHRINK = 100.0          # past games of "no link" added to every pair (30 over-promised by ~4 points on held-out games; 100 lands as said)
 GROUP = {"result": "goals", "btts": "goals", "total_goals": "goals",
@@ -54,9 +61,16 @@ def pair_key(a, b):
 def legs_of(tips):
     out = []
     for t in tips:
-        if t.get("skip") or t.get("value") or t.get("estimate") or t.get("chance") is None or t.get("live"):
+        if t.get("skip") or t.get("estimate") or t.get("chance") is None or t.get("live"):
             continue
-        if t["key"].startswith("pl_") or (t["key"] in GROUP and t["chance"] >= 72):
+        if t["chance"] > MAX_LEG:
+            continue
+        if t["key"].startswith("pl_"):
+            if t.get("stat") == "shots" and t.get("line") == 1:
+                continue
+            if t["chance"] >= MIN_PLAYER_LEG:
+                out.append(t)
+        elif t["key"] in GROUP and t["chance"] >= (MIN_VALUE_LEG if t.get("value") else 72):
             out.append(t)
     return sorted(out, key=lambda t: -t["chance"])
 
@@ -95,7 +109,9 @@ def build(tips, params):
     if len(chosen) < 2:
         return None
     ch = round(100 * combined(chosen, links))
-    return {"legs": [{k: t.get(k) for k in ("key", "label", "pick", "side", "line", "chance", "player", "team", "stat")}
+    if 100 / ch < MIN_ODDS:
+        return None
+    return {"legs": [{k: t.get(k) for k in ("key", "label", "pick", "side", "line", "chance", "player", "team", "stat", "value")}
                      for t in chosen], "chance": ch, "odds": round(100 / ch, 2)}
 
 
@@ -117,15 +133,17 @@ def _past_games(cache):
         sides = {t["label"] + t["pick"]: t for t in e["tips"]}
         tips = []
         for r in g["tips"]:
-            if r["hit"] is None or r.get("live") or r.get("value") or r["key"] not in GROUP or r.get("chance") is None:
+            if r["hit"] is None or r.get("live") or r["key"] not in GROUP or r.get("chance") is None:
                 continue
             src = sides.get(r["label"] + r["pick"], {})
             tips.append({"key": r["key"], "label": r["label"], "pick": r["pick"], "chance": r["chance"],
-                         "side": src.get("side"), "line": src.get("line"), "hit": r["hit"]})
+                         "side": src.get("side"), "line": src.get("line"), "hit": r["hit"],
+                         "value": bool(r.get("value"))})
         em = cache["matches"].get(str(e.get("espn_id"))) if e.get("espn_id") else None
         if pm and em and em.get("pstats"):
-            for p in PS.picks(pm, pp, em["home"], em["away"], em["date"], mode="safe",
-                              xg=(em.get("odds") or {}).get("xg")):
+            for p in [q for mode in ("price", "safe") for q in
+                      PS.picks(pm, pp, em["home"], em["away"], em["date"], mode=mode,
+                               xg=(em.get("odds") or {}).get("xg"))]:
                 v = em["pstats"].get(f"{p['team']}|{p['player']}")
                 if v is None:
                     continue                 # did not play: void
@@ -165,8 +183,8 @@ def backtest(cache):
     for g in late:
         b = build(g["tips"], prm)
         if b:
-            hit = {(t["key"], t["pick"]): t["hit"] for t in g["tips"]}
-            built.append((b["chance"], all(hit[(t["key"], t["pick"])] for t in b["legs"]), len(b["legs"]),
+            hit = {(t["key"], t["pick"], bool(t.get("value")), t.get("line")): t["hit"] for t in g["tips"]}
+            built.append((b["chance"], all(hit[(t["key"], t["pick"], bool(t.get("value")), t.get("line"))] for t in b["legs"]), len(b["legs"]),
                           sum(1 for t in b["legs"] if t["key"].startswith("pl_"))))
     n = len(built)
     said = sum(b[0] for b in built) / n if n else None

@@ -25,6 +25,8 @@ h1{font-size:19px;margin:0}.sub{color:var(--mut);font-size:12px}
 .legs{margin:4px 0 8px;padding:0;columns:1}.legs li{font-size:15px}
 .bbtot{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-top:8px;border-top:1px solid var(--line);font-weight:700}
 .bbtot .price{display:inline;margin-left:6px}
+.vc{display:block;margin-top:4px;font-weight:400}.bp{width:104px;font:inherit;font-size:13px;padding:3px 7px;border-radius:7px;border:1px solid var(--line);background:var(--soft);color:var(--text);text-align:right}
+.vc em{display:block;font-style:normal;font-size:12.5px;font-weight:600;white-space:normal}.vg{color:var(--good)}.vw{color:var(--warn)}.vb{color:var(--bad)}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
 .lstat{color:var(--mut);font-size:13px;margin:-2px 0 8px}.min{color:var(--bad);font-weight:700}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);padding:7px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer}
@@ -108,10 +110,43 @@ function leagueList(list, dateOf) {
 // player stats and bet builders have their own tabs
 const own = t => (t.key || '').startsWith('pl_') || t.key === 'bet_builder';
 
+// "Is it value?": type the bookmaker's price next to a pick; value = our chance x price at least 1.05
+// (5% room for error). Prices are kept on this device only.
+let PR = {};
+try { PR = JSON.parse(localStorage.getItem('bookiePrices') || '{}') || {}; } catch (e) { PR = {}; }
+const pid = (m, t) => [m.iso, m.home, m.away, t.label, t.pick].join('|');
+function parsePrice(v) {
+  v = String(v || '').trim().replace(',', '.');
+  const f = v.match(/^(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)$/);       // fractional, e.g. 5/4
+  const p = f ? 1 + parseFloat(f[1]) / parseFloat(f[2]) : parseFloat(v);
+  return p > 1 && p < 1000 ? p : null;
+}
+function verdict(ch, raw) {
+  const p = parsePrice(raw);
+  if (!p || !ch) return '';
+  const r = ch / 100 * p, need = (Math.ceil(10500 / ch) / 100).toFixed(2);
+  if (r >= 1.05) return `<em class="vg">Value: +${Math.round(100 * (r - 1))}% on average</em>`;
+  if (r >= 0.98) return `<em class="vw">About fair: value from ${need}</em>`;
+  return `<em class="vb">Not value: needs ${need}+</em>`;
+}
+function vbox(ch, id) {
+  if (ch == null) return '';
+  const v = PR[id] || '';
+  return `<span class="vc"><input class="bp" data-ch="${ch}" data-id="${esc(id)}" value="${esc(v)}" inputmode="decimal" autocomplete="off" placeholder="bookie price" aria-label="Bookmaker price">${verdict(ch, v)}</span>`;
+}
+document.addEventListener('input', e => {
+  const i = e.target.closest('.bp');
+  if (!i) return;
+  if (i.value.trim()) PR[i.dataset.id] = i.value.trim(); else delete PR[i.dataset.id];
+  try { localStorage.setItem('bookiePrices', JSON.stringify(PR)); } catch (err) {}
+  const old = i.parentNode.querySelector('em'); if (old) old.remove();
+  i.insertAdjacentHTML('afterend', verdict(+i.dataset.ch, i.value));
+});
+
 function valueCard(m) {
   const t = (m.tips || []).filter(x => x.value);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
-    ${t.length ? `<ul>${t.map(x => `<li><span>${esc(x.label)}</span><b>${esc(x.pick)}<span class="price">${x.chance}% &middot; worth it at ${x.min_odds.toFixed(2)}+</span></b></li>`).join('')}</ul>`
+    ${t.length ? `<ul>${t.map(x => `<li><span>${esc(x.label)}</span><b>${esc(x.pick)}<span class="price">${x.chance}% &middot; worth it at ${x.min_odds.toFixed(2)}+</span>${vbox(x.chance, pid(m, x))}</b></li>`).join('')}</ul>`
       : '<div class="sub">No higher-price pick: the model has no strong view on the usual lines for this game.</div>'}</div>`;
 }
 
@@ -121,7 +156,7 @@ function card(m) {
   const stars = t.filter(x => x.star).slice(0, 3);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
     ${stars.length ? `<div class="top3">${stars.map(x => `<span>${esc(x.label)}: ${esc(x.pick)}</span>`).join('')}</div>` : ''}
-    <ul>${t.map(x => x.skip ? `<li><span>${esc(x.label)}</span><b class="na" style="font-weight:400">No tip</b></li>` : `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}${x.confirmed ? '<br><i class="na" style="font-style:normal;font-weight:400;font-size:13px">in the starting line-up</i>' : ''}</b></li>`).join('')}</ul>
+    <ul>${t.map(x => x.skip ? `<li><span>${esc(x.label)}</span><b class="na" style="font-weight:400">No tip</b></li>` : `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}${x.confirmed ? '<br><i class="na" style="font-style:normal;font-weight:400;font-size:13px">in the starting line-up</i>' : ''}${x.chance != null ? `<span class="price">${x.key === 'result' ? '' : x.chance + '% &middot; '}fair price ${(100 / x.chance).toFixed(2)}</span>` : ''}${vbox(x.chance, pid(m, x))}</b></li>`).join('')}</ul>
     ${t.some(x => x.key === 'player_booked') && !t.some(x => x.confirmed) ? '<div class="sub">Player picks are checked against the line-ups about an hour before kick-off.</div>' : ''}</div>`;
 }
 
@@ -131,6 +166,7 @@ function bestBox() {
   return `<div class="bestbox"><h3>Best bets &middot; ${esc(dayName(B.day))}</h3>
     <div class="sub">${mode === 'safe' ? 'The picks most likely to land' : 'The higher-price picks most likely to land'}, one per game. ${esc(D.learn_note || '')}</div>
     <ol>${list.map(b => `<li><b>${esc(b.label)}: ${esc(b.pick)}</b> &middot; ${b.chance}% &middot; ${mode === 'safe' ? 'fair price' : 'worth it at'} ${b.odds.toFixed(2)}${mode === 'safe' ? '' : '+'}
+      ${vbox(b.chance, [B.day, ...b.match.split(' v '), b.label, b.pick].join('|'))}
       <span class="g">${esc(b.match)} &middot; ${esc(b.time)} &middot; ${esc(b.league)}</span></li>`).join('')}</ol></div>`;
 }
 
@@ -138,7 +174,7 @@ function tipsView() {
   const ls = leagueList(upcoming, m => m.kickoff);
   let html = (Date.now() - D.generated_ms) / 3.6e6 > 20 ? '<div class="banner">These tips are more than 20 hours old. Update for fresh ones.</div>' : '';
   html += `<div class="tabs mode"><button data-mode="safe" class="${mode === 'safe' ? 'on' : ''}">Safer tips</button><button data-mode="value" class="${mode === 'value' ? 'on' : ''}">Higher price</button></div>`;
-  html += mode === 'safe' ? '<div class="info">Likely to land (72%+ chance), so usually short prices.</div>'
+  html += mode === 'safe' ? '<div class="info">Likely to land (72%+ chance), so usually short prices. Likely is not the same as worth betting: type your bookmaker&rsquo;s price in the box under a pick and it tells you whether the price is value (at least 5% above the fair price).</div>'
     : `<div class="info">Lines near even money (where bookmakers usually price both sides around 1.85). Back a pick only if your bookmaker's price is at least the &ldquo;worth it at&rdquo; price. ${esc(D.value_note || '')}</div>`;
   html += bestBox();
   (pick === 'All' ? ls : [pick]).forEach(l => {
@@ -184,7 +220,7 @@ function marketView() {
   html += `<div class="sort">Each day: <button data-sort="chance" class="${sortBy === 'chance' ? 'on' : ''}">most likely first</button>&middot;<button data-sort="time" class="${sortBy === 'time' ? 'on' : ''}">kick-off time</button></div>`;
   const days = [...new Set(list.map(r => r.m.iso))];
   html += days.map(d => `<div class="day">${dayName(d)}</div><div class="m">${list.filter(r => r.m.iso === d).map(({m, t, ch}) => `<div class="row"><span>${t.star ? '&#9733; ' : ''}${esc(m.home)} v ${esc(m.away)}<span class="g">${esc(shortDay(m.iso))} ${esc(m.time)} &middot; ${esc(m.league)}</span></span>
-    <b>${esc(t.key === 'result' ? t.pick.replace(/ \(\d+%\)/, '') : t.pick)}${ch != null ? `<span class="price">${ch}% &middot; ${t.value ? 'worth it at ' + t.min_odds.toFixed(2) + '+' : 'fair price ' + (100 / ch).toFixed(2)}</span>` : ''}${t.confirmed ? '<span class="price">in the starting line-up</span>' : ''}</b></div>`).join('')}</div>`).join('');
+    <b>${esc(t.key === 'result' ? t.pick.replace(/ \(\d+%\)/, '') : t.pick)}${ch != null ? `<span class="price">${ch}% &middot; ${t.value ? 'worth it at ' + t.min_odds.toFixed(2) + '+' : 'fair price ' + (100 / ch).toFixed(2)}</span>` : ''}${t.confirmed ? '<span class="price">in the starting line-up</span>' : ''}${vbox(ch, pid(m, t))}</b></div>`).join('')}</div>`).join('');
   if (none[mkt]) html += `<div class="sub">${none[mkt]} more game${none[mkt] > 1 ? 's have' : ' has'} no tip for this market (a normal game, nothing worth backing).</div>`;
   return html;
 }
@@ -215,7 +251,7 @@ function playersView() {
     const t = (m.tips || []).filter(x => x.key.startsWith('pl_') && (pstat === 'all' || x.key === pstat));
     if (!t.length) return '';
     return t.map(x => { const [who, what] = x.pick.split(': ');
-      return `<div class="pk"><span>${esc(who)}${x.confirmed ? '<span class="g">in the starting line-up</span>' : ''}</span><b>${esc(what)}<span class="price">${x.chance}% &middot; fair price ${(100 / x.chance).toFixed(2)}</span></b></div>`; }).join('')
+      return `<div class="pk"><span>${esc(who)}${x.confirmed ? '<span class="g">in the starting line-up</span>' : ''}</span><b>${esc(what)}<span class="price">${x.chance}% &middot; fair price ${(100 / x.chance).toFixed(2)}</span>${vbox(x.chance, pid(m, x))}</b></div>`; }).join('')
       + (t.some(x => x.confirmed) ? '' : '<div class="sub">Checked against the line-ups about an hour before kick-off. If he doesn&rsquo;t play, the pick is void.</div>');
   });
   return html + (body || '<div class="empty">No player picks for these games yet. Picks appear for regular starters with a line priced about 1.60 to 1.90.</div>');
@@ -228,9 +264,9 @@ function bbView() {
     const b = (m.tips || []).find(x => x.key === 'bet_builder');
     if (!b) return '';
     return `<ul class="legs">${b.legs.map(x => `<li><span>${esc(x.key.startsWith('pl_') ? x.pick.split(': ')[0] : x.label)}</span><b>${esc(x.key.startsWith('pl_') ? x.pick.split(': ')[1] : x.pick.replace(/ \(\d+%\)/, ''))}<span class="price">${x.chance}% on its own</span></b></li>`).join('')}</ul>
-      <div class="bbtot"><span>All ${b.legs.length} together</span><span>${b.chance}%<span class="price">fair price ${(100 / b.chance).toFixed(2)}</span></span></div>`;
+      <div class="bbtot"><span>All ${b.legs.length} together</span><span style="text-align:right">${b.chance}%<span class="price">fair price ${(100 / b.chance).toFixed(2)}</span>${vbox(b.chance, pid(m, b))}</span></div>`;
   });
-  return html + (body || '<div class="empty">No bet builders for these games yet. One is built only when a game has enough strong tips to combine at 50%+.</div>');
+  return html + (body || '<div class="empty">No bet builders for these games yet. One is built only when a game&rsquo;s tested picks combine to a fair price of 2.00 to 2.85.</div>');
 }
 
 function pct(s) { return s && s[1] ? Math.round(100 * s[0] / s[1]) + '%' : '–'; }
