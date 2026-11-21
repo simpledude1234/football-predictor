@@ -26,7 +26,7 @@ def select(matches):
         for m in future:
             if m["iso"] != day:
                 continue
-            ts = [t for t in m["tips"] if t.get("chance") is not None and not t.get("skip")
+            ts = [t for t in m["tips"] if t.get("chance") is not None and not t.get("skip") and not t.get("bv")
                   and t["key"] != "player_booked" and not t["key"].startswith("pl_") and t["key"] != "bet_builder"
                   and bool(t.get("value")) == (kind == "value")
                   and t["chance"] <= MAX_CHANCE]

@@ -103,7 +103,57 @@ def make_tips(m):
     bb = builder_tip(out + pstat_tips(h, a, m.get("pstats_safe", [])))   # 72%+ player legs, used only here
     if bb:
         out.append(bb)
+    out += book_value(m, out)
     return out
+
+
+# ------------------------------------------------------------------ real bookmaker prices (odds_api.py)
+BV_EDGE = 1.05            # our chance x best price: at least 5% above the fair price (room for error)
+BV_CHANCE = (35, 85)      # no long shots (too noisy) and no near-certainties (nothing to gain)
+BV_MAX = 1.25             # more than 25% above fair is almost always a stale price or a mismatched game
+
+
+def _book_key(t):
+    if t["key"] == "result" and t.get("side") in ("H", "D", "A"):
+        return t["side"]
+    if t["key"] == "total_goals" and t.get("side") in ("over", "under") and t.get("line") is not None:
+        return f"{t['side']}_{float(t['line'])}"
+    return None
+
+
+def book_value(m, out):
+    """Marks each tip that has a real bookmaker price (best on offer, and where), and returns at most one
+    "Bookmaker value" pick for the game: the result or total goals outcome where the best price beats our
+    fair price by the most, if by at least 5%."""
+    best = (m.get("book") or {}).get("best") or {}
+    if not best:
+        return []
+    for t in out:
+        k = _book_key(t)
+        if k and k in best and not t.get("skip"):
+            t["book_price"] = best[k]
+    h, a, f = m["home"], m["away"], m["final"]
+    cands = [("result", k, None, f[k], "Match result", {"H": f"{h} to win", "D": "Draw", "A": f"{a} to win"}[k])
+             for k in "HDA" if k in best and f.get(k) is not None]
+    tg = next((k for k in m["markets"] if k["key"] == "total_goals"), None)
+    if tg:
+        for k in best:
+            side, _, line = k.partition("_")
+            if side in ("over", "under") and line:
+                po = 100 * P.over_prob(tg["expected"], float(line), tg.get("phi") or 1.0)
+                cands.append(("total_goals", side, float(line), po if side == "over" else 100 - po,
+                              "Total goals", f"{side.title()} {float(line):g}"))
+    good = []
+    for key, side, line, ch, label, pick in cands:
+        price = best[side if key == "result" else f"{side}_{line}"]
+        if BV_CHANCE[0] <= ch <= BV_CHANCE[1] and BV_EDGE <= ch / 100 * price[0] <= BV_MAX:
+            good.append((ch / 100 * price[0], key, side, line, ch, label, pick, price))
+    if not good:
+        return []
+    r, key, side, line, ch, label, pick, price = max(good)
+    return [{"key": key, "market": "Bookmaker value: " + label, "label": label, "pick": pick, "side": side,
+             "line": line, "chance": round(ch), "book_price": price, "edge": round(100 * (r - 1)), "bv": True,
+             "star": False}]
 
 
 def pstat_tips(h, a, picks):

@@ -61,7 +61,7 @@ def pair_key(a, b):
 def legs_of(tips):
     out = []
     for t in tips:
-        if t.get("skip") or t.get("estimate") or t.get("chance") is None or t.get("live"):
+        if t.get("skip") or t.get("estimate") or t.get("chance") is None or t.get("live") or t.get("bv"):
             continue
         if t["chance"] > MAX_LEG:
             continue

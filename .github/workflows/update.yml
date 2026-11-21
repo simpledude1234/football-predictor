@@ -74,13 +74,14 @@ jobs:
         if: steps.gate.outputs.go == 'yes'
         env:
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}   # referee names (football-data.org free plan)
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}             # bookmaker prices (the-odds-api.com free plan)
         run: python make_page.py
       - name: Save the prediction log and model settings
         if: steps.gate.outputs.go == 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tips_log.json model_params.json cache/espn_matches.json team_stats_params.json value_params.json learn_params.json cache/referees_fd.json player_stats_params.json bet_builder_params.json
+          git add tips_log.json model_params.json cache/espn_matches.json team_stats_params.json value_params.json learn_params.json cache/referees_fd.json player_stats_params.json bet_builder_params.json cache/odds_api.json
           git diff --cached --quiet || (git commit -m "Update tips log" && git pull --rebase && git push)
       - name: Prepare pages
         if: steps.gate.outputs.go == 'yes'

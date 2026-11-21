@@ -17,6 +17,7 @@ import espn
 import europe
 import fetch_data
 import learn
+import odds_api
 import live_record
 import team_stats
 import value
@@ -64,6 +65,10 @@ def main():
     link_espn(matches, [{"code": u["code"], "day": _uk_day(u["event"]["date"]), "id": u["event"]["id"],
                          **{c["homeAway"]: c["team"]["displayName"] for c in u["event"]["competitions"][0]["competitors"]}}
                         for u in upcoming])
+    try:                     # real bookmaker prices (The Odds API, free plan): result and total goals
+        odds_api.attach(matches, odds_api.update(matches))
+    except Exception as e:
+        print(f"Bookmaker prices skipped this time ({type(e).__name__})")
     pm = players.PlayerModel(cache)
     psp = player_stats.load_params()
     if cache.get("matches") and (refit or not psp):     # re-test player shots/fouls picks with the main model

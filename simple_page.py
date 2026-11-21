@@ -108,7 +108,7 @@ function leagueList(list, dateOf) {
 }
 
 // player stats and bet builders have their own tabs
-const own = t => (t.key || '').startsWith('pl_') || t.key === 'bet_builder';
+const own = t => (t.key || '').startsWith('pl_') || t.key === 'bet_builder' || t.bv;
 
 // "Is it value?": type the bookmaker's price next to a pick; value = our chance x price at least 1.05
 // (5% room for error). Prices are kept on this device only.
@@ -129,10 +129,10 @@ function verdict(ch, raw) {
   if (r >= 0.98) return `<em class="vw">About fair: value from ${need}</em>`;
   return `<em class="vb">Not value: needs ${need}+</em>`;
 }
-function vbox(ch, id) {
+function vbox(ch, id, bp) {
   if (ch == null) return '';
-  const v = PR[id] || '';
-  return `<span class="vc"><input class="bp" data-ch="${ch}" data-id="${esc(id)}" value="${esc(v)}" inputmode="decimal" autocomplete="off" placeholder="bookie price" aria-label="Bookmaker price">${verdict(ch, v)}</span>`;
+  const v = PR[id] || '', auto = bp ? bp[0] : '';
+  return `<span class="vc">${bp ? `<span class="price">Best price ${(+bp[0]).toFixed(2)} at ${esc(bp[1])}</span>` : ''}<input class="bp" data-ch="${ch}" data-id="${esc(id)}" data-auto="${auto}" value="${esc(v)}" inputmode="decimal" autocomplete="off" placeholder="bookie price" aria-label="Bookmaker price">${verdict(ch, v || auto)}</span>`;
 }
 document.addEventListener('input', e => {
   const i = e.target.closest('.bp');
@@ -140,7 +140,7 @@ document.addEventListener('input', e => {
   if (i.value.trim()) PR[i.dataset.id] = i.value.trim(); else delete PR[i.dataset.id];
   try { localStorage.setItem('bookiePrices', JSON.stringify(PR)); } catch (err) {}
   const old = i.parentNode.querySelector('em'); if (old) old.remove();
-  i.insertAdjacentHTML('afterend', verdict(+i.dataset.ch, i.value));
+  i.insertAdjacentHTML('afterend', verdict(+i.dataset.ch, i.value.trim() || i.dataset.auto));
 });
 
 function valueCard(m) {
@@ -156,7 +156,7 @@ function card(m) {
   const stars = t.filter(x => x.star).slice(0, 3);
   return `<div class="m"><div class="mt"><span class="teams">${esc(m.home)} v ${esc(m.away)}</span><span class="time">${esc(m.time)}</span></div>
     ${stars.length ? `<div class="top3">${stars.map(x => `<span>${esc(x.label)}: ${esc(x.pick)}</span>`).join('')}</div>` : ''}
-    <ul>${t.map(x => x.skip ? `<li><span>${esc(x.label)}</span><b class="na" style="font-weight:400">No tip</b></li>` : `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}${x.confirmed ? '<br><i class="na" style="font-style:normal;font-weight:400;font-size:13px">in the starting line-up</i>' : ''}${x.chance != null ? `<span class="price">${x.key === 'result' ? '' : x.chance + '% &middot; '}fair price ${(100 / x.chance).toFixed(2)}</span>` : ''}${vbox(x.chance, pid(m, x))}</b></li>`).join('')}</ul>
+    <ul>${t.map(x => x.skip ? `<li><span>${esc(x.label)}</span><b class="na" style="font-weight:400">No tip</b></li>` : `<li class="${x.star ? 'star' : ''}"><span>${esc(x.label)}</span><b>${esc(x.pick)}${x.confirmed ? '<br><i class="na" style="font-style:normal;font-weight:400;font-size:13px">in the starting line-up</i>' : ''}${x.chance != null ? `<span class="price">${x.key === 'result' ? '' : x.chance + '% &middot; '}fair price ${(100 / x.chance).toFixed(2)}</span>` : ''}${vbox(x.chance, pid(m, x), x.book_price)}</b></li>`).join('')}</ul>
     ${t.some(x => x.key === 'player_booked') && !t.some(x => x.confirmed) ? '<div class="sub">Player picks are checked against the line-ups about an hour before kick-off.</div>' : ''}</div>`;
 }
 
@@ -170,13 +170,24 @@ function bestBox() {
       <span class="g">${esc(b.match)} &middot; ${esc(b.time)} &middot; ${esc(b.league)}</span></li>`).join('')}</ol></div>`;
 }
 
+function bvBox() {
+  const list = upcoming.filter(m => pick === 'All' || m.league === pick)
+    .flatMap(m => (m.tips || []).filter(t => t.bv).map(t => ({m, t}))).sort((a, b) => b.t.edge - a.t.edge);
+  if (!list.length) return '';
+  return `<div class="bestbox"><h3>Bookmaker value</h3>
+    <div class="sub">A bookmaker is paying at least 5% more than our fair price (match result and total goals, UK bookmakers' best prices, checked about once a day: prices move, so check yours in the box). Long run, not every one lands.</div>
+    <ol>${list.slice(0, 15).map(({m, t}) => `<li><b>${esc(t.label)}: ${esc(t.pick)}</b> &middot; ${t.chance}% &middot; fair price ${(100 / t.chance).toFixed(2)}
+      &middot; <b>${(+t.book_price[0]).toFixed(2)} at ${esc(t.book_price[1])}</b> <span style="color:var(--good)">(+${t.edge}%)</span>
+      <span class="g">${esc(m.home)} v ${esc(m.away)} &middot; ${esc(shortDay(m.iso))} ${esc(m.time)} &middot; ${esc(m.league)}</span></li>`).join('')}</ol></div>`;
+}
+
 function tipsView() {
   const ls = leagueList(upcoming, m => m.kickoff);
   let html = (Date.now() - D.generated_ms) / 3.6e6 > 20 ? '<div class="banner">These tips are more than 20 hours old. Update for fresh ones.</div>' : '';
   html += `<div class="tabs mode"><button data-mode="safe" class="${mode === 'safe' ? 'on' : ''}">Safer tips</button><button data-mode="value" class="${mode === 'value' ? 'on' : ''}">Higher price</button></div>`;
   html += mode === 'safe' ? '<div class="info">Likely to land (72%+ chance), so usually short prices. Likely is not the same as worth betting: type your bookmaker&rsquo;s price in the box under a pick and it tells you whether the price is value (at least 5% above the fair price).</div>'
     : `<div class="info">Lines near even money (where bookmakers usually price both sides around 1.85). Back a pick only if your bookmaker's price is at least the &ldquo;worth it at&rdquo; price. ${esc(D.value_note || '')}</div>`;
-  html += bestBox();
+  html += bvBox() + bestBox();
   (pick === 'All' ? ls : [pick]).forEach(l => {
     const list = upcoming.filter(m => m.league === l);
     if (!list.length) return;
@@ -220,7 +231,7 @@ function marketView() {
   html += `<div class="sort">Each day: <button data-sort="chance" class="${sortBy === 'chance' ? 'on' : ''}">most likely first</button>&middot;<button data-sort="time" class="${sortBy === 'time' ? 'on' : ''}">kick-off time</button></div>`;
   const days = [...new Set(list.map(r => r.m.iso))];
   html += days.map(d => `<div class="day">${dayName(d)}</div><div class="m">${list.filter(r => r.m.iso === d).map(({m, t, ch}) => `<div class="row"><span>${t.star ? '&#9733; ' : ''}${esc(m.home)} v ${esc(m.away)}<span class="g">${esc(shortDay(m.iso))} ${esc(m.time)} &middot; ${esc(m.league)}</span></span>
-    <b>${esc(t.key === 'result' ? t.pick.replace(/ \(\d+%\)/, '') : t.pick)}${ch != null ? `<span class="price">${ch}% &middot; ${t.value ? 'worth it at ' + t.min_odds.toFixed(2) + '+' : 'fair price ' + (100 / ch).toFixed(2)}</span>` : ''}${t.confirmed ? '<span class="price">in the starting line-up</span>' : ''}${vbox(ch, pid(m, t))}</b></div>`).join('')}</div>`).join('');
+    <b>${esc(t.key === 'result' ? t.pick.replace(/ \(\d+%\)/, '') : t.pick)}${ch != null ? `<span class="price">${ch}% &middot; ${t.value ? 'worth it at ' + t.min_odds.toFixed(2) + '+' : 'fair price ' + (100 / ch).toFixed(2)}</span>` : ''}${t.confirmed ? '<span class="price">in the starting line-up</span>' : ''}${vbox(ch, pid(m, t), t.book_price)}</b></div>`).join('')}</div>`).join('');
   if (none[mkt]) html += `<div class="sub">${none[mkt]} more game${none[mkt] > 1 ? 's have' : ' has'} no tip for this market (a normal game, nothing worth backing).</div>`;
   return html;
 }
@@ -277,7 +288,9 @@ function trackView() {
   const sum = {};
   games.forEach(g => g.tips.forEach(t => { if (t.hit === null) return;
     if (t.key === 'player_booked') { const s = sum.__lplayer = sum.__lplayer || [0, 0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; s[2] += t.chance || 0; return; }   // long shots: counted on their own
-    (t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : t.key === 'bet_builder' ? [t.market, '__bb'] : (t.key || '').startsWith('pl_') ? [t.market, '__pstat'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
+    (t.bv ? [t.market, '__bv'] : t.value ? [t.market, '__value__'] : t.live ? [t.market, '__live'] : t.key === 'bet_builder' ? [t.market, '__bb'] : (t.key || '').startsWith('pl_') ? [t.market, '__pstat'] : [t.market, '__all__'].concat(t.star ? ['__star__'] : [])).concat(t.best ? ['__best_' + t.best] : []).forEach(k => { const s = sum[k] = sum[k] || [0, 0]; s[0] += t.hit ? 1 : 0; s[1]++; }); }));
+  const bvRows = games.flatMap(g => g.tips).filter(t => t.bv && t.hit !== null && t.book_price);
+  const bvProfit = bvRows.reduce((a, t) => a + (t.hit ? t.book_price[0] - 1 : -1), 0);
   const markets = Object.keys(sum).filter(k => !k.startsWith('__')).sort((a, b) => sum[b][0] / sum[b][1] - sum[a][0] / sum[a][1]);
   let html = `<h2>How the tips did</h2><div class="sub">${games.length} finished match${games.length > 1 ? 'es' : ''}${pick === 'All' ? '' : ' in ' + esc(pick)}: ${games.filter(g => !g.replay).length} live (tips saved before kick-off) and ${games.filter(g => g.replay).length} replayed (predicted afterwards, using only information from before each game, to give a record from day one).</div>
     <div class="sum"><div class="box"><div class="n">${pct(sum.__all__)}</div><div class="l">All tips right (${sum.__all__ ? sum.__all__[0] + ' of ' + sum.__all__[1] : 0})</div></div>
@@ -287,6 +300,7 @@ function trackView() {
     <div class="box"><div class="n">${pct(sum.__best_value)}</div><div class="l">Higher-price best bets right (${sum.__best_value ? sum.__best_value[0] + ' of ' + sum.__best_value[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__live)}</div><div class="l">Live picks right at 45' and 60' (${sum.__live ? sum.__live[0] + ' of ' + sum.__live[1] : 0})</div></div>
     <div class="box"><div class="n">${pct(sum.__pstat)}</div><div class="l">Player stat picks right (${sum.__pstat ? sum.__pstat[0] + ' of ' + sum.__pstat[1] : 0})</div></div>
+    ${bvRows.length ? `<div class="box"><div class="n ${bvProfit >= 0 ? 'ok' : ''}">${bvProfit >= 0 ? '+' : ''}${bvProfit.toFixed(1)}</div><div class="l">Bookmaker value picks: profit in units staking 1 each at the best price (${bvRows.filter(t => t.hit).length} of ${bvRows.length} landed)</div></div>` : ''}
     <div class="box"><div class="n">${pct(sum.__bb)}</div><div class="l">Bet builders right, every leg landed (${sum.__bb ? sum.__bb[0] + ' of ' + sum.__bb[1] : 0})</div></div>
     ${sum.__lplayer ? `<div class="box"><div class="n">${pct(sum.__lplayer)}</div><div class="l">Live players to be booked who were (${sum.__lplayer[0]} of ${sum.__lplayer[1]}; they said ${Math.round(sum.__lplayer[2] / sum.__lplayer[1])}% on average)</div></div>` : ''}</div>
     <div class="m"><ul>${markets.map(k => `<li><span>${esc(k)}</span><b>${pct(sum[k])} <i class="na" style="font-style:normal;font-weight:400">(${sum[k][0]}/${sum[k][1]})</i></b></li>`).join('')}</ul></div>
@@ -294,10 +308,10 @@ function trackView() {
   let day = '';
   games.forEach(g => {
     if (g.date !== day) { day = g.date; html += `<div class="day">${dayName(day)}</div>`; }
-    const safe = g.tips.filter(t => !t.value && !t.live && t.key !== 'bet_builder'), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
+    const safe = g.tips.filter(t => !t.value && !t.bv && !t.live && t.key !== 'bet_builder'), ok = safe.filter(t => t.hit === true).length, n = safe.filter(t => t.hit !== null).length;
     html += `<details class="m"><summary><div class="mt"><span class="teams">${esc(g.home)} <span class="score">${esc(g.score)}</span> ${esc(g.away)}</span>
       <span class="time ${n && ok / n >= 0.6 ? 'ok' : ''}">${ok}/${n} right</span></div><div class="sub">${esc(g.league)}${g.replay ? ' &middot; replay' : ' &middot; live tip'}</div></summary>
-      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">higher price</i>' : ''}${t.legs ? `Bet builder (${t.chance}%):${t.legs.map(x => `<br><i style="margin:0 6px 0 10px">${x.hit === true ? '&#10004;' : x.hit === false ? '&#10008;' : '&ndash;'}</i>${esc(x.pick)} <i>(${esc(x.actual)})</i>`).join('')}` : `${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i>`}</span>
+      <ul class="res" style="margin-top:8px">${g.tips.map(t => `<li><span>${t.value ? '<i style="margin:0 6px 0 0">higher price</i>' : ''}${t.bv ? `<i style="margin:0 6px 0 0">bookmaker value at ${t.book_price ? (+t.book_price[0]).toFixed(2) : '?'}</i>` : ''}${t.legs ? `Bet builder (${t.chance}%):${t.legs.map(x => `<br><i style="margin:0 6px 0 10px">${x.hit === true ? '&#10004;' : x.hit === false ? '&#10008;' : '&ndash;'}</i>${esc(x.pick)} <i>(${esc(x.actual)})</i>`).join('')}` : `${esc(t.label)}: ${esc(t.pick)}<i>${t.actual === '–' ? '' : '(' + esc(t.actual) + ')'}</i>`}</span>
       <b class="${t.hit === true ? 'ok' : t.hit === false ? 'no' : 'na'}">${t.hit === true ? '&#10004;' : t.hit === false ? '&#10008;' : '&ndash;'}</b></li>`).join('')}</ul></details>`;
   });
   return html;

@@ -35,7 +35,7 @@ def learn(track):
         for t in game["tips"]:
             if t["hit"] is None or t.get("chance") is None or t.get("key") is None or t.get("live"):
                 continue
-            if t["key"] == "bet_builder":      # combinations: scored, not learned from
+            if t["key"] == "bet_builder" or t.get("bv"):      # combinations / bookmaker-price picks: scored, not learned from
                 continue
             kind = "player" if t["key"] == "player_booked" else "pstat" if t["key"].startswith("pl_") else "value" if t.get("value") else "safe"
             s = g[kind].setdefault(t["key"], [0, 0, 0.0])
