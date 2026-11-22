@@ -3606,99 +3606,56 @@
 ]
 },
 "SC0": {
-"fetched": "2026-11-21T19:41+00:00",
+"fetched": "2026-11-22T21:20+00:00",
 "events": [
-{
-"home": "Motherwell",
-"away": "Rangers",
-"time": "2026-11-21T20:00:00Z",
-"books": 20,
-"best": {
-"H": [
-5.5,
-"Paddy Power"
-],
-"A": [
-1.57,
-"Coral"
-],
-"D": [
-4.75,
-"Sky Bet"
-],
-"over_2.5": [
-1.44,
-"William Hill"
-],
-"under_2.5": [
-2.6,
-"William Hill"
-],
-"over_3.5": [
-2.23,
-"Grosvenor"
-],
-"under_3.5": [
-1.67,
-"LeoVegas"
-]
-},
-"fair": {
-"H": 17.9,
-"D": 20.9,
-"A": 61.3,
-"over_3.5": 42.4,
-"under_3.5": 57.6
-}
-},
 {
 "home": "Hibernian",
 "away": "Dundee FC",
 "time": "2026-11-24T19:45:00Z",
-"books": 17,
+"books": 18,
 "best": {
 "A": [
 5.0,
-"Paddy Power"
+"Coral"
 ],
 "H": [
 1.66,
 "LiveScore Bet"
 ],
 "D": [
-4.35,
+4.25,
 "Unibet (UK)"
 ],
 "over_2.5": [
 1.6,
-"Grosvenor"
+"LeoVegas"
 ],
 "under_2.5": [
-2.38,
+2.3,
 "LeoVegas"
 ]
 },
 "fair": {
-"H": 57.5,
-"D": 22.5,
-"A": 20.0,
-"over_2.5": 59.4,
-"under_2.5": 40.6
+"H": 57.7,
+"D": 22.7,
+"A": 19.6,
+"over_2.5": 59.0,
+"under_2.5": 41.0
 }
 },
 {
 "home": "Rangers",
 "away": "Aberdeen",
 "time": "2026-11-24T20:00:00Z",
-"books": 17,
+"books": 20,
 "best": {
 "A": [
-11.0,
-"Paddy Power"
+10.5,
+"Unibet (UK)"
 ],
 "H": [
-1.26,
-"Virgin Bet"
+1.28,
+"Ladbrokes"
 ],
 "D": [
 6.5,
@@ -3711,12 +3668,22 @@
 "under_3.5": [
 1.73,
 "LeoVegas"
+],
+"over_2.5": [
+1.4,
+"William Hill"
+],
+"under_2.5": [
+2.75,
+"William Hill"
 ]
 },
 "fair": {
-"H": 75.1,
-"D": 15.6,
-"A": 9.2
+"H": 74.9,
+"D": 15.5,
+"A": 9.6,
+"over_3.5": 44.9,
+"under_3.5": 55.1
 }
 },
 {
@@ -3747,9 +3714,9 @@
 ]
 },
 "fair": {
-"H": 48.3,
+"H": 48.4,
 "D": 25.6,
-"A": 26.2
+"A": 26.0
 }
 },
 {
@@ -3759,16 +3726,16 @@
 "books": 17,
 "best": {
 "H": [
-1.84,
+1.75,
 "Virgin Bet"
 ],
 "A": [
-4.33,
-"Paddy Power"
+4.5,
+"LeoVegas"
 ],
 "D": [
-4.1,
-"LeoVegas"
+4.2,
+"Ladbrokes"
 ],
 "over_3.5": [
 2.3,
@@ -3783,14 +3750,14 @@
 "William Hill"
 ],
 "under_2.5": [
-2.23,
+2.28,
 "Grosvenor"
 ]
 },
 "fair": {
-"H": 53.8,
-"D": 23.5,
-"A": 22.8
+"H": 55.1,
+"D": 23.2,
+"A": 21.7
 }
 },
 {
@@ -3821,9 +3788,9 @@
 ]
 },
 "fair": {
-"H": 72.0,
+"H": 71.9,
 "D": 16.9,
-"A": 11.1
+"A": 11.2
 }
 },
 {
@@ -3837,8 +3804,8 @@
 "LiveScore Bet"
 ],
 "H": [
-2.15,
-"888sport"
+2.1,
+"LeoVegas"
 ],
 "D": [
 3.75,
@@ -3855,8 +3822,8 @@
 },
 "fair": {
 "H": 44.7,
-"D": 25.5,
-"A": 29.7,
+"D": 25.8,
+"A": 29.5,
 "over_2.5": 60.1,
 "under_2.5": 39.9
 }
@@ -3877,7 +3844,7 @@
 ],
 "D": [
 3.75,
-"LeoVegas"
+"Coral"
 ],
 "over_2.5": [
 1.65,
@@ -3898,33 +3865,41 @@
 "home": "Hearts",
 "away": "Celtic",
 "time": "2026-11-29T15:00:00Z",
-"books": 8,
+"books": 17,
 "best": {
 "A": [
-1.88,
-"LeoVegas"
+1.96,
+"LiveScore Bet"
 ],
 "H": [
 3.5,
 "Paddy Power"
 ],
 "D": [
-4.0,
+4.1,
 "LeoVegas"
 ],
 "over_3.5": [
-2.08,
+2.1,
 "LeoVegas"
 ],
 "under_3.5": [
-1.67,
+1.73,
 "LeoVegas"
+],
+"over_2.5": [
+1.4,
+"William Hill"
+],
+"under_2.5": [
+2.38,
+"Grosvenor"
 ]
 },
 "fair": {
-"H": 27.5,
-"D": 23.3,
-"A": 49.2
+"H": 27.3,
+"D": 23.6,
+"A": 49.1
 }
 }
 ]
@@ -5179,5 +5154,5 @@
 ]
 }
 },
-"remaining": 436
+"remaining": 434
 }
