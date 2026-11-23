@@ -7,7 +7,7 @@ const URL = "https://api.github.com/repos/simpledude1234/football-predictor/acti
 export default {
   async scheduled(event, env, ctx) {
     // the line-up timers pass their timer, so the build only runs when a kick-off is near
-    const lineup = event.cron.startsWith("10,40");
+    const lineup = event.cron.startsWith("40 ");
     // tidy the token: copying it often picks up spaces, line breaks or invisible characters
     const token = String(env.GITHUB_TOKEN || "").replace(/[^A-Za-z0-9_]/g, "");
     const r = await fetch(URL, {
