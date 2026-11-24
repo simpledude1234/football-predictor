@@ -6573,7 +6573,732 @@
 }
 }
 ]
+},
+"UEL": {
+"fetched": "2026-11-24T17:55+00:00",
+"events": [
+{
+"home": "Olympiakos Piraeus",
+"away": "AC Milan",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+2.5,
+"Betfred (UK)"
+],
+"H": [
+2.9,
+"Casumo"
+],
+"D": [
+3.4,
+"Betfred (UK)"
+],
+"over_2.5": [
+1.88,
+"Grosvenor"
+],
+"under_2.5": [
+1.92,
+"LeoVegas"
+]
+},
+"fair": {
+"H": 33.4,
+"D": 27.7,
+"A": 38.9,
+"over_2.5": 51.1,
+"under_2.5": 48.9
 }
 },
-"remaining": 410
+{
+"home": "Dinamo Zagreb",
+"away": "Bayer Leverkusen",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+1.73,
+"Casumo"
+],
+"H": [
+4.5,
+"Betfred (UK)"
+],
+"D": [
+4.2,
+"Betfred (UK)"
+],
+"over_3.5": [
+2.12,
+"Grosvenor"
+],
+"under_3.5": [
+1.67,
+"LeoVegas"
+],
+"over_2.5": [
+1.44,
+"William Hill"
+],
+"under_2.5": [
+2.62,
+"William Hill"
+]
+},
+"fair": {
+"H": 22.4,
+"D": 22.6,
+"A": 55.1,
+"over_3.5": 44.0,
+"under_3.5": 56.0
+}
+},
+{
+"home": "Viktoria Plzeň",
+"away": "Benfica",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+1.5,
+"Betfred (UK)"
+],
+"H": [
+6.0,
+"Betfred (UK)"
+],
+"D": [
+5.0,
+"Casumo"
+],
+"over_3.5": [
+2.08,
+"Grosvenor"
+],
+"under_3.5": [
+1.7,
+"LeoVegas"
+],
+"over_2.5": [
+1.4,
+"William Hill"
+],
+"under_2.5": [
+2.7,
+"William Hill"
+]
+},
+"fair": {
+"H": 16.7,
+"D": 19.5,
+"A": 63.8,
+"over_3.5": 45.5,
+"under_3.5": 54.5
+}
+},
+{
+"home": "Besiktas JK",
+"away": "Hapoel Be'er Sheva",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"H": [
+1.22,
+"Betfred (UK)"
+],
+"A": [
+11.0,
+"William Hill"
+],
+"D": [
+7.0,
+"Ladbrokes"
+],
+"over_3.5": [
+1.85,
+"Casumo"
+],
+"under_3.5": [
+1.91,
+"Casumo"
+],
+"over_2.5": [
+1.33,
+"William Hill"
+],
+"under_2.5": [
+3.1,
+"William Hill"
+]
+},
+"fair": {
+"H": 77.5,
+"D": 13.9,
+"A": 8.6,
+"over_3.5": 50.6,
+"under_3.5": 49.4
+}
+},
+{
+"home": "Celta Vigo",
+"away": "Bournemouth",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+2.05,
+"Betfred (UK)"
+],
+"H": [
+3.6,
+"Betfred (UK)"
+],
+"D": [
+3.6,
+"Coral"
+],
+"over_2.5": [
+1.91,
+"Casumo"
+],
+"under_2.5": [
+1.91,
+"William Hill"
+]
+},
+"fair": {
+"H": 26.5,
+"D": 27.1,
+"A": 46.4,
+"over_2.5": 50.6,
+"under_2.5": 49.4
+}
+},
+{
+"home": "Salzburg",
+"away": "FC Ararat-Armenia",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+14.0,
+"Paddy Power"
+],
+"H": [
+1.17,
+"Betfred (UK)"
+],
+"D": [
+8.5,
+"Paddy Power"
+],
+"over_3.5": [
+1.76,
+"Grosvenor"
+],
+"under_3.5": [
+2.0,
+"LeoVegas"
+],
+"over_2.5": [
+1.25,
+"William Hill"
+],
+"under_2.5": [
+3.5,
+"William Hill"
+]
+},
+"fair": {
+"H": 80.4,
+"D": 12.2,
+"A": 7.4
+}
+},
+{
+"home": "Union Saint-Gilloise",
+"away": "Lech Poznań",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"A": [
+7.5,
+"Betfred (UK)"
+],
+"H": [
+1.38,
+"Virgin Bet"
+],
+"D": [
+5.5,
+"Betfred (UK)"
+],
+"over_3.5": [
+2.1,
+"Grosvenor"
+],
+"under_3.5": [
+1.68,
+"Grosvenor"
+],
+"over_2.5": [
+1.4,
+"William Hill"
+],
+"under_2.5": [
+2.7,
+"William Hill"
+]
+},
+"fair": {
+"H": 68.5,
+"D": 18.2,
+"A": 13.3
+}
+},
+{
+"home": "Marseille",
+"away": "PFC Levski Sofia",
+"time": "2026-11-26T17:45:00Z",
+"books": 19,
+"best": {
+"H": [
+1.44,
+"Betfred (UK)"
+],
+"A": [
+7.0,
+"Betfred (UK)"
+],
+"D": [
+4.75,
+"Betway"
+],
+"over_2.5": [
+1.67,
+"William Hill"
+],
+"under_2.5": [
+2.15,
+"Grosvenor"
+]
+},
+"fair": {
+"H": 65.9,
+"D": 20.3,
+"A": 13.8,
+"over_2.5": 56.3,
+"under_2.5": 43.7
+}
+},
+{
+"home": "Sparta Prague",
+"away": "AZ Alkmaar",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+2.4,
+"Betfred (UK)"
+],
+"H": [
+2.8,
+"Betfred (UK)"
+],
+"D": [
+3.6,
+"BoyleSports"
+],
+"over_2.5": [
+1.65,
+"William Hill"
+],
+"under_2.5": [
+2.2,
+"Grosvenor"
+]
+},
+"fair": {
+"H": 34.1,
+"D": 26.2,
+"A": 39.7,
+"over_2.5": 57.2,
+"under_2.5": 42.8
+}
+},
+{
+"home": "OFI Crete",
+"away": "Anderlecht",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+1.8,
+"Betfred (UK)"
+],
+"H": [
+4.33,
+"Casumo"
+],
+"D": [
+3.8,
+"BoyleSports"
+],
+"over_2.5": [
+1.67,
+"William Hill"
+],
+"under_2.5": [
+2.14,
+"Grosvenor"
+]
+},
+"fair": {
+"H": 22.6,
+"D": 25.0,
+"A": 52.4,
+"over_2.5": 56.1,
+"under_2.5": 43.9
+}
+},
+{
+"home": "Torreense",
+"away": "Celtic",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+1.7,
+"Ladbrokes"
+],
+"H": [
+4.6,
+"Betfred (UK)"
+],
+"D": [
+4.2,
+"Betfred (UK)"
+],
+"over_3.5": [
+2.25,
+"LeoVegas"
+],
+"under_3.5": [
+1.55,
+"LeoVegas"
+],
+"over_2.5": [
+1.53,
+"Grosvenor"
+],
+"under_2.5": [
+2.45,
+"William Hill"
+]
+},
+"fair": {
+"H": 21.2,
+"D": 22.7,
+"A": 56.2
+}
+},
+{
+"home": "Crystal Palace",
+"away": "Real Sociedad",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"H": [
+2.05,
+"Betfred (UK)"
+],
+"A": [
+3.3,
+"Betfred (UK)"
+],
+"D": [
+3.8,
+"Betway"
+],
+"over_3.5": [
+2.25,
+"LeoVegas"
+],
+"under_3.5": [
+1.55,
+"LeoVegas"
+],
+"over_2.5": [
+1.57,
+"William Hill"
+],
+"under_2.5": [
+2.35,
+"Grosvenor"
+]
+},
+"fair": {
+"H": 46.3,
+"D": 24.6,
+"A": 29.1
+}
+},
+{
+"home": "Ferencváros TC",
+"away": "NK Celje",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"H": [
+1.36,
+"Betfred (UK)"
+],
+"A": [
+8.0,
+"Betfred (UK)"
+],
+"D": [
+5.25,
+"Betway"
+],
+"over_3.5": [
+2.25,
+"Grosvenor"
+],
+"under_3.5": [
+1.6,
+"Grosvenor"
+],
+"over_2.5": [
+1.5,
+"William Hill"
+],
+"under_2.5": [
+2.45,
+"William Hill"
+]
+},
+"fair": {
+"H": 68.9,
+"D": 18.5,
+"A": 12.6
+}
+},
+{
+"home": "Sunderland",
+"away": "Jagiellonia Białystok",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+11.0,
+"BoyleSports"
+],
+"H": [
+1.25,
+"Betfred (UK)"
+],
+"D": [
+6.0,
+"Betfred (UK)"
+],
+"over_3.5": [
+2.25,
+"LeoVegas"
+],
+"under_3.5": [
+1.55,
+"LeoVegas"
+],
+"over_2.5": [
+1.57,
+"William Hill"
+],
+"under_2.5": [
+2.35,
+"Grosvenor"
+]
+},
+"fair": {
+"H": 75.6,
+"D": 15.8,
+"A": 8.6
+}
+},
+{
+"home": "Juventus",
+"away": "Omonoia FC",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"H": [
+1.2,
+"Ladbrokes"
+],
+"A": [
+13.0,
+"Betfred (UK)"
+],
+"D": [
+7.5,
+"Betfred (UK)"
+],
+"over_3.5": [
+2.04,
+"Grosvenor"
+],
+"under_3.5": [
+1.75,
+"LeoVegas"
+],
+"over_2.5": [
+1.36,
+"William Hill"
+],
+"under_2.5": [
+2.9,
+"William Hill"
+]
+},
+"fair": {
+"H": 79.3,
+"D": 13.3,
+"A": 7.4,
+"over_3.5": 46.9,
+"under_3.5": 53.1
+}
+},
+{
+"home": "Lyon",
+"away": "Lillestrom",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+13.0,
+"Betfred (UK)"
+],
+"H": [
+1.2,
+"Betfred (UK)"
+],
+"D": [
+7.5,
+"Casumo"
+],
+"over_3.5": [
+1.93,
+"Grosvenor"
+],
+"under_3.5": [
+1.85,
+"Casumo"
+],
+"over_2.5": [
+1.35,
+"William Hill"
+],
+"under_2.5": [
+3.0,
+"William Hill"
+]
+},
+"fair": {
+"H": 79.3,
+"D": 13.0,
+"A": 7.8,
+"over_3.5": 48.8,
+"under_3.5": 51.2
+}
+},
+{
+"home": "NEC Nijmegen",
+"away": "Rennes",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"H": [
+3.1,
+"Betfred (UK)"
+],
+"A": [
+2.15,
+"Betfred (UK)"
+],
+"D": [
+3.8,
+"Betway"
+],
+"over_3.5": [
+2.32,
+"Grosvenor"
+],
+"under_3.5": [
+1.57,
+"LeoVegas"
+],
+"over_2.5": [
+1.55,
+"William Hill"
+],
+"under_2.5": [
+2.38,
+"William Hill"
+]
+},
+"fair": {
+"H": 31.6,
+"D": 24.6,
+"A": 43.7
+}
+},
+{
+"home": "TSG Hoffenheim",
+"away": "SK Sturm Graz",
+"time": "2026-11-26T20:00:00Z",
+"books": 19,
+"best": {
+"A": [
+8.0,
+"Betfred (UK)"
+],
+"H": [
+1.35,
+"William Hill"
+],
+"D": [
+5.75,
+"Betway"
+],
+"over_3.5": [
+1.95,
+"Casumo"
+],
+"under_3.5": [
+1.83,
+"Casumo"
+],
+"over_2.5": [
+1.36,
+"William Hill"
+],
+"under_2.5": [
+2.88,
+"William Hill"
+]
+},
+"fair": {
+"H": 70.0,
+"D": 17.2,
+"A": 12.8,
+"over_3.5": 48.0,
+"under_3.5": 52.0
+}
+}
+]
+}
+},
+"remaining": 408
 }
