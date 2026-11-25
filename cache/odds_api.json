@@ -1,43 +1,8 @@
 {
 "leagues": {
 "D1": {
-"fetched": "2026-11-22T15:43+00:00",
+"fetched": "2026-11-25T19:43+00:00",
 "events": [
-{
-"home": "Werder Bremen",
-"away": "Hamburger SV",
-"time": "2026-11-22T16:30:00Z",
-"books": 21,
-"best": {
-"A": [
-5.5,
-"Sky Bet"
-],
-"H": [
-1.6,
-"Betfred (UK)"
-],
-"D": [
-4.33,
-"Coral"
-],
-"over_2.5": [
-1.71,
-"Grosvenor"
-],
-"under_2.5": [
-2.18,
-"LeoVegas"
-]
-},
-"fair": {
-"H": 59.4,
-"D": 22.7,
-"A": 17.9,
-"over_2.5": 56.6,
-"under_2.5": 43.4
-}
-},
 {
 "home": "Werder Bremen",
 "away": "Borussia Monchengladbach",
@@ -45,24 +10,24 @@
 "books": 21,
 "best": {
 "A": [
-4.2,
+4.33,
 "Betfred (UK)"
 ],
 "H": [
 1.75,
-"Unibet (UK)"
+"Ladbrokes"
 ],
 "D": [
-4.2,
-"Betfred (UK)"
+4.33,
+"Betway"
 ],
 "over_3.5": [
-2.25,
-"Grosvenor"
+2.18,
+"LeoVegas"
 ],
 "under_3.5": [
-1.67,
-"LeoVegas"
+1.65,
+"Grosvenor"
 ],
 "over_2.5": [
 1.44,
@@ -74,9 +39,9 @@
 ]
 },
 "fair": {
-"H": 53.5,
-"D": 22.9,
-"A": 23.6,
+"H": 54.3,
+"D": 22.6,
+"A": 23.1,
 "over_3.5": 42.7,
 "under_3.5": 57.3
 }
@@ -88,40 +53,38 @@
 "books": 21,
 "best": {
 "H": [
-2.0,
-"Coral"
+2.05,
+"Unibet (UK)"
 ],
 "A": [
 3.5,
-"Unibet (UK)"
-],
-"D": [
-4.0,
 "Betfred (UK)"
 ],
-"over_3.5": [
-2.2,
-"LeoVegas"
-],
-"under_3.5": [
-1.65,
-"Grosvenor"
+"D": [
+3.8,
+"Paddy Power"
 ],
 "over_2.5": [
-1.5,
-"William Hill"
+1.57,
+"LeoVegas"
 ],
 "under_2.5": [
-2.5,
+2.38,
 "William Hill"
+],
+"over_3.5": [
+2.32,
+"Grosvenor"
+],
+"under_3.5": [
+1.57,
+"Grosvenor"
 ]
 },
 "fair": {
-"H": 48.4,
-"D": 24.2,
-"A": 27.3,
-"over_3.5": 42.5,
-"under_3.5": 57.5
+"H": 47.5,
+"D": 24.7,
+"A": 27.7
 }
 },
 {
@@ -135,36 +98,36 @@
 "Coral"
 ],
 "H": [
-9.0,
-"Virgin Bet"
+10.0,
+"Betfred (UK)"
 ],
 "D": [
 7.0,
 "Sky Bet"
 ],
 "over_3.5": [
-1.64,
+1.7,
 "LeoVegas"
 ],
 "under_3.5": [
-2.23,
+2.2,
 "Grosvenor"
 ],
 "over_2.5": [
-1.22,
+1.25,
 "William Hill"
 ],
 "under_2.5": [
-4.0,
+3.75,
 "William Hill"
 ]
 },
 "fair": {
-"H": 10.7,
-"D": 13.9,
+"H": 10.3,
+"D": 14.2,
 "A": 75.4,
-"over_3.5": 57.2,
-"under_3.5": 42.8
+"over_3.5": 55.0,
+"under_3.5": 45.0
 }
 },
 {
@@ -174,19 +137,19 @@
 "books": 21,
 "best": {
 "A": [
-3.0,
+2.88,
 "Betfred (UK)"
 ],
 "H": [
-2.37,
-"Coral"
+2.4,
+"Unibet (UK)"
 ],
 "D": [
 3.5,
-"Betfred (UK)"
+"BoyleSports"
 ],
 "over_2.5": [
-1.8,
+1.75,
 "LeoVegas"
 ],
 "under_2.5": [
@@ -195,11 +158,11 @@
 ]
 },
 "fair": {
-"H": 39.9,
+"H": 39.1,
 "D": 27.2,
-"A": 32.9,
-"over_2.5": 52.8,
-"under_2.5": 47.2
+"A": 33.7,
+"over_2.5": 54.3,
+"under_2.5": 45.7
 }
 },
 {
@@ -210,15 +173,15 @@
 "best": {
 "H": [
 1.5,
-"Betfred (UK)"
+"Unibet (UK)"
 ],
 "A": [
 6.0,
 "Betfred (UK)"
 ],
 "D": [
-4.6,
-"Betfred (UK)"
+4.75,
+"Unibet (UK)"
 ],
 "over_3.5": [
 2.3,
@@ -238,11 +201,11 @@
 ]
 },
 "fair": {
-"H": 62.8,
-"D": 20.7,
-"A": 16.5,
-"over_3.5": 40.9,
-"under_3.5": 59.1
+"H": 63.0,
+"D": 20.6,
+"A": 16.4,
+"over_3.5": 40.7,
+"under_3.5": 59.3
 }
 },
 {
@@ -252,23 +215,23 @@
 "books": 21,
 "best": {
 "A": [
-4.2,
+4.0,
 "Betfred (UK)"
 ],
 "H": [
-1.7,
+1.75,
 "Unibet (UK)"
 ],
 "D": [
 4.5,
-"Unibet (UK)"
+"Betfred (UK)"
 ],
 "over_3.5": [
-1.68,
+1.67,
 "LeoVegas"
 ],
 "under_3.5": [
-2.23,
+2.15,
 "Grosvenor"
 ],
 "over_2.5": [
@@ -281,11 +244,9 @@
 ]
 },
 "fair": {
-"H": 55.6,
-"D": 20.7,
-"A": 23.7,
-"over_3.5": 56.2,
-"under_3.5": 43.8
+"H": 54.0,
+"D": 21.1,
+"A": 24.9
 }
 },
 {
@@ -295,67 +256,67 @@
 "books": 21,
 "best": {
 "A": [
-2.55,
-"Virgin Bet"
+2.4,
+"Betfred (UK)"
 ],
 "H": [
-2.6,
+2.75,
 "Betfred (UK)"
 ],
 "D": [
-4.0,
-"BoyleSports"
+3.8,
+"Ladbrokes"
 ],
 "over_3.5": [
-2.08,
-"Grosvenor"
-],
-"under_3.5": [
-1.75,
+2.15,
 "LeoVegas"
 ],
+"under_3.5": [
+1.7,
+"Grosvenor"
+],
 "over_2.5": [
-1.4,
+1.44,
 "William Hill"
 ],
 "under_2.5": [
-2.75,
+2.62,
 "William Hill"
 ]
 },
 "fair": {
-"H": 37.5,
-"D": 24.1,
-"A": 38.3,
-"over_3.5": 45.8,
-"under_3.5": 54.2
+"H": 35.4,
+"D": 24.7,
+"A": 40.0,
+"over_3.5": 43.8,
+"under_3.5": 56.2
 }
 },
 {
 "home": "TSG Hoffenheim",
 "away": "Augsburg",
 "time": "2026-11-29T16:30:00Z",
-"books": 19,
+"books": 21,
 "best": {
 "A": [
-4.2,
-"Betfred (UK)"
+4.0,
+"Unibet (UK)"
 ],
 "H": [
 1.73,
-"Coral"
+"Unibet (UK)"
 ],
 "D": [
 4.5,
-"Betfred (UK)"
+"Unibet (UK)"
 ],
 "over_3.5": [
-1.7,
+1.73,
 "LeoVegas"
 ],
 "under_3.5": [
-1.98,
-"LeoVegas"
+2.1,
+"Grosvenor"
 ],
 "over_2.5": [
 1.3,
@@ -367,32 +328,34 @@
 ]
 },
 "fair": {
-"H": 55.4,
-"D": 21.0,
-"A": 23.6
+"H": 54.9,
+"D": 21.1,
+"A": 24.0,
+"over_3.5": 54.6,
+"under_3.5": 45.4
 }
 },
 {
 "home": "Borussia Dortmund",
 "away": "Bayer Leverkusen",
 "time": "2026-11-29T18:30:00Z",
-"books": 19,
+"books": 21,
 "best": {
 "A": [
-3.1,
+3.2,
 "Betfred (UK)"
 ],
 "H": [
-2.1,
+2.15,
 "Unibet (UK)"
 ],
 "D": [
-4.0,
-"Betfred (UK)"
+3.9,
+"Unibet (UK)"
 ],
 "over_3.5": [
-2.05,
-"LeoVegas"
+2.28,
+"Grosvenor"
 ],
 "under_3.5": [
 1.67,
@@ -408,9 +371,370 @@
 ]
 },
 "fair": {
-"H": 44.8,
+"H": 44.5,
+"D": 24.4,
+"A": 31.1,
+"over_3.5": 42.7,
+"under_3.5": 57.3
+}
+},
+{
+"home": "Bayern Munich",
+"away": "SC Paderborn",
+"time": "2026-12-04T19:30:00Z",
+"books": 19,
+"best": {
+"H": [
+1.08,
+"Ladbrokes"
+],
+"A": [
+29.0,
+"888sport"
+],
+"D": [
+17.0,
+"Betway"
+],
+"over_4.5": [
+1.88,
+"LeoVegas"
+],
+"under_4.5": [
+1.91,
+"Grosvenor"
+],
+"over_2.5": [
+1.14,
+"William Hill"
+],
+"under_2.5": [
+5.0,
+"William Hill"
+]
+},
+"fair": {
+"H": 88.8,
+"D": 7.1,
+"A": 4.1,
+"over_4.5": 49.4,
+"under_4.5": 50.6
+}
+},
+{
+"home": "Augsburg",
+"away": "1. FC Köln",
+"time": "2026-12-05T14:30:00Z",
+"books": 18,
+"best": {
+"A": [
+3.2,
+"Grosvenor"
+],
+"H": [
+2.2,
+"Betfred (UK)"
+],
+"D": [
+4.0,
+"Coral"
+],
+"over_3.5": [
+2.0,
+"Grosvenor"
+],
+"under_3.5": [
+1.77,
+"Grosvenor"
+],
+"over_2.5": [
+1.4,
+"William Hill"
+],
+"under_2.5": [
+2.75,
+"William Hill"
+]
+},
+"fair": {
+"H": 43.8,
 "D": 24.1,
-"A": 31.1
+"A": 32.0
+}
+},
+{
+"home": "Bayer Leverkusen",
+"away": "Borussia Monchengladbach",
+"time": "2026-12-05T14:30:00Z",
+"books": 18,
+"best": {
+"H": [
+1.3,
+"Ladbrokes"
+],
+"A": [
+9.0,
+"Virgin Bet"
+],
+"D": [
+6.25,
+"Sky Bet"
+],
+"over_3.5": [
+1.75,
+"Grosvenor"
+],
+"under_3.5": [
+2.04,
+"Grosvenor"
+],
+"over_2.5": [
+1.29,
+"William Hill"
+],
+"under_2.5": [
+3.5,
+"William Hill"
+]
+},
+"fair": {
+"H": 72.5,
+"D": 15.6,
+"A": 11.8
+}
+},
+{
+"home": "RB Leipzig",
+"away": "FSV Mainz 05",
+"time": "2026-12-05T14:30:00Z",
+"books": 19,
+"best": {
+"A": [
+5.0,
+"Betfred (UK)"
+],
+"H": [
+1.62,
+"Grosvenor"
+],
+"D": [
+4.6,
+"Betfred (UK)"
+],
+"over_3.5": [
+1.83,
+"Grosvenor"
+],
+"under_3.5": [
+1.92,
+"Grosvenor"
+],
+"over_2.5": [
+1.3,
+"William Hill"
+],
+"under_2.5": [
+3.4,
+"William Hill"
+]
+},
+"fair": {
+"H": 59.2,
+"D": 20.5,
+"A": 20.3,
+"over_3.5": 51.0,
+"under_3.5": 49.0
+}
+},
+{
+"home": "Union Berlin",
+"away": "Hamburger SV",
+"time": "2026-12-05T14:30:00Z",
+"books": 19,
+"best": {
+"A": [
+2.88,
+"Grosvenor"
+],
+"H": [
+2.5,
+"Betfred (UK)"
+],
+"D": [
+3.6,
+"Coral"
+],
+"over_2.5": [
+1.75,
+"Grosvenor"
+],
+"under_2.5": [
+2.12,
+"LeoVegas"
+]
+},
+"fair": {
+"H": 38.6,
+"D": 26.6,
+"A": 34.8,
+"over_2.5": 55.4,
+"under_2.5": 44.6
+}
+},
+{
+"home": "SC Freiburg",
+"away": "TSG Hoffenheim",
+"time": "2026-12-05T14:30:00Z",
+"books": 19,
+"best": {
+"H": [
+2.1,
+"Betfred (UK)"
+],
+"A": [
+3.25,
+"Virgin Bet"
+],
+"D": [
+3.8,
+"Sky Bet"
+],
+"over_3.5": [
+2.15,
+"LeoVegas"
+],
+"under_3.5": [
+1.7,
+"Grosvenor"
+],
+"over_2.5": [
+1.5,
+"William Hill"
+],
+"under_2.5": [
+2.5,
+"William Hill"
+]
+},
+"fair": {
+"H": 45.2,
+"D": 24.6,
+"A": 30.3
+}
+},
+{
+"home": "Eintracht Frankfurt",
+"away": "Werder Bremen",
+"time": "2026-12-05T17:30:00Z",
+"books": 19,
+"best": {
+"H": [
+2.1,
+"Ladbrokes"
+],
+"A": [
+3.2,
+"Betfred (UK)"
+],
+"D": [
+4.0,
+"Betfred (UK)"
+],
+"over_3.5": [
+1.92,
+"LeoVegas"
+],
+"under_3.5": [
+1.77,
+"LeoVegas"
+],
+"over_2.5": [
+1.36,
+"William Hill"
+],
+"under_2.5": [
+3.0,
+"William Hill"
+]
+},
+"fair": {
+"H": 45.3,
+"D": 23.6,
+"A": 31.0
+}
+},
+{
+"home": "FC Schalke 04",
+"away": "Borussia Dortmund",
+"time": "2026-12-06T14:30:00Z",
+"books": 14,
+"best": {
+"A": [
+1.75,
+"Ladbrokes"
+],
+"H": [
+4.33,
+"Betfred (UK)"
+],
+"D": [
+4.0,
+"Betfred (UK)"
+],
+"over_2.5": [
+1.55,
+"LeoVegas"
+],
+"under_2.5": [
+2.38,
+"William Hill"
+]
+},
+"fair": {
+"H": 22.4,
+"D": 23.9,
+"A": 53.7
+}
+},
+{
+"home": "Elversberg",
+"away": "VfB Stuttgart",
+"time": "2026-12-06T16:30:00Z",
+"books": 14,
+"best": {
+"H": [
+3.75,
+"Betfred (UK)"
+],
+"A": [
+1.85,
+"Coral"
+],
+"D": [
+4.33,
+"Sky Bet"
+],
+"over_3.5": [
+1.83,
+"Casumo"
+],
+"under_3.5": [
+1.85,
+"LeoVegas"
+],
+"over_2.5": [
+1.33,
+"William Hill"
+],
+"under_2.5": [
+3.25,
+"William Hill"
+]
+},
+"fair": {
+"H": 26.5,
+"D": 22.2,
+"A": 51.2
 }
 }
 ]
@@ -6433,5 +6757,5 @@
 ]
 }
 },
-"remaining": 398
+"remaining": 396
 }
