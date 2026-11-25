@@ -2,6 +2,62 @@
  "updated": "2026-11-25",
  "days": 120,
  "safe": {
+  "result": {
+   "n": 89,
+   "landed": 77.5,
+   "said": 77.2,
+   "move": 0.002,
+   "hide": false
+  },
+  "away_sot": {
+   "n": 367,
+   "landed": 78.7,
+   "said": 78.8,
+   "move": -0.001,
+   "hide": false
+  },
+  "home_fouls": {
+   "n": 417,
+   "landed": 79.1,
+   "said": 78.4,
+   "move": 0.006,
+   "hide": false
+  },
+  "away_fouls": {
+   "n": 446,
+   "landed": 79.8,
+   "said": 79.6,
+   "move": 0.002,
+   "hide": false
+  },
+  "total_offsides": {
+   "n": 93,
+   "landed": 78.5,
+   "said": 78.4,
+   "move": 0.0,
+   "hide": false
+  },
+  "home_offsides": {
+   "n": 66,
+   "landed": 77.3,
+   "said": 78.5,
+   "move": -0.005,
+   "hide": false
+  },
+  "away_offsides": {
+   "n": 58,
+   "landed": 82.8,
+   "said": 77.7,
+   "move": 0.018,
+   "hide": false
+  },
+  "away_tackles": {
+   "n": 105,
+   "landed": 77.1,
+   "said": 76.0,
+   "move": 0.006,
+   "hide": false
+  },
   "total_shots": {
    "n": 390,
    "landed": 78.2,
@@ -16,13 +72,6 @@
    "move": -0.005,
    "hide": false
   },
-  "away_sot": {
-   "n": 366,
-   "landed": 79.0,
-   "said": 78.8,
-   "move": 0.001,
-   "hide": false
-  },
   "away_cards": {
    "n": 171,
    "landed": 79.5,
@@ -30,53 +79,11 @@
    "move": 0.003,
    "hide": false
   },
-  "home_fouls": {
-   "n": 416,
-   "landed": 79.1,
-   "said": 78.4,
-   "move": 0.006,
-   "hide": false
-  },
-  "away_fouls": {
-   "n": 445,
-   "landed": 79.8,
-   "said": 79.6,
-   "move": 0.001,
-   "hide": false
-  },
-  "total_offsides": {
-   "n": 92,
-   "landed": 79.3,
-   "said": 78.5,
-   "move": 0.004,
-   "hide": false
-  },
-  "home_offsides": {
-   "n": 65,
-   "landed": 76.9,
-   "said": 78.6,
-   "move": -0.006,
-   "hide": false
-  },
   "away_corners": {
    "n": 94,
    "landed": 74.5,
    "said": 78.0,
    "move": -0.017,
-   "hide": false
-  },
-  "away_tackles": {
-   "n": 104,
-   "landed": 76.9,
-   "said": 76.0,
-   "move": 0.005,
-   "hide": false
-  },
-  "away_offsides": {
-   "n": 57,
-   "landed": 84.2,
-   "said": 77.8,
-   "move": 0.023,
    "hide": false
   },
   "total_corners": {
@@ -91,13 +98,6 @@
    "landed": 74.8,
    "said": 77.4,
    "move": -0.015,
-   "hide": false
-  },
-  "result": {
-   "n": 88,
-   "landed": 78.4,
-   "said": 77.1,
-   "move": 0.006,
    "hide": false
   },
   "home_sot": {
@@ -158,11 +158,32 @@
   }
  },
  "value": {
+  "total_sot": {
+   "n": 58,
+   "landed": 56.9,
+   "said": 62.5,
+   "move": -0.02,
+   "hide": false
+  },
+  "away_sot": {
+   "n": 106,
+   "landed": 70.8,
+   "said": 65.1,
+   "move": 0.029,
+   "hide": false
+  },
+  "total_cards": {
+   "n": 59,
+   "landed": 61.0,
+   "said": 62.7,
+   "move": -0.006,
+   "hide": false
+  },
   "home_offsides": {
-   "n": 109,
-   "landed": 67.9,
-   "said": 63.6,
-   "move": 0.023,
+   "n": 110,
+   "landed": 68.2,
+   "said": 63.5,
+   "move": 0.024,
    "hide": false
   },
   "away_offsides": {
@@ -186,20 +207,6 @@
    "move": -0.018,
    "hide": false
   },
-  "away_sot": {
-   "n": 105,
-   "landed": 71.4,
-   "said": 65.0,
-   "move": 0.033,
-   "hide": false
-  },
-  "total_cards": {
-   "n": 58,
-   "landed": 62.1,
-   "said": 62.8,
-   "move": -0.003,
-   "hide": false
-  },
   "away_cards": {
    "n": 93,
    "landed": 61.3,
@@ -212,13 +219,6 @@
    "landed": 63.6,
    "said": 61.4,
    "move": 0.007,
-   "hide": false
-  },
-  "total_sot": {
-   "n": 57,
-   "landed": 56.1,
-   "said": 62.5,
-   "move": -0.023,
    "hide": false
   },
   "total_corners": {
@@ -259,7 +259,7 @@
  },
  "player": {
   "player_booked": {
-   "n": 1471,
+   "n": 1474,
    "landed": 20.4,
    "said": 21.2,
    "move": -0.008,
@@ -267,17 +267,17 @@
   }
  },
  "pstat": {
-  "pl_shots": {
-   "n": 215,
-   "landed": 61.4,
-   "said": 59.1,
-   "move": 0.016,
-   "hide": false
-  },
   "pl_fwon": {
-   "n": 1042,
+   "n": 1047,
    "landed": 60.4,
    "said": 58.5,
+   "move": 0.017,
+   "hide": false
+  },
+  "pl_shots": {
+   "n": 216,
+   "landed": 61.6,
+   "said": 59.0,
    "move": 0.017,
    "hide": false
   },
