@@ -391121,7 +391121,7 @@
 "pick": "Over 25.5",
 "side": "over",
 "line": 25.5,
-"chance": 77,
+"chance": 76,
 "normal": 59,
 "star": true,
 "estimate": false
@@ -391133,7 +391133,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 81,
+"chance": 80,
 "normal": 73,
 "star": false,
 "estimate": false
@@ -391145,7 +391145,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 74,
+"chance": 73,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -391207,18 +391207,18 @@
 "pick": "Over 8.5",
 "side": "over",
 "line": 8.5,
-"chance": 80,
+"chance": 81,
 "normal": 69,
-"star": false,
+"star": true,
 "estimate": false
 },
 {
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "Werder Bremen goal kicks",
-"pick": "Over 5.5",
+"pick": "Over 4.5",
 "side": "over",
-"line": 5.5,
+"line": 4.5,
 "star": false,
 "estimate": true
 },
@@ -391355,20 +391355,8 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 62,
-"min_odds": 1.65,
-"value": true,
-"star": false
-},
-{
-"key": "away_sot",
-"market": "Higher price: Away shots on target",
-"label": "M'gladbach shots on target",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
-"chance": 59,
-"min_odds": 1.7,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -391403,7 +391391,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 59,
+"chance": 58,
 "min_odds": 1.75,
 "value": true,
 "star": false
@@ -391481,7 +391469,7 @@
 "player": "Chuki",
 "team": "home",
 "stat": "fwon",
-"chance": 61,
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -391495,7 +391483,7 @@
 "player": "Lukas Ullrich",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 62,
 "confirmed": false,
 "star": false
 },
@@ -391509,7 +391497,21 @@
 "player": "Wael Mohya",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Ludovit Reis (Werder Bremen): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Ludovit Reis",
+"team": "home",
+"stat": "fwon",
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -391531,27 +391533,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Ludovit Reis (Werder Bremen): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Ludovit Reis",
-"team": "home",
-"stat": "fwon",
-"chance": 59,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
 "pick": "Youri Regeer (Werder Bremen): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Youri Regeer",
 "team": "home",
 "stat": "fwon",
-"chance": 57,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -391559,16 +391547,16 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "M'gladbach fouls: Over 8.5 + Match result: Werder Bremen or draw (77%) + Total shots: Over 25.5 + Zento Uno (M'gladbach): 1+ foul",
+"pick": "Total shots on target: Over 7.5 + Match result: Werder Bremen or draw (77%) + Total tackles: Under 36.5",
 "side": null,
 "line": null,
 "legs": [
 {
-"key": "away_fouls",
-"label": "M'gladbach fouls",
-"pick": "Over 8.5",
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 7.5",
 "side": "over",
-"line": 8.5,
+"line": 7.5,
 "chance": 80,
 "player": null,
 "team": null,
@@ -391588,73 +391576,61 @@
 "value": null
 },
 {
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Over 25.5",
-"side": "over",
-"line": 25.5,
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 36.5",
+"side": "under",
+"line": 36.5,
 "chance": 77,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
-},
-{
-"key": "pl_fouls",
-"label": "Player fouls",
-"pick": "Zento Uno (M'gladbach): 1+ foul",
-"side": "over",
-"line": 1,
-"chance": 75,
-"player": "Zento Uno",
-"team": "away",
-"stat": "fouls",
-"value": null
 }
 ],
-"chance": 38,
+"chance": 45,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-2.09,
-1.31
+2.04,
+1.27
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 29.73,
+"expected": 29.58,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 10.46,
+"expected": 10.31,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 6.4,
+"expected": 6.29,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.04,
+"expected": 3.95,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.82,
+"expected": 1.83,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 2.12,
+"expected": 2.13,
 "phi": 0.85,
 "estimate": false
 },
@@ -391666,31 +391642,31 @@
 },
 {
 "key": "home_fouls",
-"expected": 9.65,
+"expected": 9.67,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.41,
+"expected": 11.44,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 7.37,
+"expected": 7.26,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.39,
+"expected": 7.3,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.4,
+"expected": 3.3,
 "phi": 1.0,
 "estimate": false
 },
@@ -391750,60 +391726,60 @@
 },
 {
 "key": "free_kicks",
-"expected": 23.73,
+"expected": 23.78,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Amos Pieper": 0.156,
-"Arthur": 0.2057,
-"Cedric Itten": 0.1574,
-"Chuki": 0.203,
-"Dariusz Stalmach": 0.2141,
-"Eren Dinkci": 0.124,
-"Justin Njinmah": 0.1581,
-"Karl Hein": 0.1155,
-"Ludovit Reis": 0.1981,
-"Marco Friedl": 0.156,
-"Marco Grüll": 0.2057,
-"Mick Schmetgens": 0.1502,
-"Mitchell Weiser": 0.1505,
-"Niclas Füllkrug": 0.156,
-"Olivier Deman": 0.242,
-"Oskar Wójcik": 0.1628,
-"Paul Bright Max Erevbenagie": 0.1628,
-"Senne Lynen": 0.1581,
-"Youri Regeer": 0.2057,
-"": 0.1783
+"Amos Pieper": 0.1569,
+"Arthur": 0.2068,
+"Cedric Itten": 0.1582,
+"Chuki": 0.2041,
+"Dariusz Stalmach": 0.2152,
+"Eren Dinkci": 0.1247,
+"Justin Njinmah": 0.159,
+"Karl Hein": 0.1162,
+"Ludovit Reis": 0.1992,
+"Marco Friedl": 0.1569,
+"Marco Grüll": 0.2068,
+"Mick Schmetgens": 0.151,
+"Mitchell Weiser": 0.1513,
+"Niclas Füllkrug": 0.1569,
+"Olivier Deman": 0.2433,
+"Oskar Wójcik": 0.1637,
+"Paul Bright Max Erevbenagie": 0.1637,
+"Senne Lynen": 0.159,
+"Youri Regeer": 0.2068,
+"": 0.1793
 },
 "away": {
-"Daiki Hashioka": 0.1363,
-"Daniel Batz": 0.1084,
-"David Herold": 0.1116,
-"Fabio Chiarodia": 0.1325,
-"Florian Neuhaus": 0.1574,
-"Franck Honorat": 0.1034,
-"Hugo Bolin": 0.1237,
-"Iaia Manco Danfa": 0.1238,
-"Isac Lidberg": 0.0987,
-"Jens Castrop": 0.1572,
-"Joe Scally": 0.1435,
-"Kevin Diks": 0.2264,
-"Kou Itakura": 0.1325,
-"Lion Schweers": 0.1238,
-"Lukas Ullrich": 0.1512,
-"Mathieu Nguefack": 0.1492,
-"Moritz Nicolas": 0.0913,
-"Nicolas Kühn": 0.1193,
-"Philipp Sander": 0.1104,
-"Robin Hack": 0.1217,
-"Shuto Machino": 0.2067,
-"Wael Mohya": 0.1187,
-"Yukhym Konoplia": 0.1238,
-"Zento Uno": 0.2072,
-"": 0.1261
+"Daiki Hashioka": 0.1369,
+"Daniel Batz": 0.1089,
+"David Herold": 0.1121,
+"Fabio Chiarodia": 0.1331,
+"Florian Neuhaus": 0.1582,
+"Franck Honorat": 0.1038,
+"Hugo Bolin": 0.1243,
+"Iaia Manco Danfa": 0.1243,
+"Isac Lidberg": 0.0992,
+"Jens Castrop": 0.158,
+"Joe Scally": 0.1442,
+"Kevin Diks": 0.2275,
+"Kou Itakura": 0.1331,
+"Lion Schweers": 0.1243,
+"Lukas Ullrich": 0.1519,
+"Mathieu Nguefack": 0.1499,
+"Moritz Nicolas": 0.0918,
+"Nicolas Kühn": 0.1199,
+"Philipp Sander": 0.1109,
+"Robin Hack": 0.1223,
+"Shuto Machino": 0.2077,
+"Wael Mohya": 0.1192,
+"Yukhym Konoplia": 0.1243,
+"Zento Uno": 0.2082,
+"": 0.1267
 }
 },
 "fh": {
@@ -391885,7 +391861,7 @@
 "pick": "Under 10.5",
 "side": "under",
 "line": 10.5,
-"chance": 76,
+"chance": 77,
 "normal": 68,
 "star": false,
 "estimate": false
@@ -391897,7 +391873,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 76,
+"chance": 77,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -391909,7 +391885,7 @@
 "pick": "Over 2.5",
 "side": "over",
 "line": 2.5,
-"chance": 81,
+"chance": 80,
 "normal": 67,
 "star": true,
 "estimate": false
@@ -392111,7 +392087,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 67,
+"chance": 66,
 "min_odds": 1.55,
 "value": true,
 "star": false
@@ -392255,7 +392231,21 @@
 "player": "Ludovic Ajorque",
 "team": "home",
 "stat": "sot",
-"chance": 57,
+"chance": 56,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Gautier Lloris (Brest): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Gautier Lloris",
+"team": "home",
+"stat": "fwon",
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -392263,10 +392253,22 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total offsides: Under 3.5 + Total shots on target: Under 10.5 + Pathé Mboup (Brest): 1+ foul + Brest fouls: Over 10.5",
+"pick": "Paris FC shots on target: Over 2.5 + Total offsides: Under 3.5 + Pathé Mboup (Brest): 1+ foul + Brest fouls: Over 10.5",
 "side": null,
 "line": null,
 "legs": [
+{
+"key": "away_sot",
+"label": "Paris FC shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
 {
 "key": "total_offsides",
 "label": "Total offsides",
@@ -392274,18 +392276,6 @@
 "side": "under",
 "line": 3.5,
 "chance": 78,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
-"key": "total_sot",
-"label": "Total shots on target",
-"pick": "Under 10.5",
-"side": "under",
-"line": 10.5,
-"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
@@ -392316,37 +392306,37 @@
 "value": null
 }
 ],
-"chance": 47,
+"chance": 39,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.21,
-1.53
+1.18,
+1.51
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 25.4,
+"expected": 25.32,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.44,
+"expected": 8.36,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.05,
+"expected": 4.0,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.46,
+"expected": 4.42,
 "phi": 1.1,
 "estimate": false
 },
@@ -392364,7 +392354,7 @@
 },
 {
 "key": "total_cards",
-"expected": 4.04,
+"expected": 4.03,
 "phi": 0.95,
 "estimate": false
 },
@@ -392376,25 +392366,25 @@
 },
 {
 "key": "away_fouls",
-"expected": 12.6,
+"expected": 12.61,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 7.49,
+"expected": 7.45,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.44,
+"expected": 7.37,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.74,
+"expected": 2.69,
 "phi": 1.0,
 "estimate": false
 },
@@ -392454,7 +392444,7 @@
 },
 {
 "key": "free_kicks",
-"expected": 27.75,
+"expected": 27.76,
 "phi": 1.05,
 "estimate": false
 }
@@ -392607,7 +392597,7 @@
 "pick": "Under 5.5",
 "side": "under",
 "line": 5.5,
-"chance": 80,
+"chance": 81,
 "normal": 66,
 "star": true,
 "estimate": false
@@ -392892,20 +392882,6 @@
 "star": false
 },
 {
-"key": "pl_sot",
-"market": "Player shots on target",
-"label": "Player shots on target",
-"pick": "Akor Adams (Venezia): 1+ shot on target",
-"side": "over",
-"line": 1,
-"player": "Akor Adams",
-"team": "home",
-"stat": "sot",
-"chance": 57,
-"confirmed": false,
-"star": false
-},
-{
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
@@ -392916,6 +392892,20 @@
 "team": "home",
 "stat": "fwon",
 "chance": 57,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Akor Adams (Venezia): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Akor Adams",
+"team": "home",
+"stat": "sot",
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -392937,22 +392927,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Venezia shots on target: Under 5.5 + Bologna corners: Over 2.5 + Bologna bookings: Under 2.5",
+"pick": "Bologna corners: Over 2.5 + Bologna bookings: Under 2.5 + Total tackles: Under 34.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "home_sot",
-"label": "Venezia shots on target",
-"pick": "Under 5.5",
-"side": "under",
-"line": 5.5,
-"chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "away_corners",
 "label": "Bologna corners",
@@ -392976,39 +392954,51 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 34.5",
+"side": "under",
+"line": 34.5,
+"chance": 73,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 45,
+"chance": 42,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.12,
+1.11,
 1.44
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 25.77,
+"expected": 25.74,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.28,
+"expected": 8.26,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 3.76,
+"expected": 3.73,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.49,
+"expected": 4.48,
 "phi": 1.1,
 "estimate": false
 },
@@ -393044,19 +393034,19 @@
 },
 {
 "key": "home_gk",
-"expected": 7.03,
+"expected": 7.02,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.51,
+"expected": 7.47,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.57,
+"expected": 2.55,
 "phi": 1.0,
 "estimate": false
 },
@@ -393234,11 +393224,11 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Over 25.5",
+"pick": "Over 26.5",
 "side": "over",
-"line": 25.5,
-"chance": 77,
-"normal": 51,
+"line": 26.5,
+"chance": 73,
+"normal": 44,
 "star": true,
 "estimate": false
 },
@@ -393249,7 +393239,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 73,
+"chance": 76,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -393268,11 +393258,13 @@
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Middlesbrough shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 74,
+"normal": 48,
+"star": true,
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -393463,14 +393455,26 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Middlesbrough shots on target",
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
+"chance": 60,
+"min_odds": 1.7,
+"value": true,
+"star": false
+},
+{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Middlesbrough bookings",
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 61,
-"min_odds": 1.65,
+"chance": 60,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -393552,16 +393556,16 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Finn Azaz (Southampton): 1+ foul won",
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Finn Azaz (Southampton): 2+ shots",
 "side": "over",
-"line": 1,
+"line": 2,
 "player": "Finn Azaz",
 "team": "home",
-"stat": "fwon",
-"chance": 59,
+"stat": "shots",
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -393583,22 +393587,10 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots: Over 25.5 + Total offsides: Under 5.5 + Total tackles: Under 32.5",
+"pick": "Total offsides: Under 5.5 + Total shots on target: Over 7.5 + Total tackles: Under 32.5",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Over 25.5",
-"side": "over",
-"line": 25.5,
-"chance": 77,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "total_offsides",
 "label": "Total offsides",
@@ -393606,6 +393598,18 @@
 "side": "under",
 "line": 5.5,
 "chance": 77,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 7.5",
+"side": "over",
+"line": 7.5,
+"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
@@ -393624,85 +393628,85 @@
 "value": null
 }
 ],
-"chance": 47,
+"chance": 45,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.51,
-1.69
+1.6,
+1.79
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 29.8,
+"expected": 30.1,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 9.57,
+"expected": 9.89,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.79,
+"expected": 4.99,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.94,
+"expected": 5.14,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.77,
+"expected": 1.75,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 1.99,
+"expected": 1.97,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.91,
+"expected": 3.94,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 9.68,
+"expected": 9.67,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.26,
+"expected": 11.22,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 9.17,
+"expected": 9.45,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.91,
+"expected": 8.13,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.2,
+"expected": 3.4,
 "phi": 1.0,
 "estimate": false
 },
@@ -393762,57 +393766,57 @@
 },
 {
 "key": "free_kicks",
-"expected": 24.87,
+"expected": 24.82,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Barnaby Williams": 0.1696,
-"Cameron Bragg": 0.2431,
-"Cyle Larin": 0.2618,
-"Daniel Peretz": 0.0898,
-"Divin Mubama": 0.1726,
-"Finn Azaz": 0.1256,
-"Flynn Downes": 0.2391,
-"Jack Stephens": 0.1056,
-"James Bree": 0.1638,
-"James Ward-Prowse": 0.1335,
-"Keven Schlotterbeck": 0.1365,
-"Kuryu Matsuki": 0.1333,
-"Lewis Dobbin": 0.156,
-"Léo Scienza": 0.1013,
-"Mads Roerslev": 0.2194,
-"Nathan Wood": 0.2127,
-"Ryan Manning": 0.2414,
-"Samuel Edozie": 0.1277,
-"Tom Fellows": 0.1737,
-"Welington": 0.1336,
-"Zach Abbott": 0.1987,
-"": 0.1728
+"Barnaby Williams": 0.1677,
+"Cameron Bragg": 0.2404,
+"Cyle Larin": 0.2588,
+"Daniel Peretz": 0.0888,
+"Divin Mubama": 0.1706,
+"Finn Azaz": 0.1241,
+"Flynn Downes": 0.2364,
+"Jack Stephens": 0.1044,
+"James Bree": 0.162,
+"James Ward-Prowse": 0.132,
+"Keven Schlotterbeck": 0.135,
+"Kuryu Matsuki": 0.1318,
+"Lewis Dobbin": 0.1542,
+"Léo Scienza": 0.1001,
+"Mads Roerslev": 0.2169,
+"Nathan Wood": 0.2103,
+"Ryan Manning": 0.2387,
+"Samuel Edozie": 0.1263,
+"Tom Fellows": 0.1717,
+"Welington": 0.1321,
+"Zach Abbott": 0.1964,
+"": 0.1709
 },
 "away": {
-"Adilson Malanda": 0.1919,
-"Aidan Morris": 0.1919,
-"Amario Cozier-Duberry": 0.1613,
-"Ashley Phillips": 0.2695,
-"Callum Brittain": 0.2866,
-"David Strelec": 0.2151,
-"Jeremy Sarmiento": 0.1946,
-"Kyle Joseph": 0.1823,
-"Leo Castledine": 0.2318,
-"Luke Ayling": 0.1682,
-"Max Arfsten": 0.1843,
-"Myles Peart-Harris": 0.2527,
-"Neto Borges": 0.2059,
-"Radek Vítek": 0.1385,
-"Riley McGree": 0.3105,
-"Sam Byram": 0.3322,
-"Sebastian Berhalter": 0.3105,
-"Tommy Conway": 0.2295,
-"Will Lankshear": 0.3177,
-"": 0.2665
+"Adilson Malanda": 0.1913,
+"Aidan Morris": 0.1913,
+"Amario Cozier-Duberry": 0.1608,
+"Ashley Phillips": 0.2686,
+"Callum Brittain": 0.2857,
+"David Strelec": 0.2143,
+"Jeremy Sarmiento": 0.1939,
+"Kyle Joseph": 0.1817,
+"Leo Castledine": 0.2311,
+"Luke Ayling": 0.1677,
+"Max Arfsten": 0.1837,
+"Myles Peart-Harris": 0.2519,
+"Neto Borges": 0.2052,
+"Radek Vítek": 0.1381,
+"Riley McGree": 0.3095,
+"Sam Byram": 0.3311,
+"Sebastian Berhalter": 0.3095,
+"Tommy Conway": 0.2287,
+"Will Lankshear": 0.3166,
+"": 0.2656
 }
 },
 "fh": {
@@ -394803,7 +394807,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 62,
+"chance": 61,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -394887,20 +394891,6 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Neco Williams (Nott'm Forest): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Neco Williams",
-"team": "home",
-"stat": "fwon",
-"chance": 62,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
 "pick": "Morgan Gibbs-White (Nott'm Forest): 1+ foul won",
 "side": "over",
 "line": 1,
@@ -394921,7 +394911,7 @@
 "player": "Pedro Neto",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -394935,7 +394925,7 @@
 "player": "Xaver Schlager",
 "team": "home",
 "stat": "fwon",
-"chance": 57,
+"chance": 58,
 "confirmed": false,
 "star": false
 },
@@ -394964,6 +394954,20 @@
 "team": "away",
 "stat": "shots",
 "chance": 55,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Liam Delap (Nott'm Forest): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Liam Delap",
+"team": "home",
+"stat": "sot",
+"chance": 53,
 "confirmed": false,
 "star": false
 },
@@ -395030,31 +395034,31 @@
 ],
 "pre": {
 "goals_exp": [
-1.46,
-1.38
+1.44,
+1.36
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 26.46,
+"expected": 26.41,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.83,
+"expected": 8.77,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.73,
+"expected": 4.7,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.18,
+"expected": 4.14,
 "phi": 1.1,
 "estimate": false
 },
@@ -395072,7 +395076,7 @@
 },
 {
 "key": "total_cards",
-"expected": 4.61,
+"expected": 4.6,
 "phi": 0.95,
 "estimate": false
 },
@@ -395090,19 +395094,19 @@
 },
 {
 "key": "home_gk",
-"expected": 6.9,
+"expected": 6.86,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.83,
+"expected": 7.79,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.84,
+"expected": 2.8,
 "phi": 1.0,
 "estimate": false
 },
@@ -395286,9 +395290,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "Blackburn or draw (79%)",
+"pick": "Blackburn or draw (73%)",
 "side": "HD",
-"chance": 79,
+"chance": 73,
 "line": null,
 "star": false
 },
@@ -395296,47 +395300,43 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
-"chance": 74,
-"normal": 69,
-"star": false,
-"estimate": false
-},
-{
-"key": "total_sot",
-"market": "Total shots on target",
-"label": "Total shots on target",
-"pick": "Under 9.5",
-"side": "under",
-"line": 9.5,
-"chance": 82,
-"normal": 67,
-"star": true,
-"estimate": false
-},
-{
-"key": "home_sot",
-"market": "Home shots on target",
-"label": "Blackburn shots on target",
-"pick": "Under 5.5",
-"side": "under",
-"line": 5.5,
-"chance": 73,
-"normal": 66,
-"star": false,
-"estimate": false
-},
-{
-"key": "away_sot",
-"market": "Away shots on target",
-"label": "Charlton shots on target",
 "pick": "No tip",
 "side": null,
 "line": null,
 "skip": true,
 "star": false
+},
+{
+"key": "total_sot",
+"market": "Total shots on target",
+"label": "Total shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "Blackburn shots on target",
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Charlton shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 74,
+"normal": 67,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -395385,7 +395385,7 @@
 "pick": "Over 9.5",
 "side": "over",
 "line": 9.5,
-"chance": 79,
+"chance": 80,
 "normal": 67,
 "star": true,
 "estimate": false
@@ -395394,9 +395394,9 @@
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "Blackburn goal kicks",
-"pick": "Under 8.5",
-"side": "under",
-"line": 8.5,
+"pick": "Over 5.5",
+"side": "over",
+"line": 5.5,
 "star": false,
 "estimate": true
 },
@@ -395414,13 +395414,11 @@
 "key": "total_goals",
 "market": "Total goals",
 "label": "Total goals",
-"pick": "Under 3.5",
-"side": "under",
-"line": 3.5,
-"chance": 78,
-"normal": 71,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_offsides",
@@ -395529,14 +395527,26 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Charlton shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 67,
+"min_odds": 1.5,
+"value": true,
+"star": false
+},
+{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Charlton bookings",
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -395547,7 +395557,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 60,
+"chance": 59,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -395657,13 +395667,27 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
+"pick": "Amari'i Bell (Charlton): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Amari'i Bell",
+"team": "away",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
 "pick": "Charlie Kelman (Charlton): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Charlie Kelman",
 "team": "away",
 "stat": "fwon",
-"chance": 62,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -395677,35 +395701,7 @@
 "player": "Billy Koumetio",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Dan McNamara (Charlton): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Dan McNamara",
-"team": "away",
-"stat": "fwon",
-"chance": 60,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Jayden Fevrier (Blackburn): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Jayden Fevrier",
-"team": "home",
-"stat": "fwon",
-"chance": 58,
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -395719,7 +395715,21 @@
 "player": "Todd Cantwell",
 "team": "home",
 "stat": "sot",
-"chance": 54,
+"chance": 55,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Dan McNamara (Charlton): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Dan McNamara",
+"team": "away",
+"stat": "fwon",
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -395727,29 +395737,17 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Match result: Blackburn or draw (79%) + Charlton fouls: Over 9.5 + Total tackles: Over 29.5 + Total shots: Under 28.5",
+"pick": "Charlton fouls: Over 9.5 + Total tackles: Over 29.5 + Charlton shots on target: Under 4.5 + Match result: Blackburn or draw (73%)",
 "side": null,
 "line": null,
 "legs": [
-{
-"key": "result",
-"label": "Match result",
-"pick": "Blackburn or draw (79%)",
-"side": "HD",
-"line": null,
-"chance": 79,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
 {
 "key": "away_fouls",
 "label": "Charlton fouls",
 "pick": "Over 9.5",
 "side": "over",
 "line": 9.5,
-"chance": 79,
+"chance": 80,
 "player": null,
 "team": null,
 "stat": null,
@@ -395768,97 +395766,109 @@
 "value": null
 },
 {
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Under 28.5",
+"key": "away_sot",
+"label": "Charlton shots on target",
+"pick": "Under 4.5",
 "side": "under",
-"line": 28.5,
+"line": 4.5,
 "chance": 74,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "result",
+"label": "Match result",
+"pick": "Blackburn or draw (73%)",
+"side": "HD",
+"line": null,
+"chance": 73,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 39,
+"chance": 38,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.45,
-0.88
+1.52,
+1.1
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 25.41,
+"expected": 25.78,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 7.02,
+"expected": 7.98,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.28,
+"expected": 4.73,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 2.74,
+"expected": 3.38,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.99,
+"expected": 1.97,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 2.09,
+"expected": 2.19,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 4.08,
+"expected": 4.15,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 10.18,
+"expected": 10.32,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 12.41,
+"expected": 12.5,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 6.73,
+"expected": 7.72,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 8.41,
+"expected": 9.03,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.33,
+"expected": 2.62,
 "phi": 1.0,
 "estimate": false
 },
@@ -395918,60 +395928,60 @@
 },
 {
 "key": "free_kicks",
-"expected": 25.22,
+"expected": 25.45,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Andri Gudjohnsen": 0.1298,
-"Augustus Kargbo": 0.2025,
-"Aynsley Pears": 0.1055,
-"Balazs Toth": 0.0812,
-"Gady Beyuku": 0.2303,
-"Harry Pickering": 0.1673,
-"Hayden Carter": 0.2132,
-"Jake Garrett": 0.1611,
-"Jayden Fevrier": 0.118,
-"Kristi Montgomery": 0.1761,
-"Moussa Baradji": 0.1739,
-"Oladapo Afolayan": 0.1187,
-"Ryan Alebiousu": 0.0762,
-"Ryoya Morishita": 0.082,
-"Sam Morsy": 0.2282,
-"Sean McLoughlin": 0.1708,
-"Todd Cantwell": 0.1708,
-"Tom Atcheson": 0.1438,
-"Yuki Ohashi": 0.1184,
-"Yuri Ribeiro": 0.1348,
-"": 0.1342
+"Andri Gudjohnsen": 0.1285,
+"Augustus Kargbo": 0.2005,
+"Aynsley Pears": 0.1044,
+"Balazs Toth": 0.0804,
+"Gady Beyuku": 0.228,
+"Harry Pickering": 0.1657,
+"Hayden Carter": 0.211,
+"Jake Garrett": 0.1594,
+"Jayden Fevrier": 0.1168,
+"Kristi Montgomery": 0.1743,
+"Moussa Baradji": 0.1722,
+"Oladapo Afolayan": 0.1175,
+"Ryan Alebiousu": 0.0754,
+"Ryoya Morishita": 0.0812,
+"Sam Morsy": 0.2259,
+"Sean McLoughlin": 0.1691,
+"Todd Cantwell": 0.1691,
+"Tom Atcheson": 0.1424,
+"Yuki Ohashi": 0.1172,
+"Yuri Ribeiro": 0.1335,
+"": 0.1328
 },
 "away": {
-"Alan Nwamba": 0.3029,
-"Amari'i Bell": 0.1109,
-"Arthur Okonkwo": 0.1051,
-"Billy Koumetio": 0.1515,
-"Charlie Kelman": 0.1312,
-"Conor Coventry": 0.2402,
-"Dan McNamara": 0.2947,
-"Harvey Knibbs": 0.2542,
-"Ivan Mesik": 0.2061,
-"Joe Rankin-Costello": 0.2142,
-"Joshua Edwards": 0.2127,
-"Karlan Grant": 0.17,
-"Kayne Ramsay": 0.145,
-"Lloyd Jones": 0.1372,
-"Matthew Godden": 0.1538,
-"Miles Leaburn": 0.2233,
-"Millenic Alli": 0.1227,
-"Nathaniel Chalobah": 0.145,
-"Oliver Skipp": 0.2558,
-"Sonny Carey": 0.1245,
-"Tyler Bindon": 0.2528,
-"Tyreece Campbell": 0.1278,
-"William Mannion": 0.1473,
-"": 0.1793
+"Alan Nwamba": 0.3174,
+"Amari'i Bell": 0.1162,
+"Arthur Okonkwo": 0.1101,
+"Billy Koumetio": 0.1587,
+"Charlie Kelman": 0.1375,
+"Conor Coventry": 0.2517,
+"Dan McNamara": 0.3088,
+"Harvey Knibbs": 0.2664,
+"Ivan Mesik": 0.2159,
+"Joe Rankin-Costello": 0.2244,
+"Joshua Edwards": 0.2228,
+"Karlan Grant": 0.1781,
+"Kayne Ramsay": 0.152,
+"Lloyd Jones": 0.1438,
+"Matthew Godden": 0.1612,
+"Miles Leaburn": 0.234,
+"Millenic Alli": 0.1285,
+"Nathaniel Chalobah": 0.152,
+"Oliver Skipp": 0.268,
+"Sonny Carey": 0.1305,
+"Tyler Bindon": 0.2649,
+"Tyreece Campbell": 0.1339,
+"William Mannion": 0.1543,
+"": 0.1879
 }
 },
 "fh": {
@@ -403077,9 +403087,9 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 81,
+"chance": 80,
 "normal": 69,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -403159,9 +403169,9 @@
 "pick": "Over 8.5",
 "side": "over",
 "line": 8.5,
-"chance": 81,
+"chance": 80,
 "normal": 69,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -403299,18 +403309,6 @@
 "star": false
 },
 {
-"key": "total_sot",
-"market": "Higher price: Total shots on target",
-"label": "Total shots on target",
-"pick": "Under 9.5",
-"side": "under",
-"line": 9.5,
-"chance": 58,
-"min_odds": 1.75,
-"value": true,
-"star": false
-},
-{
 "key": "away_sot",
 "market": "Higher price: Away shots on target",
 "label": "Schalke 04 shots on target",
@@ -403386,6 +403384,20 @@
 "star": false
 },
 {
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Hwang Hee-Chan (Schalke 04): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Hwang Hee-Chan",
+"team": "away",
+"stat": "fwon",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
 "key": "pl_shots",
 "market": "Player shots",
 "label": "Player shots",
@@ -403417,10 +403429,34 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Paderborn bookings: Under 2.5 + Paderborn fouls: Over 8.5 + Paderborn shots on target: Under 6.5",
+"pick": "Total shots on target: Under 11.5 + Schalke 04 fouls: Over 8.5 + Paderborn bookings: Under 2.5 + Total tackles: Over 32.5",
 "side": null,
 "line": null,
 "legs": [
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Under 11.5",
+"side": "under",
+"line": 11.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_fouls",
+"label": "Schalke 04 fouls",
+"pick": "Over 8.5",
+"side": "over",
+"line": 8.5,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
 {
 "key": "home_cards",
 "label": "Paderborn bookings",
@@ -403434,61 +403470,49 @@
 "value": null
 },
 {
-"key": "home_fouls",
-"label": "Paderborn fouls",
-"pick": "Over 8.5",
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Over 32.5",
 "side": "over",
-"line": 8.5,
-"chance": 78,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
-"key": "home_sot",
-"label": "Paderborn shots on target",
-"pick": "Under 6.5",
-"side": "under",
-"line": 6.5,
-"chance": 77,
+"line": 32.5,
+"chance": 75,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 45,
+"chance": 44,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.44,
+1.45,
 1.34
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 28.03,
+"expected": 28.06,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.86,
+"expected": 8.89,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.8,
+"expected": 4.82,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.07,
+"expected": 4.09,
 "phi": 1.1,
 "estimate": false
 },
@@ -403506,7 +403530,7 @@
 },
 {
 "key": "total_cards",
-"expected": 3.38,
+"expected": 3.39,
 "phi": 0.95,
 "estimate": false
 },
@@ -403524,19 +403548,19 @@
 },
 {
 "key": "home_gk",
-"expected": 7.76,
+"expected": 7.78,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.61,
+"expected": 7.63,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.78,
+"expected": 2.8,
 "phi": 1.0,
 "estimate": false
 },
@@ -403716,9 +403740,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "Birmingham or draw (82%)",
+"pick": "Birmingham or draw (83%)",
 "side": "HD",
-"chance": 82,
+"chance": 83,
 "line": null,
 "star": false
 },
@@ -403726,12 +403750,12 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Over 23.5",
+"pick": "Over 24.5",
 "side": "over",
-"line": 23.5,
-"chance": 74,
-"normal": 64,
-"star": false,
+"line": 24.5,
+"chance": 72,
+"normal": 57,
+"star": true,
 "estimate": false
 },
 {
@@ -403741,7 +403765,7 @@
 "pick": "Over 7.5",
 "side": "over",
 "line": 7.5,
-"chance": 76,
+"chance": 73,
 "normal": 60,
 "star": true,
 "estimate": false
@@ -403750,23 +403774,23 @@
 "key": "home_sot",
 "market": "Home shots on target",
 "label": "Birmingham shots on target",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
-"chance": 83,
-"normal": 66,
-"star": true,
-"estimate": false
-},
-{
-"key": "away_sot",
-"market": "Away shots on target",
-"label": "Bolton shots on target",
 "pick": "No tip",
 "side": null,
 "line": null,
 "skip": true,
 "star": false
+},
+{
+"key": "away_sot",
+"market": "Away shots on target",
+"label": "Bolton shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 73,
+"normal": 67,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -403782,37 +403806,31 @@
 "key": "away_cards",
 "market": "Away bookings",
 "label": "Bolton bookings",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 72,
-"normal": 66,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_cards",
 "market": "Total bookings",
 "label": "Total bookings",
-"pick": "Under 4.5",
-"side": "under",
-"line": 4.5,
-"chance": 72,
-"normal": 64,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "home_fouls",
 "market": "Home fouls",
 "label": "Birmingham fouls",
-"pick": "Over 8.5",
-"side": "over",
-"line": 8.5,
-"chance": 79,
-"normal": 72,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_fouls",
@@ -403821,7 +403839,7 @@
 "pick": "Under 12.5",
 "side": "under",
 "line": 12.5,
-"chance": 79,
+"chance": 80,
 "normal": 66,
 "star": true,
 "estimate": false
@@ -403830,9 +403848,9 @@
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "Birmingham goal kicks",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
 "star": false,
 "estimate": true
 },
@@ -403965,14 +403983,26 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Bolton shots on target",
+"pick": "Under 3.5",
+"side": "under",
+"line": 3.5,
+"chance": 58,
+"min_odds": 1.75,
+"value": true,
+"star": false
+},
+{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Bolton bookings",
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 72,
-"min_odds": 1.4,
+"chance": 71,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -404018,11 +404048,11 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Alex Cochrane (Birmingham)",
+"pick": "Josh Sheehan (Bolton)",
 "side": "player",
 "line": null,
-"player": "Alex Cochrane",
-"team": "home",
+"player": "Josh Sheehan",
+"team": "away",
 "chance": 18,
 "confirmed": false,
 "star": false
@@ -404065,7 +404095,7 @@
 "player": "Josh Sheehan",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -404087,17 +404117,17 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Birmingham fouls: Over 8.5 + Birmingham offsides: Over 2.5 + Total shots on target: Over 7.5 + Total tackles: Under 33.5",
+"pick": "Bolton fouls: Under 12.5 + Birmingham offsides: Over 2.5 + Total tackles: Under 33.5 + Bolton shots on target: Under 4.5",
 "side": null,
 "line": null,
 "legs": [
 {
-"key": "home_fouls",
-"label": "Birmingham fouls",
-"pick": "Over 8.5",
-"side": "over",
-"line": 8.5,
-"chance": 79,
+"key": "away_fouls",
+"label": "Bolton fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 80,
 "player": null,
 "team": null,
 "stat": null,
@@ -404116,18 +404146,6 @@
 "value": null
 },
 {
-"key": "total_sot",
-"label": "Total shots on target",
-"pick": "Over 7.5",
-"side": "over",
-"line": 7.5,
-"chance": 76,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
 "key": "total_tackles",
 "label": "Total tackles",
 "pick": "Under 33.5",
@@ -404138,87 +404156,99 @@
 "team": null,
 "stat": null,
 "value": null
+},
+{
+"key": "away_sot",
+"label": "Bolton shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 73,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
 }
 ],
-"chance": 37,
+"chance": 42,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-2.07,
-1.05
+2.08,
+1.01
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 27.09,
+"expected": 27.78,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 9.86,
+"expected": 9.62,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 6.08,
+"expected": 6.12,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 3.78,
+"expected": 3.44,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.55,
+"expected": 1.52,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 1.87,
+"expected": 1.89,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.41,
+"expected": 3.44,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 11.17,
+"expected": 10.93,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 10.04,
+"expected": 9.95,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 6.82,
+"expected": 6.43,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.7,
+"expected": 7.74,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.12,
+"expected": 3.09,
 "phi": 1.0,
 "estimate": false
 },
@@ -404278,58 +404308,58 @@
 },
 {
 "key": "free_kicks",
-"expected": 27.35,
+"expected": 27.02,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Alex Cochrane": 0.1945,
-"August Priske": 0.102,
-"Bright Osayi-Samuel": 0.1824,
-"Carlos Vicente": 0.1624,
-"Christoph Klarer": 0.1694,
-"Dael Fry": 0.1182,
-"Demarai Gray": 0.0992,
-"Ethan Laird": 0.1625,
-"James Beadle": 0.0711,
-"Jay Stansfield": 0.1388,
-"Jhon Solis": 0.1585,
-"Jhon Solís": 0.163,
-"Liam Millar": 0.1292,
-"Luis Vázquez": 0.1666,
-"Marvin Ducksch": 0.1084,
-"Max Bird": 0.1024,
-"Paik Seung-Ho": 0.0931,
-"Patrick Roberts": 0.114,
-"Phil Neumann": 0.1388,
-"Ryan Allsop": 0.1145,
-"Taylor Gardner-Hickman": 0.12,
-"Tomoki Iwata": 0.0671,
-"": 0.1291
+"Alex Cochrane": 0.1908,
+"August Priske": 0.1,
+"Bright Osayi-Samuel": 0.1789,
+"Carlos Vicente": 0.1593,
+"Christoph Klarer": 0.1661,
+"Dael Fry": 0.1159,
+"Demarai Gray": 0.0972,
+"Ethan Laird": 0.1593,
+"James Beadle": 0.0697,
+"Jay Stansfield": 0.1362,
+"Jhon Solis": 0.1554,
+"Jhon Solís": 0.1598,
+"Liam Millar": 0.1267,
+"Luis Vázquez": 0.1634,
+"Marvin Ducksch": 0.1063,
+"Max Bird": 0.1004,
+"Paik Seung-Ho": 0.0913,
+"Patrick Roberts": 0.1118,
+"Phil Neumann": 0.1362,
+"Ryan Allsop": 0.1122,
+"Taylor Gardner-Hickman": 0.1176,
+"Tomoki Iwata": 0.0658,
+"": 0.1266
 },
 "away": {
-"Akin Famewo": 0.2359,
-"Atsuki Ito": 0.1364,
-"Ben Davies": 0.1877,
-"Christian Forino Joseph": 0.1673,
-"Gaizka Larrazabal": 0.2183,
-"Gavin Bazunu": 0.127,
-"Jack Bonham": 0.1318,
-"Josh Sheehan": 0.2793,
-"Kyliane Dong": 0.1821,
-"Lewis Brunt": 0.1713,
-"Luca Stephenson": 0.3018,
-"Max Conway": 0.1475,
-"Max Lott": 0.1673,
-"Ruben Rodrigues": 0.1688,
-"Sam Dalby": 0.104,
-"Samuel Iling-Junior": 0.1539,
-"Thelonius Bair": 0.2008,
-"Thierry Gale": 0.1848,
-"Xavier Simons": 0.1268,
-"": 0.1891
+"Akin Famewo": 0.2384,
+"Atsuki Ito": 0.1379,
+"Ben Davies": 0.1897,
+"Christian Forino Joseph": 0.1691,
+"Gaizka Larrazabal": 0.2206,
+"Gavin Bazunu": 0.1283,
+"Jack Bonham": 0.1332,
+"Josh Sheehan": 0.2823,
+"Kyliane Dong": 0.1841,
+"Lewis Brunt": 0.1731,
+"Luca Stephenson": 0.305,
+"Max Conway": 0.1491,
+"Max Lott": 0.1691,
+"Ruben Rodrigues": 0.1706,
+"Sam Dalby": 0.1051,
+"Samuel Iling-Junior": 0.1555,
+"Thelonius Bair": 0.2029,
+"Thierry Gale": 0.1867,
+"Xavier Simons": 0.1281,
+"": 0.1911
 }
 },
 "fh": {
@@ -404396,11 +404426,13 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 22.5",
+"side": "over",
+"line": 22.5,
+"chance": 75,
+"normal": 70,
+"star": false,
+"estimate": false
 },
 {
 "key": "total_sot",
@@ -404426,13 +404458,11 @@
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Watford shots on target",
-"pick": "Over 2.5",
-"side": "over",
-"line": 2.5,
-"chance": 78,
-"normal": 68,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "home_cards",
@@ -404470,12 +404500,12 @@
 "key": "home_fouls",
 "market": "Home fouls",
 "label": "Derby fouls",
-"pick": "Over 8.5",
+"pick": "Over 9.5",
 "side": "over",
-"line": 8.5,
-"chance": 81,
-"normal": 72,
-"star": false,
+"line": 9.5,
+"chance": 72,
+"normal": 60,
+"star": true,
 "estimate": false
 },
 {
@@ -404492,9 +404522,9 @@
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "Derby goal kicks",
-"pick": "Over 4.5",
-"side": "over",
-"line": 4.5,
+"pick": "Under 8.5",
+"side": "under",
+"line": 8.5,
 "star": false,
 "estimate": true
 },
@@ -404629,8 +404659,8 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 60,
-"min_odds": 1.7,
+"chance": 59,
+"min_odds": 1.75,
 "value": true,
 "star": false
 },
@@ -404641,8 +404671,8 @@
 "pick": "Under 9.5",
 "side": "under",
 "line": 9.5,
-"chance": 59,
-"min_odds": 1.7,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -404653,8 +404683,8 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 61,
-"min_odds": 1.7,
+"chance": 69,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -404691,7 +404721,20 @@
 "line": null,
 "player": "Ryan Nyambe",
 "team": "home",
-"chance": 20,
+"chance": 19,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
+"pick": "Matthew Pollock (Watford)",
+"side": "player",
+"line": null,
+"player": "Matthew Pollock",
+"team": "away",
+"chance": 18,
 "confirmed": false,
 "star": false
 },
@@ -404704,34 +404747,7 @@
 "line": null,
 "player": "Dion Sanderson",
 "team": "home",
-"chance": 18,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
-"pick": "David Ozoh (Derby)",
-"side": "player",
-"line": null,
-"player": "David Ozoh",
-"team": "home",
-"chance": 18,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Carlton Morris (Derby): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Carlton Morris",
-"team": "home",
-"stat": "fwon",
-"chance": 62,
+"chance": 17,
 "confirmed": false,
 "star": false
 },
@@ -404745,7 +404761,21 @@
 "player": "Edo Kayembe",
 "team": "away",
 "stat": "fwon",
-"chance": 61,
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Carlton Morris (Derby): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Carlton Morris",
+"team": "home",
+"stat": "sot",
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -404759,7 +404789,7 @@
 "player": "Rhian Brewster",
 "team": "home",
 "stat": "fwon",
-"chance": 55,
+"chance": 56,
 "confirmed": false,
 "star": false
 },
@@ -404767,7 +404797,7 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total offsides: Under 5.5 + Total tackles: Over 29.5 + Watford shots on target: Over 2.5 + Watford bookings: Over 1.5",
+"pick": "Total offsides: Under 5.5 + Total tackles: Over 29.5 + Total shots: Over 22.5 + Watford bookings: Over 1.5",
 "side": null,
 "line": null,
 "legs": [
@@ -404796,12 +404826,12 @@
 "value": null
 },
 {
-"key": "away_sot",
-"label": "Watford shots on target",
-"pick": "Over 2.5",
+"key": "total_shots",
+"label": "Total shots",
+"pick": "Over 22.5",
 "side": "over",
-"line": 2.5,
-"chance": 78,
+"line": 22.5,
+"chance": 75,
 "player": null,
 "team": null,
 "stat": null,
@@ -404820,43 +404850,43 @@
 "value": null
 }
 ],
-"chance": 37,
+"chance": 35,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.51,
-1.17
+1.44,
+1.16
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 26.01,
+"expected": 26.19,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.81,
+"expected": 8.52,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.54,
+"expected": 4.65,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.27,
+"expected": 3.81,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 2.48,
+"expected": 2.29,
 "phi": 0.9,
 "estimate": false
 },
@@ -404868,37 +404898,37 @@
 },
 {
 "key": "total_cards",
-"expected": 4.87,
+"expected": 4.72,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 11.52,
+"expected": 11.57,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 10.84,
+"expected": 11.17,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 6.94,
+"expected": 6.46,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 7.52,
+"expected": 7.65,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.68,
+"expected": 2.61,
 "phi": 1.0,
 "estimate": false
 },
@@ -404958,36 +404988,36 @@
 },
 {
 "key": "free_kicks",
-"expected": 26.04,
+"expected": 26.42,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Alex Mowatt": 0.2682,
-"Bobby Clark": 0.1546,
-"Carlton Morris": 0.1681,
-"Corey Taylor": 0.2921,
-"David Ozoh": 0.3264,
-"Dion Sanderson": 0.2433,
-"Filip Bilbija": 0.1764,
-"Henrik Meister": 0.2108,
-"Isaac Gordon": 0.2018,
-"Jack Robinson": 0.1772,
-"Jacob Widell Zetterström": 0.1247,
-"Lars Jorgen Salvesen": 0.1611,
-"Lewis Travis": 0.2807,
-"Matthew Clarke": 0.2018,
-"Max Johnston": 0.2197,
-"Mohammed Fuseini": 0.2418,
-"Oscar Fraulo": 0.2022,
-"Rhian Brewster": 0.2413,
-"Ryan Hedges": 0.1816,
-"Ryan Nyambe": 0.245,
-"Sammie Szmodics": 0.1717,
-"Shane Duffy": 0.183,
-"": 0.2128
+"Alex Mowatt": 0.2476,
+"Bobby Clark": 0.1427,
+"Carlton Morris": 0.1552,
+"Corey Taylor": 0.2697,
+"David Ozoh": 0.3014,
+"Dion Sanderson": 0.2246,
+"Filip Bilbija": 0.1628,
+"Henrik Meister": 0.1946,
+"Isaac Gordon": 0.1864,
+"Jack Robinson": 0.1636,
+"Jacob Widell Zetterström": 0.1151,
+"Lars Jorgen Salvesen": 0.1488,
+"Lewis Travis": 0.2592,
+"Matthew Clarke": 0.1864,
+"Max Johnston": 0.2029,
+"Mohammed Fuseini": 0.2232,
+"Oscar Fraulo": 0.1867,
+"Rhian Brewster": 0.2228,
+"Ryan Hedges": 0.1677,
+"Ryan Nyambe": 0.2262,
+"Sammie Szmodics": 0.1586,
+"Shane Duffy": 0.1689,
+"": 0.1965
 },
 "away": {
 "Amin Nabizada": 0.2175,
@@ -405080,9 +405110,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "Millwall or draw (74%)",
+"pick": "Millwall or draw (72%)",
 "side": "HD",
-"chance": 74,
+"chance": 72,
 "line": null,
 "star": false
 },
@@ -405090,11 +405120,11 @@
 "key": "total_shots",
 "market": "Total shots",
 "label": "Total shots",
-"pick": "Over 23.5",
+"pick": "Over 24.5",
 "side": "over",
-"line": 23.5,
-"chance": 77,
-"normal": 64,
+"line": 24.5,
+"chance": 73,
+"normal": 57,
 "star": true,
 "estimate": false
 },
@@ -405102,31 +405132,37 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 79,
+"normal": 72,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_sot",
 "market": "Home shots on target",
 "label": "Millwall shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 74,
+"normal": 66,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Burnley shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 74,
+"normal": 68,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -405174,11 +405210,11 @@
 "key": "away_fouls",
 "market": "Away fouls",
 "label": "Burnley fouls",
-"pick": "Under 11.5",
+"pick": "Under 12.5",
 "side": "under",
-"line": 11.5,
-"chance": 75,
-"normal": 55,
+"line": 12.5,
+"chance": 80,
+"normal": 66,
 "star": true,
 "estimate": false
 },
@@ -405196,9 +405232,9 @@
 "key": "away_gk",
 "market": "Away goal kicks",
 "label": "Burnley goal kicks",
-"pick": "Over 5.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 5.5,
+"line": 6.5,
 "star": false,
 "estimate": true
 },
@@ -405323,38 +405359,26 @@
 "star": false
 },
 {
-"key": "total_sot",
-"market": "Higher price: Total shots on target",
-"label": "Total shots on target",
-"pick": "Under 9.5",
-"side": "under",
-"line": 9.5,
-"chance": 62,
-"min_odds": 1.65,
-"value": true,
-"star": false
-},
-{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Burnley bookings",
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
 {
-"key": "away_fouls",
-"market": "Higher price: Away fouls",
-"label": "Burnley fouls",
-"pick": "Under 10.5",
-"side": "under",
-"line": 10.5,
-"chance": 58,
-"min_odds": 1.75,
+"key": "total_cards",
+"market": "Higher price: Total bookings",
+"label": "Total bookings",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 59,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -405410,16 +405434,16 @@
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Largie Ramazani (Burnley): 1+ foul won",
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Largie Ramazani (Burnley): 2+ shots",
 "side": "over",
-"line": 1,
+"line": 2,
 "player": "Largie Ramazani",
 "team": "away",
-"stat": "fwon",
-"chance": 62,
+"stat": "shots",
+"chance": 59,
 "confirmed": false,
 "star": false
 },
@@ -405447,7 +405471,7 @@
 "player": "Reo Hatate",
 "team": "away",
 "stat": "fwon",
-"chance": 53,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
@@ -405455,29 +405479,29 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Millwall fouls: Over 8.5 + Total shots: Over 23.5 + Burnley offsides: Under 2.5 + Match result: Millwall or draw (74%)",
+"pick": "Burnley fouls: Under 12.5 + Total shots on target: Over 6.5 + Burnley offsides: Under 2.5 + Total tackles: Under 30.5",
 "side": null,
 "line": null,
 "legs": [
 {
-"key": "home_fouls",
-"label": "Millwall fouls",
-"pick": "Over 8.5",
-"side": "over",
-"line": 8.5,
-"chance": 79,
+"key": "away_fouls",
+"label": "Burnley fouls",
+"pick": "Under 12.5",
+"side": "under",
+"line": 12.5,
+"chance": 80,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 },
 {
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Over 23.5",
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 6.5",
 "side": "over",
-"line": 23.5,
-"chance": 77,
+"line": 6.5,
+"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
@@ -405496,97 +405520,97 @@
 "value": null
 },
 {
-"key": "result",
-"label": "Match result",
-"pick": "Millwall or draw (74%)",
-"side": "HD",
-"line": null,
-"chance": 74,
+"key": "total_tackles",
+"label": "Total tackles",
+"pick": "Under 30.5",
+"side": "under",
+"line": 30.5,
+"chance": 73,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 36,
+"chance": 37,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.81,
-1.27
+1.68,
+1.3
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 27.64,
+"expected": 27.95,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.54,
+"expected": 9.03,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.87,
+"expected": 5.19,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 3.67,
+"expected": 3.96,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.83,
+"expected": 1.86,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 2.16,
+"expected": 2.21,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.99,
+"expected": 4.16,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 11.15,
+"expected": 11.17,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 9.57,
+"expected": 9.89,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 7.29,
+"expected": 7.67,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 8.2,
+"expected": 8.58,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.08,
+"expected": 2.98,
 "phi": 1.0,
 "estimate": false
 },
@@ -405646,62 +405670,62 @@
 },
 {
 "key": "free_kicks",
-"expected": 25.75,
+"expected": 26.09,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Alfie Doughty": 0.1146,
-"Caleb Taylor": 0.0906,
-"Camiel Neghli": 0.1168,
-"Casper de Norre": 0.1382,
-"Daniel Kelly": 0.1391,
-"Derek Mazou-Sacko": 0.2559,
-"Elkan Baggott": 0.1109,
-"Jake Cooper": 0.1393,
-"Jenson Metcalfe": 0.2257,
-"Jordi Osei-Tutu": 0.1491,
-"Josh Coburn": 0.1361,
-"Kyrell Lisbie": 0.1691,
-"Lukas Jensen": 0.1064,
-"Luke Cundle": 0.0933,
-"Lyndon Dykes": 0.1828,
-"Mark Sykes": 0.1384,
-"Max Crocombe": 0.0859,
-"Mihailo Ivanovic": 0.1111,
-"Romain Esse": 0.1076,
-"Ryan Leonard": 0.151,
-"Taïryk Arconte": 0.0829,
-"Tristan Crama": 0.1872,
-"Yanis Issoufou": 0.1183,
-"Zak Lovelace": 0.1124,
-"Zak Sturge": 0.1974,
-"": 0.1295
+"Alfie Doughty": 0.1165,
+"Caleb Taylor": 0.0921,
+"Camiel Neghli": 0.1187,
+"Casper de Norre": 0.1404,
+"Daniel Kelly": 0.1413,
+"Derek Mazou-Sacko": 0.26,
+"Elkan Baggott": 0.1127,
+"Jake Cooper": 0.1416,
+"Jenson Metcalfe": 0.2294,
+"Jordi Osei-Tutu": 0.1516,
+"Josh Coburn": 0.1383,
+"Kyrell Lisbie": 0.1719,
+"Lukas Jensen": 0.1081,
+"Luke Cundle": 0.0948,
+"Lyndon Dykes": 0.1858,
+"Mark Sykes": 0.1406,
+"Max Crocombe": 0.0873,
+"Mihailo Ivanovic": 0.1129,
+"Romain Esse": 0.1094,
+"Ryan Leonard": 0.1535,
+"Taïryk Arconte": 0.0843,
+"Tristan Crama": 0.1902,
+"Yanis Issoufou": 0.1202,
+"Zak Lovelace": 0.1143,
+"Zak Sturge": 0.2006,
+"": 0.1317
 },
 "away": {
-"Aaron Ramsey": 0.1475,
-"Andreas Hountondji": 0.1161,
-"Connor Roberts": 0.1211,
-"Grégoire Coudert": 0.1517,
-"Hjalmar Ekdal": 0.1514,
-"Igor Julio": 0.1666,
-"Jamie Vardy": 0.1226,
-"Jaydon Banel": 0.182,
-"Josh Cullen": 0.1877,
-"Josh Laurent": 0.2962,
-"Kyle Walker": 0.218,
-"Largie Ramazani": 0.1628,
-"Lucas Pires": 0.1763,
-"Marcus Edwards": 0.1896,
-"Max Alleyne": 0.1593,
-"Max Weiß": 0.1081,
-"Oliver Sonne": 0.2291,
-"Reo Hatate": 0.1684,
-"Ugo Raghouber": 0.245,
-"Zeki Amdouni": 0.1091,
-"": 0.161
+"Aaron Ramsey": 0.1509,
+"Andreas Hountondji": 0.1188,
+"Connor Roberts": 0.1239,
+"Grégoire Coudert": 0.1552,
+"Hjalmar Ekdal": 0.1549,
+"Igor Julio": 0.1705,
+"Jamie Vardy": 0.1255,
+"Jaydon Banel": 0.1862,
+"Josh Cullen": 0.192,
+"Josh Laurent": 0.3031,
+"Kyle Walker": 0.223,
+"Largie Ramazani": 0.1665,
+"Lucas Pires": 0.1803,
+"Marcus Edwards": 0.194,
+"Max Alleyne": 0.163,
+"Max Weiß": 0.1106,
+"Oliver Sonne": 0.2344,
+"Reo Hatate": 0.1723,
+"Ugo Raghouber": 0.2507,
+"Zeki Amdouni": 0.1116,
+"": 0.1647
 }
 },
 "fh": {
@@ -406504,9 +406528,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "West Brom or draw (78%)",
+"pick": "West Brom or draw (80%)",
 "side": "HD",
-"chance": 78,
+"chance": 80,
 "line": null,
 "star": false
 },
@@ -406517,7 +406541,7 @@
 "pick": "Under 28.5",
 "side": "under",
 "line": 28.5,
-"chance": 79,
+"chance": 74,
 "normal": 69,
 "star": false,
 "estimate": false
@@ -406526,23 +406550,23 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Under 9.5",
-"side": "under",
-"line": 9.5,
-"chance": 75,
-"normal": 67,
-"star": false,
-"estimate": false
-},
-{
-"key": "home_sot",
-"market": "Home shots on target",
-"label": "West Brom shots on target",
 "pick": "No tip",
 "side": null,
 "line": null,
 "skip": true,
 "star": false
+},
+{
+"key": "home_sot",
+"market": "Home shots on target",
+"label": "West Brom shots on target",
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 73,
+"normal": 66,
+"star": false,
+"estimate": false
 },
 {
 "key": "away_sot",
@@ -406551,7 +406575,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 76,
+"chance": 77,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -406570,13 +406594,11 @@
 "key": "away_cards",
 "market": "Away bookings",
 "label": "Bristol City bookings",
-"pick": "Under 2.5",
-"side": "under",
-"line": 2.5,
-"chance": 74,
-"normal": 66,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_cards",
@@ -406592,13 +406614,11 @@
 "key": "home_fouls",
 "market": "Home fouls",
 "label": "West Brom fouls",
-"pick": "Under 12.5",
-"side": "under",
-"line": 12.5,
-"chance": 80,
-"normal": 75,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "away_fouls",
@@ -406624,9 +406644,9 @@
 "key": "away_gk",
 "market": "Away goal kicks",
 "label": "Bristol City goal kicks",
-"pick": "Over 5.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 5.5,
+"line": 6.5,
 "star": false,
 "estimate": true
 },
@@ -406757,8 +406777,8 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 61,
-"min_odds": 1.65,
+"chance": 63,
+"min_odds": 1.6,
 "value": true,
 "star": false
 },
@@ -406769,8 +406789,8 @@
 "pick": "Under 2.5",
 "side": "under",
 "line": 2.5,
-"chance": 75,
-"min_odds": 1.35,
+"chance": 70,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -406790,6 +406810,19 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
+"pick": "Cameron Pring (Bristol City)",
+"side": "player",
+"line": null,
+"player": "Cameron Pring",
+"team": "away",
+"chance": 22,
+"confirmed": false,
+"star": false
+},
+{
+"key": "player_booked",
+"market": "Player to be booked",
+"label": "Player to be booked",
 "pick": "Brayann Pereira (West Brom)",
 "side": "player",
 "line": null,
@@ -406803,39 +406836,12 @@
 "key": "player_booked",
 "market": "Player to be booked",
 "label": "Player to be booked",
-"pick": "Cameron Pring (Bristol City)",
-"side": "player",
-"line": null,
-"player": "Cameron Pring",
-"team": "away",
-"chance": 21,
-"confirmed": false,
-"star": false
-},
-{
-"key": "player_booked",
-"market": "Player to be booked",
-"label": "Player to be booked",
 "pick": "Jason Knight (Bristol City)",
 "side": "player",
 "line": null,
 "player": "Jason Knight",
 "team": "away",
-"chance": 19,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_sot",
-"market": "Player shots on target",
-"label": "Player shots on target",
-"pick": "Isaac Price (West Brom): 1+ shot on target",
-"side": "over",
-"line": 1,
-"player": "Isaac Price",
-"team": "home",
-"stat": "sot",
-"chance": 61,
+"chance": 20,
 "confirmed": false,
 "star": false
 },
@@ -406863,7 +406869,7 @@
 "player": "Jason Knight",
 "team": "away",
 "stat": "fwon",
-"chance": 59,
+"chance": 57,
 "confirmed": false,
 "star": false
 },
@@ -406877,21 +406883,21 @@
 "player": "Lorent Tolaj",
 "team": "away",
 "stat": "fwon",
-"chance": 56,
+"chance": 54,
 "confirmed": false,
 "star": false
 },
 {
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
-"pick": "Cameron Pring (Bristol City): 1+ foul won",
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
+"pick": "Felix Horn Myhre (West Brom): 1+ shot on target",
 "side": "over",
 "line": 1,
-"player": "Cameron Pring",
-"team": "away",
-"stat": "fwon",
-"chance": 54,
+"player": "Felix Horn Myhre",
+"team": "home",
+"stat": "sot",
+"chance": 53,
 "confirmed": false,
 "star": false
 },
@@ -406899,29 +406905,17 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "West Brom fouls: Under 12.5 + Total shots: Under 28.5 + Total tackles: Over 25.5 + Match result: West Brom or draw (78%)",
+"pick": "Match result: West Brom or draw (80%) + Total tackles: Over 25.5 + West Brom offsides: Under 2.5 + Bristol City shots on target: Under 4.5",
 "side": null,
 "line": null,
 "legs": [
 {
-"key": "home_fouls",
-"label": "West Brom fouls",
-"pick": "Under 12.5",
-"side": "under",
-"line": 12.5,
+"key": "result",
+"label": "Match result",
+"pick": "West Brom or draw (80%)",
+"side": "HD",
+"line": null,
 "chance": 80,
-"player": null,
-"team": null,
-"stat": null,
-"value": null
-},
-{
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Under 28.5",
-"side": "under",
-"line": 28.5,
-"chance": 79,
 "player": null,
 "team": null,
 "stat": null,
@@ -406940,97 +406934,109 @@
 "value": null
 },
 {
-"key": "result",
-"label": "Match result",
-"pick": "West Brom or draw (78%)",
-"side": "HD",
-"line": null,
+"key": "home_offsides",
+"label": "West Brom offsides",
+"pick": "Under 2.5",
+"side": "under",
+"line": 2.5,
 "chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
+{
+"key": "away_sot",
+"label": "Bristol City shots on target",
+"pick": "Under 4.5",
+"side": "under",
+"line": 4.5,
+"chance": 77,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 41,
+"chance": 45,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.54,
-0.94
+1.75,
+0.95
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 24.6,
+"expected": 25.34,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 7.64,
+"expected": 8.29,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.34,
+"expected": 5.15,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 3.29,
+"expected": 3.21,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.7,
+"expected": 1.71,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 1.79,
+"expected": 1.93,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.49,
+"expected": 3.59,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 9.93,
+"expected": 9.95,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.52,
+"expected": 11.5,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 6.07,
+"expected": 5.98,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 8.27,
+"expected": 9.33,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.48,
+"expected": 2.7,
 "phi": 1.0,
 "estimate": false
 },
@@ -407097,51 +407103,51 @@
 ],
 "squad": {
 "home": {
-"Aune Heggebo": 0.0948,
-"Barney Stewart": 0.1111,
-"Brayann Pereira": 0.2427,
-"Callum Styles": 0.1331,
-"Chris Mepham": 0.1574,
-"Conor Townsend": 0.129,
-"Felix Horn Myhre": 0.0909,
-"George Campbell": 0.1442,
-"Harry Whitwell": 0.2011,
-"Isaac Price": 0.1398,
-"Jayson Molumby": 0.1426,
-"Jimmy Morgan": 0.1753,
-"Kareem Tunde": 0.1178,
-"Matthew Crowther": 0.1476,
-"Max O'Leary": 0.0782,
-"Nathaniel Phillips": 0.1985,
-"Ousmane Diakite": 0.2173,
-"Rabby Nzingoula": 0.2582,
-"Tammer Bany": 0.1398,
-"": 0.1504
+"Aune Heggebo": 0.0953,
+"Barney Stewart": 0.1118,
+"Brayann Pereira": 0.2441,
+"Callum Styles": 0.1338,
+"Chris Mepham": 0.1583,
+"Conor Townsend": 0.1298,
+"Felix Horn Myhre": 0.0914,
+"George Campbell": 0.145,
+"Harry Whitwell": 0.2023,
+"Isaac Price": 0.1406,
+"Jayson Molumby": 0.1434,
+"Jimmy Morgan": 0.1763,
+"Kareem Tunde": 0.1185,
+"Matthew Crowther": 0.1485,
+"Max O'Leary": 0.0787,
+"Nathaniel Phillips": 0.1997,
+"Ousmane Diakite": 0.2186,
+"Rabby Nzingoula": 0.2597,
+"Tammer Bany": 0.1406,
+"": 0.1513
 },
 "away": {
-"Adam Randell": 0.2168,
-"Bradley Collins": 0.1737,
-"Brian De Keersmaecker": 0.2523,
-"Cameron Pring": 0.2406,
-"Dominic Ballard": 0.1404,
-"Elijah Adebayo": 0.2766,
-"George Tanner": 0.1294,
-"Gibson Yah": 0.1662,
-"Jason Knight": 0.2933,
-"Jed Wallace": 0.1539,
-"Joe Williams": 0.2555,
-"Lisav Eissat": 0.2357,
-"Lorent Tolaj": 0.18,
-"Luke McNally": 0.2999,
-"Rio Cardines": 0.1725,
-"Robert Atkinson": 0.2197,
-"Robert Dickie": 0.2064,
-"Sam Bell": 0.1972,
-"Sam Greenwood": 0.225,
-"Scott Twine": 0.1838,
-"Tomi Horvat": 0.1999,
-"Yu Hirakawa": 0.1437,
-"": 0.2304
+"Adam Randell": 0.2337,
+"Bradley Collins": 0.1873,
+"Brian De Keersmaecker": 0.2721,
+"Cameron Pring": 0.2594,
+"Dominic Ballard": 0.1513,
+"Elijah Adebayo": 0.2982,
+"George Tanner": 0.1396,
+"Gibson Yah": 0.1792,
+"Jason Knight": 0.3162,
+"Jed Wallace": 0.1659,
+"Joe Williams": 0.2755,
+"Lisav Eissat": 0.2541,
+"Lorent Tolaj": 0.194,
+"Luke McNally": 0.3234,
+"Rio Cardines": 0.186,
+"Robert Atkinson": 0.2369,
+"Robert Dickie": 0.2226,
+"Sam Bell": 0.2126,
+"Sam Greenwood": 0.2426,
+"Scott Twine": 0.1982,
+"Tomi Horvat": 0.2156,
+"Yu Hirakawa": 0.1549,
+"": 0.2484
 }
 },
 "fh": {
@@ -407208,9 +407214,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "West Ham or draw (81%)",
+"pick": "West Ham or draw (80%)",
 "side": "HD",
-"chance": 81,
+"chance": 80,
 "line": null,
 "star": false
 },
@@ -407221,7 +407227,7 @@
 "pick": "Over 24.5",
 "side": "over",
 "line": 24.5,
-"chance": 74,
+"chance": 75,
 "normal": 57,
 "star": true,
 "estimate": false
@@ -407233,7 +407239,7 @@
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 79,
+"chance": 80,
 "normal": 72,
 "star": false,
 "estimate": false
@@ -407242,11 +407248,13 @@
 "key": "home_sot",
 "market": "Home shots on target",
 "label": "West Ham shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 3.5",
+"side": "over",
+"line": 3.5,
+"chance": 81,
+"normal": 66,
+"star": true,
+"estimate": false
 },
 {
 "key": "away_sot",
@@ -407255,9 +407263,9 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 82,
+"chance": 75,
 "normal": 67,
-"star": true,
+"star": false,
 "estimate": false
 },
 {
@@ -407314,9 +407322,9 @@
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "West Ham goal kicks",
-"pick": "Under 7.5",
+"pick": "Under 8.5",
 "side": "under",
-"line": 7.5,
+"line": 8.5,
 "star": false,
 "estimate": true
 },
@@ -407324,9 +407332,9 @@
 "key": "away_gk",
 "market": "Away goal kicks",
 "label": "Stoke goal kicks",
-"pick": "Over 7.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 7.5,
+"line": 6.5,
 "star": false,
 "estimate": true
 },
@@ -407449,13 +407457,25 @@
 "star": false
 },
 {
+"key": "away_sot",
+"market": "Higher price: Away shots on target",
+"label": "Stoke shots on target",
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 66,
+"min_odds": 1.55,
+"value": true,
+"star": false
+},
+{
 "key": "away_cards",
 "market": "Higher price: Away bookings",
 "label": "Stoke bookings",
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 59,
+"chance": 60,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -407467,7 +407487,7 @@
 "pick": "Under 11.5",
 "side": "under",
 "line": 11.5,
-"chance": 61,
+"chance": 62,
 "min_odds": 1.65,
 "value": true,
 "star": false
@@ -407542,7 +407562,7 @@
 "line": null,
 "player": "Max Kilman",
 "team": "home",
-"chance": 18,
+"chance": 17,
 "confirmed": false,
 "star": false
 },
@@ -407583,7 +407603,7 @@
 "player": "Joël Veltman",
 "team": "home",
 "stat": "fwon",
-"chance": 59,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -407597,7 +407617,7 @@
 "player": "Djibril Soumaré",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 61,
 "confirmed": false,
 "star": false
 },
@@ -407611,7 +407631,35 @@
 "player": "Arne Engels",
 "team": "home",
 "stat": "fwon",
-"chance": 56,
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Justin Devenny (Stoke): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Justin Devenny",
+"team": "away",
+"stat": "fwon",
+"chance": 54,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Konstantinos Mavropanos (West Ham): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Konstantinos Mavropanos",
+"team": "home",
+"stat": "fwon",
+"chance": 53,
 "confirmed": false,
 "star": false
 },
@@ -407619,17 +407667,29 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Total shots on target: Over 6.5 + Stoke offsides: Under 2.5 + Stoke tackles: Under 18.5 + Stoke corners: Over 3.5",
+"pick": "Match result: West Ham or draw (80%) + Total shots on target: Over 6.5 + Stoke offsides: Under 2.5 + Stoke tackles: Under 18.5",
 "side": null,
 "line": null,
 "legs": [
+{
+"key": "result",
+"label": "Match result",
+"pick": "West Ham or draw (80%)",
+"side": "HD",
+"line": null,
+"chance": 80,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
 {
 "key": "total_sot",
 "label": "Total shots on target",
 "pick": "Over 6.5",
 "side": "over",
 "line": 6.5,
-"chance": 79,
+"chance": 80,
 "player": null,
 "team": null,
 "stat": null,
@@ -407658,99 +407718,87 @@
 "team": null,
 "stat": null,
 "value": null
-},
-{
-"key": "away_corners",
-"label": "Stoke corners",
-"pick": "Over 3.5",
-"side": "over",
-"line": 3.5,
-"chance": 63,
-"player": null,
-"team": null,
-"stat": null,
-"value": true
 }
 ],
-"chance": 37,
+"chance": 40,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-2.05,
-1.13
+1.94,
+1.04
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 28.15,
+"expected": 28.34,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 9.03,
+"expected": 9.17,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 6.12,
+"expected": 5.86,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 2.91,
+"expected": 3.31,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 2.04,
+"expected": 1.86,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 1.94,
+"expected": 1.98,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.98,
+"expected": 3.87,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 10.36,
+"expected": 10.27,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.37,
+"expected": 11.26,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 5.83,
+"expected": 6.3,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 9.66,
+"expected": 9.36,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.18,
+"expected": 2.97,
 "phi": 1.0,
 "estimate": false
 },
@@ -407810,61 +407858,61 @@
 },
 {
 "key": "free_kicks",
-"expected": 24.57,
+"expected": 24.37,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Airidas Golambeckis": 0.1506,
-"Arne Engels": 0.1883,
-"Divine Mukasa": 0.1663,
-"Edson Álvarez": 0.1532,
-"Edvin Austbø": 0.1223,
-"Ezra Mayers": 0.1953,
-"Finlay Herrick": 0.1532,
-"Jarrod Bowen": 0.0883,
-"Joël Piroe": 0.1413,
-"Joël Veltman": 0.1837,
-"Konstantinos Mavropanos": 0.1942,
-"Kyle Walker-Peters": 0.1503,
-"Lewis Orford": 0.1408,
-"Mads Hermansen": 0.1261,
-"Manor Solomon": 0.1284,
-"Max Kilman": 0.2588,
-"Mohamadou Kanté": 0.1774,
-"Morato": 0.1909,
-"Oliver Scarles": 0.2175,
-"Pablo": 0.2116,
-"Soungoutou Magassa": 0.2118,
-"Tomás Soucek": 0.1408,
-"Valentín Castellanos": 0.2597,
-"": 0.1699
+"Airidas Golambeckis": 0.1374,
+"Arne Engels": 0.1717,
+"Divine Mukasa": 0.1516,
+"Edson Álvarez": 0.1397,
+"Edvin Austbø": 0.1115,
+"Ezra Mayers": 0.1781,
+"Finlay Herrick": 0.1397,
+"Jarrod Bowen": 0.0805,
+"Joël Piroe": 0.1288,
+"Joël Veltman": 0.1675,
+"Konstantinos Mavropanos": 0.1771,
+"Kyle Walker-Peters": 0.137,
+"Lewis Orford": 0.1284,
+"Mads Hermansen": 0.1149,
+"Manor Solomon": 0.1171,
+"Max Kilman": 0.236,
+"Mohamadou Kanté": 0.1618,
+"Morato": 0.174,
+"Oliver Scarles": 0.1983,
+"Pablo": 0.193,
+"Soungoutou Magassa": 0.1931,
+"Tomás Soucek": 0.1284,
+"Valentín Castellanos": 0.2368,
+"": 0.1549
 },
 "away": {
-"Aaron Cresswell": 0.1457,
-"Bae Jun-Ho": 0.1453,
-"Ben Johnson": 0.0794,
-"Ben Wilmot": 0.1038,
-"Bosun Lawal": 0.1963,
-"Djibril Soumaré": 0.1679,
-"Eric Bocat": 0.1267,
-"Ethan Galbraith": 0.2673,
-"George Hirst": 0.1641,
-"Jack McGlynn": 0.1224,
-"Junior Tchamadeu": 0.2071,
-"Justin Devenny": 0.1224,
-"Luca Bombino": 0.182,
-"Luke Graham": 0.2011,
-"Maksym Taloverov": 0.2293,
-"Million Manhoef": 0.1117,
-"Róbert Bozeník": 0.1842,
-"Sam Gallagher": 0.1984,
-"Svante Ingelsson": 0.1756,
-"Tomás Rigo": 0.1336,
-"Viktor Johansson": 0.1038,
-"": 0.1485
+"Aaron Cresswell": 0.1487,
+"Bae Jun-Ho": 0.1483,
+"Ben Johnson": 0.0811,
+"Ben Wilmot": 0.106,
+"Bosun Lawal": 0.2004,
+"Djibril Soumaré": 0.1713,
+"Eric Bocat": 0.1293,
+"Ethan Galbraith": 0.2728,
+"George Hirst": 0.1674,
+"Jack McGlynn": 0.125,
+"Junior Tchamadeu": 0.2113,
+"Justin Devenny": 0.125,
+"Luca Bombino": 0.1857,
+"Luke Graham": 0.2052,
+"Maksym Taloverov": 0.2341,
+"Million Manhoef": 0.114,
+"Róbert Bozeník": 0.188,
+"Sam Gallagher": 0.2025,
+"Svante Ingelsson": 0.1793,
+"Tomás Rigo": 0.1363,
+"Viktor Johansson": 0.106,
+"": 0.1515
 }
 },
 "fh": {
@@ -412948,9 +412996,9 @@
 "key": "result",
 "market": "Match result",
 "label": "Match result",
-"pick": "Ath Bilbao or draw (79%)",
+"pick": "Ath Bilbao or draw (80%)",
 "side": "AD",
-"chance": 79,
+"chance": 80,
 "line": null,
 "star": false
 },
@@ -412993,7 +413041,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 72,
+"chance": 73,
 "normal": 51,
 "star": true,
 "estimate": false
@@ -413197,7 +413245,7 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 75,
+"chance": 76,
 "min_odds": 1.35,
 "value": true,
 "star": false
@@ -413389,16 +413437,16 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Ath Bilbao fouls: Under 14.5 + Match result: Ath Bilbao or draw (79%) + Total shots: Under 29.5 + Total bookings: Under 5.5",
+"pick": "Match result: Ath Bilbao or draw (80%) + Ath Bilbao fouls: Under 14.5 + Total shots: Under 29.5 + Total bookings: Under 5.5",
 "side": null,
 "line": null,
 "legs": [
 {
-"key": "away_fouls",
-"label": "Ath Bilbao fouls",
-"pick": "Under 14.5",
-"side": "under",
-"line": 14.5,
+"key": "result",
+"label": "Match result",
+"pick": "Ath Bilbao or draw (80%)",
+"side": "AD",
+"line": null,
 "chance": 80,
 "player": null,
 "team": null,
@@ -413406,12 +413454,12 @@
 "value": null
 },
 {
-"key": "result",
-"label": "Match result",
-"pick": "Ath Bilbao or draw (79%)",
-"side": "AD",
-"line": null,
-"chance": 79,
+"key": "away_fouls",
+"label": "Ath Bilbao fouls",
+"pick": "Under 14.5",
+"side": "under",
+"line": 14.5,
+"chance": 80,
 "player": null,
 "team": null,
 "stat": null,
@@ -413448,31 +413496,31 @@
 ],
 "pre": {
 "goals_exp": [
-1.0,
-1.74
+0.99,
+1.77
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 25.54,
+"expected": 25.59,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.56,
+"expected": 8.6,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 3.52,
+"expected": 3.5,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 5.0,
+"expected": 5.07,
 "phi": 1.1,
 "estimate": false
 },
@@ -413484,43 +413532,43 @@
 },
 {
 "key": "away_cards",
-"expected": 2.12,
+"expected": 2.11,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 4.11,
+"expected": 4.09,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 11.26,
+"expected": 11.25,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.71,
+"expected": 11.67,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 8.82,
+"expected": 8.9,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 5.74,
+"expected": 5.72,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.74,
+"expected": 2.77,
 "phi": 1.0,
 "estimate": false
 },
@@ -413580,7 +413628,7 @@
 },
 {
 "key": "free_kicks",
-"expected": 26.7,
+"expected": 26.65,
 "phi": 1.05,
 "estimate": false
 }
@@ -413615,29 +413663,29 @@
 "": 0.1458
 },
 "away": {
-"Aitor Paredes": 0.1294,
-"Alejandro Rego": 0.1575,
-"Aymeric Laporte": 0.1859,
-"Beñat Gerenabarrena": 0.2955,
-"Beñat Prados": 0.1525,
-"Christian Imga": 0.1663,
-"Dani Vivian": 0.1457,
-"Hugo Rincón": 0.1639,
-"Iñaki Williams": 0.1795,
-"Iñigo Ruiz de Galarreta": 0.2955,
-"Jesús Vizcay Hurtado": 0.1633,
-"Johaneko Louis Jean": 0.175,
-"Maroan Sannadi": 0.1368,
-"Mikel Jauregizar": 0.1368,
-"Nico Williams": 0.1136,
-"Oihan Sancet": 0.1617,
-"Peio Canales": 0.1179,
-"Robert Navarro": 0.1595,
-"Unai Simón": 0.1026,
-"Yeray": 0.1682,
-"Yuri Berchiche": 0.2734,
-"Álex Berenguer": 0.1516,
-"": 0.1695
+"Aitor Paredes": 0.1288,
+"Alejandro Rego": 0.1568,
+"Aymeric Laporte": 0.1851,
+"Beñat Gerenabarrena": 0.2941,
+"Beñat Prados": 0.1518,
+"Christian Imga": 0.1655,
+"Dani Vivian": 0.145,
+"Hugo Rincón": 0.1631,
+"Iñaki Williams": 0.1786,
+"Iñigo Ruiz de Galarreta": 0.2941,
+"Jesús Vizcay Hurtado": 0.1625,
+"Johaneko Louis Jean": 0.1742,
+"Maroan Sannadi": 0.1361,
+"Mikel Jauregizar": 0.1361,
+"Nico Williams": 0.1131,
+"Oihan Sancet": 0.1609,
+"Peio Canales": 0.1173,
+"Robert Navarro": 0.1587,
+"Unai Simón": 0.1021,
+"Yeray": 0.1674,
+"Yuri Berchiche": 0.2721,
+"Álex Berenguer": 0.1509,
+"": 0.1687
 }
 },
 "fh": {
@@ -414667,8 +414715,8 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 62,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -414679,7 +414727,7 @@
 "pick": "Over 1.5",
 "side": "over",
 "line": 1.5,
-"chance": 69,
+"chance": 70,
 "min_odds": 1.45,
 "value": true,
 "star": false
@@ -414906,8 +414954,8 @@
 ],
 "pre": {
 "goals_exp": [
-1.43,
-1.3
+1.41,
+1.32
 ],
 "markets": [
 {
@@ -414924,55 +414972,55 @@
 },
 {
 "key": "home_sot",
-"expected": 4.59,
+"expected": 4.55,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.14,
+"expected": 4.18,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 2.0,
+"expected": 2.01,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 2.29,
+"expected": 2.3,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 4.35,
+"expected": 4.37,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 12.49,
+"expected": 12.51,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 13.37,
+"expected": 13.39,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 6.85,
+"expected": 6.89,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 8.6,
+"expected": 8.55,
 "phi": 1.1,
 "estimate": true
 },
@@ -415038,61 +415086,61 @@
 },
 {
 "key": "free_kicks",
-"expected": 28.12,
+"expected": 28.16,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Alessandro Bellemo": 0.1579,
-"Alessandro Pietrelli": 0.1076,
-"Andrea Papetti": 0.1486,
-"Armand Rada": 0.1221,
-"Claudio Morra": 0.1729,
-"Filippo Alessio": 0.1341,
-"Filippo Costa": 0.1242,
-"Gabriele Moncini": 0.1324,
-"Giulio Pellizzari": 0.1309,
-"Giuseppe Cuomo": 0.1665,
-"Lorenzo Caferri": 0.1482,
-"Loris Zonta": 0.1659,
-"Marco Carraro": 0.1327,
-"Matteo Vescovi": 0.1221,
-"Mattia Valoti": 0.1981,
-"Niccolò Brighenti": 0.2183,
-"Nicola Rauti": 0.1338,
-"Raul Talarico": 0.1713,
-"Riccardo Gagno": 0.0793,
-"Riccardo Marchizza": 0.1228,
-"Silvio Merkaj": 0.1197,
-"Thomas Sandon": 0.14,
-"Tommaso Corazza": 0.1639,
-"": 0.1353
+"Alessandro Bellemo": 0.1587,
+"Alessandro Pietrelli": 0.1081,
+"Andrea Papetti": 0.1493,
+"Armand Rada": 0.1227,
+"Claudio Morra": 0.1737,
+"Filippo Alessio": 0.1347,
+"Filippo Costa": 0.1248,
+"Gabriele Moncini": 0.1331,
+"Giulio Pellizzari": 0.1315,
+"Giuseppe Cuomo": 0.1674,
+"Lorenzo Caferri": 0.1489,
+"Loris Zonta": 0.1667,
+"Marco Carraro": 0.1334,
+"Matteo Vescovi": 0.1227,
+"Mattia Valoti": 0.1991,
+"Niccolò Brighenti": 0.2194,
+"Nicola Rauti": 0.1345,
+"Raul Talarico": 0.1722,
+"Riccardo Gagno": 0.0797,
+"Riccardo Marchizza": 0.1234,
+"Silvio Merkaj": 0.1203,
+"Thomas Sandon": 0.1407,
+"Tommaso Corazza": 0.1647,
+"": 0.136
 },
 "away": {
-"Alessandro Debenedetti": 0.1952,
-"Alessandro Siano": 0.1351,
-"Andrea Ciofi": 0.1023,
-"Antonio David": 0.2063,
-"Antonio Fiori": 0.1943,
-"Cristian Shpendi": 0.2475,
-"Dimitri Bisoli": 0.146,
-"Emil Bohinen": 0.1769,
-"Gianluca Frabotta": 0.2286,
-"Jacopo Gelli": 0.1852,
-"Luca D'Andrea": 0.21,
-"Maat Caprini": 0.1491,
-"Marco Dalla Vecchia": 0.1342,
-"Massimiliano Mangraviti": 0.1943,
-"Matteo Francesconi": 0.2352,
-"Matteo Guidi": 0.1584,
-"Matteo Piacentini": 0.1593,
-"Mihajlo Ilic": 0.2236,
-"Riccardo Pagano": 0.177,
-"Vittorio Magni": 0.2165,
-"Xavello Djave Lyam Druiventak": 0.1132,
-"": 0.171
+"Alessandro Debenedetti": 0.196,
+"Alessandro Siano": 0.1357,
+"Andrea Ciofi": 0.1028,
+"Antonio David": 0.2072,
+"Antonio Fiori": 0.1951,
+"Cristian Shpendi": 0.2485,
+"Dimitri Bisoli": 0.1466,
+"Emil Bohinen": 0.1777,
+"Gianluca Frabotta": 0.2296,
+"Jacopo Gelli": 0.186,
+"Luca D'Andrea": 0.2109,
+"Maat Caprini": 0.1497,
+"Marco Dalla Vecchia": 0.1347,
+"Massimiliano Mangraviti": 0.1951,
+"Matteo Francesconi": 0.2363,
+"Matteo Guidi": 0.1591,
+"Matteo Piacentini": 0.16,
+"Mihajlo Ilic": 0.2246,
+"Riccardo Pagano": 0.1778,
+"Vittorio Magni": 0.2174,
+"Xavello Djave Lyam Druiventak": 0.1137,
+"": 0.1717
 }
 },
 "fh": {
@@ -416641,7 +416689,7 @@
 "pick": "Over 23.5",
 "side": "over",
 "line": 23.5,
-"chance": 73,
+"chance": 74,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -416879,7 +416927,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 73,
+"chance": 74,
 "min_odds": 1.4,
 "value": true,
 "star": false
@@ -416892,7 +416940,7 @@
 "side": "under",
 "line": 2.5,
 "chance": 69,
-"min_odds": 1.5,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -417051,7 +417099,7 @@
 "player": "Federico Redondo",
 "team": "home",
 "stat": "fwon",
-"chance": 54,
+"chance": 55,
 "confirmed": false,
 "star": false
 },
@@ -417106,31 +417154,31 @@
 ],
 "pre": {
 "goals_exp": [
-1.01,
-2.19
+1.0,
+2.2
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 26.94,
+"expected": 26.95,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 9.41,
+"expected": 9.42,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 3.43,
+"expected": 3.41,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 6.04,
+"expected": 6.06,
 "phi": 1.1,
 "estimate": false
 },
@@ -417142,43 +417190,43 @@
 },
 {
 "key": "away_cards",
-"expected": 1.97,
+"expected": 1.96,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 3.94,
+"expected": 3.93,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 11.09,
+"expected": 11.08,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 11.78,
+"expected": 11.75,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 8.68,
+"expected": 8.7,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 6.5,
+"expected": 6.47,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.2,
+"expected": 3.21,
 "phi": 1.0,
 "estimate": false
 },
@@ -417238,7 +417286,7 @@
 },
 {
 "key": "free_kicks",
-"expected": 27.66,
+"expected": 27.62,
 "phi": 1.05,
 "estimate": false
 }
@@ -417269,25 +417317,25 @@
 "": 0.1242
 },
 "away": {
-"Ademola Lookman": 0.1855,
-"Alejandro Grimaldo": 0.0937,
-"Alexander Sørloth": 0.1929,
-"Dávid Hancko": 0.1226,
-"Giuliano Simeone": 0.1612,
-"Jan Oblak": 0.0878,
-"Johnny Cardoso": 0.2574,
-"Jonathan David": 0.1236,
-"Julián Álvarez": 0.1096,
-"Koke": 0.1135,
-"Lee Kang-In": 0.1662,
-"Marc Pubill": 0.2955,
-"Marcos Llorente": 0.158,
-"Morten Hjulmand": 0.2318,
-"Pablo Barrios": 0.0996,
-"Robin Le Normand": 0.2902,
-"Rodrigo Mendoza": 0.1929,
-"Álex Baena": 0.2323,
-"": 0.1737
+"Ademola Lookman": 0.1846,
+"Alejandro Grimaldo": 0.0933,
+"Alexander Sørloth": 0.1919,
+"Dávid Hancko": 0.1219,
+"Giuliano Simeone": 0.1603,
+"Jan Oblak": 0.0874,
+"Johnny Cardoso": 0.2561,
+"Jonathan David": 0.123,
+"Julián Álvarez": 0.1091,
+"Koke": 0.113,
+"Lee Kang-In": 0.1654,
+"Marc Pubill": 0.294,
+"Marcos Llorente": 0.1572,
+"Morten Hjulmand": 0.2306,
+"Pablo Barrios": 0.0991,
+"Robin Le Normand": 0.2888,
+"Rodrigo Mendoza": 0.1919,
+"Álex Baena": 0.2311,
+"": 0.1728
 }
 },
 "fh": {
@@ -420267,7 +420315,7 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 74,
+"chance": 75,
 "normal": 67,
 "star": false,
 "estimate": false
@@ -420600,31 +420648,31 @@
 ],
 "pre": {
 "goals_exp": [
-1.05,
-1.48
+1.04,
+1.47
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 24.6,
+"expected": 24.57,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.3,
+"expected": 8.27,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 3.68,
+"expected": 3.67,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.52,
+"expected": 4.5,
 "phi": 1.1,
 "estimate": false
 },
@@ -420648,7 +420696,7 @@
 },
 {
 "key": "home_fouls",
-"expected": 14.28,
+"expected": 14.29,
 "phi": 1.0,
 "estimate": false
 },
@@ -420660,19 +420708,19 @@
 },
 {
 "key": "home_gk",
-"expected": 6.43,
+"expected": 6.42,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 6.71,
+"expected": 6.69,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.53,
+"expected": 2.51,
 "phi": 1.0,
 "estimate": false
 },
@@ -420732,7 +420780,7 @@
 },
 {
 "key": "free_kicks",
-"expected": 29.42,
+"expected": 29.43,
 "phi": 1.05,
 "estimate": false
 }
@@ -422303,7 +422351,7 @@
 "pick": "Over 25.5",
 "side": "over",
 "line": 25.5,
-"chance": 74,
+"chance": 72,
 "normal": 48,
 "star": true,
 "estimate": false
@@ -422312,12 +422360,12 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "Over 7.5",
+"pick": "Over 6.5",
 "side": "over",
-"line": 7.5,
-"chance": 75,
-"normal": 61,
-"star": true,
+"line": 6.5,
+"chance": 82,
+"normal": 72,
+"star": false,
 "estimate": false
 },
 {
@@ -422327,7 +422375,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 78,
+"chance": 76,
 "normal": 49,
 "star": true,
 "estimate": false
@@ -422339,7 +422387,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 81,
+"chance": 83,
 "normal": 61,
 "star": true,
 "estimate": false
@@ -422373,7 +422421,7 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 74,
+"chance": 75,
 "normal": 68,
 "star": false,
 "estimate": false
@@ -422424,13 +422472,11 @@
 "key": "total_goals",
 "market": "Total goals",
 "label": "Total goals",
-"pick": "Over 1.5",
-"side": "over",
-"line": 1.5,
-"chance": 83,
-"normal": 76,
-"star": false,
-"estimate": false
+"pick": "No tip",
+"side": null,
+"line": null,
+"skip": true,
+"star": false
 },
 {
 "key": "total_offsides",
@@ -422545,8 +422591,8 @@
 "pick": "Under 3.5",
 "side": "under",
 "line": 3.5,
-"chance": 67,
-"min_odds": 1.5,
+"chance": 71,
+"min_odds": 1.45,
 "value": true,
 "star": false
 },
@@ -422557,7 +422603,7 @@
 "pick": "Over 10.5",
 "side": "over",
 "line": 10.5,
-"chance": 60,
+"chance": 61,
 "min_odds": 1.7,
 "value": true,
 "star": false
@@ -422629,6 +422675,20 @@
 "key": "pl_sot",
 "market": "Player shots on target",
 "label": "Player shots on target",
+"pick": "Marcus Thuram (Inter): 1+ shot on target",
+"side": "over",
+"line": 1,
+"player": "Marcus Thuram",
+"team": "home",
+"stat": "sot",
+"chance": 62,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_sot",
+"market": "Player shots on target",
+"label": "Player shots on target",
 "pick": "Pio Esposito (Inter): 1+ shot on target",
 "side": "over",
 "line": 1,
@@ -422643,27 +422703,13 @@
 "key": "pl_fwon",
 "market": "Player fouls won",
 "label": "Player fouls won",
-"pick": "Milutin Osmajic (Genoa): 1+ foul won",
-"side": "over",
-"line": 1,
-"player": "Milutin Osmajic",
-"team": "away",
-"stat": "fwon",
-"chance": 60,
-"confirmed": false,
-"star": false
-},
-{
-"key": "pl_fwon",
-"market": "Player fouls won",
-"label": "Player fouls won",
 "pick": "Mikael Ellertsson (Genoa): 1+ foul won",
 "side": "over",
 "line": 1,
 "player": "Mikael Ellertsson",
 "team": "away",
 "stat": "fwon",
-"chance": 58,
+"chance": 60,
 "confirmed": false,
 "star": false
 },
@@ -422677,7 +422723,35 @@
 "player": "Djed Spence",
 "team": "home",
 "stat": "fwon",
-"chance": 56,
+"chance": 59,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_fwon",
+"market": "Player fouls won",
+"label": "Player fouls won",
+"pick": "Nicolò Barella (Inter): 1+ foul won",
+"side": "over",
+"line": 1,
+"player": "Nicolò Barella",
+"team": "home",
+"stat": "fwon",
+"chance": 52,
+"confirmed": false,
+"star": false
+},
+{
+"key": "pl_shots",
+"market": "Player shots",
+"label": "Player shots",
+"pick": "Milutin Osmajic (Genoa): 2+ shots",
+"side": "over",
+"line": 2,
+"player": "Milutin Osmajic",
+"team": "away",
+"stat": "shots",
+"chance": 52,
 "confirmed": false,
 "star": false
 },
@@ -422707,7 +422781,7 @@
 "pick": "Over 4.5",
 "side": "over",
 "line": 4.5,
-"chance": 78,
+"chance": 76,
 "player": null,
 "team": null,
 "stat": null,
@@ -422726,49 +422800,49 @@
 "value": null
 }
 ],
-"chance": 43,
+"chance": 42,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-2.42,
-0.88
+2.3,
+0.8
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 29.17,
+"expected": 28.86,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 9.73,
+"expected": 9.41,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 6.79,
+"expected": 6.55,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 3.01,
+"expected": 2.84,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.5,
+"expected": 1.53,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 1.75,
+"expected": 1.78,
 "phi": 0.85,
 "estimate": false
 },
@@ -422780,31 +422854,31 @@
 },
 {
 "key": "home_fouls",
-"expected": 11.92,
+"expected": 11.95,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 9.59,
+"expected": 9.65,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 5.98,
+"expected": 5.79,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 10.47,
+"expected": 10.18,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 3.3,
+"expected": 3.1,
 "phi": 1.0,
 "estimate": false
 },
@@ -422864,58 +422938,58 @@
 },
 {
 "key": "free_kicks",
-"expected": 26.21,
+"expected": 26.3,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Aleksandar Stankovic": 0.1277,
-"Alessandro Bastoni": 0.1734,
-"Andy Diouf": 0.0937,
-"Ange-Yoan Bonny": 0.1135,
-"Benjamin Pavard": 0.119,
-"Carlos Augusto": 0.1912,
-"Curtis Jones": 0.126,
-"Djed Spence": 0.1097,
-"Federico Dimarco": 0.0878,
-"Hakan Çalhanoglu": 0.2269,
-"Henrikh Mkhitaryan": 0.1482,
-"Josep Martínez": 0.0836,
-"Lautaro Martínez": 0.2314,
-"Manuel Akanji": 0.2492,
-"Marcus Thuram": 0.1751,
-"Nicolò Barella": 0.1409,
-"Petar Sucic": 0.129,
-"Pio Esposito": 0.1549,
-"Piotr Zielinski": 0.0957,
-"Yann Bisseck": 0.121,
-"": 0.1517
+"Aleksandar Stankovic": 0.1303,
+"Alessandro Bastoni": 0.1769,
+"Andy Diouf": 0.0955,
+"Ange-Yoan Bonny": 0.1157,
+"Benjamin Pavard": 0.1214,
+"Carlos Augusto": 0.195,
+"Curtis Jones": 0.1285,
+"Djed Spence": 0.1119,
+"Federico Dimarco": 0.0895,
+"Hakan Çalhanoglu": 0.2315,
+"Henrikh Mkhitaryan": 0.1511,
+"Josep Martínez": 0.0852,
+"Lautaro Martínez": 0.236,
+"Manuel Akanji": 0.2542,
+"Marcus Thuram": 0.1786,
+"Nicolò Barella": 0.1438,
+"Petar Sucic": 0.1316,
+"Pio Esposito": 0.158,
+"Piotr Zielinski": 0.0977,
+"Yann Bisseck": 0.1234,
+"": 0.1547
 },
 "away": {
-"Alessandro Marcandalli": 0.1648,
-"Alexsandro Amorim": 0.164,
-"David Puczka": 0.1368,
-"Djibril Sow": 0.1618,
-"Ethan Meichtry": 0.132,
-"Hamed Traoré": 0.2037,
-"Johan Vásquez": 0.1989,
-"Junior Messias": 0.1031,
-"Justin Bijlow": 0.092,
-"Kingsley Ehizibue": 0.1922,
-"Leo Østigard": 0.2279,
-"Lorenzo Colombo": 0.1142,
-"Mario Mitaj": 0.1417,
-"Mikael Ellertsson": 0.1575,
-"Milutin Osmajic": 0.0973,
-"Morten Frendrup": 0.0996,
-"Samuel Wiafe": 0.1618,
-"Sebastian Otoa": 0.2234,
-"Stephan El Shaarawy": 0.1193,
-"Tommaso Baldanzi": 0.1087,
-"Vitinha": 0.1525,
-"": 0.1521
+"Alessandro Marcandalli": 0.1676,
+"Alexsandro Amorim": 0.1668,
+"David Puczka": 0.1392,
+"Djibril Sow": 0.1646,
+"Ethan Meichtry": 0.1342,
+"Hamed Traoré": 0.2072,
+"Johan Vásquez": 0.2023,
+"Junior Messias": 0.1048,
+"Justin Bijlow": 0.0936,
+"Kingsley Ehizibue": 0.1955,
+"Leo Østigard": 0.2318,
+"Lorenzo Colombo": 0.1162,
+"Mario Mitaj": 0.1441,
+"Mikael Ellertsson": 0.1602,
+"Milutin Osmajic": 0.099,
+"Morten Frendrup": 0.1013,
+"Samuel Wiafe": 0.1646,
+"Sebastian Otoa": 0.2273,
+"Stephan El Shaarawy": 0.1214,
+"Tommaso Baldanzi": 0.1105,
+"Vitinha": 0.1551,
+"": 0.1547
 }
 },
 "fh": {
@@ -442836,11 +442910,13 @@
 "key": "total_sot",
 "market": "Total shots on target",
 "label": "Total shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 78,
+"normal": 73,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_sot",
@@ -442856,11 +442932,13 @@
 "key": "away_sot",
 "market": "Away shots on target",
 "label": "Avellino shots on target",
-"pick": "No tip",
-"side": null,
-"line": null,
-"skip": true,
-"star": false
+"pick": "Over 2.5",
+"side": "over",
+"line": 2.5,
+"chance": 78,
+"normal": 71,
+"star": false,
+"estimate": false
 },
 {
 "key": "home_cards",
@@ -442899,7 +442977,7 @@
 "pick": "Under 14.5",
 "side": "under",
 "line": 14.5,
-"chance": 74,
+"chance": 73,
 "normal": 56,
 "star": true,
 "estimate": false
@@ -442918,9 +442996,9 @@
 "key": "home_gk",
 "market": "Home goal kicks",
 "label": "Catanzaro goal kicks",
-"pick": "Under 8.5",
-"side": "under",
-"line": 8.5,
+"pick": "Over 4.5",
+"side": "over",
+"line": 4.5,
 "star": false,
 "estimate": true
 },
@@ -442928,9 +443006,9 @@
 "key": "away_gk",
 "market": "Away goal kicks",
 "label": "Avellino goal kicks",
-"pick": "Over 6.5",
+"pick": "Over 5.5",
 "side": "over",
-"line": 6.5,
+"line": 5.5,
 "star": false,
 "estimate": true
 },
@@ -443058,7 +443136,7 @@
 "side": "under",
 "line": 30.5,
 "chance": 59,
-"min_odds": 1.75,
+"min_odds": 1.7,
 "value": true,
 "star": false
 },
@@ -443069,8 +443147,8 @@
 "pick": "Under 4.5",
 "side": "under",
 "line": 4.5,
-"chance": 65,
-"min_odds": 1.55,
+"chance": 61,
+"min_odds": 1.65,
 "value": true,
 "star": false
 },
@@ -443093,8 +443171,8 @@
 "pick": "Over 3.5",
 "side": "over",
 "line": 3.5,
-"chance": 63,
-"min_odds": 1.6,
+"chance": 66,
+"min_odds": 1.55,
 "value": true,
 "star": false
 },
@@ -443191,10 +443269,22 @@
 "key": "bet_builder",
 "market": "Bet builder",
 "label": "Bet builder",
-"pick": "Avellino offsides: Under 1.5 + Total shots: Over 24.5 + Catanzaro fouls: Under 14.5",
+"pick": "Total shots on target: Over 6.5 + Avellino offsides: Under 1.5 + Avellino bookings: Over 1.5 + Avellino tackles: Over 12.5",
 "side": null,
 "line": null,
 "legs": [
+{
+"key": "total_sot",
+"label": "Total shots on target",
+"pick": "Over 6.5",
+"side": "over",
+"line": 6.5,
+"chance": 78,
+"player": null,
+"team": null,
+"stat": null,
+"value": null
+},
 {
 "key": "away_offsides",
 "label": "Avellino offsides",
@@ -443208,109 +443298,109 @@
 "value": null
 },
 {
-"key": "total_shots",
-"label": "Total shots",
-"pick": "Over 24.5",
+"key": "away_cards",
+"label": "Avellino bookings",
+"pick": "Over 1.5",
 "side": "over",
-"line": 24.5,
+"line": 1.5,
 "chance": 74,
 "player": null,
 "team": null,
 "stat": null,
-"value": null
+"value": true
 },
 {
-"key": "home_fouls",
-"label": "Catanzaro fouls",
-"pick": "Under 14.5",
-"side": "under",
-"line": 14.5,
-"chance": 74,
+"key": "away_tackles",
+"label": "Avellino tackles",
+"pick": "Over 12.5",
+"side": "over",
+"line": 12.5,
+"chance": 73,
 "player": null,
 "team": null,
 "stat": null,
 "value": null
 }
 ],
-"chance": 40,
+"chance": 36,
 "star": false
 }
 ],
 "pre": {
 "goals_exp": [
-1.48,
-1.39
+1.44,
+1.41
 ],
 "markets": [
 {
 "key": "total_shots",
-"expected": 28.12,
+"expected": 28.08,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "total_sot",
-"expected": 8.95,
+"expected": 8.96,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_sot",
-"expected": 4.92,
+"expected": 4.77,
 "phi": 1.15,
 "estimate": false
 },
 {
 "key": "away_sot",
-"expected": 4.03,
+"expected": 4.25,
 "phi": 1.1,
 "estimate": false
 },
 {
 "key": "home_cards",
-"expected": 1.91,
+"expected": 2.0,
 "phi": 0.9,
 "estimate": false
 },
 {
 "key": "away_cards",
-"expected": 2.47,
+"expected": 2.48,
 "phi": 0.85,
 "estimate": false
 },
 {
 "key": "total_cards",
-"expected": 4.38,
+"expected": 4.58,
 "phi": 0.95,
 "estimate": false
 },
 {
 "key": "home_fouls",
-"expected": 12.42,
+"expected": 12.44,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "away_fouls",
-"expected": 14.69,
+"expected": 14.71,
 "phi": 1.0,
 "estimate": false
 },
 {
 "key": "home_gk",
-"expected": 7.01,
+"expected": 7.26,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "away_gk",
-"expected": 8.49,
+"expected": 8.31,
 "phi": 1.1,
 "estimate": true
 },
 {
 "key": "total_goals",
-"expected": 2.88,
+"expected": 2.85,
 "phi": 1.0,
 "estimate": false
 },
@@ -443370,58 +443460,58 @@
 },
 {
 "key": "free_kicks",
-"expected": 29.16,
+"expected": 29.2,
 "phi": 1.05,
 "estimate": false
 }
 ],
 "squad": {
 "home": {
-"Antonio Candela": 0.1932,
-"Emanuele Pecorino": 0.1495,
-"Emile Dorval": 0.0934,
-"Federico Di Francesco": 0.1609,
-"Franck Tchaouna": 0.1283,
-"Franky Tchaouna": 0.1358,
-"Gabriel Arditi": 0.1806,
-"Gabriele Alesi": 0.1907,
-"Jacopo Petriccione": 0.18,
-"Marco D'Alessandro": 0.1204,
-"Marco Imperiale": 0.1602,
-"Marco Ruggero": 0.1582,
-"Matias Antonini Lui": 0.2064,
-"Mirko Pigliacelli": 0.0836,
-"N'Dri Koffi": 0.162,
-"Nicola Mosti": 0.162,
-"Nicoló Buso": 0.1325,
-"Pietro Iemmello": 0.1459,
-"Ruggero Frosinini": 0.1454,
-"Samuel Giovane": 0.1518,
-"Simone Pafundi": 0.1119,
-"": 0.1426
+"Antonio Candela": 0.2023,
+"Emanuele Pecorino": 0.1565,
+"Emile Dorval": 0.0978,
+"Federico Di Francesco": 0.1685,
+"Franck Tchaouna": 0.1344,
+"Franky Tchaouna": 0.1421,
+"Gabriel Arditi": 0.1891,
+"Gabriele Alesi": 0.1996,
+"Jacopo Petriccione": 0.1885,
+"Marco D'Alessandro": 0.126,
+"Marco Imperiale": 0.1678,
+"Marco Ruggero": 0.1656,
+"Matias Antonini Lui": 0.2161,
+"Mirko Pigliacelli": 0.0875,
+"N'Dri Koffi": 0.1697,
+"Nicola Mosti": 0.1697,
+"Nicoló Buso": 0.1388,
+"Pietro Iemmello": 0.1528,
+"Ruggero Frosinini": 0.1523,
+"Samuel Giovane": 0.1589,
+"Simone Pafundi": 0.1172,
+"": 0.1493
 },
 "away": {
-"Andrea Favilli": 0.2403,
-"Armando Izzo": 0.228,
-"Brando Moruzzi": 0.1798,
-"Dimitris Sounas": 0.1715,
-"Emanuele Adamo": 0.2147,
-"Filippo Missori": 0.1926,
-"Giacomo Faticanti": 0.2682,
-"Luca Di Maggio": 0.2737,
-"Luca Palmiero": 0.2704,
-"Luca Pandolfi": 0.1822,
-"Marco Sala": 0.1971,
-"Martin Palumbo": 0.2331,
-"Michael Venturi": 0.3058,
-"Michele Besaggio": 0.3299,
-"Patrick Enrici": 0.1819,
-"Raffaele Russo": 0.1362,
-"Tomasso Martinelli": 0.176,
-"Tommaso Biasci": 0.1694,
-"Tommaso Cancellotti": 0.2371,
-"Walid Cheddira": 0.153,
-"": 0.2229
+"Andrea Favilli": 0.2413,
+"Armando Izzo": 0.2289,
+"Brando Moruzzi": 0.1806,
+"Dimitris Sounas": 0.1722,
+"Emanuele Adamo": 0.2155,
+"Filippo Missori": 0.1934,
+"Giacomo Faticanti": 0.2693,
+"Luca Di Maggio": 0.2748,
+"Luca Palmiero": 0.2715,
+"Luca Pandolfi": 0.183,
+"Marco Sala": 0.1979,
+"Martin Palumbo": 0.234,
+"Michael Venturi": 0.3071,
+"Michele Besaggio": 0.3312,
+"Patrick Enrici": 0.1827,
+"Raffaele Russo": 0.1368,
+"Tomasso Martinelli": 0.1768,
+"Tommaso Biasci": 0.1701,
+"Tommaso Cancellotti": 0.2381,
+"Walid Cheddira": 0.1536,
+"": 0.2238
 }
 },
 "fh": {
