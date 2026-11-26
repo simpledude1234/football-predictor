@@ -2,6 +2,27 @@
  "updated": "2026-11-26",
  "days": 120,
  "safe": {
+  "away_fouls": {
+   "n": 459,
+   "landed": 79.7,
+   "said": 79.6,
+   "move": 0.001,
+   "hide": false
+  },
+  "home_offsides": {
+   "n": 73,
+   "landed": 78.1,
+   "said": 78.3,
+   "move": -0.001,
+   "hide": false
+  },
+  "total_tackles": {
+   "n": 161,
+   "landed": 75.2,
+   "said": 77.5,
+   "move": -0.014,
+   "hide": false
+  },
   "result": {
    "n": 96,
    "landed": 78.1,
@@ -30,25 +51,11 @@
    "move": 0.004,
    "hide": false
   },
-  "away_fouls": {
-   "n": 458,
-   "landed": 79.7,
-   "said": 79.6,
-   "move": 0.001,
-   "hide": false
-  },
   "total_corners": {
    "n": 22,
    "landed": 63.6,
    "said": 75.3,
    "move": -0.021,
-   "hide": false
-  },
-  "total_tackles": {
-   "n": 160,
-   "landed": 75.0,
-   "said": 77.5,
-   "move": -0.015,
    "hide": false
   },
   "away_tackles": {
@@ -114,13 +121,6 @@
    "move": -0.022,
    "hide": false
   },
-  "home_offsides": {
-   "n": 72,
-   "landed": 77.8,
-   "said": 78.2,
-   "move": -0.002,
-   "hide": false
-  },
   "home_corners": {
    "n": 91,
    "landed": 71.4,
@@ -158,6 +158,20 @@
   }
  },
  "value": {
+  "home_offsides": {
+   "n": 120,
+   "landed": 68.3,
+   "said": 63.7,
+   "move": 0.025,
+   "hide": false
+  },
+  "home_corners": {
+   "n": 76,
+   "landed": 59.2,
+   "said": 61.4,
+   "move": -0.01,
+   "hide": false
+  },
   "away_offsides": {
    "n": 80,
    "landed": 60.0,
@@ -165,25 +179,11 @@
    "move": -0.015,
    "hide": false
   },
-  "home_offsides": {
-   "n": 119,
-   "landed": 68.1,
-   "said": 63.7,
-   "move": 0.024,
-   "hide": false
-  },
   "away_corners": {
    "n": 51,
    "landed": 56.9,
    "said": 61.3,
    "move": -0.015,
-   "hide": false
-  },
-  "home_corners": {
-   "n": 75,
-   "landed": 60.0,
-   "said": 61.4,
-   "move": -0.006,
    "hide": false
   },
   "total_corners": {
@@ -259,7 +259,7 @@
  },
  "player": {
   "player_booked": {
-   "n": 1516,
+   "n": 1519,
    "landed": 20.5,
    "said": 21.2,
    "move": -0.006,
